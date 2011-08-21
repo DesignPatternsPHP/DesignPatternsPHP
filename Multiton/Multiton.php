@@ -1,0 +1,88 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: dominik
+ * Date: 21.08.11
+ * Time: 15:28
+ * To change this template use File | Settings | File Templates.
+ */
+
+namespace DesignPatterns;
+
+/**
+ * Multiton pattern
+ *
+ * Purpose:
+ * to have only a list of named instances that are used, like a singleton but with n instances
+ *
+ * Examples:
+ * - 2 DB Connectors, e.g. one for MySQL, the other for SQLite
+ * - multiple Loggers (one for debug messages, one for errors)
+ *
+ *
+ */
+class Multiton
+{
+    /**
+     *
+     * the first instance
+     */
+    const INSTANCE_1 = '1';
+
+    /**
+     *
+     * the second instance
+     */
+    const INSTANCE_2 = '2';
+
+    /**
+     * holds the named instances
+     *
+     * @var array
+     */
+    private static $_instances = array();
+
+    /**
+     * should not be called from outside: private!
+     *
+     */
+    private function __construct()
+    {
+
+    }
+
+    /**
+     * gets the instance with the given name, e.g. Multiton::INSTANCE_1
+     * 
+     * @param string $instanceName
+     * @return Multiton
+     */
+    public static function getInstance($instanceName)
+    {
+        if ( ! array_key_exists($instanceName, self::$_instances)) {
+            self::$_instances[$instanceName] = new self();
+        }
+
+        return self::$_instances[$instanceName];
+    }
+
+    /**
+     * prevent instance from being cloned
+     *
+     * @return void
+     */
+    private function __clone()
+    {
+
+    }
+
+    /**
+     * prevent instance from being unserialized
+     *
+     * @return void
+     */
+    private function __wakeup()
+    {
+
+    }
+}
