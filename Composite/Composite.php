@@ -6,11 +6,13 @@ namespace DesignPatterns;
  * composite pattern
  *
  * Purpose:
- * to treat a group of objects the same way as a single instance of the object
+ * to treat a group of objects the same way as a single instance of the object, it establishes 1-to-n relationships
+ * between objects
  *
  * Example:
  * - a form class instance handles all its form elements like a single instance of the form, when render() is called, it
- *      subsequently runs trough all its child elements and calls render() on them
+ *   subsequently runs trough all its child elements and calls render() on them
+ * - a class to process files would process it by running process on all row objects in the file
  *
  */
 class Form
