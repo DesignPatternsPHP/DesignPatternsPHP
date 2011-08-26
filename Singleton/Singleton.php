@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: dominik
- * Date: 21.08.11
- * Time: 15:16
- * To change this template use File | Settings | File Templates.
- */
 
 namespace DesignPatterns;
 
@@ -19,7 +12,6 @@ namespace DesignPatterns;
  * - DB Connector
  * - Logger (May also be a Multiton if there are many Logfiles for several purposes)
  * - Lock file for the application (there is only one in the filesystem ...)
- *
  *
  */
 class Singleton
