@@ -6,11 +6,11 @@ namespace DesignPatterns;
  * Singleton pattern
  *
  * Purpose:
- *  - to have only one instance of this object in the application, that handles all calls
+ * to have only one instance of this object in the application, that will handle all calls
  *
  * Examples:
  * - DB Connector
- * - Logger (May also be a Multiton if there are many Logfiles for several purposes)
+ * - Logger (may also be a Multiton if there are many log files for several purposes)
  * - Lock file for the application (there is only one in the filesystem ...)
  *
  */

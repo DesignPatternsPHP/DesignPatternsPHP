@@ -10,6 +10,8 @@ namespace DesignPatterns;
  *
  * Examples:
  *  - Database Abstraction Layers
+ *  - Doctrine2: EntityManager is the facade that one sees from the outside, but in there is much more going on, Unit of
+ *    Work, etc.
  *
  */
 class Facade
