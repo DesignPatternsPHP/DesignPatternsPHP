@@ -19,7 +19,7 @@ class Webservice
     protected $_data;
 
     /**
-     * an array to holds all added decorators, often there would be defaults set in this
+     * an array to hold all added decorators, often there would be defaults set in this
      * array, e.g. the service could be defaulted to use JSON and only for special APIs
      * use XML
      *
