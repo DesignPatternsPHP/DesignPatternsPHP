@@ -8,7 +8,7 @@ namespace DesignPatterns;
  * Purpose:
  * The Visitor Pattern lets you outsource operations on objects to other objects. The main reason to do this is to keep
  * a seperation of concerns. But classes have to define an interface to allow visitors (the "accept" method in the example below).
- * 
+ *
  */
 interface RoleVisitor {
     public function visit(Role $role);
