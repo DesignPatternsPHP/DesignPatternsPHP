@@ -11,6 +11,7 @@ namespace DesignPatterns;
  *
  * Example:
  * - Zend Framework: Zend_Registry holds the application's logger object, front controller etc.
+ * - Yii Framework: CWebApplication holds all the application components, such as CWebUser, CUrlManager, etc.
  *
  */
 
