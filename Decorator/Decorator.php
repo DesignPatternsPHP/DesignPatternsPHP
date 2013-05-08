@@ -14,71 +14,61 @@ namespace DesignPatterns;
  *   course)
  *
  */
-class Webservice
+ 
+interface Renderer
+{
+    public function renderData();
+}
+
+class Webservice implements Renderer
 {
     protected $_data;
-
-    /**
-     * an array to hold all added decorators, often there would be defaults set in this
-     * array, e.g. the service could be defaulted to use JSON and only for special APIs
-     * use XML
-     *
-     * @var array
-     */
-    protected $_decorators = array();
 
     public function __construct($data)
     {
         $this->_data = $data;
     }
 
-    /**
-     * 
-     *
-     * @param WebserviceDecorator $decorator
-     * @return void
-     */
-    public function addDecorator(WebserviceDecorator $decorator)
-    {
-        $this->_decorators[] = $decorator;
-    }
-
-    /**
-     * @return string
-     */
     public function renderData()
     {
-        $response = '';
-        foreach ($this->_decorators as $decorator) {
-            $response = $decorator->renderData($this->_data);
-        }
-
-        return $response;
+        return $this->_data;
     }
 }
 
-interface WebserviceDecorator
+abstract class Decorator
 {
-    public function renderData($data);
-}
-
-class JsonDecorator implements WebserviceDecorator
-{
-    public function renderData($data)
+    protected $_wrapped;
+    
+    public function __construct($wrappable)
     {
-        return json_encode($data);
+        $this->_wrapped = $wrappable;
     }
 }
 
-class XmlDecorator implements WebserviceDecorator
+class RenderInJson extends Decorator implements Renderer
 {
-    public function renderData($data)
+    public function renderData()
     {
-        // do some fancy conversion to xml from array ...
-        return simplexml_load_string($data);
+        $output = $this->_wrapped->renderData();
+        return json_encode($output);
     }
 }
 
+class RenderInXml extends Decorator implements Renderer
+{
+    public function renderData()
+    {
+        $output = $this->_wrapped->renderData();
+        // do some fany conversion to xml from array ...
+        return simplexml_load_string($output);
+    }
+}
+
+// Create a normal service
 $service = new Webservice(array('foo' => 'bar'));
-$service->addDecorator(new JsonDecorator());
+
+// Wrap service with a JSON decorator for renderers
+$service = new RenderInJson($service);
+// Our Renderer will now output JSON instead of an array
+
 echo $service->renderData();
