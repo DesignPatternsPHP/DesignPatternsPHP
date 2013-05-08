@@ -6,7 +6,7 @@ namespace DesignPatterns;
  * Singleton pattern
  *
  * Purpose:
- * to have only one instance of this object in the application, that will handle all calls
+ * to have only one instance of this object in the application that will handle all calls
  *
  * Examples:
  * - DB Connector
