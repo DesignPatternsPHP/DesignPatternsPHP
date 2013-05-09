@@ -74,7 +74,7 @@ class XmlDecorator implements WebserviceDecorator
 {
     public function renderData($data)
     {
-        // do some fany conversion to xml from array ...
+        // do some fancy conversion to xml from array ...
         return simplexml_load_string($data);
     }
 }
