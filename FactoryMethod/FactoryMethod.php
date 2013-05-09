@@ -20,7 +20,7 @@ class FactoryMethod
      * the parametrized function to get create an instance
      *
      * @static
-     * @return Format
+     * @return Formatter
      */
     public static function factory($type)
     {
