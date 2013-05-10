@@ -6,6 +6,6 @@ class InputElement extends FormElement
 {
     public function render($indent = 0)
     {
-        return '<input type="text" />';
+        return str_repeat('  ', $indent) . '<input type="text" />';
     }
 }

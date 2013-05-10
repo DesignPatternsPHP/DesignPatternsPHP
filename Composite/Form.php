@@ -32,7 +32,7 @@ class Form extends FormElement
     {
         $formCode = '';
         foreach ($this->_elements as $element) {
-            $formCode .= $element->render();
+            $formCode .= $element->render($indent + 1) . PHP_EOL;
         }
 
         return $formCode;
