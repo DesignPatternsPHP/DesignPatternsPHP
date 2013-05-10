@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\AbstractFactory;
 
-class Text implements Media
+abstract class Text implements Media
 {
     /**
      * 
