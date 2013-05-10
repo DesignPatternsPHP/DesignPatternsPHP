@@ -18,12 +18,19 @@ class GermanFactory extends FactoryMethod
     protected function createVehicle($type)
     {
         switch ($type) {
-            case 'cheap' :
+
+            case parent::CHEAP :
                 return new Bicycle();
                 break;
-            case 'fast' :
-                return new Porsche();
+
+            case parent::FAST :
+                $obj = new Porsche();
+                // we can specialize the way we want some concrete Vehicle since
+                // we know the class
+                $obj->addTuningAMG();
+                return $obj;
                 break;
+
             default :
                 throw new \InvalidArgumentException("$type is not a valid vehicle");
         }

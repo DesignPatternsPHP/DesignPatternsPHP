@@ -7,14 +7,23 @@
 namespace DesignPatterns\FactoryMethod;
 
 /**
- * FactoryMethod is a factory method. The good point on the SimpleFactory
+ * FactoryMethod is a factory method. The good point over the SimpleFactory
  * is you can subclass it to implement different way to create vehicle for
- * each country.
+ * each country (see subclasses)
  * 
- * For simple case, this abstracct class could be just an interface
+ * For simple case, this abstract class could be just an interface
+ * 
+ * This pattern is a "real" Design Pattern because it achieves the
+ * "Dependency Inversion Principle" a.k.a the "D" in S.O.L.I.D principles.
+ * 
+ * It means the FactoryMethod class depends on abstractions not concrete classes.
+ * This is the real trick compared to SImpleFactory or StaticFactory.
  */
 abstract class FactoryMethod
 {
+
+    const CHEAP = 1;
+    const FAST = 2;
 
     /**
      * The children of the class must implement this method
@@ -30,7 +39,7 @@ abstract class FactoryMethod
     /**
      * Creates a new vehicle
      * 
-     * @param string $type
+     * @param int $type
      * 
      * @return Vehicle a new vehicle
      */

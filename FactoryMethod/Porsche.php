@@ -17,4 +17,9 @@ class Porsche implements Vehicle
         
     }
 
+    public function addTuningAMG()
+    {
+        
+    }
+
 }
