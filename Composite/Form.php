@@ -28,7 +28,7 @@ class Form extends FormElement
      *
      * @return string
      */
-    public function render()
+    public function render($indent = 0)
     {
         $formCode = '';
         foreach ($this->_elements as $element) {
