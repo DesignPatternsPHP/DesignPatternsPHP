@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\Composite;
 
 /**
  * composite pattern
@@ -41,29 +41,3 @@ class Form
         $this->_elements[] = $element;
     }
 }
-
-abstract class FormElement
-{
-    abstract public function render();
-}
-
-class TextElement extends FormElement
-{
-    public function render()
-    {
-        return 'this is a text element';
-    }
-}
-
-class InputElement extends FormElement
-{
-    public function render()
-    {
-        return '<input type="text" />';
-    }
-}
-
-$form = new Form();
-$form->addElement(new TextElement());
-$form->addElement(new InputElement());
-echo $form->render();
