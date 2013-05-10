@@ -26,7 +26,7 @@ class Singleton
      *
      * @return Singleton
      */
-    public function getInstance()
+    public static function getInstance()
     {
         if (null === self::$_instance) {
             self::$_instance = new self();
