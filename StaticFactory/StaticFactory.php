@@ -1,9 +1,9 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\StaticFactory;
 
 /**
- * Factory Method pattern
+ * Static Factory pattern
  *
  * Purpose:
  * similar to the AbstractFactory, this pattern is used to create series of related or dependant objects.
@@ -13,9 +13,12 @@ namespace DesignPatterns;
  * Examples:
  * - Zend Framework: Zend_Cache_Backend or _Frontend use a factory method create cache backends or frontends
  * 
+ * Note1: Remember, static => global => evil
+ * Note2: Cannot be subclassed or mock-uped or have multiple different instances
  */
-class FactoryMethod
+class StaticFactory
 {
+
     /**
      * the parametrized function to get create an instance
      *
@@ -24,26 +27,13 @@ class FactoryMethod
      */
     public static function factory($type)
     {
-        $className = 'Format' . ucfirst($type);
-        if ( ! class_exists($className)) {
-            throw new Exception('Missing format class.');
+        $className = __NAMESPACE__ . '\Format' . ucfirst($type);
+
+        if (!class_exists($className)) {
+            throw new \InvalidArgumentException('Missing format class.');
         }
 
         return new $className();
     }
-}
 
-interface Formatter
-{
-
-}
-
-class FormatString implements Formatter
-{
-
-}
-
-class FormatNumber implements Formatter
-{
-    
 }
