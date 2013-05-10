@@ -13,8 +13,10 @@ namespace DesignPatterns\Composite;
  *      subsequently runs trough all its child elements and calls render() on them
  * - Zend_Config: a tree of configuration options, each one is a Zend_Config object
  *
+ * The composite node MUST extend the component contract. This is mandatory for building
+ * a tree of component.
  */
-class Form
+class Form extends FormElement
 {
     protected $_elements;
 
