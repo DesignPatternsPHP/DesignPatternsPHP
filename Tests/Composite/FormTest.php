@@ -22,9 +22,9 @@ class FormTest extends \PHPUnit_Framework_TestCase
         $embed = new Composite\Form();
         $embed->addElement(new Composite\TextElement());
         $embed->addElement(new Composite\InputElement());
-        $form->addElement($embed);  // here we have a tree !
-        
-        echo $form->render();
+        $form->addElement($embed);  // here we have a embedded form (like SF2 does)
+
+        $this->assertRegExp('#^\s{4}#m', $form->render());
     }
 
 }
