@@ -6,8 +6,7 @@
 
 namespace DesignPatterns\Tests\Facade;
 
-use DesignPatterns\Facade\Computer;
-use DesignPatterns\Facade\Installer;
+use DesignPatterns\Facade\Facade as Computer;
 
 /**
  * FacadeTest shows example of facades

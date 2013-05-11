@@ -26,7 +26,7 @@ namespace DesignPatterns\Facade;
  * If you need creation of new instances, use Factory as argument. 
  * 
  */
-class Computer
+class Facade
 {
 
     protected $opsys;
