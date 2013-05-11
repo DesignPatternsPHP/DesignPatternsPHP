@@ -37,4 +37,9 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
         $this->assertXmlStringEqualsXmlString('<?xml version="1.0"?><foo>bar</foo>', $service->renderData());
     }
 
+    public function testDecoratorImplementsRenderer()
+    {
+        $this->markTestIncomplete();
+    }
+
 }

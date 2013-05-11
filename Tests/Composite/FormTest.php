@@ -27,4 +27,9 @@ class FormTest extends \PHPUnit_Framework_TestCase
         $this->assertRegExp('#^\s{4}#m', $form->render());
     }
 
+    public function testFormImplementsFormEelement()
+    {
+        $this->markTestIncomplete();
+    }
+
 }
