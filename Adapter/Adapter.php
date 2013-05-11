@@ -21,6 +21,10 @@ interface DatabaseAdapter
 
 class MySQL implements DatabaseAdapter
 {
+    /**
+     * The Adapter need to wrap the Adaptee in the constructor
+     * much like Decorator does. Nothing is adapted here...
+     */
     public function getTables()
     {
         return $this->select('SHOW TABLES');
