@@ -4,6 +4,7 @@ namespace DesignPatterns\Decorator;
 
 class RenderInXml extends Decorator
 {
+
     public function renderData()
     {
         $output = $this->_wrapped->renderData();
@@ -12,7 +13,8 @@ class RenderInXml extends Decorator
         foreach ($output as $key => $val) {
             $doc->appendChild($doc->createElement('foo', 'bar'));
         }
-        
+
         return $doc->saveXML();
     }
+
 }

@@ -4,6 +4,7 @@ namespace DesignPatterns\Decorator;
 
 class Webservice implements Renderer
 {
+
     protected $_data;
 
     public function __construct($data)
@@ -15,4 +16,5 @@ class Webservice implements Renderer
     {
         return $this->_data;
     }
+
 }
