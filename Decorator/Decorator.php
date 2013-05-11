@@ -35,17 +35,28 @@ class Webservice implements Renderer
     }
 }
 
-abstract class Decorator
+/** 
+ * the Deoorator MUST implement the Renderer contract, this is the key-feature
+ * of this design pattern. If not, this is no longer a Decorator but just a dumb
+ * wrapper.
+ */
+abstract class Decorator implements Renderer
 {
     protected $_wrapped;
     
-    public function __construct($wrappable)
+    /**
+     * You must type-hint the wrapped component :
+     * It ensures you can call renderData() in the subclasses !
+     * 
+     * @param Renderer $wrappable
+     */
+    public function __construct(Renderer $wrappable)
     {
         $this->_wrapped = $wrappable;
     }
 }
 
-class RenderInJson extends Decorator implements Renderer
+class RenderInJson extends Decorator
 {
     public function renderData()
     {
@@ -54,7 +65,7 @@ class RenderInJson extends Decorator implements Renderer
     }
 }
 
-class RenderInXml extends Decorator implements Renderer
+class RenderInXml extends Decorator
 {
     public function renderData()
     {
