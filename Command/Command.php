@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\Command;
 
 /**
  * Command pattern
@@ -10,7 +10,7 @@ namespace DesignPatterns;
  * We have an Invoker and a Receiver. This pattern use a "Command" to delegate the
  * method call against the Receiver and use the same method "execute".
  * Therefore, the Invoker just know to call "execute" to process the Command of
- * the client. 
+ * the client. The Receiver is decoupled from the Invoker
  * 
  * The second aspect of ths pattern is the undo(), which undoes the method execute()
  * Command can also be agregated to combine more complex commands with minimum
@@ -23,26 +23,12 @@ namespace DesignPatterns;
  *   can be implemented with the Command pattern (e.g. vagrant)
  *
  */
-interface CommandInterface
+interface Command
 {
+
     /**
      * this is the most important method in the Command pattern,
-     * all config options and parameters should go into the constructor
-     *
-     * @return mixed
+     * The Receiver go in the constructor.
      */
     public function execute();
-}
-
-class EchoCommand implements CommandInterface
-{
-    public function __construct($what)
-    {
-        $this->what = (string)$what;
-    }
-
-    public function execute()
-    {
-        echo $this->what;
-    }
 }
