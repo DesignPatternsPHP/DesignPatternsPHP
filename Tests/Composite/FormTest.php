@@ -29,7 +29,7 @@ class FormTest extends \PHPUnit_Framework_TestCase
 
     /**
      * The all point of this pattern, a Composite must inherit from the node
-     * if you wanto to builld trees
+     * if you want to builld trees
      */
     public function testFormImplementsFormEelement()
     {

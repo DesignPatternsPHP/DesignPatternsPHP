@@ -46,6 +46,8 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * Second key-point of this pattern : the decorator is type-hinted
+     * 
      * @expectedException \PHPUnit_Framework_Error
      */
     public function testDecoratorTypeHinted()
@@ -53,6 +55,9 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
         $this->getMockForAbstractClass('DesignPatterns\Decorator\Decorator', array(new \stdClass()));
     }
 
+    /**
+     * The decorator implements and wraps the same interface
+     */
     public function testDecoratorOnlyAcceptRenderer()
     {
         $mock = $this->getMock('DesignPatterns\Decorator\Renderer');

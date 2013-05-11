@@ -9,9 +9,7 @@ namespace DesignPatterns\Tests\Iterator;
 use DesignPatterns\Iterator\CardGame;
 
 /**
- * IteratorTest the CardGame iterator
- *
- * @author flo
+ * IteratorTest tests the CardGame iterator
  */
 class IteratorTest extends \PHPUnit_Framework_TestCase
 {
@@ -25,7 +23,7 @@ class IteratorTest extends \PHPUnit_Framework_TestCase
 
     /**
      * This is the client of the iterator.
-     * It remains unchanged even if one I decide to use MongoDB to store the
+     * It remains unchanged even if one day I decide to use MongoDB to store the
      * card.
      */
     public function testCardinal()

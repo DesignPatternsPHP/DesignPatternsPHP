@@ -10,8 +10,6 @@ use DesignPatterns\SimpleFactory\ConcreteFactory;
 
 /**
  * SimpleFactoryTest tests the Simple Factory pattern
- *
- * @author flo
  */
 class SimpleFactoryTest extends \PHPUnit_Framework_TestCase
 {

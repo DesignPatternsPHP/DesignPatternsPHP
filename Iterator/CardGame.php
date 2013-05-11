@@ -23,7 +23,7 @@ namespace DesignPatterns\Iterator;
  * arrays.
  * 
  * If tomorrow you decide to read cards from a database, the client 
- * (see the PHPUnit test) will remain unchanged. That's beauty of it.
+ * (see the PHPUnit test) will remain unchanged. That's the beauty of it.
  */
 class CardGame implements \Iterator
 {

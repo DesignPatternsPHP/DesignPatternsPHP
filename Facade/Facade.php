@@ -10,7 +10,7 @@ namespace DesignPatterns\Facade;
  * The primary goal of a Facade Pattern is not to avoid you to read the manual of
  * a complex API. It's only a side-effect.
  * 
- * The first goal is to reduce coupling and folow the Law of Demeter.
+ * The first goal is to reduce coupling and follow the Law of Demeter.
  * 
  * A Facade is meant to decouple a client and a sub-system by embedding
  * many (but sometimes just one) interface, and of course to reduce complexity.
