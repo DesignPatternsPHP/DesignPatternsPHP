@@ -37,9 +37,27 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
         $this->assertXmlStringEqualsXmlString('<?xml version="1.0"?><foo>bar</foo>', $service->renderData());
     }
 
-    public function testDecoratorImplementsRenderer()
+    /**
+     * The first key-point of this pattern :
+     */
+    public function testDecoratorMustImplementsRenderer()
     {
-        $this->markTestIncomplete();
+        $this->assertTrue(is_subclass_of('DesignPatterns\Decorator\Decorator', 'DesignPatterns\Decorator\Renderer'));
+    }
+
+    /**
+     * @expectedException \PHPUnit_Framework_Error
+     */
+    public function testDecoratorTypeHinted()
+    {
+        $this->getMockForAbstractClass('DesignPatterns\Decorator\Decorator', array(new \stdClass()));
+    }
+
+    public function testDecoratorOnlyAcceptRenderer()
+    {
+        $mock = $this->getMock('DesignPatterns\Decorator\Renderer');
+        $dec = $this->getMockForAbstractClass('DesignPatterns\Decorator\Decorator', array($mock));
+        $this->assertNotNull($dec);
     }
 
 }

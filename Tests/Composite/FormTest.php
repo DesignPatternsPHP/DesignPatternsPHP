@@ -27,9 +27,13 @@ class FormTest extends \PHPUnit_Framework_TestCase
         $this->assertRegExp('#^\s{4}#m', $form->render());
     }
 
+    /**
+     * The all point of this pattern, a Composite must inherit from the node
+     * if you wanto to builld trees
+     */
     public function testFormImplementsFormEelement()
     {
-        $this->markTestIncomplete();
+        $this->assertTrue(is_subclass_of('DesignPatterns\Composite\Form', 'DesignPatterns\Composite\FormElement'));
     }
 
 }
