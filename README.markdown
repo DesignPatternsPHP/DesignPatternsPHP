@@ -23,4 +23,4 @@ Changes I've made :
 * Fixing the Adapter Pattern because it was buggy and incomplete (+ Tests)
 * Adding Template Method Pattern (+ Tests)
 * Adding Builder Pattern (+ Tests)
-* 
+* Adding Mediator Pattern (+ Tests)

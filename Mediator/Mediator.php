@@ -15,8 +15,9 @@ use DesignPatterns\Mediator\Subsystem;
  * It is a good alternative over Observer IF you have a "central intelligence",
  * like a controller (but not in the sense of the MVC).
  * 
- * All objects (called Colleague) are coupled only to the MediatorInterface and
- * it is a good thing because in OOP, one good friend is better than many unreliable.
+ * All components (called Colleague) are only coupled to the MediatorInterface and
+ * it is a good thing because in OOP, one good friend is better than many. This
+ * is the key-feature of this pattern.
  * 
  * In this example, I have made a "Hello World" with the Mediator Pattern, have fun (^_^)
  */

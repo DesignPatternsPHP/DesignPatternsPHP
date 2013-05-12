@@ -30,7 +30,10 @@ class MediatorTest extends \PHPUnit_Framework_TestCase
     {
         // testing if Hello World is output :
         $this->expectOutputString('Hello World');
+        // as you see, the 3 components Client, Server and Database are totally decoupled
         $this->client->request();
+        // Anyway, it remains complexity in the Mediator that's why the pattern
+        // Observer is preferable in mnay situations.
     }
 
 }
