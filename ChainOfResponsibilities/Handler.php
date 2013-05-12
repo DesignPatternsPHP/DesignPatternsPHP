@@ -8,11 +8,16 @@ namespace DesignPatterns\ChainOfResponsibilities;
 
 /**
  * Handler is a generic handler in the chain of responsibilities
+ * 
+ * Yes you could have a lighter CoR with simpler handler but if you want your CoR to
+ * be extendable and decoupled, it's a better idea to do things like that in real
+ * situations. Usually, a CoR is meant to be changed everytime and evolves, that's
+ * why we slice the workflow in little bits of code.
  */
-abstract class Handler implements KeyValueStorage
+abstract class Handler
 {
 
-    protected $successor = null;
+    private $successor = null;
 
     /**
      * Append a responsibility to the end of chain
@@ -23,8 +28,10 @@ abstract class Handler implements KeyValueStorage
      * bad idea because you have to remove the type-hint of the parameter because
      * the last handler has a null successor.
      * 
-     * And if you override the contructor, your Handler can no longer have a
-     * successor. One solution is to provide a NullObject (see pattern) 
+     * And if you override the contructor, that Handler can no longer have a
+     * successor. One solution is to provide a NullObject (see pattern).
+     * It is more preferable to keep the constructor "free" to inject services
+     * you need with the DiC of symfony2 for example.
      */
     final public function append(Handler $handler)
     {
@@ -46,6 +53,7 @@ abstract class Handler implements KeyValueStorage
     {
         $processed = $this->processing($req);
         if (!$processed) {
+            // the request has not been processed by this handler => see the next
             if (!is_null($this->successor)) {
                 $processed = $this->successor->handle($req);
             }
@@ -54,5 +62,10 @@ abstract class Handler implements KeyValueStorage
         return $processed;
     }
 
+    /**
+     * Each concrete handler has to implement the processing of the request
+     * 
+     * @return bool true if the request has been processed
+     */
     abstract protected function processing(Request $req);
 }
