@@ -10,6 +10,8 @@ namespace DesignPatterns;
  * in the chain and so forth
  *
  * Examples:
+ * - logging framework
+ * - spam filter
  * - Caching: first object is an instance of e.g. a Memcached Interface, if that "misses" it delegates the call to the
  *   Database Interface
  * - Yii Framework: CFilterChain is a chain of controller action filters. the executing point is passed from one filter
@@ -17,6 +19,8 @@ namespace DesignPatterns;
  *
  */
 
+// the idea is good but in general, the Handler component in this pattern 
+// is an abstract class which makes much more of the work
 interface KeyValueStorage
 {
     public function get($key);
