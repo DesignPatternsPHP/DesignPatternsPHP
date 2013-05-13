@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\FluentInterface;
 
 /**
  * fluent interface pattern
@@ -52,9 +52,15 @@ class SQL
         $this->_where[] = $condition;
         return $this;
     }
+    
+    /**
+     * Gets the query, just an example of building a query, 
+     * no check on consistency
+     */
+    public function getQuery()
+    {
+        return 'SELECT ' . implode(',', $this->_fields) 
+                . ' FROM ' . implode(',', $this->_from)
+                . ' WHERE ' . implode(' AND ', $this->_where);
+    }
 }
-
-$instance = new SQL();
-$instance->select(array('foo', 'bar'))
-         ->from('foobar', 'f')
-         ->where('f.bar = ?');
