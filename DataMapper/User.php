@@ -14,11 +14,11 @@ class User
     protected $username;
     protected $email;
 
-	public function __construct(array $options = null)
+	public function __construct($id, $username, $email)
     {
-        if (is_array($options)) {
-            $this->setOptions($options);
-        }
+        $this->id = $id;
+        $this->username = $username;
+        $this->email = $email;
     }
 
 	public function getUserId() {

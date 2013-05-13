@@ -31,8 +31,8 @@ class UserMapper
         /**
          * create new Database connector on $_adapter using specific table
          *
-         * $_adapter var could be a specific to a table class or a generic interface for 
-         * connecting to Database and do certain jobs
+         * $_adapter var could be a specific to a table class or a generic 
+         * interface for connecting to Database and do certain jobs
          */
     }
 
@@ -43,12 +43,14 @@ class UserMapper
      */
     public function save(User $user)
     {
+        // $data keys shoulds correspond to valid Table columns on the Database
         $data = array(
             'userid'   => $user->getUserId(),
             'username' => $user->getUsername(),
             'email'   => $user->getEmail(),
         );
 
+        // if no ID specified create new user else update the one in the Database
         if (null === ($id = $user->getUserId())) {
             unset($data['userid']);
             $this->_adapter->insert($data);
