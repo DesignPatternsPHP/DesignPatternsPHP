@@ -2,6 +2,8 @@
 
 namespace DesignPatterns;
 
+use Iterator;
+
 /**
  * iterator pattern
  *
