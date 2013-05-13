@@ -16,6 +16,7 @@ namespace DesignPatterns;
  * entity types, dedicated mappers will handle one or a few.
  * (FROM http://en.wikipedia.org/wiki/Data_mapper_pattern)
  *
+ *
  * Examples:
  * - DB Object Relational Mapper (ORM)
  *
@@ -23,15 +24,23 @@ namespace DesignPatterns;
 class UserMapper
 {
 
-    // the table where the mapper is mapping
-    protected $_dbTable;
+    protected $_adapter;
 
     public function __construct(array $options = null)
     {
-        // create new db connector on dbTable using specific table
+        /**
+         * create new Database connector on $_adapter using specific table
+         *
+         * $_adapter var could be a specific to a table class or a generic interface for 
+         * connecting to Database and do certain jobs
+         */
     }
 
-    // will save a certain user from memory to db
+    /**
+     * saves a user object from memory to Database
+     *
+     * @return boolean
+     */
     public function save(User $user)
     {
         $data = array(
@@ -42,33 +51,56 @@ class UserMapper
 
         if (null === ($id = $user->getUserId())) {
             unset($data['userid']);
-            $this->_dbTable->insert($data);
+            $this->_adapter->insert($data);
+            return true;
         } else {
-            $this->_dbTable->update($data, array('userid = ?' => $id));
+            $this->_adapter->update($data, array('userid = ?' => $id));
+            return true;
         }
+
+        return false;
     }
 
-    // will find a user from db based on the id and return it to a User object in memory
-    public function find($id, User $user)
+    /**
+     * finds a user from Database based on ID and returns a User object located
+     * in memory
+     *
+     * @return User
+     */
+    public function findById($id)
     {
-        $result = $this->_dbTable()->find($id);
+        $result = $this->_adapter->find($id);
         if (0 == count($result)) {
             return;
         }
         $row = $result->current();
 
-        $user->setOptions($row);
+        var user = new User();
+        $user->setUserID($row['userid']);
+        $user->setUsername($row['username']);
+        $user->setEmail($row['email']);
+
+        return user;
     }
 
-    // will fetch all entries from a table to memory
-    public function fetchAll()
+    /**
+     * fetches an array from Database and returns an array of User objects
+     * located in memory
+     *
+     * @return array
+     */
+    public function findAll()
     {
-        $resultSet = $this->_dbTable()->fetchAll();
+        $resultSet = $this->_adapter->findAll();
         $entries   = array();
 
         foreach ($resultSet as $row) {
+
             $entry = new User();
-            $entry->setOptions($row);
+            $user->setUserID($row['userid']);
+            $user->setUsername($row['username']);
+            $user->setEmail($row['email']);
+
             $entries[] = $entry;
         }
 
