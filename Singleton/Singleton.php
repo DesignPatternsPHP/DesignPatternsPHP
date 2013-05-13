@@ -17,22 +17,19 @@ namespace DesignPatterns;
 class Singleton
 {
     /**
-     * @var \DesignPatterns\Singleton
-     */
-    private static $_instance;
-
-    /**
      * gets the instance via lazy initialization (created on first usage)
      *
      * @return Singleton
      */
     public static function getInstance()
     {
-        if (null === self::$_instance) {
-            self::$_instance = new self();
+        static $instance;
+
+        if (null === $instance) {
+            $instance = new self();
         }
 
-        return self::$_instance;
+        return $instance;
     }
 
     /**
