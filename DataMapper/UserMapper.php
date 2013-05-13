@@ -43,14 +43,14 @@ class UserMapper
      */
     public function save(User $user)
     {
-        // $data keys shoulds correspond to valid Table columns on the Database
+        /* $data keys shoulds correspond to valid Table columns on the Database */
         $data = array(
             'userid'   => $user->getUserId(),
             'username' => $user->getUsername(),
             'email'   => $user->getEmail(),
         );
 
-        // if no ID specified create new user else update the one in the Database
+        /* if no ID specified create new user else update the one in the Database */
         if (null === ($id = $user->getUserId())) {
             unset($data['userid']);
             $this->_adapter->insert($data);
