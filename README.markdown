@@ -24,3 +24,6 @@ Changes I've made :
 * Adding Template Method Pattern (+ Tests)
 * Adding Builder Pattern (+ Tests)
 * Adding Mediator Pattern (+ Tests)
+* Adding a full example of Chain of Responsibilities (+Tests)
+* PSR-0 for FluentInterface & Tests
+* Null Object Pattern (+ Tests)
