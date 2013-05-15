@@ -22,6 +22,6 @@ namespace DesignPatterns;
 	$userMapper->save($newUser);
 
 	/* fetch all from a table on Database */
-	var $user = $userMapper->findAll();
+	var $usersArray = $userMapper->findAll();
 
 ?>
