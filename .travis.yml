@@ -4,4 +4,4 @@ php:
 
 branches:
   only:
-    - travis
+    - master

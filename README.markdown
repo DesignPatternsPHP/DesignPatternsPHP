@@ -1,5 +1,7 @@
 # design patterns in PHP #
 
+[![Build Status](https://travis-ci.org/Trismegiste/DesignPatternsPHP.png?branch=master)](https://travis-ci.org/Trismegiste/DesignPatternsPHP)
+
 This is a collection of known design patterns and some sample code how to implement them in PHP. Every pattern has a
 small list of examples (most of them from Zend Framework or Doctrine2 as I'm most familiar with this software).
 
