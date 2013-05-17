@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\Decorator;
 
 /**
  * Decorator pattern
@@ -14,61 +14,26 @@ namespace DesignPatterns;
  *   course)
  *
  */
- 
-interface Renderer
+
+/**
+ * the Deoorator MUST implement the Renderer contract, this is the key-feature
+ * of this design pattern. If not, this is no longer a Decorator but just a dumb
+ * wrapper.
+ */
+abstract class Decorator implements Renderer
 {
-    public function renderData();
-}
 
-class Webservice implements Renderer
-{
-    protected $_data;
-
-    public function __construct($data)
-    {
-        $this->_data = $data;
-    }
-
-    public function renderData()
-    {
-        return $this->_data;
-    }
-}
-
-abstract class Decorator
-{
     protected $_wrapped;
-    
-    public function __construct($wrappable)
+
+    /**
+     * You must type-hint the wrapped component :
+     * It ensures you can call renderData() in the subclasses !
+     * 
+     * @param Renderer $wrappable
+     */
+    public function __construct(Renderer $wrappable)
     {
         $this->_wrapped = $wrappable;
     }
+
 }
-
-class RenderInJson extends Decorator implements Renderer
-{
-    public function renderData()
-    {
-        $output = $this->_wrapped->renderData();
-        return json_encode($output);
-    }
-}
-
-class RenderInXml extends Decorator implements Renderer
-{
-    public function renderData()
-    {
-        $output = $this->_wrapped->renderData();
-        // do some fany conversion to xml from array ...
-        return simplexml_load_string($output);
-    }
-}
-
-// Create a normal service
-$service = new Webservice(array('foo' => 'bar'));
-
-// Wrap service with a JSON decorator for renderers
-$service = new RenderInJson($service);
-// Our Renderer will now output JSON instead of an array
-
-echo $service->renderData();
