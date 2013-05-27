@@ -46,7 +46,7 @@ abstract class Registry
 }
 
 // while bootstraping the application
-Registry::set(Registry::LOGGER, new StdClass());
+Registry::set(Registry::LOGGER, new \StdClass());
 
 // throughout the application
 Registry::get(Registry::LOGGER)->log('foo');

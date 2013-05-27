@@ -26,7 +26,7 @@ class FactoryMethod
     {
         $className = 'Format' . ucfirst($type);
         if ( ! class_exists($className)) {
-            throw new Exception('Missing format class.');
+            throw new \Exception('Missing format class.');
         }
 
         return new $className();

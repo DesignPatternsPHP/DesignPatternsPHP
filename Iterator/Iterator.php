@@ -36,7 +36,7 @@ class File
     }
 }
 
-class Rowset implements Iterator
+class Rowset implements \Iterator
 {
     protected $_currentRow;
 
