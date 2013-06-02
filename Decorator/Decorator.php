@@ -59,7 +59,7 @@ class RenderInXml extends Decorator implements Renderer
     public function renderData()
     {
         $output = $this->_wrapped->renderData();
-        // do some fany conversion to xml from array ...
+        // do some fancy conversion to xml from array ...
         return simplexml_load_string($output);
     }
 }
