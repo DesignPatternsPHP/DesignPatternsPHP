@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\Composite;
 
 /**
  * composite pattern
@@ -13,8 +13,10 @@ namespace DesignPatterns;
  *      subsequently runs trough all its child elements and calls render() on them
  * - Zend_Config: a tree of configuration options, each one is a Zend_Config object
  *
+ * The composite node MUST extend the component contract. This is mandatory for building
+ * a tree of component.
  */
-class Form
+class Form extends FormElement
 {
     protected $_elements;
 
@@ -26,11 +28,11 @@ class Form
      *
      * @return string
      */
-    public function render()
+    public function render($indent = 0)
     {
         $formCode = '';
         foreach ($this->_elements as $element) {
-            $formCode .= $element->render();
+            $formCode .= $element->render($indent + 1) . PHP_EOL;
         }
 
         return $formCode;
@@ -41,29 +43,3 @@ class Form
         $this->_elements[] = $element;
     }
 }
-
-abstract class FormElement
-{
-    abstract public function render();
-}
-
-class TextElement extends FormElement
-{
-    public function render()
-    {
-        return 'this is a text element';
-    }
-}
-
-class InputElement extends FormElement
-{
-    public function render()
-    {
-        return '<input type="text" />';
-    }
-}
-
-$form = new Form();
-$form->addElement(new TextElement());
-$form->addElement(new InputElement());
-echo $form->render();

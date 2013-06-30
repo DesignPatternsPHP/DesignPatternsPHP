@@ -32,6 +32,8 @@ class File
 
     public function process()
     {
+        // this is the place to show how using an iterator, with foreach
+        // See the CardGame.php file
         $this->_rowset->process();
     }
 }
@@ -55,6 +57,14 @@ class Rowset implements Iterator
     public function process()
     {
         // this actually calls rewind(), { next(), valid(), key() and current() :}
+        /**
+         * THE key feature of the Iterator Pattern is to provide a *public contract*
+         * to iterate on a collection without knowing how items are handled inside
+         * the collection. It is not just an easy way to use "foreach"
+         * 
+         * One cannot see the point of iterator pattern if you iterate on $this.
+         * This example is unclear and mixed with some Composite pattern ideas. 
+         */
         foreach ($this as $line => $row) {
             $row->process();
         }

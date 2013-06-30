@@ -1,49 +1,58 @@
 <?php
 
-namespace DesignPatterns;
+/*
+ * DesignPatternPHP
+ */
+
+namespace DesignPatterns\Facade;
 
 /**
- * facade pattern
+ * The primary goal of a Facade Pattern is not to avoid you to read the manual of
+ * a complex API. It's only a side-effect.
+ * 
+ * The first goal is to reduce coupling and follow the Law of Demeter.
+ * 
+ * A Facade is meant to decouple a client and a sub-system by embedding
+ * many (but sometimes just one) interface, and of course to reduce complexity.
+ * 
+ * 1. A facade does not forbid you the access to the sub-system
+ * 2. You can (you should) have multiple facades for one sub-system
+ * 
+ * That's why a good facade has no "new" in it. If there are multiple creations
+ * for each method, it is not a Facade, it's a Builder or a 
+ * [Abstract|Static|Simple] Factory [Method]. 
  *
- * Purpose:
- * like a real facade, to hide complexity behind the wall
- *
- * Examples:
- *  - Database Abstraction Layers
- *  - Doctrine2: EntityManager is the facade that one sees from the outside, but in there is much more going on, Unit of
- *    Work, etc.
- *
+ * The best facade has no new and a constructor with interface-type-hinted parameters.
+ * If you need creation of new instances, use Factory as argument. 
+ * 
  */
 class Facade
 {
-    private $_text;
-    private $_queryBuilder;
 
-    public function __construct($text)
+    protected $opsys;
+    protected $bios;
+
+    /**
+     * This is the perfect time to use a dependency injection container
+     * to creaate an instance of this class
+     */
+    public function __construct(BiosInterface $bios, OsInterface $os)
     {
-        $text .= ', called ' . __METHOD__ . ' and thought that would be fairly easy, but ...';
-        $this->_text = $text;
-
-        $this->_initQueryBuilder($text);
+        $this->bios = $bios;
+        $this->opsys = $os;
     }
 
-    protected function _initQueryBuilder($sql)
+    public function turnOn()
     {
-        $query = new QueryBuilder();
-        $query->setSql($sql);
-        $this->_queryBuilder = $query;
+        $this->bios->execute();
+        $this->bios->waitForKeyPress();
+        $this->bios->launch($this->opsys);
     }
+
+    public function turnOff()
+    {
+        $this->opsys->halt();
+        $this->bios->powerDown();
+    }
+
 }
-
-class QueryBuilder
-{
-    protected $_sql;
-
-    public function setSql($sql)
-    {
-        $this->_sql = $sql;
-    }
-}
-
-// this is just a simple call, but behind the facade, there's much more going on
-$foo = new Facade('very simple');

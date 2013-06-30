@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\AbstractFactory;
 
-class Picture implements Media
+abstract class Picture implements Media
 {
     protected $_path;
     protected $_name;
