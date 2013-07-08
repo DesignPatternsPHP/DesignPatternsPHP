@@ -87,4 +87,18 @@ class UserMapperTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals([$existing], $user);
     }
 
+    /**
+     * @expectedException InvalidArgumentException
+     * @expectedExceptionMessage User #404 not found
+     */
+    public function testNotFound()
+    {
+        $this->dbal->expects($this->once())
+                ->method('find')
+                ->with(404)
+                ->will($this->returnValue([]));
+
+        $user = $this->mapper->findById(404);
+    }
+
 }

@@ -70,7 +70,7 @@ class UserMapper
     {
         $result = $this->_adapter->find($id);
         if (0 == count($result)) {
-            return;
+            throw new \InvalidArgumentException("User #$id not found");
         }
         $row = $result->current();
 
