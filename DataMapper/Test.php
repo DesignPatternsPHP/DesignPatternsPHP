@@ -18,10 +18,9 @@ namespace DesignPatterns;
 	}
 
 	/* save a new record on Database */
-	var $newUser = new User('', 'Odysseus', 'Odysseus@ithaca.gr');
+	$newUser = new User('', 'Odysseus', 'Odysseus@ithaca.gr');
 	$userMapper->save($newUser);
 
 	/* fetch all from a table on Database */
-	var $usersArray = $userMapper->findAll();
+	$usersArray = $userMapper->findAll();
 
-?>

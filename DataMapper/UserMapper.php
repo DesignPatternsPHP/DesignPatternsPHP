@@ -77,7 +77,7 @@ class UserMapper
         }
         $row = $result->current();
 
-        var user = new User();
+        $user = new User();
         $user->setUserID($row['userid']);
         $user->setUsername($row['username']);
         $user->setEmail($row['email']);
