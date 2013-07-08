@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\DataMapper;
 
 /**
  * DataMapper pattern
@@ -16,24 +16,21 @@ namespace DesignPatterns;
  * entity types, dedicated mappers will handle one or a few.
  * (FROM http://en.wikipedia.org/wiki/Data_mapper_pattern)
  *
+ * The key point of this pattern is, unlike Active Record pattern, the datamodel
+ * follows Single Responsibility Principle.
  *
  * Examples:
- * - DB Object Relational Mapper (ORM)
- *
+ * - DB Object Relational Mapper (ORM) : Doctrine2 uses DAO named as "EntityRepository"
+ * 
  */
 class UserMapper
 {
 
     protected $_adapter;
 
-    public function __construct(array $options = null)
+    public function __construct(DBAL $dbLayer)
     {
-        /**
-         * create new Database connector on $_adapter using specific table
-         *
-         * $_adapter var could be a specific to a table class or a generic 
-         * interface for connecting to Database and do certain jobs
-         */
+        $this->_adapter = $dbLayer;
     }
 
     /**
