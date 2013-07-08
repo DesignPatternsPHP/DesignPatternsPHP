@@ -74,12 +74,7 @@ class UserMapper
         }
         $row = $result->current();
 
-        $user = new User();
-        $user->setUserID($row['userid']);
-        $user->setUsername($row['username']);
-        $user->setEmail($row['email']);
-
-        return $user;
+        return $this->mapObject($row);
     }
 
     /**
@@ -94,15 +89,26 @@ class UserMapper
         $entries   = array();
 
         foreach ($resultSet as $row) {
-
-            $entry = new User();
-            $entry->setUserID($row['userid']);
-            $entry->setUsername($row['username']);
-            $entry->setEmail($row['email']);
-
-            $entries[] = $entry;
+            $entries[] = $this->mapObject($row);
         }
 
         return $entries;
+    }
+
+    /**
+     * Maps a table row to an object
+     *
+     * @param array $row
+     *
+     * @return \DesignPatterns\DataMapper\User
+     */
+    protected function mapObject(array $row)
+    {
+        $entry = new User();
+        $entry->setUserID($row['userid']);
+        $entry->setUsername($row['username']);
+        $entry->setEmail($row['email']);
+
+        return $entry;
     }
 }
