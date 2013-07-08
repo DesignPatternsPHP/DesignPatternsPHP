@@ -58,4 +58,18 @@ class UserMapperTest extends \PHPUnit_Framework_TestCase
         $this->mapper->save($user);
     }
 
+    /**
+     * @dataProvider getExistingUser
+     */
+    public function testRestoreOne(User $stored)
+    {
+        $this->dbal->expects($this->once())
+                ->method('find')
+                ->with(1)
+                ->will($this->returnValue(new \ArrayIterator(array($stored))));
+
+        $user = $this->mapper->findById(1);
+        echo "Hello " . $user->getUsername() . ". Your email is " . $user->getEmail();
+    }
+
 }
