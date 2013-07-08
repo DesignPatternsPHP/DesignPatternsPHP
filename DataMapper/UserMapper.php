@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\DataMapper;
 
 /**
  * DataMapper pattern
@@ -16,9 +16,11 @@ namespace DesignPatterns;
  * entity types, dedicated mappers will handle one or a few.
  * (FROM http://en.wikipedia.org/wiki/Data_mapper_pattern)
  *
+ * The key point of this pattern is, unlike Active Record pattern, the datamodel
+ * follows Single Responsibility Principle.
  *
  * Examples:
- * - DB Object Relational Mapper (ORM)
+ * - DB Object Relational Mapper (ORM) : Doctrine2 uses DAO named as "EntityRepository"
  *
  */
 class UserMapper
@@ -26,14 +28,9 @@ class UserMapper
 
     protected $_adapter;
 
-    public function __construct(array $options = null)
+    public function __construct(DBAL $dbLayer)
     {
-        /**
-         * create new Database connector on $_adapter using specific table
-         *
-         * $_adapter var could be a specific to a table class or a generic 
-         * interface for connecting to Database and do certain jobs
-         */
+        $this->_adapter = $dbLayer;
     }
 
     /**
@@ -73,16 +70,11 @@ class UserMapper
     {
         $result = $this->_adapter->find($id);
         if (0 == count($result)) {
-            return;
+            throw new \InvalidArgumentException("User #$id not found");
         }
         $row = $result->current();
 
-        var user = new User();
-        $user->setUserID($row['userid']);
-        $user->setUsername($row['username']);
-        $user->setEmail($row['email']);
-
-        return user;
+        return $this->mapObject($row);
     }
 
     /**
@@ -97,15 +89,26 @@ class UserMapper
         $entries   = array();
 
         foreach ($resultSet as $row) {
-
-            $entry = new User();
-            $user->setUserID($row['userid']);
-            $user->setUsername($row['username']);
-            $user->setEmail($row['email']);
-
-            $entries[] = $entry;
+            $entries[] = $this->mapObject($row);
         }
 
         return $entries;
+    }
+
+    /**
+     * Maps a table row to an object
+     *
+     * @param array $row
+     *
+     * @return \DesignPatterns\DataMapper\User
+     */
+    protected function mapObject(array $row)
+    {
+        $entry = new User();
+        $entry->setUserID($row['userid']);
+        $entry->setUsername($row['username']);
+        $entry->setEmail($row['email']);
+
+        return $entry;
     }
 }

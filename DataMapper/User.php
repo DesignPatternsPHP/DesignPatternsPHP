@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\DataMapper;
 
 /**
  * DataMapper pattern
@@ -14,9 +14,9 @@ class User
     protected $username;
     protected $email;
 
-	public function __construct($id, $username, $email)
+	public function __construct($id = null, $username = null, $email = null)
     {
-        $this->id = $id;
+        $this->userId = $id;
         $this->username = $username;
         $this->email = $email;
     }
