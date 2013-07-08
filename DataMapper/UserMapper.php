@@ -21,7 +21,7 @@ namespace DesignPatterns\DataMapper;
  *
  * Examples:
  * - DB Object Relational Mapper (ORM) : Doctrine2 uses DAO named as "EntityRepository"
- * 
+ *
  */
 class UserMapper
 {
@@ -79,7 +79,7 @@ class UserMapper
         $user->setUsername($row['username']);
         $user->setEmail($row['email']);
 
-        return user;
+        return $user;
     }
 
     /**
