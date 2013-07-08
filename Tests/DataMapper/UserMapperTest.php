@@ -61,7 +61,7 @@ class UserMapperTest extends \PHPUnit_Framework_TestCase
     /**
      * @dataProvider getExistingUser
      */
-    public function testRestoreOne()
+    public function testRestoreOne(User $existing)
     {
         $rows = new \ArrayIterator([['userid' => 1, 'username' => 'Odysseus', 'email' => 'Odysseus@ithaca.gr']]);
         $this->dbal->expects($this->once())
@@ -70,7 +70,21 @@ class UserMapperTest extends \PHPUnit_Framework_TestCase
                 ->will($this->returnValue($rows));
 
         $user = $this->mapper->findById(1);
-        echo "Hello " . $user->getUsername() . ". Your email is " . $user->getEmail();
+        $this->assertEquals($existing, $user);
+    }
+
+    /**
+     * @dataProvider getExistingUser
+     */
+    public function testRestoreMulti(User $existing)
+    {
+        $rows = [['userid' => 1, 'username' => 'Odysseus', 'email' => 'Odysseus@ithaca.gr']];
+        $this->dbal->expects($this->once())
+                ->method('findAll')
+                ->will($this->returnValue($rows));
+
+        $user = $this->mapper->findAll();
+        $this->assertEquals([$existing], $user);
     }
 
 }

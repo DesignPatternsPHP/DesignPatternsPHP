@@ -96,9 +96,9 @@ class UserMapper
         foreach ($resultSet as $row) {
 
             $entry = new User();
-            $user->setUserID($row['userid']);
-            $user->setUsername($row['username']);
-            $user->setEmail($row['email']);
+            $entry->setUserID($row['userid']);
+            $entry->setUsername($row['username']);
+            $entry->setEmail($row['email']);
 
             $entries[] = $entry;
         }
