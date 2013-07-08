@@ -61,12 +61,13 @@ class UserMapperTest extends \PHPUnit_Framework_TestCase
     /**
      * @dataProvider getExistingUser
      */
-    public function testRestoreOne(User $stored)
+    public function testRestoreOne()
     {
+        $rows = new \ArrayIterator([['userid' => 1, 'username' => 'Odysseus', 'email' => 'Odysseus@ithaca.gr']]);
         $this->dbal->expects($this->once())
                 ->method('find')
                 ->with(1)
-                ->will($this->returnValue(new \ArrayIterator(array($stored))));
+                ->will($this->returnValue($rows));
 
         $user = $this->mapper->findById(1);
         echo "Hello " . $user->getUsername() . ". Your email is " . $user->getEmail();

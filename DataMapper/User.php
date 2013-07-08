@@ -14,7 +14,7 @@ class User
     protected $username;
     protected $email;
 
-	public function __construct($id, $username, $email)
+	public function __construct($id = null, $username = null, $email = null)
     {
         $this->userId = $id;
         $this->username = $username;
