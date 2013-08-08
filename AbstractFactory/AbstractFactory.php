@@ -8,7 +8,7 @@ namespace DesignPatterns\AbstractFactory;
  * Purpose:
  * to create series of related or dependant objects without specifying their concrete classes,
  * usually the created classes all implement the same interface. The client of the abstract
- * factory does not care about how these objects are created, he just knows they goes together.
+ * factory does not care about how these objects are created, he just knows they go together.
  * 
  * Sometimes also known as "Kit" in a GUI libraries. 
  * 
