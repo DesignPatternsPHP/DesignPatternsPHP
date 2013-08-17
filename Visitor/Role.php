@@ -28,7 +28,7 @@ abstract class Role
         preg_match('#([^\\\\]+)$#', $fqcn, $extract);
         $visitingMethod = 'visit' . $extract[1];
 
-        if (!method_exists($visitor, $visitingMethod)) {
+        if (!method_exists('DesignPatterns\Visitor\RoleVisitor', $visitingMethod)) {
             throw new \InvalidArgumentException("The visitor you provide cannot visit a $fqcn object");
         }
 
