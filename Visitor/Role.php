@@ -29,8 +29,9 @@ abstract class Role
         preg_match('#([^\\\\]+)$#', $fqcn, $extract);
         $visitingMethod = 'visit' . $extract[1];
 
-        if (!method_exists('DesignPatterns\Visitor\RoleVisitor', $visitingMethod)) {
-            throw new \InvalidArgumentException("The visitor you provide cannot visit a $fqcn object");
+        // this ensures strong typing with visitor interface, not some visitor objects
+        if (!method_exists(__NAMESPACE__ . '\RoleVisitor', $visitingMethod)) {
+            throw new \InvalidArgumentException("The visitor you provide cannot visit a $fqcn instance");
         }
 
         call_user_func(array($visitor, $visitingMethod), $this);
