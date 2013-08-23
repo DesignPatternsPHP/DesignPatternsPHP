@@ -5,7 +5,7 @@ namespace DesignPatterns\Observer;
 /**
  * Observer pattern : The observed object (the subject)
  * 
- * The subject maintains a list of Observer and send notificiations.
+ * The subject maintains a list of Observers and sends notifications.
  *
  */
 class User implements \SplSubject
