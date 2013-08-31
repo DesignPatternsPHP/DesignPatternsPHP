@@ -26,6 +26,9 @@ namespace DesignPatterns\DataMapper;
 class UserMapper
 {
 
+    /**
+     * @var DBAL
+     */
     protected $_adapter;
 
     public function __construct(DBAL $dbLayer)
@@ -36,15 +39,16 @@ class UserMapper
     /**
      * saves a user object from memory to Database
      *
+     * @param User $user
      * @return boolean
      */
     public function save(User $user)
     {
-        /* $data keys shoulds correspond to valid Table columns on the Database */
+        /* $data keys should correspond to valid Table columns on the Database */
         $data = array(
             'userid'   => $user->getUserId(),
             'username' => $user->getUsername(),
-            'email'   => $user->getEmail(),
+            'email'    => $user->getEmail(),
         );
 
         /* if no ID specified create new user else update the one in the Database */
@@ -56,14 +60,14 @@ class UserMapper
             $this->_adapter->update($data, array('userid = ?' => $id));
             return true;
         }
-
-        return false;
     }
 
     /**
      * finds a user from Database based on ID and returns a User object located
      * in memory
      *
+     * @param $id
+     * @throws \InvalidArgumentException
      * @return User
      */
     public function findById($id)
