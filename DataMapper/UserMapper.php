@@ -26,49 +26,53 @@ namespace DesignPatterns\DataMapper;
 class UserMapper
 {
 
-    protected $_adapter;
+    /**
+     * @var DBAL
+     */
+    protected $adapter;
 
     public function __construct(DBAL $dbLayer)
     {
-        $this->_adapter = $dbLayer;
+        $this->adapter = $dbLayer;
     }
 
     /**
      * saves a user object from memory to Database
      *
+     * @param User $user
      * @return boolean
      */
     public function save(User $user)
     {
-        /* $data keys shoulds correspond to valid Table columns on the Database */
+        /* $data keys should correspond to valid Table columns on the Database */
         $data = array(
             'userid'   => $user->getUserId(),
             'username' => $user->getUsername(),
-            'email'   => $user->getEmail(),
+            'email'    => $user->getEmail(),
         );
 
         /* if no ID specified create new user else update the one in the Database */
         if (null === ($id = $user->getUserId())) {
             unset($data['userid']);
-            $this->_adapter->insert($data);
+            $this->adapter->insert($data);
             return true;
         } else {
-            $this->_adapter->update($data, array('userid = ?' => $id));
+            $this->adapter->update($data, array('userid = ?' => $id));
             return true;
         }
-
-        return false;
     }
 
     /**
      * finds a user from Database based on ID and returns a User object located
      * in memory
      *
+     * @param $id
+     * @throws \InvalidArgumentException
      * @return User
      */
     public function findById($id)
     {
-        $result = $this->_adapter->find($id);
+        $result = $this->adapter->find($id);
         if (0 == count($result)) {
             throw new \InvalidArgumentException("User #$id not found");
         }
@@ -85,7 +89,7 @@ class UserMapper
      */
     public function findAll()
     {
-        $resultSet = $this->_adapter->findAll();
+        $resultSet = $this->adapter->findAll();
         $entries   = array();
 
         foreach ($resultSet as $row) {
