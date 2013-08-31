@@ -29,11 +29,11 @@ class UserMapper
     /**
      * @var DBAL
      */
-    protected $_adapter;
+    protected $adapter;
 
     public function __construct(DBAL $dbLayer)
     {
-        $this->_adapter = $dbLayer;
+        $this->adapter = $dbLayer;
     }
 
     /**
@@ -54,10 +54,10 @@ class UserMapper
         /* if no ID specified create new user else update the one in the Database */
         if (null === ($id = $user->getUserId())) {
             unset($data['userid']);
-            $this->_adapter->insert($data);
+            $this->adapter->insert($data);
             return true;
         } else {
-            $this->_adapter->update($data, array('userid = ?' => $id));
+            $this->adapter->update($data, array('userid = ?' => $id));
             return true;
         }
     }
@@ -72,7 +72,7 @@ class UserMapper
      */
     public function findById($id)
     {
-        $result = $this->_adapter->find($id);
+        $result = $this->adapter->find($id);
         if (0 == count($result)) {
             throw new \InvalidArgumentException("User #$id not found");
         }
@@ -89,7 +89,7 @@ class UserMapper
      */
     public function findAll()
     {
-        $resultSet = $this->_adapter->findAll();
+        $resultSet = $this->adapter->findAll();
         $entries   = array();
 
         foreach ($resultSet as $row) {
