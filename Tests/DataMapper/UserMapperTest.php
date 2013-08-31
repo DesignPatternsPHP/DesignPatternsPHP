@@ -10,12 +10,18 @@ use DesignPatterns\DataMapper\UserMapper;
 use DesignPatterns\DataMapper\User;
 
 /**
- * UserMapperTest tests the datamappe pattern
+ * UserMapperTest tests the datamapper pattern
  */
 class UserMapperTest extends \PHPUnit_Framework_TestCase
 {
-
+    /**
+     * @var UserMapper
+     */
     protected $mapper;
+
+    /**
+     * @var DBAL
+     */
     protected $dbal;
 
     protected function setUp()
