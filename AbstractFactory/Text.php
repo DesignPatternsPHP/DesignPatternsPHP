@@ -2,16 +2,23 @@
 
 namespace DesignPatterns\AbstractFactory;
 
+/**
+ * Class Text
+ *
+ * @package DesignPatterns\AbstractFactory
+ */
 abstract class Text implements Media
 {
     /**
-     * 
      * @var string
      */
-    protected $_text;
+    protected $text;
 
+    /**
+     * @param string $text
+     */
     public function __construct($text)
     {
-        $this->_text = $text;
+        $this->_text = (string) $text;
     }
 }
