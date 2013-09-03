@@ -1,19 +1,24 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\AbstractFactory\Json;
 
 use DesignPatterns\AbstractFactory\Text as BaseText;
 
 /**
+ * Class Text
+ *
  * Text is a text component with a JSON rendering
+ *
+ * @package DesignPatterns\AbstractFactory\Json
  */
 class Text extends BaseText
 {
 
+    /**
+     * some crude rendering from JSON output
+     *
+     * @return string
+     */
     public function render()
     {
         return json_encode(array('content' => $this->_text));
