@@ -5,6 +5,10 @@ namespace DesignPatterns\Singleton;
 /**
  * Singleton pattern
  *
+ * --------------------------------------------------------------------------------------------------------------
+ * THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND MAINTAINABILITY USE DEPENDENCY INJECTION!
+ * -------------------------------------------------------------------------------------------------------------- 
+ *
  * Purpose:
  * to have only one instance of this object in the application that will handle all calls
  *
@@ -12,7 +16,6 @@ namespace DesignPatterns\Singleton;
  * - DB Connector
  * - Logger (may also be a Multiton if there are many log files for several purposes)
  * - Lock file for the application (there is only one in the filesystem ...)
- *
  */
 class Singleton
 {
