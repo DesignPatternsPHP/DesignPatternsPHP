@@ -8,8 +8,6 @@ use DesignPatterns\AbstractFactory\Text as BaseText;
  * Class Text
  *
  * Text is a concrete text for HTML rendering
- *
- * @package DesignPatterns\AbstractFactory\Html
  */
 class Text extends BaseText
 {

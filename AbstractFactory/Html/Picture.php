@@ -8,8 +8,6 @@ use DesignPatterns\AbstractFactory\Picture as BasePicture;
  * Class Picture
  *
  * Picture is a concrete image for HTML rendering
- *
- * @package DesignPatterns\AbstractFactory\Html
  */
 class Picture extends BasePicture
 {

@@ -8,8 +8,6 @@ use DesignPatterns\AbstractFactory\Text as BaseText;
  * Class Text
  *
  * Text is a text component with a JSON rendering
- *
- * @package DesignPatterns\AbstractFactory\Json
  */
 class Text extends BaseText
 {

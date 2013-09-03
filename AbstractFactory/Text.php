@@ -4,8 +4,6 @@ namespace DesignPatterns\AbstractFactory;
 
 /**
  * Class Text
- *
- * @package DesignPatterns\AbstractFactory
  */
 abstract class Text implements Media
 {

@@ -8,8 +8,6 @@ use DesignPatterns\AbstractFactory\Picture as BasePicture;
  * Class Picture
  *
  * Picture is a concrete image for JSON rendering
- *
- * @package DesignPatterns\AbstractFactory\Json
  */
 class Picture extends BasePicture
 {

@@ -4,8 +4,6 @@ namespace DesignPatterns\AbstractFactory;
 
 /**
  * Class Picture
- *
- * @package DesignPatterns\AbstractFactory
  */
 abstract class Picture implements Media
 {
