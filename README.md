@@ -10,39 +10,39 @@ The patterns can be structured in roughly three different categories:
 
 ## Creational
 
-* (AbstractFactory)[tree/master/AbstractFactory]
-* (Builder)[tree/master/Builder]
-* (SimpleFactory)[tree/master/SimpleFactory]
-* (FactoryMethod)[tree/master/FactoryMethod]
-* (StaticFactory)[tree/master/StaticFactory]
-* (Prototype)[tree/master/Prototype]
-* (Singleton)[tree/master/Singleton] (is considered an anti-pattern! :no_entry:)
-* (Multiton)[tree/master/Multiton] (is considered an anti-pattern! :no_entry:)
+* [AbstractFactory](tree/master/AbstractFactory)
+* [Builder](tree/master/Builder)
+* [SimpleFactory](tree/master/SimpleFactory)
+* [FactoryMethod](tree/master/FactoryMethod)
+* [StaticFactory](tree/master/StaticFactory)
+* [Prototype](tree/master/Prototype)
+* [Singleton](tree/master/Singleton) (is considered an anti-pattern! :no_entry:)
+* [Multiton](tree/master/Multiton) (is considered an anti-pattern! :no_entry:)
 
 ## Structural
 
-* (Adapter)[tree/master/Adapter]
-* (Composite)[tree/master/Composite]
-* (Decorator)[tree/master/Decorator]
-* (Facade)[tree/master/Facade]
-* (Proxy)[tree/master/Proxy]
-* (Registry)[tree/master/Registry]
-* (FluentInterface)[tree/master/FluentInterface]
-* (DataMapper)[tree/master/DataMapper]
-* (DependencyInjection)[tree/master/DependencyInjection]
+* [Adapter](tree/master/Adapter)
+* [Composite](tree/master/Composite)
+* [Decorator](tree/master/Decorator)
+* [Facade](tree/master/Facade)
+* [Proxy](tree/master/Proxy)
+* [Registry](tree/master/Registry)
+* [FluentInterface](tree/master/FluentInterface)
+* [DataMapper](tree/master/DataMapper)
+* [DependencyInjection](tree/master/DependencyInjection)
 
 ## Behavioral
 
-* (ChainOfResponsibilities)[tree/master/ChainOfResponsibilities]
-* (Command)[tree/master/Command]
-* (Iterator)[tree/master/Iterator]
-* (Mediator)[tree/master/Mediator]
-* (NullObject)[tree/master/NullObject]
-* (Observer)[tree/master/Observer]
-* (StatusPattern)[tree/master/StatusPattern]
-* (Strategy)[tree/master/Strategy]
-* (TemplateMethod)[tree/master/TemplateMethod]
-* (Visitor)[tree/master/Visitor]
+* [ChainOfResponsibilities](tree/master/ChainOfResponsibilities)
+* [Command](tree/master/Command)
+* [Iterator](tree/master/Iterator)
+* [Mediator](tree/master/Mediator)
+* [NullObject](tree/master/NullObject)
+* [Observer](tree/master/Observer)
+* [StatusPattern](tree/master/StatusPattern)
+* [Strategy](tree/master/Strategy)
+* [TemplateMethod](tree/master/TemplateMethod)
+* [Visitor](tree/master/Visitor)
 
 *Please feel free to fork and extend existing or add your own examples!*
 
