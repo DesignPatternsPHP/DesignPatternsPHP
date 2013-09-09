@@ -7,20 +7,22 @@
 namespace DesignPatterns\Adapter;
 
 /**
- * ElecBookAdapter is an adapter to fit an e-book like a paper book
+ * EBookAdapter is an adapter to fit an e-book like a paper book
  * 
  * This is the adapter here. Notice it implemennts PaperBookInterface,
  * therefore you don't have to change the code of the client which using paper book.
  */
-class ElecBookAdapter implements PaperBookInterface
+class EBookAdapter implements PaperBookInterface
 {
 
     protected $eBook;
 
     /**
      * Notice the constructor, it "wraps" an electronic book
+     *
+     * @param EBookInterface $ebook
      */
-    public function __construct(ElecBookInterface $ebook)
+    public function __construct(EBookInterface $ebook)
     {
         $this->eBook = $ebook;
     }
@@ -33,9 +35,11 @@ class ElecBookAdapter implements PaperBookInterface
         $this->eBook->pressStart();
     }
 
+    /**
+     * turns pages
+     */
     public function turnPage()
     {
         $this->eBook->pressNext();
     }
-
 }

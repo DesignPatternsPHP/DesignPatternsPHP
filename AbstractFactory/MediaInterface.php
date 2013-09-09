@@ -3,12 +3,12 @@
 namespace DesignPatterns\AbstractFactory;
 
 /**
- * Interface Media
+ * Interface MediaInterface
  *
  * This contract is not part of the pattern, in general case, each component
  * are not related
  */
-interface Media
+interface MediaInterface
 {
 
     /**

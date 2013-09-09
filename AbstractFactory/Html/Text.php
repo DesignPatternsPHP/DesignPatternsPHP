@@ -11,7 +11,6 @@ use DesignPatterns\AbstractFactory\Text as BaseText;
  */
 class Text extends BaseText
 {
-
     /**
      * some crude rendering from HTML output
      *
@@ -19,7 +18,6 @@ class Text extends BaseText
      */
     public function render()
     {
-        return '<div>' . htmlspecialchars($this->_text) . '</div>';
+        return '<div>' . htmlspecialchars($this->text) . '</div>';
     }
-
 }
