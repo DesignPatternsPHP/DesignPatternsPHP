@@ -42,43 +42,48 @@ class User
     /**
      * @return int
      */
-    public function getUserId() {
-		return $this->userId;
-	}
+    public function getUserId()
+    {
+        return $this->userId;
+    }
 
     /**
      * @param int $userId
      */
-    public function setUserID($userId) {
-		$this->userId = $userId;
-	}
+    public function setUserID($userId)
+    {
+        $this->userId = $userId;
+    }
 
     /**
      * @return string
      */
-    public function getUsername() {
-		return $this->username;
-	}
+    public function getUsername()
+    {
+        return $this->username;
+    }
 
     /**
      * @param string $username
      */
-    public function setUsername($username) {
-		$this->username = $username;
-	}
+    public function setUsername($username)
+    {
+        $this->username = $username;
+    }
 
     /**
      * @return string
      */
-    public function getEmail() {
-		return $this->email;
-	}
+    public function getEmail()
+    {
+        return $this->email;
+    }
 
     /**
      * @param string $email
      */
-    public function setEmail($email) {
-		$this->email = $email;
-	}
-
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    }
 }
