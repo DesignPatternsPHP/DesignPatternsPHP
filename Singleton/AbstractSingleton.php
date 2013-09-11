@@ -10,7 +10,7 @@
 
 namespace DesignPatterns\Singleton;
 
-abstract class Singleton {
+abstract class AbstractSingleton {
 
     /**
      * Instance
@@ -46,13 +46,13 @@ abstract class Singleton {
 
 }
 
-class Foo extends Singleton {
+class Foo extends AbstractSingleton {
 
 
 
 }
 
-class Bar extends Singleton {
+class Bar extends AbstractSingleton {
 
 
 }
