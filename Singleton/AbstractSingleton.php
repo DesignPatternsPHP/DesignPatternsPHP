@@ -8,7 +8,7 @@
  * @author  : Yousef Ismaeil <cliprz@gmail.com>
  */
 
-namespace DesignPatterns\AbstractFactory;
+namespace DesignPatterns\Singleton;
 
 abstract class Singleton {
 
