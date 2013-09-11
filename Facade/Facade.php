@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Facade;
 
 /**
@@ -28,31 +24,45 @@ namespace DesignPatterns\Facade;
  */
 class Facade
 {
+    /**
+     * @var OsInterface
+     */
+    protected $os;
 
-    protected $opsys;
+    /**
+     * @var BiosInterface
+     */
     protected $bios;
 
     /**
      * This is the perfect time to use a dependency injection container
      * to creaate an instance of this class
+     *
+     * @param BiosInterface $bios
+     * @param OsInterface   $os
      */
     public function __construct(BiosInterface $bios, OsInterface $os)
     {
         $this->bios = $bios;
-        $this->opsys = $os;
+        $this->os = $os;
     }
 
+    /**
+     * turn on the system
+     */
     public function turnOn()
     {
         $this->bios->execute();
         $this->bios->waitForKeyPress();
-        $this->bios->launch($this->opsys);
+        $this->bios->launch($this->os);
     }
 
+    /**
+     * turn off the system
+     */
     public function turnOff()
     {
-        $this->opsys->halt();
+        $this->os->halt();
         $this->bios->powerDown();
     }
-
 }
