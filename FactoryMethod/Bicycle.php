@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\FactoryMethod;
 
 /**
@@ -11,10 +7,18 @@ namespace DesignPatterns\FactoryMethod;
  */
 class Bicycle implements Vehicle
 {
+    /**
+     * @var string
+     */
+    protected $color;
 
+    /**
+     * sets the color of the bicycle
+     *
+     * @param string $rgb
+     */
     public function setColor($rgb)
     {
-        
+        $this->color = $rgb;
     }
-
 }

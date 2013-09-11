@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\FactoryMethod;
 
 /**
@@ -11,6 +7,10 @@ namespace DesignPatterns\FactoryMethod;
  */
 interface Vehicle
 {
-
+    /**
+     * sets the color of the vehicle
+     *
+     * @param string $rgb
+     */
     function setColor($rgb);
 }

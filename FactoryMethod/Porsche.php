@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\FactoryMethod;
 
 /**
@@ -11,15 +7,25 @@ namespace DesignPatterns\FactoryMethod;
  */
 class Porsche implements Vehicle
 {
+    /**
+     * @var string
+     */
+    protected $color;
 
+    /**
+     * @param string $rgb
+     */
     public function setColor($rgb)
     {
-        
+        $this->color = $rgb;
     }
 
+    /**
+     * although tuning by AMG is only offered for Mercedes Cars,
+     * this is a valid coding example ...
+     */
     public function addTuningAMG()
     {
-        
-    }
 
+    }
 }

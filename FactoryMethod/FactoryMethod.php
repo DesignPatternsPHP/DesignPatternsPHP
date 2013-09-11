@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\FactoryMethod;
 
 /**
@@ -50,5 +46,4 @@ abstract class FactoryMethod
 
         return $obj;
     }
-
 }

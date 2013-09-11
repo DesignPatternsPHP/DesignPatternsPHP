@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\FactoryMethod;
 
 /**
@@ -11,10 +7,16 @@ namespace DesignPatterns\FactoryMethod;
  */
 class Ferrari implements Vehicle
 {
+    /**
+     * @var string
+     */
+    protected $color;
 
+    /**
+     * @param string $rgb
+     */
     public function setColor($rgb)
     {
-        
+        $this->color = $rgb;
     }
-
 }
