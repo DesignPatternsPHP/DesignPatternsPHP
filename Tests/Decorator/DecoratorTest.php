@@ -42,7 +42,7 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testDecoratorMustImplementsRenderer()
     {
-        $this->assertTrue(is_subclass_of('DesignPatterns\Decorator\Decorator', 'DesignPatterns\Decorator\Renderer'));
+        $this->assertTrue(is_subclass_of('DesignPatterns\Decorator\Decorator', 'DesignPatterns\Decorator\RendererInterface'));
     }
 
     /**
@@ -60,7 +60,7 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testDecoratorOnlyAcceptRenderer()
     {
-        $mock = $this->getMock('DesignPatterns\Decorator\Renderer');
+        $mock = $this->getMock('DesignPatterns\Decorator\RendererInterface');
         $dec = $this->getMockForAbstractClass('DesignPatterns\Decorator\Decorator', array($mock));
         $this->assertNotNull($dec);
     }
