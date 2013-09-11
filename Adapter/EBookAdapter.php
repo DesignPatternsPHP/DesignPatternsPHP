@@ -14,7 +14,9 @@ namespace DesignPatterns\Adapter;
  */
 class EBookAdapter implements PaperBookInterface
 {
-
+    /**
+     * @var EBookInterface
+     */
     protected $eBook;
 
     /**

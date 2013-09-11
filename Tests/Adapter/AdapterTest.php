@@ -17,7 +17,9 @@ use DesignPatterns\Adapter\Book;
  */
 class AdapterTest extends \PHPUnit_Framework_TestCase
 {
-
+    /**
+     * @return array
+     */
     public function getBook()
     {
         return array(
@@ -30,7 +32,9 @@ class AdapterTest extends \PHPUnit_Framework_TestCase
     /**
      * This client only knows paper book but surprise, surprise, the second book
      * is in fact an electronic book, but both work the same way
-     * 
+     *
+     * @param PaperBookInterface $book
+     *
      * @dataProvider getBook
      */
     public function test_I_am_an_old_Client(PaperBookInterface $book)
