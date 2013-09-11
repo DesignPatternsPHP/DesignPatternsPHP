@@ -11,10 +11,11 @@ namespace DesignPatterns\Command;
  */
 class Receiver
 {
-
+    /**
+     * @param string $str
+     */
     public function write($str)
     {
         echo $str;
     }
-
 }
