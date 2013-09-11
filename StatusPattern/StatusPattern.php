@@ -10,8 +10,10 @@ namespace DesignPatterns;
 */
 interface OrderInterface 
 {
-
-	public function shipOrder();
+    /**
+     * @return mixed
+     */
+    public function shipOrder();
 
 	public function completeOrder();
 
@@ -100,9 +102,12 @@ class OrderFactory {
 
 // Client
 
-Class OrderControler {
-
-	public function shipAction($id)
+class OrderController
+{
+    /**
+     * @param int $id
+     */
+    public function shipAction($id)
 	{
 		$order = OrderFactory::getOrder($id);
 		try {
@@ -123,5 +128,4 @@ Class OrderControler {
 		}
 		// response to browser 
 	}
-
 }

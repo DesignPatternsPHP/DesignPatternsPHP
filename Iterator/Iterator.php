@@ -21,20 +21,29 @@ namespace DesignPatterns;
  */
 class File
 {
-    protected $_rowset;
+    /**
+     * @var Rowset
+     */
+    protected $rowset;
 
-    protected $_pathName;
+    /**
+     * @var string
+     */
+    protected $pathName;
 
+    /**
+     * @param string $pathName
+     */
     public function __construct($pathName)
     {
-        $this->_rowset = new Rowset($this);
+        $this->rowset = new Rowset($this);
     }
 
     public function process()
     {
         // this is the place to show how using an iterator, with foreach
         // See the CardGame.php file
-        $this->_rowset->process();
+        $this->rowset->process();
     }
 }
 
