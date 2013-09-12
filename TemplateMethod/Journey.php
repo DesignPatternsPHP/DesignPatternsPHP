@@ -1,15 +1,11 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\TemplateMethod;
 
 /**
  * Template Method is a behavioral design pattern.
  * 
- * Perhaps you have encoutered it many times already. The idea is to let subclasses
+ * Perhaps you have encountered it many times already. The idea is to let subclasses
  * of this abstract template "finish" the behavior of an algorithm.
  * 
  * A.k.a the "Hollywood principle" : "" Don't call us, we call you. ""
@@ -25,14 +21,13 @@ namespace DesignPatterns\TemplateMethod;
  */
 abstract class Journey
 {
-
     /**
      * This is the public service provided by this class and its subclasses.
      * Notice it is final to "freeze" the global behavior of algorithm.
      * If you want to override this contract, make an interface with only takeATrip() 
      * and subclass it.
      */
-    public final function takeATrip()
+    final public function takeATrip()
     {
         $this->buyAFlight();
         $this->takePlane();
@@ -53,24 +48,27 @@ abstract class Journey
      */
     protected function buyGift()
     {
-        
     }
 
-    // this method will be unknown by subclasses (better)    
+    /**
+     * this method will be unknown by subclasses (better)
+     */
     private function buyAFlight()
     {
         echo "Buying a flight\n";
     }
 
-    // sbclasses will get access to this method but cannot override it and 
-    // compromise this algorithm (warning : cause of cyclic depedencies)
+    /**
+     * sbclasses will get access to this method but cannot override it and
+     * compromise this algorithm (warning : cause of cyclic dependencies)
+     */
     final protected function takePlane()
     {
         echo "Taking the plane\n";
     }
 
     // A note regarding the keyword "final" : don't use it when you start coding :
-    // add it after you narrow and know exacly what change and what remain unchanged
-    // in this algorithm. 
+    // add it after you narrow and know exactly what change and what remain unchanged
+    // in this algorithm.
     // [abstract] x [3 access] x [final] = 12 combinations, it can be hard !
 }
