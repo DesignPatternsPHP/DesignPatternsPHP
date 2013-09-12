@@ -29,7 +29,7 @@ class HelloCommand implements CommandInterface
      */
     public function execute()
     {
-        // sometimes, there is no receiver and this is the command which 
+        // sometimes, there is no receiver and this is the command which
         // does all the work
         $this->output->write('Hello World');
     }

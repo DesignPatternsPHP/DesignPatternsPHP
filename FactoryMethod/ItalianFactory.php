@@ -19,7 +19,7 @@ class ItalianFactory extends FactoryMethod
             case parent::FAST:
                 return new Ferrari();
                 break;
-            default :
+            default:
                 throw new \InvalidArgumentException("$type is not a valid vehicle");
         }
     }

@@ -24,7 +24,7 @@ class GermanFactory extends FactoryMethod
 
                 return $obj;
                 break;
-            default :
+            default:
                 throw new \InvalidArgumentException("$type is not a valid vehicle");
         }
     }
