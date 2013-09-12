@@ -2,7 +2,10 @@
 
 namespace DesignPatterns\StaticFactory;
 
-interface Formatter
+/**
+ * Class FormatterInterface
+ */
+interface FormatterInterface
 {
-    
+
 }

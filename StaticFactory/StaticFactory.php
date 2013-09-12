@@ -14,16 +14,19 @@ namespace DesignPatterns\StaticFactory;
  * - Zend Framework: Zend_Cache_Backend or _Frontend use a factory method create cache backends or frontends
  * 
  * Note1: Remember, static => global => evil
- * Note2: Cannot be subclassed or mock-uped or have multiple different instances
+ * Note2: Cannot be subclassed or mock-upped or have multiple different instances
  */
 class StaticFactory
 {
-
     /**
      * the parametrized function to get create an instance
      *
+     * @param string $type
+     *
      * @static
-     * @return Formatter
+     *
+     * @throws \InvalidArgumentException
+     * @return FormatterInterface
      */
     public static function factory($type)
     {
@@ -35,5 +38,4 @@ class StaticFactory
 
         return new $className();
     }
-
 }
