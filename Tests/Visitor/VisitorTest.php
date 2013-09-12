@@ -39,7 +39,7 @@ class VisitorTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException InvalidArgumentException
+     * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage Mock
      */
     public function testUnknownObject()

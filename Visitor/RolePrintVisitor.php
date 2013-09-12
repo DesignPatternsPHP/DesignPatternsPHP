@@ -7,11 +7,10 @@ namespace DesignPatterns\Visitor;
  *
  * An implementation of a concrete Visitor
  */
-class RolePrintVisitor implements RoleVisitor
+class RolePrintVisitor implements RoleVisitorInterface
 {
-
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function visitGroup(Group $role)
     {
@@ -19,11 +18,10 @@ class RolePrintVisitor implements RoleVisitor
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function visitUser(User $role)
     {
         echo "Role: " . $role->getName();
     }
-
 }
