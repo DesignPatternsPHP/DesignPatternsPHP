@@ -7,7 +7,7 @@
 namespace DesignPatterns\Builder\Parts;
 
 /**
- * Vehicle is a contract for a vehicle
+ * VehicleInterface is a contract for a vehicle
  */
 abstract class Vehicle
 {

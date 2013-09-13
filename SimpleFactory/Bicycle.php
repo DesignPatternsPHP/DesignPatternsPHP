@@ -9,7 +9,7 @@ namespace DesignPatterns\SimpleFactory;
 /**
  * Bicycle is a bicycle
  */
-class Bicycle implements Vehicle
+class Bicycle implements VehicleInterface
 {
 
     public function driveTo($destination)

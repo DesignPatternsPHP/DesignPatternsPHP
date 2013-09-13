@@ -35,7 +35,7 @@ class SimpleFactoryTest extends \PHPUnit_Framework_TestCase
     public function testCreation($type)
     {
         $obj = $this->factory->createVehicle($type);
-        $this->assertInstanceOf('DesignPatterns\SimpleFactory\Vehicle', $obj);
+        $this->assertInstanceOf('DesignPatterns\SimpleFactory\VehicleInterface', $obj);
     }
 
     /**

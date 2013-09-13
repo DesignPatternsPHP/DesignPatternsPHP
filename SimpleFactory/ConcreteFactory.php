@@ -36,7 +36,7 @@ class ConcreteFactory
      * Creates a vehicle
      * 
      * @param string $type a known type key
-     * @return Vehicle a new instance of Vehicle
+     * @return VehicleInterface a new instance of VehicleInterface
      * @throws \InvalidArgumentException
      */
     public function createVehicle($type)
