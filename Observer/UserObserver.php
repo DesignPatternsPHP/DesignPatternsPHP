@@ -17,7 +17,6 @@ namespace DesignPatterns\Observer;
  */
 class UserObserver implements \SplObserver
 {
-
     /**
      * This is the only method to implement as an observer.
      * It is called by the Subject (usually by SplSubject::notify() )
@@ -28,5 +27,4 @@ class UserObserver implements \SplObserver
     {
         echo get_class($subject) . ' has been updated';
     }
-
 }

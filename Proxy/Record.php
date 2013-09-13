@@ -18,14 +18,14 @@ class Record
     /**
      * @var array|null
      */
-    protected $_data;
+    protected $data;
 
     /**
      * @param null $data
      */
     public function __construct($data = null)
     {
-        $this->_data = (array) $data;
+        $this->data = (array) $data;
     }
 
     /**
@@ -38,7 +38,7 @@ class Record
      */
     public function __set($name, $value)
     {
-        $this->_data[(string) $name] = $value;
+        $this->data[(string) $name] = $value;
     }
 
     /**
@@ -50,8 +50,8 @@ class Record
      */
     public function __get($name)
     {
-        if (array_key_exists($name, $this->_data)) {
-            return $this->_data[(string) $name];
+        if (array_key_exists($name, $this->data)) {
+            return $this->data[(string) $name];
         } else {
             return null;
         }

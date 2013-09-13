@@ -36,11 +36,11 @@ class ObserverTest extends \PHPUnit_Framework_TestCase
     public function testAttachDetach()
     {
         $subject = new User();
-        $this->assertAttributeEmpty('_observers', $subject);
+        $this->assertAttributeEmpty('observers', $subject);
         $subject->attach($this->observer);
-        $this->assertAttributeNotEmpty('_observers', $subject);
+        $this->assertAttributeNotEmpty('observers', $subject);
         $subject->detach($this->observer);
-        $this->assertAttributeEmpty('_observers', $subject);
+        $this->assertAttributeEmpty('observers', $subject);
     }
 
     /**

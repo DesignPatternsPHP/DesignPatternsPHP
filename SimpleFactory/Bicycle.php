@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\SimpleFactory;
 
 /**
@@ -11,10 +7,13 @@ namespace DesignPatterns\SimpleFactory;
  */
 class Bicycle implements VehicleInterface
 {
-
+    /**
+     * @param mixed $destination
+     *
+     * @return mixed|void
+     */
     public function driveTo($destination)
     {
-        
-    }
 
+    }
 }
