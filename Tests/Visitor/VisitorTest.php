@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Tests\Visitor;
 
 use DesignPatterns\Visitor;

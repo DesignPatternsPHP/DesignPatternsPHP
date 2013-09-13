@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\ChainOfResponsibilities\Responsible;
 
 use DesignPatterns\ChainOfResponsibilities\Handler;
@@ -33,5 +29,4 @@ class FastStorage extends Handler
 
         return false;
     }
-
 }

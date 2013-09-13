@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Tests\Decorator;
 
 use DesignPatterns\Decorator;
@@ -64,5 +60,4 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
         $dec = $this->getMockForAbstractClass('DesignPatterns\Decorator\Decorator', array($mock));
         $this->assertNotNull($dec);
     }
-
 }

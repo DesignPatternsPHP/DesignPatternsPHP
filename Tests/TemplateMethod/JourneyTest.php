@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Tests\TemplateMethod;
 
 use DesignPatterns\TemplateMethod;

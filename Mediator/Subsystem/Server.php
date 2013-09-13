@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Mediator\Subsystem;
 
 use DesignPatterns\Mediator\Colleague;
@@ -19,5 +15,4 @@ class Server extends Colleague
         $data = $this->getMediator()->queryDb();
         $this->getMediator()->sendResponse("Hello $data");
     }
-
 }

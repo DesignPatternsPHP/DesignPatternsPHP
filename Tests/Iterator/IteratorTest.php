@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Tests\Iterator;
 
 use DesignPatterns\Iterator\CardGame;
@@ -64,5 +60,4 @@ class IteratorTest extends \PHPUnit_Framework_TestCase
         $newDeck->append(new \ArrayIterator($joker));
         $this->assertCount(33, $newDeck);
     }
-
 }

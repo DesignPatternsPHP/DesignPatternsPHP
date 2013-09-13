@@ -3,14 +3,14 @@
 namespace DesignPatterns\FactoryMethod;
 
 /**
- * Vehicle is a contract for a vehicle
+ * VehicleInterface is a contract for a vehicle
  */
-interface Vehicle
+interface VehicleInterface
 {
     /**
      * sets the color of the vehicle
      *
      * @param string $rgb
      */
-    function setColor($rgb);
+    public function setColor($rgb);
 }

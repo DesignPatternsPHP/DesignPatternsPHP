@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\ChainOfResponsibilities;
 
 /**
@@ -16,7 +12,9 @@ namespace DesignPatterns\ChainOfResponsibilities;
  */
 abstract class Handler
 {
-
+    /**
+     * @var null
+     */
     private $successor = null;
 
     /**

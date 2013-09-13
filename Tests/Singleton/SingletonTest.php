@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Tests\Singleton;
 
 use DesignPatterns\Singleton\Singleton;
@@ -30,5 +26,4 @@ class SingletonTest extends \PHPUnit_Framework_TestCase
         $meth = $refl->getMethod('__construct');
         $this->assertTrue($meth->isPrivate());
     }
-
 }

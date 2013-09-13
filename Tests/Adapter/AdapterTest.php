@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Tests\Adapter;
 
 use DesignPatterns\Adapter\EBookAdapter;
@@ -42,5 +38,4 @@ class AdapterTest extends \PHPUnit_Framework_TestCase
         $book->open();
         $book->turnPage();
     }
-
 }

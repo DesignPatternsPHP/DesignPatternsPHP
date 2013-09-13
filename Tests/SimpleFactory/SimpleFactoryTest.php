@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Tests\SimpleFactory;
 
 use DesignPatterns\SimpleFactory\ConcreteFactory;

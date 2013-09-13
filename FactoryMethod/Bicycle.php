@@ -5,7 +5,7 @@ namespace DesignPatterns\FactoryMethod;
 /**
  * Bicycle is a bicycle
  */
-class Bicycle implements Vehicle
+class Bicycle implements VehicleInterface
 {
     /**
      * @var string

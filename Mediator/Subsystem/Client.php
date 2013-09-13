@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Mediator\Subsystem;
 
 use DesignPatterns\Mediator\Colleague;

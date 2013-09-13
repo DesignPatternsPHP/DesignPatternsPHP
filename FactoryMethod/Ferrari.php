@@ -5,7 +5,7 @@ namespace DesignPatterns\FactoryMethod;
 /**
  * Ferrari is a italian car
  */
-class Ferrari implements Vehicle
+class Ferrari implements VehicleInterface
 {
     /**
      * @var string

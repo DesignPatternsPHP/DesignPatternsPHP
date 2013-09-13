@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Test\DataMapper;
 
 use DesignPatterns\DataMapper\UserMapper;
@@ -106,5 +102,4 @@ class UserMapperTest extends \PHPUnit_Framework_TestCase
 
         $user = $this->mapper->findById(404);
     }
-
 }

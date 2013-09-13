@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Builder;
 
 /**
@@ -42,5 +38,4 @@ class CarBuilder implements Builder
     {
         return $this->car;
     }
-
 }

@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Tests\Mediator;
 
 use DesignPatterns\Mediator\Mediator;
@@ -35,5 +31,4 @@ class MediatorTest extends \PHPUnit_Framework_TestCase
         // Anyway, it remains complexity in the Mediator that's why the pattern
         // Observer is preferable in mnay situations.
     }
-
 }

@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\ChainOfResponsibilities\Responsible;
 
 use DesignPatterns\ChainOfResponsibilities\Handler;
@@ -21,9 +17,14 @@ use DesignPatterns\ChainOfResponsibilities\Request;
  */
 class SlowStorage extends Handler
 {
-
+    /**
+     * @var array
+     */
     protected $_data = array();
 
+    /**
+     * @param array $data
+     */
     public function __construct($data = array())
     {
         $this->_data = $data;
@@ -34,11 +35,11 @@ class SlowStorage extends Handler
         if ('get' === $req->verb) {
             if (array_key_exists($req->key, $this->_data)) {
                 $req->response = $this->_data[$req->key];
+
                 return true;
             }
         }
 
         return false;
     }
-
 }

@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Tests\FactoryMethod;
 
 use DesignPatterns\FactoryMethod\FactoryMethod;
@@ -38,7 +34,7 @@ class FactoryMethodTest extends \PHPUnit_Framework_TestCase
         // about the factory, all we know is it can produce vehicle
         foreach ($this->type as $oneType) {
             $vehicle = $shop->create($oneType);
-            $this->assertInstanceOf('DesignPatterns\FactoryMethod\Vehicle', $vehicle);
+            $this->assertInstanceOf('DesignPatterns\FactoryMethod\VehicleInterface', $vehicle);
         }
     }
 
@@ -51,5 +47,4 @@ class FactoryMethodTest extends \PHPUnit_Framework_TestCase
     {
         $shop->create('spaceship');
     }
-
 }

@@ -5,7 +5,7 @@ namespace DesignPatterns\FactoryMethod;
 /**
  * Porsche is a german car
  */
-class Porsche implements Vehicle
+class Porsche implements VehicleInterface
 {
     /**
      * @var string
