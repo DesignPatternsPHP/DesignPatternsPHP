@@ -9,10 +9,11 @@ use DesignPatterns\Mediator\Colleague;
  */
 class Database extends Colleague
 {
-
+    /**
+     * @return string
+     */
     public function getData()
     {
         return "World";
     }
-
 }

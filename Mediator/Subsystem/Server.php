@@ -9,7 +9,9 @@ use DesignPatterns\Mediator\Colleague;
  */
 class Server extends Colleague
 {
-
+    /**
+     * process on server
+     */
     public function process()
     {
         $data = $this->getMediator()->queryDb();

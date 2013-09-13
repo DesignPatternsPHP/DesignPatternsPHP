@@ -13,15 +13,15 @@ interface MediatorInterface
      *
      * @param string $content
      */
-    function sendResponse($content);
+    public function sendResponse($content);
 
     /**
      * makes a request
      */
-    function makeRequest();
+    public function makeRequest();
 
     /**
      * queries the DB
      */
-    function queryDb();
+    public function queryDb();
 }
