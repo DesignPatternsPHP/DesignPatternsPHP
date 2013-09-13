@@ -16,5 +16,5 @@ interface MediaInterface
      *
      * @return string
      */
-    function render();
+    public function render();
 }

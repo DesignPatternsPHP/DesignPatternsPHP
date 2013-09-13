@@ -20,21 +20,21 @@ class SlowStorage extends Handler
     /**
      * @var array
      */
-    protected $_data = array();
+    protected $data = array();
 
     /**
      * @param array $data
      */
     public function __construct($data = array())
     {
-        $this->_data = $data;
+        $this->data = $data;
     }
 
     protected function processing(Request $req)
     {
         if ('get' === $req->verb) {
-            if (array_key_exists($req->key, $this->_data)) {
-                $req->response = $this->_data[$req->key];
+            if (array_key_exists($req->key, $this->data)) {
+                $req->response = $this->data[$req->key];
 
                 return true;
             }
