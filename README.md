@@ -49,6 +49,7 @@ The patterns can be structured in roughly three different categories. Please cli
 ## Contribute
 
 Please feel free to fork and extend existing or add your own examples and send a pull request with your changes!
+To establish a consistent code quality, please check your code using [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) against [this standard](https://github.com/domnikl/Symfony2-coding-standard).
 
 ## License
 
