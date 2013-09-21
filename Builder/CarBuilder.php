@@ -5,7 +5,7 @@ namespace DesignPatterns\Builder;
 /**
  * CarBuilder builds car
  */
-class CarBuilder implements Builder
+class CarBuilder implements BuilderInterface
 {
     /**
      * @var Parts\Car

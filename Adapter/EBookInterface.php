@@ -7,7 +7,17 @@ namespace DesignPatterns\Adapter;
  */
 interface EBookInterface
 {
-    function pressNext();
+    /**
+     * go to next page
+     *
+     * @return mixed
+     */
+    public function pressNext();
 
-    function pressStart();
+    /**
+     * start the book
+     *
+     * @return mixed
+     */
+    public function pressStart();
 }

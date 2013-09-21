@@ -33,7 +33,7 @@ class DirectorTest extends \PHPUnit_Framework_TestCase
      * 
      * @dataProvider getBuilder
      */
-    public function testBuild(\DesignPatterns\Builder\Builder $builder)
+    public function testBuild(\DesignPatterns\Builder\BuilderInterface $builder)
     {
         $newVehicle = $this->director->build($builder);
         $this->assertInstanceOf('DesignPatterns\Builder\Parts\Vehicle', $newVehicle);

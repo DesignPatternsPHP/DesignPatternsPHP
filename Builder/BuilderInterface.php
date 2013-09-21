@@ -14,7 +14,7 @@ namespace DesignPatterns\Builder;
  * Note: Builders have often a fluent interface, see the mock builder of
  * PHPUnit for example.
  */
-interface Builder
+interface BuilderInterface
 {
     /**
      * @return mixed
