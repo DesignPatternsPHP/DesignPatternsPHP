@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Mediator;
 
 use DesignPatterns\Mediator\Subsystem;
@@ -29,6 +25,11 @@ class Mediator implements MediatorInterface
     protected $database;
     protected $client;
 
+    /**
+     * @param Subsystem\Database $db
+     * @param Subsystem\Client   $cl
+     * @param Subsystem\Server   $srv
+     */
     public function setColleague(Subsystem\Database $db, Subsystem\Client $cl, Subsystem\Server $srv)
     {
         $this->database = $db;
@@ -36,19 +37,31 @@ class Mediator implements MediatorInterface
         $this->client = $cl;
     }
 
+    /**
+     * make request
+     */
     public function makeRequest()
     {
         $this->server->process();
     }
 
+    /**
+     * query db
+     *
+     * @return mixed
+     */
     public function queryDb()
     {
         return $this->database->getData();
     }
 
+    /**
+     * send response
+     *
+     * @param string $content
+     */
     public function sendResponse($content)
     {
         $this->client->output($content);
     }
-
 }

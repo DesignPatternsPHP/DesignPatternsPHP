@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Builder;
 
 /**
@@ -18,8 +14,12 @@ class Director
 
     /**
      * The director don't know 'bout concrete part
+     *
+     * @param BuilderInterface $builder
+     *
+     * @return Parts\Vehicle
      */
-    public function build(Builder $builder)
+    public function build(BuilderInterface $builder)
     {
         $builder->createVehicle();
         $builder->addDoors();
@@ -28,5 +28,4 @@ class Director
 
         return $builder->getVehicle();
     }
-
 }

@@ -5,7 +5,7 @@ namespace DesignPatterns\AbstractFactory;
 /**
  * Class Picture
  */
-abstract class Picture implements Media
+abstract class Picture implements MediaInterface
 {
 
     /**

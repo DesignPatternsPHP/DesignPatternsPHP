@@ -28,6 +28,7 @@ abstract class AbstractFactory
      * Creates a text component
      * 
      * @param string $content
+     *
      * @return Text
      */
     abstract public function createText($content);
@@ -37,6 +38,7 @@ abstract class AbstractFactory
      * 
      * @param string $path
      * @param string $name
+     *
      * @return Picture
      */
     abstract public function createPicture($path, $name = '');

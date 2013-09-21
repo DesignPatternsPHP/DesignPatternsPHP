@@ -9,12 +9,12 @@ namespace DesignPatterns\AbstractFactory;
  */
 class HtmlFactory extends AbstractFactory
 {
-
     /**
      * Creates a picture component
      *
      * @param string $path
      * @param string $name
+     *
      * @return Html\Picture|Picture
      */
     public function createPicture($path, $name = '')
@@ -26,11 +26,11 @@ class HtmlFactory extends AbstractFactory
      * Creates a text component
      *
      * @param string $content
+     *
      * @return Html\Text|Text
      */
     public function createText($content)
     {
         return new Html\Text($content);
     }
-
 }

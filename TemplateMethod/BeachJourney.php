@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\TemplateMethod;
 
 /**
@@ -11,10 +7,11 @@ namespace DesignPatterns\TemplateMethod;
  */
 class BeachJourney extends Journey
 {
-
+    /**
+     * prints what to do to enjoy your vacation
+     */
     protected function enjoyVacation()
     {
         echo "Swimming and sun-bathing\n";
     }
-
 }

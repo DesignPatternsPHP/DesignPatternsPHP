@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\NullObject;
 
 /**
@@ -32,10 +28,11 @@ namespace DesignPatterns\NullObject;
  */
 class NullLogger implements LoggerInterface
 {
-
+    /**
+     * @param string $str
+     */
     public function log($str)
     {
         // do nothing
     }
-
 }

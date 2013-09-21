@@ -1,20 +1,17 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\TemplateMethod;
 
 /**
- * CityJouney is a journey in a city
+ * CityJourney is a journey in a city
  */
-class CityJouney extends Journey
+class CityJourney extends Journey
 {
-
+    /**
+     * prints what to do in your journey to enjoy vacation
+     */
     protected function enjoyVacation()
     {
         echo "Eat, drink, take photos and sleep\n";
     }
-
 }

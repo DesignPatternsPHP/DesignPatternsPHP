@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\ChainOfResponsibilities;
 
 /**
@@ -16,7 +12,9 @@ namespace DesignPatterns\ChainOfResponsibilities;
  */
 abstract class Handler
 {
-
+    /**
+     * @var Handler
+     */
     private $successor = null;
 
     /**
@@ -24,14 +22,16 @@ abstract class Handler
      * 
      * A prepend method could be done with the same spirit
      * 
-     * You could also send the successor in the contructor but in PHP it is a
+     * You could also send the successor in the constructor but in PHP it is a
      * bad idea because you have to remove the type-hint of the parameter because
      * the last handler has a null successor.
      * 
-     * And if you override the contructor, that Handler can no longer have a
+     * And if you override the constructor, that Handler can no longer have a
      * successor. One solution is to provide a NullObject (see pattern).
      * It is more preferable to keep the constructor "free" to inject services
      * you need with the DiC of symfony2 for example.
+     *
+     * @param Handler $handler
      */
     final public function append(Handler $handler)
     {
@@ -48,6 +48,10 @@ abstract class Handler
      * This approach by using a template method pattern ensures you that 
      * each subclass will not forget to call the successor. Beside, the returned
      * boolean value indicates you if the request have been processed or not.
+     *
+     * @param Request $req
+     *
+     * @return bool
      */
     final public function handle(Request $req)
     {
@@ -65,7 +69,9 @@ abstract class Handler
 
     /**
      * Each concrete handler has to implement the processing of the request
-     * 
+     *
+     * @param Request $req
+     *
      * @return bool true if the request has been processed
      */
     abstract protected function processing(Request $req);

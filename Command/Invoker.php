@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Command;
 
 /**
@@ -12,23 +8,29 @@ namespace DesignPatterns\Command;
  */
 class Invoker
 {
-
+    /**
+     * @var CommandInterface
+     */
     protected $command;
 
     /**
      * In the invoker we find this kind of method for subscribing the command.
      * There can be also a stack, a list, a fixed set...
+     *
+     * @param CommandInterface $cmd
      */
-    public function setCommand(Command $cmd)
+    public function setCommand(CommandInterface $cmd)
     {
         $this->command = $cmd;
     }
 
+    /**
+     * executes the command
+     */
     public function run()
     {
         // here is a key feature of the invoker
         // the invoker is the same whatever is the command
         $this->command->execute();
     }
-
 }

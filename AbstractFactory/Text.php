@@ -5,7 +5,7 @@ namespace DesignPatterns\AbstractFactory;
 /**
  * Class Text
  */
-abstract class Text implements Media
+abstract class Text implements MediaInterface
 {
     /**
      * @var string

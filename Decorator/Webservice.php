@@ -2,19 +2,29 @@
 
 namespace DesignPatterns\Decorator;
 
-class Webservice implements Renderer
+/**
+ * Class Webservice
+ */
+class Webservice implements RendererInterface
 {
+    /**
+     * @var mixed
+     */
+    protected $data;
 
-    protected $_data;
-
+    /**
+     * @param mixed $data
+     */
     public function __construct($data)
     {
-        $this->_data = $data;
+        $this->data = $data;
     }
 
+    /**
+     * @return string
+     */
     public function renderData()
     {
-        return $this->_data;
+        return $this->data;
     }
-
 }

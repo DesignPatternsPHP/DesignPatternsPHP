@@ -40,7 +40,9 @@ class Singleton
      *
      */
     private function __construct()
-    {}
+    {
+
+    }
 
     /**
      * prevent the instance from being cloned
@@ -48,7 +50,9 @@ class Singleton
      * @return void
      */
     private function __clone()
-    {}
+    {
+
+    }
 
     /**
      * prevent from being unserialized
@@ -56,5 +60,7 @@ class Singleton
      * @return void
      */
     private function __wakeup()
-    {}
+    {
+
+    }
 }

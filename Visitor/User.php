@@ -9,7 +9,6 @@ namespace DesignPatterns\Visitor;
  */
 class User extends Role
 {
-
     /**
      * @var string
      */
@@ -30,6 +29,4 @@ class User extends Role
     {
         return "User " . $this->name;
     }
-
 }
-

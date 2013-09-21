@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\FactoryMethod;
 
 /**
@@ -32,7 +28,7 @@ abstract class FactoryMethod
      * 
      * @param string $type a generic type
      * 
-     * @return Vehicle a new vehicle
+     * @return VehicleInterface a new vehicle
      */
     abstract protected function createVehicle($type);
 
@@ -41,7 +37,7 @@ abstract class FactoryMethod
      * 
      * @param int $type
      * 
-     * @return Vehicle a new vehicle
+     * @return VehicleInterface a new vehicle
      */
     public function create($type)
     {
@@ -50,5 +46,4 @@ abstract class FactoryMethod
 
         return $obj;
     }
-
 }

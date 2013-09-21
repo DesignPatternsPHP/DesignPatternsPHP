@@ -13,9 +13,8 @@ namespace DesignPatterns\Visitor;
  * Note 2 : the visitor must not choose itself which method to
  * invoke, it is the Visitee that make this decision.
  */
-interface RoleVisitor
+interface RoleVisitorInterface
 {
-
     /**
      * Visit a User object
      * 
@@ -24,7 +23,7 @@ interface RoleVisitor
     public function visitUser(User $role);
 
     /**
-     * Visit a Group objet
+     * Visit a Group object
      * 
      * @param \DesignPatterns\Visitor\Group $role
      */

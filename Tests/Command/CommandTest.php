@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Tests\Command;
 
 use DesignPatterns\Command\Invoker;
@@ -32,5 +28,4 @@ class CommandTest extends \PHPUnit_Framework_TestCase
         $this->expectOutputString('Hello World');
         $this->invoker->run();
     }
-
 }

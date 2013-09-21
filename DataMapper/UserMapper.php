@@ -25,12 +25,14 @@ namespace DesignPatterns\DataMapper;
  */
 class UserMapper
 {
-
     /**
      * @var DBAL
      */
     protected $adapter;
 
+    /**
+     * @param DBAL $dbLayer
+     */
     public function __construct(DBAL $dbLayer)
     {
         $this->adapter = $dbLayer;
@@ -40,6 +42,7 @@ class UserMapper
      * saves a user object from memory to Database
      *
      * @param User $user
+     *
      * @return boolean
      */
     public function save(User $user)
@@ -55,9 +58,11 @@ class UserMapper
         if (null === ($id = $user->getUserId())) {
             unset($data['userid']);
             $this->adapter->insert($data);
+
             return true;
         } else {
             $this->adapter->update($data, array('userid = ?' => $id));
+
             return true;
         }
     }
@@ -66,13 +71,15 @@ class UserMapper
      * finds a user from Database based on ID and returns a User object located
      * in memory
      *
-     * @param $id
+     * @param int $id
+     *
      * @throws \InvalidArgumentException
      * @return User
      */
     public function findById($id)
     {
         $result = $this->adapter->find($id);
+
         if (0 == count($result)) {
             throw new \InvalidArgumentException("User #$id not found");
         }
@@ -104,7 +111,7 @@ class UserMapper
      *
      * @param array $row
      *
-     * @return \DesignPatterns\DataMapper\User
+     * @return User
      */
     protected function mapObject(array $row)
     {

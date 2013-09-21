@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Tests\Facade;
 
 use DesignPatterns\Facade\Facade as Computer;
@@ -46,5 +42,4 @@ class FacadeTest extends \PHPUnit_Framework_TestCase
         // but I can access to lower component
         $this->assertEquals('Linux', $os->getName());
     }
-
 }

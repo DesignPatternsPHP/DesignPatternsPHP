@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Tests\TemplateMethod;
 
 use DesignPatterns\TemplateMethod;
@@ -23,7 +19,7 @@ class JourneyTest extends \PHPUnit_Framework_TestCase
 
     public function testCity()
     {
-        $journey = new TemplateMethod\CityJouney();
+        $journey = new TemplateMethod\CityJourney();
         $this->expectOutputRegex('#drink#');
         $journey->takeATrip();
     }

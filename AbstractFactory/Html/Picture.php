@@ -11,7 +11,6 @@ use DesignPatterns\AbstractFactory\Picture as BasePicture;
  */
 class Picture extends BasePicture
 {
-
     /**
      * some crude rendering from HTML output
      *
@@ -19,7 +18,6 @@ class Picture extends BasePicture
      */
     public function render()
     {
-        return sprintf('<img src="%s" title="$s"/>', $this->_path, $this->_name);
+        return sprintf('<img src="%s" title="$s"/>', $this->path, $this->name);
     }
-
 }

@@ -11,7 +11,6 @@ use DesignPatterns\AbstractFactory\Picture as BasePicture;
  */
 class Picture extends BasePicture
 {
-
     /**
      * some crude rendering from JSON output
      *
@@ -19,7 +18,6 @@ class Picture extends BasePicture
      */
     public function render()
     {
-        return json_encode(array('title' => $this->_name, 'path' => $this->_path));
+        return json_encode(array('title' => $this->name, 'path' => $this->path));
     }
-
 }

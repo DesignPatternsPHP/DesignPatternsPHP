@@ -1,9 +1,5 @@
 <?php
 
-/*
- * DesignPatternPHP
- */
-
 namespace DesignPatterns\Adapter;
 
 /**
@@ -11,8 +7,17 @@ namespace DesignPatterns\Adapter;
  */
 interface PaperBookInterface
 {
+    /**
+     * method to turn pages
+     *
+     * @return mixed
+     */
+    public function turnPage();
 
-    function turnPage();
-
-    function open();
+    /**
+     * method to open the book
+     *
+     * @return mixed
+     */
+    public function open();
 }

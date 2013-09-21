@@ -16,6 +16,7 @@ class JsonFactory extends AbstractFactory
      *
      * @param string $path
      * @param string $name
+     *
      * @return Json\Picture|Picture
      */
     public function createPicture($path, $name = '')
@@ -23,16 +24,15 @@ class JsonFactory extends AbstractFactory
         return new Json\Picture($path, $name);
     }
 
-
     /**
      * Creates a text component
      *
      * @param string $content
+     *
      * @return Json\Text|Text
      */
     public function createText($content)
     {
         return new Json\Text($content);
     }
-
 }
