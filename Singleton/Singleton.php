@@ -20,19 +20,23 @@ namespace DesignPatterns\Singleton;
 class Singleton
 {
     /**
+     * @var cached reference to singleton instance 
+     */
+    protected static $instance;
+    
+    /**
      * gets the instance via lazy initialization (created on first usage)
      *
      * @return Singleton
      */
     public static function getInstance()
     {
-        static $instance;
-
-        if (null === $instance) {
-            $instance = new self();
+        
+        if (null === static::$instance) {
+            static::$instance = new static;
         }
 
-        return $instance;
+        return static::$instance;
     }
 
     /**
