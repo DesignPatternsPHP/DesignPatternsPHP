@@ -52,9 +52,3 @@ abstract class Registry
 
     // typically there would be methods to check if a key has already been registered and so on ...
 }
-
-// while bootstrapping the application
-Registry::set(Registry::LOGGER, new \StdClass());
-
-// throughout the application
-Registry::get(Registry::LOGGER)->log('foo');

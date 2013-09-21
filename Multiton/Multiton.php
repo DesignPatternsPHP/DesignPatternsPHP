@@ -37,7 +37,7 @@ class Multiton
      *
      * @var array
      */
-    private static $_instances = array();
+    private static $instances = array();
 
     /**
      * should not be called from outside: private!
@@ -53,15 +53,16 @@ class Multiton
      * uses lazy initialization
      * 
      * @param string $instanceName
+     *
      * @return Multiton
      */
     public static function getInstance($instanceName)
     {
-        if ( ! array_key_exists($instanceName, self::$_instances)) {
-            self::$_instances[$instanceName] = new self();
+        if (!array_key_exists($instanceName, self::$instances)) {
+            self::$instances[$instanceName] = new self();
         }
 
-        return self::$_instances[$instanceName];
+        return self::$instances[$instanceName];
     }
 
     /**

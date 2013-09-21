@@ -1,53 +1,11 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\Iterator;
 
 /**
- * iterator pattern
- *
- * Purpose:
- * to make an object iterable
- *
- * Examples:
- * - to process a file line by line by just running over all lines (which have an object representation) for a file
- *   (which of course is an object, too)
- *
- * Note:
- * Standard PHP Library (SPL) defines an interface Iterator which is best suited for this!
- * Often you would want to implement the Countable interface too, to allow count($object) on your iterable object
- *
- * THIS EXAMPLE ALSO APPLIES THE COMPOSITE PATTERN
- *
+ * Class RowSet
  */
-class File
-{
-    /**
-     * @var RowSet
-     */
-    protected $rowSet;
-
-    /**
-     * @var string
-     */
-    protected $pathName;
-
-    /**
-     * @param string $pathName
-     */
-    public function __construct($pathName)
-    {
-        $this->rowSet = new Rowset($this);
-    }
-
-    public function process()
-    {
-        // this is the place to show how using an iterator, with foreach
-        // See the CardGame.php file
-        $this->rowSet->process();
-    }
-}
-
-class Rowset implements \Iterator
+class RowSet implements \Iterator
 {
     /**
      * @var
@@ -58,6 +16,11 @@ class Rowset implements \Iterator
      * @var string
      */
     protected $file;
+
+    /**
+     * @var int
+     */
+    protected $lineNumber;
 
     /**
      * @param string $file
@@ -79,20 +42,26 @@ class Rowset implements \Iterator
          * THE key feature of the Iterator Pattern is to provide a *public contract*
          * to iterate on a collection without knowing how items are handled inside
          * the collection. It is not just an easy way to use "foreach"
-         * 
+         *
          * One cannot see the point of iterator pattern if you iterate on $this.
-         * This example is unclear and mixed with some Composite pattern ideas. 
+         * This example is unclear and mixed with some Composite pattern ideas.
          */
         foreach ($this as $line => $row) {
             $row->process();
         }
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function rewind()
     {
         // seek to first line from $this->file
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function next()
     {
         // read the next line from $this->file
@@ -104,34 +73,28 @@ class Rowset implements \Iterator
         }
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function current()
     {
         return $this->currentRow;
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function valid()
     {
         return null !== $this->currentRow;
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function key()
     {
         // you would want to increment this in next() or whatsoever
-        return $this->_lineNumber;
-    }
-}
-
-class Row
-{
-    protected $_data;
-
-    public function __construct($data)
-    {
-        $this->_data = $data;
-    }
-
-    public function process()
-    {
-        // do some fancy things here ...
+        return $this->lineNumber;
     }
 }
