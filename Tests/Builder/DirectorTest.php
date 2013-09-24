@@ -5,6 +5,7 @@ namespace DesignPatterns\Tests\Builder;
 use DesignPatterns\Builder\Director;
 use DesignPatterns\Builder\CarBuilder;
 use DesignPatterns\Builder\BikeBuilder;
+use DesignPatterns\Builder\BuilderInterface;
 
 /**
  * DirectorTest tests the builder pattern
@@ -33,7 +34,7 @@ class DirectorTest extends \PHPUnit_Framework_TestCase
      * 
      * @dataProvider getBuilder
      */
-    public function testBuild(\DesignPatterns\Builder\BuilderInterface $builder)
+    public function testBuild(BuilderInterface $builder)
     {
         $newVehicle = $this->director->build($builder);
         $this->assertInstanceOf('DesignPatterns\Builder\Parts\Vehicle', $newVehicle);
