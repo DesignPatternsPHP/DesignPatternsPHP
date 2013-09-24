@@ -5,7 +5,7 @@ namespace DesignPatterns\Adapter;
 /**
  * EBookAdapter is an adapter to fit an e-book like a paper book
  * 
- * This is the adapter here. Notice it implemennts PaperBookInterface,
+ * This is the adapter here. Notice it implements PaperBookInterface,
  * therefore you don't have to change the code of the client which using paper book.
  */
 class EBookAdapter implements PaperBookInterface

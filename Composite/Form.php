@@ -3,18 +3,8 @@
 namespace DesignPatterns\Composite;
 
 /**
- * Composite pattern
- *
- * Purpose:
- * to treat a group of objects the same way as a single instance of the object
- *
- * Example:
- * - a form class instance handles all its form elements like a single instance of the form, when render() is called, it
- *      subsequently runs trough all its child elements and calls render() on them
- * - Zend_Config: a tree of configuration options, each one is a Zend_Config object
- *
  * The composite node MUST extend the component contract. This is mandatory for building
- * a tree of component.
+ * a tree of components.
  */
 class Form extends FormElement
 {
