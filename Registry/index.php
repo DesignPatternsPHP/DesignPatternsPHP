@@ -1,6 +1,6 @@
 <?php
 
-use DesignPatterns\Registry;
+use DesignPatterns\Registry\Registry;
 
 // while bootstrapping the application
 Registry::set(Registry::LOGGER, new \StdClass());
