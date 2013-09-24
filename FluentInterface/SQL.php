@@ -3,15 +3,7 @@
 namespace DesignPatterns\FluentInterface;
 
 /**
- * fluent interface pattern
- *
- * Purpose:
- * to write code that is easy readable just like "real" sentences
- *
- * Examples:
- * - Doctrine2's QueryBuilder works something like that example class below
- * - PHPUnit uses fluent interfaces to build mock objects
- * - Yii Framework: CDbCommand and CActiveRecord use this pattern, too
+ * class SQL
  */
 class SQL
 {
