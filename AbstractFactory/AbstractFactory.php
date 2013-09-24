@@ -4,7 +4,7 @@ namespace DesignPatterns\AbstractFactory;
 
 /**
  * class AbstractFactory
- * 
+ *
  * Sometimes also known as "Kit" in a GUI libraries.
  *
  * This design pattern implements the Dependency Inversion Principle since
