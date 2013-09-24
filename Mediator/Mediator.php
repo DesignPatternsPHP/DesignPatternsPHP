@@ -6,7 +6,7 @@ use DesignPatterns\Mediator\Subsystem;
 
 /**
  * Mediator is the concrete Mediator for this design pattern.
- * 
+ *
  * In this example, I have made a "Hello World" with the Mediator Pattern.
  */
 class Mediator implements MediatorInterface
