@@ -3,7 +3,7 @@
 namespace DesignPatterns\Decorator;
 
 /**
- * the Deoorator MUST implement the RendererInterface contract, this is the key-feature
+ * the Decorator MUST implement the RendererInterface contract, this is the key-feature
  * of this design pattern. If not, this is no longer a Decorator but just a dumb
  * wrapper.
  */
