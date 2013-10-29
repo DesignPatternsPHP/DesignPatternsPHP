@@ -67,7 +67,7 @@ class ChainTest extends \PHPUnit_Framework_TestCase
         $ret = $this->chain->handle($request);
 
         $this->assertFalse($ret);
-        // the last rsponsible :
+        // the last responsible :
         $this->assertEquals('DesignPatterns\ChainOfResponsibilities\Responsible\SlowStorage', $request->forDebugOnly);
     }
 }
