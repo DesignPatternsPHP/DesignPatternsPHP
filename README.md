@@ -31,7 +31,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Registry](Registry) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
 * [FluentInterface](FluentInterface) [:notebook:](http://en.wikipedia.org/wiki/Fluent_interface)
 * [DataMapper](DataMapper) [:notebook:](http://en.wikipedia.org/wiki/Data_mapper_pattern)
-* [DependencyInjection](DependencyInjection) [:notebook:](http://de.wikipedia.org/wiki/Dependency_Injection)
+* [DependencyInjection](DependencyInjection) [:notebook:](http://en.wikipedia.org/wiki/Dependency_injection)
 
 ### Behavioral
 
