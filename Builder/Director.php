@@ -4,8 +4,7 @@ namespace DesignPatterns\Builder;
 
 /**
  * Director is part of the builder pattern. It knows the interface of the builder
- * and build a complex object with the help of the builder. 
- * If you make it abstract, this becomes a "meta-factory-method" very powerfull.
+ * and builds a complex object with the help of the builder. 
  * 
  * You can also inject many builders instead of one to build more complex objects
  */
