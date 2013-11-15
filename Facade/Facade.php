@@ -20,7 +20,7 @@ class Facade
 
     /**
      * This is the perfect time to use a dependency injection container
-     * to creaate an instance of this class
+     * to create an instance of this class
      *
      * @param BiosInterface $bios
      * @param OsInterface   $os
