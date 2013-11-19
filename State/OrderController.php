@@ -14,7 +14,7 @@ class OrderController
     {
         $order = OrderFactory::getOrder($id);
         try {
-            $order->shipOrder($id);
+            $order->shipOrder();
         } catch (Exception $e) {
             //handle error!
         }
@@ -28,7 +28,7 @@ class OrderController
     {
         $order = OrderFactory::getOrder($id);
         try {
-            $order->completeOrder($id);
+            $order->completeOrder();
         } catch (Exception $e) {
             //handle error!
         }
