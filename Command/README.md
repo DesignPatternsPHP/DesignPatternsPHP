@@ -4,10 +4,10 @@
 
 To encapsulate invocation and decoupling.
 
-We have an Invoker and a Receiver. This pattern use a "Command" to delegate the method call against the Receiver and presents the same method "execute".
+We have an Invoker and a Receiver. This pattern uses a "Command" to delegate the method call against the Receiver and presents the same method "execute".
 Therefore, the Invoker just knows to call "execute" to process the Command of the client. The Receiver is decoupled from the Invoker.
 
-The second aspect of ths pattern is the undo(), which undoes the method execute().
+The second aspect of this pattern is the undo(), which undoes the method execute().
 Command can also be aggregated to combine more complex commands with minimum copy-paste and relying on composition over inheritance.
 
 ## Examples
