@@ -13,9 +13,7 @@ abstract class AbstractSpecification implements SpecificationInterface
      * 
      * @return bool
      */
-    public function isSatisfiedBy(Item $item)
-    {
-    }
+    abstract public function isSatisfiedBy(Item $item);
 
     /**
      * Creates a new logical AND specification
