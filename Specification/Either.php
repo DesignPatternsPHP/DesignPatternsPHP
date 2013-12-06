@@ -2,7 +2,7 @@
 namespace DesignPatterns\Specification;
 
 /**
- * A logical AND specification
+ * A logical OR specification
  */
 class Either extends AbstractSpecification
 {
@@ -24,7 +24,7 @@ class Either extends AbstractSpecification
     }
 
     /**
-     * Returns the evaluation of both wrapped specifications as a logical AND
+     * Returns the evaluation of both wrapped specifications as a logical OR
      * 
      * @param Item $item
      * 
