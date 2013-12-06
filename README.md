@@ -41,6 +41,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Mediator](Mediator) [:notebook:](http://en.wikipedia.org/wiki/Mediator_pattern)
 * [NullObject](NullObject) [:notebook:](http://en.wikipedia.org/wiki/Null_Object_pattern)
 * [Observer](Observer) [:notebook:](http://en.wikipedia.org/wiki/Observer_pattern)
+* [Specification](Specification) [:notebook:](http://en.wikipedia.org/wiki/Specification_pattern)
 * [State](State) [:notebook:](http://en.wikipedia.org/wiki/State_pattern)
 * [Strategy](Strategy) [:notebook:](http://en.wikipedia.org/wiki/Strategy_pattern)
 * [TemplateMethod](TemplateMethod) [:notebook:](http://en.wikipedia.org/wiki/Template_method_pattern)
