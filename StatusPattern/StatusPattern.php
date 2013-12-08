@@ -3,8 +3,8 @@ namespace DesignPatterns;
 
 
 /**
-* The order has two status: created, shipping, completed.
-* When the order's status is created, what can do is just 'shipping' handle;
+* The order has two status: new, shipping.
+* When the order's status is new, what can do is just 'shipping' handle;
 * When the order's status is shipping, what can do is just 'completed' handle;
 * 
 */
@@ -17,10 +17,10 @@ interface OrderInterface
 
 }
 
-class CreateOrder implements OrderInterface
+class Order 
 {
 
-	private $order;
+	protected $order;
 
 	public function __construct(array $order)
 	{
@@ -30,6 +30,10 @@ class CreateOrder implements OrderInterface
 		$this->order = $order;
 	}
 
+}
+
+class NewOrder extends Order implements OrderInterface
+{
 	public function shipOrder()
 	{
 		$this->order['status'] = 'shipping';
@@ -40,24 +44,13 @@ class CreateOrder implements OrderInterface
 
 	public function completeOrder()
 	{
-		//Can not complete the order which status is created, throw exception;
-		throw new \Exception('Can not complete the order which status is created!');
+		//Can not complete the order which status is new, throw exception;
+		throw new \Exception('Can not complete the order which status is new!');
 	}
 }
 
-class ShippingOrder implements OrderInterface
+class ShippingOrder extends Order implements OrderInterface
 {
-
-	private $order;
-
-	public function __construct(array $order)
-	{
-		if (empty($order)) {
-			throw new \Exception('Order can not be empty!');
-		}
-		$this->order = $order;
-	}
-
 	public function shipOrder()
 	{
 		//Can not ship the order which status is shipping, throw exception;
@@ -81,8 +74,8 @@ class OrderFactory {
 		$order = 'Get Order From Database';
 
 		switch ($order['status']) {
-			case 'created':
-				return new CreateOrder($order);
+			case 'new':
+				return new NewOrder($order);
 			case 'shipping':
 				return new ShippingOrder($order);
 			default:
