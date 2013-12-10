@@ -15,5 +15,5 @@ namespace DesignPatterns\ChainOfResponsibilities;
  */
 class Request
 {
-    // getter and setter but I don't want to generate to much noise in handlers
+    // getter and setter but I don't want to generate too much noise in handlers
 }
