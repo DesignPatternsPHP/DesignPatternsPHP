@@ -23,7 +23,7 @@ class ObserverTest extends \PHPUnit_Framework_TestCase
      */
     public function testNotify()
     {
-        $this->expectOutputString('DesignPatterns\Observer\User has been updated');
+        $this->expectOutputString('DesignPatterns\Observer\User has been updated <br>');
         $subject = new User();
 
         $subject->attach($this->observer);
