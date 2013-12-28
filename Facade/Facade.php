@@ -1,49 +1,52 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\Facade;
 
 /**
- * facade pattern
  *
- * Purpose:
- * like a real facade, to hide complexity behind the wall
- *
- * Examples:
- *  - Database Abstraction Layers
- *  - Doctrine2: EntityManager is the facade that one sees from the outside, but in there is much more going on, Unit of
- *    Work, etc.
- *
+ * 
  */
 class Facade
 {
-    private $_text;
-    private $_queryBuilder;
+    /**
+     * @var OsInterface
+     */
+    protected $os;
 
-    public function __construct($text)
+    /**
+     * @var BiosInterface
+     */
+    protected $bios;
+
+    /**
+     * This is the perfect time to use a dependency injection container
+     * to create an instance of this class
+     *
+     * @param BiosInterface $bios
+     * @param OsInterface   $os
+     */
+    public function __construct(BiosInterface $bios, OsInterface $os)
     {
-        $text .= ', called ' . __METHOD__ . ' and thought that would be fairly easy, but ...';
-        $this->_text = $text;
-
-        $this->_initQueryBuilder($text);
+        $this->bios = $bios;
+        $this->os = $os;
     }
 
-    protected function _initQueryBuilder($sql)
+    /**
+     * turn on the system
+     */
+    public function turnOn()
     {
-        $query = new QueryBuilder();
-        $query->setSql($sql);
-        $this->_queryBuilder = $query;
+        $this->bios->execute();
+        $this->bios->waitForKeyPress();
+        $this->bios->launch($this->os);
+    }
+
+    /**
+     * turn off the system
+     */
+    public function turnOff()
+    {
+        $this->os->halt();
+        $this->bios->powerDown();
     }
 }
-
-class QueryBuilder
-{
-    protected $_sql;
-
-    public function setSql($sql)
-    {
-        $this->_sql = $sql;
-    }
-}
-
-// this is just a simple call, but behind the facade, there's much more going on
-$foo = new Facade('very simple');

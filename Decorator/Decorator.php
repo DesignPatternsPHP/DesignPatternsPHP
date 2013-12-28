@@ -1,74 +1,31 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\Decorator;
 
 /**
- * Decorator pattern
- *
- * Purpose:
- * to dynamically add new functionality to class instances
- *
- * Examples:
- * - Zend Framework: decorators for Zend_Form_Element instances
- * - Web Service Layer: Decorators JSON and XML for a REST service (in this case, only one of these should be allowed of
- *   course)
- *
+ * the Decorator MUST implement the RendererInterface contract, this is the key-feature
+ * of this design pattern. If not, this is no longer a Decorator but just a dumb
+ * wrapper.
  */
- 
-interface Renderer
+
+/**
+ * class Decorator
+ */
+abstract class Decorator implements RendererInterface
 {
-    public function renderData();
-}
+    /**
+     * @var RendererInterface
+     */
+    protected $wrapped;
 
-class Webservice implements Renderer
-{
-    protected $_data;
-
-    public function __construct($data)
+    /**
+     * You must type-hint the wrapped component :
+     * It ensures you can call renderData() in the subclasses !
+     * 
+     * @param RendererInterface $wrappable
+     */
+    public function __construct(RendererInterface $wrappable)
     {
-        $this->_data = $data;
-    }
-
-    public function renderData()
-    {
-        return $this->_data;
-    }
-}
-
-abstract class Decorator
-{
-    protected $_wrapped;
-    
-    public function __construct($wrappable)
-    {
-        $this->_wrapped = $wrappable;
+        $this->wrapped = $wrappable;
     }
 }
-
-class RenderInJson extends Decorator implements Renderer
-{
-    public function renderData()
-    {
-        $output = $this->_wrapped->renderData();
-        return json_encode($output);
-    }
-}
-
-class RenderInXml extends Decorator implements Renderer
-{
-    public function renderData()
-    {
-        $output = $this->_wrapped->renderData();
-        // do some fany conversion to xml from array ...
-        return simplexml_load_string($output);
-    }
-}
-
-// Create a normal service
-$service = new Webservice(array('foo' => 'bar'));
-
-// Wrap service with a JSON decorator for renderers
-$service = new RenderInJson($service);
-// Our Renderer will now output JSON instead of an array
-
-echo $service->renderData();

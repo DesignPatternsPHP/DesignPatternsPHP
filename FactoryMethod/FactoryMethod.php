@@ -1,49 +1,39 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\FactoryMethod;
 
 /**
- * Factory Method pattern
- *
- * Purpose:
- * similar to the AbstractFactory, this pattern is used to create series of related or dependant objects.
- * The difference between this and the abstract factory pattern is that the factory method pattern uses just one static
- * method to create all types of objects it can create. It is usually named "factory" or "build".
- *
- * Examples:
- * - Zend Framework: Zend_Cache_Backend or _Frontend use a factory method create cache backends or frontends
- * 
+ * class FactoryMethod
  */
-class FactoryMethod
+abstract class FactoryMethod
 {
+
+    const CHEAP = 1;
+    const FAST = 2;
+
     /**
-     * the parametrized function to get create an instance
-     *
-     * @static
-     * @return Formatter
+     * The children of the class must implement this method
+     * 
+     * Sometimes this method can be public to get "raw" object
+     * 
+     * @param string $type a generic type
+     * 
+     * @return VehicleInterface a new vehicle
      */
-    public static function factory($type)
+    abstract protected function createVehicle($type);
+
+    /**
+     * Creates a new vehicle
+     * 
+     * @param int $type
+     * 
+     * @return VehicleInterface a new vehicle
+     */
+    public function create($type)
     {
-        $className = 'Format' . ucfirst($type);
-        if ( ! class_exists($className)) {
-            throw new Exception('Missing format class.');
-        }
+        $obj = $this->createVehicle($type);
+        $obj->setColor("#f00");
 
-        return new $className();
+        return $obj;
     }
-}
-
-interface Formatter
-{
-
-}
-
-class FormatString implements Formatter
-{
-
-}
-
-class FormatNumber implements Formatter
-{
-    
 }

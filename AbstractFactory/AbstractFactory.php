@@ -1,42 +1,40 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\AbstractFactory;
 
 /**
- * Abstract Factory pattern
+ * class AbstractFactory
  *
- * Purpose:
- * to create series of related or dependant objects without specifying their concrete classes,
- * usually the created classes all implement the same interface
+ * Sometimes also known as "Kit" in a GUI libraries.
  *
- * Examples:
- * - A Factory to create media in a CMS: classes would be text, audio, video, picture
- * - SQL Factory (types are all strings with SQL, but they vary in detail (tables, fields, etc.))
- * - Zend Framework: Zend_Form::createElement() creates form elements, but you could also call new T
- *   TextElement() instead
- * - an abstract factory to create various exceptions (e.g. Doctrine2 uses this method)
+ * This design pattern implements the Dependency Inversion Principle since
+ * it is the concrete subclass which creates concrete components.
  *
+ * In this case, the abstract factory is a contract for creating some components
+ * for the web. There are two components : Text and Picture. There is two ways
+ * of rendering : HTML or JSON.
+ *
+ * Therefore 4 concretes classes, but the client just need to know this contract
+ * to build a correct http response (for a html page or for an ajax request)
  */
 abstract class AbstractFactory
 {
     /**
-     * @static
+     * Creates a text component
+     * 
      * @param string $content
-     * @return AbstractFactory\Text
+     *
+     * @return Text
      */
-    public static function createText($content)
-    {
-        return new AbstractFactory\Text($content);
-    }
+    abstract public function createText($content);
 
     /**
-     * @static
+     * Creates a picture component
+     * 
      * @param string $path
      * @param string $name
-     * @return AbstractFactory\Picture
+     *
+     * @return Picture
      */
-    public static function createPicture($path, $name = '')
-    {
-        return new AbstractFactory\Picture($path, $name);
-    }
+    abstract public function createPicture($path, $name = '');
 }
