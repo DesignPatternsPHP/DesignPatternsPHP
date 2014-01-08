@@ -1,0 +1,20 @@
+{
+    "name": "domnikl/design-patterns-php",
+    "description": "Sample code for several design patterns in PHP",
+    "authors": [
+        {
+            "name": "Dominik Liebler",
+            "email": "liebler.dominik@googlemail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "squizlabs/php_codesniffer": "1.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": ""
+        }
+    }
+}
