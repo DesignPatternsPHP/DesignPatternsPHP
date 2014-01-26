@@ -7,4 +7,4 @@ Usually the created classes all implement the same interface. The client of the 
 
 ## UML Diagram
 
-![UML](UML.svg)
+![UML](https://rawgithub.com/mac2000/DesignPatternsPHP/master/UML.svg)
