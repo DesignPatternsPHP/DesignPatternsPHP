@@ -2,50 +2,50 @@
 
 [![Build Status](https://travis-ci.org/domnikl/DesignPatternsPHP.png?branch=master)](https://travis-ci.org/domnikl/DesignPatternsPHP)
 
-This is a collection of known design patterns and some sample code how to implement them in PHP. Every pattern has a small list of examples (most of them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar with this software).
+这里收集的是现有的一些设计模式以及简单的PHP实现代码。每一种模式都有一些实例(大部分来自Zend Framework,Symfony2或者Doctrine2这样我熟知的软件)。
 
-I think the problem with patterns is that often people do know them but don't know when to apply which.
+设计模式的问题在于让大家知道了它，但是没让大家知道什么时候去用它。
 
-## Patterns
+## 模式
 
-The patterns can be structured in roughly three different categories. Please click on the :notebook: for a full explanation of the pattern on Wikipedia.
+设计模式粗略的可以分三大类. 点击下面的连接可以在维基百科上查看完整的介绍。
 
 ### Creational
 
-* [AbstractFactory](AbstractFactory) [:notebook:](http://en.wikipedia.org/wiki/Abstract_factory_pattern)
-* [Builder](Builder) [:notebook:](http://en.wikipedia.org/wiki/Builder_pattern)
-* [SimpleFactory](SimpleFactory)
-* [FactoryMethod](FactoryMethod) [:notebook:](http://en.wikipedia.org/wiki/Factory_method_pattern)
-* [StaticFactory](StaticFactory)
-* [Prototype](Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
-* [Singleton](Singleton) [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (is considered an anti-pattern! :no_entry:)
+* [抽象工厂模式](AbstractFactory) [:notebook:](http://zh.wikipedia.org/wiki/抽象工厂模式)
+* [生成器模式](Builder) [:notebook:](http://zh.wikipedia.org/wiki/生成器模式)
+* [简单工厂模式](SimpleFactory)
+* [工厂方法模式](FactoryMethod) [:notebook:](http://zh.wikipedia.org/wiki/工厂方法)
+* [静态工厂模式](StaticFactory)
+* [原型模式](Prototype) [:notebook:](http://zh.wikipedia.org/wiki/原型模式)
+* [单例模式](Singleton) [:notebook:](http://zh.wikipedia.org/wiki/单例模式) (is considered an anti-pattern! :no_entry:)
 * [Multiton](Multiton) (is considered an anti-pattern! :no_entry:)
 
 ### Structural
 
-* [Adapter](Adapter) [:notebook:](http://en.wikipedia.org/wiki/Adapter_pattern)
-* [Composite](Composite) [:notebook:](http://en.wikipedia.org/wiki/Composite_pattern)
-* [Decorator](Decorator) [:notebook:](http://en.wikipedia.org/wiki/Decorator_pattern)
-* [Facade](Facade) [:notebook:](http://en.wikipedia.org/wiki/Facade_pattern)
-* [Proxy](Proxy) [:notebook:](http://en.wikipedia.org/wiki/Proxy_pattern)
-* [Registry](Registry) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
-* [FluentInterface](FluentInterface) [:notebook:](http://en.wikipedia.org/wiki/Fluent_interface)
-* [DataMapper](DataMapper) [:notebook:](http://en.wikipedia.org/wiki/Data_mapper_pattern)
-* [DependencyInjection](DependencyInjection) [:notebook:](http://en.wikipedia.org/wiki/Dependency_injection)
+* [适配器模式](Adapter) [:notebook:](http://zh.wikipedia.org/wiki/适配器模式)
+* [组合模式](Composite) [:notebook:](http://en.wikipedia.org/wiki/Composite_pattern)
+* [修饰模式](Decorator) [:notebook:](http://zh.wikipedia.org/wiki/修饰模式)
+* [外观模式](Facade) [:notebook:](http://zh.wikipedia.org/wiki/外觀模式)
+* [代理模式](Proxy) [:notebook:](http://zh.wikipedia.org/wiki/代理模式)
+* [服务定位模式](Registry) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
+* [流畅接口模式](FluentInterface) [:notebook:](http://en.wikipedia.org/wiki/Fluent_interface)
+* [数据映射模式](DataMapper) [:notebook:](http://en.wikipedia.org/wiki/Data_mapper_pattern)
+* [依赖注入模式](DependencyInjection) [:notebook:](http://en.wikipedia.org/wiki/Dependency_injection)
 
-### Behavioral
+### 行为
 
-* [ChainOfResponsibilities](ChainOfResponsibilities) [:notebook:](http://en.wikipedia.org/wiki/Chain_of_responsibility_pattern)
-* [Command](Command) [:notebook:](http://en.wikipedia.org/wiki/Command_pattern)
-* [Iterator](Iterator) [:notebook:](http://en.wikipedia.org/wiki/Iterator_pattern)
-* [Mediator](Mediator) [:notebook:](http://en.wikipedia.org/wiki/Mediator_pattern)
-* [NullObject](NullObject) [:notebook:](http://en.wikipedia.org/wiki/Null_Object_pattern)
-* [Observer](Observer) [:notebook:](http://en.wikipedia.org/wiki/Observer_pattern)
-* [Specification](Specification) [:notebook:](http://en.wikipedia.org/wiki/Specification_pattern)
-* [State](State) [:notebook:](http://en.wikipedia.org/wiki/State_pattern)
-* [Strategy](Strategy) [:notebook:](http://en.wikipedia.org/wiki/Strategy_pattern)
-* [TemplateMethod](TemplateMethod) [:notebook:](http://en.wikipedia.org/wiki/Template_method_pattern)
-* [Visitor](Visitor) [:notebook:](http://en.wikipedia.org/wiki/Visitor_pattern)
+* [责任链模式](ChainOfResponsibilities) [:notebook:](http://zh.wikipedia.org/wiki/责任链模式)
+* [命令模式](Command) [:notebook:](http://zh.wikipedia.org/wiki/命令模式)
+* [迭代器模式](Iterator) [:notebook:](http://zh.wikipedia.org/wiki/迭代器模式)
+* [中介者模式](Mediator) [:notebook:](http://en.wikipedia.org/wiki/Mediator_pattern)
+* [空对象模式](NullObject) [:notebook:](http://en.wikipedia.org/wiki/Null_Object_pattern)
+* [观察者模式](Observer) [:notebook:](http://zh.wikipedia.org/wiki/观察者模式)
+* [规格模式](Specification) [:notebook:](http://en.wikipedia.org/wiki/Specification_pattern)
+* [状态模式](State) [:notebook:](http://en.wikipedia.org/wiki/State_pattern)
+* [策略模式](Strategy) [:notebook:](http://zh.wikipedia.org/wiki/策略模式)
+* [模板方法模式](TemplateMethod) [:notebook:](http://zh.wikipedia.org/wiki/模板方法模式)
+* [访问者模式](Visitor) [:notebook:](http://zh.wikipedia.org/wiki/访问者模式)
 
 ## Contribute
 
