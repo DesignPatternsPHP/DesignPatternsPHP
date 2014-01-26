@@ -10,7 +10,7 @@
 
 设计模式粗略的可以分三大类. 点击下面的连接可以在维基百科上查看完整的介绍。
 
-### Creational
+### 创建型
 
 * [抽象工厂模式](AbstractFactory) [:notebook:](http://zh.wikipedia.org/wiki/抽象工厂模式)
 * [生成器模式](Builder) [:notebook:](http://zh.wikipedia.org/wiki/生成器模式)
@@ -18,10 +18,10 @@
 * [工厂方法模式](FactoryMethod) [:notebook:](http://zh.wikipedia.org/wiki/工厂方法)
 * [静态工厂模式](StaticFactory)
 * [原型模式](Prototype) [:notebook:](http://zh.wikipedia.org/wiki/原型模式)
-* [单例模式](Singleton) [:notebook:](http://zh.wikipedia.org/wiki/单例模式) (is considered an anti-pattern! :no_entry:)
-* [Multiton](Multiton) (is considered an anti-pattern! :no_entry:)
+* [单例模式](Singleton) [:notebook:](http://zh.wikipedia.org/wiki/单例模式) (被认为是一种反模式! :no_entry:)
+* [多例模式](Multiton) (被认为是一种反模式! :no_entry:)
 
-### Structural
+### 结构型
 
 * [适配器模式](Adapter) [:notebook:](http://zh.wikipedia.org/wiki/适配器模式)
 * [组合模式](Composite) [:notebook:](http://en.wikipedia.org/wiki/Composite_pattern)
@@ -33,7 +33,7 @@
 * [数据映射模式](DataMapper) [:notebook:](http://en.wikipedia.org/wiki/Data_mapper_pattern)
 * [依赖注入模式](DependencyInjection) [:notebook:](http://en.wikipedia.org/wiki/Dependency_injection)
 
-### 行为
+### 行为型
 
 * [责任链模式](ChainOfResponsibilities) [:notebook:](http://zh.wikipedia.org/wiki/责任链模式)
 * [命令模式](Command) [:notebook:](http://zh.wikipedia.org/wiki/命令模式)
