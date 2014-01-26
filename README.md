@@ -1,4 +1,4 @@
-# DesignPatternsPHP
+# DesignPatternsPHP 中文
 
 [![Build Status](https://travis-ci.org/domnikl/DesignPatternsPHP.png?branch=master)](https://travis-ci.org/domnikl/DesignPatternsPHP)
 
