@@ -2,13 +2,16 @@
 
 namespace DesignPatterns\Observer;
 
+use SplObserver;
+use SplSubject;
+
 /**
  * Observer pattern : The observed object (the subject)
  * 
  * The subject maintains a list of Observers and sends notifications.
  *
  */
-class User implements \SplSubject
+class User implements SplSubject
 {
     /**
      * user data
@@ -27,11 +30,11 @@ class User implements \SplSubject
     /**
      * attach a new observer
      *
-     * @param \SplObserver $observer
+     * @param SplObserver$observer
      *
      * @return void
      */
-    public function attach(\SplObserver $observer)
+    public function attach(SplObserver$observer)
     {
         $this->observers[] = $observer;
     }
@@ -39,11 +42,11 @@ class User implements \SplSubject
     /**
      * detach an observer
      *
-     * @param \SplObserver $observer
+     * @param SplObserver$observer
      *
      * @return void
      */
-    public function detach(\SplObserver $observer)
+    public function detach(SplObserver$observer)
     {
         $index = array_search($observer, $this->observers);
 

@@ -1,0 +1,68 @@
+@startuml
+namespace DesignPatterns.AbstractFactory {
+    interface MediaInterface {
+        +render()
+    }
+
+    class Text {
+        #text : string
+        +__construct(text : string)
+    }
+
+    class Picture {
+        #path : string
+        #name : string
+        +__construct(path : string, name : string)
+    }
+
+    abstract class AbstractFactory {
+        {abstract} +createText(content : string)
+        {abstract} +createPicture(path : string, name : string)
+    }
+
+    class JsonFactory {
+        +createText(content : string)
+        +createPicture(path, name)
+    }
+
+    class HtmlFactory {
+        +createText(content : string)
+        +createPicture(path : string, name : string)
+    }
+
+    MediaInterface <|.. Text
+    MediaInterface <|.. Picture
+    AbstractFactory <|-- JsonFactory
+    AbstractFactory <|-- HtmlFactory
+    HtmlFactory *-- DesignPatterns.AbstractFactory.Html.Picture
+    HtmlFactory *-- DesignPatterns.AbstractFactory.Html.Text
+    JsonFactory *-- DesignPatterns.AbstractFactory.Json.Picture
+    JsonFactory *-- DesignPatterns.AbstractFactory.Json.Text
+}
+
+namespace DesignPatterns.AbstractFactory.Html {
+    class Picture {
+        +render()
+    }
+
+    class Text {
+        +render()
+    }
+
+    DesignPatterns.AbstractFactory.Text <|-- Text
+    DesignPatterns.AbstractFactory.Picture <|-- Picture
+}
+
+package DesignPatterns.AbstractFactory.Json {
+    class Picture {
+        +render()
+    }
+
+    class Text {
+        +render()
+    }
+
+    DesignPatterns.AbstractFactory.Text <|-- Text
+    DesignPatterns.AbstractFactory.Picture <|-- Picture
+}
+@enduml
