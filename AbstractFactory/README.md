@@ -4,3 +4,7 @@
 
 To create series of related or dependant objects without specifying their concrete classes.
 Usually the created classes all implement the same interface. The client of the abstract factory does not care about how these objects are created, he just knows how they go together.
+
+## UML Diagram
+
+![UML](https://rawgithub.com/mac2000/DesignPatternsPHP/master/AbstractFactory/UML.svg)
