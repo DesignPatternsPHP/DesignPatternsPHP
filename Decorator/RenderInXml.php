@@ -21,7 +21,7 @@ class RenderInXml extends Decorator
         $doc = new \DOMDocument();
 
         foreach ($output as $key => $val) {
-            $doc->appendChild($doc->createElement('foo', 'bar'));
+            $doc->appendChild($doc->createElement($key, $val));
         }
 
         return $doc->saveXML();
