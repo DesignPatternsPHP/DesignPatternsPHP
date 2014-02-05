@@ -5,7 +5,7 @@ namespace DesignPatterns\DependencyInjection;
 /**
  * class AbstractConfig
  */
-abstract class AbstractConfig implements Parameters
+abstract class AbstractConfig
 {
     /**
      * @var Storage of data

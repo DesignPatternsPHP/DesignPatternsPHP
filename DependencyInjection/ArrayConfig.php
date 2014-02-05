@@ -7,7 +7,7 @@ namespace DesignPatterns\DependencyInjection;
  *
  * uses array as data source
  */
-class ArrayConfig extends AbstractConfig
+class ArrayConfig extends AbstractConfig implements Parameters
 {
     /**
      * Get parameter
