@@ -26,7 +26,7 @@ class EBookAdapter implements PaperBookInterface
     }
 
     /**
-     * This cass makes the proper translation from one interface to another
+     * This class makes the proper translation from one interface to another
      */
     public function open()
     {
