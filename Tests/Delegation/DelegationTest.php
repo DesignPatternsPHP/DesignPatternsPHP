@@ -9,10 +9,10 @@ use DesignPatterns\Delegation;
  */
 class DelegationTest extends \PHPUnit_Framework_TestCase
 {
-	public function testHowTeamLeadWriteCode()
-	{
+    public function testHowTeamLeadWriteCode()
+    {
         $junior = new Delegation\JuniorDeveloper();
-		$teamLead = new Delegation\TeamLead($junior);
-		$this->assertEquals($junior->writeBadCode(), $teamLead->writeCode());
-	}
+        $teamLead = new Delegation\TeamLead($junior);
+        $this->assertEquals($junior->writeBadCode(), $teamLead->writeCode());
+    }
 }
