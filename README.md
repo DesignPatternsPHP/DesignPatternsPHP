@@ -47,6 +47,9 @@ The patterns can be structured in roughly three different categories. Please cli
 * [TemplateMethod](TemplateMethod) [:notebook:](http://en.wikipedia.org/wiki/Template_method_pattern)
 * [Visitor](Visitor) [:notebook:](http://en.wikipedia.org/wiki/Visitor_pattern)
 
+### More
+* [Delegation](Delegation) [:notebook:](http://en.wikipedia.org/wiki/Delegation_pattern)
+
 ## Contribute
 
 Please feel free to fork and extend existing or add your own examples and send a pull request with your changes!
