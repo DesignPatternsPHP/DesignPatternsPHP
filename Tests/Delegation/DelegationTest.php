@@ -11,9 +11,8 @@ class DelegationTest extends \PHPUnit_Framework_TestCase
 {
 	public function testHowTeamLeadWriteCode()
 	{
-		$teamLead = new Delegation\TeamLead(
-			new Delegation\JuniorDeveloper()
-		);
-		$this->assertEquals("Some junior developer generated code...", $teamLead->writeCode());
+        $junior = new Delegation\JuniorDeveloper();
+		$teamLead = new Delegation\TeamLead($junior);
+		$this->assertEquals($junior->writeBadCode(), $teamLead->writeCode());
 	}
 }
