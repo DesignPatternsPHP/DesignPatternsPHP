@@ -8,7 +8,7 @@ I think the problem with patterns is that often people do know them but don't kn
 
 ## Patterns
 
-The patterns can be structured in roughly three different categories. Please click on the :notebook:(http://en.wikipedia.org/wiki/Software_design_pattern) for a full explanation of the pattern on Wikipedia.
+The patterns can be structured in roughly three different categories. Please click on the [:notebook:](http://en.wikipedia.org/wiki/Software_design_pattern) for a full explanation of the pattern on Wikipedia.
 
 ### Creational
 
