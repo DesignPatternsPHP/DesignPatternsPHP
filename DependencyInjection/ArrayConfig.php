@@ -16,7 +16,7 @@ class ArrayConfig extends AbstractConfig implements Parameters
      * 
      * @return mixed
      */
-    public function get($key, $default = null) {;
+    public function get($key, $default = null) {
         if (isset($this->storage[$key])) {
             return $this->storage[$key];
         }
