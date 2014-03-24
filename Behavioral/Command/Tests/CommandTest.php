@@ -1,10 +1,10 @@
 <?php
 
-namespace DesignPatterns\Tests\Command;
+namespace DesignPatterns\Behavioral\Command\Tests;
 
-use DesignPatterns\Command\Invoker;
-use DesignPatterns\Command\Receiver;
-use DesignPatterns\Command\HelloCommand;
+use DesignPatterns\Behavioral\Command\Invoker;
+use DesignPatterns\Behavioral\Command\Receiver;
+use DesignPatterns\Behavioral\Command\HelloCommand;
 
 /**
  * CommandTest has the role of the Client in the Command Pattern
@@ -12,12 +12,18 @@ use DesignPatterns\Command\HelloCommand;
 class CommandTest extends \PHPUnit_Framework_TestCase
 {
 
+    /**
+     * @var Invoker
+     */
     protected $invoker;
+
+    /**
+     * @var Receiver
+     */
     protected $receiver;
 
     protected function setUp()
     {
-        // this is the context of the application
         $this->invoker = new Invoker();
         $this->receiver = new Receiver();
     }

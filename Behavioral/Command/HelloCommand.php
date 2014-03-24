@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Command;
+namespace DesignPatterns\Behavioral\Command;
 
 /**
  * This concrete command calls "print" on the Receiver, but an external

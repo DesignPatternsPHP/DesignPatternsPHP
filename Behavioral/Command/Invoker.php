@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Command;
+namespace DesignPatterns\Behavioral\Command;
 
 /**
  * Invoker is using the command given to it.

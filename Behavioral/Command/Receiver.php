@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Command;
+namespace DesignPatterns\Behavioral\Command;
 
 /**
  * Receiver is specific service with its own contract and can be only concrete
