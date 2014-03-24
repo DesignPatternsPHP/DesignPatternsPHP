@@ -18,6 +18,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [FactoryMethod](FactoryMethod) [:notebook:](http://en.wikipedia.org/wiki/Factory_method_pattern)
 * [StaticFactory](StaticFactory)
 * [Prototype](Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
+* [Pool](Prototype) [:notebook:](http://en.wikipedia.org/wiki/Object_pool_pattern)
 * [Singleton](Singleton) [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (is considered an anti-pattern! :no_entry:)
 * [Multiton](Multiton) (is considered an anti-pattern! :no_entry:)
 
