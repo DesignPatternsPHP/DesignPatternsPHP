@@ -11,12 +11,11 @@ class Worker
         // for example creates "thread"
     }
 
-	public function run($image, array $callback)
-	{
+    public function run($image, array $callback)
+    {
         // do something with $image...
         // and when it's done, execute callback
         call_user_func($callback, $this);
-	}
+    }
 
 }
-

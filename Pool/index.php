@@ -14,4 +14,3 @@ $processor->process('image5.jpg');
 $processor->process('image6.jpg');
 $processor->process('image7.jpg');
 $processor->process('image8.jpg');
-
