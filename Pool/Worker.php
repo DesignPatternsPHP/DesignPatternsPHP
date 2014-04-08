@@ -7,7 +7,7 @@ class Worker
 
     public function __construct()
     {
-        // let say that constuctor does really expensive work...
+        // let's say that constuctor does really expensive work...
         // for example creates "thread"
     }
 
