@@ -45,7 +45,7 @@ abstract class Journey
     }
 
     /**
-     * sbclasses will get access to this method but cannot override it and
+     * Subclasses will get access to this method but cannot override it and
      * compromise this algorithm (warning : cause of cyclic dependencies)
      */
     final protected function takePlane()
