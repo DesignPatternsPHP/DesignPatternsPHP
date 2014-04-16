@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\ServiceLocator;
+namespace DesignPatterns\More\ServiceLocator;
 
-interface ServiceLocatorInterface 
+interface ServiceLocatorInterface
 {
     /**
      * Checks if a service is registered.
@@ -21,4 +21,4 @@ interface ServiceLocatorInterface
      * @return mixed
      */
     public function get($interface);
-} 
+}

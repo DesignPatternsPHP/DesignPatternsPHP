@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Delegation;
+namespace DesignPatterns\More\Delegation;
 
 /**
  * Class TeamLead

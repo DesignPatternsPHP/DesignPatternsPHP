@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Delegation;
+namespace DesignPatterns\More\Delegation;
 
 // instantiate TeamLead and appoint to assistants JuniorDeveloper
 $teamLead = new TeamLead(new JuniorDeveloper());

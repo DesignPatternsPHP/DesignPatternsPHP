@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\Tests\Delegation;
+namespace DesignPatterns\More\Delegation;
 
-use DesignPatterns\Delegation;
+use DesignPatterns\More\Delegation;
 
 /**
  * DelegationTest tests the delegation pattern

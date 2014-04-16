@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\ServiceLocator;
+namespace DesignPatterns\More\ServiceLocator;
 
 class ServiceLocator implements ServiceLocatorInterface
 {
@@ -27,17 +27,17 @@ class ServiceLocator implements ServiceLocatorInterface
 
     public function __construct()
     {
-        $this->services = array();
+        $this->services     = array();
         $this->instantiated = array();
-        $this->shared = array();
+        $this->shared       = array();
     }
 
     /**
      * Registers a service with specific interface.
      *
-     * @param string        $interface
+     * @param string $interface
      * @param string|object $service
-     * @param bool          $share
+     * @param bool $share
      */
     public function add($interface, $service, $share = true)
     {
@@ -47,11 +47,11 @@ class ServiceLocator implements ServiceLocatorInterface
          * in the future even if you will change the service implementation.
          */
 
-        if(is_object($service) && $share)
+        if (is_object($service) && $share) {
             $this->instantiated[$interface] = $service;
-
+        }
         $this->services[$interface] = (is_object($service) ? get_class($service) : $service);
-        $this->shared[$interface] = $share;
+        $this->shared[$interface]   = $share;
     }
 
     /**
@@ -76,8 +76,9 @@ class ServiceLocator implements ServiceLocatorInterface
     public function get($interface)
     {
         // Retrieves the instance if it exists and it is shared
-        if(isset($this->instantiated[$interface]) && $this->shared[$interface])
+        if (isset($this->instantiated[$interface]) && $this->shared[$interface]) {
             return $this->instantiated[$interface];
+        }
 
         // otherwise gets the service registered.
         $service = $this->services[$interface];
@@ -97,9 +98,9 @@ class ServiceLocator implements ServiceLocatorInterface
         $object = new $service();
 
         // and saves it if the service must be shared.
-        if($this->shared[$interface])
+        if ($this->shared[$interface]) {
             $this->instantiated[$interface] = $object;
-
+        }
         return $object;
     }
-} 
+}

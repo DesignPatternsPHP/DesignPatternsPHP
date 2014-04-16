@@ -1,8 +1,7 @@
 <?php
 
-namespace DesignPatterns\ServiceLocator;
+namespace DesignPatterns\More\ServiceLocator;
 
 interface DatabaseServiceInterface
 {
-
-} 
+}
