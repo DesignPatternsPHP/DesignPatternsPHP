@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\TemplateMethod;
+namespace DesignPatterns\Behavioral\TemplateMethod;
 
 /**
  *

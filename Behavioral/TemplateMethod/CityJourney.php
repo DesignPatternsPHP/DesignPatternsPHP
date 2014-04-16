@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\TemplateMethod;
+namespace DesignPatterns\Behavioral\TemplateMethod;
 
 /**
  * CityJourney is a journey in a city

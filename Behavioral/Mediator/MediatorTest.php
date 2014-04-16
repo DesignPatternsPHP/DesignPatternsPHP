@@ -2,10 +2,10 @@
 
 namespace DesignPatterns\Tests\Mediator;
 
-use DesignPatterns\Mediator\Mediator;
-use DesignPatterns\Mediator\Subsystem\Database;
-use DesignPatterns\Mediator\Subsystem\Client;
-use DesignPatterns\Mediator\Subsystem\Server;
+use DesignPatterns\Behavioral\Mediator\Mediator;
+use DesignPatterns\Behavioral\Mediator\Subsystem\Database;
+use DesignPatterns\Behavioral\Mediator\Subsystem\Client;
+use DesignPatterns\Behavioral\Mediator\Subsystem\Server;
 
 /**
  * MediatorTest tests hello world

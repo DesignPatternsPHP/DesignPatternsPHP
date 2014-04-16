@@ -1,10 +1,10 @@
 <?php
 
-namespace DesignPatterns\Tests\NullObject;
+namespace DesignPatterns\Behavioral\NullObject;
 
-use DesignPatterns\NullObject\NullLogger;
-use DesignPatterns\NullObject\Service;
-use DesignPatterns\NullObject\PrintLogger;
+use DesignPatterns\Behavioral\NullObject\NullLogger;
+use DesignPatterns\Behavioral\NullObject\Service;
+use DesignPatterns\Behavioral\NullObject\PrintLogger;
 
 /**
  * LoggerTest tests for different loggers
@@ -24,7 +24,7 @@ class LoggerTest extends \PHPUnit_Framework_TestCase
     public function testStandardLogger()
     {
         $service = new Service(new PrintLogger());
-        $this->expectOutputString('We are in DesignPatterns\NullObject\Service::doSomething');
+        $this->expectOutputString('We are in DesignPatterns\Behavioral\NullObject\Service::doSomething');
         $service->doSomething();
     }
 }

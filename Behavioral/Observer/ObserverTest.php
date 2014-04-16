@@ -1,9 +1,9 @@
 <?php
 
-namespace DesignPatterns\Tests\Observer;
+namespace DesignPatterns\Behavioral\Observer;
 
-use DesignPatterns\Observer\UserObserver;
-use DesignPatterns\Observer\User;
+use DesignPatterns\Behavioral\Observer\UserObserver;
+use DesignPatterns\Behavioral\Observer\User;
 
 /**
  * ObserverTest tests the Observer pattern
@@ -23,7 +23,7 @@ class ObserverTest extends \PHPUnit_Framework_TestCase
      */
     public function testNotify()
     {
-        $this->expectOutputString('DesignPatterns\Observer\User has been updated');
+        $this->expectOutputString('DesignPatterns\Behavioral\Observer\User has been updated');
         $subject = new User();
 
         $subject->attach($this->observer);

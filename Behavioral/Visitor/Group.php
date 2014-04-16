@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Visitor;
+namespace DesignPatterns\Behavioral\Visitor;
 
 /**
  * An example of a Visitor: Group

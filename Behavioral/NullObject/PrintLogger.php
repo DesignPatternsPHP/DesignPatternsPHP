@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\NullObject;
+namespace DesignPatterns\Behavioral\NullObject;
 
 /**
  * PrintLogger is a logger that prints the log entry to standard output

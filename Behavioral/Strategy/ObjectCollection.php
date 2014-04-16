@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Strategy;
+namespace DesignPatterns\Behavioral\Strategy;
 
 /**
  * Class ObjectCollection

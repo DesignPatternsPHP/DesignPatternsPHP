@@ -1,9 +1,9 @@
 <?php
 
-namespace DesignPatterns\Tests\Specification;
+namespace DesignPatterns\Behavioral\Specification;
 
-use DesignPatterns\Specification\PriceSpecification;
-use DesignPatterns\Specification\Item;
+use DesignPatterns\Behavioral\Specification\PriceSpecification;
+use DesignPatterns\Behavioral\Specification\Item;
 
 /**
  * SpecificationTest tests the specification pattern

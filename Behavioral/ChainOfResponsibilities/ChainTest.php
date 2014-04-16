@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Behavioral\Tests\ChainOfResponsibilities;
+namespace DesignPatterns\Behavioral\ChainOfResponsibilities;
 
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Request;
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible\FastStorage;

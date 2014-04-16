@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Observer;
+namespace DesignPatterns\Behavioral\Observer;
 
 /**
  * class UserObserver

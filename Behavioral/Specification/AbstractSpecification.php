@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Specification;
+namespace DesignPatterns\Behavioral\Specification;
 
 /**
  * An abstract specification allows the creation of wrapped specifications

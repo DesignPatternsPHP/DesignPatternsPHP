@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Specification;
+namespace DesignPatterns\Behavioral\Specification;
 
 /**
  * An interface for a specification

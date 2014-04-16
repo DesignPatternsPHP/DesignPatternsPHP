@@ -1,20 +1,29 @@
 <?php
 
-namespace DesignPatterns\Mediator;
+namespace DesignPatterns\Behavioral\Mediator;
 
-use DesignPatterns\Mediator\Subsystem;
+use DesignPatterns\Behavioral\Mediator\Subsystem;
 
 /**
  * Mediator is the concrete Mediator for this design pattern.
- *
  * In this example, I have made a "Hello World" with the Mediator Pattern.
  */
 class Mediator implements MediatorInterface
 {
 
-    // you could have an array
+    /**
+     * @var Subsystem\Server
+     */
     protected $server;
+
+    /**
+     * @var Subsystem\Database
+     */
     protected $database;
+
+    /**
+     * @var Subsystem\Client
+     */
     protected $client;
 
     /**
@@ -39,7 +48,6 @@ class Mediator implements MediatorInterface
 
     /**
      * query db
-     *
      * @return mixed
      */
     public function queryDb()

@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Behavioral\Iterator\Tests;
+namespace DesignPatterns\Behavioral\Iterator;
 
 use DesignPatterns\Behavioral\Iterator\Book;
 use DesignPatterns\Behavioral\Iterator\BookList;

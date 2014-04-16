@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Specification;
+namespace DesignPatterns\Behavioral\Specification;
 
 /**
  * A logical OR specification

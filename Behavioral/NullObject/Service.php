@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\NullObject;
+namespace DesignPatterns\Behavioral\NullObject;
 
 /**
  * Service is dummy service that uses a logger

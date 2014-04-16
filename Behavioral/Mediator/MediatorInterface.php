@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Mediator;
+namespace DesignPatterns\Behavioral\Mediator;
 
 /**
  * MediatorInterface is a contract for the Mediator

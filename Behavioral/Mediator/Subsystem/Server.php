@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\Mediator\Subsystem;
+namespace DesignPatterns\Behavioral\Mediator\Subsystem;
 
-use DesignPatterns\Mediator\Colleague;
+use DesignPatterns\Behavioral\Mediator\Colleague;
 
 /**
  * Server serves responses

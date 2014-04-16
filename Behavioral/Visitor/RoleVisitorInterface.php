@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Visitor;
+namespace DesignPatterns\Behavioral\Visitor;
 
 /**
  * Visitor Pattern
@@ -18,14 +18,14 @@ interface RoleVisitorInterface
     /**
      * Visit a User object
      * 
-     * @param \DesignPatterns\Visitor\User $role
+     * @param \DesignPatterns\Behavioral\Visitor\User $role
      */
     public function visitUser(User $role);
 
     /**
      * Visit a Group object
      * 
-     * @param \DesignPatterns\Visitor\Group $role
+     * @param \DesignPatterns\Behavioral\Visitor\Group $role
      */
     public function visitGroup(Group $role);
 }

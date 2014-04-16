@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Tests\Visitor;
 
-use DesignPatterns\Visitor;
+use DesignPatterns\Behavioral\Visitor;
 
 /**
  * VisitorTest tests the visitor pattern
@@ -40,7 +40,7 @@ class VisitorTest extends \PHPUnit_Framework_TestCase
      */
     public function testUnknownObject()
     {
-        $mock = $this->getMockForAbstractClass('DesignPatterns\Visitor\Role');
+        $mock = $this->getMockForAbstractClass('DesignPatterns\Behavioral\Visitor\Role');
         $mock->accept($this->visitor);
     }
 

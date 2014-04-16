@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Mediator;
+namespace DesignPatterns\Behavioral\Mediator;
 
 /**
  * Colleague is an abstract colleague who works together but he only knows

@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\NullObject;
+namespace DesignPatterns\Behavioral\NullObject;
 
 /**
  * Performance concerns : ok there is a call for nothing but we spare an "if is_null"

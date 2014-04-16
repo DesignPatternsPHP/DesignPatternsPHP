@@ -1,11 +1,11 @@
 <?php
 
-namespace DesignPatterns\Tests\Strategy;
+namespace DesignPatterns\Behavioral\Strategy;
 
-use DesignPatterns\Strategy\DateComparator;
-use DesignPatterns\Strategy\IdComparator;
-use DesignPatterns\Strategy\ObjectCollection;
-use DesignPatterns\Strategy\Strategy;
+use DesignPatterns\Behavioral\Strategy\DateComparator;
+use DesignPatterns\Behavioral\Strategy\IdComparator;
+use DesignPatterns\Behavioral\Strategy\ObjectCollection;
+use DesignPatterns\Behavioral\Strategy\Strategy;
 
 /**
  * Tests for Static Factory pattern

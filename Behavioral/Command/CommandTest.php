@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Behavioral\Command\Tests;
+namespace DesignPatterns\Behavioral\Command;
 
 use DesignPatterns\Behavioral\Command\Invoker;
 use DesignPatterns\Behavioral\Command\Receiver;

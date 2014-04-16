@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Status;
+namespace DesignPatterns\Behavioral\State;
 
 /**
  * Class OrderFactory
@@ -9,7 +9,7 @@ class OrderFactory
 {
     private function __construct()
     {
-        throw Exception('Can not instance the OrderFactory class!');
+        throw new \Exception('Can not instance the OrderFactory class!');
     }
 
     /**

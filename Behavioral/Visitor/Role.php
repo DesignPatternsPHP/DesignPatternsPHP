@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Visitor;
+namespace DesignPatterns\Behavioral\Visitor;
 
 /**
  * class Role
@@ -12,7 +12,7 @@ abstract class Role
      *
      * Feel free to override it if your object must call another visiting behavior
      *
-     * @param \DesignPatterns\Visitor\RoleVisitorInterface $visitor
+     * @param \DesignPatterns\Behavioral\Visitor\RoleVisitorInterface $visitor
      *
      * @throws \InvalidArgumentException
      */

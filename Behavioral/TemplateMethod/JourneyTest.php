@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\Tests\TemplateMethod;
+namespace DesignPatterns\Behavioral\TemplateMethod;
 
-use DesignPatterns\TemplateMethod;
+use DesignPatterns\Behavioral\TemplateMethod;
 
 /**
  * JourneyTest tests all journeys
@@ -29,7 +29,7 @@ class JourneyTest extends \PHPUnit_Framework_TestCase
      */
     public function testLasVegas()
     {
-        $journey = $this->getMockForAbstractClass('DesignPatterns\TemplateMethod\Journey');
+        $journey = $this->getMockForAbstractClass('DesignPatterns\Behavioral\TemplateMethod\Journey');
         $journey->expects($this->once())
                 ->method('enjoyVacation')
                 ->will($this->returnCallback(array($this, 'mockUpVacation')));

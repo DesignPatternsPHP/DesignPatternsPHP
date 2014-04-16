@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Specification;
+namespace DesignPatterns\Behavioral\Specification;
 
 /**
  * A specification to check an Item is priced between min and max

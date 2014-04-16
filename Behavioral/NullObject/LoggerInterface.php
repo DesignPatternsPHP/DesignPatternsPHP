@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\NullObject;
+namespace DesignPatterns\Behavioral\NullObject;
 
 /**
  * LoggerInterface is a contract for logging something

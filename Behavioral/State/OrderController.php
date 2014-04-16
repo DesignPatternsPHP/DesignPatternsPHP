@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Status;
+namespace DesignPatterns\Behavioral\State;
 
 /**
  * Class OrderController
