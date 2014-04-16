@@ -43,5 +43,4 @@ class VisitorTest extends \PHPUnit_Framework_TestCase
         $mock = $this->getMockForAbstractClass('DesignPatterns\Behavioral\Visitor\Role');
         $mock->accept($this->visitor);
     }
-
 }

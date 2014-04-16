@@ -33,7 +33,7 @@ class AdapterTest extends \PHPUnit_Framework_TestCase
      *
      * @dataProvider getBook
      */
-    public function test_I_am_an_old_Client(PaperBookInterface $book)
+    public function testIAmAnOldClient(PaperBookInterface $book)
     {
         $book->open();
         $book->turnPage();

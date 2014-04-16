@@ -29,6 +29,8 @@ class CompositeTest extends \PHPUnit_Framework_TestCase
      */
     public function testFormImplementsFormEelement()
     {
-        $this->assertTrue(is_subclass_of('DesignPatterns\Structural\Composite\Form', 'DesignPatterns\Structural\Composite\FormElement'));
+        $className = 'DesignPatterns\Structural\Composite\Form';
+        $abstractName = 'DesignPatterns\Structural\Composite\FormElement';
+        $this->assertTrue(is_subclass_of($className, $abstractName));
     }
 }

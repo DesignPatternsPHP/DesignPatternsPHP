@@ -49,5 +49,4 @@ class Processor
     {
         return array_pop($this->waitingQueue);
     }
-
 }

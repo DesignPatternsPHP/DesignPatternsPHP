@@ -7,7 +7,7 @@ class Pool
 
     private $instances = array();
     private $class;
-    
+
     public function __construct($class)
     {
         $this->class = $class;
@@ -26,5 +26,4 @@ class Pool
     {
         $this->instances[] = $instance;
     }
-
 }

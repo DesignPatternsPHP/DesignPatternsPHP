@@ -17,5 +17,4 @@ class Worker
         // and when it's done, execute callback
         call_user_func($callback, $this);
     }
-
 }

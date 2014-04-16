@@ -13,10 +13,11 @@ class ArrayConfig extends AbstractConfig implements Parameters
      * Get parameter
      *
      * @param string|int $key
-     * 
+     * @param null $default
      * @return mixed
      */
-    public function get($key, $default = null) {
+    public function get($key, $default = null)
+    {
         if (isset($this->storage[$key])) {
             return $this->storage[$key];
         }
@@ -27,7 +28,7 @@ class ArrayConfig extends AbstractConfig implements Parameters
      * Set parameter
      *
      * @param string|int $key
-     * @param mixed      $value
+     * @param mixed $value
      */
     public function set($key, $value)
     {

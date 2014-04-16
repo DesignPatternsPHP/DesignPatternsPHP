@@ -41,5 +41,4 @@ class SimpleFactoryTest extends \PHPUnit_Framework_TestCase
     {
         $this->factory->createVehicle('car');
     }
-
 }

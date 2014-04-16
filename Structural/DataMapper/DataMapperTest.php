@@ -65,7 +65,12 @@ class DataMapperTest extends \PHPUnit_Framework_TestCase
      */
     public function testRestoreOne(User $existing)
     {
-        $rows = new \ArrayIterator(array(array('userid' => 1, 'username' => 'Odysseus', 'email' => 'Odysseus@ithaca.gr')));
+        $row = array(
+            'userid'   => 1,
+            'username' => 'Odysseus',
+            'email'    => 'Odysseus@ithaca.gr'
+        );
+        $rows = new \ArrayIterator(array($row));
         $this->dbal->expects($this->once())
                 ->method('find')
                 ->with(1)

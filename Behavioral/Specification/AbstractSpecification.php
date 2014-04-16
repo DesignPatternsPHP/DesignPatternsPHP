@@ -8,18 +8,18 @@ abstract class AbstractSpecification implements SpecificationInterface
 {
     /**
      * Checks if given item meets all criteria
-     * 
+     *
      * @param Item $item
-     * 
+     *
      * @return bool
      */
     abstract public function isSatisfiedBy(Item $item);
 
     /**
      * Creates a new logical AND specification
-     * 
+     *
      * @param SpecificationInterface $spec
-     * 
+     *
      * @return SpecificationInterface
      */
     public function plus(SpecificationInterface $spec)
@@ -29,9 +29,9 @@ abstract class AbstractSpecification implements SpecificationInterface
 
     /**
      * Creates a new logical OR composite specification
-     * 
+     *
      * @param SpecificationInterface $spec
-     * 
+     *
      * @return SpecificationInterface
      */
     public function either(SpecificationInterface $spec)
@@ -41,7 +41,7 @@ abstract class AbstractSpecification implements SpecificationInterface
 
     /**
      * Creates a new logical NOT specification
-     * 
+     *
      * @return SpecificationInterface
      */
     public function not()

@@ -2,8 +2,6 @@
 
 namespace DesignPatterns\Creational\Pool;
 
-use DesignPatterns\Creational\Pool\Pool;
-
 class TestWorker
 {
 
@@ -27,4 +25,3 @@ class PoolTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(1, $pool->get()->id);
     }
 }
-

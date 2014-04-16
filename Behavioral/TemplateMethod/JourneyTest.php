@@ -31,8 +31,8 @@ class JourneyTest extends \PHPUnit_Framework_TestCase
     {
         $journey = $this->getMockForAbstractClass('DesignPatterns\Behavioral\TemplateMethod\Journey');
         $journey->expects($this->once())
-                ->method('enjoyVacation')
-                ->will($this->returnCallback(array($this, 'mockUpVacation')));
+            ->method('enjoyVacation')
+            ->will($this->returnCallback(array($this, 'mockUpVacation')));
         $this->expectOutputRegex('#Las Vegas#');
         $journey->takeATrip();
     }
@@ -41,5 +41,4 @@ class JourneyTest extends \PHPUnit_Framework_TestCase
     {
         echo "Fear and loathing in Las Vegas\n";
     }
-
 }

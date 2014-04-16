@@ -13,7 +13,7 @@ class BookList implements \Countable
             return $this->books[$bookNumberToGet];
         }
 
-        return NULL;
+        return null;
     }
 
     public function addBook(Book $book)

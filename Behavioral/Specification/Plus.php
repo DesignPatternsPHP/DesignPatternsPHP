@@ -12,10 +12,9 @@ class Plus extends AbstractSpecification
 
     /**
      * Creation of a locical AND of two specifications
-     * 
+     *
      * @param SpecificationInterface $left
      * @param SpecificationInterface $right
-
      */
     public function __construct(SpecificationInterface $left, SpecificationInterface $right)
     {
@@ -25,9 +24,9 @@ class Plus extends AbstractSpecification
 
     /**
      * Checks if the composite AND of specifications passes
-     * 
+     *
      * @param Item $item
-     * 
+     *
      * @return bool
      */
     public function isSatisfiedBy(Item $item)

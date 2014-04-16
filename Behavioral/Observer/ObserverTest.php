@@ -53,10 +53,9 @@ class ObserverTest extends \PHPUnit_Framework_TestCase
         $subject->attach($observer);
 
         $observer->expects($this->once())
-                ->method('update')
-                ->with($subject);
+            ->method('update')
+            ->with($subject);
 
         $subject->notify();
     }
-
 }

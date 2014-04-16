@@ -30,7 +30,8 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
         // Wrap service with a JSON decorator for renderers
         $service = new Decorator\RenderInXml($this->service);
         // Our Renderer will now output XML instead of an array
-        $this->assertXmlStringEqualsXmlString('<?xml version="1.0"?><foo>bar</foo>', $service->renderData());
+        $xml = '<?xml version="1.0"?><foo>bar</foo>';
+        $this->assertXmlStringEqualsXmlString($xml, $service->renderData());
     }
 
     /**
@@ -38,7 +39,9 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testDecoratorMustImplementsRenderer()
     {
-        $this->assertTrue(is_subclass_of('DesignPatterns\Structural\Decorator\Decorator', 'DesignPatterns\Structural\Decorator\RendererInterface'));
+        $className = 'DesignPatterns\Structural\Decorator\Decorator';
+        $interfaceName = 'DesignPatterns\Structural\Decorator\RendererInterface';
+        $this->assertTrue(is_subclass_of($className, $interfaceName));
     }
 
     /**
