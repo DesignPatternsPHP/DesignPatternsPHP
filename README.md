@@ -8,7 +8,7 @@ I think the problem with patterns is that often people do know them but don't kn
 
 ## Patterns
 
-The patterns can be structured in roughly three different categories. Please click on the :notebook: for a full explanation of the pattern on Wikipedia.
+The patterns can be structured in roughly three different categories. Please click on the [:notebook:](http://en.wikipedia.org/wiki/Software_design_pattern) for a full explanation of the pattern on Wikipedia.
 
 ### Creational
 
@@ -18,6 +18,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [FactoryMethod](FactoryMethod) [:notebook:](http://en.wikipedia.org/wiki/Factory_method_pattern)
 * [StaticFactory](StaticFactory)
 * [Prototype](Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
+* [Pool](Pool) [:notebook:](http://en.wikipedia.org/wiki/Object_pool_pattern)
 * [Singleton](Singleton) [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (is considered an anti-pattern! :no_entry:)
 * [Multiton](Multiton) (is considered an anti-pattern! :no_entry:)
 
