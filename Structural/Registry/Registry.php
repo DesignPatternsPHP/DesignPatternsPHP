@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Registry;
+namespace DesignPatterns\Structural\Registry;
 
 /**
  * class Registry

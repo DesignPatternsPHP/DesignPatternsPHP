@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Decorator;
+namespace DesignPatterns\Structural\Decorator;
 
 /**
  * Class RendererInterface

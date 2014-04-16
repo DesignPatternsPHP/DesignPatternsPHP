@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\DependencyInjection;
+namespace DesignPatterns\Structural\DependencyInjection;
 
 /**
  * Parameters interface

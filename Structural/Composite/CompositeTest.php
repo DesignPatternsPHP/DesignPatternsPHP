@@ -2,12 +2,12 @@
 
 namespace DesignPatterns\Test\Composite;
 
-use DesignPatterns\Composite;
+use DesignPatterns\Structural\Composite;
 
 /**
  * FormTest tests the composite pattern on Form
  */
-class FormTest extends \PHPUnit_Framework_TestCase
+class CompositeTest extends \PHPUnit_Framework_TestCase
 {
 
     public function testRender()
@@ -29,6 +29,6 @@ class FormTest extends \PHPUnit_Framework_TestCase
      */
     public function testFormImplementsFormEelement()
     {
-        $this->assertTrue(is_subclass_of('DesignPatterns\Composite\Form', 'DesignPatterns\Composite\FormElement'));
+        $this->assertTrue(is_subclass_of('DesignPatterns\Structural\Composite\Form', 'DesignPatterns\Structural\Composite\FormElement'));
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Adapter;
+namespace DesignPatterns\Structural\Adapter;
 
 /**
  * EBookInterface is a contract for an electronic book

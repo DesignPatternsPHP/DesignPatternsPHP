@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\Tests\Decorator;
+namespace DesignPatterns\Structural\Decorator;
 
-use DesignPatterns\Decorator;
+use DesignPatterns\Structural\Decorator;
 
 /**
  * DecoratorTest tests the decorator pattern
@@ -38,7 +38,7 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testDecoratorMustImplementsRenderer()
     {
-        $this->assertTrue(is_subclass_of('DesignPatterns\Decorator\Decorator', 'DesignPatterns\Decorator\RendererInterface'));
+        $this->assertTrue(is_subclass_of('DesignPatterns\Structural\Decorator\Decorator', 'DesignPatterns\Structural\Decorator\RendererInterface'));
     }
 
     /**
@@ -48,7 +48,7 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testDecoratorTypeHinted()
     {
-        $this->getMockForAbstractClass('DesignPatterns\Decorator\Decorator', array(new \stdClass()));
+        $this->getMockForAbstractClass('DesignPatterns\Structural\Decorator\Decorator', array(new \stdClass()));
     }
 
     /**
@@ -56,8 +56,8 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testDecoratorOnlyAcceptRenderer()
     {
-        $mock = $this->getMock('DesignPatterns\Decorator\RendererInterface');
-        $dec = $this->getMockForAbstractClass('DesignPatterns\Decorator\Decorator', array($mock));
+        $mock = $this->getMock('DesignPatterns\Structural\Decorator\RendererInterface');
+        $dec = $this->getMockForAbstractClass('DesignPatterns\Structural\Decorator\Decorator', array($mock));
         $this->assertNotNull($dec);
     }
 }

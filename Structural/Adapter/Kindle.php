@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Adapter;
+namespace DesignPatterns\Structural\Adapter;
 
 /**
  * Kindle is a concrete electronic book

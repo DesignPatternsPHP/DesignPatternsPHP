@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Adapter;
+namespace DesignPatterns\Structural\Adapter;
 
 /**
  * PaperBookInterface is a contract for a book

@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Adapter;
+namespace DesignPatterns\Structural\Adapter;
 
 /**
  * Book is a concrete and standard paper book

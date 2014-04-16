@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Composite;
+namespace DesignPatterns\Structural\Composite;
 
 /**
  * The composite node MUST extend the component contract. This is mandatory for building

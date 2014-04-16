@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Proxy;
+namespace DesignPatterns\Structural\Proxy;
 
 /**
  * Class RecordProxy

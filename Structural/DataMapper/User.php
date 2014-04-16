@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\DataMapper;
+namespace DesignPatterns\Structural\DataMapper;
 
 /**
  * DataMapper pattern

@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\Tests\Facade;
+namespace DesignPatterns\Structural\Facade;
 
-use DesignPatterns\Facade\Facade as Computer;
+use DesignPatterns\Structural\Facade\Facade as Computer;
 
 /**
  * FacadeTest shows example of facades
@@ -12,11 +12,11 @@ class FacadeTest extends \PHPUnit_Framework_TestCase
 
     public function getComputer()
     {
-        $bios = $this->getMockBuilder('DesignPatterns\Facade\BiosInterface')
+        $bios = $this->getMockBuilder('DesignPatterns\Structural\Facade\BiosInterface')
                 ->setMethods(array('launch', 'execute', 'waitForKeyPress'))
                 ->disableAutoload()
                 ->getMock();
-        $operatingSys = $this->getMockBuilder('DesignPatterns\Facade\OsInterface')
+        $operatingSys = $this->getMockBuilder('DesignPatterns\Structural\Facade\OsInterface')
                 ->setMethods(array('getName'))
                 ->disableAutoload()
                 ->getMock();

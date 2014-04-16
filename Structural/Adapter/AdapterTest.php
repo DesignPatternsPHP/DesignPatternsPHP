@@ -1,11 +1,11 @@
 <?php
 
-namespace DesignPatterns\Tests\Adapter;
+namespace DesignPatterns\Structural\Adapter;
 
-use DesignPatterns\Adapter\EBookAdapter;
-use DesignPatterns\Adapter\Kindle;
-use DesignPatterns\Adapter\PaperBookInterface;
-use DesignPatterns\Adapter\Book;
+use DesignPatterns\Structural\Adapter\EBookAdapter;
+use DesignPatterns\Structural\Adapter\Kindle;
+use DesignPatterns\Structural\Adapter\PaperBookInterface;
+use DesignPatterns\Structural\Adapter\Book;
 
 /**
  * AdapterTest shows the use of an adapted e-book that behave like a book

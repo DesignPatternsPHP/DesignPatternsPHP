@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Decorator;
+namespace DesignPatterns\Structural\Decorator;
 
 /**
  * the Decorator MUST implement the RendererInterface contract, this is the key-feature

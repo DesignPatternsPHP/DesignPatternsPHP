@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Adapter;
+namespace DesignPatterns\Structural\Adapter;
 
 /**
  * EBookAdapter is an adapter to fit an e-book like a paper book

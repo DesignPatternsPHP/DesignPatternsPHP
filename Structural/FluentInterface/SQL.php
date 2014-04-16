@@ -1,11 +1,11 @@
 <?php
 
-namespace DesignPatterns\FluentInterface;
+namespace DesignPatterns\Structural\FluentInterface;
 
 /**
  * class SQL
  */
-class SQL
+class Sql
 {
     /**
      * @var array

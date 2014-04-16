@@ -1,14 +1,14 @@
 <?php
 
-namespace DesignPatterns\Test\DataMapper;
+namespace DesignPatterns\Structural\DataMapper;
 
-use DesignPatterns\DataMapper\UserMapper;
-use DesignPatterns\DataMapper\User;
+use DesignPatterns\Structural\DataMapper\UserMapper;
+use DesignPatterns\Structural\DataMapper\User;
 
 /**
  * UserMapperTest tests the datamapper pattern
  */
-class UserMapperTest extends \PHPUnit_Framework_TestCase
+class DataMapperTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var UserMapper
@@ -22,7 +22,7 @@ class UserMapperTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->dbal = $this->getMockBuilder('DesignPatterns\DataMapper\DBAL')
+        $this->dbal = $this->getMockBuilder('DesignPatterns\Structural\DataMapper\DBAL')
                 ->disableAutoload()
                 ->setMethods(array('insert', 'update', 'find', 'findAll'))
                 ->getMock();
@@ -90,7 +90,7 @@ class UserMapperTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException InvalidArgumentException
+     * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage User #404 not found
      */
     public function testNotFound()

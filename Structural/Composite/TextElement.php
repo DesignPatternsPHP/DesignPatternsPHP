@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Composite;
+namespace DesignPatterns\Structural\Composite;
 
 /**
  * Class TextElement

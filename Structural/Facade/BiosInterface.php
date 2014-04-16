@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Facade;
+namespace DesignPatterns\Structural\Facade;
 
 /**
  * Class BiosInterface

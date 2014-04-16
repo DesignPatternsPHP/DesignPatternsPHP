@@ -1,11 +1,11 @@
 <?php
 
-namespace DesignPatterns\Tests\DependencyInjection;
+namespace DesignPatterns\Structural\DependencyInjection;
 
-use DesignPatterns\DependencyInjection\Parameters;
-use DesignPatterns\DependencyInjection\AbstractConfig;
-use DesignPatterns\DependencyInjection\ArrayConfig;
-use DesignPatterns\DependencyInjection\Connection;
+use DesignPatterns\Structural\DependencyInjection\Parameters;
+use DesignPatterns\Structural\DependencyInjection\AbstractConfig;
+use DesignPatterns\Structural\DependencyInjection\ArrayConfig;
+use DesignPatterns\Structural\DependencyInjection\Connection;
 
 class DependencyInjectionTest extends \PHPUnit_Framework_TestCase
 {
