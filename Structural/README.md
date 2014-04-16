@@ -1,5 +1,9 @@
 # Structural
 
+In Software Engineering, Structural Design Patterns are Design Patterns that
+ease the design by identifying a simple way to realize relationships between
+entities.
+
 * [Adapter](Adapter) [:notebook:](http://en.wikipedia.org/wiki/Adapter_pattern)
 * [Composite](Composite) [:notebook:](http://en.wikipedia.org/wiki/Composite_pattern)
 * [DataMapper](DataMapper) [:notebook:](http://en.wikipedia.org/wiki/Data_mapper_pattern)
