@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\AbstractFactory\Json;
+namespace DesignPatterns\Creational\AbstractFactory\Json;
 
-use DesignPatterns\AbstractFactory\Text as BaseText;
+use DesignPatterns\Creational\AbstractFactory\Text as BaseText;
 
 /**
  * Class Text

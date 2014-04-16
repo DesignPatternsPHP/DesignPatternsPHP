@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Builder;
+namespace DesignPatterns\Creational\Builder;
 
 /**
  * Director is part of the builder pattern. It knows the interface of the builder

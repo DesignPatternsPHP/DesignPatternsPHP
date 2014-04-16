@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\SimpleFactory;
+namespace DesignPatterns\Creational\SimpleFactory;
 
 /**
  * Scooter is a Scooter

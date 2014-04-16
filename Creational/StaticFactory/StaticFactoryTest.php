@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\Tests\StaticFactory;
+namespace DesignPatterns\Creational\StaticFactory;
 
-use DesignPatterns\StaticFactory\StaticFactory;
+use DesignPatterns\Creational\StaticFactory\StaticFactory;
 
 /**
  * Tests for Static Factory pattern
@@ -25,6 +25,6 @@ class StaticFactoryTest extends \PHPUnit_Framework_TestCase
     public function testCreation($type)
     {
         $obj = StaticFactory::factory($type);
-        $this->assertInstanceOf('DesignPatterns\StaticFactory\FormatterInterface', $obj);
+        $this->assertInstanceOf('DesignPatterns\Creational\StaticFactory\FormatterInterface', $obj);
     }
 }

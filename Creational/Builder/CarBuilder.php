@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Builder;
+namespace DesignPatterns\Creational\Builder;
 
 /**
  * CarBuilder builds car

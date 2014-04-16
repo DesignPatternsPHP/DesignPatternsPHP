@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Prototype;
+namespace DesignPatterns\Creational\Prototype;
 
 /**
  * Class FooBookPrototype

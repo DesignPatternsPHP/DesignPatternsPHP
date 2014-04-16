@@ -1,11 +1,11 @@
 <?php
 
-namespace DesignPatterns\Tests\Builder;
+namespace DesignPatterns\Creational\Builder;
 
-use DesignPatterns\Builder\Director;
-use DesignPatterns\Builder\CarBuilder;
-use DesignPatterns\Builder\BikeBuilder;
-use DesignPatterns\Builder\BuilderInterface;
+use DesignPatterns\Creational\Builder\Director;
+use DesignPatterns\Creational\Builder\CarBuilder;
+use DesignPatterns\Creational\Builder\BikeBuilder;
+use DesignPatterns\Creational\Builder\BuilderInterface;
 
 /**
  * DirectorTest tests the builder pattern
@@ -37,6 +37,6 @@ class DirectorTest extends \PHPUnit_Framework_TestCase
     public function testBuild(BuilderInterface $builder)
     {
         $newVehicle = $this->director->build($builder);
-        $this->assertInstanceOf('DesignPatterns\Builder\Parts\Vehicle', $newVehicle);
+        $this->assertInstanceOf('DesignPatterns\Creational\Builder\Parts\Vehicle', $newVehicle);
     }
 }

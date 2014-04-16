@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Builder\Parts;
+namespace DesignPatterns\Creational\Builder\Parts;
 
 /**
  * Class Wheel

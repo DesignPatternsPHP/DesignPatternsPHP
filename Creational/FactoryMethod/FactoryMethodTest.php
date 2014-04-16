@@ -1,10 +1,10 @@
 <?php
 
-namespace DesignPatterns\Tests\FactoryMethod;
+namespace DesignPatterns\Creational\FactoryMethod;
 
-use DesignPatterns\FactoryMethod\FactoryMethod;
-use DesignPatterns\FactoryMethod\GermanFactory;
-use DesignPatterns\FactoryMethod\ItalianFactory;
+use DesignPatterns\Creational\FactoryMethod\FactoryMethod;
+use DesignPatterns\Creational\FactoryMethod\GermanFactory;
+use DesignPatterns\Creational\FactoryMethod\ItalianFactory;
 
 /**
  * FactoryMethodTest tests the factory method pattern
@@ -34,7 +34,7 @@ class FactoryMethodTest extends \PHPUnit_Framework_TestCase
         // about the factory, all we know is it can produce vehicle
         foreach ($this->type as $oneType) {
             $vehicle = $shop->create($oneType);
-            $this->assertInstanceOf('DesignPatterns\FactoryMethod\VehicleInterface', $vehicle);
+            $this->assertInstanceOf('DesignPatterns\Creational\FactoryMethod\VehicleInterface', $vehicle);
         }
     }
 

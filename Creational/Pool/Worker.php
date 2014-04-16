@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Pool;
+namespace DesignPatterns\Creational\Pool;
 
 class Worker
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\AbstractFactory\Json;
+namespace DesignPatterns\Creational\AbstractFactory\Json;
 
-use DesignPatterns\AbstractFactory\Picture as BasePicture;
+use DesignPatterns\Creational\AbstractFactory\Picture as BasePicture;
 
 /**
  * Class Picture

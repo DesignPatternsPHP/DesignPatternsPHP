@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns;
+namespace DesignPatterns\Creational\Multiton;
 
 /**
  * class Multiton

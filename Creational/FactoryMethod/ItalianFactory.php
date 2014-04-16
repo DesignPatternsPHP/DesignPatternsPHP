@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\FactoryMethod;
+namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
  * ItalianFactory is vehicle factory in Italy

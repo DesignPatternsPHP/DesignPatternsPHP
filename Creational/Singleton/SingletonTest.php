@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\Tests\Singleton;
+namespace DesignPatterns\Creational\Singleton;
 
-use DesignPatterns\Singleton\Singleton;
+use DesignPatterns\Creational\Singleton\Singleton;
 
 /**
  * SingletonTest tests the singleton pattern
@@ -13,7 +13,7 @@ class SingletonTest extends \PHPUnit_Framework_TestCase
     public function testUniqueness()
     {
         $firstCall = Singleton::getInstance();
-        $this->assertInstanceOf('DesignPatterns\Singleton\Singleton', $firstCall);
+        $this->assertInstanceOf('DesignPatterns\Creational\Singleton\Singleton', $firstCall);
         $secondCall = Singleton::getInstance();
         $this->assertSame($firstCall, $secondCall);
     }

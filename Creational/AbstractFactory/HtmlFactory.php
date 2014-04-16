@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\AbstractFactory;
+namespace DesignPatterns\Creational\AbstractFactory;
 
 /**
  * Class HtmlFactory

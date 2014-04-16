@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\Tests\SimpleFactory;
+namespace DesignPatterns\Creational\SimpleFactory;
 
-use DesignPatterns\SimpleFactory\ConcreteFactory;
+use DesignPatterns\Creational\SimpleFactory\ConcreteFactory;
 
 /**
  * SimpleFactoryTest tests the Simple Factory pattern
@@ -31,7 +31,7 @@ class SimpleFactoryTest extends \PHPUnit_Framework_TestCase
     public function testCreation($type)
     {
         $obj = $this->factory->createVehicle($type);
-        $this->assertInstanceOf('DesignPatterns\SimpleFactory\VehicleInterface', $obj);
+        $this->assertInstanceOf('DesignPatterns\Creational\SimpleFactory\VehicleInterface', $obj);
     }
 
     /**

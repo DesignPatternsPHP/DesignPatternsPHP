@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\AbstractFactory\Html;
+namespace DesignPatterns\Creational\AbstractFactory\Html;
 
-use DesignPatterns\AbstractFactory\Picture as BasePicture;
+use DesignPatterns\Creational\AbstractFactory\Picture as BasePicture;
 
 /**
  * Class Picture

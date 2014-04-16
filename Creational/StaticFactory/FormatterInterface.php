@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\StaticFactory;
+namespace DesignPatterns\Creational\StaticFactory;
 
 /**
  * Class FormatterInterface

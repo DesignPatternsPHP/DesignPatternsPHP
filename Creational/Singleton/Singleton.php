@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Singleton;
+namespace DesignPatterns\Creational\Singleton;
 
 /**
  * class Singleton
@@ -8,7 +8,7 @@ namespace DesignPatterns\Singleton;
 class Singleton
 {
     /**
-     * @var cached reference to singleton instance 
+     * @var Singleton reference to singleton instance
      */
     private static $instance;
     

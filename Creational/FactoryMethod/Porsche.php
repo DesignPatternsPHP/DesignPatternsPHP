@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\FactoryMethod;
+namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
  * Porsche is a german car

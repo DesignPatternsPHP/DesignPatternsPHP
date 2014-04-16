@@ -1,10 +1,10 @@
 <?php
 
-namespace DesignPatterns\Tests\AbstractFactory;
+namespace DesignPatterns\Creational\AbstractFactory;
 
-use DesignPatterns\AbstractFactory\AbstractFactory;
-use DesignPatterns\AbstractFactory\HtmlFactory;
-use DesignPatterns\AbstractFactory\JsonFactory;
+use DesignPatterns\Creational\AbstractFactory\AbstractFactory;
+use DesignPatterns\Creational\AbstractFactory\HtmlFactory;
+use DesignPatterns\Creational\AbstractFactory\JsonFactory;
 
 /**
  * AbstractFactoryTest tests concrete factories
@@ -34,7 +34,7 @@ class AbstractFactoryTest extends \PHPUnit_Framework_TestCase
             $factory->createText('footnotes')
         );
 
-        $this->assertContainsOnly('DesignPatterns\AbstractFactory\MediaInterface', $article);
+        $this->assertContainsOnly('DesignPatterns\Creational\AbstractFactory\MediaInterface', $article);
 
         /* this is the time to look at the Builder pattern. This pattern
          * helps you to create complex object like that article above with

@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\AbstractFactory\Html;
+namespace DesignPatterns\Creational\AbstractFactory\Html;
 
-use DesignPatterns\AbstractFactory\Text as BaseText;
+use DesignPatterns\Creational\AbstractFactory\Text as BaseText;
 
 /**
  * Class Text
