@@ -4,11 +4,11 @@ namespace DesignPatterns\Memento;
 
 class Memento
 {
-    /* @var string */
+    /* @var mixed */
     private $state;
 
     /**
-     * @param string $stateToSave
+     * @param mixed $stateToSave
      */
     public function __construct($stateToSave)
     {
@@ -16,7 +16,7 @@ class Memento
     }
 
     /**
-     * @return string
+     * @return mixed
      */
     public function getState()
     {

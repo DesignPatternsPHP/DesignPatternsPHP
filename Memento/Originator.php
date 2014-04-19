@@ -4,14 +4,14 @@ namespace DesignPatterns\Memento;
 
 class Originator
 {
-    /* @var string */
+    /* @var mixed */
     private $state;
 
     // The class could also contain additional data that is not part of the
     // state saved in the memento..
 
     /**
-     * @param string $state
+     * @param mixed $state
      */
     public function setState($state)
     {
@@ -23,7 +23,9 @@ class Originator
      */
     public function saveToMemento()
     {
-        return new Memento($this->state);
+        $state = is_object($this->state) ? clone $this->state : $this->state;
+
+        return new Memento($state);
     }
 
     public function restoreFromMemento(Memento $memento)

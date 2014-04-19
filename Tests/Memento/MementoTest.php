@@ -5,12 +5,12 @@ namespace DesignPatterns\Tests\Memento;
 use DesignPatterns\Memento;
 
 /**
- * MementoTest tests memento design pattern
+ * MementoTest tests the memento pattern
  */
 class MementoTest extends \PHPUnit_Framework_TestCase
 {
 
-    public function testOriginator()
+    public function testStringState()
     {
         $originator = new Memento\Originator();
         $originator->setState("State1");
@@ -32,5 +32,38 @@ class MementoTest extends \PHPUnit_Framework_TestCase
         $originator->restoreFromMemento($savedState);
 
         $this->assertAttributeEquals("State2", "state", $originator);
+    }
+
+    public function testObjectState()
+    {
+        $originator = new Memento\Originator();
+
+        $foo = new \stdClass();
+        $foo->data = "foo";
+
+        $originator->setState($foo);
+
+        $this->assertAttributeEquals($foo, "state", $originator);
+
+        $savedState = $originator->saveToMemento();
+
+        $this->assertAttributeEquals($foo, "state", $savedState);
+
+        $bar = new \stdClass();
+        $bar->data = "bar";
+
+        $originator->setState($bar);
+
+        $this->assertAttributeEquals($bar, "state", $originator);
+
+        $originator->restoreFromMemento($savedState);
+
+        $this->assertAttributeEquals($foo, "state", $originator);
+
+        $foo->data = null;
+
+        $this->assertAttributeNotEquals($foo, "state", $savedState);
+
+        $this->assertAttributeNotEquals($foo, "state", $originator);
     }
 }
