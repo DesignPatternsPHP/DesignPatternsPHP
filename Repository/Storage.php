@@ -3,14 +3,14 @@
 namespace DesignPatterns\Repository;
 
 /**
- * Interface IStorage
+ * Interface Storage
  *
  * This interface describes methods for accessing storage.
  * Concrete realization could be whatever we want - in memory, relational database, NoSQL database and etc
  *
  * @package DesignPatterns\Repository
  */
-interface IStorage
+interface Storage
 {
     /**
      * Method to persist data

@@ -4,7 +4,7 @@ namespace DesignPatterns\Repository;
 
 /**
  * Repository for class Post
- * This class is between Entity layer(class Post) and access object layer(interface IStorage)
+ * This class is between Entity layer(class Post) and access object layer(interface Storage)
  * Repository encapsulates the set of objects persisted in a data store and the operations performed over them, providing a more object-oriented view of the persistence layer
  * Repository also supports the objective of achieving a clean separation and one-way dependency between the domain and data mapping layers
  *
@@ -15,7 +15,7 @@ class PostRepository
 {
     private $persistence;
 
-    public function __construct(IStorage $persistence)
+    public function __construct(Storage $persistence)
     {
         $this->persistence = $persistence;
     }

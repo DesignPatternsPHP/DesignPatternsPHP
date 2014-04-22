@@ -6,7 +6,7 @@ namespace DesignPatterns\Repository;
  * Class MemoryStorage
  * @package DesignPatterns\Repository
  */
-class MemoryStorage implements IStorage
+class MemoryStorage implements Storage
 {
 
     private $data;
