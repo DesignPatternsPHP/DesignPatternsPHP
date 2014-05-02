@@ -26,22 +26,15 @@ class ServiceLocatorTest extends TestCase
 
     public function setUp()
     {
-        $this->serviceLocator = new ServiceLocator();
-
-        $this->logService = new LogService();
+        $this->serviceLocator  = new ServiceLocator();
+        $this->logService      = new LogService();
         $this->databaseService = new DatabaseService();
     }
 
     public function testHasServices()
     {
-        $this->serviceLocator->add(
-            'DesignPatterns\More\ServiceLocator\LogServiceInterface',
-            $this->logService
-        );
-        $this->serviceLocator->add(
-            'DesignPatterns\More\ServiceLocator\DatabaseServiceInterface',
-            $this->databaseService
-        );
+        $this->serviceLocator->add('DesignPatterns\More\ServiceLocator\LogServiceInterface', $this->logService);
+        $this->serviceLocator->add('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface', $this->databaseService);
 
         $this->assertTrue($this->serviceLocator->has('DesignPatterns\More\ServiceLocator\LogServiceInterface'));
         $this->assertTrue($this->serviceLocator->has('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface'));
