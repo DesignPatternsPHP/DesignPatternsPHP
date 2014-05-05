@@ -25,6 +25,7 @@ The patterns can be structured in roughly three different categories. Please cli
 ### Structural
 
 * [Adapter](Adapter) [:notebook:](http://en.wikipedia.org/wiki/Adapter_pattern)
+* [Bridge](Bridge) [:notebook:](http://en.wikipedia.org/wiki/Bridge_pattern)
 * [Composite](Composite) [:notebook:](http://en.wikipedia.org/wiki/Composite_pattern)
 * [Decorator](Decorator) [:notebook:](http://en.wikipedia.org/wiki/Decorator_pattern)
 * [Facade](Facade) [:notebook:](http://en.wikipedia.org/wiki/Facade_pattern)
