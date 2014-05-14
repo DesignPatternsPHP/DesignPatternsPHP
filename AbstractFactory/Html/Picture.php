@@ -18,6 +18,6 @@ class Picture extends BasePicture
      */
     public function render()
     {
-        return sprintf('<img src="%s" title="$s"/>', $this->path, $this->name);
+        return sprintf('<img src="%s" title="%s"/>', $this->path, $this->name);
     }
 }
