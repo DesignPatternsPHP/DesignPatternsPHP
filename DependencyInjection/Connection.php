@@ -26,7 +26,7 @@ class Connection
     }
 
     /**
-     * Connection using the injected config
+     * Connection using the injected config.
      */
     public function connect()
     {
@@ -39,7 +39,7 @@ class Connection
     }
 
     /*
-     * Get currently connected host
+     * Get currently connected host.
      *
      * @return string
      */
