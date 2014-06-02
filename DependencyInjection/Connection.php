@@ -26,19 +26,20 @@ class Connection
     }
 
     /**
-     * connection using the injected config
+     * Connection using the injected config.
      */
     public function connect()
     {
         $host = $this->configuration->get('host');
-        // connection to host, authentication etc...
+        
+        // Connection to host, authentication etc...
 
-        //if connected
+        // If connected
         $this->host = $host;
     }
 
     /*
-     * Get currently connected host
+     * Get currently connected host.
      *
      * @return string
      */
