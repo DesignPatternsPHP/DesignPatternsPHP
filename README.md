@@ -53,6 +53,7 @@ The patterns can be structured in roughly three different categories. Please cli
 ### [More](More)
 * [Delegation](More/Delegation) [:notebook:](http://en.wikipedia.org/wiki/Delegation_pattern)
 * [ServiceLocator](More/ServiceLocator) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
+* [Repository](More/Repository)
 
 ## Contribute
 
