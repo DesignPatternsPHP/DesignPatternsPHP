@@ -3,8 +3,15 @@
 
     <testsuites>
         <testsuite name="Design Patterns">
-            <directory>./Tests</directory>
+            <directory suffix="Test.php">Behavioral/*/Tests</directory>
+            <directory suffix="Test.php">Creational/*/Tests</directory>
+            <directory suffix="Test.php">More/*/Tests</directory>
+            <directory suffix="Test.php">Structural/*/Tests</directory>
         </testsuite>
     </testsuites>
-
+    <filter>
+        <blacklist>
+            <directory>./vendor</directory>
+        </blacklist>
+    </filter>
 </phpunit>
