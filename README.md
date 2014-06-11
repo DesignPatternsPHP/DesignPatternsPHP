@@ -41,7 +41,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Command](Behavioral/Command) [:notebook:](http://en.wikipedia.org/wiki/Command_pattern)
 * [Iterator](Behavioral/Iterator) [:notebook:](http://en.wikipedia.org/wiki/Iterator_pattern)
 * [Mediator](Behavioral/Mediator) [:notebook:](http://en.wikipedia.org/wiki/Mediator_pattern)
-* [Memento](Memento) [:notebook:](http://en.wikipedia.org/wiki/Memento_pattern)
+* [Memento](Behavioral/Memento) [:notebook:](http://en.wikipedia.org/wiki/Memento_pattern)
 * [NullObject](Behavioral/NullObject) [:notebook:](http://en.wikipedia.org/wiki/Null_Object_pattern)
 * [Observer](Behavioral/Observer) [:notebook:](http://en.wikipedia.org/wiki/Observer_pattern)
 * [Specification](Behavioral/Specification) [:notebook:](http://en.wikipedia.org/wiki/Specification_pattern)
