@@ -12,7 +12,6 @@ class Item
      * An item must have a price
      * 
      * @param int $price
-
      */
     public function __construct($price)
     {

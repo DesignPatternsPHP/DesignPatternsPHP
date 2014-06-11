@@ -13,7 +13,6 @@ class Not extends AbstractSpecification
      * Creates a new specification wrapping another
      * 
      * @param SpecificationInterface $spec
-
      */
     public function __construct(SpecificationInterface $spec)
     {

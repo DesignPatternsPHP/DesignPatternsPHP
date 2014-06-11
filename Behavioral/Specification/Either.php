@@ -15,7 +15,6 @@ class Either extends AbstractSpecification
      * 
      * @param SpecificationInterface $left
      * @param SpecificationInterface $right
-
      */
     public function __construct(SpecificationInterface $left, SpecificationInterface $right)
     {
