@@ -20,7 +20,7 @@ class Processor
         if ($this->processing++ < $this->maxProcesses) {
             $this->createWorker($image);
         } else {
-            $this->pushToWaitingQueue($worker);
+            $this->pushToWaitingQueue($image);
         }
     }
 
