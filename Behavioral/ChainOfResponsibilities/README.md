@@ -2,7 +2,7 @@
 
 ## Purpose:
 
-To build a chain of objects to handle a call. If one object cannot handle a call, it delegates the call to the next in the chain and so forth.
+To build a chain of objects to handle a call in sequential order. If one object cannot handle a call, it delegates the call to the next in the chain and so forth.
 
 ## Examples:
 
