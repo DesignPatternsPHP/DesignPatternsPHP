@@ -15,7 +15,7 @@ class Pool
 
     public function get()
     {
-        if (count($this->instances) > 0) {
+        if (array_key_exists(0, $this->instances)) {
             return array_pop($this->instances);
         }
 
