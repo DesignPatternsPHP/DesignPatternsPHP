@@ -13,13 +13,10 @@ use DesignPatterns\Behavioral\Mediator\Subsystem\Server;
 class MediatorTest extends \PHPUnit_Framework_TestCase
 {
 
-    protected $client;
-
     protected function setUp()
     {
         $media = new Mediator();
-        $this->client = new Client($media);
-        $media->setColleague(new Database($media), $this->client, new Server($media));
+        $media->setColleague(new Database($media), new Client($media), new Server($media));
     }
 
     public function testOutputHelloWorld()
