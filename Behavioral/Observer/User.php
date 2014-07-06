@@ -59,7 +59,7 @@ class User implements \SplSubject
      */
     public function notify()
     {
-        /** @var SplObserver $observer */
+        /** @var \SplObserver $observer */
         foreach ($this->observers as $observer) {
             $observer->update($this);
         }
