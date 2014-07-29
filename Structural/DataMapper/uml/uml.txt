@@ -1,0 +1,26 @@
+@startuml
+class User {
+    protected $userId
+    protected $username
+    protected $email
+    +__construct($id = null, $username = null, $email = null)
+    +getUserId()
+    +setUserID($userId)
+    +getUsername()
+    +setUsername($username)
+    +getEmail()
+    +setEmail($email)
+}
+
+class UserMapper {
+    protected $adapter
+    +__construct(DBAL $dbLayer)
+    +save(User $user)
+    +findById($id)
+    +findAll()
+    +mapObject(array $row)
+}
+
+User
+UserMapper
+@enduml
