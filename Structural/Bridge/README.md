@@ -7,3 +7,6 @@ independently. (http://en.wikipedia.org/wiki/Bridge_pattern)
 
 * [Symfony DoctrineBridge](https://github.com/symfony/DoctrineBridge)
 
+## UML Diagram
+
+![Alt Bridge UML Diagram](uml.png)

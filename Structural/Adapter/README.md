@@ -11,5 +11,4 @@ To translate one interface for a class into a compatible interface. An adapter a
 
 ## UML Diagram
 
-<img src="uml.svg" alt="Adapter UML Diagram">
 ![Alt Adapter UML Diagram](uml.png)
