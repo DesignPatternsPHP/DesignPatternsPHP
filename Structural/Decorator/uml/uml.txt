@@ -1,0 +1,29 @@
+@startuml
+interface RendererInterface {
+    +renderData()
+}
+
+abstract class Decorator {
+    # protected $wrapped : RendererInterface
+    +__construct(RendererInterface $wrappable)
+}
+
+class RenderInJson {
+    +renderData()
+}
+
+class RenderInXml {
+    +renderData()
+}
+
+class Webservice {
+    protected $data
+    +__construct($data)
+    +renderData()
+}
+
+Decorator <|.. RenderInJson
+Decorator <|.. RenderInXml
+RendererInterface <|.. Decorator
+RendererInterface <|.. Webservice
+@enduml

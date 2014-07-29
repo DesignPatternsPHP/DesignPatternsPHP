@@ -13,6 +13,7 @@ class User {
 }
 
 class UserMapper {
+    # $user : User
     protected $adapter
     +__construct(DBAL $dbLayer)
     +save(User $user)
