@@ -8,3 +8,7 @@ To translate one interface for a class into a compatible interface. An adapter a
 
 * DB Client libraries adapter
 * using multiple different webservices and adapters normalize data so that the outcome is the same for all
+
+## UML Diagram
+
+![Alt Adapter UML Diagram](uml/uml.png)

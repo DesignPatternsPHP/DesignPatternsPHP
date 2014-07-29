@@ -16,3 +16,7 @@ The key point of this pattern is, unlike Active Record pattern, the data model f
 ## Examples
 
 * DB Object Relational Mapper (ORM) : Doctrine2 uses DAO named as "EntityRepository"
+
+## UML Diagram
+
+![Alt DataMapper UML Diagram](uml/uml.png)

@@ -1,0 +1,33 @@
+@startuml
+interface PaperBookInterface {
+    +turnPage()
+    +open()
+}
+
+interface EBookInterface {
+    +pressNext()
+    +pressStart()
+}
+
+class Book {
+    +open()
+    +turnPage()
+}
+
+class Kindle {
+    +pressNext()
+    +pressStart()
+}
+
+class EBookAdapter {
+    #eBook : EBookInterface
+    +__construct(ebook : EBookInterface)
+    +open()
+    +turnPage()
+}
+
+PaperBookInterface <|.. Book
+PaperBookInterface <|.. EBookAdapter
+EBookInterface <|.. Kindle
+EBookAdapter o-- EBookInterface
+@enduml

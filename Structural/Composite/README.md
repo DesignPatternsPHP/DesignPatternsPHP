@@ -2,7 +2,7 @@
 
 # Purpose
 
-To treat a group of objects the same way as a single instance of the object. 
+To treat a group of objects the same way as a single instance of the object.
 
 # Examples
 
@@ -10,3 +10,6 @@ To treat a group of objects the same way as a single instance of the object.
   subsequently runs through all its child elements and calls `render()` on them
 * `Zend_Config`: a tree of configuration options, each one is a `Zend_Config` object itself
 
+## UML Diagram
+
+![Alt Composite UML Diagram](uml/uml.png)

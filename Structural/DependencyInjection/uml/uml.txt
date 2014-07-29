@@ -1,0 +1,28 @@
+@startuml
+abstract class AbstractConfig {
+    #$storage
+    +__construct($storage)
+}
+
+class ArrayConfig {
+    +get($key : string|int, $default = null)
+    +set($key : string|int, $value : mixed)
+}
+
+class Connection {
+    #$configuration : Parameters
+    #$host
+    +__construct(Parameters $config)
+    +connect()
+    +getHost()
+}
+
+interface Parameters {
+    +get($key : string|int)
+    +set($key, $value : mixed)
+}
+
+AbstractConfig <|.. ArrayConfig
+Parameters <|.. ArrayConfig
+
+@enduml

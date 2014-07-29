@@ -1,0 +1,13 @@
+@startuml
+
+class Sql {
+    #$fields : array
+    #$from : array
+    #$where : array
+    +select(array $fields = array())
+    +from($table : string, $alias : string)
+    +where($condition : string)
+    +getQuery()
+}
+
+@enduml
