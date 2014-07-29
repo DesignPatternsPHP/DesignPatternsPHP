@@ -9,4 +9,4 @@ independently. (http://en.wikipedia.org/wiki/Bridge_pattern)
 
 ## UML Diagram
 
-![Alt Bridge UML Diagram](uml.png)
+![Alt Bridge UML Diagram](uml/uml.png)

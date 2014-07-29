@@ -1,0 +1,23 @@
+@startuml
+class Form {
+    protected elements
+    +render($indent = 0)
+    +addElement(FormElement $element)
+}
+
+abstract class FormElement {
+    +render($indent = 0)
+}
+
+class InputElement {
+    +render($indent = 0)
+}
+
+class TextElement {
+    +render($indent = 0)
+}
+
+FormElement <|.. TextElement
+FormElement <|.. InputElement
+FormElement <|.. Form
+@enduml
