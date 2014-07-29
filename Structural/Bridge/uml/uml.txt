@@ -4,12 +4,12 @@ class Assemble {
 }
 
 class Car {
-    +__construct()
+    +__construct(Workshop $workShop1, Workshop $workShop2)
     +manufacture()
 }
 
 class Motorcycle {
-    +__construct()
+    +__construct(Workshop $workShop1, Workshop $workShop2)
     +manufacture()
 }
 
@@ -18,9 +18,9 @@ class Produce {
 }
 
 abstract class Vehicle {
-    protected workShop1
-    protected workShop2
-    +__construct()
+    #workShop1
+    #workShop2
+    #__construct()
     +manufacture()
 }
 

@@ -14,3 +14,7 @@ Notice we are following Inversion of control principle in `Connection` by asking
 
 * The Doctrine2 ORM uses dependency injection e.g. for configuration that is injected into a `Connection` object. For testing purposes, one can easily create a mock object of the configuration and inject that into the `Connection` object
 * Symfony and Zend Framework 2 already have containers for DI that create objects via a configuration array and inject them where needed (i.e. in Controllers)
+
+## UML Diagram
+
+![Alt DependencyInjection UML Diagram](uml/uml.png)

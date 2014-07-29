@@ -4,7 +4,7 @@ interface RendererInterface {
 }
 
 abstract class Decorator {
-    # protected $wrapped : RendererInterface
+    #$wrapped : RendererInterface
     +__construct(RendererInterface $wrappable)
 }
 
@@ -17,7 +17,7 @@ class RenderInXml {
 }
 
 class Webservice {
-    protected $data
+    #$data : mixed
     +__construct($data)
     +renderData()
 }
