@@ -1,0 +1,9 @@
+@startuml
+
+abstract class Registry {
+    #static $storedValues : array;
+    +static function set($key : string, $value : mixed)
+    +static function get($key : string)
+}
+
+@enduml
