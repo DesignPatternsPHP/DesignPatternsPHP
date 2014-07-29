@@ -21,6 +21,4 @@ class UserMapper {
     +mapObject(array $row)
 }
 
-User
-UserMapper
 @enduml
