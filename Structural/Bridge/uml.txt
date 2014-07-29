@@ -1,0 +1,35 @@
+@startuml
+class Assemble {
+    +work()
+}
+
+class Car {
+    +__construct()
+    +manufacture()
+}
+
+class Motorcycle {
+    +__construct()
+    +manufacture()
+}
+
+class Produce {
+    +work()
+}
+
+abstract class Vehicle {
+    protected workShop1
+    protected workShop2
+    +__construct()
+    +manufacture()
+}
+
+interface Workshop {
+    +work()
+}
+
+Workshop <|.. Assemble
+Workshop <|.. Produce
+Vehicle <|.. Motorcycle
+Vehicle <|.. Car
+@enduml
