@@ -1,0 +1,18 @@
+@startuml
+
+class Record {
+    #$data : array|null
+    +__construct($data = null)
+    +__set($name : string, $value : mixed)
+    +__get($name : string)
+}
+
+class RecordProxy {
+    #$isDirty : bool
+    #$isInitialized : bool
+    +__construct(data : array)
+    +__set($name : string, $value : mixed)
+}
+
+Record <|.. RecordProxy
+@enduml
