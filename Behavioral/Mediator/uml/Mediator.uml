@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Behavioral\Mediator\Colleague</OriginalElement>
+  <nodes>
+    <node x="196.3419689119171" y="221.44559585492226">\DesignPatterns\Behavioral\Mediator\Subsystem\Database</node>
+    <node x="-347.65803108808296" y="7.461139896373059">\DesignPatterns\Behavioral\Mediator\MediatorInterface</node>
+    <node x="55.34196891191709" y="211.44559585492226">\DesignPatterns\Behavioral\Mediator\Subsystem\Client</node>
+    <node x="-353.65803108808296" y="144.46113989637306">\DesignPatterns\Behavioral\Mediator\Mediator</node>
+    <node x="-65.65803108808291" y="221.44559585492226">\DesignPatterns\Behavioral\Mediator\Subsystem\Server</node>
+    <node x="38.84196891191709" y="72.44559585492226">\DesignPatterns\Behavioral\Mediator\Colleague</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Behavioral\Mediator\Subsystem\Server" target="\DesignPatterns\Behavioral\Mediator\Colleague">
+      <point x="0.0" y="-23.5" />
+      <point x="-15.158031088082907" y="186.44559585492226" />
+      <point x="64.50863557858375" y="186.44559585492226" />
+      <point x="-51.333333333333336" y="44.5" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\Mediator\Mediator" target="\DesignPatterns\Behavioral\Mediator\MediatorInterface">
+      <point x="0.0" y="-84.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\Mediator\Subsystem\Client" target="\DesignPatterns\Behavioral\Mediator\Colleague">
+      <point x="0.0" y="-33.5" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\Mediator\Subsystem\Database" target="\DesignPatterns\Behavioral\Mediator\Colleague">
+      <point x="0.0" y="-23.5" />
+      <point x="247.8419689119171" y="186.44559585492226" />
+      <point x="167.17530224525044" y="186.44559585492226" />
+      <point x="51.33333333333334" y="44.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-27.0" y="160.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

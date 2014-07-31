@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Behavioral\NullObject\Service</OriginalElement>
+  <nodes>
+    <node x="111.0" y="97.0">\DesignPatterns\Behavioral\NullObject\NullLogger</node>
+    <node x="0.0" y="97.0">\DesignPatterns\Behavioral\NullObject\PrintLogger</node>
+    <node x="46.0" y="0.0">\DesignPatterns\Behavioral\NullObject\LoggerInterface</node>
+    <node x="0.0" y="189.0">\DesignPatterns\Behavioral\NullObject\Service</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Behavioral\NullObject\NullLogger" target="\DesignPatterns\Behavioral\NullObject\LoggerInterface">
+      <point x="0.0" y="-23.5" />
+      <point x="156.5" y="72.0" />
+      <point x="128.5" y="72.0" />
+      <point x="27.5" y="23.5" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\NullObject\PrintLogger" target="\DesignPatterns\Behavioral\NullObject\LoggerInterface">
+      <point x="0.0" y="-23.5" />
+      <point x="45.5" y="72.0" />
+      <point x="73.5" y="72.0" />
+      <point x="-27.5" y="23.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="101.0" y="139.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
