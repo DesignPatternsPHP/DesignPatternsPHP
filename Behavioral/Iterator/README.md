@@ -11,3 +11,7 @@ To make an object iterable and to make it appear like a collection of objects.
 ## Note
 
 Standard PHP Library (SPL) defines an interface Iterator which is best suited for this! Often you would want to implement the Countable interface too, to allow `count($object)` on your iterable object
+
+## UML Diagram
+
+![Alt Iterator UML Diagram](uml/uml.png)

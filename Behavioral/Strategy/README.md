@@ -14,3 +14,7 @@ To separate strategies and to enable fast switching between them. Also this patt
 
 * sorting a list of objects, one strategy by date, the other by id
 * simplify unit testing: e.g. switching between file and in-memory storage
+
+## UML Diagram
+
+![Alt Strategy UML Diagram](uml/uml.png)

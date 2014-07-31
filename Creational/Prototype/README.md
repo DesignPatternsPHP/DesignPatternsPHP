@@ -7,3 +7,7 @@ To avoid the cost of creating objects the standard way (new Foo()) and instead c
 ## Examples
 
 * Large amounts of data (e.g. create 1,000,000 rows in a database at once via a ORM)
+
+## UML Diagram
+
+![Alt Prototype UML Diagram](uml/uml.png)

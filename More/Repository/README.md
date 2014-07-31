@@ -10,3 +10,7 @@ Repository also supports the objective of achieving a clean separation and one-w
 
 * Doctrine 2 ORM: there is Repository that mediates between Entity and DBAL and contains methods to retrieve objects
 * Laravel Framework
+
+## UML Diagram
+
+![Alt Repository UML Diagram](uml/uml.png)

@@ -15,3 +15,7 @@ To have only one instance of this object in the application that will handle all
 ## Diagram
 
 <img src="http://yuml.me/diagram/scruffy/class/[Singleton|-instance: Singleton|+getInstance(): Singleton;-__construct(): void;-__clone(): void;-__wakeup(): void]" >
+
+## UML Diagram
+
+![Alt Singleton UML Diagram](uml/uml.png)

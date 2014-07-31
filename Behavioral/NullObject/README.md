@@ -18,3 +18,7 @@ a statement like `if (!is_null($obj)) { $obj->callSomething(); }` anymore.
 * Symfony2: null output in Symfony/Console
 * null handler in a Chain of Responsibilities pattern
 * null command in a Command pattern
+
+## UML Diagram
+
+![Alt NullObject UML Diagram](uml/uml.png)
