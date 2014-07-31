@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Structural\DependencyInjection\AbstractConfig</OriginalElement>
+  <nodes>
+    <node x="0.0" y="230.0">\DesignPatterns\Structural\DependencyInjection\Connection</node>
+    <node x="51.0" y="118.0">\DesignPatterns\Structural\DependencyInjection\ArrayConfig</node>
+    <node x="0.0" y="0.5">\DesignPatterns\Structural\DependencyInjection\Parameters</node>
+    <node x="137.0" y="0.0">\DesignPatterns\Structural\DependencyInjection\AbstractConfig</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Structural\DependencyInjection\ArrayConfig" target="\DesignPatterns\Structural\DependencyInjection\AbstractConfig">
+      <point x="39.5" y="-33.5" />
+      <point x="169.5" y="93.0" />
+      <point x="201.5" y="93.0" />
+      <point x="0.0" y="34.0" />
+    </edge>
+    <edge source="\DesignPatterns\Structural\DependencyInjection\ArrayConfig" target="\DesignPatterns\Structural\DependencyInjection\Parameters">
+      <point x="-39.5" y="-33.5" />
+      <point x="90.5" y="93.0" />
+      <point x="58.5" y="93.0" />
+      <point x="0.0" y="33.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="133.0" y="179.5" />
+  <SelectedNodes>
+    <node>\DesignPatterns\Structural\DependencyInjection\AbstractConfig</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
