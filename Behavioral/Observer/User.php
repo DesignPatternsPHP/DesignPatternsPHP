@@ -49,6 +49,8 @@ class User implements \SplSubject
 
         if (false !== $index) {
             unset($this->observers[$index]);
+            // Reindex
+            array_values($this->observers);
         }
     }
 
