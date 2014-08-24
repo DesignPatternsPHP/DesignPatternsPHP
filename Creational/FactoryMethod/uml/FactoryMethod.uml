@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Creational\FactoryMethod\Bicycle</OriginalElement>
+  <nodes>
+    <node x="-201.86528497409324" y="25.932642487046632">\DesignPatterns\Creational\FactoryMethod\FactoryMethod</node>
+    <node x="254.01554404145077" y="140.10880829015545">\DesignPatterns\Creational\FactoryMethod\Bicycle</node>
+    <node x="-109.36528497409324" y="183.93264248704662">\DesignPatterns\Creational\FactoryMethod\GermanFactory</node>
+    <node x="251.51554404145077" y="33.10880829015545">\DesignPatterns\Creational\FactoryMethod\VehicleInterface</node>
+    <node x="-279.36528497409324" y="183.93264248704662">\DesignPatterns\Creational\FactoryMethod\ItalianFactory</node>
+    <node x="389.01554404145077" y="140.10880829015545">\DesignPatterns\Creational\FactoryMethod\Ferrari</node>
+    <node x="99.01554404145077" y="130.10880829015545">\DesignPatterns\Creational\FactoryMethod\Porsche</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Creational\FactoryMethod\ItalianFactory" target="\DesignPatterns\Creational\FactoryMethod\FactoryMethod">
+      <point x="0.0" y="-23.5" />
+      <point x="-204.36528497409324" y="158.93264248704662" />
+      <point x="-160.61528497409324" y="158.93264248704662" />
+      <point x="-41.25" y="54.0" />
+    </edge>
+    <edge source="\DesignPatterns\Creational\FactoryMethod\Porsche" target="\DesignPatterns\Creational\FactoryMethod\VehicleInterface">
+      <point x="0.0" y="-44.0" />
+      <point x="166.51554404145077" y="105.10880829015545" />
+      <point x="271.51554404145077" y="105.10880829015545" />
+      <point x="-40.0" y="23.5" />
+    </edge>
+    <edge source="\DesignPatterns\Creational\FactoryMethod\Bicycle" target="\DesignPatterns\Creational\FactoryMethod\VehicleInterface">
+      <point x="0.0" y="-34.0" />
+      <point x="0.0" y="23.5" />
+    </edge>
+    <edge source="\DesignPatterns\Creational\FactoryMethod\GermanFactory" target="\DesignPatterns\Creational\FactoryMethod\FactoryMethod">
+      <point x="0.0" y="-23.5" />
+      <point x="-34.36528497409324" y="158.93264248704662" />
+      <point x="-78.11528497409324" y="158.93264248704662" />
+      <point x="41.25" y="54.0" />
+    </edge>
+    <edge source="\DesignPatterns\Creational\FactoryMethod\Ferrari" target="\DesignPatterns\Creational\FactoryMethod\VehicleInterface">
+      <point x="0.0" y="-34.0" />
+      <point x="446.51554404145077" y="105.10880829015545" />
+      <point x="351.51554404145077" y="105.10880829015545" />
+      <point x="40.0" y="23.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="112.5" y="128.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

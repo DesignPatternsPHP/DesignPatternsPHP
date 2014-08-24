@@ -1,0 +1,23 @@
+@startuml
+class Form {
+    #elements : array|FormElement[]
+    +render($indent = 0 : int)
+    +addElement(FormElement $element)
+}
+
+abstract class FormElement {
+    +render($indent = 0 : int)
+}
+
+class InputElement {
+    +render($indent = 0 : int)
+}
+
+class TextElement {
+    +render($indent = 0 : int)
+}
+
+FormElement <|.. TextElement
+FormElement <|.. InputElement
+FormElement <|.. Form
+@enduml

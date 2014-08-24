@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Creational\AbstractFactory\AbstractFactory</OriginalElement>
+  <nodes>
+    <node x="281.0" y="228.0">\DesignPatterns\Creational\AbstractFactory\Html\Text</node>
+    <node x="150.0" y="229.0">\DesignPatterns\Creational\AbstractFactory\Html\Picture</node>
+    <node x="223.0" y="117.0">\DesignPatterns\Creational\AbstractFactory\HtmlFactory</node>
+    <node x="0.0" y="117.0">\DesignPatterns\Creational\AbstractFactory\JsonFactory</node>
+    <node x="126.0" y="0.0">\DesignPatterns\Creational\AbstractFactory\AbstractFactory</node>
+    <node x="0.0" y="229.0">\DesignPatterns\Creational\AbstractFactory\MediaInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Creational\AbstractFactory\HtmlFactory" target="\DesignPatterns\Creational\AbstractFactory\AbstractFactory">
+      <point x="0.0" y="-33.5" />
+      <point x="324.5" y="92.0" />
+      <point x="256.5" y="92.0" />
+      <point x="43.5" y="33.5" />
+    </edge>
+    <edge source="\DesignPatterns\Creational\AbstractFactory\JsonFactory" target="\DesignPatterns\Creational\AbstractFactory\AbstractFactory">
+      <point x="0.0" y="-33.5" />
+      <point x="101.5" y="92.0" />
+      <point x="169.5" y="92.0" />
+      <point x="-43.5" y="33.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="213.0" y="138.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

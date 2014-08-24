@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Creational\Pool\Processor</OriginalElement>
+  <nodes>
+    <node x="0.0" y="274.0">\DesignPatterns\Creational\Pool\Pool</node>
+    <node x="0.0" y="0.0">\DesignPatterns\Creational\Pool\Processor</node>
+    <node x="242.0" y="274.0">\DesignPatterns\Creational\Pool\Worker</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.9125295508274232" x="199.5" y="201.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

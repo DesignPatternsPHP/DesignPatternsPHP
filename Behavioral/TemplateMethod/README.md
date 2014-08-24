@@ -12,3 +12,7 @@ How? With abstraction of course.
 In other words, this is a skeleton of algorithm, well-suited for framework libraries. The user has just to implement one method and the superclass do the job.
 
 It is an easy way to decouple concrete classes and reduce copy-paste, that's why you'll find it everywhere.
+
+## UML Diagram
+
+![Alt TemplateMethod UML Diagram](uml/uml.png)

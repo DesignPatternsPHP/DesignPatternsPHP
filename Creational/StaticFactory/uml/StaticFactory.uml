@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Creational\StaticFactory\FormatNumber</OriginalElement>
+  <nodes>
+    <node x="114.0" y="77.0">\DesignPatterns\Creational\StaticFactory\FormatNumber</node>
+    <node x="-8.0" y="149.0">\DesignPatterns\Creational\StaticFactory\StaticFactory</node>
+    <node x="0.0" y="77.0">\DesignPatterns\Creational\StaticFactory\FormatString</node>
+    <node x="43.75" y="0.0">\DesignPatterns\Creational\StaticFactory\FormatterInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Creational\StaticFactory\FormatString" target="\DesignPatterns\Creational\StaticFactory\FormatterInterface">
+      <point x="0.0" y="-13.5" />
+      <point x="47.0" y="52.0" />
+      <point x="75.0" y="52.0" />
+      <point x="-31.25" y="13.5" />
+    </edge>
+    <edge source="\DesignPatterns\Creational\StaticFactory\FormatNumber" target="\DesignPatterns\Creational\StaticFactory\FormatterInterface">
+      <point x="0.0" y="-13.5" />
+      <point x="165.5" y="52.0" />
+      <point x="137.5" y="52.0" />
+      <point x="31.25" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="108.5" y="98.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -14,3 +14,7 @@ Service Locator object on bootstrap.
 ## Examples
 
 * Zend Framework 2 uses Service Locator to create and share services used in the framework(i.e. EventManager, ModuleManager, all custom user services provided by modules, etc...)
+
+## UML Diagram
+
+![Alt ServiceLocator UML Diagram](uml/uml.png)

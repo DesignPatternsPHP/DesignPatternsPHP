@@ -9,3 +9,7 @@ an abstract class with only static methods (or using the Singleton pattern)
 
 * Zend Framework: `Zend_Registry` holds the application's logger object, front controller etc.
 * Yii Framework: `CWebApplication` holds all the application components, such as `CWebUser`, `CUrlManager`, etc.
+
+## UML Diagram
+
+![Alt Registry UML Diagram](uml/uml.png)

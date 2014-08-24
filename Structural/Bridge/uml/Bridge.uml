@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Structural\Bridge\Vehicle</OriginalElement>
+  <nodes>
+    <node x="53.5" y="272.0">\DesignPatterns\Structural\Bridge\Workshop</node>
+    <node x="290.0" y="159.0">\DesignPatterns\Structural\Bridge\Car</node>
+    <node x="107.0" y="369.0">\DesignPatterns\Structural\Bridge\Produce</node>
+    <node x="0.0" y="159.0">\DesignPatterns\Structural\Bridge\Motorcycle</node>
+    <node x="0.0" y="369.0">\DesignPatterns\Structural\Bridge\Assemble</node>
+    <node x="187.5" y="0.0">\DesignPatterns\Structural\Bridge\Vehicle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Structural\Bridge\Car" target="\DesignPatterns\Structural\Bridge\Vehicle">
+      <point x="0.0" y="-34.0" />
+      <point x="425.0" y="134.0" />
+      <point x="326.25" y="134.0" />
+      <point x="46.25" y="54.5" />
+    </edge>
+    <edge source="\DesignPatterns\Structural\Bridge\Assemble" target="\DesignPatterns\Structural\Bridge\Workshop">
+      <point x="0.0" y="-23.5" />
+      <point x="43.5" y="344.0" />
+      <point x="75.25" y="344.0" />
+      <point x="-21.75" y="23.5" />
+    </edge>
+    <edge source="\DesignPatterns\Structural\Bridge\Motorcycle" target="\DesignPatterns\Structural\Bridge\Vehicle">
+      <point x="0.0" y="-34.0" />
+      <point x="135.0" y="134.0" />
+      <point x="233.75" y="134.0" />
+      <point x="-46.25" y="54.5" />
+    </edge>
+    <edge source="\DesignPatterns\Structural\Bridge\Produce" target="\DesignPatterns\Structural\Bridge\Workshop">
+      <point x="0.0" y="-23.5" />
+      <point x="150.5" y="344.0" />
+      <point x="118.75" y="344.0" />
+      <point x="21.75" y="23.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8853211009174312" x="280.0" y="208.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

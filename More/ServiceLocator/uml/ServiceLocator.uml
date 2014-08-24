@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\More\ServiceLocator\DatabaseServiceInterface</OriginalElement>
+  <nodes>
+    <node x="276.0" y="0.0">\DesignPatterns\More\ServiceLocator\DatabaseServiceInterface</node>
+    <node x="22.5" y="408.0">\DesignPatterns\More\ServiceLocator\LogService</node>
+    <node x="0.0" y="117.0">\DesignPatterns\More\ServiceLocator\ServiceLocator</node>
+    <node x="41.5" y="0.0">\DesignPatterns\More\ServiceLocator\ServiceLocatorInterface</node>
+    <node x="0.0" y="331.0">\DesignPatterns\More\ServiceLocator\LogServiceInterface</node>
+    <node x="298.5" y="77.0">\DesignPatterns\More\ServiceLocator\DatabaseService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\More\ServiceLocator\ServiceLocator" target="\DesignPatterns\More\ServiceLocator\ServiceLocatorInterface">
+      <point x="0.0" y="-84.5" />
+      <point x="0.0" y="33.5" />
+    </edge>
+    <edge source="\DesignPatterns\More\ServiceLocator\DatabaseService" target="\DesignPatterns\More\ServiceLocator\DatabaseServiceInterface">
+      <point x="0.0" y="-13.5" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="\DesignPatterns\More\ServiceLocator\LogService" target="\DesignPatterns\More\ServiceLocator\LogServiceInterface">
+      <point x="0.0" y="-13.5" />
+      <point x="0.0" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8483516483516483" x="217.0" y="217.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

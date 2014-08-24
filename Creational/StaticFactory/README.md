@@ -9,3 +9,7 @@ method to create all types of objects it can create. It is usually named `factor
 ## Examples
 
 * Zend Framework: `Zend_Cache_Backend` or `_Frontend` use a factory method create cache backends or frontends
+
+## UML Diagram
+
+![Alt StaticFactory UML Diagram](uml/uml.png)

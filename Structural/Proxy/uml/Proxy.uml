@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Structural\Proxy\Record</OriginalElement>
+  <nodes>
+    <node x="4.0" y="0.0">\DesignPatterns\Structural\Proxy\Record</node>
+    <node x="0.0" y="159.0">\DesignPatterns\Structural\Proxy\RecordProxy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Structural\Proxy\RecordProxy" target="\DesignPatterns\Structural\Proxy\Record">
+      <point x="0.0" y="-54.5" />
+      <point x="0.0" y="54.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="81.0" y="134.0" />
+  <SelectedNodes>
+    <node>\DesignPatterns\Structural\Proxy\Record</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

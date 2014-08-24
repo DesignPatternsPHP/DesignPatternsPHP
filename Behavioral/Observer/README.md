@@ -12,3 +12,7 @@ To implement a publish/subscribe behaviour to an object, whenever a "Subject" ob
 ## Note
 
 PHP already defines two interfaces that can help to implement this pattern: SplObserver and SplSubject.
+
+## UML Diagram
+
+![Alt Observer UML Diagram](uml/uml.png)

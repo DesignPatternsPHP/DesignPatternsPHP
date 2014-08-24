@@ -16,3 +16,7 @@ When using this pattern, care should be taken if the originator may change other
 
 * The seed of a pseudorandom number generator
 * The state in a finite state machine
+
+## UML Diagram
+
+![Alt Momento UML Diagram](uml/uml.png)

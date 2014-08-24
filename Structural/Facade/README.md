@@ -15,3 +15,7 @@ That's why a good facade has no `new` in it. If there are multiple creations for
 
 The best facade has no `new` and a constructor with interface-type-hinted parameters.
 If you need creation of new instances, use a Factory as argument.
+
+## UML Diagram
+
+![Alt Facade UML Diagram](uml/uml.png)

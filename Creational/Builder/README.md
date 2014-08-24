@@ -13,3 +13,7 @@ Note: Builders have often a fluent interface, see the mock builder of PHPUnit fo
 ## Examples
 
 * PHPUnit: Mock Builder
+
+## UML Diagram
+
+![Alt Builder UML Diagram](uml/uml.png)

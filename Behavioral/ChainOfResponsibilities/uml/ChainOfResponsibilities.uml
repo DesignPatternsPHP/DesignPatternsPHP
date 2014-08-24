@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Behavioral\ChainOfResponsibilities\Handler</OriginalElement>
+  <nodes>
+    <node x="54.5" y="0.0">\DesignPatterns\Behavioral\ChainOfResponsibilities\Handler</node>
+    <node x="0.0" y="158.0">\DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible\SlowStorage</node>
+    <node x="154.0" y="158.0">\DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible\FastStorage</node>
+    <node x="304.0" y="45.0">\DesignPatterns\Behavioral\ChainOfResponsibilities\Request</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible\SlowStorage" target="\DesignPatterns\Behavioral\ChainOfResponsibilities\Handler">
+      <point x="0.0" y="-44.5" />
+      <point x="67.0" y="133.0" />
+      <point x="99.25" y="133.0" />
+      <point x="-44.75" y="54.0" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible\FastStorage" target="\DesignPatterns\Behavioral\ChainOfResponsibilities\Handler">
+      <point x="0.0" y="-44.5" />
+      <point x="221.0" y="133.0" />
+      <point x="188.75" y="133.0" />
+      <point x="44.75" y="54.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="188.0" y="123.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
