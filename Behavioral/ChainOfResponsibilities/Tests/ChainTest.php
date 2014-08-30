@@ -28,6 +28,7 @@ class ChainTest extends \PHPUnit_Framework_TestCase
     {
         $request = new Request();
         $request->verb = 'get';
+
         return array(
             array($request)
         );
