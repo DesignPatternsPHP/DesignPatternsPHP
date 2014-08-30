@@ -37,7 +37,7 @@ abstract class Journey
     }
 
     /**
-     * this method will be unknown by subclasses (better)
+     * This method will be unknown by subclasses (better)
      */
     private function buyAFlight()
     {
