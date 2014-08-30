@@ -6,7 +6,6 @@ use DesignPatterns\Creational\Pool\Pool;
 
 class TestWorker
 {
-
     public $id = 1;
 }
 
