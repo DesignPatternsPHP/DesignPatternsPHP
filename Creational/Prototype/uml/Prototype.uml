@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Creational\Prototype\BarBookPrototype</OriginalElement>
+  <nodes>
+    <node x="60.0" y="0.0">\DesignPatterns\Creational\Prototype\BookPrototype</node>
+    <node x="155.0" y="178.0">\DesignPatterns\Creational\Prototype\FooBookPrototype</node>
+    <node x="0.0" y="178.0">\DesignPatterns\Creational\Prototype\BarBookPrototype</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Creational\Prototype\BarBookPrototype" target="\DesignPatterns\Creational\Prototype\BookPrototype">
+      <point x="0.0" y="-34.0" />
+      <point x="67.5" y="153.0" />
+      <point x="102.5" y="153.0" />
+      <point x="-42.5" y="64.0" />
+    </edge>
+    <edge source="\DesignPatterns\Creational\Prototype\FooBookPrototype" target="\DesignPatterns\Creational\Prototype\BookPrototype">
+      <point x="0.0" y="-34.0" />
+      <point x="222.5" y="153.0" />
+      <point x="187.5" y="153.0" />
+      <point x="42.5" y="64.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="145.0" y="123.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

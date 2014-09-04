@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Behavioral\Memento\Caretaker</OriginalElement>
+  <nodes>
+    <node x="182.0" y="153.0">\DesignPatterns\Behavioral\Memento\Caretaker</node>
+    <node x="0.0" y="0.0">\DesignPatterns\Behavioral\Memento\Originator</node>
+    <node x="0.0" y="153.0">\DesignPatterns\Behavioral\Memento\Memento</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="131.0" y="121.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

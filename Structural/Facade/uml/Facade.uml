@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Structural\Facade\BiosInterface</OriginalElement>
+  <nodes>
+    <node x="0.0" y="174.0">\DesignPatterns\Structural\Facade\BiosInterface</node>
+    <node x="208.0" y="174.0">\DesignPatterns\Structural\Facade\OsInterface</node>
+    <node x="0.0" y="0.0">\DesignPatterns\Structural\Facade\Facade</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="149.0" y="140.5" />
+  <SelectedNodes>
+    <node>\DesignPatterns\Structural\Facade\BiosInterface</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Behavioral\State\OrderInterface</OriginalElement>
+  <nodes>
+    <node x="0.0" y="271.0">\DesignPatterns\Behavioral\State\OrderFactory</node>
+    <node x="178.0" y="117.0">\DesignPatterns\Behavioral\State\CreateOrder</node>
+    <node x="202.0" y="271.0">\DesignPatterns\Behavioral\State\OrderController</node>
+    <node x="102.5" y="0.0">\DesignPatterns\Behavioral\State\OrderInterface</node>
+    <node x="0.0" y="117.0">\DesignPatterns\Behavioral\State\ShippingOrder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Behavioral\State\ShippingOrder" target="\DesignPatterns\Behavioral\State\OrderInterface">
+      <point x="0.0" y="-54.5" />
+      <point x="79.0" y="92.0" />
+      <point x="135.25" y="92.0" />
+      <point x="-32.75" y="33.5" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\State\CreateOrder" target="\DesignPatterns\Behavioral\State\OrderInterface">
+      <point x="0.0" y="-54.5" />
+      <point x="257.0" y="92.0" />
+      <point x="200.75" y="92.0" />
+      <point x="32.75" y="33.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="171.5" y="169.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

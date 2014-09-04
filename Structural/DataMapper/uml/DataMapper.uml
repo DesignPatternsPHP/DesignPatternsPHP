@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Structural\DataMapper\User</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">\DesignPatterns\Structural\DataMapper\User</node>
+    <node x="0.0" y="274.0">\DesignPatterns\Structural\DataMapper\UserMapper</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.871331828442438" x="141.5" y="211.5" />
+  <SelectedNodes>
+    <node>\DesignPatterns\Structural\DataMapper\User</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

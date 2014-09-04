@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Behavioral\Strategy\ComparatorInterface</OriginalElement>
+  <nodes>
+    <node x="324.0" y="6.0">\DesignPatterns\Behavioral\Strategy\ObjectCollection</node>
+    <node x="144.0" y="97.0">\DesignPatterns\Behavioral\Strategy\DateComparator</node>
+    <node x="67.0" y="0.0">\DesignPatterns\Behavioral\Strategy\ComparatorInterface</node>
+    <node x="0.0" y="97.0">\DesignPatterns\Behavioral\Strategy\IdComparator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Behavioral\Strategy\IdComparator" target="\DesignPatterns\Behavioral\Strategy\ComparatorInterface">
+      <point x="0.0" y="-23.5" />
+      <point x="62.0" y="72.0" />
+      <point x="100.5" y="72.0" />
+      <point x="-33.5" y="23.5" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\Strategy\DateComparator" target="\DesignPatterns\Behavioral\Strategy\ComparatorInterface">
+      <point x="0.0" y="-23.5" />
+      <point x="206.0" y="72.0" />
+      <point x="167.5" y="72.0" />
+      <point x="33.5" y="23.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="259.5" y="72.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

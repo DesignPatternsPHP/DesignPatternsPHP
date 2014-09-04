@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Creational\Builder\BikeBuilder</OriginalElement>
+  <nodes>
+    <node x="211.45854922279796" y="202.76683937823833">\DesignPatterns\Creational\Builder\Parts\Door</node>
+    <node x="210.05958549222794" y="108.9585492227979">\DesignPatterns\Creational\Builder\Parts\Engine</node>
+    <node x="-194.71502590673578" y="194.2979274611399">\DesignPatterns\Creational\Builder\CarBuilder</node>
+    <node x="210.12694300518137" y="155.98963730569943">\DesignPatterns\Creational\Builder\Parts\Wheel</node>
+    <node x="111.45854922279796" y="157.76683937823833">\DesignPatterns\Creational\Builder\Parts\Bike</node>
+    <node x="42.458549222797956" y="157.76683937823833">\DesignPatterns\Creational\Builder\Parts\Car</node>
+    <node x="-405.7150259067358" y="194.2979274611399">\DesignPatterns\Creational\Builder\BikeBuilder</node>
+    <node x="-309.7150259067358" y="17.2979274611399">\DesignPatterns\Creational\Builder\BuilderInterface</node>
+    <node x="44.958549222797956" y="39.76683937823833">\DesignPatterns\Creational\Builder\Parts\Vehicle</node>
+    <node x="207.45854922279796" y="39.76683937823833">\DesignPatterns\Creational\Builder\Director</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Creational\Builder\BikeBuilder" target="\DesignPatterns\Creational\Builder\BuilderInterface">
+      <point x="0.0" y="-74.0" />
+      <point x="-310.2150259067358" y="169.2979274611399" />
+      <point x="-257.7150259067358" y="169.2979274611399" />
+      <point x="-52.0" y="63.5" />
+    </edge>
+    <edge source="\DesignPatterns\Creational\Builder\CarBuilder" target="\DesignPatterns\Creational\Builder\BuilderInterface">
+      <point x="0.0" y="-74.0" />
+      <point x="-101.21502590673578" y="169.2979274611399" />
+      <point x="-153.71502590673578" y="169.2979274611399" />
+      <point x="52.0" y="63.5" />
+    </edge>
+    <edge source="\DesignPatterns\Creational\Builder\Parts\Car" target="\DesignPatterns\Creational\Builder\Parts\Vehicle">
+      <point x="0.0" y="-13.5" />
+      <point x="66.95854922279796" y="132.76683937823833" />
+      <point x="73.45854922279796" y="132.76683937823833" />
+      <point x="-28.5" y="34.0" />
+    </edge>
+    <edge source="\DesignPatterns\Creational\Builder\Parts\Bike" target="\DesignPatterns\Creational\Builder\Parts\Vehicle">
+      <point x="0.0" y="-13.5" />
+      <point x="136.95854922279796" y="132.76683937823833" />
+      <point x="130.45854922279796" y="132.76683937823833" />
+      <point x="28.5" y="34.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-40.0" y="180.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

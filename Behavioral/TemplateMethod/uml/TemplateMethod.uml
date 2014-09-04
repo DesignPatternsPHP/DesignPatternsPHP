@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Behavioral\TemplateMethod\BeachJourney</OriginalElement>
+  <nodes>
+    <node x="152.0" y="177.0">\DesignPatterns\Behavioral\TemplateMethod\CityJourney</node>
+    <node x="47.0" y="0.0">\DesignPatterns\Behavioral\TemplateMethod\Journey</node>
+    <node x="0.0" y="177.0">\DesignPatterns\Behavioral\TemplateMethod\BeachJourney</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Behavioral\TemplateMethod\CityJourney" target="\DesignPatterns\Behavioral\TemplateMethod\Journey">
+      <point x="0.0" y="-23.5" />
+      <point x="218.0" y="152.0" />
+      <point x="189.5" y="152.0" />
+      <point x="47.5" y="63.5" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\TemplateMethod\BeachJourney" target="\DesignPatterns\Behavioral\TemplateMethod\Journey">
+      <point x="0.0" y="-23.5" />
+      <point x="66.0" y="152.0" />
+      <point x="94.5" y="152.0" />
+      <point x="-47.5" y="63.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="142.0" y="112.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

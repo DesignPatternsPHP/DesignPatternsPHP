@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Behavioral\Iterator\Book</OriginalElement>
+  <nodes>
+    <node x="30.0" y="239.0">\DesignPatterns\Behavioral\Iterator\BookListReverseIterator</node>
+    <node x="315.380829015544" y="226.96891191709844">\DesignPatterns\Behavioral\Iterator\BookList</node>
+    <node x="0.0" y="0.0">\DesignPatterns\Behavioral\Iterator\BookListIterator</node>
+    <node x="296.0" y="0.0">\DesignPatterns\Behavioral\Iterator\Book</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Behavioral\Iterator\BookListReverseIterator" target="\DesignPatterns\Behavioral\Iterator\BookListIterator">
+      <point x="0.0" y="-64.5" />
+      <point x="0.0" y="94.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="250.0" y="184.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
