@@ -2,15 +2,13 @@
 
 ## Purpose
 
-NullOutput is a example of NullObject pattern. It is not formally a Design Pattern by the GoF but it's a schema which appears frequently enough to
-be a pattern. Furthermore it is a really good pattern in my opinion:
+NullObject is not a GoF design pattern but a schema which appears frequently enough to be considered a pattern. It has the following benefits:
 
-* the code in the client is simple
-* it reduces the chance of null pointer exception
-* less "if" => less test cases
+* Client code is simplified
+* Reduces the chance of null pointer exceptions
+* Fewer conditionals require less test cases
 
-Every time you have a method which returns an object or null, you should return an object or a `NullObject`. With NullObject, you don't need
-a statement like `if (!is_null($obj)) { $obj->callSomething(); }` anymore.
+Methods that return an object or null should instead return an object or `NullObject`. `NullObject`s simplify boilerplate code such as `if (!is_null($obj)) { $obj->callSomething(); }` to just `$obj->callSomething();` by eliminating the conditional check in client code.
 
 ## Examples
 
