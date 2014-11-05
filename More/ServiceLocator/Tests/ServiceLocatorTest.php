@@ -33,8 +33,15 @@ class ServiceLocatorTest extends TestCase
 
     public function testHasServices()
     {
-        $this->serviceLocator->add('DesignPatterns\More\ServiceLocator\LogServiceInterface', $this->logService);
-        $this->serviceLocator->add('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface', $this->databaseService);
+        $this->serviceLocator->add(
+            'DesignPatterns\More\ServiceLocator\LogServiceInterface',
+            $this->logService
+        );
+
+        $this->serviceLocator->add(
+            'DesignPatterns\More\ServiceLocator\DatabaseServiceInterface',
+            $this->databaseService
+        );
 
         $this->assertTrue($this->serviceLocator->has('DesignPatterns\More\ServiceLocator\LogServiceInterface'));
         $this->assertTrue($this->serviceLocator->has('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface'));
@@ -44,35 +51,92 @@ class ServiceLocatorTest extends TestCase
 
     public function testServicesWithObject()
     {
-        $this->serviceLocator->add('DesignPatterns\More\ServiceLocator\LogServiceInterface', $this->logService);
-        $this->serviceLocator->add('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface', $this->databaseService);
+        $this->serviceLocator->add(
+            'DesignPatterns\More\ServiceLocator\LogServiceInterface',
+            $this->logService
+        );
 
-        $this->assertSame($this->logService, $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\LogServiceInterface'));
-        $this->assertSame($this->databaseService, $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface'));
+        $this->serviceLocator->add(
+            'DesignPatterns\More\ServiceLocator\DatabaseServiceInterface',
+            $this->databaseService
+        );
+
+        $this->assertSame(
+            $this->logService,
+            $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\LogServiceInterface')
+        );
+
+        $this->assertSame(
+            $this->databaseService,
+            $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface')
+        );
     }
 
     public function testServicesWithClass()
     {
-        $this->serviceLocator
-            ->add('DesignPatterns\More\ServiceLocator\LogServiceInterface', get_class($this->logService));
-        $this->serviceLocator->add('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface', get_class($this->databaseService));
+        $this->serviceLocator->add(
+            'DesignPatterns\More\ServiceLocator\LogServiceInterface',
+            get_class($this->logService)
+        );
 
-        $this->assertNotSame($this->logService, $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\LogServiceInterface'));
-        $this->assertInstanceOf('DesignPatterns\More\ServiceLocator\LogServiceInterface', $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\LogServiceInterface'));
+        $this->serviceLocator->add(
+            'DesignPatterns\More\ServiceLocator\DatabaseServiceInterface',
+            get_class($this->databaseService)
+        );
 
-        $this->assertNotSame($this->databaseService, $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface'));
-        $this->assertInstanceOf('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface', $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface'));
+        $this->assertNotSame(
+            $this->logService,
+            $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\LogServiceInterface')
+        );
+
+        $this->assertInstanceOf(
+            'DesignPatterns\More\ServiceLocator\LogServiceInterface',
+            $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\LogServiceInterface')
+        );
+
+        $this->assertNotSame(
+            $this->databaseService,
+            $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface')
+        );
+
+        $this->assertInstanceOf(
+            'DesignPatterns\More\ServiceLocator\DatabaseServiceInterface',
+            $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface')
+        );
     }
 
     public function testServicesNotShared()
     {
-        $this->serviceLocator->add('DesignPatterns\More\ServiceLocator\LogServiceInterface', $this->logService, false);
-        $this->serviceLocator->add('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface', $this->databaseService, false);
+        $this->serviceLocator->add(
+            'DesignPatterns\More\ServiceLocator\LogServiceInterface',
+            $this->logService,
+            false
+        );
 
-        $this->assertNotSame($this->logService, $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\LogServiceInterface'));
-        $this->assertInstanceOf('DesignPatterns\More\ServiceLocator\LogServiceInterface', $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\LogServiceInterface'));
+        $this->serviceLocator->add(
+            'DesignPatterns\More\ServiceLocator\DatabaseServiceInterface',
+            $this->databaseService,
+            false
+        );
 
-        $this->assertNotSame($this->databaseService, $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface'));
-        $this->assertInstanceOf('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface', $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface'));
+        $this->assertNotSame(
+            $this->logService,
+            $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\LogServiceInterface')
+        );
+
+        $this->assertInstanceOf(
+            'DesignPatterns\More\ServiceLocator\LogServiceInterface',
+            $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\LogServiceInterface')
+        );
+
+        $this->assertNotSame(
+            $this->databaseService,
+            $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface')
+        );
+
+        $this->assertInstanceOf(
+            'DesignPatterns\More\ServiceLocator\DatabaseServiceInterface',
+            $this->serviceLocator->get('DesignPatterns\More\ServiceLocator\DatabaseServiceInterface')
+        );
     }
 }

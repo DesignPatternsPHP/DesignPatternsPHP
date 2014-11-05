@@ -1,6 +1,7 @@
 <?php
 
 namespace DesignPatterns\Repository;
+
 /**
  * Post represents entity for some post that user left on the site
  *
@@ -33,9 +34,6 @@ class Post
      * @var \DateTime
      */
     private $created;
-
-
-
 
     /**
      * @param int $id
@@ -116,7 +114,4 @@ class Post
     {
         return $this->title;
     }
-
-
-
 }

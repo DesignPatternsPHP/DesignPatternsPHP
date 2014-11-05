@@ -40,7 +40,7 @@ class MemoryStorage implements Storage
      */
     public function delete($id)
     {
-        if(!isset($this->data[$id])){
+        if (!isset($this->data[$id])) {
             return false;
         }
 
@@ -49,6 +49,4 @@ class MemoryStorage implements Storage
 
         return true;
     }
-
 }
-
