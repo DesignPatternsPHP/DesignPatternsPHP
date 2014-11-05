@@ -4,14 +4,8 @@ namespace DesignPatterns\Creational\Pool\Tests;
 
 use DesignPatterns\Creational\Pool\Pool;
 
-class TestWorker
-{
-    public $id = 1;
-}
-
 class PoolTest extends \PHPUnit_Framework_TestCase
 {
-
     public function testPool()
     {
         $pool = new Pool('DesignPatterns\Creational\Pool\Tests\TestWorker');
