@@ -8,7 +8,7 @@ namespace DesignPatterns\Creational\Singleton;
 class Singleton
 {
     /**
-     * @var Singleton reference to singleton instance
+     * @static Singleton reference to singleton instance
      */
     private static $instance;
     
