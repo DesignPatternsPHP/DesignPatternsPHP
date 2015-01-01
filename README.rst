@@ -34,7 +34,7 @@ for a full explanation of the pattern on Wikipedia.
 `Creational`_
 -------------
 
-* `AbstractFactory <Creational/AbstractFactory/README.md>`_ `Wikipedia <http://en.wikipedia.org/wiki/Abstract_factory_pattern>`_
+* :doc:`AbstractFactory <Creational/README>` `Wikipedia <http://en.wikipedia.org/wiki/Abstract_factory_pattern>`_
 * [Builder](Creational/Builder) [:notebook:](http://en.wikipedia.org/wiki/Builder_pattern)
 * [FactoryMethod](Creational/FactoryMethod) [:notebook:](http://en.wikipedia.org/wiki/Factory_method_pattern)
 * [Multiton](Creational/Multiton) (is considered an anti-pattern! :no_entry:)
