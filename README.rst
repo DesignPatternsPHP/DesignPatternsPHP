@@ -3,6 +3,10 @@ sphinx-quickstart on Tue Dec 30 13:28:16 2014.
 You can adapt this file completely to your liking, but it should at least
 contain the root `toctree` directive.
 
+.. image:: https://readthedocs.org/projects/designpatternsphp/badge/?version=latest
+   :target: https://readthedocs.org/projects/designpatternsphp/?badge=latest
+   :alt: Documentation Status
+
 Welcome to DesignPatternsPHP's documentation!
 =============================================
 
