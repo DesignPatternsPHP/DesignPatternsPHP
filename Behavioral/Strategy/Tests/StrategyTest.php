@@ -8,8 +8,7 @@ use DesignPatterns\Behavioral\Strategy\ObjectCollection;
 use DesignPatterns\Behavioral\Strategy\Strategy;
 
 /**
- * Tests for Static Factory pattern
-
+ * Tests for Strategy pattern
  */
 class StrategyTest extends \PHPUnit_Framework_TestCase
 {
