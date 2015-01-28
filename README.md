@@ -50,11 +50,6 @@ The patterns can be structured in roughly three different categories. Please cli
 * [TemplateMethod](Behavioral/TemplateMethod) [:notebook:](http://en.wikipedia.org/wiki/Template_method_pattern)
 * [Visitor](Behavioral/Visitor) [:notebook:](http://en.wikipedia.org/wiki/Visitor_pattern)
 
-### [More](More)
-* [Delegation](More/Delegation) [:notebook:](http://en.wikipedia.org/wiki/Delegation_pattern)
-* [ServiceLocator](More/ServiceLocator) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
-* [Repository](More/Repository)
-
 ## Contribute
 
 Please feel free to fork and extend existing or add your own examples and send a pull request with your changes!
