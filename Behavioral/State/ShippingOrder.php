@@ -44,6 +44,6 @@ class ShippingOrder implements OrderInterface
         $this->order['updatedTime'] = time();
 
         // Setting the new order status into database;
-        return $this->updateOrder($order);
+        return $this->updateOrder($this->order);
     }
 }
