@@ -30,7 +30,7 @@ class DirectorTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Here we test the build process. Notice that the client don't know
-     * anything about the contrete builder.
+     * anything about the concrete builder.
      * 
      * @dataProvider getBuilder
      */
