@@ -63,4 +63,13 @@ class IteratorTest extends \PHPUnit_Framework_TestCase
             $iterator->next();
         }
     }
+
+    /**
+     * Test BookList Remove
+     */
+    public function testBookRemove()
+    {
+        $this->bookList->removeBook($this->bookList->getBook(0));
+        $this->assertEquals($this->bookList->count(), 2);
+    }
 }
