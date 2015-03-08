@@ -25,7 +25,7 @@ class BookList implements \Countable
 
     public function removeBook(Book $bookToRemove)
     {
-        foreach ($this as $key => $book) {
+        foreach ($this->books as $key => $book) {
             /** @var Book $book */
             if ($book->getAuthorAndTitle() === $bookToRemove->getAuthorAndTitle()) {
                 unset($this->books[$key]);
