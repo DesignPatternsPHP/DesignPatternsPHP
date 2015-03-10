@@ -33,3 +33,4 @@ class Receiver
         echo "Now TV channel is " . $this->currentChannel;
     }
 }
+
