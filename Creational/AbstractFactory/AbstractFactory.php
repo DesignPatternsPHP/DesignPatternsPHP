@@ -21,7 +21,7 @@ abstract class AbstractFactory
 {
     /**
      * Creates a text component
-     * 
+     *
      * @param string $content
      *
      * @return Text
@@ -30,7 +30,7 @@ abstract class AbstractFactory
 
     /**
      * Creates a picture component
-     * 
+     *
      * @param string $path
      * @param string $name
      *

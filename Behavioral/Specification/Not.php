@@ -11,7 +11,7 @@ class Not extends AbstractSpecification
 
     /**
      * Creates a new specification wrapping another
-     * 
+     *
      * @param SpecificationInterface $spec
      */
     public function __construct(SpecificationInterface $spec)
@@ -21,9 +21,9 @@ class Not extends AbstractSpecification
 
     /**
      * Returns the negated result of the wrapped specification
-     * 
+     *
      * @param Item $item
-     * 
+     *
      * @return bool
      */
     public function isSatisfiedBy(Item $item)

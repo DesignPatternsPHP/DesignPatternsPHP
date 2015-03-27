@@ -14,6 +14,5 @@ class FooBookPrototype extends BookPrototype
      */
     public function __clone()
     {
-
     }
 }

@@ -26,7 +26,7 @@ class ConcreteFactory
 
     /**
      * Creates a vehicle
-     * 
+     *
      * @param string $type a known type key
      *
      * @return VehicleInterface a new instance of VehicleInterface

@@ -17,7 +17,6 @@ class BikeBuilder implements BuilderInterface
      */
     public function addDoors()
     {
-
     }
 
     /**

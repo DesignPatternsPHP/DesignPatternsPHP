@@ -12,7 +12,7 @@ class Either extends AbstractSpecification
 
     /**
      * A composite wrapper of two specifications
-     * 
+     *
      * @param SpecificationInterface $left
      * @param SpecificationInterface $right
      */
@@ -24,9 +24,9 @@ class Either extends AbstractSpecification
 
     /**
      * Returns the evaluation of both wrapped specifications as a logical OR
-     * 
+     *
      * @param Item $item
-     * 
+     *
      * @return bool
      */
     public function isSatisfiedBy(Item $item)

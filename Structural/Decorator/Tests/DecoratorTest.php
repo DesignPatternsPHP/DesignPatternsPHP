@@ -46,7 +46,7 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Second key-point of this pattern : the decorator is type-hinted
-     * 
+     *
      * @expectedException \PHPUnit_Framework_Error
      */
     public function testDecoratorTypeHinted()

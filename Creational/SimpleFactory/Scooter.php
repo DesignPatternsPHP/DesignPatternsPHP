@@ -12,6 +12,5 @@ class Scooter implements VehicleInterface
      */
     public function driveTo($destination)
     {
-
     }
 }

@@ -7,5 +7,4 @@ namespace DesignPatterns\Creational\Builder\Parts;
  */
 class Bike extends Vehicle
 {
-
 }
