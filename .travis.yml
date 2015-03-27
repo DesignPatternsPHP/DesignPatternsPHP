@@ -8,6 +8,7 @@ php:
 before_script:
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
+  - if [[ $TRAVIS_PHP_VERSION == "5.5" ]]; then ./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .; fi
 
 branches:
   only:
