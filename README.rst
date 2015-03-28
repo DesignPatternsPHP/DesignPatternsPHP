@@ -1,18 +1,40 @@
-# DesignPatternsPHP
+.. image:: https://readthedocs.org/projects/designpatternsphp/badge/?version=latest
+   :target: https://readthedocs.org/projects/designpatternsphp/?badge=latest
+   :alt: Documentation Status
 
-[![Build Status](https://travis-ci.org/domnikl/DesignPatternsPHP.png?branch=master)](https://travis-ci.org/domnikl/DesignPatternsPHP)
+Welcome to DesignPatternsPHP's documentation!
+=============================================
 
-This is a collection of known design patterns and some sample code how to implement them in PHP. Every pattern has a small list of examples (most of them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar with this software).
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+This is a collection of known design patterns and some sample code how to implement them in PHP.
+Every pattern has a small list of examples
+(most of them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar with this software).
 
 I think the problem with patterns is that often people do know them but don't know when to apply which.
 
-## Patterns
+Patterns
+--------
 
-The patterns can be structured in roughly three different categories. Please click on the [:notebook:](http://en.wikipedia.org/wiki/Software_design_pattern) for a full explanation of the pattern on Wikipedia.
+The patterns can be structured in roughly three different categories.
+Please click on `Wikipedia Design Patterns <http://en.wikipedia.org/wiki/Software_design_pattern>`_
+for a full explanation of the pattern on Wikipedia.
 
-### [Creational](Creational)
+`Creational`_
+-------------
 
-* [AbstractFactory](Creational/AbstractFactory) [:notebook:](http://en.wikipedia.org/wiki/Abstract_factory_pattern)
+* :doc:`AbstractFactory <Creational/README>` `Wikipedia <http://en.wikipedia.org/wiki/Abstract_factory_pattern>`_
 * [Builder](Creational/Builder) [:notebook:](http://en.wikipedia.org/wiki/Builder_pattern)
 * [FactoryMethod](Creational/FactoryMethod) [:notebook:](http://en.wikipedia.org/wiki/Factory_method_pattern)
 * [Multiton](Creational/Multiton) (is considered an anti-pattern! :no_entry:)
@@ -22,7 +44,8 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Singleton](Creational/Singleton) [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (is considered an anti-pattern! :no_entry:)
 * [StaticFactory](Creational/StaticFactory)
 
-### [Structural](Structural)
+`Structural`_
+-------------
 
 * [Adapter](Structural/Adapter) [:notebook:](http://en.wikipedia.org/wiki/Adapter_pattern)
 * [Bridge](Structural/Bridge) [:notebook:](http://en.wikipedia.org/wiki/Bridge_pattern)
@@ -35,7 +58,8 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Proxy](Structural/Proxy) [:notebook:](http://en.wikipedia.org/wiki/Proxy_pattern)
 * [Registry](Structural/Registry) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
 
-### [Behavioral](Behavioral)
+`Behavioral`_
+-------------
 
 * [ChainOfResponsibilities](Behavioral/ChainOfResponsibilities) [:notebook:](http://en.wikipedia.org/wiki/Chain_of_responsibility_pattern)
 * [Command](Behavioral/Command) [:notebook:](http://en.wikipedia.org/wiki/Command_pattern)
@@ -50,21 +74,29 @@ The patterns can be structured in roughly three different categories. Please cli
 * [TemplateMethod](Behavioral/TemplateMethod) [:notebook:](http://en.wikipedia.org/wiki/Template_method_pattern)
 * [Visitor](Behavioral/Visitor) [:notebook:](http://en.wikipedia.org/wiki/Visitor_pattern)
 
-### [More](More)
+`More`_
+-------
+
 * [Delegation](More/Delegation) [:notebook:](http://en.wikipedia.org/wiki/Delegation_pattern)
 * [ServiceLocator](More/ServiceLocator) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
 * [Repository](More/Repository)
 
-## Contribute
+Contribute
+----------
 
 Please feel free to fork and extend existing or add your own examples and send a pull request with your changes!
-To establish a consistent code quality, please check your code using [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) against [PSR2 standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) using `./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .`.
+To establish a consistent code quality, please check your code using `PHP_CodeSniffer <https://github.com/squizlabs/PHP_CodeSniffer>`_
+against `PSR2 standard <https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md>`_
+using::
 
-## License
+   ./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .
+
+License
+-------
 
 (The MIT License)
 
-Copyright (c) 2014 Dominik Liebler and [contributors](https://github.com/domnikl/DesignPatternsPHP/graphs/contributors)
+Copyright (c) 2014 Dominik Liebler and `contributors <https://github.com/domnikl/DesignPatternsPHP/graphs/contributors>`_
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -84,3 +116,4 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+RE.

@@ -2,3 +2,6 @@
 .idea
 /nbproject
 /vendor/
+_build/
+_static/
+_templates/
