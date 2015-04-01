@@ -3,8 +3,8 @@
 DesignPatternsPHP
 =================
 
-.. image:: https://readthedocs.org/projects/designpatterns-php/badge/?version=read-the-docs
-   :target: https://readthedocs.org/projects/designpatterns-php/?badge=read-the-docs
+.. image:: https://readthedocs.org/projects/designpatterns-php/badge/?version=latest
+   :target: https://readthedocs.org/projects/designpatterns-php/?badge=latest
    :alt: Documentation Status
 
 This is a collection of known design patterns and some sample code how
