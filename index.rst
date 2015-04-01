@@ -1,3 +1,5 @@
+.. DesignPatternsPHP
+
 DesignPatternsPHP
 =================
 
