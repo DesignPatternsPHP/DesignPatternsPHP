@@ -3,7 +3,9 @@
 DesignPatternsPHP
 =================
 
-|Build Status|
+.. image:: https://readthedocs.org/projects/designpatterns-php/badge/?version=read-the-docs
+   :target: https://readthedocs.org/projects/designpatterns-php/?badge=read-the-docs
+   :alt: Documentation Status
 
 This is a collection of known design patterns and some sample code how
 to implement them in PHP. Every pattern has a small list of examples
@@ -18,7 +20,7 @@ Patterns
 
 The patterns can be structured in roughly three different categories.
 Please click on the
-`:notebook: <http://en.wikipedia.org/wiki/Software_design_pattern>`__
+`here <http://en.wikipedia.org/wiki/Software_design_pattern>`__
 for a full explanation of the pattern on Wikipedia.
 
 .. toctree::
@@ -67,16 +69,3 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-.. |Build Status| image:: https://travis-ci.org/domnikl/DesignPatternsPHP.png?branch=master
-   :target: https://travis-ci.org/domnikl/DesignPatternsPHP
-
-Code
-----
-
-You can also find these code on `GitHub`_
-
-Test
-----
-
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/
