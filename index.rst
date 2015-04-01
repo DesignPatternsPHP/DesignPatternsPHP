@@ -21,87 +21,14 @@ Please click on the
 `:notebook: <http://en.wikipedia.org/wiki/Software_design_pattern>`__
 for a full explanation of the pattern on Wikipedia.
 
-`Creational <Creational>`__
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. toctree::
+   :titlesonly:
+   :numbered:
 
--  `AbstractFactory <Creational/AbstractFactory>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Abstract_factory_pattern>`__
--  `Builder <Creational/Builder>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Builder_pattern>`__
--  `FactoryMethod <Creational/FactoryMethod>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Factory_method_pattern>`__
--  `Multiton <Creational/Multiton>`__ (is considered an anti-pattern!
-   :no\_entry:)
--  `Pool <Creational/Pool>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Object_pool_pattern>`__
--  `Prototype <Creational/Prototype>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Prototype_pattern>`__
--  `SimpleFactory <Creational/SimpleFactory>`__
--  `Singleton <Creational/Singleton>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Singleton_pattern>`__ (is
-   considered an anti-pattern! :no\_entry:)
--  `StaticFactory <Creational/StaticFactory>`__
-
-`Structural <Structural>`__
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--  `Adapter <Structural/Adapter>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Adapter_pattern>`__
--  `Bridge <Structural/Bridge>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Bridge_pattern>`__
--  `Composite <Structural/Composite>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Composite_pattern>`__
--  `DataMapper <Structural/DataMapper>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Data_mapper_pattern>`__
--  `Decorator <Structural/Decorator>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Decorator_pattern>`__
--  `DependencyInjection <Structural/DependencyInjection>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Dependency_injection>`__
--  `Facade <Structural/Facade>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Facade_pattern>`__
--  `FluentInterface <Structural/FluentInterface>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Fluent_interface>`__
--  `Proxy <Structural/Proxy>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Proxy_pattern>`__
--  `Registry <Structural/Registry>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Service_locator_pattern>`__
-
-`Behavioral <Behavioral>`__
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--  `ChainOfResponsibilities <Behavioral/ChainOfResponsibilities>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Chain_of_responsibility_pattern>`__
--  `Command <Behavioral/Command>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Command_pattern>`__
--  `Iterator <Behavioral/Iterator>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Iterator_pattern>`__
--  `Mediator <Behavioral/Mediator>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Mediator_pattern>`__
--  `Memento <Behavioral/Memento>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Memento_pattern>`__
--  `NullObject <Behavioral/NullObject>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Null_Object_pattern>`__
--  `Observer <Behavioral/Observer>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Observer_pattern>`__
--  `Specification <Behavioral/Specification>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Specification_pattern>`__
--  `State <Behavioral/State>`__
-   `:notebook: <http://en.wikipedia.org/wiki/State_pattern>`__
--  `Strategy <Behavioral/Strategy>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Strategy_pattern>`__
--  `TemplateMethod <Behavioral/TemplateMethod>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Template_method_pattern>`__
--  `Visitor <Behavioral/Visitor>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Visitor_pattern>`__
-
-`More <More>`__
-~~~~~~~~~~~~~~~
-
--  `Delegation <More/Delegation>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Delegation_pattern>`__
--  `ServiceLocator <More/ServiceLocator>`__
-   `:notebook: <http://en.wikipedia.org/wiki/Service_locator_pattern>`__
--  `Repository <More/Repository>`__
+   Creational/index
+   Structural/index
+   Behavioral/index
+   More/index
 
 Contribute
 ----------

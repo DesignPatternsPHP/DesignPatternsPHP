@@ -2,13 +2,13 @@ Composite
 =========
 
 Purpose
-=======
+-------
 
 To treat a group of objects the same way as a single instance of the
 object.
 
 Examples
-========
+--------
 
 -  a form class instance handles all its form elements like a single
    instance of the form, when ``render()`` is called, it subsequently
