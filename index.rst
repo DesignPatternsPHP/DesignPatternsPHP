@@ -19,7 +19,7 @@ Patterns
 --------
 
 The patterns can be structured in roughly three different categories.
-Please click on the
+Please click
 `here <http://en.wikipedia.org/wiki/Software_design_pattern>`__
 for a full explanation of the pattern on Wikipedia.
 

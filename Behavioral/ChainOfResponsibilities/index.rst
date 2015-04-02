@@ -45,6 +45,18 @@ Request.php
    :language: php
    :linenos:
 
+Responsible/FastStorage.php
+
+.. literalinclude:: Responsible/FastStorage.php
+   :language: php
+   :linenos:
+
+Responsible/SlowStorage.php
+
+.. literalinclude:: Responsible/SlowStorage.php
+   :language: php
+   :linenos:
+
 Test
 ----
 

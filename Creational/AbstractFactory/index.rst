@@ -57,6 +57,30 @@ Picture.php
    :language: php
    :linenos:
 
+Html/Picture.php
+
+.. literalinclude:: Html/Picture.php
+   :language: php
+   :linenos:
+
+Html/Text.php
+
+.. literalinclude:: Html/Text.php
+   :language: php
+   :linenos:
+
+Json/Picture.php
+
+.. literalinclude:: Json/Picture.php
+   :language: php
+   :linenos:
+
+Json/Text.php
+
+.. literalinclude:: Json/Text.php
+   :language: php
+   :linenos:
+
 Test
 ----
 

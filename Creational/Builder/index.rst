@@ -56,6 +56,42 @@ BikeBuilder.php
    :language: php
    :linenos:
 
+Parts/Wheel.php
+
+.. literalinclude:: Parts/Wheel.php
+   :language: php
+   :linenos:
+
+Parts/Door.php
+
+.. literalinclude:: Parts/Door.php
+   :language: php
+   :linenos:
+
+Parts/Car.php
+
+.. literalinclude:: Parts/Car.php
+   :language: php
+   :linenos:
+
+Parts/Bike.php
+
+.. literalinclude:: Parts/Bike.php
+   :language: php
+   :linenos:
+
+Parts/Vehicle.php
+
+.. literalinclude:: Parts/Vehicle.php
+   :language: php
+   :linenos:
+
+Parts/Engine.php
+
+.. literalinclude:: Parts/Engine.php
+   :language: php
+   :linenos:
+
 Test
 ----
 

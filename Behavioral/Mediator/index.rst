@@ -42,6 +42,24 @@ Colleague.php
    :language: php
    :linenos:
 
+Subsystem/Client.php
+
+.. literalinclude:: Subsystem/Client.php
+   :language: php
+   :linenos:
+
+Subsystem/Database.php
+
+.. literalinclude:: Subsystem/Database.php
+   :language: php
+   :linenos:
+
+Subsystem/Server.php
+
+.. literalinclude:: Subsystem/Server.php
+   :language: php
+   :linenos:
+
 Test
 ----
 
