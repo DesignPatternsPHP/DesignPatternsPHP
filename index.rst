@@ -19,9 +19,7 @@ Patterns
 --------
 
 The patterns can be structured in roughly three different categories.
-Please click
-`here <http://en.wikipedia.org/wiki/Software_design_pattern>`__
-for a full explanation of the pattern on Wikipedia.
+Please click |Wikipedia|_ for a full explanation of the pattern on Wikipedia.
 
 .. toctree::
    :titlesonly:
@@ -69,3 +67,8 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+.. |Wikipedia| image:: /_static/Wikipedia-logo.png
+   :height: 20 px
+   :width: 20 px
+.. _Wikipedia: http://en.wikipedia.org/wiki/Software_design_pattern

@@ -1,5 +1,5 @@
-Observer
-========
+Observer |Wikipedia|_
+=====================
 
 Purpose
 -------
@@ -55,3 +55,7 @@ Tests/ObserverTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Observer
+.. |Wikipedia| image:: /_static/Wikipedia-logo.png
+   :height: 30 px
+   :width: 30 px
+.. _Wikipedia: http://en.wikipedia.org/wiki/Observer_pattern

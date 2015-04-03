@@ -1,5 +1,5 @@
-Visitor
-=======
+Visitor |Wikipedia|_
+====================
 
 Purpose
 -------
@@ -65,3 +65,7 @@ Tests/VisitorTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Visitor
+.. |Wikipedia| image:: /_static/Wikipedia-logo.png
+   :height: 30 px
+   :width: 30 px
+.. _Wikipedia: http://en.wikipedia.org/wiki/Visitor_pattern

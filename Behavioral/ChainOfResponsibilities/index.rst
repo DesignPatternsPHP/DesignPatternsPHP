@@ -1,5 +1,5 @@
-Chain Of Responsibilities
-=========================
+Chain Of Responsibilities |Wikipedia|_
+======================================
 
 Purpose:
 --------
@@ -67,3 +67,7 @@ Tests/ChainTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/ChainOfResponsibilities
+.. |Wikipedia| image:: /_static/Wikipedia-logo.png
+   :height: 30 px
+   :width: 30 px
+.. _Wikipedia: http://en.wikipedia.org/wiki/Chain_of_responsibility_pattern

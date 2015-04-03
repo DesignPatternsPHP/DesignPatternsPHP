@@ -1,5 +1,5 @@
-Abstract Factory
-================
+Abstract Factory |Wikipedia|_
+=============================
 
 Purpose
 -------
@@ -91,3 +91,7 @@ Tests/AbstractFactoryTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/AbstractFactory
+.. |Wikipedia| image:: /_static/Wikipedia-logo.png
+   :height: 30 px
+   :width: 30 px
+.. _Wikipedia: http://en.wikipedia.org/wiki/Abstract_factory_pattern

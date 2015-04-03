@@ -1,5 +1,5 @@
-Registry
-========
+Registry |Wikipedia|_
+=====================
 
 Purpose
 -------
@@ -44,3 +44,7 @@ Tests/RegistryTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Registry
+.. |Wikipedia| image:: /_static/Wikipedia-logo.png
+   :height: 30 px
+   :width: 30 px
+.. _Wikipedia: http://en.wikipedia.org/wiki/Service_locator_pattern

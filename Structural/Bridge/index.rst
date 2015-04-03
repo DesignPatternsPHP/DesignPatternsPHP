@@ -1,5 +1,5 @@
-Bridge
-======
+Bridge |Wikipedia|_
+===================
 
 Purpose
 -------
@@ -71,3 +71,7 @@ Tests/BridgeTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Bridge
+.. |Wikipedia| image:: /_static/Wikipedia-logo.png
+   :height: 30 px
+   :width: 30 px
+.. _Wikipedia: http://en.wikipedia.org/wiki/Bridge_pattern
