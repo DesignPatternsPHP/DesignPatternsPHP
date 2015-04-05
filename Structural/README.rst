@@ -8,13 +8,13 @@ relationships between entities.
 .. toctree::
    :titlesonly:
 
-   Adapter/index
-   Bridge/index
-   Composite/index
-   DataMapper/index
-   Decorator/index
-   DependencyInjection/index
-   Facade/index
-   FluentInterface/index
-   Proxy/index
-   Registry/index
+   Adapter/README
+   Bridge/README
+   Composite/README
+   DataMapper/README
+   Decorator/README
+   DependencyInjection/README
+   Facade/README
+   FluentInterface/README
+   Proxy/README
+   Registry/README

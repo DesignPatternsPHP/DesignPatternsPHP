@@ -9,15 +9,15 @@ carrying out this communication.
 .. toctree::
    :titlesonly:
 
-   ChainOfResponsibilities/index
-   Command/index
-   Iterator/index
-   Mediator/index
-   Memento/index
-   NullObject/index
-   Observer/index
-   Specification/index
-   State/index
-   Strategy/index
-   TemplateMethod/index
-   Visitor/index
+   ChainOfResponsibilities/README
+   Command/README
+   Iterator/README
+   Mediator/README
+   Memento/README
+   NullObject/README
+   Observer/README
+   Specification/README
+   State/README
+   Strategy/README
+   TemplateMethod/README
+   Visitor/README

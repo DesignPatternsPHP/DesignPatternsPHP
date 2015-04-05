@@ -11,12 +11,12 @@ this object creation.
 .. toctree::
    :titlesonly:
 
-   AbstractFactory/index
-   Builder/index
-   FactoryMethod/index
-   Multiton/index
-   Pool/index
-   Prototype/index
-   SimpleFactory/index
-   Singleton/index
-   StaticFactory/index
+   AbstractFactory/README
+   Builder/README
+   FactoryMethod/README
+   Multiton/README
+   Pool/README
+   Prototype/README
+   SimpleFactory/README
+   Singleton/README
+   StaticFactory/README

@@ -26,10 +26,10 @@ Please click on **the title of every pattern's page** for a full explanation of 
    :titlesonly:
    :numbered:
 
-   Creational/index
-   Structural/index
-   Behavioral/index
-   More/index
+   Creational/README
+   Structural/README
+   Behavioral/README
+   More/README
 
 Contribute
 ----------
