@@ -1,5 +1,5 @@
-Composite |Wikipedia|_
-======================
+`Composite`_
+============
 
 Purpose
 -------
@@ -62,7 +62,4 @@ Tests/CompositeTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Composite
-.. |Wikipedia| image:: /_static/Wikipedia-logo.png
-   :height: 30 px
-   :width: 30 px
-.. _Wikipedia: http://en.wikipedia.org/wiki/Composite_pattern
+.. _`Composite`: http://en.wikipedia.org/wiki/Composite_pattern

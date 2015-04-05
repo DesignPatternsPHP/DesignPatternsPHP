@@ -1,5 +1,5 @@
-Null Object |Wikipedia|_
-========================
+`Null Object`_
+==============
 
 Purpose
 -------
@@ -72,7 +72,4 @@ Tests/LoggerTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/NullObject
-.. |Wikipedia| image:: /_static/Wikipedia-logo.png
-   :height: 30 px
-   :width: 30 px
-.. _Wikipedia: http://en.wikipedia.org/wiki/Null_Object_pattern
+.. _`Null Object`: http://en.wikipedia.org/wiki/Null_Object_pattern

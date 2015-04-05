@@ -1,5 +1,5 @@
-Template Method |Wikipedia|_
-============================
+`Template Method`_
+==================
 
 Purpose
 -------
@@ -61,7 +61,4 @@ Tests/JourneyTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/TemplateMethod
-.. |Wikipedia| image:: /_static/Wikipedia-logo.png
-   :height: 30 px
-   :width: 30 px
-.. _Wikipedia: http://en.wikipedia.org/wiki/Template_method_pattern
+.. _`Template Method`: http://en.wikipedia.org/wiki/Template_method_pattern

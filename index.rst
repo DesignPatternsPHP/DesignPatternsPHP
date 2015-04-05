@@ -1,13 +1,14 @@
 .. DesignPatternsPHP
 
+=================
 DesignPatternsPHP
 =================
 
-.. image:: https://readthedocs.org/projects/designpatterns-php/badge/?version=latest
-   :target: https://readthedocs.org/projects/designpatterns-php/?badge=latest
+.. image:: https://readthedocs.org/projects/designpatternsphp/badge/?version=latest
+   :target: https://readthedocs.org/projects/designpatternsphp/?badge=latest
    :alt: Documentation Status
 
-This is a collection of known design patterns and some sample code how
+This is a collection of known `design patterns`_ and some sample code how
 to implement them in PHP. Every pattern has a small list of examples
 (most of them from Zend Framework, Symfony2 or Doctrine2 as I'm most
 familiar with this software).
@@ -19,7 +20,7 @@ Patterns
 --------
 
 The patterns can be structured in roughly three different categories.
-Please click |Wikipedia|_ for a full explanation of the pattern on Wikipedia.
+Please click on **the title of every pattern's page** for a full explanation of the pattern on Wikipedia.
 
 .. toctree::
    :titlesonly:
@@ -68,7 +69,4 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-.. |Wikipedia| image:: /_static/Wikipedia-logo.png
-   :height: 20 px
-   :width: 20 px
-.. _Wikipedia: http://en.wikipedia.org/wiki/Software_design_pattern
+.. _`design patterns`: http://en.wikipedia.org/wiki/Software_design_pattern

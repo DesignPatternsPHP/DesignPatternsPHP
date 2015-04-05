@@ -1,5 +1,5 @@
-Delegation |Wikipedia|_
-=======================
+`Delegation`_
+=============
 
 Purpose
 -------
@@ -51,7 +51,4 @@ Tests/DelegationTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/More/Delegation
-.. |Wikipedia| image:: /_static/Wikipedia-logo.png
-   :height: 30 px
-   :width: 30 px
-.. _Wikipedia: http://en.wikipedia.org/wiki/Delegation_pattern
+.. _`Delegation`: http://en.wikipedia.org/wiki/Delegation_pattern

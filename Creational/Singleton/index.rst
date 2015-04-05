@@ -1,5 +1,5 @@
-Singleton |Wikipedia|_
-======================
+`Singleton`_
+============
 
 **THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND
 MAINTAINABILITY USE DEPENDENCY INJECTION!**
@@ -47,7 +47,4 @@ Tests/SingletonTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Singleton
-.. |Wikipedia| image:: /_static/Wikipedia-logo.png
-   :height: 30 px
-   :width: 30 px
-.. _Wikipedia: http://en.wikipedia.org/wiki/Singleton_pattern
+.. _`Singleton`: http://en.wikipedia.org/wiki/Singleton_pattern

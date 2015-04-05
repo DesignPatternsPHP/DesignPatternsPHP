@@ -1,5 +1,5 @@
-Strategy |Wikipedia|_
-=====================
+`Strategy`_
+===========
 
 Terminology:
 ------------
@@ -68,7 +68,4 @@ Tests/StrategyTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Strategy
-.. |Wikipedia| image:: /_static/Wikipedia-logo.png
-   :height: 30 px
-   :width: 30 px
-.. _Wikipedia: http://en.wikipedia.org/wiki/Strategy_pattern
+.. _`Strategy`: http://en.wikipedia.org/wiki/Strategy_pattern

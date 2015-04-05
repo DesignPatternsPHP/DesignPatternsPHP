@@ -1,5 +1,5 @@
-Builder |Wikipedia|_
-====================
+`Builder`_
+==========
 
 Purpose
 -------
@@ -102,7 +102,4 @@ Tests/DirectorTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Builder
-.. |Wikipedia| image:: /_static/Wikipedia-logo.png
-   :height: 30 px
-   :width: 30 px
-.. _Wikipedia: http://en.wikipedia.org/wiki/Builder_pattern
+.. _`Builder`: http://en.wikipedia.org/wiki/Builder_pattern

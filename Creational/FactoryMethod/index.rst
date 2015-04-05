@@ -1,5 +1,5 @@
-Factory Method |Wikipedia|_
-===========================
+`Factory Method`_
+=================
 
 Purpose
 -------
@@ -80,7 +80,4 @@ Tests/FactoryMethodTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/FactoryMethod
-.. |Wikipedia| image:: /_static/Wikipedia-logo.png
-   :height: 30 px
-   :width: 30 px
-.. _Wikipedia: http://en.wikipedia.org/wiki/Factory_method_pattern
+.. _`Factory Method`: http://en.wikipedia.org/wiki/Factory_method_pattern

@@ -1,5 +1,5 @@
-Iterator |Wikipedia|_
-=====================
+`Iterator`_
+===========
 
 Purpose
 -------
@@ -67,7 +67,4 @@ Tests/IteratorTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Iterator
-.. |Wikipedia| image:: /_static/Wikipedia-logo.png
-   :height: 30 px
-   :width: 30 px
-.. _Wikipedia: http://en.wikipedia.org/wiki/Iterator_pattern
+.. _`Iterator`: http://en.wikipedia.org/wiki/Iterator_pattern

@@ -1,5 +1,5 @@
-Pool |Wikipedia|_
-=================
+`Pool`_
+=======
 
 The **object pool pattern** is a software creational design pattern that
 uses a set of initialized objects kept ready to use – a "pool" – rather
@@ -67,7 +67,4 @@ Tests/PoolTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Pool
-.. |Wikipedia| image:: /_static/Wikipedia-logo.png
-   :height: 30 px
-   :width: 30 px
-.. _Wikipedia: http://en.wikipedia.org/wiki/Object_pool_pattern
+.. _`Pool`: http://en.wikipedia.org/wiki/Object_pool_pattern

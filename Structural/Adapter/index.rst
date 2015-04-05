@@ -1,5 +1,5 @@
-Adapter / Wrapper |Wikipedia|_
-==============================
+`Adapter / Wrapper`_
+====================
 
 Purpose
 -------
@@ -68,7 +68,4 @@ Tests/AdapterTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Adapter
-.. |Wikipedia| image:: /_static/Wikipedia-logo.png
-   :height: 30 px
-   :width: 30 px
-.. _Wikipedia: http://en.wikipedia.org/wiki/Adapter_pattern
+.. _`Adapter / Wrapper`: http://en.wikipedia.org/wiki/Adapter_pattern
