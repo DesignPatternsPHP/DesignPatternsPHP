@@ -37,9 +37,7 @@ Contribute
 Please feel free to fork and extend existing or add your own examples
 and send a pull request with your changes! To establish a consistent
 code quality, please check your code using
-`PHP\_CodeSniffer <https://github.com/squizlabs/PHP_CodeSniffer>`__
-against `PSR2
-standard <https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md>`__
+`PHP CodeSniffer`_ against `PSR2 standard`_
 using ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``.
 
 License
@@ -47,8 +45,7 @@ License
 
 (The MIT License)
 
-Copyright (c) 2014 Dominik Liebler and
-`contributors <https://github.com/domnikl/DesignPatternsPHP/graphs/contributors>`__
+Copyright (c) 2014 `Dominik Liebler`_ and `contributors`_
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the
@@ -70,3 +67,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 .. _`design patterns`: http://en.wikipedia.org/wiki/Software_design_pattern
+.. _`PHP CodeSniffer`: https://github.com/squizlabs/PHP_CodeSniffer
+.. _`PSR2 standard`: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
+.. _`Dominik Liebler`: https://github.com/domnikl
+.. _`contributors`: https://github.com/domnikl/DesignPatternsPHP/graphs/contributors

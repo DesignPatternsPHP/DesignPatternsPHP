@@ -21,9 +21,9 @@ Code
 
 You can also find these code on `GitHub`_
 
-Text.php
+AbstractFactory.php
 
-.. literalinclude:: Text.php
+.. literalinclude:: AbstractFactory.php
    :language: php
    :linenos:
 
@@ -33,9 +33,9 @@ JsonFactory.php
    :language: php
    :linenos:
 
-AbstractFactory.php
+HtmlFactory.php
 
-.. literalinclude:: AbstractFactory.php
+.. literalinclude:: HtmlFactory.php
    :language: php
    :linenos:
 
@@ -45,27 +45,15 @@ MediaInterface.php
    :language: php
    :linenos:
 
-HtmlFactory.php
-
-.. literalinclude:: HtmlFactory.php
-   :language: php
-   :linenos:
-
 Picture.php
 
 .. literalinclude:: Picture.php
    :language: php
    :linenos:
 
-Html/Picture.php
+Text.php
 
-.. literalinclude:: Html/Picture.php
-   :language: php
-   :linenos:
-
-Html/Text.php
-
-.. literalinclude:: Html/Text.php
+.. literalinclude:: Text.php
    :language: php
    :linenos:
 
@@ -78,6 +66,18 @@ Json/Picture.php
 Json/Text.php
 
 .. literalinclude:: Json/Text.php
+   :language: php
+   :linenos:
+
+Html/Picture.php
+
+.. literalinclude:: Html/Picture.php
+   :language: php
+   :linenos:
+
+Html/Text.php
+
+.. literalinclude:: Html/Text.php
    :language: php
    :linenos:
 

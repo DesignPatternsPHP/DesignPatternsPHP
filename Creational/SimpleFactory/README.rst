@@ -36,15 +36,15 @@ VehicleInterface.php
    :language: php
    :linenos:
 
-Scooter.php
-
-.. literalinclude:: Scooter.php
-   :language: php
-   :linenos:
-
 Bicycle.php
 
 .. literalinclude:: Bicycle.php
+   :language: php
+   :linenos:
+
+Scooter.php
+
+.. literalinclude:: Scooter.php
    :language: php
    :linenos:
 

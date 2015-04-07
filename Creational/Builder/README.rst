@@ -32,9 +32,21 @@ Code
 
 You can also find these code on `GitHub`_
 
+Director.php
+
+.. literalinclude:: Director.php
+   :language: php
+   :linenos:
+
 BuilderInterface.php
 
 .. literalinclude:: BuilderInterface.php
+   :language: php
+   :linenos:
+
+BikeBuilder.php
+
+.. literalinclude:: BikeBuilder.php
    :language: php
    :linenos:
 
@@ -44,15 +56,27 @@ CarBuilder.php
    :language: php
    :linenos:
 
-Director.php
+Parts/Vehicle.php
 
-.. literalinclude:: Director.php
+.. literalinclude:: Parts/Vehicle.php
    :language: php
    :linenos:
 
-BikeBuilder.php
+Parts/Bike.php
 
-.. literalinclude:: BikeBuilder.php
+.. literalinclude:: Parts/Bike.php
+   :language: php
+   :linenos:
+
+Parts/Car.php
+
+.. literalinclude:: Parts/Car.php
+   :language: php
+   :linenos:
+
+Parts/Engine.php
+
+.. literalinclude:: Parts/Engine.php
    :language: php
    :linenos:
 
@@ -65,30 +89,6 @@ Parts/Wheel.php
 Parts/Door.php
 
 .. literalinclude:: Parts/Door.php
-   :language: php
-   :linenos:
-
-Parts/Car.php
-
-.. literalinclude:: Parts/Car.php
-   :language: php
-   :linenos:
-
-Parts/Bike.php
-
-.. literalinclude:: Parts/Bike.php
-   :language: php
-   :linenos:
-
-Parts/Vehicle.php
-
-.. literalinclude:: Parts/Vehicle.php
-   :language: php
-   :linenos:
-
-Parts/Engine.php
-
-.. literalinclude:: Parts/Engine.php
    :language: php
    :linenos:
 

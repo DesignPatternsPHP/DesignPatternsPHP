@@ -25,6 +25,12 @@ Code
 
 You can also find these code on `GitHub`_
 
+index.php
+
+.. literalinclude:: index.php
+   :language: php
+   :linenos:
+
 BookPrototype.php
 
 .. literalinclude:: BookPrototype.php
@@ -34,12 +40,6 @@ BookPrototype.php
 BarBookPrototype.php
 
 .. literalinclude:: BarBookPrototype.php
-   :language: php
-   :linenos:
-
-index.php
-
-.. literalinclude:: index.php
    :language: php
    :linenos:
 

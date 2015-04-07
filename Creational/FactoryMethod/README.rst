@@ -28,15 +28,9 @@ Code
 
 You can also find these code on `GitHub`_
 
-Porsche.php
+FactoryMethod.php
 
-.. literalinclude:: Porsche.php
-   :language: php
-   :linenos:
-
-GermanFactory.php
-
-.. literalinclude:: GermanFactory.php
+.. literalinclude:: FactoryMethod.php
    :language: php
    :linenos:
 
@@ -46,15 +40,21 @@ ItalianFactory.php
    :language: php
    :linenos:
 
+GermanFactory.php
+
+.. literalinclude:: GermanFactory.php
+   :language: php
+   :linenos:
+
 VehicleInterface.php
 
 .. literalinclude:: VehicleInterface.php
    :language: php
    :linenos:
 
-FactoryMethod.php
+Porsche.php
 
-.. literalinclude:: FactoryMethod.php
+.. literalinclude:: Porsche.php
    :language: php
    :linenos:
 

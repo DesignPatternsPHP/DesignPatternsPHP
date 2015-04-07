@@ -54,15 +54,15 @@ Worker.php
 Test
 ----
 
-Tests/TestWorker.php
-
-.. literalinclude:: Tests/TestWorker.php
-   :language: php
-   :linenos:
-
 Tests/PoolTest.php
 
 .. literalinclude:: Tests/PoolTest.php
+   :language: php
+   :linenos:
+
+Tests/TestWorker.php
+
+.. literalinclude:: Tests/TestWorker.php
    :language: php
    :linenos:
 
