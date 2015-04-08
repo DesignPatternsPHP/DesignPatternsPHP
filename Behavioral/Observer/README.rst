@@ -33,15 +33,15 @@ Code
 
 You can also find these code on `GitHub`_
 
-UserObserver.php
-
-.. literalinclude:: UserObserver.php
-   :language: php
-   :linenos:
-
 User.php
 
 .. literalinclude:: User.php
+   :language: php
+   :linenos:
+
+UserObserver.php
+
+.. literalinclude:: UserObserver.php
    :language: php
    :linenos:
 

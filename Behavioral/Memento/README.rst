@@ -37,12 +37,6 @@ Code
 
 You can also find these code on `GitHub`_
 
-Caretaker.php
-
-.. literalinclude:: Caretaker.php
-   :language: php
-   :linenos:
-
 Memento.php
 
 .. literalinclude:: Memento.php
@@ -52,6 +46,12 @@ Memento.php
 Originator.php
 
 .. literalinclude:: Originator.php
+   :language: php
+   :linenos:
+
+Caretaker.php
+
+.. literalinclude:: Caretaker.php
    :language: php
    :linenos:
 

@@ -40,6 +40,12 @@ Code
 
 You can also find these code on `GitHub`_
 
+CommandInterface.php
+
+.. literalinclude:: CommandInterface.php
+   :language: php
+   :linenos:
+
 HelloCommand.php
 
 .. literalinclude:: HelloCommand.php
@@ -49,12 +55,6 @@ HelloCommand.php
 Receiver.php
 
 .. literalinclude:: Receiver.php
-   :language: php
-   :linenos:
-
-CommandInterface.php
-
-.. literalinclude:: CommandInterface.php
    :language: php
    :linenos:
 

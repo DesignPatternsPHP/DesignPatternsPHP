@@ -35,24 +35,6 @@ Code
 
 You can also find these code on `GitHub`_
 
-LogService.php
-
-.. literalinclude:: LogService.php
-   :language: php
-   :linenos:
-
-LogServiceInterface.php
-
-.. literalinclude:: LogServiceInterface.php
-   :language: php
-   :linenos:
-
-DatabaseServiceInterface.php
-
-.. literalinclude:: DatabaseServiceInterface.php
-   :language: php
-   :linenos:
-
 ServiceLocatorInterface.php
 
 .. literalinclude:: ServiceLocatorInterface.php
@@ -62,6 +44,24 @@ ServiceLocatorInterface.php
 ServiceLocator.php
 
 .. literalinclude:: ServiceLocator.php
+   :language: php
+   :linenos:
+
+LogServiceInterface.php
+
+.. literalinclude:: LogServiceInterface.php
+   :language: php
+   :linenos:
+
+LogService.php
+
+.. literalinclude:: LogService.php
+   :language: php
+   :linenos:
+
+DatabaseServiceInterface.php
+
+.. literalinclude:: DatabaseServiceInterface.php
    :language: php
    :linenos:
 

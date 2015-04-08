@@ -25,15 +25,9 @@ Code
 
 You can also find these code on `GitHub`_
 
-Group.php
+RoleVisitorInterface.php
 
-.. literalinclude:: Group.php
-   :language: php
-   :linenos:
-
-Role.php
-
-.. literalinclude:: Role.php
+.. literalinclude:: RoleVisitorInterface.php
    :language: php
    :linenos:
 
@@ -43,15 +37,21 @@ RolePrintVisitor.php
    :language: php
    :linenos:
 
+Role.php
+
+.. literalinclude:: Role.php
+   :language: php
+   :linenos:
+
 User.php
 
 .. literalinclude:: User.php
    :language: php
    :linenos:
 
-RoleVisitorInterface.php
+Group.php
 
-.. literalinclude:: RoleVisitorInterface.php
+.. literalinclude:: Group.php
    :language: php
    :linenos:
 

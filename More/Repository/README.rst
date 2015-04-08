@@ -31,27 +31,27 @@ Code
 
 You can also find these code on `GitHub`_
 
-PostRepository.php
-
-.. literalinclude:: PostRepository.php
-   :language: php
-   :linenos:
-
 Post.php
 
 .. literalinclude:: Post.php
    :language: php
    :linenos:
 
-MemoryStorage.php
+PostRepository.php
 
-.. literalinclude:: MemoryStorage.php
+.. literalinclude:: PostRepository.php
    :language: php
    :linenos:
 
 Storage.php
 
 .. literalinclude:: Storage.php
+   :language: php
+   :linenos:
+
+MemoryStorage.php
+
+.. literalinclude:: MemoryStorage.php
    :language: php
    :linenos:
 

@@ -21,15 +21,9 @@ Code
 
 You can also find these code on `GitHub`_
 
-Either.php
+Item.php
 
-.. literalinclude:: Either.php
-   :language: php
-   :linenos:
-
-PriceSpecification.php
-
-.. literalinclude:: PriceSpecification.php
+.. literalinclude:: Item.php
    :language: php
    :linenos:
 
@@ -45,9 +39,15 @@ AbstractSpecification.php
    :language: php
    :linenos:
 
-Item.php
+Either.php
 
-.. literalinclude:: Item.php
+.. literalinclude:: Either.php
+   :language: php
+   :linenos:
+
+PriceSpecification.php
+
+.. literalinclude:: PriceSpecification.php
    :language: php
    :linenos:
 

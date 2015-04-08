@@ -33,15 +33,15 @@ Code
 
 You can also find these code on `GitHub`_
 
-BookList.php
+Book.php
 
-.. literalinclude:: BookList.php
+.. literalinclude:: Book.php
    :language: php
    :linenos:
 
-BookListReverseIterator.php
+BookList.php
 
-.. literalinclude:: BookListReverseIterator.php
+.. literalinclude:: BookList.php
    :language: php
    :linenos:
 
@@ -51,9 +51,9 @@ BookListIterator.php
    :language: php
    :linenos:
 
-Book.php
+BookListReverseIterator.php
 
-.. literalinclude:: Book.php
+.. literalinclude:: BookListReverseIterator.php
    :language: php
    :linenos:
 

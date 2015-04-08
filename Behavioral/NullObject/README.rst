@@ -38,18 +38,6 @@ Code
 
 You can also find these code on `GitHub`_
 
-PrintLogger.php
-
-.. literalinclude:: PrintLogger.php
-   :language: php
-   :linenos:
-
-NullLogger.php
-
-.. literalinclude:: NullLogger.php
-   :language: php
-   :linenos:
-
 Service.php
 
 .. literalinclude:: Service.php
@@ -59,6 +47,18 @@ Service.php
 LoggerInterface.php
 
 .. literalinclude:: LoggerInterface.php
+   :language: php
+   :linenos:
+
+PrintLogger.php
+
+.. literalinclude:: PrintLogger.php
+   :language: php
+   :linenos:
+
+NullLogger.php
+
+.. literalinclude:: NullLogger.php
    :language: php
    :linenos:
 

@@ -34,18 +34,6 @@ Code
 
 You can also find these code on `GitHub`_
 
-DateComparator.php
-
-.. literalinclude:: DateComparator.php
-   :language: php
-   :linenos:
-
-IdComparator.php
-
-.. literalinclude:: IdComparator.php
-   :language: php
-   :linenos:
-
 ObjectCollection.php
 
 .. literalinclude:: ObjectCollection.php
@@ -55,6 +43,18 @@ ObjectCollection.php
 ComparatorInterface.php
 
 .. literalinclude:: ComparatorInterface.php
+   :language: php
+   :linenos:
+
+DateComparator.php
+
+.. literalinclude:: DateComparator.php
+   :language: php
+   :linenos:
+
+IdComparator.php
+
+.. literalinclude:: IdComparator.php
    :language: php
    :linenos:
 

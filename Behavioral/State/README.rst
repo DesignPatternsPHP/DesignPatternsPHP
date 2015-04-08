@@ -20,9 +20,9 @@ Code
 
 You can also find these code on `GitHub`_
 
-OrderInterface.php
+OrderController.php
 
-.. literalinclude:: OrderInterface.php
+.. literalinclude:: OrderController.php
    :language: php
    :linenos:
 
@@ -32,9 +32,9 @@ OrderFactory.php
    :language: php
    :linenos:
 
-OrderController.php
+OrderInterface.php
 
-.. literalinclude:: OrderController.php
+.. literalinclude:: OrderInterface.php
    :language: php
    :linenos:
 

@@ -33,12 +33,6 @@ Code
 
 You can also find these code on `GitHub`_
 
-CityJourney.php
-
-.. literalinclude:: CityJourney.php
-   :language: php
-   :linenos:
-
 Journey.php
 
 .. literalinclude:: Journey.php
@@ -48,6 +42,12 @@ Journey.php
 BeachJourney.php
 
 .. literalinclude:: BeachJourney.php
+   :language: php
+   :linenos:
+
+CityJourney.php
+
+.. literalinclude:: CityJourney.php
    :language: php
    :linenos:
 
