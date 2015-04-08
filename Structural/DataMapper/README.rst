@@ -35,15 +35,15 @@ Code
 
 You can also find these code on `GitHub`_
 
-UserMapper.php
-
-.. literalinclude:: UserMapper.php
-   :language: php
-   :linenos:
-
 User.php
 
 .. literalinclude:: User.php
+   :language: php
+   :linenos:
+
+UserMapper.php
+
+.. literalinclude:: UserMapper.php
    :language: php
    :linenos:
 

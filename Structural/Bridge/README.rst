@@ -25,27 +25,21 @@ Code
 
 You can also find these code on `GitHub`_
 
-Assemble.php
-
-.. literalinclude:: Assemble.php
-   :language: php
-   :linenos:
-
 Workshop.php
 
 .. literalinclude:: Workshop.php
    :language: php
    :linenos:
 
-Car.php
+Assemble.php
 
-.. literalinclude:: Car.php
+.. literalinclude:: Assemble.php
    :language: php
    :linenos:
 
-Motorcycle.php
+Produce.php
 
-.. literalinclude:: Motorcycle.php
+.. literalinclude:: Produce.php
    :language: php
    :linenos:
 
@@ -55,9 +49,15 @@ Vehicle.php
    :language: php
    :linenos:
 
-Produce.php
+Motorcycle.php
 
-.. literalinclude:: Produce.php
+.. literalinclude:: Motorcycle.php
+   :language: php
+   :linenos:
+
+Car.php
+
+.. literalinclude:: Car.php
    :language: php
    :linenos:
 

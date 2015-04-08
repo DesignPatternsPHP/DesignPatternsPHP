@@ -47,8 +47,8 @@ master_doc = 'README'
 
 # General information about the project.
 project = u'DesignPatternsPHP'
-copyright = u'2015, Dominik Liebler'
-author = u'Dominik Liebler with contributors'
+copyright = u'2015, Dominik Liebler and contributors'
+author = u'Dominik Liebler and contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -223,7 +223,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'DesignPatternsPHP.tex', u'DesignPatternsPHP Documentation',
-   u'Dominik Liebler  with contributors', 'manual'),
+   u'Dominik Liebler and contributors', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

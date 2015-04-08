@@ -34,9 +34,9 @@ PaperBookInterface.php
    :language: php
    :linenos:
 
-EBookInterface.php
+Book.php
 
-.. literalinclude:: EBookInterface.php
+.. literalinclude:: Book.php
    :language: php
    :linenos:
 
@@ -46,15 +46,15 @@ EBookAdapter.php
    :language: php
    :linenos:
 
-Kindle.php
+EBookInterface.php
 
-.. literalinclude:: Kindle.php
+.. literalinclude:: EBookInterface.php
    :language: php
    :linenos:
 
-Book.php
+Kindle.php
 
-.. literalinclude:: Book.php
+.. literalinclude:: Kindle.php
    :language: php
    :linenos:
 

@@ -35,15 +35,15 @@ Code
 
 You can also find these code on `GitHub`_
 
-OsInterface.php
-
-.. literalinclude:: OsInterface.php
-   :language: php
-   :linenos:
-
 Facade.php
 
 .. literalinclude:: Facade.php
+   :language: php
+   :linenos:
+
+OsInterface.php
+
+.. literalinclude:: OsInterface.php
    :language: php
    :linenos:
 

@@ -25,15 +25,15 @@ Code
 
 You can also find these code on `GitHub`_
 
-RecordProxy.php
-
-.. literalinclude:: RecordProxy.php
-   :language: php
-   :linenos:
-
 Record.php
 
 .. literalinclude:: Record.php
+   :language: php
+   :linenos:
+
+RecordProxy.php
+
+.. literalinclude:: RecordProxy.php
    :language: php
    :linenos:
 

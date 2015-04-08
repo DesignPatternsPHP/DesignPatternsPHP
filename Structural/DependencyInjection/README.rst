@@ -45,18 +45,6 @@ Code
 
 You can also find these code on `GitHub`_
 
-Connection.php
-
-.. literalinclude:: Connection.php
-   :language: php
-   :linenos:
-
-ArrayConfig.php
-
-.. literalinclude:: ArrayConfig.php
-   :language: php
-   :linenos:
-
 AbstractConfig.php
 
 .. literalinclude:: AbstractConfig.php
@@ -66,6 +54,18 @@ AbstractConfig.php
 Parameters.php
 
 .. literalinclude:: Parameters.php
+   :language: php
+   :linenos:
+
+ArrayConfig.php
+
+.. literalinclude:: ArrayConfig.php
+   :language: php
+   :linenos:
+
+Connection.php
+
+.. literalinclude:: Connection.php
    :language: php
    :linenos:
 

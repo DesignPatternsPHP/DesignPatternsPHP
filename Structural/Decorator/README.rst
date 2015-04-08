@@ -31,27 +31,27 @@ RendererInterface.php
    :language: php
    :linenos:
 
-RenderInXml.php
-
-.. literalinclude:: RenderInXml.php
-   :language: php
-   :linenos:
-
 Webservice.php
 
 .. literalinclude:: Webservice.php
    :language: php
    :linenos:
 
-RenderInJson.php
-
-.. literalinclude:: RenderInJson.php
-   :language: php
-   :linenos:
-
 Decorator.php
 
 .. literalinclude:: Decorator.php
+   :language: php
+   :linenos:
+
+RenderInXml.php
+
+.. literalinclude:: RenderInXml.php
+   :language: php
+   :linenos:
+
+RenderInJson.php
+
+.. literalinclude:: RenderInJson.php
    :language: php
    :linenos:
 
