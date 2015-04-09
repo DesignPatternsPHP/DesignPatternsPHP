@@ -4,7 +4,7 @@ namespace DesignPatterns\Behavioral\Command;
 
 /**
  * This concrete command calls "print" on the Receiver, but an external
- * invoker just know he can call "execute" 
+ * invoker just know he can call "execute"
  */
 class HelloCommand implements CommandInterface
 {

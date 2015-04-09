@@ -66,7 +66,7 @@ class Sql
     }
 
     /**
-     * Gets the query, just an example of building a query, 
+     * Gets the query, just an example of building a query,
      * no check on consistency
      *
      * @return string

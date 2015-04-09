@@ -4,7 +4,7 @@ namespace DesignPatterns\Structural\Facade;
 
 /**
  *
- * 
+ *
  */
 class Facade
 {

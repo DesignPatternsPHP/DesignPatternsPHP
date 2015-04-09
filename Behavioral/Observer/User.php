@@ -4,7 +4,7 @@ namespace DesignPatterns\Behavioral\Observer;
 
 /**
  * Observer pattern : The observed object (the subject)
- * 
+ *
  * The subject maintains a list of Observers and sends notifications.
  *
  */

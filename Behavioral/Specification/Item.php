@@ -10,7 +10,7 @@ class Item
 
     /**
      * An item must have a price
-     * 
+     *
      * @param int $price
      */
     public function __construct($price)
@@ -20,7 +20,7 @@ class Item
 
     /**
      * Get the items price
-     * 
+     *
      * @return int
      */
     public function getPrice()

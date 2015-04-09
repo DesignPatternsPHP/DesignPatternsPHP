@@ -21,7 +21,7 @@ abstract class Decorator implements RendererInterface
     /**
      * You must type-hint the wrapped component :
      * It ensures you can call renderData() in the subclasses !
-     * 
+     *
      * @param RendererInterface $wrappable
      */
     public function __construct(RendererInterface $wrappable)

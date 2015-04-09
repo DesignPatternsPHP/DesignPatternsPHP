@@ -21,9 +21,9 @@ class AbstractFactoryTest extends \PHPUnit_Framework_TestCase
 
     /**
      * This is the client of factories. Note that the client does not
-     * care which factory is given to him, he can create any component he 
+     * care which factory is given to him, he can create any component he
      * wants and render how he wants.
-     * 
+     *
      * @dataProvider getFactories
      */
     public function testComponentCreation(AbstractFactory $factory)

@@ -32,13 +32,12 @@ class Multiton
      */
     private function __construct()
     {
-
     }
 
     /**
      * gets the instance with the given name, e.g. Multiton::INSTANCE_1
      * uses lazy initialization
-     * 
+     *
      * @param string $instanceName
      *
      * @return Multiton
@@ -59,7 +58,6 @@ class Multiton
      */
     private function __clone()
     {
-
     }
 
     /**
@@ -69,6 +67,5 @@ class Multiton
      */
     private function __wakeup()
     {
-
     }
 }

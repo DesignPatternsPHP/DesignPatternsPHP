@@ -12,7 +12,6 @@ class Kindle implements EBookInterface
      */
     public function pressNext()
     {
-
     }
 
     /**
@@ -20,6 +19,5 @@ class Kindle implements EBookInterface
      */
     public function pressStart()
     {
-
     }
 }
