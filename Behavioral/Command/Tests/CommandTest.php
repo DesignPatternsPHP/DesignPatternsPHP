@@ -45,14 +45,14 @@ class CommandTest extends \PHPUnit_Framework_TestCase
     public function testInvocationTvCommandOn()
     {
         $this->invoker->setCommand(new CommandOn($this->tvReceiver));
-        $this->expectOutputString('The televisino is on.');
+        $this->expectOutputString('The television is on.');
         $this->invoker->run();
     }
 
     public function testInvocationTvCommandOff()
     {
         $this->invoker->setCommand(new CommandOff($this->tvReceiver));
-        $this->expectOutputString('The televisino is off.');
+        $this->expectOutputString('The television is off.');
         $this->invoker->run();
     }
 

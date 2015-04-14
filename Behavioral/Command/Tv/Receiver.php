@@ -11,7 +11,7 @@ class Receiver
      */
     public function turnOn()
     {
-        echo "The televisino is on.";
+        echo "The television is on.";
     }
 
     /**
@@ -19,7 +19,7 @@ class Receiver
      */
     public function turnOff()
     {
-        echo "The televisino is off.";
+        echo "The television is off.";
     }
 
     /**
