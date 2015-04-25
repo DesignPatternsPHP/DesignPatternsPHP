@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Behavioral\Specification\AbstractSpecification</OriginalElement>
+  <nodes>
+    <node x="168.0" y="314.0">\DesignPatterns\Behavioral\Specification\PriceSpecification</node>
+    <node x="551.0" y="333.5">\DesignPatterns\Behavioral\Specification\Not</node>
+    <node x="259.25" y="0.0">\DesignPatterns\Behavioral\Specification\SpecificationInterface</node>
+    <node x="383.0" y="323.5">\DesignPatterns\Behavioral\Specification\Plus</node>
+    <node x="259.25" y="157.0">\DesignPatterns\Behavioral\Specification\AbstractSpecification</node>
+    <node x="0.0" y="323.5">\DesignPatterns\Behavioral\Specification\Either</node>
+    <node x="0.0" y="487.0">\DesignPatterns\Behavioral\Specification\Item</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Behavioral\Specification\Plus" target="\DesignPatterns\Behavioral\Specification\AbstractSpecification">
+      <point x="0.0" y="-54.5" />
+      <point x="457.0" y="294.0" />
+      <point x="386.75" y="294.0" />
+      <point x="25.5" y="53.5" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\Specification\AbstractSpecification" target="\DesignPatterns\Behavioral\Specification\SpecificationInterface">
+      <point x="0.0" y="-53.5" />
+      <point x="0.0" y="53.5" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\Specification\PriceSpecification" target="\DesignPatterns\Behavioral\Specification\AbstractSpecification">
+      <point x="0.0" y="-64.0" />
+      <point x="265.5" y="294.0" />
+      <point x="335.75" y="294.0" />
+      <point x="-25.5" y="53.5" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\Specification\Not" target="\DesignPatterns\Behavioral\Specification\AbstractSpecification">
+      <point x="0.0" y="-44.5" />
+      <point x="618.0" y="284.0" />
+      <point x="437.75" y="284.0" />
+      <point x="76.5" y="53.5" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\Specification\Either" target="\DesignPatterns\Behavioral\Specification\AbstractSpecification">
+      <point x="0.0" y="-54.5" />
+      <point x="74.0" y="284.0" />
+      <point x="284.75" y="284.0" />
+      <point x="-76.5" y="53.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6476510067114094" x="342.5" y="288.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

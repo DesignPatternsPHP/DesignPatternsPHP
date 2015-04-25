@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Behavioral\Visitor\Group</OriginalElement>
+  <nodes>
+    <node x="-159.5" y="-99.0">\DesignPatterns\Behavioral\Visitor\Role</node>
+    <node x="87.15544041450778" y="20.129533678756502">\DesignPatterns\Behavioral\Visitor\RolePrintVisitor</node>
+    <node x="-87.0" y="-2.0">\DesignPatterns\Behavioral\Visitor\Group</node>
+    <node x="90.65544041450778" y="-96.8704663212435">\DesignPatterns\Behavioral\Visitor\RoleVisitorInterface</node>
+    <node x="-245.0" y="-2.0">\DesignPatterns\Behavioral\Visitor\User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Behavioral\Visitor\RolePrintVisitor" target="\DesignPatterns\Behavioral\Visitor\RoleVisitorInterface">
+      <point x="0.0" y="-33.5" />
+      <point x="0.0" y="33.5" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\Visitor\User" target="\DesignPatterns\Behavioral\Visitor\Role">
+      <point x="0.0" y="-44.5" />
+      <point x="-176.0" y="-27.0" />
+      <point x="-128.25" y="-27.0" />
+      <point x="-31.25" y="23.5" />
+    </edge>
+    <edge source="\DesignPatterns\Behavioral\Visitor\Group" target="\DesignPatterns\Behavioral\Visitor\Role">
+      <point x="0.0" y="-44.5" />
+      <point x="-18.0" y="-27.0" />
+      <point x="-65.75" y="-27.0" />
+      <point x="31.25" y="23.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-3.5" y="-5.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

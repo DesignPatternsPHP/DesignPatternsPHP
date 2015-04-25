@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Behavioral\Observer\User</OriginalElement>
+  <nodes>
+    <node x="239.0" y="0.0">\DesignPatterns\Behavioral\Observer\UserObserver</node>
+    <node x="0.0" y="137.0">\DesignPatterns\Behavioral\Observer\User</node>
+    <node x="8.0" y="0.0">\SplSubject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Behavioral\Observer\User" target="\SplSubject">
+      <point x="0.0" y="-74.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="186.0" y="142.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

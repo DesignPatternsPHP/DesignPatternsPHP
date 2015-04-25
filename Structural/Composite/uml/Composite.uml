@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Structural\Composite\InputElement</OriginalElement>
+  <nodes>
+    <node x="321.0" y="117.5">\DesignPatterns\Structural\Composite\TextElement</node>
+    <node x="175.0" y="0.0">\DesignPatterns\Structural\Composite\FormElement</node>
+    <node x="175.0" y="117.5">\DesignPatterns\Structural\Composite\InputElement</node>
+    <node x="0.0" y="97.0">\DesignPatterns\Structural\Composite\Form</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Structural\Composite\InputElement" target="\DesignPatterns\Structural\Composite\FormElement">
+      <point x="0.0" y="-23.5" />
+      <point x="0.0" y="23.5" />
+    </edge>
+    <edge source="\DesignPatterns\Structural\Composite\Form" target="\DesignPatterns\Structural\Composite\FormElement">
+      <point x="0.0" y="-44.0" />
+      <point x="77.5" y="72.0" />
+      <point x="196.0" y="72.0" />
+      <point x="-42.0" y="23.5" />
+    </edge>
+    <edge source="\DesignPatterns\Structural\Composite\TextElement" target="\DesignPatterns\Structural\Composite\FormElement">
+      <point x="0.0" y="-23.5" />
+      <point x="384.0" y="72.0" />
+      <point x="280.0" y="72.0" />
+      <point x="42.0" y="23.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="223.5" y="92.5" />
+  <SelectedNodes>
+    <node>\DesignPatterns\Structural\Composite\InputElement</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
