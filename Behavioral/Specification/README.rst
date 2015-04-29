@@ -9,8 +9,8 @@ checked against. The composite specification class has one method called
 ``isSatisfiedBy`` that returns either true or false depending on whether
 the given object satisfies the specification.
 
-Sample:
-^^^^^^^
+Examples
+--------
 
 -  `RulerZ <https://github.com/K-Phoen/rulerz>`__ 
 
