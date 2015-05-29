@@ -4,9 +4,9 @@
 Purpose
 -------
 
-It provides the ability to restore an object to its previous state (undo
+It provides the ability to restore an object to it's previous state (undo
 via rollback) or to gain access to state of the object, without revealing
-its implementation (ie, the object is not required to have a functional
+it's implementation (i.e., the object is not required to have a functional
 for return the current state).
 
 The memento pattern is implemented with three objects: the Originator, a
@@ -14,7 +14,7 @@ Caretaker and a Memento.
 
 Memento – an object that *contains a concrete unique snapshot of state* of
 any object or resource: string, number, array, an instance of class and so on.
-The uniqueness in this case  not imply the prohibition existence of similar
+The uniqueness in this case does not imply the prohibition existence of similar
 states in different snapshots. That means the state can be extracted as
 the independent clone. Any object stored in the Memento should be
 *a full copy of the original object rather than a reference* to the original
