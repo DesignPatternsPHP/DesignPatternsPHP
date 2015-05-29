@@ -1,19 +1,19 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-05-29 21:22+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
 
 #: ../../Behavioral/README.rst:2
 msgid "Behavioral"
-msgstr ""
+msgstr "Поведенческие шаблоны проектирования"
 
 #: ../../Behavioral/README.rst:4
 msgid ""
@@ -22,3 +22,7 @@ msgid ""
 "patterns. By doing so, these patterns increase flexibility in carrying out "
 "this communication."
 msgstr ""
+"Поведенческие шаблоны проектирования определяют общие закономерности связей "
+"между объектами, реализующими данные паттерны. Следование этим шаблонам "
+"уменьшает связность системы и облегчает коммуникацию между объектами, что "
+"улучшает гибкость программного продукта."
