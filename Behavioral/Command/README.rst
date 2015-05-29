@@ -1,5 +1,5 @@
-`Command`_
-==========
+`Command`__
+===========
 
 Purpose
 -------
@@ -74,4 +74,4 @@ Tests/CommandTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Command
-.. _`Command`: http://en.wikipedia.org/wiki/Command_pattern
+.. __: http://en.wikipedia.org/wiki/Command_pattern

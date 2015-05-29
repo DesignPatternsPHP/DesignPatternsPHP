@@ -1,5 +1,5 @@
-`Composite`_
-============
+`Composite`__
+=============
 
 Purpose
 -------
@@ -62,4 +62,4 @@ Tests/CompositeTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Composite
-.. _`Composite`: http://en.wikipedia.org/wiki/Composite_pattern
+.. __: http://en.wikipedia.org/wiki/Composite_pattern

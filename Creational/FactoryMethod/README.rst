@@ -1,5 +1,5 @@
-`Factory Method`_
-=================
+`Factory Method`__
+==================
 
 Purpose
 -------
@@ -80,4 +80,4 @@ Tests/FactoryMethodTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/FactoryMethod
-.. _`Factory Method`: http://en.wikipedia.org/wiki/Factory_method_pattern
+.. __: http://en.wikipedia.org/wiki/Factory_method_pattern

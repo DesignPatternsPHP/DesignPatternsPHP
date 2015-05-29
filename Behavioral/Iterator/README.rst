@@ -1,5 +1,5 @@
-`Iterator`_
-===========
+`Iterator`__
+============
 
 Purpose
 -------
@@ -67,4 +67,4 @@ Tests/IteratorTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Iterator
-.. _`Iterator`: http://en.wikipedia.org/wiki/Iterator_pattern
+.. __: http://en.wikipedia.org/wiki/Iterator_pattern

@@ -1,5 +1,5 @@
-`Facade`_
-=========
+`Facade`__
+==========
 
 Purpose
 -------
@@ -63,4 +63,4 @@ Tests/FacadeTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Facade
-.. _`Facade`: http://en.wikipedia.org/wiki/Facade_pattern
+.. __: http://en.wikipedia.org/wiki/Facade_pattern
