@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-28 18:54+0200\n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../Structural/Bridge/README.rst:2
-msgid "`Bridge`_"
+msgid "`Bridge`__"
 msgstr ""
 
 #: ../../Structural/Bridge/README.rst:5
@@ -22,7 +22,7 @@ msgstr ""
 #: ../../Structural/Bridge/README.rst:7
 msgid ""
 "Decouple an abstraction from its implementation so that the two can vary "
-"independently. (http://en.wikipedia.org/wiki/Bridge\\_pattern)"
+"independently."
 msgstr ""
 
 #: ../../Structural/Bridge/README.rst:11
