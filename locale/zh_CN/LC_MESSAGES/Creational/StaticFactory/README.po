@@ -28,7 +28,7 @@ msgid ""
 "``factory`` or ``build``."
 msgstr ""
 "和抽象工厂类似，静态工厂模式用来创建一系列相关的活着相互依赖的对象，和抽象工厂模式不同的是静态工厂"
-"模式只用一个静态方法就解决了所有类型的对象创建，通常被命名为``工厂`` 或者 ··构建器··"
+"模式只用一个静态方法就解决了所有类型的对象创建，通常被命名为``工厂`` 或者 ``构建器``"
 
 #: ../../Creational/StaticFactory/README.rst:14
 msgid "Examples"
@@ -56,24 +56,24 @@ msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
 #: ../../Creational/StaticFactory/README.rst:31
 msgid "StaticFactory.php"
-msgstr "StaticFactory.php"
+msgstr ""
 
 #: ../../Creational/StaticFactory/README.rst:37
 msgid "FormatterInterface.php"
-msgstr "FormatterInterface.php"
+msgstr ""
 
 #: ../../Creational/StaticFactory/README.rst:43
 msgid "FormatString.php"
-msgstr "FormatString.php"
+msgstr ""
 
 #: ../../Creational/StaticFactory/README.rst:49
 msgid "FormatNumber.php"
-msgstr "FormatNumber.php"
+msgstr ""
 
 #: ../../Creational/StaticFactory/README.rst:56
 msgid "Test"
-msgstr "Test"
+msgstr "测试"
 
 #: ../../Creational/StaticFactory/README.rst:58
 msgid "Tests/StaticFactoryTest.php"
-msgstr "Tests/StaticFactoryTest.php"
+msgstr ""
