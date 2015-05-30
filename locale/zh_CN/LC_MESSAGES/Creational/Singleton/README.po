@@ -69,7 +69,7 @@ msgstr "Singleton.php"
 
 #: ../../Creational/Singleton/README.rst:41
 msgid "Test"
-msgstr "测试"
+msgstr "Test"
 
 #: ../../Creational/Singleton/README.rst:43
 msgid "Tests/SingletonTest.php"
