@@ -32,7 +32,9 @@ msgstr ""
 msgid ""
 "I think the problem with patterns is that often people do know them but "
 "don't know when to apply which."
-msgstr "翻译。。。"
+msgstr “”
+"我认为设计模式存在的问题是人们都知道知道设计模“
+”式，但是却不知道如何使用它们。"
 
 #: ../../README.rst:20
 msgid "Patterns"
@@ -57,7 +59,9 @@ msgid ""
 "send a pull request with your changes! To establish a consistent code "
 "quality, please check your code using `PHP CodeSniffer`_ against `PSR2 "
 "standard`_ using ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``."
-msgstr "翻译。。。"
+msgstr ""
+"欢迎你fork代码修改和提pr，为了保证代码的质量，"
+"请使用 `PHP CodeSniffer`_ 检查你的代码是否遵守 `PSR2 编码规范`_，使用 ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``. 命令检查。"
 
 #: ../../README.rst:44
 msgid "License"
@@ -65,11 +69,11 @@ msgstr "协议"
 
 #: ../../README.rst:46
 msgid "(The MIT License)"
-msgstr ""
+msgstr "MIT 授权协议"
 
 #: ../../README.rst:48
 msgid "Copyright (c) 2014 `Dominik Liebler`_ and `contributors`_"
-msgstr ""
+msgstr "Copyright (c) 2014 `Dominik Liebler`_ 和 `贡献者`_"
 
 #: ../../README.rst:50
 msgid ""
@@ -80,12 +84,16 @@ msgid ""
 "sell copies of the Software, and to permit persons to whom the Software is "
 "furnished to do so, subject to the following conditions:"
 msgstr ""
+"在此授权给任何遵守本软件授权协议的人免费使用的权利，可以"
+"不受限制的的使用，包括不受限制的使用，复制，修改，合并，重新发布，分发，改变授权许可，甚至售卖本软件的拷贝，"
+“同时也允许买这个软件的个人也具备上述权利，大意如下：”
 
 #: ../../README.rst:58
 msgid ""
 "The above copyright notice and this permission notice shall be included in "
 "all copies or substantial portions of the Software."
 msgstr ""
+"上面的权利和授权注意事项应该被包括在本软件的所有的派生分支/版本中"
 
 #: ../../README.rst:61
 msgid ""
@@ -97,3 +105,6 @@ msgid ""
 "FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS "
 "IN THE SOFTWARE."
 msgstr ""
+"本软件就如上面描述的那样，不管在描述或者潜在的暗示里都没有任何类型的使用担保，包括但不仅限于担保，"
+"本软件适合非侵权情形下任何目的的使用，在下列情形下，作者或者版权方都有责任要求索赔或要求使用者承担其它的责任,"
+"无论是合同问题，侵权还是其他原因，比如与本软件有关的使用或者交易。"
