@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../More/ServiceLocator/README.rst:2
 msgid "`Service Locator`__"
-msgstr "`Локатор Служб`__"
+msgstr "Локатор Служб (`Service Locator`__)"
 
 #: ../../More/ServiceLocator/README.rst:5
 msgid "Purpose"

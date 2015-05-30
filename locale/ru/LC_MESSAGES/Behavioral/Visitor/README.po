@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Behavioral/Visitor/README.rst:2
 msgid "`Visitor`__"
-msgstr "`Посетитель`__"
+msgstr "Посетитель (`Visitor`__)"
 
 #: ../../Behavioral/Visitor/README.rst:5
 msgid "Purpose"

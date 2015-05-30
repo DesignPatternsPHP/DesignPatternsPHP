@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Behavioral/NullObject/README.rst:2
 msgid "`Null Object`__"
-msgstr "`Объект Null`__"
+msgstr "Объект Null (`Null Object`__)"
 
 #: ../../Behavioral/NullObject/README.rst:5
 msgid "Purpose"
