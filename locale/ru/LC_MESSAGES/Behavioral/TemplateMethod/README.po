@@ -15,7 +15,7 @@ msgstr ""
 
 #: ../../Behavioral/TemplateMethod/README.rst:2
 msgid "`Template Method`__"
-msgstr "Шаблонный Метод (`Template Method`__)"
+msgstr "`Шаблонный Метод <https://ru.wikipedia.org/wiki/Шаблонный_метод_(шаблон_проектирования)>`_ (`Template Method`__)"
 
 #: ../../Behavioral/TemplateMethod/README.rst:5
 msgid "Purpose"
