@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Behavioral/Specification/README.rst:2
 msgid "`Specification`__"
-msgstr "`Спецификация`__"
+msgstr "`Спецификация <https://ru.wikipedia.org/wiki/Спецификация_(шаблон_проектирования)>`_ (`Specification`__)"
 
 #: ../../Behavioral/Specification/README.rst:5
 msgid "Purpose"

@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:2
 msgid "`Chain Of Responsibilities`__"
-msgstr "`Цепочка обязанностей`__)"
+msgstr "`Цепочка Обязанностей <https://ru.wikipedia.org/wiki/Цепочка_обязанностей>`_ (`Chain Of Responsibilities`__)"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:5
 msgid "Purpose:"

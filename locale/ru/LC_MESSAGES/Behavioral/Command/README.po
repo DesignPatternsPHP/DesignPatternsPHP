@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Behavioral/Command/README.rst:2
 msgid "`Command`__"
-msgstr "`Команда`__"
+msgstr "`Команда <https://ru.wikipedia.org/wiki/Команда_(шаблон_проектирования)>`_ (`Command`__)"
 
 #: ../../Behavioral/Command/README.rst:5
 msgid "Purpose"

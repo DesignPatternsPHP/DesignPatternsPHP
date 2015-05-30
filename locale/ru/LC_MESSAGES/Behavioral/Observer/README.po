@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Behavioral/Observer/README.rst:2
 msgid "`Observer`__"
-msgstr "`Наблюдатель`__"
+msgstr "`Наблюдатель <https://ru.wikipedia.org/wiki/Наблюдатель_(шаблон_проектирования)>`_ (`Observer`__)"
 
 #: ../../Behavioral/Observer/README.rst:5
 msgid "Purpose"

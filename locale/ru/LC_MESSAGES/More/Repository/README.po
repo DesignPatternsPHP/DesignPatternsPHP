@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../More/Repository/README.rst:2
 msgid "Repository"
-msgstr "Repository"
+msgstr "Хранилище (Repository)"
 
 #: ../../More/Repository/README.rst:5
 msgid "Purpose"

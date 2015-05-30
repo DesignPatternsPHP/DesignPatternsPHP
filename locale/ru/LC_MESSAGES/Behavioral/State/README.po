@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Behavioral/State/README.rst:2
 msgid "`State`__"
-msgstr "`Состояние`__"
+msgstr "`Состояние <https://ru.wikipedia.org/wiki/Состояние_(шаблон_проектирования)>`_ (`State`__)"
 
 #: ../../Behavioral/State/README.rst:5
 msgid "Purpose"

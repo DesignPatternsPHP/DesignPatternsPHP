@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Behavioral/README.rst:2
 msgid "Behavioral"
-msgstr "Поведенческие шаблоны проектирования"
+msgstr "`Поведенческие шаблоны проектирования <https://ru.wikipedia.org/wiki/Поведенческие_шаблоны_проектирования>`_ (Behavioral)"
 
 #: ../../Behavioral/README.rst:4
 msgid ""

@@ -15,7 +15,7 @@ msgstr ""
 
 #: ../../Behavioral/Mediator/README.rst:2
 msgid "`Mediator`__"
-msgstr "`Посредник`__"
+msgstr "`Посредник <https://ru.wikipedia.org/wiki/Посредник_(шаблон_проектирования)>`_ (`Mediator`__)"
 
 #: ../../Behavioral/Mediator/README.rst:5
 msgid "Purpose"

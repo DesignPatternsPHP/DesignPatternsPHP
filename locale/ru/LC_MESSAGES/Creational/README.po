@@ -1,19 +1,19 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-05-30 23:11+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
 
 #: ../../Creational/README.rst:2
 msgid "Creational"
-msgstr ""
+msgstr "Порождающие шаблоны проектирования (Creational)"
 
 #: ../../Creational/README.rst:4
 msgid ""
@@ -23,3 +23,9 @@ msgid ""
 " design problems or added complexity to the design. Creational design "
 "patterns solve this problem by somehow controlling this object creation."
 msgstr ""
+"В разработке программного обеспечения, Порождающие шаблоны проектирования – "
+"это паттерны, которые имеют дело с механизмами создания объекта и пытаются "
+"создать объекты в порядке, подходящем к ситуации. Обычная форма создания "
+"объекта может привести к проблемам проектирования или увеличивать сложность "
+"конструкции. Порождающие шаблоны проектирования решают эту проблему, "
+"определённым образом контролируя процесс создания объекта."

@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Behavioral/Iterator/README.rst:2
 msgid "`Iterator`__"
-msgstr "`Итератор`__"
+msgstr "`Итератор <https://ru.wikipedia.org/wiki/Итератор_(шаблон_проектирования)>`_ (`Iterator`__)"
 
 #: ../../Behavioral/Iterator/README.rst:5
 msgid "Purpose"
