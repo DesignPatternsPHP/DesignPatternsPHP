@@ -29,7 +29,7 @@ msgstr "目标"
 msgid ""
 "To have only one instance of this object in the application that will handle"
 " all calls."
-msgstr "为了应用中有且仅有一个对象的实例存在和使用。"
+msgstr "使应用中只存在一个对象的实例，并且使这个单实例负责所有对该对象的调用。"
 
 #: ../../Creational/Singleton/README.rst:14
 msgid "Examples"
