@@ -1,5 +1,5 @@
-`Decorator`_
-============
+`Decorator`__
+=============
 
 Purpose
 -------
@@ -65,4 +65,4 @@ Tests/DecoratorTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Decorator
-.. _`Decorator`: http://en.wikipedia.org/wiki/Decorator_pattern
+.. __: http://en.wikipedia.org/wiki/Decorator_pattern

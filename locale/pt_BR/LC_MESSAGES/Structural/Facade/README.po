@@ -1,0 +1,87 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/Facade/README.rst:2
+msgid "`Facade`__"
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:7
+msgid ""
+"The primary goal of a Facade Pattern is not to avoid you to read the manual "
+"of a complex API. It's only a side-effect. The first goal is to reduce "
+"coupling and follow the Law of Demeter."
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:11
+msgid ""
+"A Facade is meant to decouple a client and a sub-system by embedding many "
+"(but sometimes just one) interface, and of course to reduce complexity."
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:15
+msgid "A facade does not forbid you the access to the sub-system"
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:16
+msgid "You can (you should) have multiple facades for one sub-system"
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:18
+msgid ""
+"That's why a good facade has no ``new`` in it. If there are multiple "
+"creations for each method, it is not a Facade, it's a Builder or a "
+"[Abstract\\|Static\\|Simple] Factory [Method]."
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:22
+msgid ""
+"The best facade has no ``new`` and a constructor with interface-type-hinted "
+"parameters. If you need creation of new instances, use a Factory as "
+"argument."
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:27
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:34
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:36
+msgid "You can also find these code on `GitHub`_"
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:38
+msgid "Facade.php"
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:44
+msgid "OsInterface.php"
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:50
+msgid "BiosInterface.php"
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:57
+msgid "Test"
+msgstr ""
+
+#: ../../Structural/Facade/README.rst:59
+msgid "Tests/FacadeTest.php"
+msgstr ""

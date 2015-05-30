@@ -1,5 +1,5 @@
-`Registry`_
-===========
+`Registry`__
+============
 
 Purpose
 -------
@@ -44,4 +44,4 @@ Tests/RegistryTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Registry
-.. _`Registry`: http://en.wikipedia.org/wiki/Service_locator_pattern
+.. __: http://en.wikipedia.org/wiki/Service_locator_pattern

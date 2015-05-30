@@ -1,0 +1,92 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Behavioral/Strategy/README.rst:2
+msgid "`Strategy`__"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:5
+msgid "Terminology:"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:7
+msgid "Context"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:8
+msgid "Strategy"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:9
+msgid "Concrete Strategy"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:12
+msgid "Purpose"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:14
+msgid ""
+"To separate strategies and to enable fast switching between them. Also this "
+"pattern is a good alternative to inheritance (instead of having an abstract "
+"class that is extended)."
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:19
+msgid "Examples"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:21
+msgid "sorting a list of objects, one strategy by date, the other by id"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:22
+msgid ""
+"simplify unit testing: e.g. switching between file and in-memory storage"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:26
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:33
+msgid "Code"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:35
+msgid "You can also find these code on `GitHub`_"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:37
+msgid "ObjectCollection.php"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:43
+msgid "ComparatorInterface.php"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:49
+msgid "DateComparator.php"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:55
+msgid "IdComparator.php"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:62
+msgid "Test"
+msgstr ""
+
+#: ../../Behavioral/Strategy/README.rst:64
+msgid "Tests/StrategyTest.php"
+msgstr ""

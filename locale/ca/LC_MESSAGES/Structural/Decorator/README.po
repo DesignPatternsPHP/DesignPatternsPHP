@@ -1,0 +1,78 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/Decorator/README.rst:2
+msgid "`Decorator`__"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:7
+msgid "To dynamically add new functionality to class instances."
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:10
+msgid "Examples"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:12
+msgid "Zend Framework: decorators for ``Zend_Form_Element`` instances"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:13
+msgid ""
+"Web Service Layer: Decorators JSON and XML for a REST service (in this case,"
+" only one of these should be allowed of course)"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:17
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:24
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:26
+msgid "You can also find these code on `GitHub`_"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:28
+msgid "RendererInterface.php"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:34
+msgid "Webservice.php"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:40
+msgid "Decorator.php"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:46
+msgid "RenderInXml.php"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:52
+msgid "RenderInJson.php"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:59
+msgid "Test"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:61
+msgid "Tests/DecoratorTest.php"
+msgstr ""

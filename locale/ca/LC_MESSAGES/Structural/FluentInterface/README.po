@@ -1,0 +1,66 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/FluentInterface/README.rst:2
+msgid "`Fluent Interface`__"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:7
+msgid ""
+"To write code that is easy readable just like sentences in a natural "
+"language (like English)."
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:11
+msgid "Examples"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:13
+msgid "Doctrine2's QueryBuilder works something like that example class below"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:15
+msgid "PHPUnit uses fluent interfaces to build mock objects"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:16
+msgid "Yii Framework: CDbCommand and CActiveRecord use this pattern, too"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:19
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:26
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:28
+msgid "You can also find these code on `GitHub`_"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:30
+msgid "Sql.php"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:37
+msgid "Test"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:39
+msgid "Tests/FluentInterfaceTest.php"
+msgstr ""

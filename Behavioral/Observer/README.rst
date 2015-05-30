@@ -1,5 +1,5 @@
-`Observer`_
-===========
+`Observer`__
+============
 
 Purpose
 -------
@@ -55,4 +55,4 @@ Tests/ObserverTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Observer
-.. _`Observer`: http://en.wikipedia.org/wiki/Observer_pattern
+.. __: http://en.wikipedia.org/wiki/Observer_pattern

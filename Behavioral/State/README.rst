@@ -1,5 +1,5 @@
-`State`_
-========
+`State`__
+=========
 
 Purpose
 -------
@@ -54,4 +54,4 @@ Test
 ----
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/State
-.. _`State`: http://en.wikipedia.org/wiki/State_pattern
+.. __: http://en.wikipedia.org/wiki/State_pattern

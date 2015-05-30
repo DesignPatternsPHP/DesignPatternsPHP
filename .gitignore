@@ -3,3 +3,4 @@
 /nbproject
 /vendor/
 _build/
+*.mo

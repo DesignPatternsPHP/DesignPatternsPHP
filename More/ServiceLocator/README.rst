@@ -1,5 +1,5 @@
-`Service Locator`_
-==================
+`Service Locator`__
+===================
 
 Purpose
 -------
@@ -81,4 +81,4 @@ Tests/ServiceLocatorTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/More/ServiceLocator
-.. _`Service Locator`: http://en.wikipedia.org/wiki/Service_locator_pattern
+.. __: http://en.wikipedia.org/wiki/Service_locator_pattern

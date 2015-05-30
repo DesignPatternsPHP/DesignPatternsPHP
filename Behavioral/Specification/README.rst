@@ -1,5 +1,5 @@
-`Specification`_
-================
+`Specification`__
+=================
 
 Purpose
 -------
@@ -78,4 +78,4 @@ Tests/SpecificationTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Specification
-.. _`Specification`: http://en.wikipedia.org/wiki/Specification_pattern
+.. __: http://en.wikipedia.org/wiki/Specification_pattern

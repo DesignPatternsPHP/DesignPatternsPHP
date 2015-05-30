@@ -1,5 +1,5 @@
-`Delegation`_
-=============
+`Delegation`__
+==============
 
 Purpose
 -------
@@ -51,4 +51,4 @@ Tests/DelegationTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/More/Delegation
-.. _`Delegation`: http://en.wikipedia.org/wiki/Delegation_pattern
+.. __: http://en.wikipedia.org/wiki/Delegation_pattern

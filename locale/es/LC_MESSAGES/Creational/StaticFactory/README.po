@@ -1,0 +1,75 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Creational/StaticFactory/README.rst:2
+msgid "Static Factory"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:7
+msgid ""
+"Similar to the AbstractFactory, this pattern is used to create series of "
+"related or dependent objects. The difference between this and the abstract "
+"factory pattern is that the static factory pattern uses just one static "
+"method to create all types of objects it can create. It is usually named "
+"``factory`` or ``build``."
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:14
+msgid "Examples"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:16
+msgid ""
+"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory method"
+" create cache backends or frontends"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:20
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:27
+msgid "Code"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:29
+msgid "You can also find these code on `GitHub`_"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:31
+msgid "StaticFactory.php"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:37
+msgid "FormatterInterface.php"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:43
+msgid "FormatString.php"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:49
+msgid "FormatNumber.php"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:56
+msgid "Test"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:58
+msgid "Tests/StaticFactoryTest.php"
+msgstr ""

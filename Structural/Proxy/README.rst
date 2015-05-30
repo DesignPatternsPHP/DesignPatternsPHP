@@ -1,5 +1,5 @@
-`Proxy`_
-========
+`Proxy`__
+=========
 
 Purpose
 -------
@@ -41,4 +41,4 @@ Test
 ----
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Proxy
-.. _`Proxy`: http://en.wikipedia.org/wiki/Proxy_pattern
+.. __: http://en.wikipedia.org/wiki/Proxy_pattern

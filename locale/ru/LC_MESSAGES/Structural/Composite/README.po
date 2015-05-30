@@ -1,0 +1,78 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/Composite/README.rst:2
+msgid "`Composite`__"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:7
+msgid ""
+"To treat a group of objects the same way as a single instance of the object."
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:11
+msgid "Examples"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:13
+msgid ""
+"a form class instance handles all its form elements like a single instance "
+"of the form, when ``render()`` is called, it subsequently runs through all "
+"its child elements and calls ``render()`` on them"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:16
+msgid ""
+"``Zend_Config``: a tree of configuration options, each one is a "
+"``Zend_Config`` object itself"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:20
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:27
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:29
+msgid "You can also find these code on `GitHub`_"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:31
+msgid "FormElement.php"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:37
+msgid "Form.php"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:43
+msgid "InputElement.php"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:49
+msgid "TextElement.php"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:56
+msgid "Test"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:58
+msgid "Tests/CompositeTest.php"
+msgstr ""
