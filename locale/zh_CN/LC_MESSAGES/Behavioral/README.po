@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../Behavioral/README.rst:2
-msgid "Behavioral"
+msgid "`Behavioral`__"
 msgstr ""
 
 #: ../../Behavioral/README.rst:4

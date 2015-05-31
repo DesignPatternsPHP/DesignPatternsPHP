@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../Creational/README.rst:2
-msgid "Creational"
+msgid "`Creational`__"
 msgstr ""
 
 #: ../../Creational/README.rst:4
