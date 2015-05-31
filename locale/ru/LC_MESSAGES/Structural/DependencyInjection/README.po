@@ -1,33 +1,37 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-06-02 01:32+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
 
 #: ../../Structural/DependencyInjection/README.rst:2
 msgid "`Dependency Injection`__"
 msgstr ""
+"`Внедрение Зависимости <https://ru.wikipedia.org/wiki/"
+"Внедрение_зависимости>`_ (`Dependency Injection`__)"
 
 #: ../../Structural/DependencyInjection/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Назначение"
 
 #: ../../Structural/DependencyInjection/README.rst:7
 msgid ""
 "To implement a loosely coupled architecture in order to get better testable,"
 " maintainable and extendable code."
 msgstr ""
+"Для реализации слабосвязанной архитектуры. Чтобы получить более "
+"тестируемый, сопровождаемый и расширяемый код."
 
 #: ../../Structural/DependencyInjection/README.rst:11
 msgid "Usage"
-msgstr ""
+msgstr "Использование"
 
 #: ../../Structural/DependencyInjection/README.rst:13
 msgid ""
@@ -36,6 +40,11 @@ msgid ""
 " ``Connection``, which is not very good for testing and extending "
 "``Connection``."
 msgstr ""
+"Объект Configuration внедряется в ``Connection`` и последний получает всё, "
+"что ему необходимо из переменной ``$ config``. Без DI, конфигурация будет "
+"создана непосредственно в ``Connection``, что не очень хорошо для "
+"тестирования и расширения ``Connection``, так как связывает эти классы "
+"напрямую."
 
 #: ../../Structural/DependencyInjection/README.rst:18
 msgid ""
@@ -46,10 +55,17 @@ msgid ""
 " Read more about Inversion of control `here "
 "<http://en.wikipedia.org/wiki/Inversion_of_control>`__."
 msgstr ""
+"Обратите внимание, в ``Connection`` мы следуем принципу SOLID `Инверсия "
+"Управления <https://ru.wikipedia.org/wiki/Инверсия_управления>`_, "
+"запрашивая параметр ``$config``, чтобы реализовать интерфейс "
+"``Parameters``. Это отделяет наши компоненты друг от друга. Нас не заботит, "
+"из какого источника поступает эта информация о конфигурации, мы заботимся "
+"только о том, что ``$config`` должен иметь определенные методы, чтобы мы "
+"могли получить эту информацию."
 
 #: ../../Structural/DependencyInjection/README.rst:26
 msgid "Examples"
-msgstr ""
+msgstr "Примеры"
 
 #: ../../Structural/DependencyInjection/README.rst:28
 msgid ""
@@ -58,6 +74,10 @@ msgid ""
 "create a mock object of the configuration and inject that into the "
 "``Connection`` object"
 msgstr ""
+"The Doctrine2 ORM использует Внедрение Зависимости например для "
+"конфигурации, которая внедряется в объект ``Connection``. Для целей "
+"тестирования, можно легко создать макет объекта конфигурации и внедрить его "
+"в объект ``Connection``, подменив оригинальный."
 
 #: ../../Structural/DependencyInjection/README.rst:32
 msgid ""
@@ -65,43 +85,46 @@ msgid ""
 "objects via a configuration array and inject them where needed (i.e. in "
 "Controllers)"
 msgstr ""
+"Symfony and Zend Framework 2 уже содержат контейнеры для DI, которые "
+"создают объекты с помощью массива из конфигурации, и внедряют их в случае "
+"необходимости (т.е. в Контроллерах)."
 
 #: ../../Structural/DependencyInjection/README.rst:37
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML Диаграмма"
 
 #: ../../Structural/DependencyInjection/README.rst:44
 msgid "Code"
-msgstr ""
+msgstr "Код"
 
 #: ../../Structural/DependencyInjection/README.rst:46
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "Вы можете найти этот код на `GitHub`_"
 
 #: ../../Structural/DependencyInjection/README.rst:48
 msgid "AbstractConfig.php"
-msgstr ""
+msgstr "AbstractConfig.php"
 
 #: ../../Structural/DependencyInjection/README.rst:54
 msgid "Parameters.php"
-msgstr ""
+msgstr "Parameters.php"
 
 #: ../../Structural/DependencyInjection/README.rst:60
 msgid "ArrayConfig.php"
-msgstr ""
+msgstr "ArrayConfig.php"
 
 #: ../../Structural/DependencyInjection/README.rst:66
 msgid "Connection.php"
-msgstr ""
+msgstr "Connection.php"
 
 #: ../../Structural/DependencyInjection/README.rst:73
 msgid "Test"
-msgstr ""
+msgstr "Тест"
 
 #: ../../Structural/DependencyInjection/README.rst:75
 msgid "Tests/DependencyInjectionTest.php"
-msgstr ""
+msgstr "Tests/DependencyInjectionTest.php"
 
 #: ../../Structural/DependencyInjection/README.rst:81
 msgid "Tests/config.php"
-msgstr ""
+msgstr "Tests/config.php"
