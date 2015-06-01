@@ -1,5 +1,5 @@
-Creational
-==========
+`Creational`__
+==============
 
 In software engineering, creational design patterns are design patterns
 that deal with object creation mechanisms, trying to create objects in a
@@ -20,3 +20,5 @@ this object creation.
    SimpleFactory/README
    Singleton/README
    StaticFactory/README
+
+.. __: http://en.wikipedia.org/wiki/Creational_pattern
