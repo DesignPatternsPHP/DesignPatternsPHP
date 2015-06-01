@@ -13,39 +13,41 @@ msgstr ""
 
 #: ../../Creational/Prototype/README.rst:2
 msgid "`Prototype`__"
-msgstr ""
+msgstr "`原型模式`__"
 
 #: ../../Creational/Prototype/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../Creational/Prototype/README.rst:7
 msgid ""
 "To avoid the cost of creating objects the standard way (new Foo()) and "
 "instead create a prototype and clone it."
 msgstr ""
+"通过创建一个原型对象，然后复制原型对象来避免通过标准的方式创建大量的对象产生的开销(new Foo())。"
 
 #: ../../Creational/Prototype/README.rst:11
 msgid "Examples"
-msgstr ""
+msgstr "例子"
 
 #: ../../Creational/Prototype/README.rst:13
 msgid ""
 "Large amounts of data (e.g. create 1,000,000 rows in a database at once via "
 "a ORM)."
 msgstr ""
+"大量的数据对象(比如通过ORM获取1,000,000行数据库记录然后创建每一条记录对应的对象实体)"
 
 #: ../../Creational/Prototype/README.rst:17
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Creational/Prototype/README.rst:24
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Creational/Prototype/README.rst:26
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
 #: ../../Creational/Prototype/README.rst:28
 msgid "index.php"
@@ -65,4 +67,4 @@ msgstr ""
 
 #: ../../Creational/Prototype/README.rst:53
 msgid "Test"
-msgstr ""
+msgstr "测试"
