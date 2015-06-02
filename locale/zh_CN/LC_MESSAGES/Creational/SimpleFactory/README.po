@@ -37,7 +37,7 @@ msgid ""
 "can subclass it and you can mock-up it."
 msgstr ""
 "因此，你可以使用该工厂的多个实例，通过传递参数使它们各不相同，"
-"你可以通过继承扩展工厂来改变工厂的行为。"
+"你可以通过继承扩展工厂来改变工厂的行为，并用它来创建测试时会使用到的模拟对象（mock）"
 
 #: ../../Creational/SimpleFactory/README.rst:16
 msgid "UML Diagram"
