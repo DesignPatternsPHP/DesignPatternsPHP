@@ -12,8 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../Creational/README.rst:2
-msgid "Creational"
-msgstr ""
+msgid "`Creational`__"
+msgstr "`创建型设计模式`__"
 
 #: ../../Creational/README.rst:4
 msgid ""
@@ -23,3 +23,7 @@ msgid ""
 " design problems or added complexity to the design. Creational design "
 "patterns solve this problem by somehow controlling this object creation."
 msgstr ""
+"在软件工程中，创建型设计模式承担着对象创建的职责，尝试创建"
+"适合程序上下文的对象，对象创建设计模式的产生是由于软件工程"
+"设计的问题，具体说是向设计中增加复杂度，创建型设计模式解决"
+"了程序设计中对象创建的问题。"

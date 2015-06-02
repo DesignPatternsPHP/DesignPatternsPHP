@@ -9,6 +9,16 @@ This is a collection of known design patterns and some sample code how to implem
 
 I think the problem with patterns is that often people do know them but don't know when to apply which.
 
+## Installation
+You should look at and run the tests to see what happens in the example.
+To do this, you should install dependencies with `Composer` first:
+
+```bash
+$ composer install
+```
+
+Read more about how to install and use `Composer` on your local machine [here](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
+
 ## Patterns
 
 The patterns can be structured in roughly three different categories. Please click on the [:notebook:](http://en.wikipedia.org/wiki/Software_design_pattern) for a full explanation of the pattern on Wikipedia.
