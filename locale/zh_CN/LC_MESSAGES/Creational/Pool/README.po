@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Creational/Pool/README.rst:2
 msgid "`Pool`__"
-msgstr ""
+msgstr "对象池"
 
 #: ../../Creational/Pool/README.rst:4
 msgid ""
@@ -24,6 +24,10 @@ msgid ""
 "object. When the client has finished, it returns the object, which is a "
 "specific type of factory object, to the pool rather than destroying it."
 msgstr ""
+"**对象池设计模式** 是创建型设计模式，它会对新创建的对象应用一系列的初始化操作，让对象保持立即可使用的状态"
+" - 一个存放对象的 \"池子\" - 而不是对对象进行一次性的的使用(创建并使用，完成之后立即销毁)。对象池的使用者会对对象池发起请求，以期望"
+"获取一个对象，并使用获取到的对象进行一系列操作，当使用者对对象的使用完成之后，使用者会将由对象池的对象创建工厂创建的对象返回给对象池，而不是"
+"用完之后销毁获取到的对象。"
 
 #: ../../Creational/Pool/README.rst:11
 msgid ""
@@ -34,6 +38,9 @@ msgid ""
 "creation of the new objects (especially over network) may take variable "
 "time."
 msgstr ""
+"对象池在某些情况下会带来重要的性能提升，比如耗费资源的对象初始化操作，实例化类的代价很高，但每次实例化的数量较少的情况下。"
+"对象池中将被创建的对象会在真正被使用时被提前创建，避免在使用时让使用者浪费对象创建所需的大量时间(比如在对象某些操作需要访问网络资源的情况下)"
+"从池子中取得对象的时间是可预测的，但新建一个实例所需的时间是不确定。"
 
 #: ../../Creational/Pool/README.rst:18
 msgid ""
@@ -43,18 +50,21 @@ msgid ""
 "simple object pooling (that hold no external resources, but only occupy "
 "memory) may not be efficient and could decrease performance."
 msgstr ""
+"总之，对象池会为你节省宝贵的程序执行时间，比如像数据库连接，socket连接，大量耗费资源的代表数字资源的对象，像字体或者位图。"
+"不过，在特定情况下，简单的对象创建池(没有请求外部的资源，仅仅将自身保存在内存中)或许并不会提升效率和性能，这时候，就需要使用者"
+"酌情考虑了。"
 
 #: ../../Creational/Pool/README.rst:25
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Creational/Pool/README.rst:32
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Creational/Pool/README.rst:34
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
 #: ../../Creational/Pool/README.rst:36
 msgid "Pool.php"
@@ -70,7 +80,7 @@ msgstr ""
 
 #: ../../Creational/Pool/README.rst:55
 msgid "Test"
-msgstr ""
+msgstr "测试"
 
 #: ../../Creational/Pool/README.rst:57
 msgid "Tests/PoolTest.php"
