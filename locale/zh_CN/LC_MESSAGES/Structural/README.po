@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Structural/README.rst:2
 msgid "`Structural`__"
-msgstr ""
+msgstr "`结构型设计模式`__"
 
 #: ../../Structural/README.rst:4
 msgid ""
@@ -21,3 +21,5 @@ msgid ""
 " ease the design by identifying a simple way to realize relationships "
 "between entities."
 msgstr ""
+"在软件工程中，结构型设计模式集是用来抽象真实程序中的对象实体之间的关系，并使"
+"这种关系可被描述，概括和具体化。"
