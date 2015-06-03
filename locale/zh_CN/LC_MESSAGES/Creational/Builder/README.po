@@ -52,7 +52,7 @@ msgstr "例子"
 #: ../../Creational/Builder/README.rst:21
 msgid "PHPUnit: Mock Builder"
 msgstr ""
-"PHPUNI: Mock 生成器"
+"PHPUnit: Mock 生成器"
 
 #: ../../Creational/Builder/README.rst:24
 msgid "UML Diagram"
