@@ -19,7 +19,7 @@ class Pool
             return array_pop($this->instances);
         }
 
-        return new $this->class();
+        return new $this->class;
     }
 
     public function dispose($instance)
