@@ -24,7 +24,7 @@ class User implements \SplSubject
      */
     protected $observers;
     
-    function __construct()
+    public function __construct()
     {
         $this->observers = new \SplObjectStorage();
     }
