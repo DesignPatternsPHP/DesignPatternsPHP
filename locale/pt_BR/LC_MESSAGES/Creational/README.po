@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Creational/README.rst:2
 msgid "`Creational`__"
-msgstr ""
+msgstr "`Criacional`__"
 
 #: ../../Creational/README.rst:4
 msgid ""
@@ -23,3 +23,8 @@ msgid ""
 " design problems or added complexity to the design. Creational design "
 "patterns solve this problem by somehow controlling this object creation."
 msgstr ""
+"Em engenharia de software, padrões de projeto do tipo criacional são padrões que"
+" trabalham com mecanismos de criação de objetos, criando objetos de maneira "
+"adequada às situações. A forma básica para criação de objetos pode resultar em"
+" problemas de design ou adicionar complexidade ao mesmo. Padrões de Criação "
+"resolvem este problema mantendo a criação do objeto sob controle."
