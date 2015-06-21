@@ -36,11 +36,20 @@ class ObserverTest extends \PHPUnit_Framework_TestCase
     public function testAttachDetach()
     {
         $subject = new User();
-        $this->assertAttributeEmpty('observers', $subject);
+        $reflection = new \ReflectionProperty($subject, 'observers');
+
+        $reflection->setAccessible(true);
+        /** @var \SplObjectStorage $observers */
+        $observers = $reflection->getValue($subject);
+
+        $this->assertInstanceOf('SplObjectStorage', $observers);
+        $this->assertFalse($observers->contains($this->observer));
+
         $subject->attach($this->observer);
-        $this->assertAttributeNotEmpty('observers', $subject);
+        $this->assertTrue($observers->contains($this->observer));
+
         $subject->detach($this->observer);
-        $this->assertAttributeEmpty('observers', $subject);
+        $this->assertFalse($observers->contains($this->observer));
     }
 
     /**

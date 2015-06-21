@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../Structural/README.rst:2
-msgid "Structural"
+msgid "`Structural`__"
 msgstr ""
 
 #: ../../Structural/README.rst:4

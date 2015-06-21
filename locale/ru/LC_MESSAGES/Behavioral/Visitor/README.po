@@ -1,23 +1,23 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-05-30 14:44+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
 
 #: ../../Behavioral/Visitor/README.rst:2
 msgid "`Visitor`__"
-msgstr ""
+msgstr "`Посетитель <https://ru.wikipedia.org/wiki/Посетитель_(шаблон_проектирования)>`_ (`Visitor`__)"
 
 #: ../../Behavioral/Visitor/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Назначение"
 
 #: ../../Behavioral/Visitor/README.rst:7
 msgid ""
@@ -26,6 +26,11 @@ msgid ""
 " classes have to define a contract to allow visitors (the ``Role::accept`` "
 "method in the example)."
 msgstr ""
+"Шаблон «Посетитель» выполняет операции над объектами других классов. "
+"Главной целью является сохранение разделения направленности задач "
+"отдельных классов. При этом классы обязаны определить специальный "
+"контракт, чтобы позволить использовать их Посетителям (метод «принять "
+"роль» ``Role::accept`` в примере)."
 
 #: ../../Behavioral/Visitor/README.rst:12
 msgid ""
@@ -33,43 +38,46 @@ msgid ""
 "In that case, each Visitor has to choose itself which method to invoke on "
 "the visitor."
 msgstr ""
+"Контракт, как правило, это абстрактный класс, но вы можете использовать "
+"чистый интерфейс. В этом случае, каждый посетитель должен сам выбирать, "
+"какой метод ссылается на посетителя."
 
 #: ../../Behavioral/Visitor/README.rst:17
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML Диаграмма"
 
 #: ../../Behavioral/Visitor/README.rst:24
 msgid "Code"
-msgstr ""
+msgstr "Код"
 
 #: ../../Behavioral/Visitor/README.rst:26
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "Вы можете найти этот код на `GitHub`_"
 
 #: ../../Behavioral/Visitor/README.rst:28
 msgid "RoleVisitorInterface.php"
-msgstr ""
+msgstr "RoleVisitorInterface.php"
 
 #: ../../Behavioral/Visitor/README.rst:34
 msgid "RolePrintVisitor.php"
-msgstr ""
+msgstr "RolePrintVisitor.php"
 
 #: ../../Behavioral/Visitor/README.rst:40
 msgid "Role.php"
-msgstr ""
+msgstr "Role.php"
 
 #: ../../Behavioral/Visitor/README.rst:46
 msgid "User.php"
-msgstr ""
+msgstr "User.php"
 
 #: ../../Behavioral/Visitor/README.rst:52
 msgid "Group.php"
-msgstr ""
+msgstr "Group.php"
 
 #: ../../Behavioral/Visitor/README.rst:59
 msgid "Test"
-msgstr ""
+msgstr "Тест"
 
 #: ../../Behavioral/Visitor/README.rst:61
 msgid "Tests/VisitorTest.php"
-msgstr ""
+msgstr "Tests/VisitorTest.php"

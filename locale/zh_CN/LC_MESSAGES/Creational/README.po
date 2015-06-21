@@ -12,8 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../Creational/README.rst:2
-msgid "Creational"
-msgstr "创建型设计模式"
+msgid "`Creational`__"
+msgstr "`创建型设计模式`__"
 
 #: ../../Creational/README.rst:4
 msgid ""
