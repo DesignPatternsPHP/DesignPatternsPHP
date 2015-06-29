@@ -13,20 +13,21 @@ msgstr ""
 
 #: ../../Structural/Composite/README.rst:2
 msgid "`Composite`__"
-msgstr ""
+msgstr "`组合`__"
 
 #: ../../Structural/Composite/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../Structural/Composite/README.rst:7
 msgid ""
 "To treat a group of objects the same way as a single instance of the object."
 msgstr ""
+"使用一组对象就像使用单一对象一样"
 
 #: ../../Structural/Composite/README.rst:11
 msgid "Examples"
-msgstr ""
+msgstr "例子"
 
 #: ../../Structural/Composite/README.rst:13
 msgid ""
@@ -34,20 +35,24 @@ msgid ""
 "of the form, when ``render()`` is called, it subsequently runs through all "
 "its child elements and calls ``render()`` on them"
 msgstr ""
+"表单对象实例处理了所有表单元素，表单对象实例内部使用了诸多表单子元素实例，当执行 ``render()`` 方法后，表单实例会有序的执行所有表单子元素"
+"实例的 ``render()`` 方法"
 
 #: ../../Structural/Composite/README.rst:16
 msgid ""
 "``Zend_Config``: a tree of configuration options, each one is a "
 "``Zend_Config`` object itself"
 msgstr ""
+"``Zend_Config``：一个配置选项树，其中的每一个配置选项都是一个"
+" ``Zend_Config`` 对象的实例"
 
 #: ../../Structural/Composite/README.rst:20
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Structural/Composite/README.rst:27
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Structural/Composite/README.rst:29
 msgid "You can also find these code on `GitHub`_"
@@ -71,7 +76,7 @@ msgstr ""
 
 #: ../../Structural/Composite/README.rst:56
 msgid "Test"
-msgstr ""
+msgstr "测试"
 
 #: ../../Structural/Composite/README.rst:58
 msgid "Tests/CompositeTest.php"
