@@ -12,10 +12,10 @@ msgstr ""
 "Language: ru\n"
 
 #: ../../Structural/README.rst:2
-msgid "Structural"
+msgid "`Structural`__"
 msgstr ""
 "`Структурные шаблоны проектирования <https://ru.wikipedia.org/wiki/"
-"Структурные_шаблоны_проектирования>` (Structural)"
+"Структурные_шаблоны_проектирования>`_ (`Structural`__)"
 
 #: ../../Structural/README.rst:4
 msgid ""

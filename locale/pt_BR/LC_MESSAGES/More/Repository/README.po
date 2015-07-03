@@ -28,10 +28,16 @@ msgid ""
 "also supports the objective of achieving a clean separation and one-way "
 "dependency between the domain and data mapping layers."
 msgstr ""
+"Faz a mediação entre o domínio e as camadas de mapeamento de dados usando uma coleção de "
+"interfaces para acessar os objetos de domínio. Repositóros encapsulam um conjunto de "
+"objetos persistidos em um data store e as operações feitas sobre eles, "
+"provendo uma visão mais orientada a objetos da camada de persistência. Repositorio "
+"também apóia o objetivo de alcançar uma separação limpa e uma dependencia unidirecional "
+"entre o domínio e as camadas de mapeamento de dados."
 
 #: ../../More/Repository/README.rst:16
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 #: ../../More/Repository/README.rst:18
 msgid ""
@@ -41,19 +47,19 @@ msgstr ""
 
 #: ../../More/Repository/README.rst:20
 msgid "Laravel Framework"
-msgstr ""
+msgstr "Framework Laravel"
 
 #: ../../More/Repository/README.rst:23
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../More/Repository/README.rst:30
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../More/Repository/README.rst:32
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "Você também pode encontrar esse código no `GitHub`_"
 
 #: ../../More/Repository/README.rst:34
 msgid "Post.php"

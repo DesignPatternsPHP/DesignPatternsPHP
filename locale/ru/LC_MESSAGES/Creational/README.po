@@ -12,8 +12,8 @@ msgstr ""
 "Language: ru\n"
 
 #: ../../Creational/README.rst:2
-msgid "Creational"
-msgstr "Порождающие шаблоны проектирования (Creational)"
+msgid "`Creational`__"
+msgstr "Порождающие шаблоны проектирования (`Creational`__)"
 
 #: ../../Creational/README.rst:4
 msgid ""
