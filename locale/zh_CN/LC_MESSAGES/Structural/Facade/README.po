@@ -13,11 +13,11 @@ msgstr ""
 
 #: ../../Structural/Facade/README.rst:2
 msgid "`Facade`__"
-msgstr ""
+msgstr "`外观`__"
 
 #: ../../Structural/Facade/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../Structural/Facade/README.rst:7
 msgid ""
@@ -25,20 +25,24 @@ msgid ""
 "of a complex API. It's only a side-effect. The first goal is to reduce "
 "coupling and follow the Law of Demeter."
 msgstr ""
+"外观模式的目标并不是让你不去了解复杂的子系统的接口，这恰好是外观模式的负效应。"
+"外观模式的第一目标是松耦合和遵守迪米特法则。"
 
 #: ../../Structural/Facade/README.rst:11
 msgid ""
 "A Facade is meant to decouple a client and a sub-system by embedding many "
 "(but sometimes just one) interface, and of course to reduce complexity."
 msgstr ""
+"外观模式意味着解耦了使用者和子系统的耦合，通过增加大量接口的方式（通常只是一个接口），"
+"当然，这样做减少了使用者的使用复杂度。"
 
 #: ../../Structural/Facade/README.rst:15
 msgid "A facade does not forbid you the access to the sub-system"
-msgstr ""
+msgstr "外观模式不是要求你不需要去了解子系统."
 
 #: ../../Structural/Facade/README.rst:16
 msgid "You can (you should) have multiple facades for one sub-system"
-msgstr ""
+msgstr "你可以（应该）为一个子系统设计多个外观。"
 
 #: ../../Structural/Facade/README.rst:18
 msgid ""
@@ -46,6 +50,9 @@ msgid ""
 "creations for each method, it is not a Facade, it's a Builder or a "
 "[Abstract\\|Static\\|Simple] Factory [Method]."
 msgstr ""
+"这就是为什么好的外观模式的实现没有 ``new`` 操作。如果外观模式的实现里每个方法都有"
+"多个对象的创建，那么它就不能称作外观模式的实现，它应该叫做生成器或者一个"
+"[抽象\\|静态\\|简单] 工厂 [方法]."
 
 #: ../../Structural/Facade/README.rst:22
 msgid ""
@@ -53,18 +60,20 @@ msgid ""
 "parameters. If you need creation of new instances, use a Factory as "
 "argument."
 msgstr ""
+"最好的外观模式的实现没有带有一个有类型限定的构造参数的 ``new`` 操作。"
+"如果你需要在外观模式中创建了一个新实例，使用创建型的工厂方法来生成参数。"
 
 #: ../../Structural/Facade/README.rst:27
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Structural/Facade/README.rst:34
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Structural/Facade/README.rst:36
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
 #: ../../Structural/Facade/README.rst:38
 msgid "Facade.php"
@@ -80,7 +89,7 @@ msgstr ""
 
 #: ../../Structural/Facade/README.rst:57
 msgid "Test"
-msgstr ""
+msgstr "测试"
 
 #: ../../Structural/Facade/README.rst:59
 msgid "Tests/FacadeTest.php"
