@@ -26,3 +26,4 @@ before_script:
 
 script:
   - vendor/bin/phpunit
+  - vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .
