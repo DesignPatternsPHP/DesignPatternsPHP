@@ -23,7 +23,7 @@ cache:
 before_install:
   - composer self-update
   
-before_script:
+install:
   - composer install --prefer-dist --no-interaction
 
 script:
