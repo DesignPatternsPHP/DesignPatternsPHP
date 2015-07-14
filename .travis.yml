@@ -20,8 +20,10 @@ cache:
   directories:
     - $HOME/.composer/cache
 
-before_script:
+before_install:
   - composer self-update
+  
+before_script:
   - composer install --prefer-dist --no-interaction
 
 script:
