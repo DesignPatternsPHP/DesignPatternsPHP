@@ -5,10 +5,10 @@ namespace DesignPatterns\More\EAV;
 /**
  * Class Entity
  */
-class Entity implements ValueInterface
+class Entity implements ValueAccessInterface
 {
     /**
-     * @var Value[]|ValueInterface[]|array
+     * @var array|Value[]|ValueInterface[]
      */
     private $values = [];
 
@@ -18,7 +18,7 @@ class Entity implements ValueInterface
     private $name;
 
     /**
-     * @return Value[]|ValueInterface[]|array
+     * @return array|Value[]|ValueInterface[]
      */
     public function getValues()
     {

@@ -5,7 +5,7 @@ namespace DesignPatterns\More\EAV;
 /**
  * Class Value
  */
-class Value
+class Value implements ValueInterface
 {
     /**
      * @var Attribute
@@ -17,6 +17,9 @@ class Value
      */
     private $name;
 
+    /**
+     * @param Attribute $attribute
+     */
     public function __construct(Attribute $attribute)
     {
         $attribute->addValue($this);

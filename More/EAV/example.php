@@ -1,5 +1,7 @@
 <?php
 
+require '../../vendor/autoload.php';
+
 use DesignPatterns\More\EAV\Entity;
 use DesignPatterns\More\EAV\Attribute;
 use DesignPatterns\More\EAV\Value;
