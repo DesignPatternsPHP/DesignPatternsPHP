@@ -4,12 +4,12 @@
 Purpose
 -------
 
-...
+Demonstrate the Delegator pattern.
 
 Examples
 --------
 
-...
+Please review JuniorDeveloper.php, TeamLead.php, and then Usage.php to see it all tied together.
 
 UML Diagram
 -----------
