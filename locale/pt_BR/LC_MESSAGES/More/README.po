@@ -13,4 +13,4 @@ msgstr ""
 
 #: ../../More/README.rst:2
 msgid "More"
-msgstr ""
+msgstr "Outros"

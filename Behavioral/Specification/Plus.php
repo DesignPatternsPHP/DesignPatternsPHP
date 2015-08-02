@@ -11,7 +11,7 @@ class Plus extends AbstractSpecification
     protected $right;
 
     /**
-     * Creation of a locical AND of two specifications
+     * Creation of a logical AND of two specifications
      *
      * @param SpecificationInterface $left
      * @param SpecificationInterface $right
