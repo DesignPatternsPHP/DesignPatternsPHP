@@ -22,7 +22,8 @@ cache:
 
 before_install:
   - composer self-update
-  
+  - composer validate
+
 install:
   - composer install --prefer-dist --no-interaction
 
