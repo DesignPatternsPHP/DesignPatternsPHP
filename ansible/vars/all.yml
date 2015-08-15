@@ -1,0 +1,15 @@
+---
+server:
+    install: '1'
+    packages: [vim, htop, iotop, bwm-ng]
+    timezone: UTC
+    locale: en_US.UTF-8
+vagrant_local:
+    install: '1'
+    vm: { base_box: trusty64, hostname: design-patterns, ip: 192.168.11.2, sharedfolder: ./, enableWindows: '1', useVagrantCloud: '1', syncType: nfs }
+php:
+    install: '1'
+    ppa: php5-5.6
+    packages: [php5-cli, php5-intl, php5-mcrypt, php5-mysql, php5-curl, php5-json]
+xdebug:
+    install: '1'

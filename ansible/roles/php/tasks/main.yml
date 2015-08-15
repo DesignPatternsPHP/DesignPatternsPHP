@@ -1,0 +1,25 @@
+---
+- name: Add ppa Repository
+  sudo: yes
+  apt_repository: repo=ppa:ondrej/{{ php.ppa }}
+
+- name: Update apt
+  sudo: yes
+  apt: update_cache=yes
+
+- name: Install php5
+  sudo: yes
+  apt: pkg=php5 state=latest
+
+- name: Install PHP Packages
+  sudo: yes
+  apt: pkg={{ item }} state=latest
+  with_items: php.packages
+  when: php.packages is defined
+
+- name: Install pear
+  sudo: yes
+  apt: pkg=php-pear state=latest
+
+- include: configure.yml
+- include: pecl.yml
