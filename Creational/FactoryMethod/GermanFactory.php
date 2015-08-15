@@ -1,4 +1,5 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\FactoryMethod;
 
@@ -10,7 +11,7 @@ class GermanFactory extends FactoryMethod
     /**
      * {@inheritdoc}
      */
-    protected function createVehicle($type)
+    protected function createVehicle(string $type) : VehicleInterface
     {
         switch ($type) {
             case parent::CHEAP:
@@ -25,7 +26,7 @@ class GermanFactory extends FactoryMethod
                 return $obj;
                 break;
             default:
-                throw new \InvalidArgumentException("$type is not a valid vehicle");
+                throw new \InvalidArgumentException($type . ' is not a valid vehicle');
         }
     }
 }

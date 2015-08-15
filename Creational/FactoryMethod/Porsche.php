@@ -1,4 +1,5 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\FactoryMethod;
 
@@ -15,7 +16,7 @@ class Porsche implements VehicleInterface
     /**
      * @param string $rgb
      */
-    public function setColor($rgb)
+    public function setColor(string $rgb)
     {
         $this->color = $rgb;
     }

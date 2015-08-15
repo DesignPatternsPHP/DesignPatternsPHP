@@ -1,4 +1,5 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\FactoryMethod;
 
@@ -20,16 +21,16 @@ abstract class FactoryMethod
      *
      * @return VehicleInterface a new vehicle
      */
-    abstract protected function createVehicle($type);
+    abstract protected function createVehicle(string $type) : VehicleInterface;
 
     /**
      * Creates a new vehicle
      *
-     * @param int $type
+     * @param string $type
      *
      * @return VehicleInterface a new vehicle
      */
-    public function create($type)
+    public function create(string $type) : VehicleInterface
     {
         $obj = $this->createVehicle($type);
         $obj->setColor("#f00");

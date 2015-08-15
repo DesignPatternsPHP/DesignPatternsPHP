@@ -15,7 +15,7 @@ class Ferrari implements VehicleInterface
     /**
      * @param string $rgb
      */
-    public function setColor($rgb)
+    public function setColor(string $rgb)
     {
         $this->color = $rgb;
     }
