@@ -21,6 +21,8 @@ If you wish to use a ready made VM environment, you can easily create one with V
 $ vagrant up
 ```
 
+More information on [vagrant](https://www.vagrantup.com)
+
 ### Install dependencies
 
 ```bash
