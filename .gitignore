@@ -6,3 +6,4 @@ _build/
 *.mo
 .vagrant/
 phpunit.xml
+composer.phar
