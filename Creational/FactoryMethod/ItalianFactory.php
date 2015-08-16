@@ -12,7 +12,7 @@ class ItalianFactory extends FactoryMethod
     /**
      * {@inheritdoc}
      */
-    protected function createVehicle(string $type) : VehicleInterface
+    protected function createVehicle(int $type) : VehicleInterface
     {
         switch ($type) {
             case parent::CHEAP:
@@ -22,7 +22,10 @@ class ItalianFactory extends FactoryMethod
                 return new Ferrari();
                 break;
             default:
-                throw new \InvalidArgumentException($type . ' is not a valid vehicle');
+                throw new \InvalidArgumentException(
+                    'Not a valid vehicle, vehicles allowed: ' .
+                    implode(', ', FactoryMethod::$typeTexts)
+                );
         }
     }
 }

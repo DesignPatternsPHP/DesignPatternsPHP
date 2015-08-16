@@ -15,14 +15,20 @@ abstract class FactoryMethod
     /** @var int */
     const FAST = 2;
 
+    /** @var array */
+    public static $typeTexts = [
+        1 => 'Cheap',
+        2 => 'Fast',
+    ];
+
     /**
      * Creates a new vehicle
      *
-     * @param string $type
+     * @param int $type
      *
      * @return VehicleInterface a new vehicle
      */
-    public function create(string $type) : VehicleInterface
+    public function create(int $type) : VehicleInterface
     {
         $obj = $this->createVehicle($type);
         $obj->setColor("#f00");
@@ -35,9 +41,9 @@ abstract class FactoryMethod
      *
      * Sometimes this method can be public to get "raw" object
      *
-     * @param string $type a generic type
+     * @param int $type a generic type
      *
      * @return VehicleInterface a new vehicle
      */
-    abstract protected function createVehicle(string $type) : VehicleInterface;
+    abstract protected function createVehicle(int $type) : VehicleInterface;
 }
