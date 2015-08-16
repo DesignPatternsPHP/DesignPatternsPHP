@@ -1,4 +1,5 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\StaticFactory\Tests;
 
@@ -11,7 +12,10 @@ use DesignPatterns\Creational\StaticFactory\StaticFactory;
 class StaticFactoryTest extends \PHPUnit_Framework_TestCase
 {
 
-    public function getTypeList()
+    /**
+     * @return array
+     */
+    public function getTypeList() : array
     {
         return [
             ['string'],
