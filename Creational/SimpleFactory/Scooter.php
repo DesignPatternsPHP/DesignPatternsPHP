@@ -1,16 +1,20 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\SimpleFactory;
 
 /**
- * Scooter is a Scooter
+ * Class Scooter
+ * @package DesignPatterns\Creational\SimpleFactory
  */
 class Scooter implements VehicleInterface
 {
     /**
-     * @param mixed $destination
+     * @param string $destination
+     *
+     * @return DestinationInterface
      */
-    public function driveTo($destination)
+    public function driveTo(string $destination) : DestinationInterface
     {
     }
 }

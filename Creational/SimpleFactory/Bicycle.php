@@ -1,18 +1,20 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\SimpleFactory;
 
 /**
- * Bicycle is a bicycle
+ * Class Bicycle
+ * @package DesignPatterns\Creational\SimpleFactory
  */
 class Bicycle implements VehicleInterface
 {
     /**
-     * @param mixed $destination
+     * @param string $destination
      *
-     * @return mixed|void
+     * @return DestinationInterface
      */
-    public function driveTo($destination)
+    public function driveTo(string $destination) : DestinationInterface
     {
     }
 }
