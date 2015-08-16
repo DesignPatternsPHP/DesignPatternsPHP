@@ -18,7 +18,7 @@ class StaticFactory
      * @throws \InvalidArgumentException
      * @return FormatterInterface
      */
-    public static function factory($type)
+    public static function factory(string $type) : FormatterInterface
     {
         $className = __NAMESPACE__ . '\Format' . ucfirst($type);
 
