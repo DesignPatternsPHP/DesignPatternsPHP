@@ -4,8 +4,12 @@ declare(strict_types = 1);
 namespace DesignPatterns\Creational\StaticFactory;
 
 /**
+ * Class StaticFactory
+ *
  * Note1: Remember, static => global => evil
  * Note2: Cannot be subclassed or mock-upped or have multiple different instances
+ *
+ * @package DesignPatterns\Creational\StaticFactory
  */
 class StaticFactory
 {

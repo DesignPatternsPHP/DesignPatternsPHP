@@ -5,6 +5,7 @@ namespace DesignPatterns\Creational\StaticFactory;
 
 /**
  * Class FormatString
+ * @package DesignPatterns\Creational\StaticFactory
  */
 class FormatString implements FormatterInterface
 {
