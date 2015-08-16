@@ -1,4 +1,5 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\Singleton;
 
@@ -17,7 +18,7 @@ class Singleton
      *
      * @return self
      */
-    public static function getInstance()
+    public static function getInstance() : Singleton
     {
         if (null === static::$instance) {
             static::$instance = new static;
