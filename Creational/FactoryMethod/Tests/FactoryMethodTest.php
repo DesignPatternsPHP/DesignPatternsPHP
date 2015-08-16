@@ -7,22 +7,26 @@ use DesignPatterns\Creational\FactoryMethod\GermanFactory;
 use DesignPatterns\Creational\FactoryMethod\ItalianFactory;
 
 /**
- * FactoryMethodTest tests the factory method pattern
+ * Class FactoryMethodTest
+ * @package DesignPatterns\Creational\FactoryMethod\Tests
  */
 class FactoryMethodTest extends \PHPUnit_Framework_TestCase
 {
-
-    protected $type = array(
+    /** @var array */
+    protected $type = [
         FactoryMethod::CHEAP,
-        FactoryMethod::FAST
-    );
+        FactoryMethod::FAST,
+    ];
 
+    /**
+     * @return array
+     */
     public function getShop()
     {
-        return array(
-            array(new GermanFactory()),
-            array(new ItalianFactory())
-        );
+        return [
+            [new GermanFactory()],
+            [new ItalianFactory()],
+        ];
     }
 
     /**
@@ -39,7 +43,7 @@ class FactoryMethodTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @dataProvider getShop
+     * @dataProvider             getShop
      * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage spaceship is not a valid vehicle
      */
