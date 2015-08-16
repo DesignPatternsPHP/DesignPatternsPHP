@@ -4,7 +4,8 @@ declare(strict_types = 1);
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * Porsche is a german car
+ * Class Porsche
+ * @package DesignPatterns\Creational\FactoryMethod
  */
 class Porsche implements VehicleInterface
 {

@@ -4,7 +4,8 @@ declare(strict_types = 1);
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * GermanFactory is a vehicle factory in Germany
+ * Class GermanFactory
+ * @package DesignPatterns\Creational\FactoryMethod
  */
 class GermanFactory extends FactoryMethod
 {

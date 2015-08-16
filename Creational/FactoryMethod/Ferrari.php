@@ -4,7 +4,8 @@ declare(strict_types = 1);
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * Ferrari is a italian car
+ * Class Ferrari
+ * @package DesignPatterns\Creational\FactoryMethod
  */
 class Ferrari implements VehicleInterface
 {

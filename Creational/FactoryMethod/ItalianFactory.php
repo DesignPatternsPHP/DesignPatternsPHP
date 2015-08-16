@@ -4,7 +4,8 @@ declare(strict_types = 1);
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * ItalianFactory is vehicle factory in Italy
+ * Class ItalianFactory
+ * @package DesignPatterns\Creational\FactoryMethod
  */
 class ItalianFactory extends FactoryMethod
 {

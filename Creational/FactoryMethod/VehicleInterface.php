@@ -4,7 +4,8 @@ declare(strict_types = 1);
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * VehicleInterface is a contract for a vehicle
+ * Interface VehicleInterface
+ * @package DesignPatterns\Creational\FactoryMethod
  */
 interface VehicleInterface
 {

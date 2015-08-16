@@ -4,24 +4,16 @@ declare(strict_types = 1);
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * class FactoryMethod
+ * Class FactoryMethod
+ * @package DesignPatterns\Creational\FactoryMethod
  */
 abstract class FactoryMethod
 {
-
+    /** @var int */
     const CHEAP = 1;
-    const FAST = 2;
 
-    /**
-     * The children of the class must implement this method
-     *
-     * Sometimes this method can be public to get "raw" object
-     *
-     * @param string $type a generic type
-     *
-     * @return VehicleInterface a new vehicle
-     */
-    abstract protected function createVehicle(string $type) : VehicleInterface;
+    /** @var int */
+    const FAST = 2;
 
     /**
      * Creates a new vehicle
@@ -37,4 +29,15 @@ abstract class FactoryMethod
 
         return $obj;
     }
+
+    /**
+     * The children of the class must implement this method
+     *
+     * Sometimes this method can be public to get "raw" object
+     *
+     * @param string $type a generic type
+     *
+     * @return VehicleInterface a new vehicle
+     */
+    abstract protected function createVehicle(string $type) : VehicleInterface;
 }
