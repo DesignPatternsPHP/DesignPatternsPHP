@@ -39,22 +39,6 @@ Read more about how to install and use `Composer` on your local machine [here](h
 $ ./vendor/bin/phpunit
 ```
 
-Output example
-
-```bash
-vagrant@design-patterns:/vagrant$ ./vendor/bin/phpunit
-PHPUnit 4.6.10 by Sebastian Bergmann and contributors.
-
-Configuration read from /vagrant/phpunit.xml
-
-................................................................. 65 / 71 ( 91%)
-......
-
-Time: 554 ms, Memory: 5.75Mb
-
-OK (71 tests, 128 assertions)
-```
-
 ## Patterns
 
 The patterns can be structured in roughly three different categories. Please click on the [:notebook:](http://en.wikipedia.org/wiki/Software_design_pattern) for a full explanation of the pattern on Wikipedia.
