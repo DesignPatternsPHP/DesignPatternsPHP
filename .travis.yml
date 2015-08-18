@@ -1,5 +1,7 @@
 language: php
 
+sudo: false
+
 php:
   - 5.3
   - 5.4
@@ -14,9 +16,16 @@ matrix:
     - php: 7.0
   fast_finish: true
 
-before_script:
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+before_install:
   - composer self-update
-  - composer install --prefer-source --no-interaction
+  - composer validate
+
+install:
+  - composer install --prefer-dist --no-interaction
 
 script:
-  - phpunit
+  - vendor/bin/phpunit
