@@ -17,9 +17,4 @@
   with_items: php.packages
   when: php.packages is defined
 
-- name: Install pear
-  sudo: yes
-  apt: pkg=php-pear state=latest
-
 - include: configure.yml
-- include: pecl.yml
