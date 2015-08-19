@@ -43,8 +43,10 @@ class Entity implements ValueAccessInterface
      */
     public function removeValue(ValueInterface $value)
     {
-        if ($key = array_search($value, $this->values, true)) {
-            unset($this->values[$key]);
+        $index = array_search($value, $this->values, true);
+
+        if (false !== $index) {
+            unset($this->values[$index]);
         }
 
         return $this;
