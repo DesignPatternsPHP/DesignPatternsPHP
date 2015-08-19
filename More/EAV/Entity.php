@@ -10,7 +10,7 @@ class Entity implements ValueAccessInterface
     /**
      * @var array|Value[]|ValueInterface[]
      */
-    private $values = [];
+    private $values = array();
 
     /**
      * @var string

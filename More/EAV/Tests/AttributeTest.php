@@ -36,9 +36,15 @@ class AttributeTest extends \PHPUnit_Framework_TestCase
         $attribute = new Attribute();
         $attribute->setName('Color');
 
-        $values[] = (new Value($attribute))->setName('Silver');
-        $values[] = (new Value($attribute))->setName('Gold');
-        $values[] = (new Value($attribute))->setName('Space Grey');
+        $colorSilver = new Value($attribute);
+        $colorSilver->setName('Silver');
+        $values[] = $colorSilver;
+        $colorGold = new Value($attribute);
+        $colorGold->setName('Gold');
+        $values[] = $colorGold;
+        $colorSpaceGrey = new Value($attribute);
+        $colorSpaceGrey->setName('Space Grey');
+        $values[] = $colorSpaceGrey;
 
         $this->assertEquals($values, $attribute->getValues());
     }
@@ -48,14 +54,20 @@ class AttributeTest extends \PHPUnit_Framework_TestCase
      */
     public function testRemoveValue()
     {
-        $values = [];
+        $values = array();
 
         $attribute = new Attribute();
         $attribute->setName('Color');
 
-        $values[] = (new Value($attribute))->setName('Silver');
-        $values[] = (new Value($attribute))->setName('Gold');
-        $values[] = (new Value($attribute))->setName('Space Grey');
+        $colorSilver = new Value($attribute);
+        $colorSilver->setName('Silver');
+        $values[] = $colorSilver;
+        $colorGold = new Value($attribute);
+        $colorGold->setName('Gold');
+        $values[] = $colorGold;
+        $colorSpaceGrey = new Value($attribute);
+        $colorSpaceGrey->setName('Space Grey');
+        $values[] = $colorSpaceGrey;
 
         $randomIndex = array_rand($values);
         $attribute->removeValue($values[$randomIndex]);

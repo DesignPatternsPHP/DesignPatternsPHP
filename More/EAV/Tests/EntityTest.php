@@ -71,53 +71,66 @@ class EntityTest extends \PHPUnit_Framework_TestCase
     public function valueProvider()
     {
         // color attribute
-        $color = (new Attribute())->setName('Color');
+        $color = new Attribute();
+        $color->setName('Color');
         // color values
-        $colorSilver    = (new Value($color))->setName('Silver');
-        $colorGold      = (new Value($color))->setName('Gold');
-        $colorSpaceGrey = (new Value($color))->setName('Space Grey');
+        $colorSilver = new Value($color);
+        $colorSilver->setName('Silver');
+        $colorGold = new Value($color);
+        $colorGold->setName('Gold');
+        $colorSpaceGrey = new Value($color);
+        $colorSpaceGrey->setName('Space Grey');
 
         // memory attribute
-        $memory = (new Attribute())->setName('Memory');
+        $memory = new Attribute();
+        $memory->setName('Memory');
         // memory values
-        $memory4Gb  = (new Value($memory))->setName('4GB');
-        $memory8Gb  = (new Value($memory))->setName('8GB');
-        $memory16Gb = (new Value($memory))->setName('16GB');
+        $memory4Gb = new Value($memory);
+        $memory4Gb->setName('4GB');
+        $memory8Gb = new Value($memory);
+        $memory8Gb->setName('8GB');
+        $memory16Gb = new Value($memory);
+        $memory16Gb->setName('16GB');
 
         // storage attribute
-        $storage = (new Attribute())->setName('Storage');
+        $storage = new Attribute();
+        $storage->setName('Storage');
         // storage values
-        $storage128Gb = (new Value($storage))->setName('128GB');
-        $storage256Gb = (new Value($storage))->setName('256GB');
-        $storage512Gb = (new Value($storage))->setName('512GB');
-        $storage1Tb   = (new Value($storage))->setName('1TB');
+        $storage128Gb = new Value($storage);
+        $storage128Gb->setName('128GB');
+        $storage256Gb = new Value($storage);
+        $storage256Gb->setName('256GB');
+        $storage512Gb = new Value($storage);
+        $storage512Gb->setName('512GB');
+        $storage1Tb = new Value($storage);
+        $storage1Tb->setName('1TB');
 
-        return [
-            [
+        return array(
+            array(
                 'MacBook',
-                [
+                array(
                     $colorSilver,
                     $colorGold,
                     $colorSpaceGrey,
                     $memory8Gb,
                     $storage256Gb,
                     $storage512Gb,
-                ],
-            ],
-            [
+                ),
+            ),
+            array(
                 'MacBook Air',
-                [
+                array(
                     $colorSilver,
                     $memory4Gb,
                     $memory8Gb,
                     $storage128Gb,
                     $storage256Gb,
                     $storage512Gb,
-                ],
-            ],
-            [
+                ),
+            ),
+            array(
                 'MacBook Pro',
-                [
+                array(
                     $colorSilver,
                     $memory8Gb,
                     $memory16Gb,
@@ -125,8 +138,8 @@ class EntityTest extends \PHPUnit_Framework_TestCase
                     $storage256Gb,
                     $storage512Gb,
                     $storage1Tb,
-                ],
-            ],
-        ];
+                ),
+            ),
+        );
     }
 }
