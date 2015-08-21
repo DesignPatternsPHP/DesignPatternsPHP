@@ -6,29 +6,29 @@ use DesignPatterns\More\EAV\Entity;
 use DesignPatterns\More\EAV\Attribute;
 use DesignPatterns\More\EAV\Value;
 
-// color attribute
+// Create color attribute
 $color = (new Attribute())->setName('Color');
-// color values
+// Create color values
 $colorSilver    = (new Value($color))->setName('Silver');
 $colorGold      = (new Value($color))->setName('Gold');
 $colorSpaceGrey = (new Value($color))->setName('Space Grey');
 
-// memory attribute
+// Create memory attribute
 $memory  = (new Attribute())->setName('Memory');
-// memory values
+// Create memory values
 $memory4Gb  = (new Value($memory))->setName('4GB');
 $memory8Gb  = (new Value($memory))->setName('8GB');
 $memory16Gb = (new Value($memory))->setName('16GB');
 
-// storage attribute
+// Create storage attribute
 $storage  = (new Attribute())->setName('Storage');
-// storage values
+// Create storage values
 $storage128Gb   = (new Value($storage))->setName('128GB');
 $storage256Gb   = (new Value($storage))->setName('256GB');
 $storage512Gb   = (new Value($storage))->setName('512GB');
 $storage1Tb     = (new Value($storage))->setName('1TB');
 
-// entities
+// Create entities with specific values
 $mac = (new Entity())
     ->setName('MacBook')
     // colors
