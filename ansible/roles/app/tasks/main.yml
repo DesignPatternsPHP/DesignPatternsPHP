@@ -1,0 +1,5 @@
+---
+# application tasks to be customized and to run after the main provision
+- name: update file db
+  sudo: yes
+  shell: updatedb
