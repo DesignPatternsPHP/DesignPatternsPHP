@@ -10,19 +10,6 @@ use DesignPatterns\More\EAV\Value;
  */
 class ValueTest extends \PHPUnit_Framework_TestCase
 {
-    public function testCreationFailureWithoutAttribute()
-    {
-        $isFailure = false;
-
-        try {
-            new Value();
-        } catch (\Exception $e) {
-            $isFailure = true;
-        }
-
-        $this->assertTrue($isFailure);
-    }
-
     public function testCreationSuccessWithAttribute()
     {
         $attribute = new Attribute();
