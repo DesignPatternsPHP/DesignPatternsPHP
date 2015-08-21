@@ -27,6 +27,7 @@ class TeamLead
      */
     public function writeCode()
     {
+        // but he just wants the code in hope it would be good
         return $this->slave->writeCode();
     }
 }
