@@ -5,7 +5,7 @@ namespace DesignPatterns\More\Delegation;
 /**
  * Class TeamLead
  * @package DesignPatterns\Delegation
- * The `TeamLead` class, he delegate work to `JuniorDeveloper`
+ * The `TeamLead` class, he delegate work to `Developer`
  */
 class TeamLead
 {
@@ -14,7 +14,8 @@ class TeamLead
 
     /**
      * Give junior developer into teamlead submission
-     * @param JuniorDeveloper $junior
+     * @param Developer $junior
+     * TOTO Developer as an interface
      */
     public function __construct(Developer $junior)
     {
