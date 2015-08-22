@@ -28,7 +28,7 @@ class EntityTest extends \PHPUnit_Framework_TestCase
      * @dataProvider valueProvider
      *
      * @var string $name
-     * @var array|Value[] $values
+     * @var Value[] $values
      */
     public function testAddValue($name, array $values)
     {
@@ -47,7 +47,7 @@ class EntityTest extends \PHPUnit_Framework_TestCase
      * @dataProvider valueProvider
      *
      * @var string $name
-     * @var array|Value[] $values
+     * @var Value[] $values
      */
     public function testRemoveValue($name, array $values)
     {
