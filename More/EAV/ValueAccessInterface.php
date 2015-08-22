@@ -8,17 +8,17 @@ namespace DesignPatterns\More\EAV;
 interface ValueAccessInterface
 {
     /**
-     * @return Value[]|ValueInterface[]|array
+     * @return ValueInterface[]
      */
     public function getValues();
 
     /**
-     * @param Value|ValueInterface $value
+     * @param ValueInterface $value
      */
     public function addValue(ValueInterface $value);
 
     /**
-     * @param Value|ValueInterface $value
+     * @param ValueInterface $value
      */
     public function removeValue(ValueInterface $value);
 }

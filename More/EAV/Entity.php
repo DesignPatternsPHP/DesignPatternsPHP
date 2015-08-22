@@ -8,7 +8,7 @@ namespace DesignPatterns\More\EAV;
 class Entity implements ValueAccessInterface
 {
     /**
-     * @var array|Value[]|ValueInterface[]
+     * @var ValueInterface[]
      */
     private $values = array();
 
@@ -18,7 +18,7 @@ class Entity implements ValueAccessInterface
     private $name;
 
     /**
-     * @return array|Value[]|ValueInterface[]
+     * @return ValueInterface[]
      */
     public function getValues()
     {
@@ -26,7 +26,7 @@ class Entity implements ValueAccessInterface
     }
 
     /**
-     * @param Value|ValueInterface $value
+     * @param ValueInterface $value
      * @return $this
      */
     public function addValue(ValueInterface $value)
@@ -38,7 +38,7 @@ class Entity implements ValueAccessInterface
     }
 
     /**
-     * @param Value|ValueInterface $value
+     * @param ValueInterface $value
      * @return $this
      */
     public function removeValue(ValueInterface $value)
