@@ -2,23 +2,30 @@
 
 namespace DesignPatterns\More\EAV;
 
+use SplObjectStorage;
+
 /**
  * Class Attribute
  */
 class Attribute implements ValueAccessInterface
 {
     /**
-     * @var ValueInterface[]
+     * @var SplObjectStorage
      */
-    private $values = array();
+    private $values;
 
     /**
      * @var string
      */
     private $name;
 
+    public function __construct()
+    {
+        $this->values = new SplObjectStorage();
+    }
+
     /**
-     * @return ValueInterface[]
+     * @return SplObjectStorage
      */
     public function getValues()
     {
@@ -31,8 +38,9 @@ class Attribute implements ValueAccessInterface
      */
     public function addValue(ValueInterface $value)
     {
-        // @TODO I think the $value should be checked for uniqueness first to avoid duplication in array.
-        $this->values[] = $value;
+        if (!$this->values->contains($value)) {
+            $this->values->attach($value);
+        }
 
         return $this;
     }
@@ -43,10 +51,8 @@ class Attribute implements ValueAccessInterface
      */
     public function removeValue(ValueInterface $value)
     {
-        $index = array_search($value, $this->values, true);
-
-        if (false !== $index) {
-            unset($this->values[$index]);
+        if ($this->values->contains($value)) {
+            $this->values->detach($value);
         }
 
         return $this;

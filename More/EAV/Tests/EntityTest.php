@@ -37,9 +37,10 @@ class EntityTest extends \PHPUnit_Framework_TestCase
 
         foreach ($values as $value) {
             $macBook->addValue($value);
+            $this->assertTrue($macBook->getValues()->contains($value));
         }
 
-        $this->assertEquals($values, $macBook->getValues());
+        $this->assertCount(count($values), $macBook->getValues());
     }
 
     /**
@@ -57,11 +58,11 @@ class EntityTest extends \PHPUnit_Framework_TestCase
         foreach ($values as $value) {
             $macBook->addValue($value);
         }
-
         $macBook->removeValue($values[0]);
-        unset($values[0]);
 
-        $this->assertEquals($values, $macBook->getValues());
+        $this->assertFalse($macBook->getValues()->contains($values[0]));
+        unset($values[0]);
+        $this->assertCount(count($values), $macBook->getValues());
     }
 
     /**

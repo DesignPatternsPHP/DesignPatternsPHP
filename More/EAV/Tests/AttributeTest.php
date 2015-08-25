@@ -38,12 +38,11 @@ class AttributeTest extends \PHPUnit_Framework_TestCase
 
         $colorSilver = new Value($attribute);
         $colorSilver->setName('Silver');
-        $values[] = $colorSilver;
         $colorGold = new Value($attribute);
         $colorGold->setName('Gold');
-        $values[] = $colorGold;
 
-        $this->assertEquals($values, $attribute->getValues());
+        $this->assertTrue($attribute->getValues()->contains($colorSilver));
+        $this->assertTrue($attribute->getValues()->contains($colorGold));
     }
 
     /**
@@ -51,21 +50,17 @@ class AttributeTest extends \PHPUnit_Framework_TestCase
      */
     public function testRemoveValue()
     {
-        $values = array();
-
         $attribute = new Attribute();
         $attribute->setName('Color');
 
         $colorSilver = new Value($attribute);
         $colorSilver->setName('Silver');
-        $values[] = $colorSilver;
         $colorGold = new Value($attribute);
         $colorGold->setName('Gold');
-        $values[] = $colorGold;
 
-        $attribute->removeValue($values[0]);
-        unset($values[0]);
+        $attribute->removeValue($colorSilver);
 
-        $this->assertEquals($values, $attribute->getValues());
+        $this->assertFalse($attribute->getValues()->contains($colorSilver));
+        $this->assertTrue($attribute->getValues()->contains($colorGold));
     }
 }

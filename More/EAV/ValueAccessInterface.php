@@ -8,7 +8,7 @@ namespace DesignPatterns\More\EAV;
 interface ValueAccessInterface
 {
     /**
-     * @return ValueInterface[]
+     * @return \SplObjectStorage
      */
     public function getValues();
 
