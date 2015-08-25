@@ -58,9 +58,8 @@ class EntityTest extends \PHPUnit_Framework_TestCase
             $macBook->addValue($value);
         }
 
-        $randomIndex = array_rand($values);
-        $macBook->removeValue($values[$randomIndex]);
-        unset($values[$randomIndex]);
+        $macBook->removeValue($values[0]);
+        unset($values[0]);
 
         $this->assertEquals($values, $macBook->getValues());
     }

@@ -42,9 +42,6 @@ class AttributeTest extends \PHPUnit_Framework_TestCase
         $colorGold = new Value($attribute);
         $colorGold->setName('Gold');
         $values[] = $colorGold;
-        $colorSpaceGrey = new Value($attribute);
-        $colorSpaceGrey->setName('Space Grey');
-        $values[] = $colorSpaceGrey;
 
         $this->assertEquals($values, $attribute->getValues());
     }
@@ -65,13 +62,9 @@ class AttributeTest extends \PHPUnit_Framework_TestCase
         $colorGold = new Value($attribute);
         $colorGold->setName('Gold');
         $values[] = $colorGold;
-        $colorSpaceGrey = new Value($attribute);
-        $colorSpaceGrey->setName('Space Grey');
-        $values[] = $colorSpaceGrey;
 
-        $randomIndex = array_rand($values);
-        $attribute->removeValue($values[$randomIndex]);
-        unset($values[$randomIndex]);
+        $attribute->removeValue($values[0]);
+        unset($values[0]);
 
         $this->assertEquals($values, $attribute->getValues());
     }
