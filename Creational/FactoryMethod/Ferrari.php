@@ -1,9 +1,11 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * Ferrari is a italian car
+ * Class Ferrari
+ * @package DesignPatterns\Creational\FactoryMethod
  */
 class Ferrari implements VehicleInterface
 {
@@ -15,7 +17,7 @@ class Ferrari implements VehicleInterface
     /**
      * @param string $rgb
      */
-    public function setColor($rgb)
+    public function setColor(string $rgb)
     {
         $this->color = $rgb;
     }

@@ -1,9 +1,11 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\Prototype;
 
 /**
- * class BookPrototype
+ * Class BookPrototype
+ * @package DesignPatterns\Creational\Prototype
  */
 abstract class BookPrototype
 {
@@ -19,14 +21,13 @@ abstract class BookPrototype
 
     /**
      * @abstract
-     * @return void
      */
     abstract public function __clone();
 
     /**
      * @return string
      */
-    public function getTitle()
+    public function getTitle() : string
     {
         return $this->title;
     }

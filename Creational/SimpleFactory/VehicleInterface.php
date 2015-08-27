@@ -1,16 +1,18 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\SimpleFactory;
 
 /**
- * VehicleInterface is a contract for a vehicle
+ * Interface VehicleInterface
+ * @package DesignPatterns\Creational\SimpleFactory
  */
 interface VehicleInterface
 {
     /**
-     * @param mixed $destination
+     * @param string $destination
      *
-     * @return mixed
+     * @return DestinationInterface
      */
-    public function driveTo($destination);
+    public function driveTo(string $destination) : DestinationInterface;
 }

@@ -1,9 +1,11 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\SimpleFactory;
 
 /**
- * class ConcreteFactory
+ * Class ConcreteFactory
+ * @package DesignPatterns\Creational\SimpleFactory
  */
 class ConcreteFactory
 {
@@ -18,10 +20,10 @@ class ConcreteFactory
      */
     public function __construct()
     {
-        $this->typeList = array(
+        $this->typeList = [
             'bicycle' => __NAMESPACE__ . '\Bicycle',
-            'other' => __NAMESPACE__ . '\Scooter'
-        );
+            'other'   => __NAMESPACE__ . '\Scooter',
+        ];
     }
 
     /**
@@ -32,13 +34,12 @@ class ConcreteFactory
      * @return VehicleInterface a new instance of VehicleInterface
      * @throws \InvalidArgumentException
      */
-    public function createVehicle($type)
+    public function createVehicle(string $type) : VehicleInterface
     {
         if (!array_key_exists($type, $this->typeList)) {
-            throw new \InvalidArgumentException("$type is not valid vehicle");
+            throw new \InvalidArgumentException($type . ' is not valid vehicle');
         }
-        $className = $this->typeList[$type];
 
-        return new $className();
+        return new $this->typeList[ $type ]();
     }
 }

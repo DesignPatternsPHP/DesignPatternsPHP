@@ -1,4 +1,5 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\FactoryMethod\Tests;
 
@@ -7,22 +8,29 @@ use DesignPatterns\Creational\FactoryMethod\GermanFactory;
 use DesignPatterns\Creational\FactoryMethod\ItalianFactory;
 
 /**
- * FactoryMethodTest tests the factory method pattern
+ * Class FactoryMethodTest
+ * @package DesignPatterns\Creational\FactoryMethod\Tests
  */
 class FactoryMethodTest extends \PHPUnit_Framework_TestCase
 {
-
-    protected $type = array(
+    /** @var array */
+    protected $type = [
         FactoryMethod::CHEAP,
-        FactoryMethod::FAST
-    );
+        FactoryMethod::FAST,
+    ];
 
+    /** @var int */
+    const UNKNOWN = 123;
+
+    /**
+     * @return array
+     */
     public function getShop()
     {
-        return array(
-            array(new GermanFactory()),
-            array(new ItalianFactory())
-        );
+        return [
+            [new GermanFactory()],
+            [new ItalianFactory()],
+        ];
     }
 
     /**
@@ -32,19 +40,21 @@ class FactoryMethodTest extends \PHPUnit_Framework_TestCase
     {
         // this test method acts as a client for the factory. We don't care
         // about the factory, all we know is it can produce vehicle
-        foreach ($this->type as $oneType) {
-            $vehicle = $shop->create($oneType);
-            $this->assertInstanceOf('DesignPatterns\Creational\FactoryMethod\VehicleInterface', $vehicle);
+        foreach ($this->type as $type) {
+            $this->assertInstanceOf(
+                'DesignPatterns\Creational\FactoryMethod\VehicleInterface',
+                $shop->create($type)
+            );
         }
     }
 
     /**
-     * @dataProvider getShop
+     * @dataProvider             getShop
      * @expectedException \InvalidArgumentException
-     * @expectedExceptionMessage spaceship is not a valid vehicle
+     * @expectedExceptionMessage Not a valid vehicle, vehicles allowed: Cheap, Fast
      */
     public function testUnknownType(FactoryMethod $shop)
     {
-        $shop->create('spaceship');
+        $shop->create(self::UNKNOWN);
     }
 }

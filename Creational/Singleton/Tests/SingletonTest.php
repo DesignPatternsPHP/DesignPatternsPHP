@@ -1,11 +1,13 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\Singleton\Tests;
 
 use DesignPatterns\Creational\Singleton\Singleton;
 
 /**
- * SingletonTest tests the singleton pattern
+ * Class SingletonTest
+ * @package DesignPatterns\Creational\Singleton\Tests
  */
 class SingletonTest extends \PHPUnit_Framework_TestCase
 {

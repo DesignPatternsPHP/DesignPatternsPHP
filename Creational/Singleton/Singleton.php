@@ -1,9 +1,11 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\Singleton;
 
 /**
- * class Singleton
+ * Class Singleton
+ * @package DesignPatterns\Creational\Singleton
  */
 class Singleton
 {
@@ -11,13 +13,20 @@ class Singleton
      * @var Singleton reference to singleton instance
      */
     private static $instance;
-    
+
+    /**
+     * is not allowed to call from outside: private!
+     */
+    private function __construct()
+    {
+    }
+
     /**
      * gets the instance via lazy initialization (created on first usage)
      *
      * @return self
      */
-    public static function getInstance()
+    public static function getInstance() : Singleton
     {
         if (null === static::$instance) {
             static::$instance = new static;
@@ -27,17 +36,7 @@ class Singleton
     }
 
     /**
-     * is not allowed to call from outside: private!
-     *
-     */
-    private function __construct()
-    {
-    }
-
-    /**
      * prevent the instance from being cloned
-     *
-     * @return void
      */
     private function __clone()
     {
@@ -45,8 +44,6 @@ class Singleton
 
     /**
      * prevent from being unserialized
-     *
-     * @return void
      */
     private function __wakeup()
     {

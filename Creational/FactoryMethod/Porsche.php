@@ -1,9 +1,11 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * Porsche is a german car
+ * Class Porsche
+ * @package DesignPatterns\Creational\FactoryMethod
  */
 class Porsche implements VehicleInterface
 {
@@ -15,7 +17,7 @@ class Porsche implements VehicleInterface
     /**
      * @param string $rgb
      */
-    public function setColor($rgb)
+    public function setColor(string $rgb)
     {
         $this->color = $rgb;
     }

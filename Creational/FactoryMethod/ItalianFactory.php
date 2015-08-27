@@ -1,16 +1,18 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * ItalianFactory is vehicle factory in Italy
+ * Class ItalianFactory
+ * @package DesignPatterns\Creational\FactoryMethod
  */
 class ItalianFactory extends FactoryMethod
 {
     /**
      * {@inheritdoc}
      */
-    protected function createVehicle($type)
+    protected function createVehicle(int $type) : VehicleInterface
     {
         switch ($type) {
             case parent::CHEAP:
@@ -20,7 +22,10 @@ class ItalianFactory extends FactoryMethod
                 return new Ferrari();
                 break;
             default:
-                throw new \InvalidArgumentException("$type is not a valid vehicle");
+                throw new \InvalidArgumentException(
+                    'Not a valid vehicle, vehicles allowed: ' .
+                    implode(', ', FactoryMethod::$typeTexts)
+                );
         }
     }
 }

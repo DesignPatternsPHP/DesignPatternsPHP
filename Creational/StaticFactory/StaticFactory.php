@@ -1,10 +1,15 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\StaticFactory;
 
 /**
+ * Class StaticFactory
+ *
  * Note1: Remember, static => global => evil
  * Note2: Cannot be subclassed or mock-upped or have multiple different instances
+ *
+ * @package DesignPatterns\Creational\StaticFactory
  */
 class StaticFactory
 {
@@ -18,7 +23,7 @@ class StaticFactory
      * @throws \InvalidArgumentException
      * @return FormatterInterface
      */
-    public static function factory($type)
+    public static function factory(string $type) : FormatterInterface
     {
         $className = __NAMESPACE__ . '\Format' . ucfirst($type);
 

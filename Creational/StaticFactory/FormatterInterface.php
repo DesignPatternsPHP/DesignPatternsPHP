@@ -1,9 +1,11 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\StaticFactory;
 
 /**
- * Class FormatterInterface
+ * Interface FormatterInterface
+ * @package DesignPatterns\Creational\StaticFactory
  */
 interface FormatterInterface
 {

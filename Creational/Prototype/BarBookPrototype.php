@@ -1,9 +1,11 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\Prototype;
 
 /**
  * Class BarBookPrototype
+ * @package DesignPatterns\Creational\Prototype
  */
 class BarBookPrototype extends BookPrototype
 {
@@ -13,7 +15,7 @@ class BarBookPrototype extends BookPrototype
     protected $category = 'Bar';
 
     /**
-     * empty clone
+     * Do not allow clone
      */
     public function __clone()
     {

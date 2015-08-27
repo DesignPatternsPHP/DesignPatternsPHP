@@ -1,9 +1,11 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * Bicycle is a bicycle
+ * Class Bicycle
+ * @package DesignPatterns\Creational\FactoryMethod
  */
 class Bicycle implements VehicleInterface
 {
@@ -17,7 +19,7 @@ class Bicycle implements VehicleInterface
      *
      * @param string $rgb
      */
-    public function setColor($rgb)
+    public function setColor(string $rgb)
     {
         $this->color = $rgb;
     }

@@ -1,28 +1,31 @@
 <?php
+declare(strict_types = 1);
 
 namespace DesignPatterns\Creational\SimpleFactory\Tests;
 
 use DesignPatterns\Creational\SimpleFactory\ConcreteFactory;
 
 /**
- * SimpleFactoryTest tests the Simple Factory pattern
+ * Class SimpleFactoryTest
+ * @package DesignPatterns\Creational\SimpleFactory\Tests
  */
 class SimpleFactoryTest extends \PHPUnit_Framework_TestCase
 {
 
+    /** @var  ConcreteFactory */
     protected $factory;
+
+    public function getType()
+    {
+        return [
+            ['bicycle'],
+            ['other'],
+        ];
+    }
 
     protected function setUp()
     {
         $this->factory = new ConcreteFactory();
-    }
-
-    public function getType()
-    {
-        return array(
-            array('bicycle'),
-            array('other')
-        );
     }
 
     /**
