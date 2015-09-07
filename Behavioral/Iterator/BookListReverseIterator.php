@@ -11,13 +11,14 @@ class BookListReverseIterator extends BookListIterator
         $this->currentBook = $this->bookList->count() - 1;
     }
 
+    /**
+     * (PHP 5 &gt;= 5.0.0)<br/>
+     * Move forward to next element
+     * @link http://php.net/manual/en/iterator.next.php
+     * @return void Any returned value is ignored.
+     */
     public function next()
     {
         $this->currentBook--;
-    }
-
-    public function valid()
-    {
-        return 0 <= $this->currentBook;
     }
 }
