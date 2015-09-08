@@ -8,7 +8,7 @@ class BookListIterator implements \Iterator
     /**
      * @var BookList
      */
-    protected $bookList;
+    private $bookList;
 
     /**
      * @var int
