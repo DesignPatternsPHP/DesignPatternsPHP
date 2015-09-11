@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
@@ -30,12 +30,6 @@ msgstr ""
 msgid "Examples"
 msgstr ""
 
-#: ../../Structural/Registry/README.rst:14
-msgid ""
-"Zend Framework: ``Zend_Registry`` holds the application's logger object, "
-"front controller etc."
-msgstr ""
-
 #: ../../Structural/Registry/README.rst:16
 msgid ""
 "Yii Framework: ``CWebApplication`` holds all the application components, "
@@ -65,3 +59,14 @@ msgstr ""
 #: ../../Structural/Registry/README.rst:40
 msgid "Tests/RegistryTest.php"
 msgstr ""
+
+#: ../../Structural/Registry/README.rst:14
+msgid ""
+"Zend Framework 1: ``Zend_Registry`` holds the application's logger object, "
+"front controller etc."
+msgstr ""
+
+#~ msgid ""
+#~ "Zend Framework: ``Zend_Registry`` holds the application's logger object, "
+#~ "front controller etc."
+#~ msgstr ""

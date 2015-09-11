@@ -13,21 +13,22 @@ msgstr ""
 
 #: ../../Structural/Bridge/README.rst:2
 msgid "`Bridge`__"
-msgstr ""
+msgstr "`桥接模式`__"
 
 #: ../../Structural/Bridge/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../Structural/Bridge/README.rst:7
 msgid ""
 "Decouple an abstraction from its implementation so that the two can vary "
 "independently."
 msgstr ""
+"解耦一个对象的实现与抽象，这样两者可以独立地变化。"
 
 #: ../../Structural/Bridge/README.rst:11
 msgid "Sample:"
-msgstr ""
+msgstr "例子"
 
 #: ../../Structural/Bridge/README.rst:13
 msgid "`Symfony DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
@@ -35,15 +36,15 @@ msgstr ""
 
 #: ../../Structural/Bridge/README.rst:17
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Structural/Bridge/README.rst:24
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Structural/Bridge/README.rst:26
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
 #: ../../Structural/Bridge/README.rst:28
 msgid "Workshop.php"
@@ -71,7 +72,7 @@ msgstr ""
 
 #: ../../Structural/Bridge/README.rst:65
 msgid "Test"
-msgstr ""
+msgstr "测试"
 
 #: ../../Structural/Bridge/README.rst:67
 msgid "Tests/BridgeTest.php"
