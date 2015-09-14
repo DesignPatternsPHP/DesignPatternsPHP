@@ -18,29 +18,45 @@ class MementoTest extends \PHPUnit_Framework_TestCase
         $caretaker = new Caretaker();
 
         $character = new \stdClass();
-        $character->name = "Gandalf"; // new object
-        $originator->setState($character); // connect Originator to character object
+        // new object
+        $character->name = "Gandalf";
+        // connect Originator to character object
+        $originator->setState($character);
 
-        $character->name = "Gandalf the Grey"; // work on the object
-        $character->race = "Maia"; // still change something
-        $snapshot = $originator->getStateAsMemento(); // time to save state
-        $caretaker->saveToHistory($snapshot); // put state to log
+        // work on the object
+        $character->name = "Gandalf the Grey";
+        // still change something
+        $character->race = "Maia";
+        // time to save state
+        $snapshot = $originator->getStateAsMemento();
+        // put state to log
+        $caretaker->saveToHistory($snapshot);
 
-        $character->name = "Sauron"; // change something
-        $character->race = "Ainur"; // and again
-        $this->assertAttributeEquals($character, "state", $originator); // state inside the Originator was equally changed
+        // change something
+        $character->name = "Sauron";
+        // and again
+        $character->race = "Ainur";
+        // state inside the Originator was equally changed
+        $this->assertAttributeEquals($character, "state", $originator);
 
-        $snapshot = $originator->getStateAsMemento(); // time to save another state
-        $caretaker->saveToHistory($snapshot); // put state to log
+        // time to save another state
+        $snapshot = $originator->getStateAsMemento();
+        // put state to log
+        $caretaker->saveToHistory($snapshot);
 
         $rollback = $caretaker->getFromHistory(0);
-        $originator->restoreFromMemento($rollback); // return to first state
-        $character = $rollback->getState(); // use character from old state
+        // return to first state
+        $originator->restoreFromMemento($rollback);
+        // use character from old state
+        $character = $rollback->getState();
 
-        $this->assertEquals("Gandalf the Grey", $character->name); // yes, that what we need
-        $character->name = "Gandalf the White"; // make new changes
+        // yes, that what we need
+        $this->assertEquals("Gandalf the Grey", $character->name);
+        // make new changes
+        $character->name = "Gandalf the White";
 
-        $this->assertAttributeEquals($character, "state", $originator); // and Originator linked to actual object again
+        // and Originator linked to actual object again
+        $this->assertAttributeEquals($character, "state", $originator);
     }
 
     public function testStringState()
@@ -88,14 +104,18 @@ class MementoTest extends \PHPUnit_Framework_TestCase
         $snapshot = $originator->getStateAsMemento();
         $second_state = $snapshot->getState();
 
-        $first_state->first_property = 1; // still actual
-        $second_state->second_property = 2; // just history
+        // still actual
+        $first_state->first_property = 1;
+        // just history
+        $second_state->second_property = 2;
         $this->assertAttributeEquals($first_state, "state", $originator);
         $this->assertAttributeNotEquals($second_state, "state", $originator);
 
         $originator->restoreFromMemento($snapshot);
-        $first_state->first_property = 11; // now it lost state
-        $second_state->second_property = 22; // must be actual
+        // now it lost state
+        $first_state->first_property = 11;
+        // must be actual
+        $second_state->second_property = 22;
         $this->assertAttributeEquals($second_state, "state", $originator);
         $this->assertAttributeNotEquals($first_state, "state", $originator);
     }
