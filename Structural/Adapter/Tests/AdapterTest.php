@@ -35,7 +35,7 @@ class AdapterTest extends \PHPUnit_Framework_TestCase
      */
     public function testIAmAnOldClient(PaperBookInterface $book)
     {
-        $book->open();
-        $book->turnPage();
+        $this->assertTrue(method_exists($book, 'open'));
+        $this->assertTrue(method_exists($book, 'turnPage'));
     }
 }
