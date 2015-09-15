@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2015-09-10 10:12+0100\n"
+"PO-Revision-Date: 2015-09-11 11:42+0100\n"
 "Last-Translator: Daniel González <daniel@desarrolla2.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr "`Constructor`__"
 
 #: ../../Creational/Builder/README.rst:5
 msgid "Purpose"
-msgstr "Proposito"
+msgstr "Propósito"
 
 #: ../../Creational/Builder/README.rst:7
 msgid "Builder is an interface that build parts of a complex object."
@@ -58,7 +58,7 @@ msgstr "Ejemplos"
 
 #: ../../Creational/Builder/README.rst:21
 msgid "PHPUnit: Mock Builder"
-msgstr ""
+msgstr "PHPUnit: Mock Builder"
 
 #: ../../Creational/Builder/README.rst:24
 msgid "UML Diagram"
@@ -74,48 +74,48 @@ msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Creational/Builder/README.rst:35
 msgid "Director.php"
-msgstr ""
+msgstr "Director.php"
 
 #: ../../Creational/Builder/README.rst:41
 msgid "BuilderInterface.php"
-msgstr ""
+msgstr "BuilderInterface.php"
 
 #: ../../Creational/Builder/README.rst:47
 msgid "BikeBuilder.php"
-msgstr ""
+msgstr "BikeBuilder.php"
 
 #: ../../Creational/Builder/README.rst:53
 msgid "CarBuilder.php"
-msgstr ""
+msgstr "CarBuilder.php"
 
 #: ../../Creational/Builder/README.rst:59
 msgid "Parts/Vehicle.php"
-msgstr ""
+msgstr "Parts/Vehicle.php"
 
 #: ../../Creational/Builder/README.rst:65
 msgid "Parts/Bike.php"
-msgstr ""
+msgstr "Parts/Bike.php"
 
 #: ../../Creational/Builder/README.rst:71
 msgid "Parts/Car.php"
-msgstr ""
+msgstr "Parts/Car.php"
 
 #: ../../Creational/Builder/README.rst:77
 msgid "Parts/Engine.php"
-msgstr ""
+msgstr "Parts/Engine.php"
 
 #: ../../Creational/Builder/README.rst:83
 msgid "Parts/Wheel.php"
-msgstr ""
+msgstr "Parts/Wheel.php"
 
 #: ../../Creational/Builder/README.rst:89
 msgid "Parts/Door.php"
-msgstr ""
+msgstr "Parts/Door.php"
 
 #: ../../Creational/Builder/README.rst:96
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 #: ../../Creational/Builder/README.rst:98
 msgid "Tests/DirectorTest.php"
-msgstr ""
+msgstr "Tests/DirectorTest.php"
