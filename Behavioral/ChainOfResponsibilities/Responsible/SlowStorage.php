@@ -10,7 +10,7 @@ use DesignPatterns\Behavioral\ChainOfResponsibilities\Request;
  *
  * One important fact about CoR: each item in the chain MUST NOT assume its position
  * in the chain. A CoR is not responsible if the request is not handled UNLESS
- * you make an "ExceptionHandler" which throws execption if the request goes there.
+ * you make an "ExceptionHandler" which throws exception if the request goes there.
  *
  * To be really extendable, each handler doesn't know if there is something after it.
  *
