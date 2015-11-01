@@ -13,11 +13,31 @@ I think the problem with patterns is that often people do know them but don't kn
 You should look at and run the tests to see what happens in the example.
 To do this, you should install dependencies with `Composer` first:
 
+### [optional] Using a Virtual Machine (VM)
+
+If you wish to use a ready made VM environment, you can easily create one with Vagrant and Ansible.
+
+```bash
+$ vagrant up
+```
+
+Then `vagrant ssh` and `cd /vagrant`
+
+More information on [vagrant](https://www.vagrantup.com)
+
+### Install dependencies
+
 ```bash
 $ composer install
 ```
 
 Read more about how to install and use `Composer` on your local machine [here](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
+
+### Running test suite
+
+```bash
+$ ./vendor/bin/phpunit
+```
 
 ## Patterns
 
@@ -67,6 +87,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Delegation](More/Delegation) [:notebook:](http://en.wikipedia.org/wiki/Delegation_pattern)
 * [ServiceLocator](More/ServiceLocator) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
 * [Repository](More/Repository)
+* [EAV](More/EAV) [:notebook:](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model)
 
 ## Contribute
 

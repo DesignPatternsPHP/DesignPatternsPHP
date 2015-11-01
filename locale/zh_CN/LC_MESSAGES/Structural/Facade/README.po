@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Structural/Facade/README.rst:2
 msgid "`Facade`__"
-msgstr "`外观`__"
+msgstr "`外观模式`__"
 
 #: ../../Structural/Facade/README.rst:5
 msgid "Purpose"
@@ -25,24 +25,23 @@ msgid ""
 "of a complex API. It's only a side-effect. The first goal is to reduce "
 "coupling and follow the Law of Demeter."
 msgstr ""
-"外观模式的目标并不是让你不去了解复杂的子系统的接口，这恰好是外观模式的负效应。"
-"外观模式的第一目标是松耦合和遵守迪米特法则。"
+"外观模式的目的不是为了让你避免阅读烦人的API文档（当然，它有这样的作用），"
+"它的主要目的是为了减少耦合并且遵循得墨忒耳定律（Law of Demeter）"
 
 #: ../../Structural/Facade/README.rst:11
 msgid ""
 "A Facade is meant to decouple a client and a sub-system by embedding many "
 "(but sometimes just one) interface, and of course to reduce complexity."
 msgstr ""
-"外观模式意味着解耦了使用者和子系统的耦合，通过增加大量接口的方式（通常只是一个接口），"
-"当然，这样做减少了使用者的使用复杂度。"
+"Facade通过嵌入多个（当然，有时只有一个）接口来解耦访客与子系统，当然也降低复杂度。"
 
 #: ../../Structural/Facade/README.rst:15
 msgid "A facade does not forbid you the access to the sub-system"
-msgstr "外观模式不是要求你不需要去了解子系统."
+msgstr "Facade 不会禁止你访问子系统"
 
 #: ../../Structural/Facade/README.rst:16
 msgid "You can (you should) have multiple facades for one sub-system"
-msgstr "你可以（应该）为一个子系统设计多个外观。"
+msgstr "你可以（应该）为一个子系统提供多个 Facade"
 
 #: ../../Structural/Facade/README.rst:18
 msgid ""
@@ -50,9 +49,8 @@ msgid ""
 "creations for each method, it is not a Facade, it's a Builder or a "
 "[Abstract\\|Static\\|Simple] Factory [Method]."
 msgstr ""
-"这就是为什么好的外观模式的实现没有 ``new`` 操作。如果外观模式的实现里每个方法都有"
-"多个对象的创建，那么它就不能称作外观模式的实现，它应该叫做生成器或者一个"
-"[抽象\\|静态\\|简单] 工厂 [方法]."
+"因此一个好的 Facade 里面不会有 ``new`` 。如果每个方法里都要构造多个对象，那么它就"
+"不是 Facade，而是生成器或者[抽象\\|静态\\|简单] 工厂 [方法]。"
 
 #: ../../Structural/Facade/README.rst:22
 msgid ""
@@ -60,8 +58,8 @@ msgid ""
 "parameters. If you need creation of new instances, use a Factory as "
 "argument."
 msgstr ""
-"最好的外观模式的实现没有带有一个有类型限定的构造参数的 ``new`` 操作。"
-"如果你需要在外观模式中创建了一个新实例，使用创建型的工厂方法来生成参数。"
+"优秀的 Facade 不会有 ``new``，并且构造函数参数是接口类型的。如果你需要创建一个新"
+"实例，则在参数中传入一个工厂对象。"
 
 #: ../../Structural/Facade/README.rst:27
 msgid "UML Diagram"

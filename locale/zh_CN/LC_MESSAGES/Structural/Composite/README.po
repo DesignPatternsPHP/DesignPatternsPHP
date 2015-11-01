@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Structural/Composite/README.rst:2
 msgid "`Composite`__"
-msgstr "`组合`__"
+msgstr "`组合模式`__"
 
 #: ../../Structural/Composite/README.rst:5
 msgid "Purpose"
@@ -22,8 +22,7 @@ msgstr "目的"
 #: ../../Structural/Composite/README.rst:7
 msgid ""
 "To treat a group of objects the same way as a single instance of the object."
-msgstr ""
-"使用一组对象就像使用单一对象一样"
+msgstr "以单个对象的方式来对待一组对象"
 
 #: ../../Structural/Composite/README.rst:11
 msgid "Examples"
@@ -34,17 +33,17 @@ msgid ""
 "a form class instance handles all its form elements like a single instance "
 "of the form, when ``render()`` is called, it subsequently runs through all "
 "its child elements and calls ``render()`` on them"
-msgstr ""
-"表单对象实例处理了所有表单元素，表单对象实例内部使用了诸多表单子元素实例，当执行 ``render()`` 方法后，表单实例会有序的执行所有表单子元素"
-"实例的 ``render()`` 方法"
+msgstr "" 
+"form类的实例包含多个子元素，而它也像单个子元素那样响应render()请求，当"
+"调用``render()``方法时，它会历遍所有的子元素，调用``render()``方法"
 
 #: ../../Structural/Composite/README.rst:16
 msgid ""
 "``Zend_Config``: a tree of configuration options, each one is a "
 "``Zend_Config`` object itself"
 msgstr ""
-"``Zend_Config``：一个配置选项树，其中的每一个配置选项都是一个"
-" ``Zend_Config`` 对象的实例"
+"``Zend_Config``: 配置选项树, 其每一个分支都是 "
+"``Zend_Config`` 对象"
 
 #: ../../Structural/Composite/README.rst:20
 msgid "UML Diagram"
@@ -56,7 +55,7 @@ msgstr "代码"
 
 #: ../../Structural/Composite/README.rst:29
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
 #: ../../Structural/Composite/README.rst:31
 msgid "FormElement.php"

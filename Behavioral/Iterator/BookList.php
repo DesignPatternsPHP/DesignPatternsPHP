@@ -9,7 +9,7 @@ class BookList implements \Countable
 
     public function getBook($bookNumberToGet)
     {
-        if ((int)$bookNumberToGet <= $this->count()) {
+        if (isset($this->books[$bookNumberToGet])) {
             return $this->books[$bookNumberToGet];
         }
 

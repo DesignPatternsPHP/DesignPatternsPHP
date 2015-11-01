@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Structural/Proxy/README.rst:2
 msgid "`Proxy`__"
-msgstr "`代理`__"
+msgstr "`代理模式`__"
 
 #: ../../Structural/Proxy/README.rst:5
 msgid "Purpose"
@@ -21,7 +21,7 @@ msgstr "目的"
 
 #: ../../Structural/Proxy/README.rst:7
 msgid "To interface to anything that is expensive or impossible to duplicate."
-msgstr "为执行昂贵的操作和不可能重复执行的操作提供上层接口。"
+msgstr "为昂贵或者无法复制的资源提供接口。"
 
 #: ../../Structural/Proxy/README.rst:10
 msgid "Examples"
@@ -33,8 +33,8 @@ msgid ""
 "initialization) in them, while the user still works with his own entity "
 "classes and will never use nor touch the proxies"
 msgstr ""
-"Doctrine2使用代理模式实现了框架里的魔法（比如 延迟初始化），当"
-"用户在处理实体类的时候，他绝不会用到或者绝不会接触到代理。"
+"Doctrine2 使用代理来实现框架特性（如延迟初始化），同时用户还是使用自己的实体类"
+"并且不会使用或者接触到代理"
 
 #: ../../Structural/Proxy/README.rst:17
 msgid "UML Diagram"
@@ -46,7 +46,7 @@ msgstr "代码"
 
 #: ../../Structural/Proxy/README.rst:26
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
 #: ../../Structural/Proxy/README.rst:28
 msgid "Record.php"

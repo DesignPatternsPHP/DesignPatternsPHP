@@ -8,7 +8,7 @@ class BookListIterator implements \Iterator
     /**
      * @var BookList
      */
-    protected $bookList;
+    private $bookList;
 
     /**
      * @var int
@@ -61,7 +61,7 @@ class BookListIterator implements \Iterator
      */
     public function valid()
     {
-        return $this->currentBook < $this->bookList->count();
+        return null !== $this->bookList->getBook($this->currentBook);
     }
 
     /**
