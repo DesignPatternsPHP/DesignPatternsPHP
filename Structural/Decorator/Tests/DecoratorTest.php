@@ -27,7 +27,7 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
 
     public function testXmlDecorator()
     {
-        // Wrap service with a JSON decorator for renderers
+        // Wrap service with a XML decorator for renderers
         $service = new Decorator\RenderInXml($this->service);
         // Our Renderer will now output XML instead of an array
         $xml = '<?xml version="1.0"?><foo>bar</foo>';
