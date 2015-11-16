@@ -40,7 +40,6 @@ class ValueTest extends \PHPUnit_Framework_TestCase
         $value->setName('Silver');
         $this->assertSame($attribute, $value->getAttribute());
 
-        $value->setAttribute($attribute);
-        $this->assertSame($attribute, $value->getAttribute());
+        $this->assertSame($attribute, $value->setAttribute($attribute)->getAttribute());
     }
 }
