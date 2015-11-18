@@ -28,12 +28,15 @@ class Value implements ValueInterface
 
     /**
      * @param Attribute $attribute
+     * @return $this
      */
     public function setAttribute(Attribute $attribute)
     {
         $this->attribute->removeValue($this); // Remove value from current attribute
         $attribute->addValue($this); // Add value to new attribute
         $this->attribute = $attribute;
+
+        return $this;
     }
 
     /**
