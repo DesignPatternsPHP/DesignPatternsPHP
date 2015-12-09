@@ -1,6 +1,8 @@
 <?php
 
-namespace DesignPatterns\Repository;
+namespace DesignPatterns\More\Repository;
+
+use DesignPatterns\More\Repository\Storage;
 
 /**
  * Repository for class Post

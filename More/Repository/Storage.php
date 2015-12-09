@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Repository;
+namespace DesignPatterns\More\Repository;
 
 /**
  * Interface Storage
