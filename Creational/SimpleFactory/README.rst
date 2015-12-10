@@ -48,6 +48,15 @@ Scooter.php
    :language: php
    :linenos:
 
+Usage
+-----
+
+.. code::  php
+
+   $factory = new ConcreteFactory();
+   $bicycle = $factory->createVehicle('bicycle');
+   $bicycle->driveTo('Paris');
+
 Test
 ----
 
