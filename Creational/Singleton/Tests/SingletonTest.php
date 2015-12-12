@@ -26,4 +26,25 @@ class SingletonTest extends \PHPUnit_Framework_TestCase
         $meth = $refl->getMethod('__construct');
         $this->assertTrue($meth->isPrivate());
     }
+
+    /**
+     * @expectedException \DesignPatterns\Creational\Singleton\SingletonPatternViolationException
+     * @return void
+     */
+    public function testNoCloneAllowed()
+    {
+        $obj1 = Singleton::getInstance();
+        $obj2 = clone $obj1;
+    }
+
+    /**
+     * @expectedException \DesignPatterns\Creational\Singleton\SingletonPatternViolationException
+     * @return void
+     */
+    public function testNoSerializationAllowed()
+    {
+        $obj1 = Singleton::getInstance();
+        $serialized = serialize($obj1);
+        $obj2 = unserialize($serialized);
+    }
 }

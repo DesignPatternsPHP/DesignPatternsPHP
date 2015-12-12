@@ -2,6 +2,8 @@
 
 namespace DesignPatterns\Creational\Singleton;
 
+use DesignPatterns\Creational\Singleton\SingletonPatternViolationException;
+
 /**
  * class Singleton
  */
@@ -36,19 +38,21 @@ class Singleton
 
     /**
      * prevent the instance from being cloned
-     *
+     * @throws SingletonPatternViolationException
      * @return void
      */
-    private function __clone()
+    public final function __clone()
     {
+        throw new SingletonPatternViolationException('This is a Singleton. Clone is forbidden');
     }
 
     /**
      * prevent from being unserialized
-     *
+     * @throws SingletonPatternViolationException
      * @return void
      */
-    private function __wakeup()
+    public final function __wakeup()
     {
+        throw new SingletonPatternViolationException('This is a Singleton. __wakeup usage is forbidden');
     }
 }
