@@ -32,7 +32,7 @@ msgstr ""
 msgid ""
 "I think the problem with patterns is that often people do know them but "
 "don't know when to apply which."
-msgstr “”
+msgstr ""
 "我认为人们对于设计模式抱有的问题在于大家都了解它们却不知道该如何在实际中使用它们。"
 
 #: ../../README.rst:20
