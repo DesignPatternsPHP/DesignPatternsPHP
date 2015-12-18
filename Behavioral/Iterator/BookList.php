@@ -19,8 +19,6 @@ class BookList implements \Countable
     public function addBook(Book $book)
     {
         $this->books[] = $book;
-
-        return $this->count();
     }
 
     public function removeBook(Book $bookToRemove)
@@ -31,8 +29,6 @@ class BookList implements \Countable
                 unset($this->books[$key]);
             }
         }
-
-        return $this->count();
     }
 
     public function count()
