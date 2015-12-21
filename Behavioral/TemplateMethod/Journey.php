@@ -23,7 +23,7 @@ abstract class Journey
     }
 
     /**
-     * This method must be implemented, this is the key-feature of this pattern
+     * This method must be implemented, this is the key-feature of this pattern.
      */
     abstract protected function enjoyVacation();
 
@@ -37,7 +37,7 @@ abstract class Journey
     }
 
     /**
-     * This method will be unknown by subclasses (better)
+     * This method will be unknown by subclasses (better).
      */
     private function buyAFlight()
     {
@@ -46,7 +46,7 @@ abstract class Journey
 
     /**
      * Subclasses will get access to this method but cannot override it and
-     * compromise this algorithm (warning : cause of cyclic dependencies)
+     * compromise this algorithm (warning : cause of cyclic dependencies).
      */
     final protected function takePlane()
     {

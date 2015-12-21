@@ -5,11 +5,10 @@ namespace DesignPatterns\Creational\Singleton\Tests;
 use DesignPatterns\Creational\Singleton\Singleton;
 
 /**
- * SingletonTest tests the singleton pattern
+ * SingletonTest tests the singleton pattern.
  */
 class SingletonTest extends \PHPUnit_Framework_TestCase
 {
-
     public function testUniqueness()
     {
         $firstCall = Singleton::getInstance();
@@ -29,6 +28,7 @@ class SingletonTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @expectedException \DesignPatterns\Creational\Singleton\SingletonPatternViolationException
+     *
      * @return void
      */
     public function testNoCloneAllowed()
@@ -39,6 +39,7 @@ class SingletonTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @expectedException \DesignPatterns\Creational\Singleton\SingletonPatternViolationException
+     *
      * @return void
      */
     public function testNoSerializationAllowed()

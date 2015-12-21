@@ -5,11 +5,10 @@ namespace DesignPatterns\Structural\FluentInterface\Tests;
 use DesignPatterns\Structural\FluentInterface\Sql;
 
 /**
- * FluentInterfaceTest tests the fluent interface SQL
+ * FluentInterfaceTest tests the fluent interface SQL.
  */
 class FluentInterfaceTest extends \PHPUnit_Framework_TestCase
 {
-
     public function testBuildSQL()
     {
         $instance = new Sql();

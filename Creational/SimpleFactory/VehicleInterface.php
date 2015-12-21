@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\SimpleFactory;
 
 /**
- * VehicleInterface is a contract for a vehicle
+ * VehicleInterface is a contract for a vehicle.
  */
 interface VehicleInterface
 {

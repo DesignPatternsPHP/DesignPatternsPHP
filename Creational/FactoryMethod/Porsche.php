@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * Porsche is a german car
+ * Porsche is a german car.
  */
 class Porsche implements VehicleInterface
 {

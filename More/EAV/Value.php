@@ -3,7 +3,7 @@
 namespace DesignPatterns\More\EAV;
 
 /**
- * Class Value
+ * Class Value.
  */
 class Value implements ValueInterface
 {
@@ -28,6 +28,7 @@ class Value implements ValueInterface
 
     /**
      * @param Attribute $attribute
+     *
      * @return $this
      */
     public function setAttribute(Attribute $attribute)
@@ -57,6 +58,7 @@ class Value implements ValueInterface
 
     /**
      * @param string $name
+     *
      * @return $this
      */
     public function setName($name)

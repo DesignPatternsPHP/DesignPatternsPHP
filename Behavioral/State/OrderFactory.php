@@ -3,7 +3,7 @@
 namespace DesignPatterns\Behavioral\State;
 
 /**
- * Class OrderFactory
+ * Class OrderFactory.
  */
 class OrderFactory
 {
@@ -15,8 +15,9 @@ class OrderFactory
     /**
      * @param int $id
      *
-     * @return CreateOrder|ShippingOrder
      * @throws \Exception
+     *
+     * @return CreateOrder|ShippingOrder
      */
     public static function getOrder($id)
     {

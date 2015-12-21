@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\AbstractFactory;
 
 /**
- * class AbstractFactory
+ * class AbstractFactory.
  *
  * Sometimes also known as "Kit" in a GUI libraries.
  *
@@ -20,7 +20,7 @@ namespace DesignPatterns\Creational\AbstractFactory;
 abstract class AbstractFactory
 {
     /**
-     * Creates a text component
+     * Creates a text component.
      *
      * @param string $content
      *
@@ -29,7 +29,7 @@ abstract class AbstractFactory
     abstract public function createText($content);
 
     /**
-     * Creates a picture component
+     * Creates a picture component.
      *
      * @param string $path
      * @param string $name

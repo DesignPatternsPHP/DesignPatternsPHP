@@ -3,7 +3,7 @@
 namespace DesignPatterns\Structural\Adapter;
 
 /**
- * EBookAdapter is an adapter to fit an e-book like a paper book
+ * EBookAdapter is an adapter to fit an e-book like a paper book.
  *
  * This is the adapter here. Notice it implements PaperBookInterface,
  * therefore you don't have to change the code of the client which using paper book.
@@ -16,7 +16,7 @@ class EBookAdapter implements PaperBookInterface
     protected $eBook;
 
     /**
-     * Notice the constructor, it "wraps" an electronic book
+     * Notice the constructor, it "wraps" an electronic book.
      *
      * @param EBookInterface $ebook
      */
@@ -26,7 +26,7 @@ class EBookAdapter implements PaperBookInterface
     }
 
     /**
-     * This class makes the proper translation from one interface to another
+     * This class makes the proper translation from one interface to another.
      */
     public function open()
     {
@@ -34,7 +34,7 @@ class EBookAdapter implements PaperBookInterface
     }
 
     /**
-     * turns pages
+     * turns pages.
      */
     public function turnPage()
     {

@@ -3,7 +3,7 @@
 namespace DesignPatterns\Structural\FluentInterface;
 
 /**
- * class SQL
+ * class SQL.
  */
 class Sql
 {
@@ -23,7 +23,7 @@ class Sql
     protected $where = array();
 
     /**
-     * adds select fields
+     * adds select fields.
      *
      * @param array $fields
      *
@@ -37,7 +37,7 @@ class Sql
     }
 
     /**
-     * adds a FROM clause
+     * adds a FROM clause.
      *
      * @param string $table
      * @param string $alias
@@ -46,13 +46,13 @@ class Sql
      */
     public function from($table, $alias)
     {
-        $this->from[] = $table . ' AS ' . $alias;
+        $this->from[] = $table.' AS '.$alias;
 
         return $this;
     }
 
     /**
-     * adds a WHERE condition
+     * adds a WHERE condition.
      *
      * @param string $condition
      *
@@ -67,14 +67,14 @@ class Sql
 
     /**
      * Gets the query, just an example of building a query,
-     * no check on consistency
+     * no check on consistency.
      *
      * @return string
      */
     public function getQuery()
     {
-        return 'SELECT ' . implode(',', $this->fields)
-                . ' FROM ' . implode(',', $this->from)
-                . ' WHERE ' . implode(' AND ', $this->where);
+        return 'SELECT '.implode(',', $this->fields)
+                .' FROM '.implode(',', $this->from)
+                .' WHERE '.implode(' AND ', $this->where);
     }
 }

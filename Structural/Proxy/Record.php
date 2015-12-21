@@ -3,7 +3,7 @@
 namespace DesignPatterns\Structural\Proxy;
 
 /**
- * class Record
+ * class Record.
  */
 class Record
 {
@@ -21,7 +21,7 @@ class Record
     }
 
     /**
-     * magic setter
+     * magic setter.
      *
      * @param string $name
      * @param mixed  $value
@@ -34,7 +34,7 @@ class Record
     }
 
     /**
-     * magic getter
+     * magic getter.
      *
      * @param string $name
      *
@@ -45,7 +45,7 @@ class Record
         if (array_key_exists($name, $this->data)) {
             return $this->data[(string) $name];
         } else {
-            return null;
+            return;
         }
     }
 }

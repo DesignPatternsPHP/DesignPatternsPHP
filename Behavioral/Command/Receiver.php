@@ -3,7 +3,7 @@
 namespace DesignPatterns\Behavioral\Command;
 
 /**
- * Receiver is specific service with its own contract and can be only concrete
+ * Receiver is specific service with its own contract and can be only concrete.
  */
 class Receiver
 {

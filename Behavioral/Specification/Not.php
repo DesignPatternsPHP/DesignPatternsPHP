@@ -1,16 +1,16 @@
 <?php
+
 namespace DesignPatterns\Behavioral\Specification;
 
 /**
- * A logical Not specification
+ * A logical Not specification.
  */
 class Not extends AbstractSpecification
 {
-
     protected $spec;
 
     /**
-     * Creates a new specification wrapping another
+     * Creates a new specification wrapping another.
      *
      * @param SpecificationInterface $spec
      */
@@ -20,7 +20,7 @@ class Not extends AbstractSpecification
     }
 
     /**
-     * Returns the negated result of the wrapped specification
+     * Returns the negated result of the wrapped specification.
      *
      * @param Item $item
      *

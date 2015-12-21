@@ -3,12 +3,12 @@
 namespace DesignPatterns\Structural\Facade;
 
 /**
- * Class OsInterface
+ * Class OsInterface.
  */
 interface OsInterface
 {
     /**
-     * halt the OS
+     * halt the OS.
      */
     public function halt();
 }
