@@ -3,7 +3,7 @@
 namespace DesignPatterns\Behavioral\Strategy;
 
 /**
- * Class ObjectCollection
+ * Class ObjectCollection.
  */
 class ObjectCollection
 {
@@ -31,7 +31,7 @@ class ObjectCollection
     public function sort()
     {
         if (!$this->comparator) {
-            throw new \LogicException("Comparator is not set");
+            throw new \LogicException('Comparator is not set');
         }
 
         $callback = array($this->comparator, 'compare');

@@ -5,11 +5,10 @@ namespace DesignPatterns\Creational\SimpleFactory\Tests;
 use DesignPatterns\Creational\SimpleFactory\ConcreteFactory;
 
 /**
- * SimpleFactoryTest tests the Simple Factory pattern
+ * SimpleFactoryTest tests the Simple Factory pattern.
  */
 class SimpleFactoryTest extends \PHPUnit_Framework_TestCase
 {
-
     protected $factory;
 
     protected function setUp()
@@ -21,7 +20,7 @@ class SimpleFactoryTest extends \PHPUnit_Framework_TestCase
     {
         return array(
             array('bicycle'),
-            array('other')
+            array('other'),
         );
     }
 

@@ -3,12 +3,12 @@
 namespace DesignPatterns\Structural\Composite;
 
 /**
- * Class FormElement
+ * Class FormElement.
  */
 abstract class FormElement
 {
     /**
-     * renders the elements' code
+     * renders the elements' code.
      *
      * @param int $indent
      *

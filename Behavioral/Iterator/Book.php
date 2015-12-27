@@ -4,7 +4,6 @@ namespace DesignPatterns\Behavioral\Iterator;
 
 class Book
 {
-
     private $author;
 
     private $title;
@@ -27,6 +26,6 @@ class Book
 
     public function getAuthorAndTitle()
     {
-        return $this->getTitle() . ' by ' . $this->getAuthor();
+        return $this->getTitle().' by '.$this->getAuthor();
     }
 }

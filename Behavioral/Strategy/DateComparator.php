@@ -3,7 +3,7 @@
 namespace DesignPatterns\Behavioral\Strategy;
 
 /**
- * Class DateComparator
+ * Class DateComparator.
  */
 class DateComparator implements ComparatorInterface
 {

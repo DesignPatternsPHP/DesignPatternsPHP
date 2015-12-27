@@ -4,7 +4,6 @@ namespace DesignPatterns\Behavioral\Iterator;
 
 class BookList implements \Countable
 {
-
     private $books;
 
     public function getBook($bookNumberToGet)
@@ -13,7 +12,7 @@ class BookList implements \Countable
             return $this->books[$bookNumberToGet];
         }
 
-        return null;
+        return;
     }
 
     public function addBook(Book $book)

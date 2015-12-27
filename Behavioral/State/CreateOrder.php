@@ -3,7 +3,7 @@
 namespace DesignPatterns\Behavioral\State;
 
 /**
- * Class CreateOrder
+ * Class CreateOrder.
  */
 class CreateOrder implements OrderInterface
 {
@@ -38,8 +38,9 @@ class CreateOrder implements OrderInterface
     }
 
     /**
-     * @return mixed|void
      * @throws \Exception
+     *
+     * @return mixed|void
      */
     public function completeOrder()
     {

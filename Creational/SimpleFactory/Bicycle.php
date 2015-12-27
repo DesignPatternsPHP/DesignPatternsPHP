@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\SimpleFactory;
 
 /**
- * Bicycle is a bicycle
+ * Bicycle is a bicycle.
  */
 class Bicycle implements VehicleInterface
 {

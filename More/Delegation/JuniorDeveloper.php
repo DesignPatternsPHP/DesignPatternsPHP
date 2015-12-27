@@ -3,13 +3,12 @@
 namespace DesignPatterns\More\Delegation;
 
 /**
- * Class JuniorDeveloper
- * @package DesignPatterns\Delegation
+ * Class JuniorDeveloper.
  */
 class JuniorDeveloper
 {
     public function writeBadCode()
     {
-        return "Some junior developer generated code...";
+        return 'Some junior developer generated code...';
     }
 }

@@ -3,7 +3,7 @@
 namespace DesignPatterns\Behavioral\Visitor;
 
 /**
- * Visitor Pattern
+ * Visitor Pattern.
  *
  * The contract for the visitor.
  *
@@ -16,14 +16,14 @@ namespace DesignPatterns\Behavioral\Visitor;
 interface RoleVisitorInterface
 {
     /**
-     * Visit a User object
+     * Visit a User object.
      *
      * @param \DesignPatterns\Behavioral\Visitor\User $role
      */
     public function visitUser(User $role);
 
     /**
-     * Visit a Group object
+     * Visit a Group object.
      *
      * @param \DesignPatterns\Behavioral\Visitor\Group $role
      */

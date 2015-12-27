@@ -3,9 +3,7 @@
 namespace DesignPatterns\More\Delegation;
 
 /**
- * Class TeamLead
- * @package DesignPatterns\Delegation
- * The `TeamLead` class, he delegate work to `JuniorDeveloper`
+ * Class TeamLead.
  */
 class TeamLead
 {
@@ -13,7 +11,8 @@ class TeamLead
     protected $slave;
 
     /**
-     * Give junior developer into teamlead submission
+     * Give junior developer into teamlead submission.
+     *
      * @param JuniorDeveloper $junior
      */
     public function __construct(JuniorDeveloper $junior)
@@ -22,7 +21,8 @@ class TeamLead
     }
 
     /**
-     * TeamLead drink coffee, junior work
+     * TeamLead drink coffee, junior work.
+     *
      * @return mixed
      */
     public function writeCode()

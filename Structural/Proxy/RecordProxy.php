@@ -3,7 +3,7 @@
 namespace DesignPatterns\Structural\Proxy;
 
 /**
- * Class RecordProxy
+ * Class RecordProxy.
  */
 class RecordProxy extends Record
 {
@@ -35,7 +35,7 @@ class RecordProxy extends Record
     }
 
     /**
-     * magic setter
+     * magic setter.
      *
      * @param string $name
      * @param mixed  $value

@@ -1,15 +1,16 @@
 <?php
+
 namespace DesignPatterns\Behavioral\Specification;
 
 /**
- * An trivial item
+ * An trivial item.
  */
 class Item
 {
     protected $price;
 
     /**
-     * An item must have a price
+     * An item must have a price.
      *
      * @param int $price
      */
@@ -19,7 +20,7 @@ class Item
     }
 
     /**
-     * Get the items price
+     * Get the items price.
      *
      * @return int
      */
