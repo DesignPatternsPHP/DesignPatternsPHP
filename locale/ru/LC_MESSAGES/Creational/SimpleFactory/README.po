@@ -20,8 +20,8 @@ msgid "Purpose"
 msgstr "Назначение"
 
 #: ../../Creational/SimpleFactory/README.rst:7
-msgid "ConcreteFactory is a simple factory pattern."
-msgstr "ConcreteFactory в примере ниже, это паттерн «Простая Фабрика»."
+msgid "SimpleFactory is a simple factory pattern."
+msgstr "SimpleFactory в примере ниже, это паттерн «Простая Фабрика»."
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
@@ -53,8 +53,8 @@ msgid "You can also find these code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
 #: ../../Creational/SimpleFactory/README.rst:27
-msgid "ConcreteFactory.php"
-msgstr "ConcreteFactory.php"
+msgid "SimpleFactory.php"
+msgstr "SimpleFactory.php"
 
 #: ../../Creational/SimpleFactory/README.rst:33
 msgid "VehicleInterface.php"

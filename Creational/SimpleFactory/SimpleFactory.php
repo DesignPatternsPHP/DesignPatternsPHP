@@ -3,9 +3,9 @@
 namespace DesignPatterns\Creational\SimpleFactory;
 
 /**
- * class ConcreteFactory.
+ * class SimpleFactory.
  */
-class ConcreteFactory
+class SimpleFactory
 {
     /**
      * @var array
