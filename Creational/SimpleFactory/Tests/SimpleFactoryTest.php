@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Creational\SimpleFactory\Tests;
 
-use DesignPatterns\Creational\SimpleFactory\ConcreteFactory;
+use DesignPatterns\Creational\SimpleFactory\SimpleFactory;
 
 /**
  * SimpleFactoryTest tests the Simple Factory pattern.
@@ -13,7 +13,7 @@ class SimpleFactoryTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->factory = new ConcreteFactory();
+        $this->factory = new SimpleFactory();
     }
 
     public function getType()
