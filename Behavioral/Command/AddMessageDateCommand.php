@@ -6,7 +6,7 @@ namespace DesignPatterns\Behavioral\Command;
  * This concrete command tweaks receiver to add current date to messages
  * invoker just knows that it can call "execute".
  */
-class AddMessageDateCommand implements CommandInterface, UndoableCommandInterface
+class AddMessageDateCommand implements UndoableCommandInterface
 {
     /**
      * @var Receiver
