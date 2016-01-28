@@ -7,7 +7,7 @@ namespace DesignPatterns\Behavioral\Visitor;
  *
  * The contract for the visitor.
  *
- * Note 1 : in C++ or java, with method polymorphism based on type-hint, there are many
+ * Note 1 : in C++ or Java, with method polymorphism based on type-hint, there are many
  * methods visit() with different type for the 'role' parameter.
  *
  * Note 2 : the visitor must not choose itself which method to
