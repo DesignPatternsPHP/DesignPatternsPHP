@@ -3,13 +3,13 @@
 namespace DesignPatterns\Structural\Facade\Tests;
 
 use DesignPatterns\Structural\Facade\Facade as Computer;
+use DesignPatterns\Structural\Facade\OsInterface;
 
 /**
- * FacadeTest shows example of facades
+ * FacadeTest shows example of facades.
  */
 class FacadeTest extends \PHPUnit_Framework_TestCase
 {
-
     public function getComputer()
     {
         $bios = $this->getMockBuilder('DesignPatterns\Structural\Facade\BiosInterface')
@@ -29,13 +29,14 @@ class FacadeTest extends \PHPUnit_Framework_TestCase
                 ->will($this->returnValue('Linux'));
 
         $facade = new Computer($bios, $operatingSys);
+
         return array(array($facade, $operatingSys));
     }
 
     /**
      * @dataProvider getComputer
      */
-    public function testComputerOn(Computer $facade, $os)
+    public function testComputerOn(Computer $facade, OsInterface $os)
     {
         // interface is simpler :
         $facade->turnOn();

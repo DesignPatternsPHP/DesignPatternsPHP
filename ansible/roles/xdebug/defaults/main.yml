@@ -1,0 +1,7 @@
+---
+xdebug:
+    settings:
+        - xdebug.remote_enable=1
+        - xdebug.idekey=PHPSTORM
+        - xdebug.remote_connect_back=1
+        - xdebug.remote_port=9000

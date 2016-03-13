@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * Bicycle is a bicycle
+ * Bicycle is a bicycle.
  */
 class Bicycle implements VehicleInterface
 {
@@ -13,7 +13,7 @@ class Bicycle implements VehicleInterface
     protected $color;
 
     /**
-     * sets the color of the bicycle
+     * sets the color of the bicycle.
      *
      * @param string $rgb
      */

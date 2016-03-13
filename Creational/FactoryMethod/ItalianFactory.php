@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * ItalianFactory is vehicle factory in Italy
+ * ItalianFactory is vehicle factory in Italy.
  */
 class ItalianFactory extends FactoryMethod
 {

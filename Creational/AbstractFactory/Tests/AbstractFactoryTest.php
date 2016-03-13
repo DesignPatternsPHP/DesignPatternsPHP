@@ -7,7 +7,7 @@ use DesignPatterns\Creational\AbstractFactory\HtmlFactory;
 use DesignPatterns\Creational\AbstractFactory\JsonFactory;
 
 /**
- * AbstractFactoryTest tests concrete factories
+ * AbstractFactoryTest tests concrete factories.
  */
 class AbstractFactoryTest extends \PHPUnit_Framework_TestCase
 {
@@ -15,7 +15,7 @@ class AbstractFactoryTest extends \PHPUnit_Framework_TestCase
     {
         return array(
             array(new JsonFactory()),
-            array(new HtmlFactory())
+            array(new HtmlFactory()),
         );
     }
 
@@ -31,7 +31,7 @@ class AbstractFactoryTest extends \PHPUnit_Framework_TestCase
         $article = array(
             $factory->createText('Lorem Ipsum'),
             $factory->createPicture('/image.jpg', 'caption'),
-            $factory->createText('footnotes')
+            $factory->createText('footnotes'),
         );
 
         $this->assertContainsOnly('DesignPatterns\Creational\AbstractFactory\MediaInterface', $article);

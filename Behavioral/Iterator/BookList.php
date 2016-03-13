@@ -4,23 +4,20 @@ namespace DesignPatterns\Behavioral\Iterator;
 
 class BookList implements \Countable
 {
-
     private $books;
 
     public function getBook($bookNumberToGet)
     {
-        if ((int)$bookNumberToGet <= $this->count()) {
+        if (isset($this->books[$bookNumberToGet])) {
             return $this->books[$bookNumberToGet];
         }
 
-        return null;
+        return;
     }
 
     public function addBook(Book $book)
     {
         $this->books[] = $book;
-
-        return $this->count();
     }
 
     public function removeBook(Book $bookToRemove)
@@ -31,8 +28,6 @@ class BookList implements \Countable
                 unset($this->books[$key]);
             }
         }
-
-        return $this->count();
     }
 
     public function count()

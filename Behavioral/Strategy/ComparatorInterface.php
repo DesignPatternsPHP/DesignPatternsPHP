@@ -3,7 +3,7 @@
 namespace DesignPatterns\Behavioral\Strategy;
 
 /**
- * Class ComparatorInterface
+ * Class ComparatorInterface.
  */
 interface ComparatorInterface
 {

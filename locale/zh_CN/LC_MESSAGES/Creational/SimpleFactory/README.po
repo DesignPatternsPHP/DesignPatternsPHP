@@ -20,7 +20,7 @@ msgid "Purpose"
 msgstr "目的"
 
 #: ../../Creational/SimpleFactory/README.rst:7
-msgid "ConcreteFactory is a simple factory pattern."
+msgid "SimpleFactory is a simple factory pattern."
 msgstr "简单的创建对象型工厂模式"
 
 #: ../../Creational/SimpleFactory/README.rst:9
@@ -52,7 +52,7 @@ msgid "You can also find these code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
 #: ../../Creational/SimpleFactory/README.rst:27
-msgid "ConcreteFactory.php"
+msgid "SimpleFactory.php"
 msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:33

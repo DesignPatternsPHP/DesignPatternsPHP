@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * Ferrari is a italian car
+ * Ferrari is a italian car.
  */
 class Ferrari implements VehicleInterface
 {

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>PHP</ID>
-  <OriginalElement>\DesignPatterns\Repository\PostRepository</OriginalElement>
+  <OriginalElement>\DesignPatterns\More\Repository\PostRepository</OriginalElement>
   <nodes>
-    <node x="415.0" y="0.0">\DesignPatterns\Repository\Storage</node>
-    <node x="405.0" y="137.0">\DesignPatterns\Repository\MemoryStorage</node>
-    <node x="0.0" y="0.0">\DesignPatterns\Repository\Post</node>
-    <node x="0.0" y="373.0">\DesignPatterns\Repository\PostRepository</node>
+    <node x="415.0" y="0.0">\DesignPatterns\More\Repository\Storage</node>
+    <node x="405.0" y="137.0">\DesignPatterns\More\Repository\MemoryStorage</node>
+    <node x="0.0" y="0.0">\DesignPatterns\More\Repository\Post</node>
+    <node x="0.0" y="373.0">\DesignPatterns\More\Repository\PostRepository</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="\DesignPatterns\Repository\MemoryStorage" target="\DesignPatterns\Repository\Storage">
+    <edge source="\DesignPatterns\More\Repository\MemoryStorage" target="\DesignPatterns\More\Repository\Storage">
       <point x="0.0" y="-74.5" />
       <point x="0.0" y="43.5" />
     </edge>

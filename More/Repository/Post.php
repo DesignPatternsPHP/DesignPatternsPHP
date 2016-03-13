@@ -1,12 +1,11 @@
 <?php
 
-namespace DesignPatterns\Repository;
+namespace DesignPatterns\More\Repository;
 
 /**
- * Post represents entity for some post that user left on the site
+ * Post represents entity for some post that user left on the site.
  *
  * Class Post
- * @package DesignPatterns\Repository
  */
 class Post
 {

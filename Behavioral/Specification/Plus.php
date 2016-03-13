@@ -1,17 +1,17 @@
 <?php
+
 namespace DesignPatterns\Behavioral\Specification;
 
 /**
- * A logical AND specification
+ * A logical AND specification.
  */
 class Plus extends AbstractSpecification
 {
-
     protected $left;
     protected $right;
 
     /**
-     * Creation of a logical AND of two specifications
+     * Creation of a logical AND of two specifications.
      *
      * @param SpecificationInterface $left
      * @param SpecificationInterface $right
@@ -23,7 +23,7 @@ class Plus extends AbstractSpecification
     }
 
     /**
-     * Checks if the composite AND of specifications passes
+     * Checks if the composite AND of specifications passes.
      *
      * @param Item $item
      *

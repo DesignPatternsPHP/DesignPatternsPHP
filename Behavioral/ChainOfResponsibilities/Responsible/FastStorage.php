@@ -6,7 +6,7 @@ use DesignPatterns\Behavioral\ChainOfResponsibilities\Handler;
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Request;
 
 /**
- * Class FastStorage
+ * Class FastStorage.
  */
 class FastStorage extends Handler
 {
