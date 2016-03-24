@@ -3,7 +3,7 @@
 namespace DesignPatterns\Structural\Facade;
 
 /**
- *
+ * Class Facade
  */
 class Facade
 {
@@ -31,7 +31,7 @@ class Facade
     }
 
     /**
-     * turn on the system.
+     * Turn on the system.
      */
     public function turnOn()
     {
@@ -41,7 +41,7 @@ class Facade
     }
 
     /**
-     * turn off the system.
+     * Turn off the system.
      */
     public function turnOff()
     {
