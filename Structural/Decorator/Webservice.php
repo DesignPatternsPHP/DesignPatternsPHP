@@ -21,7 +21,7 @@ class Webservice implements RendererInterface
     }
 
     /**
-     * @return string
+     * @return mixed
      */
     public function renderData()
     {
