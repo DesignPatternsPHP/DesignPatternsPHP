@@ -98,7 +98,7 @@ To establish a consistent code quality, please check your code using [PHP_CodeSn
 
 (The MIT License)
 
-Copyright (c) 2014 Dominik Liebler and [contributors](https://github.com/domnikl/DesignPatternsPHP/graphs/contributors)
+Copyright (c) 2011 - 2016 Dominik Liebler and [contributors](https://github.com/domnikl/DesignPatternsPHP/graphs/contributors)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
