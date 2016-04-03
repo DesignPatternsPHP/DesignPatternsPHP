@@ -3,19 +3,22 @@
 namespace DesignPatterns\More\Delegation;
 
 /**
- * Class TeamLead.
+ * Class TeamLead
+ * @package DesignPatterns\Delegation
+ * The `TeamLead` class, he delegate work to `Developer`
  */
 class TeamLead
 {
-    /** @var JuniorDeveloper */
+    /** @var Developer */
     protected $slave;
 
     /**
      * Give junior developer into teamlead submission.
      *
-     * @param JuniorDeveloper $junior
+     * @param Developer $junior
+     * TOTO Developer as an interface
      */
-    public function __construct(JuniorDeveloper $junior)
+    public function __construct(Developer $junior)
     {
         $this->slave = $junior;
     }
@@ -27,6 +30,7 @@ class TeamLead
      */
     public function writeCode()
     {
-        return $this->slave->writeBadCode();
+        // but he just wants the code in hope it would be good
+        return $this->slave->writeCode();
     }
 }

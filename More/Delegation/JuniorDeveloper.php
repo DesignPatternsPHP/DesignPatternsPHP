@@ -5,9 +5,17 @@ namespace DesignPatterns\More\Delegation;
 /**
  * Class JuniorDeveloper.
  */
-class JuniorDeveloper
+class JuniorDeveloper implements Developer //TODO define that
 {
-    public function writeBadCode()
+    // this implements 'pure' method writeCode() --
+    // it's what a TeamLead wants from his Developers
+    public function writeCode() {
+        //  but the only code Junior Developer 
+        //  can offer – is bad one
+        return $this->writeBadCode();    
+    }
+    
+    private function writeBadCode()
     {
         return 'Some junior developer generated code...';
     }
