@@ -1,0 +1,100 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-03 12:52+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: ../../Behavioral/Memento/README.rst:2
+msgid "`Memento`__"
+msgstr "`Memento`__"
+
+#: ../../Behavioral/Memento/README.rst:5
+msgid "Purpose"
+msgstr "Zweck"
+
+#: ../../Behavioral/Memento/README.rst:7
+msgid ""
+"Provide the ability to restore an object to its previous state (undo via "
+"rollback)."
+msgstr ""
+"Bietet die Möglichkeit, einen Objektzustand zu einem vorigen Zustand "
+"zurückzusetzen (mit Hilfe eines Rollbacks)."
+
+#: ../../Behavioral/Memento/README.rst:10
+msgid ""
+"The memento pattern is implemented with three objects: the originator, a "
+"caretaker and a memento. The originator is some object that has an internal "
+"state. The caretaker is going to do something to the originator, but wants to "
+"be able to undo the change. The caretaker first asks the originator for a "
+"memento object. Then it does whatever operation (or sequence of operations) it "
+"was going to do. To roll back to the state before the operations, it returns "
+"the memento object to the originator. The memento object itself is an opaque "
+"object (one which the caretaker cannot, or should not, change). When using "
+"this pattern, care should be taken if the originator may change other objects "
+"or resources - the memento pattern operates on a single object."
+msgstr ""
+"Das Memento-Muster wird mit Hilfe von drei Objekten implementiert: der "
+"Originalton, ein Caretaker und das Memento. Der Originalton ist ein Objekt, "
+"das einen internen State besitzt. Der Caretaker wird etwas mit dem Originalton "
+"machen, aber möchte evtl. diese Änderung auch rückgängig machen wollen. Der "
+"Caretaker fragt den Originalton zuerst nach dem Memento-Objekt. Dann wird die "
+"angefragte Operation (oder Sequenz von Änderungen) ausgeführt. Um diese "
+"Änderung zurückzurollen, wird das Memento-Objekt an den Originalton "
+"zurückgegeben. Das Memento-Objekt selbst ist intransparent, so dass der "
+"Caretaker selbstständig keine Änderungen am Objekt durchführen kann.  Bei der "
+"Implementierung dieses Musters ist darauf zu achten, dass der Originator auch "
+"Seiteneffekte auslösen kann, das Pattern aber nur auf einem einzelnen Objekt "
+"operiert."
+
+#: ../../Behavioral/Memento/README.rst:23
+msgid "Examples"
+msgstr "Beispiele"
+
+#: ../../Behavioral/Memento/README.rst:25
+msgid "The seed of a pseudorandom number generator"
+msgstr "Das seeden eines Pseudozufallszahlengenerators"
+
+#: ../../Behavioral/Memento/README.rst:26
+msgid "The state in a finite state machine"
+msgstr "Der State in einer FSM (Finite State Machine)"
+
+#: ../../Behavioral/Memento/README.rst:29
+msgid "UML Diagram"
+msgstr "UML-Diagramm"
+
+#: ../../Behavioral/Memento/README.rst:36
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/Memento/README.rst:38
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du findest den Code hierzu auf `GitHub`_"
+
+#: ../../Behavioral/Memento/README.rst:40
+msgid "Memento.php"
+msgstr "Memento.php"
+
+#: ../../Behavioral/Memento/README.rst:46
+msgid "Originator.php"
+msgstr "Originator.php"
+
+#: ../../Behavioral/Memento/README.rst:52
+msgid "Caretaker.php"
+msgstr "Caretaker.php"
+
+#: ../../Behavioral/Memento/README.rst:59
+msgid "Test"
+msgstr "Test"
+
+#: ../../Behavioral/Memento/README.rst:61
+msgid "Tests/MementoTest.php"
+msgstr "Tests/MementoTest.php"
