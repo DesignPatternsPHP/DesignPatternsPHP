@@ -9,7 +9,7 @@ namespace DesignPatterns\Structural\Decorator;
  */
 
 /**
- * class Decorator
+ * class Decorator.
  */
 abstract class Decorator implements RendererInterface
 {

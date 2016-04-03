@@ -1,14 +1,12 @@
 <?php
 
-namespace DesignPatterns\Repository;
+namespace DesignPatterns\More\Repository;
 
 /**
- * Class MemoryStorage
- * @package DesignPatterns\Repository
+ * Class MemoryStorage.
  */
 class MemoryStorage implements Storage
 {
-
     private $data;
     private $lastId;
 
@@ -24,6 +22,7 @@ class MemoryStorage implements Storage
     public function persist($data)
     {
         $this->data[++$this->lastId] = $data;
+
         return $this->lastId;
     }
 

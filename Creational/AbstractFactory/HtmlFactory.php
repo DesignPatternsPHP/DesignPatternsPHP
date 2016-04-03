@@ -3,14 +3,14 @@
 namespace DesignPatterns\Creational\AbstractFactory;
 
 /**
- * Class HtmlFactory
+ * Class HtmlFactory.
  *
  * HtmlFactory is a concrete factory for HTML component
  */
 class HtmlFactory extends AbstractFactory
 {
     /**
-     * Creates a picture component
+     * Creates a picture component.
      *
      * @param string $path
      * @param string $name
@@ -23,7 +23,7 @@ class HtmlFactory extends AbstractFactory
     }
 
     /**
-     * Creates a text component
+     * Creates a text component.
      *
      * @param string $content
      *

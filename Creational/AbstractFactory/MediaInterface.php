@@ -3,16 +3,15 @@
 namespace DesignPatterns\Creational\AbstractFactory;
 
 /**
- * Interface MediaInterface
+ * Interface MediaInterface.
  *
  * This contract is not part of the pattern, in general case, each component
  * are not related
  */
 interface MediaInterface
 {
-
     /**
-     * some crude rendering from JSON or html output (depended on concrete class)
+     * some crude rendering from JSON or html output (depended on concrete class).
      *
      * @return string
      */

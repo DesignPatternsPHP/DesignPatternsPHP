@@ -1,8 +1,9 @@
 <?php
+
 namespace DesignPatterns\Behavioral\Specification;
 
 /**
- * A specification to check an Item is priced between min and max
+ * A specification to check an Item is priced between min and max.
  */
 class PriceSpecification extends AbstractSpecification
 {
@@ -10,7 +11,7 @@ class PriceSpecification extends AbstractSpecification
     protected $minPrice;
 
     /**
-     * Sets the optional maximum price
+     * Sets the optional maximum price.
      *
      * @param int $maxPrice
      */
@@ -20,7 +21,7 @@ class PriceSpecification extends AbstractSpecification
     }
 
     /**
-     * Sets the optional minimum price
+     * Sets the optional minimum price.
      *
      * @param int $minPrice
      */
@@ -30,7 +31,7 @@ class PriceSpecification extends AbstractSpecification
     }
 
     /**
-     * Checks if Item price falls between bounds
+     * Checks if Item price falls between bounds.
      *
      * @param Item $item
      *

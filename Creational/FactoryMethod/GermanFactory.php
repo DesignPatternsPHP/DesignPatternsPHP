@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\FactoryMethod;
 
 /**
- * GermanFactory is a vehicle factory in Germany
+ * GermanFactory is a vehicle factory in Germany.
  */
 class GermanFactory extends FactoryMethod
 {

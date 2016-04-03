@@ -3,7 +3,7 @@
 namespace DesignPatterns\Structural\Decorator;
 
 /**
- * Class Webservice
+ * Class Webservice.
  */
 class Webservice implements RendererInterface
 {

@@ -3,7 +3,7 @@
 namespace DesignPatterns\Structural\Registry;
 
 /**
- * class Registry
+ * class Registry.
  */
 abstract class Registry
 {
@@ -15,12 +15,13 @@ abstract class Registry
     protected static $storedValues = array();
 
     /**
-     * sets a value
+     * sets a value.
      *
      * @param string $key
      * @param mixed  $value
      *
      * @static
+     *
      * @return void
      */
     public static function set($key, $value)
@@ -29,11 +30,12 @@ abstract class Registry
     }
 
     /**
-     * gets a value from the registry
+     * gets a value from the registry.
      *
      * @param string $key
      *
      * @static
+     *
      * @return mixed
      */
     public static function get($key)

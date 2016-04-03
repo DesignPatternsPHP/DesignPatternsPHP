@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>PHP</ID>
-  <OriginalElement>\DesignPatterns\Creational\SimpleFactory\ConcreteFactory</OriginalElement>
+  <OriginalElement>\DesignPatterns\Creational\SimpleFactory\SimpleFactory</OriginalElement>
   <nodes>
     <node x="173.0" y="97.0">\DesignPatterns\Creational\SimpleFactory\Scooter</node>
-    <node x="0.0" y="189.0">\DesignPatterns\Creational\SimpleFactory\ConcreteFactory</node>
+    <node x="0.0" y="189.0">\DesignPatterns\Creational\SimpleFactory\SimpleFactory</node>
     <node x="86.5" y="0.0">\DesignPatterns\Creational\SimpleFactory\VehicleInterface</node>
     <node x="0.0" y="97.0">\DesignPatterns\Creational\SimpleFactory\Bicycle</node>
   </nodes>

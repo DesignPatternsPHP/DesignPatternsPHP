@@ -3,7 +3,7 @@
 namespace DesignPatterns\Behavioral\Visitor;
 
 /**
- * An example of a Visitor: Group
+ * An example of a Visitor: Group.
  */
 class Group extends Role
 {
@@ -25,6 +25,6 @@ class Group extends Role
      */
     public function getName()
     {
-        return "Group: " . $this->name;
+        return 'Group: '.$this->name;
     }
 }

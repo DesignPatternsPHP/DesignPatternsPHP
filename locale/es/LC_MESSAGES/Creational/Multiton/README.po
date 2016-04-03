@@ -1,64 +1,71 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-09-11 11:31+0100\n"
+"Last-Translator: Daniel González <daniel@desarrolla2.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../../Creational/Multiton/README.rst:2
 msgid "Multiton"
-msgstr ""
+msgstr "Multiton"
 
 #: ../../Creational/Multiton/README.rst:4
 msgid ""
 "**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
 "MAINTAINABILITY USE DEPENDENCY INJECTION!**"
 msgstr ""
+"**ESTO ES CONSIDERADO UN ANTI-PATRÓN. PARA MEJOR TESTEABILIDAD Y "
+"MANTENIBILIDAD USA INYECCIÓN DE DEPENDENCIAS**"
 
 #: ../../Creational/Multiton/README.rst:8
 msgid "Purpose"
-msgstr ""
+msgstr "Propósito"
 
 #: ../../Creational/Multiton/README.rst:10
 msgid ""
 "To have only a list of named instances that are used, like a singleton but "
 "with n instances."
 msgstr ""
+"Tener una única lista de los nombres de las instancias que has usando, como "
+"en el singleton pero con varias instancias."
 
 #: ../../Creational/Multiton/README.rst:14
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: ../../Creational/Multiton/README.rst:16
 msgid "2 DB Connectors, e.g. one for MySQL, the other for SQLite"
-msgstr ""
+msgstr "2 Conectores de base de datos, Ej. uno para MySQL el otro para SQLite."
 
 #: ../../Creational/Multiton/README.rst:17
 msgid "multiple Loggers (one for debug messages, one for errors)"
 msgstr ""
+"Múltiples sistemas de log ( no para mensajes de debug, uno para errores )."
 
 #: ../../Creational/Multiton/README.rst:20
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Creational/Multiton/README.rst:27
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Creational/Multiton/README.rst:29
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Creational/Multiton/README.rst:31
 msgid "Multiton.php"
-msgstr ""
+msgstr "Multiton.php"
 
 #: ../../Creational/Multiton/README.rst:38
 msgid "Test"
-msgstr ""
+msgstr "Test"

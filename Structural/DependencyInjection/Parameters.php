@@ -3,12 +3,12 @@
 namespace DesignPatterns\Structural\DependencyInjection;
 
 /**
- * Parameters interface
+ * Parameters interface.
  */
 interface Parameters
 {
     /**
-     * Get parameter
+     * Get parameter.
      *
      * @param string|int $key
      *
@@ -17,7 +17,7 @@ interface Parameters
     public function get($key);
 
     /**
-     * Set parameter
+     * Set parameter.
      *
      * @param string|int $key
      * @param mixed      $value

@@ -201,10 +201,10 @@
       <image x="2" y="1" clip-path="url(#clipPath27)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#13;&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#13;&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#13;&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#13;&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#13;&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#13;&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#13;&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#13;&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#13;&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#13;&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#13;&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#13;&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
     <g font-size="11" transform="matrix(1,0,0,1,28,20) translate(4,193)" fill-opacity="0.1961" fill="rgb(0,0,0)" font-family="'Tahoma'" stroke="rgb(0,0,0)" stroke-opacity="0.1961">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath27)" stroke="none">ConcreteFactory</text>
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath27)" stroke="none">SimpleFactory</text>
     </g>
     <g fill="rgb(187,187,187)" font-size="11" font-family="'Tahoma'" transform="matrix(1,0,0,1,28,20) translate(4,193)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="13" clip-path="url(#clipPath27)" stroke="none">ConcreteFactory</text>
+      <text x="21" xml:space="preserve" y="13" clip-path="url(#clipPath27)" stroke="none">SimpleFactory</text>
     </g>
     <g fill="rgb(120,120,120)" font-size="11" font-family="'Tahoma'" transform="matrix(1,0,0,1,28,20) translate(78.5,0)" stroke="rgb(120,120,120)">
       <path d="M0 0 L169 0 L169 47 L0 47 L0 0 ZM1 1 L168 1 L168 46 L1 46 L1 1 Z" clip-path="url(#clipPath4)" fill-rule="evenodd" stroke="none"/>

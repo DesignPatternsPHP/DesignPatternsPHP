@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\Builder;
 
 /**
- * CarBuilder builds car
+ * CarBuilder builds car.
  */
 class CarBuilder implements BuilderInterface
 {

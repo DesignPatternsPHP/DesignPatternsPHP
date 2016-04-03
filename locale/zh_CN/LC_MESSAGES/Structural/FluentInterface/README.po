@@ -13,45 +13,46 @@ msgstr ""
 
 #: ../../Structural/FluentInterface/README.rst:2
 msgid "`Fluent Interface`__"
-msgstr ""
+msgstr "`连贯接口`__"
 
 #: ../../Structural/FluentInterface/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../Structural/FluentInterface/README.rst:7
 msgid ""
 "To write code that is easy readable just like sentences in a natural "
 "language (like English)."
 msgstr ""
+"用来编写易于阅读的代码，就像自然语言一样（如英语）"
 
 #: ../../Structural/FluentInterface/README.rst:11
 msgid "Examples"
-msgstr ""
+msgstr "例子"
 
 #: ../../Structural/FluentInterface/README.rst:13
 msgid "Doctrine2's QueryBuilder works something like that example class below"
-msgstr ""
+msgstr "Doctrine2 的 QueryBuilder，就像下面例子中类似"
 
 #: ../../Structural/FluentInterface/README.rst:15
 msgid "PHPUnit uses fluent interfaces to build mock objects"
-msgstr ""
+msgstr "PHPUnit 使用连贯接口来创建 mock 对象"
 
 #: ../../Structural/FluentInterface/README.rst:16
 msgid "Yii Framework: CDbCommand and CActiveRecord use this pattern, too"
-msgstr ""
+msgstr "Yii 框架：CDbCommand 与 CActiveRecord 也使用此模式"
 
 #: ../../Structural/FluentInterface/README.rst:19
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Structural/FluentInterface/README.rst:26
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Structural/FluentInterface/README.rst:28
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
 #: ../../Structural/FluentInterface/README.rst:30
 msgid "Sql.php"
@@ -59,7 +60,7 @@ msgstr ""
 
 #: ../../Structural/FluentInterface/README.rst:37
 msgid "Test"
-msgstr ""
+msgstr "测试"
 
 #: ../../Structural/FluentInterface/README.rst:39
 msgid "Tests/FluentInterfaceTest.php"

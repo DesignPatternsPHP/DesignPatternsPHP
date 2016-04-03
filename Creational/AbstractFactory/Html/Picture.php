@@ -5,14 +5,14 @@ namespace DesignPatterns\Creational\AbstractFactory\Html;
 use DesignPatterns\Creational\AbstractFactory\Picture as BasePicture;
 
 /**
- * Class Picture
+ * Class Picture.
  *
  * Picture is a concrete image for HTML rendering
  */
 class Picture extends BasePicture
 {
     /**
-     * some crude rendering from HTML output
+     * some crude rendering from HTML output.
      *
      * @return string
      */

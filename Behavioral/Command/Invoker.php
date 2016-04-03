@@ -4,7 +4,7 @@ namespace DesignPatterns\Behavioral\Command;
 
 /**
  * Invoker is using the command given to it.
- * Example : an Application in SF2
+ * Example : an Application in SF2.
  */
 class Invoker
 {
@@ -25,7 +25,7 @@ class Invoker
     }
 
     /**
-     * executes the command
+     * executes the command.
      */
     public function run()
     {

@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\Builder\Parts;
 
 /**
- * VehicleInterface is a contract for a vehicle
+ * Vehicle class is an abstraction for a vehicle.
  */
 abstract class Vehicle
 {

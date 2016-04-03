@@ -3,7 +3,7 @@
 namespace DesignPatterns\Behavioral\State;
 
 /**
- * Class OrderController
+ * Class OrderController.
  */
 class OrderController
 {

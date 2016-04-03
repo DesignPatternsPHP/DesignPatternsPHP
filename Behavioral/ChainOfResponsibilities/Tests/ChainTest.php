@@ -3,16 +3,15 @@
 namespace DesignPatterns\Behavioral\ChainOfResponsibilities\Tests;
 
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Request;
+use DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible;
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible\FastStorage;
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible\SlowStorage;
-use DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible;
 
 /**
- * ChainTest tests the CoR
+ * ChainTest tests the CoR.
  */
 class ChainTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var FastStorage
      */
@@ -30,7 +29,7 @@ class ChainTest extends \PHPUnit_Framework_TestCase
         $request->verb = 'get';
 
         return array(
-            array($request)
+            array($request),
         );
     }
 

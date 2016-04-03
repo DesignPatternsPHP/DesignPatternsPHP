@@ -3,9 +3,9 @@
 namespace DesignPatterns\Creational\SimpleFactory;
 
 /**
- * class ConcreteFactory
+ * class SimpleFactory.
  */
-class ConcreteFactory
+class SimpleFactory
 {
     /**
      * @var array
@@ -19,18 +19,19 @@ class ConcreteFactory
     public function __construct()
     {
         $this->typeList = array(
-            'bicycle' => __NAMESPACE__ . '\Bicycle',
-            'other' => __NAMESPACE__ . '\Scooter'
+            'bicycle' => __NAMESPACE__.'\Bicycle',
+            'other' => __NAMESPACE__.'\Scooter',
         );
     }
 
     /**
-     * Creates a vehicle
+     * Creates a vehicle.
      *
      * @param string $type a known type key
      *
-     * @return VehicleInterface a new instance of VehicleInterface
      * @throws \InvalidArgumentException
+     *
+     * @return VehicleInterface a new instance of VehicleInterface
      */
     public function createVehicle($type)
     {

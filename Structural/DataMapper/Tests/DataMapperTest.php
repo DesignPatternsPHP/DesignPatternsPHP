@@ -2,11 +2,11 @@
 
 namespace DesignPatterns\Structural\DataMapper\Tests;
 
-use DesignPatterns\Structural\DataMapper\UserMapper;
 use DesignPatterns\Structural\DataMapper\User;
+use DesignPatterns\Structural\DataMapper\UserMapper;
 
 /**
- * UserMapperTest tests the datamapper pattern
+ * UserMapperTest tests the datamapper pattern.
  */
 class DataMapperTest extends \PHPUnit_Framework_TestCase
 {
@@ -66,9 +66,9 @@ class DataMapperTest extends \PHPUnit_Framework_TestCase
     public function testRestoreOne(User $existing)
     {
         $row = array(
-            'userid'   => 1,
+            'userid' => 1,
             'username' => 'Odysseus',
-            'email'    => 'Odysseus@ithaca.gr'
+            'email' => 'Odysseus@ithaca.gr',
         );
         $rows = new \ArrayIterator(array($row));
         $this->dbal->expects($this->once())

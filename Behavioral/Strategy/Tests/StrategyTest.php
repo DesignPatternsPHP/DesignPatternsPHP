@@ -8,21 +8,20 @@ use DesignPatterns\Behavioral\Strategy\ObjectCollection;
 use DesignPatterns\Behavioral\Strategy\Strategy;
 
 /**
- * Tests for Strategy pattern
+ * Tests for Strategy pattern.
  */
 class StrategyTest extends \PHPUnit_Framework_TestCase
 {
-
     public function getIdCollection()
     {
         return array(
             array(
                 array(array('id' => 2), array('id' => 1), array('id' => 3)),
-                array('id' => 1)
+                array('id' => 1),
             ),
             array(
                 array(array('id' => 3), array('id' => 2), array('id' => 1)),
-                array('id' => 1)
+                array('id' => 1),
             ),
         );
     }
@@ -32,11 +31,11 @@ class StrategyTest extends \PHPUnit_Framework_TestCase
         return array(
             array(
                 array(array('date' => '2014-03-03'), array('date' => '2015-03-02'), array('date' => '2013-03-01')),
-                array('date' => '2013-03-01')
+                array('date' => '2013-03-01'),
             ),
             array(
                 array(array('date' => '2014-02-03'), array('date' => '2013-02-01'), array('date' => '2015-02-02')),
-                array('date' => '2013-02-01')
+                array('date' => '2013-02-01'),
             ),
         );
     }
