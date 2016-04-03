@@ -2,11 +2,11 @@
 
 namespace DesignPatterns\Behavioral\Specification\Tests;
 
-use DesignPatterns\Behavioral\Specification\PriceSpecification;
 use DesignPatterns\Behavioral\Specification\Item;
+use DesignPatterns\Behavioral\Specification\PriceSpecification;
 
 /**
- * SpecificationTest tests the specification pattern
+ * SpecificationTest tests the specification pattern.
  */
 class SpecificationTest extends \PHPUnit_Framework_TestCase
 {

@@ -3,7 +3,7 @@
 namespace DesignPatterns\Structural\Adapter;
 
 /**
- * Book is a concrete and standard paper book
+ * Book is a concrete and standard paper book.
  */
 class Book implements PaperBookInterface
 {

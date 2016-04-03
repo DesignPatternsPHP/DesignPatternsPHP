@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:2
 msgid "`Dependency Injection`__"
-msgstr "`依赖注入`__"
+msgstr "`依赖注入`"
 
 #: ../../Structural/DependencyInjection/README.rst:5
 msgid "Purpose"

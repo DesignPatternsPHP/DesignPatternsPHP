@@ -3,17 +3,18 @@
 namespace DesignPatterns\Structural\DependencyInjection;
 
 /**
- * class ArrayConfig
+ * class ArrayConfig.
  *
  * uses array as data source
  */
 class ArrayConfig extends AbstractConfig implements Parameters
 {
     /**
-     * Get parameter
+     * Get parameter.
      *
      * @param string|int $key
-     * @param null $default
+     * @param null       $default
+     *
      * @return mixed
      */
     public function get($key, $default = null)
@@ -21,14 +22,15 @@ class ArrayConfig extends AbstractConfig implements Parameters
         if (isset($this->storage[$key])) {
             return $this->storage[$key];
         }
+
         return $default;
     }
 
     /**
-     * Set parameter
+     * Set parameter.
      *
      * @param string|int $key
-     * @param mixed $value
+     * @param mixed      $value
      */
     public function set($key, $value)
     {

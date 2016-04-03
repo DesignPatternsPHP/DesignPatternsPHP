@@ -27,21 +27,21 @@ class ServiceLocator implements ServiceLocatorInterface
 
     public function __construct()
     {
-        $this->services     = array();
+        $this->services = array();
         $this->instantiated = array();
-        $this->shared       = array();
+        $this->shared = array();
     }
 
     /**
      * Registers a service with specific interface.
      *
-     * @param string $interface
+     * @param string        $interface
      * @param string|object $service
-     * @param bool $share
+     * @param bool          $share
      */
     public function add($interface, $service, $share = true)
     {
-        /**
+        /*
          * When you add a service, you should register it
          * with its interface or with a string that you can use
          * in the future even if you will change the service implementation.
@@ -51,7 +51,7 @@ class ServiceLocator implements ServiceLocatorInterface
             $this->instantiated[$interface] = $service;
         }
         $this->services[$interface] = (is_object($service) ? get_class($service) : $service);
-        $this->shared[$interface]   = $share;
+        $this->shared[$interface] = $share;
     }
 
     /**
@@ -63,7 +63,7 @@ class ServiceLocator implements ServiceLocatorInterface
      */
     public function has($interface)
     {
-        return (isset($this->services[$interface]) || isset($this->instantiated[$interface]));
+        return isset($this->services[$interface]) || isset($this->instantiated[$interface]);
     }
 
     /**
@@ -101,6 +101,7 @@ class ServiceLocator implements ServiceLocatorInterface
         if ($this->shared[$interface]) {
             $this->instantiated[$interface] = $object;
         }
+
         return $object;
     }
 }

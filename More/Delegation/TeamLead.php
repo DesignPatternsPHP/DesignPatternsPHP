@@ -13,7 +13,8 @@ class TeamLead
     protected $slave;
 
     /**
-     * Give junior developer into teamlead submission
+     * Give junior developer into teamlead submission.
+     *
      * @param Developer $junior
      * TOTO Developer as an interface
      */
@@ -23,7 +24,8 @@ class TeamLead
     }
 
     /**
-     * TeamLead drink coffee, junior work
+     * TeamLead drink coffee, junior work.
+     *
      * @return mixed
      */
     public function writeCode()

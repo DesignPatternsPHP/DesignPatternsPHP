@@ -3,7 +3,7 @@
 namespace DesignPatterns\Behavioral\ChainOfResponsibilities;
 
 /**
- * Handler is a generic handler in the chain of responsibilities
+ * Handler is a generic handler in the chain of responsibilities.
  *
  * Yes you could have a lighter CoR with a simpler handler but if you want your CoR
  * to be extendable and decoupled, it's a better idea to do things like that in real
@@ -18,7 +18,7 @@ abstract class Handler
     private $successor = null;
 
     /**
-     * Append a responsibility to the end of chain
+     * Append a responsibility to the end of chain.
      *
      * A prepend method could be done with the same spirit
      *
@@ -68,7 +68,7 @@ abstract class Handler
     }
 
     /**
-     * Each concrete handler has to implement the processing of the request
+     * Each concrete handler has to implement the processing of the request.
      *
      * @param Request $req
      *

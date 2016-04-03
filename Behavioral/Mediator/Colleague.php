@@ -9,12 +9,12 @@ namespace DesignPatterns\Behavioral\Mediator;
 abstract class Colleague
 {
     /**
-     * this ensures no change in subclasses
+     * this ensures no change in subclasses.
      *
      * @var MediatorInterface
      */
     private $mediator;
-    
+
     /**
      * @param MediatorInterface $medium
      */
@@ -25,6 +25,7 @@ abstract class Colleague
     }
 
     // for subclasses
+
     protected function getMediator()
     {
         return $this->mediator;

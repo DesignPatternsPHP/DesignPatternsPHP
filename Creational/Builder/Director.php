@@ -10,9 +10,8 @@ namespace DesignPatterns\Creational\Builder;
  */
 class Director
 {
-
     /**
-     * The director don't know about concrete part
+     * The director don't know about concrete part.
      *
      * @param BuilderInterface $builder
      *

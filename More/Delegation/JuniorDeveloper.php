@@ -3,8 +3,7 @@
 namespace DesignPatterns\More\Delegation;
 
 /**
- * Class JuniorDeveloper
- * @package DesignPatterns\Delegation
+ * Class JuniorDeveloper.
  */
 class JuniorDeveloper implements Developer //TODO define that
 {
@@ -18,6 +17,6 @@ class JuniorDeveloper implements Developer //TODO define that
     
     private function writeBadCode()
     {
-        return "Some junior developer generated code...";
+        return 'Some junior developer generated code...';
     }
 }

@@ -3,7 +3,7 @@
 namespace DesignPatterns\Behavioral\State;
 
 /**
- * Class OrderInterface
+ * Class OrderInterface.
  */
 interface OrderInterface
 {

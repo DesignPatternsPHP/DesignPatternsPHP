@@ -3,16 +3,15 @@
 namespace DesignPatterns\Creational\AbstractFactory;
 
 /**
- * Class JsonFactory
+ * Class JsonFactory.
  *
  * JsonFactory is a factory for creating a family of JSON component
  * (example for ajax)
  */
 class JsonFactory extends AbstractFactory
 {
-
     /**
-     * Creates a picture component
+     * Creates a picture component.
      *
      * @param string $path
      * @param string $name
@@ -25,7 +24,7 @@ class JsonFactory extends AbstractFactory
     }
 
     /**
-     * Creates a text component
+     * Creates a text component.
      *
      * @param string $content
      *

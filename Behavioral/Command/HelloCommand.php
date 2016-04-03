@@ -4,7 +4,7 @@ namespace DesignPatterns\Behavioral\Command;
 
 /**
  * This concrete command calls "print" on the Receiver, but an external
- * invoker just know he can call "execute"
+ * invoker just knows that it can call "execute".
  */
 class HelloCommand implements CommandInterface
 {
@@ -14,8 +14,8 @@ class HelloCommand implements CommandInterface
     protected $output;
 
     /**
-     * Each concrete command is builded with different receivers.
-     * Can be one, many, none or even other Command in parameters
+     * Each concrete command is built with different receivers.
+     * There can be one, many or completely no receivers, but there can be other commands in the parameters.
      *
      * @param Receiver $console
      */
@@ -25,7 +25,7 @@ class HelloCommand implements CommandInterface
     }
 
     /**
-     * execute and output "Hello World"
+     * execute and output "Hello World".
      */
     public function execute()
     {

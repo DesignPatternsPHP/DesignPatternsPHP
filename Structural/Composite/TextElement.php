@@ -3,12 +3,12 @@
 namespace DesignPatterns\Structural\Composite;
 
 /**
- * Class TextElement
+ * Class TextElement.
  */
 class TextElement extends FormElement
 {
     /**
-     * renders the text element
+     * renders the text element.
      *
      * @param int $indent
      *
@@ -16,6 +16,6 @@ class TextElement extends FormElement
      */
     public function render($indent = 0)
     {
-        return str_repeat('  ', $indent) . 'this is a text element';
+        return str_repeat('  ', $indent).'this is a text element';
     }
 }

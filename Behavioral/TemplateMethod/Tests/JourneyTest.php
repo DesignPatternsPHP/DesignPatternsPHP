@@ -5,11 +5,10 @@ namespace DesignPatterns\Behavioral\TemplateMethod\Tests;
 use DesignPatterns\Behavioral\TemplateMethod;
 
 /**
- * JourneyTest tests all journeys
+ * JourneyTest tests all journeys.
  */
 class JourneyTest extends \PHPUnit_Framework_TestCase
 {
-
     public function testBeach()
     {
         $journey = new TemplateMethod\BeachJourney();
@@ -25,7 +24,7 @@ class JourneyTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * How to test an abstract template method with PHPUnit
+     * How to test an abstract template method with PHPUnit.
      */
     public function testLasVegas()
     {

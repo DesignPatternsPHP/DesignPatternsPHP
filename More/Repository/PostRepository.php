@@ -1,10 +1,10 @@
 <?php
 
-namespace DesignPatterns\Repository;
+namespace DesignPatterns\More\Repository;
 
 /**
  * Repository for class Post
- * This class is between Entity layer(class Post) and access object layer(interface Storage)
+ * This class is between Entity layer(class Post) and access object layer(interface Storage).
  *
  * Repository encapsulates the set of objects persisted in a data store and the operations performed over them
  * providing a more object-oriented view of the persistence layer
@@ -13,7 +13,6 @@ namespace DesignPatterns\Repository;
  * between the domain and data mapping layers
  *
  * Class PostRepository
- * @package DesignPatterns\Repository
  */
 class PostRepository
 {
@@ -25,16 +24,17 @@ class PostRepository
     }
 
     /**
-     * Returns Post object by specified id
+     * Returns Post object by specified id.
      *
      * @param int $id
+     *
      * @return Post|null
      */
     public function getById($id)
     {
         $arrayData = $this->persistence->retrieve($id);
         if (is_null($arrayData)) {
-            return null;
+            return;
         }
 
         $post = new Post();
@@ -48,9 +48,10 @@ class PostRepository
     }
 
     /**
-     * Save post object and populate it with id
+     * Save post object and populate it with id.
      *
      * @param Post $post
+     *
      * @return Post
      */
     public function save(Post $post)
@@ -59,17 +60,19 @@ class PostRepository
             'author' => $post->getAuthor(),
             'created' => $post->getCreated(),
             'text' => $post->getText(),
-            'title' => $post->getTitle()
+            'title' => $post->getTitle(),
         ));
 
         $post->setId($id);
+
         return $post;
     }
 
     /**
-     * Deletes specified Post object
+     * Deletes specified Post object.
      *
      * @param Post $post
+     *
      * @return bool
      */
     public function delete(Post $post)

@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\StaticFactory;
 
 /**
- * Class FormatterInterface
+ * Class FormatterInterface.
  */
 interface FormatterInterface
 {

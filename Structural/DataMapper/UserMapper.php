@@ -3,7 +3,7 @@
 namespace DesignPatterns\Structural\DataMapper;
 
 /**
- * class UserMapper
+ * class UserMapper.
  */
 class UserMapper
 {
@@ -21,19 +21,19 @@ class UserMapper
     }
 
     /**
-     * saves a user object from memory to Database
+     * saves a user object from memory to Database.
      *
      * @param User $user
      *
-     * @return boolean
+     * @return bool
      */
     public function save(User $user)
     {
         /* $data keys should correspond to valid Table columns on the Database */
         $data = array(
-            'userid'   => $user->getUserId(),
+            'userid' => $user->getUserId(),
             'username' => $user->getUsername(),
-            'email'    => $user->getEmail(),
+            'email' => $user->getEmail(),
         );
 
         /* if no ID specified create new user else update the one in the Database */
@@ -51,11 +51,12 @@ class UserMapper
 
     /**
      * finds a user from Database based on ID and returns a User object located
-     * in memory
+     * in memory.
      *
      * @param int $id
      *
      * @throws \InvalidArgumentException
+     *
      * @return User
      */
     public function findById($id)
@@ -72,14 +73,14 @@ class UserMapper
 
     /**
      * fetches an array from Database and returns an array of User objects
-     * located in memory
+     * located in memory.
      *
      * @return array
      */
     public function findAll()
     {
         $resultSet = $this->adapter->findAll();
-        $entries   = array();
+        $entries = array();
 
         foreach ($resultSet as $row) {
             $entries[] = $this->mapObject($row);
@@ -89,7 +90,7 @@ class UserMapper
     }
 
     /**
-     * Maps a table row to an object
+     * Maps a table row to an object.
      *
      * @param array $row
      *
