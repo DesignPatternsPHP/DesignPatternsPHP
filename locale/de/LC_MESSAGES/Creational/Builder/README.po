@@ -4,54 +4,56 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2015-05-30 22:36+0300\n"
+"PO-Revision-Date: 2016-04-04 08:22+0200\n"
 "Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../../Creational/Builder/README.rst:2
 msgid "`Builder`__"
-msgstr ""
-"`Строитель <https://ru.wikipedia.org/wiki/"
-"Строитель_(шаблон_проектирования)>`_ (`Builder`__)"
+msgstr "`Builder`__"
 
 #: ../../Creational/Builder/README.rst:5
 msgid "Purpose"
-msgstr "Назначение"
+msgstr "Zweck"
 
 #: ../../Creational/Builder/README.rst:7
 msgid "Builder is an interface that build parts of a complex object."
-msgstr "Строитель — это интерфейс для производства частей сложного объекта."
+msgstr "Builder ist ein Interface, das Teile eines komplexen Objekts aufbaut."
 
 #: ../../Creational/Builder/README.rst:9
 msgid ""
 "Sometimes, if the builder has a better knowledge of what it builds, this "
 "interface could be an abstract class with default methods (aka adapter)."
 msgstr ""
-"Иногда, если Строитель лучше знает о том, что он строит, этот интерфейс "
-"может быть абстрактным классом с методами по-умолчанию (адаптер)."
+"Manchmal, wenn der Builder ein gutes Bild davon hat, was er bauen solle, "
+"dann kann dieses Interface aus auch einer abstrakten Klasse mit "
+"Standardmethoden bestehen (siehe Adapter)."
 
 #: ../../Creational/Builder/README.rst:12
 msgid ""
 "If you have a complex inheritance tree for objects, it is logical to have a "
 "complex inheritance tree for builders too."
 msgstr ""
-"Если у вас есть сложное дерево наследования для объектов, логично иметь "
-"сложное дерево наследования и для их строителей."
+"Wenn du einen komplexen Vererbungsbaum für ein Objekt hast, ist es nur "
+"logisch, dass auch der Builder über eine komplexe Vererbungshierarchie "
+"verfügt."
 
 #: ../../Creational/Builder/README.rst:15
 msgid ""
 "Note: Builders have often a fluent interface, see the mock builder of "
 "PHPUnit for example."
 msgstr ""
-"Примечание: Строители могут иметь `текучий интерфейс <https://ru.wikipedia."
-"org/wiki/Fluent_interface>`_, например, строитель макетов в PHPUnit."
+"Hinweis: Builder haben oft auch ein Fluent Interface, siehe z.B. der "
+"Mockbuilder in PHPUnit."
 
 #: ../../Creational/Builder/README.rst:19
 msgid "Examples"
-msgstr "Примеры"
+msgstr "Beispiele"
 
 #: ../../Creational/Builder/README.rst:21
 msgid "PHPUnit: Mock Builder"
@@ -59,15 +61,15 @@ msgstr "PHPUnit: Mock Builder"
 
 #: ../../Creational/Builder/README.rst:24
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "UML Diagramm"
 
 #: ../../Creational/Builder/README.rst:31
 msgid "Code"
-msgstr "Код"
+msgstr "Code"
 
 #: ../../Creational/Builder/README.rst:33
 msgid "You can also find these code on `GitHub`_"
-msgstr "Вы можете найти этот код на `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
 
 #: ../../Creational/Builder/README.rst:35
 msgid "Director.php"
@@ -111,7 +113,7 @@ msgstr "Parts/Door.php"
 
 #: ../../Creational/Builder/README.rst:96
 msgid "Test"
-msgstr "Тест"
+msgstr "Теst"
 
 #: ../../Creational/Builder/README.rst:98
 msgid "Tests/DirectorTest.php"

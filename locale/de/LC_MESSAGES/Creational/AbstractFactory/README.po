@@ -4,22 +4,22 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2015-05-30 22:25+0300\n"
+"PO-Revision-Date: 2016-04-04 08:20+0200\n"
 "Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../../Creational/AbstractFactory/README.rst:2
 msgid "`Abstract Factory`__"
-msgstr ""
-"`Абстрактная фабрика <https://ru.wikipedia.org/wiki/"
-"Абстрактная_фабрика_(шаблон_проектирования)>`_ (`Abstract Factory`__)"
+msgstr "`Abstract Factory`__"
 
 #: ../../Creational/AbstractFactory/README.rst:5
 msgid "Purpose"
-msgstr "Назначение"
+msgstr "Zweck"
 
 #: ../../Creational/AbstractFactory/README.rst:7
 msgid ""
@@ -28,23 +28,23 @@ msgid ""
 "interface. The client of the abstract factory does not care about how these "
 "objects are created, he just knows how they go together."
 msgstr ""
-"Создать ряд связанных или зависимых объектов без указания их конкретных "
-"классов. Обычно создаваемые классы стремятся реализовать один и тот же "
-"интерфейс. Клиент абстрактной фабрики не заботится о том, как создаются эти "
-"объекты, он просто знает, по каким признакам они взаимосвязаны и как с ними "
-"обращаться."
+"Um eine Serie von verwandten oder abhängigen Objekten zu erzeugen, ohne "
+"deren konkrete Klassen spezifizieren zu müssen. Im Normalfall "
+"implementieren alle diese dasselbe Interface. Der Client der abstrakten "
+"Fabrik interessiert sich nicht dafür, wie die Objekte erzeugt werden, er "
+"weiß nur, wie die Objekte zueinander gehören."
 
 #: ../../Creational/AbstractFactory/README.rst:13
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "UML Diagramm"
 
 #: ../../Creational/AbstractFactory/README.rst:20
 msgid "Code"
-msgstr "Код"
+msgstr "Code"
 
 #: ../../Creational/AbstractFactory/README.rst:22
 msgid "You can also find these code on `GitHub`_"
-msgstr "Вы можете найти этот код на `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
 
 #: ../../Creational/AbstractFactory/README.rst:24
 msgid "AbstractFactory.php"
@@ -88,7 +88,7 @@ msgstr "Html/Text.php"
 
 #: ../../Creational/AbstractFactory/README.rst:85
 msgid "Test"
-msgstr "Тест"
+msgstr "Теst"
 
 #: ../../Creational/AbstractFactory/README.rst:87
 msgid "Tests/AbstractFactoryTest.php"
