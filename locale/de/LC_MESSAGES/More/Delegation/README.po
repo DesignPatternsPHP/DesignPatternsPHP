@@ -4,40 +4,42 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2015-05-30 04:46+0300\n"
+"PO-Revision-Date: 2016-04-04 08:05+0200\n"
 "Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../../More/Delegation/README.rst:2
 msgid "`Delegation`__"
-msgstr "`Делегирование <https://ru.wikipedia.org/wiki/Шаблон_делегирования>`_ (`Delegation`__)"
+msgstr "`Delegation`__"
 
 #: ../../More/Delegation/README.rst:5
 msgid "Purpose"
-msgstr "Назначение"
+msgstr "Zweck"
 
 #: ../../More/Delegation/README.rst:7 ../../More/Delegation/README.rst:12
 msgid "..."
-msgstr "Основной шаблон проектирования, в котором объект внешне выражает некоторое поведение, но в реальности передаёт ответственность за выполнение этого поведения связанному объекту. Шаблон делегирования является фундаментальной абстракцией, на основе которой реализованы другие шаблоны - композиция (также называемая агрегацией), примеси (mixins) и аспекты (aspects). (c) wiki"
+msgstr "..."
 
 #: ../../More/Delegation/README.rst:10
 msgid "Examples"
-msgstr "Примеры"
+msgstr "Beispiele"
 
 #: ../../More/Delegation/README.rst:15
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "UML Diagramm"
 
 #: ../../More/Delegation/README.rst:22
 msgid "Code"
-msgstr "Код"
+msgstr "Code"
 
 #: ../../More/Delegation/README.rst:24
 msgid "You can also find these code on `GitHub`_"
-msgstr "Вы можете найти этот код на `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
 
 #: ../../More/Delegation/README.rst:26
 msgid "Usage.php"
@@ -53,7 +55,7 @@ msgstr "JuniorDeveloper.php"
 
 #: ../../More/Delegation/README.rst:45
 msgid "Test"
-msgstr "Тест"
+msgstr "Теst"
 
 #: ../../More/Delegation/README.rst:47
 msgid "Tests/DelegationTest.php"
