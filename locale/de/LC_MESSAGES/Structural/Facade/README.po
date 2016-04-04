@@ -4,22 +4,22 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2015-06-02 01:48+0300\n"
+"PO-Revision-Date: 2016-04-04 07:56+0200\n"
 "Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../../Structural/Facade/README.rst:2
 msgid "`Facade`__"
-msgstr ""
-"`Фасад <https://ru.wikipedia.org/wiki/Фасад_(шаблон_проектирования)>`_ "
-"(`Facade`__)"
+msgstr "`Facade`__"
 
 #: ../../Structural/Facade/README.rst:5
 msgid "Purpose"
-msgstr "Назначение"
+msgstr "Zweck"
 
 #: ../../Structural/Facade/README.rst:7
 msgid ""
@@ -27,41 +27,37 @@ msgid ""
 "of a complex API. It's only a side-effect. The first goal is to reduce "
 "coupling and follow the Law of Demeter."
 msgstr ""
-"Основная цель паттерна Фасад заключается не в том, чтобы помешать вам "
-"прочитать инструкцию комплексной API. Это только побочный эффект. Главная "
-"цель всё же состоит в уменьшении связности кода и соблюдении `Закона "
-"Деметры <https://ru.wikipedia.org/wiki/Закон_Деметры>`_."
+"Das primäre Ziel des Facade-Musters ist nicht, dir das Lesen von komplexen "
+"API Dokumentationen zu ersparen. Das kann ein Seiteneffekt sein. Es ist "
+"vielmehr das Ziel, Kopplungen zu vermeiden und dem Gesetz von Demeter zu "
+"folgen."
 
 #: ../../Structural/Facade/README.rst:11
 msgid ""
 "A Facade is meant to decouple a client and a sub-system by embedding many "
 "(but sometimes just one) interface, and of course to reduce complexity."
 msgstr ""
-"Фасад предназначен для разделения клиента и подсистемы путем внедрения "
-"многих (но иногда только одного) интерфейсов, и, конечно, уменьшения общей "
-"сложности."
+"Eine Facade dient dazu, den Client von einem Subsystem zu entkopplen, indem "
+"ein oder mehrere Interfaces einzuführen und damit Komplexität zu verringern."
 
 #: ../../Structural/Facade/README.rst:15
 msgid "A facade does not forbid you the access to the sub-system"
-msgstr ""
-"Фасад не запрещает прямой доступ к подсистеме. Просто он делает его проще и "
-"понятнее."
+msgstr "Eine Facade verbietet nicht den Zugriff auf das Subsystem"
 
 #: ../../Structural/Facade/README.rst:16
 msgid "You can (you should) have multiple facades for one sub-system"
 msgstr ""
-"Вы можете (и вам стоило бы) иметь несколько фасадов для одной подсистемы."
+"Es ist nicht unüblich, mehrere Fassaden für ein Subsystem zu implementieren"
 
 #: ../../Structural/Facade/README.rst:18
 msgid ""
 "That's why a good facade has no ``new`` in it. If there are multiple "
-"creations for each method, it is not a Facade, it's a Builder or a "
-"[Abstract\\|Static\\|Simple] Factory [Method]."
+"creations for each method, it is not a Facade, it's a Builder or a [Abstract"
+"\\|Static\\|Simple] Factory [Method]."
 msgstr ""
-"Вот почему хороший фасад не содержит созданий экземпляров классов (``new``) "
-"внутри. Если внутри фасада создаются объекты для реализации каждого метода, "
-"это не Фасад, это Строитель или [Абстрактная\\|Статическая\\|Простая] "
-"Фабрика [или Фабричный Метод]."
+"Deshalb besitzt eine gute Facade keine ``new`` Aufrufe. Falls es mehrere "
+"Erzeugungsmethoden pro Methode gibt, handelt es sicht nicht um eine Facade, "
+"sondern um einen Builder oder [Abstract\\|Static\\|Simple] Factory [Method]."
 
 #: ../../Structural/Facade/README.rst:22
 msgid ""
@@ -69,21 +65,21 @@ msgid ""
 "parameters. If you need creation of new instances, use a Factory as "
 "argument."
 msgstr ""
-"Лучший фасад не содержит ``new`` или конструктора с type-hinted "
-"параметрами. Если вам необходимо создавать новые экземпляры классов, в "
-"таком случае лучше использовать Фабрику в качестве аргумента."
+"Bestenfalls besitzt eine Facade kein ``new`` und einen Konstruktor mit Type-"
+"Hints als Parameter. Falls du neue Instanzen erzeugen willst, kannst du "
+"eine Factory als Argument verwenden."
 
 #: ../../Structural/Facade/README.rst:27
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "UML Diagramm"
 
 #: ../../Structural/Facade/README.rst:34
 msgid "Code"
-msgstr "Код"
+msgstr "Code"
 
 #: ../../Structural/Facade/README.rst:36
 msgid "You can also find these code on `GitHub`_"
-msgstr "Вы можете найти этот код на `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
 
 #: ../../Structural/Facade/README.rst:38
 msgid "Facade.php"
@@ -99,7 +95,7 @@ msgstr "BiosInterface.php"
 
 #: ../../Structural/Facade/README.rst:57
 msgid "Test"
-msgstr "Тест"
+msgstr "Теst"
 
 #: ../../Structural/Facade/README.rst:59
 msgid "Tests/FacadeTest.php"

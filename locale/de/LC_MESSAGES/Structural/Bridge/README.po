@@ -4,34 +4,34 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2015-06-02 00:24+0300\n"
+"PO-Revision-Date: 2016-04-04 07:28+0200\n"
 "Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../../Structural/Bridge/README.rst:2
 msgid "`Bridge`__"
-msgstr ""
-"`Мост <https://ru.wikipedia.org/wiki/Мост_(шаблон_проектирования)>`_ "
-"(`Bridge`__)"
+msgstr "`Bridge`__"
 
 #: ../../Structural/Bridge/README.rst:5
 msgid "Purpose"
-msgstr "Назначение"
+msgstr "Zweck"
 
 #: ../../Structural/Bridge/README.rst:7
 msgid ""
 "Decouple an abstraction from its implementation so that the two can vary "
 "independently."
 msgstr ""
-"Отделить абстракцию от её реализации так, что они могут изменяться "
-"независимо друг от друга."
+"Eine Abstraktion von seiner Implementierung zu entkoppeln, sodass sich "
+"diese unterscheiden können."
 
 #: ../../Structural/Bridge/README.rst:11
 msgid "Sample:"
-msgstr "Пример:"
+msgstr "Beispiel:"
 
 #: ../../Structural/Bridge/README.rst:13
 msgid "`Symfony DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
@@ -40,15 +40,15 @@ msgstr ""
 
 #: ../../Structural/Bridge/README.rst:17
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "UML Diagramm"
 
 #: ../../Structural/Bridge/README.rst:24
 msgid "Code"
-msgstr "Код"
+msgstr "Code"
 
 #: ../../Structural/Bridge/README.rst:26
 msgid "You can also find these code on `GitHub`_"
-msgstr "Вы можете найти этот код на `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
 
 #: ../../Structural/Bridge/README.rst:28
 msgid "Workshop.php"
@@ -76,7 +76,7 @@ msgstr "Car.php"
 
 #: ../../Structural/Bridge/README.rst:65
 msgid "Test"
-msgstr "Тест"
+msgstr "Теst"
 
 #: ../../Structural/Bridge/README.rst:67
 msgid "Tests/BridgeTest.php"

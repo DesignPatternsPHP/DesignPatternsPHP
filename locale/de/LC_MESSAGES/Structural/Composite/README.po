@@ -4,33 +4,33 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2015-06-02 00:33+0300\n"
+"PO-Revision-Date: 2016-04-04 07:31+0200\n"
 "Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../../Structural/Composite/README.rst:2
 msgid "`Composite`__"
-msgstr ""
-"`Компоновщик <https://ru.wikipedia.org/wiki/"
-"Компоновщик_(шаблон_проектирования)>`_ (`Composite`__)"
+msgstr "`Composite`__"
 
 #: ../../Structural/Composite/README.rst:5
 msgid "Purpose"
-msgstr "Назначение"
+msgstr "Zweck"
 
 #: ../../Structural/Composite/README.rst:7
 msgid ""
 "To treat a group of objects the same way as a single instance of the object."
 msgstr ""
-"Взаимодействие с иерархической группой объектов также, как и с отдельно "
-"взятым экземпляром."
+"Eine Gruppe von Objekten genauso zu behandeln wie eine einzelne Instanz "
+"eines Objekts."
 
 #: ../../Structural/Composite/README.rst:11
 msgid "Examples"
-msgstr "Примеры"
+msgstr "Beispiele"
 
 #: ../../Structural/Composite/README.rst:13
 msgid ""
@@ -38,29 +38,30 @@ msgid ""
 "of the form, when ``render()`` is called, it subsequently runs through all "
 "its child elements and calls ``render()`` on them"
 msgstr ""
-"Экземпляр класса Form обрабатывает все свои элементы формы, как будто это "
-"один экземпляр. И когда вызывается метод ``render()``, он перебирает все "
-"дочерние элементы и вызывает их собственный ``render()``."
+"Eine Formular-Klasseninstanz behandelt alle seine beinhalteten Formelemente "
+"wie eine eine einzelne Instanz des Formulars. Wenn ``render()`` aufgerufen "
+"wird, werden alle Kindelemente durchlaufen und auf jedem wieder "
+"``render()`` aufgerufen."
 
 #: ../../Structural/Composite/README.rst:16
 msgid ""
 "``Zend_Config``: a tree of configuration options, each one is a "
 "``Zend_Config`` object itself"
 msgstr ""
-"``Zend_Config``: дерево вариантов конфигурации, где каждая из конфигураций "
-"тоже представляет собой объект ``Zend_Config``"
+"``Zend_Config``: ein Baum aus Konfigurationsoptionen, bei dem jedes Objekt "
+"wieder eine Instanz von``Zend_Config`` ist"
 
 #: ../../Structural/Composite/README.rst:20
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "UML Diagramm"
 
 #: ../../Structural/Composite/README.rst:27
 msgid "Code"
-msgstr "Код"
+msgstr "Code"
 
 #: ../../Structural/Composite/README.rst:29
 msgid "You can also find these code on `GitHub`_"
-msgstr "Вы можете найти этот код на `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
 
 #: ../../Structural/Composite/README.rst:31
 msgid "FormElement.php"
@@ -80,7 +81,7 @@ msgstr "TextElement.php"
 
 #: ../../Structural/Composite/README.rst:56
 msgid "Test"
-msgstr "Тест"
+msgstr "Теst"
 
 #: ../../Structural/Composite/README.rst:58
 msgid "Tests/CompositeTest.php"
