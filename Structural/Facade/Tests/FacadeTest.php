@@ -34,6 +34,8 @@ class FacadeTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @param Computer $facade
+     * @param OsInterface $os
      * @dataProvider getComputer
      */
     public function testComputerOn(Computer $facade, OsInterface $os)
