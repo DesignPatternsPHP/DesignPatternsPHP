@@ -31,6 +31,6 @@ class FlyweightFactory
 
     public function totalNumber()
     {
-    	return sizeof($this->pool);
+        return sizeof($this->pool);
     }
 }
