@@ -3,7 +3,7 @@
 namespace DesignPatterns\Structural\Adapter;
 
 /**
- * Kindle is a concrete electronic book
+ * Kindle is a concrete electronic book.
  */
 class Kindle implements EBookInterface
 {
@@ -12,7 +12,6 @@ class Kindle implements EBookInterface
      */
     public function pressNext()
     {
-
     }
 
     /**
@@ -20,6 +19,5 @@ class Kindle implements EBookInterface
      */
     public function pressStart()
     {
-
     }
 }

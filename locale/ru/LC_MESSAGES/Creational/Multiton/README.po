@@ -1,0 +1,72 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 22:58+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../Creational/Multiton/README.rst:2
+msgid "Multiton"
+msgstr "Пул одиночек (Multiton)"
+
+#: ../../Creational/Multiton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+"**Это считается анти-паттерном! Для лучшей тестируемости и сопровождения "
+"кода используйте Инъекцию Зависимости (Dependency Injection)!**"
+
+#: ../../Creational/Multiton/README.rst:8
+msgid "Purpose"
+msgstr "Назначение"
+
+#: ../../Creational/Multiton/README.rst:10
+msgid ""
+"To have only a list of named instances that are used, like a singleton but "
+"with n instances."
+msgstr ""
+"Содержит список именованных созданных экземпляров классов, которые в итоге "
+"используются как Singleton-ы, но в заданном заранее N-ном количестве."
+
+#: ../../Creational/Multiton/README.rst:14
+msgid "Examples"
+msgstr "Примеры"
+
+#: ../../Creational/Multiton/README.rst:16
+msgid "2 DB Connectors, e.g. one for MySQL, the other for SQLite"
+msgstr ""
+"Два объекта для доступа к базам данных, к примеру, один для MySQL, а "
+"второй для SQLite"
+
+#: ../../Creational/Multiton/README.rst:17
+msgid "multiple Loggers (one for debug messages, one for errors)"
+msgstr ""
+"Несколько логгирующих объектов (один для отладочных сообщений, другой для "
+"ошибок и т.п.) "
+
+#: ../../Creational/Multiton/README.rst:20
+msgid "UML Diagram"
+msgstr "UML Диаграмма"
+
+#: ../../Creational/Multiton/README.rst:27
+msgid "Code"
+msgstr "Код"
+
+#: ../../Creational/Multiton/README.rst:29
+msgid "You can also find these code on `GitHub`_"
+msgstr "Вы можете найти этот код на `GitHub`_"
+
+#: ../../Creational/Multiton/README.rst:31
+msgid "Multiton.php"
+msgstr "Multiton.php"
+
+#: ../../Creational/Multiton/README.rst:38
+msgid "Test"
+msgstr "Тест"

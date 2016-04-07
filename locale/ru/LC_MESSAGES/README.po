@@ -1,0 +1,125 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-29 19:46+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../README.rst:5
+msgid "DesignPatternsPHP"
+msgstr "DesignPatternsPHP"
+
+#: ../../README.rst:11
+msgid ""
+"This is a collection of known `design patterns`_ and some sample code how "
+"to implement them in PHP. Every pattern has a small list of examples (most "
+"of them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar "
+"with this software)."
+msgstr ""
+"Это набор известных `шаблонов проектирования <https://ru.wikipedia.org/wiki/Шаблон_проектирования>`_ (паттернов) и некоторые "
+"примеры их реализации в PHP. Каждый паттерн содержит небольшой перечень "
+"примеров (большинство из них для ZendFramework, Symfony2 или Doctrine2, так "
+"как я лучше всего знаком с этим программным обеспечением)."
+
+#: ../../README.rst:16
+msgid ""
+"I think the problem with patterns is that often people do know them but "
+"don't know when to apply which."
+msgstr ""
+"Я считаю, проблема паттернов в том, что люди часто знакомы с ними, но не "
+"представляют как их применять."
+
+#: ../../README.rst:20
+msgid "Patterns"
+msgstr "Паттерны"
+
+#: ../../README.rst:22
+msgid ""
+"The patterns can be structured in roughly three different categories. "
+"Please click on **the title of every pattern's page** for a full "
+"explanation of the pattern on Wikipedia."
+msgstr ""
+"Паттерны могут быть условно сгруппированы в три различные категории. "
+"Нажмите на **заголовок каждой страницы с паттерном** для детального "
+"объяснения паттерна в Википедии."
+
+#: ../../README.rst:35
+msgid "Contribute"
+msgstr "Участие в разработке"
+
+#: ../../README.rst:37
+msgid ""
+"Please feel free to fork and extend existing or add your own examples and "
+"send a pull request with your changes! To establish a consistent code "
+"quality, please check your code using `PHP CodeSniffer`_ against `PSR2 "
+"standard`_ using ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor ."
+"``."
+msgstr ""
+"Мы приветствуем ответвления этого репозитория. Добавляйте свои примеры и "
+"отправляйте запросы на изменение (pull requests)! Чтобы сохранять высокое "
+"качество кода, пожалуйста, проверяйте ваш код на соответствие стандарту "
+"`PSR2`. Для этого вы можете воспользоваться `PHP CodeSniffer`_ командой ``./"
+"vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``."
+
+#: ../../README.rst:44
+msgid "License"
+msgstr "Лицензия"
+
+#: ../../README.rst:46
+msgid "(The MIT License)"
+msgstr "(The MIT License)"
+
+#: ../../README.rst:48
+msgid "Copyright (c) 2014 `Dominik Liebler`_ and `contributors`_"
+msgstr "Copyright (c) 2014 `Dominik Liebler`_ and `contributors`_"
+
+#: ../../README.rst:50
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining a "
+"copy of this software and associated documentation files (the 'Software'), "
+"to deal in the Software without restriction, including without limitation "
+"the rights to use, copy, modify, merge, publish, distribute, sublicense, "
+"and/or sell copies of the Software, and to permit persons to whom the "
+"Software is furnished to do so, subject to the following conditions:"
+msgstr ""
+"Данная лицензия разрешает лицам, получившим копию данного программного "
+"обеспечения и сопутствующую документациию (в дальнейшем именуемыми "
+"«Программное Обеспечение»), безвозмездно использовать Программное "
+"Обеспечение без ограничений, включая неограниченное право на использование, "
+"копирование, изменение, добавление, публикацию, распространение, "
+"сублицензирование и/или продажу копий Программного Обеспечения, а также "
+"лицам, которым предоставляется данное Программное Обеспечение, при "
+"соблюдении следующих условий:"
+
+#: ../../README.rst:58
+msgid ""
+"The above copyright notice and this permission notice shall be included in "
+"all copies or substantial portions of the Software."
+msgstr ""
+"Указанное выше уведомление об авторском праве и данные условия должны быть "
+"включены во все копии или значимые части данного Программного Обеспечения."
+
+#: ../../README.rst:61
+msgid ""
+"THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR "
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, "
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE "
+"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER "
+"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING "
+"FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER "
+"DEALINGS IN THE SOFTWARE."
+msgstr ""
+"ДАННОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ», БЕЗ КАКИХ-ЛИБО "
+"ГАРАНТИЙ, ЯВНО ВЫРАЖЕННЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ ГАРАНТИИ ТОВАРНОЙ "
+"ПРИГОДНОСТИ, СООТВЕТСТВИЯ ПО ЕГО КОНКРЕТНОМУ НАЗНАЧЕНИЮ И ОТСУТСТВИЯ "
+"НАРУШЕНИЙ, НО НЕ ОГРАНИЧИВАЯСЬ ИМИ. НИ В КАКОМ СЛУЧАЕ АВТОРЫ ИЛИ "
+"ПРАВООБЛАДАТЕЛИ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ПО КАКИМ-ЛИБО ИСКАМ, ЗА УЩЕРБ ИЛИ "
+"ПО ИНЫМ ТРЕБОВАНИЯМ, В ТОМ ЧИСЛЕ, ПРИ ДЕЙСТВИИ КОНТРАКТА, ДЕЛИКТЕ ИЛИ ИНОЙ "
+"СИТУАЦИИ, ВОЗНИКШИМ ИЗ-ЗА ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ ИНЫХ "
+"ДЕЙСТВИЙ С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ."

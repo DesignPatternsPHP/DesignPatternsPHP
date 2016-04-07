@@ -1,0 +1,117 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/DependencyInjection/README.rst:2
+msgid "`Dependency Injection`__"
+msgstr "`依赖注入`"
+
+#: ../../Structural/DependencyInjection/README.rst:5
+msgid "Purpose"
+msgstr "目的"
+
+#: ../../Structural/DependencyInjection/README.rst:7
+msgid ""
+"To implement a loosely coupled architecture in order to get better testable,"
+" maintainable and extendable code."
+msgstr "实现了松耦合的软件架构，可得到更好的测试，管理和扩展的代码"
+
+#: ../../Structural/DependencyInjection/README.rst:11
+msgid "Usage"
+msgstr "用例"
+
+#: ../../Structural/DependencyInjection/README.rst:13
+msgid ""
+"Configuration gets injected and ``Connection`` will get all that it needs "
+"from ``$config``. Without DI, the configuration would be created directly in"
+" ``Connection``, which is not very good for testing and extending "
+"``Connection``."
+msgstr ""
+"通过配置需要注入的依赖，``Connection`` 能从 ``$config`` 中获取到所有它需要的依赖。如果没有"
+"依赖注入，``Connection`` 会直接创建它需要的依赖，这样不利于测试和扩展``Connection``。"
+
+#: ../../Structural/DependencyInjection/README.rst:18
+msgid ""
+"Notice we are following Inversion of control principle in ``Connection`` by "
+"asking ``$config`` to implement ``Parameters`` interface. This decouples our"
+" components. We don't care where the source of information comes from, we "
+"only care that ``$config`` has certain methods to retrieve that information."
+" Read more about Inversion of control `here "
+"<http://en.wikipedia.org/wiki/Inversion_of_control>`__."
+msgstr ""
+"注意我们一直在遵循控制反转的设计原则，``Connection`` 通过要求 ``$config`` 实现 ``Parameters`` 的接口。这样就达到了组建间"
+"的解耦。我们不需要关心信息的来源，只需要关心 ``$config`` 中一定有方法来获取我们需要的信息。"
+"阅读更多的关于控制反转的资料请点"
+" `这里<http://en.wikipedia.org/wiki/Inversion_of_control>`__."
+
+#: ../../Structural/DependencyInjection/README.rst:26
+msgid "Examples"
+msgstr "例子"
+
+#: ../../Structural/DependencyInjection/README.rst:28
+msgid ""
+"The Doctrine2 ORM uses dependency injection e.g. for configuration that is "
+"injected into a ``Connection`` object. For testing purposes, one can easily "
+"create a mock object of the configuration and inject that into the "
+"``Connection`` object"
+msgstr ""
+"Doctrine2 ORM 使用了依赖注入，它通过配置注入了 ``Connection`` 对象。为了达到方便测试的目的，"
+"可以很容易的通过配置创建一个mock的``Connection`` 对象。"
+
+#: ../../Structural/DependencyInjection/README.rst:32
+msgid ""
+"Symfony and Zend Framework 2 already have containers for DI that create "
+"objects via a configuration array and inject them where needed (i.e. in "
+"Controllers)"
+msgstr ""
+"Symfony 和 Zend Framework 2 也有了专门的依赖注入容器，用来通过配置数据创建需要的对象"
+"(比如在控制器中使用依赖注入容器获取所需的对象)"
+
+#: ../../Structural/DependencyInjection/README.rst:37
+msgid "UML Diagram"
+msgstr "UML 图"
+
+#: ../../Structural/DependencyInjection/README.rst:44
+msgid "Code"
+msgstr "代码"
+
+#: ../../Structural/DependencyInjection/README.rst:46
+msgid "You can also find these code on `GitHub`_"
+msgstr "你可以在 `GitHub`_ 上找到这些代码"
+
+#: ../../Structural/DependencyInjection/README.rst:48
+msgid "AbstractConfig.php"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:54
+msgid "Parameters.php"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:60
+msgid "ArrayConfig.php"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:66
+msgid "Connection.php"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:73
+msgid "Test"
+msgstr "测试"
+
+#: ../../Structural/DependencyInjection/README.rst:75
+msgid "Tests/DependencyInjectionTest.php"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:81
+msgid "Tests/config.php"
+msgstr ""

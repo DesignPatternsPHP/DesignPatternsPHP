@@ -3,7 +3,7 @@
 namespace DesignPatterns\Behavioral\Visitor;
 
 /**
- * Visitor Pattern
+ * Visitor Pattern.
  *
  * An implementation of a concrete Visitor
  */
@@ -14,7 +14,7 @@ class RolePrintVisitor implements RoleVisitorInterface
      */
     public function visitGroup(Group $role)
     {
-        echo "Role: " . $role->getName();
+        echo 'Role: '.$role->getName();
     }
 
     /**
@@ -22,6 +22,6 @@ class RolePrintVisitor implements RoleVisitorInterface
      */
     public function visitUser(User $role)
     {
-        echo "Role: " . $role->getName();
+        echo 'Role: '.$role->getName();
     }
 }

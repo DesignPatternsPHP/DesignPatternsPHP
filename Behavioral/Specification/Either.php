@@ -1,18 +1,18 @@
 <?php
+
 namespace DesignPatterns\Behavioral\Specification;
 
 /**
- * A logical OR specification
+ * A logical OR specification.
  */
 class Either extends AbstractSpecification
 {
-
     protected $left;
     protected $right;
 
     /**
-     * A composite wrapper of two specifications
-     * 
+     * A composite wrapper of two specifications.
+     *
      * @param SpecificationInterface $left
      * @param SpecificationInterface $right
      */
@@ -23,10 +23,10 @@ class Either extends AbstractSpecification
     }
 
     /**
-     * Returns the evaluation of both wrapped specifications as a logical OR
-     * 
+     * Returns the evaluation of both wrapped specifications as a logical OR.
+     *
      * @param Item $item
-     * 
+     *
      * @return bool
      */
     public function isSatisfiedBy(Item $item)

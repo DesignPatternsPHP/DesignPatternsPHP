@@ -1,0 +1,122 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-06-18 12:00-0300\n"
+"Last-Translator: Leonam Pereira Dias <leonam.pd@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+
+#: ../../README.rst:5
+msgid "DesignPatternsPHP"
+msgstr ""
+
+#: ../../README.rst:11
+msgid ""
+"This is a collection of known `design patterns`_ and some sample code how to"
+" implement them in PHP. Every pattern has a small list of examples (most of "
+"them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar with "
+"this software)."
+msgstr ""
+"Esta é uma coleção de padrões de projetos conhecidos e alguns códigos de exemplo de como "
+"implementá-los em PHP. Todo padrão tem uma pequena lista de exemplos (muitos deles "
+"vindos do Zend Framework, Symfony2 ou Doctrine2 já que tenho mais familiaridade com "
+"eles"
+
+#: ../../README.rst:16
+msgid ""
+"I think the problem with patterns is that often people do know them but "
+"don't know when to apply which."
+msgstr ""
+"Eu acredito que o problema com os padrões é que muitas pessoas os conhecem mas "
+"não sabem quando aplicá-los"
+
+#: ../../README.rst:20
+msgid "Patterns"
+msgstr ""
+"Padrões"
+
+#: ../../README.rst:22
+msgid ""
+"The patterns can be structured in roughly three different categories. Please"
+" click on **the title of every pattern's page** for a full explanation of "
+"the pattern on Wikipedia."
+msgstr ""
+"Os padrões podem ser estruturados grosseiramente em tres categorias diferentes. Por favor "
+"clique no **no título da página de cada padrão** para uma explicação completa do "
+"padrão na Wikipedia."
+
+#: ../../README.rst:35
+msgid "Contribute"
+msgstr ""
+"Contribua"
+
+#: ../../README.rst:37
+msgid ""
+"Please feel free to fork and extend existing or add your own examples and "
+"send a pull request with your changes! To establish a consistent code "
+"quality, please check your code using `PHP CodeSniffer`_ against `PSR2 "
+"standard`_ using ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor "
+".``."
+msgstr ""
+"Por favor, sinta-se a vontade para criar um fork e extender os exemplos existentes ou para criar os seus e "
+"envie um pull request com suas alterações! Para manter o código consistente "
+"e com qualidade, por favor, valide seu código usando o `PHP CodeSniffer`_ baseado na `PSR2`_ "
+"usando ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor``"
+
+#: ../../README.rst:44
+msgid "License"
+msgstr ""
+"Licença"
+
+#: ../../README.rst:46
+msgid "(The MIT License)"
+msgstr "(The MIT License)"
+
+#: ../../README.rst:48
+msgid "Copyright (c) 2014 `Dominik Liebler`_ and `contributors`_"
+msgstr "Copyright (c) 2014 `Dominik Liebler`_ and `contributors`_"
+
+#: ../../README.rst:50
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining a copy"
+" of this software and associated documentation files (the 'Software'), to "
+"deal in the Software without restriction, including without limitation the "
+"rights to use, copy, modify, merge, publish, distribute, sublicense, and/or "
+"sell copies of the Software, and to permit persons to whom the Software is "
+"furnished to do so, subject to the following conditions:"
+msgstr ""
+"Permissão é dada, sem qualquer cobrança, àquele que obter uma cópia"
+" deste software sem restrição, inclusive sem restrições de uso, cópia, modificação, mescla, publicação, distribuição, sublicense, e/ou "
+"venda de cópias deste Software, e permitir a quem o Software é "
+"fornecido o façam, nas seguintes condições:"
+
+#: ../../README.rst:58
+msgid ""
+"The above copyright notice and this permission notice shall be included in "
+"all copies or substantial portions of the Software."
+msgstr ""
+"O aviso de copyright acima e o aviso de permissão devem ser incluidos em "
+"todas as cópias ou porções substanciais deste Software."
+
+#: ../../README.rst:61
+msgid ""
+"THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR "
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, "
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE "
+"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER "
+"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING "
+"FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS"
+" IN THE SOFTWARE."
+msgstr ""
+"THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR "
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, "
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE "
+"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER "
+"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING "
+"FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS"
+" IN THE SOFTWARE."

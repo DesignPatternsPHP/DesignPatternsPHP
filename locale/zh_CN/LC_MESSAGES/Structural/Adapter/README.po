@@ -1,0 +1,86 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/Adapter/README.rst:2
+msgid "`Adapter / Wrapper`__"
+msgstr "`适配器模式`__"
+
+#: ../../Structural/Adapter/README.rst:5
+msgid "Purpose"
+msgstr "目的"
+
+#: ../../Structural/Adapter/README.rst:7
+msgid ""
+"To translate one interface for a class into a compatible interface. An "
+"adapter allows classes to work together that normally could not because of "
+"incompatible interfaces by providing it's interface to clients while using "
+"the original interface."
+msgstr ""
+"将某个类的接口转换成与另一个接口兼容。适配器通过将原始接口进行转换，给用户"
+"提供一个兼容接口，使得原来因为接口不同而无法一起使用的类可以得到兼容。"
+
+#: ../../Structural/Adapter/README.rst:13
+msgid "Examples"
+msgstr "例子"
+
+#: ../../Structural/Adapter/README.rst:15
+msgid "DB Client libraries adapter"
+msgstr "数据库客户端库适配器"
+
+#: ../../Structural/Adapter/README.rst:16
+msgid ""
+"using multiple different webservices and adapters normalize data so that the"
+" outcome is the same for all"
+msgstr ""
+"使用不同的webservices，通过适配器来标准化输出数据，从而保证不同webservice输出的"
+"数据是一致的"
+
+#: ../../Structural/Adapter/README.rst:20
+msgid "UML Diagram"
+msgstr "UML 图"
+
+#: ../../Structural/Adapter/README.rst:27
+msgid "Code"
+msgstr "代码"
+
+#: ../../Structural/Adapter/README.rst:29
+msgid "You can also find these code on `GitHub`_"
+msgstr "你可以在 `GitHub`_ 上找到这些代码"
+
+#: ../../Structural/Adapter/README.rst:31
+msgid "PaperBookInterface.php"
+msgstr ""
+
+#: ../../Structural/Adapter/README.rst:37
+msgid "Book.php"
+msgstr ""
+
+#: ../../Structural/Adapter/README.rst:43
+msgid "EBookAdapter.php"
+msgstr ""
+
+#: ../../Structural/Adapter/README.rst:49
+msgid "EBookInterface.php"
+msgstr ""
+
+#: ../../Structural/Adapter/README.rst:55
+msgid "Kindle.php"
+msgstr ""
+
+#: ../../Structural/Adapter/README.rst:62
+msgid "Test"
+msgstr "测试"
+
+#: ../../Structural/Adapter/README.rst:64
+msgid "Tests/AdapterTest.php"
+msgstr ""

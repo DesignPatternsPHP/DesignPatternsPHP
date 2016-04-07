@@ -1,0 +1,65 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Creational/Multiton/README.rst:2
+msgid "Multiton"
+msgstr "多例"
+
+#: ../../Creational/Multiton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr "**多例模式已经被考虑列入到反模式中！请使用依赖注入获得更好的代码可测试性和可控性！**"
+
+#: ../../Creational/Multiton/README.rst:8
+msgid "Purpose"
+msgstr "目的"
+
+#: ../../Creational/Multiton/README.rst:10
+msgid ""
+"To have only a list of named instances that are used, like a singleton but "
+"with n instances."
+msgstr "使类仅有一个命名的对象的集合可供使用，像单例模式但是有多个实例。"
+
+#: ../../Creational/Multiton/README.rst:14
+msgid "Examples"
+msgstr "例子"
+
+#: ../../Creational/Multiton/README.rst:16
+msgid "2 DB Connectors, e.g. one for MySQL, the other for SQLite"
+msgstr "2 个数据库连接，比如，一个连接MySQL，另一个连接SQLite"
+
+#: ../../Creational/Multiton/README.rst:17
+msgid "multiple Loggers (one for debug messages, one for errors)"
+msgstr "多个日志记录器（一个记录调试信息，另一个记录错误信息）"
+
+#: ../../Creational/Multiton/README.rst:20
+msgid "UML Diagram"
+msgstr "UML 图"
+
+#: ../../Creational/Multiton/README.rst:27
+msgid "Code"
+msgstr "代码"
+
+#: ../../Creational/Multiton/README.rst:29
+msgid "You can also find these code on `GitHub`_"
+msgstr "你可以在 `GitHub`_ 上找到这些代码"
+
+#: ../../Creational/Multiton/README.rst:31
+msgid "Multiton.php"
+msgstr ""
+
+#: ../../Creational/Multiton/README.rst:38
+msgid "Test"
+msgstr "测试"
+

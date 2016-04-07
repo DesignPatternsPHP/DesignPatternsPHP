@@ -1,0 +1,85 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/DataMapper/README.rst:2
+msgid "`Data Mapper`__"
+msgstr "`数据映射器`__"
+
+#: ../../Structural/DataMapper/README.rst:5
+msgid "Purpose"
+msgstr "目的"
+
+#: ../../Structural/DataMapper/README.rst:7
+msgid ""
+"A Data Mapper, is a Data Access Layer that performs bidirectional transfer "
+"of data between a persistent data store (often a relational database) and an"
+" in memory data representation (the domain layer). The goal of the pattern "
+"is to keep the in memory representation and the persistent data store "
+"independent of each other and the data mapper itself. The layer is composed "
+"of one or more mappers (or Data Access Objects), performing the data "
+"transfer. Mapper implementations vary in scope. Generic mappers will handle "
+"many different domain entity types, dedicated mappers will handle one or a "
+"few."
+msgstr ""
+"数据映射器是一个数据访问层，用于将数据在持久性数据存储（通常是一个关系数据库）"
+"和内存中的数据表示（领域层）之间进行相互转换。其目的是为了将数据的内存表示、持久存储、"
+"数据访问进行分离。该层由一个或者多个映射器组成（或者数据访问对象），并且进行数据的转换。"
+"映射器的实现在范围上有所不同。通用映射器将处理许多不同领域的实体类型，"
+"而专用映射器将处理一个或几个。"
+
+#: ../../Structural/DataMapper/README.rst:17
+msgid ""
+"The key point of this pattern is, unlike Active Record pattern, the data "
+"model follows Single Responsibility Principle."
+msgstr ""
+"此模式的主要特点是，与Active Record不同，其数据模式遵循单一职责原则"
+"(Single Responsibility Principle)。"
+
+#: ../../Structural/DataMapper/README.rst:21
+msgid "Examples"
+msgstr "例子"
+
+#: ../../Structural/DataMapper/README.rst:23
+msgid ""
+"DB Object Relational Mapper (ORM) : Doctrine2 uses DAO named as "
+"\"EntityRepository\""
+msgstr ""
+"DB Object Relational Mapper (ORM) : Doctrine2 使用 DAO "
+"\"EntityRepository\" 作为DAO"
+#: ../../Structural/DataMapper/README.rst:27
+msgid "UML Diagram"
+msgstr "UML 图"
+
+#: ../../Structural/DataMapper/README.rst:34
+msgid "Code"
+msgstr "代码"
+
+#: ../../Structural/DataMapper/README.rst:36
+msgid "You can also find these code on `GitHub`_"
+msgstr "你可以在 `GitHub`_ 上找到这些代码"
+
+#: ../../Structural/DataMapper/README.rst:38
+msgid "User.php"
+msgstr ""
+
+#: ../../Structural/DataMapper/README.rst:44
+msgid "UserMapper.php"
+msgstr ""
+
+#: ../../Structural/DataMapper/README.rst:51
+msgid "Test"
+msgstr "测试"
+
+#: ../../Structural/DataMapper/README.rst:53
+msgid "Tests/DataMapperTest.php"
+msgstr ""

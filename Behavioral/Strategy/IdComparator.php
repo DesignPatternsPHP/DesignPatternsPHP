@@ -3,7 +3,7 @@
 namespace DesignPatterns\Behavioral\Strategy;
 
 /**
- * Class IdComparator
+ * Class IdComparator.
  */
 class IdComparator implements ComparatorInterface
 {

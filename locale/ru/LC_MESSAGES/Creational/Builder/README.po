@@ -1,0 +1,118 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 22:36+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../Creational/Builder/README.rst:2
+msgid "`Builder`__"
+msgstr ""
+"`Строитель <https://ru.wikipedia.org/wiki/"
+"Строитель_(шаблон_проектирования)>`_ (`Builder`__)"
+
+#: ../../Creational/Builder/README.rst:5
+msgid "Purpose"
+msgstr "Назначение"
+
+#: ../../Creational/Builder/README.rst:7
+msgid "Builder is an interface that build parts of a complex object."
+msgstr "Строитель — это интерфейс для производства частей сложного объекта."
+
+#: ../../Creational/Builder/README.rst:9
+msgid ""
+"Sometimes, if the builder has a better knowledge of what it builds, this "
+"interface could be an abstract class with default methods (aka adapter)."
+msgstr ""
+"Иногда, если Строитель лучше знает о том, что он строит, этот интерфейс "
+"может быть абстрактным классом с методами по-умолчанию (адаптер)."
+
+#: ../../Creational/Builder/README.rst:12
+msgid ""
+"If you have a complex inheritance tree for objects, it is logical to have a "
+"complex inheritance tree for builders too."
+msgstr ""
+"Если у вас есть сложное дерево наследования для объектов, логично иметь "
+"сложное дерево наследования и для их строителей."
+
+#: ../../Creational/Builder/README.rst:15
+msgid ""
+"Note: Builders have often a fluent interface, see the mock builder of "
+"PHPUnit for example."
+msgstr ""
+"Примечание: Строители могут иметь `текучий интерфейс <https://ru.wikipedia."
+"org/wiki/Fluent_interface>`_, например, строитель макетов в PHPUnit."
+
+#: ../../Creational/Builder/README.rst:19
+msgid "Examples"
+msgstr "Примеры"
+
+#: ../../Creational/Builder/README.rst:21
+msgid "PHPUnit: Mock Builder"
+msgstr "PHPUnit: Mock Builder"
+
+#: ../../Creational/Builder/README.rst:24
+msgid "UML Diagram"
+msgstr "UML Диаграмма"
+
+#: ../../Creational/Builder/README.rst:31
+msgid "Code"
+msgstr "Код"
+
+#: ../../Creational/Builder/README.rst:33
+msgid "You can also find these code on `GitHub`_"
+msgstr "Вы можете найти этот код на `GitHub`_"
+
+#: ../../Creational/Builder/README.rst:35
+msgid "Director.php"
+msgstr "Director.php"
+
+#: ../../Creational/Builder/README.rst:41
+msgid "BuilderInterface.php"
+msgstr "BuilderInterface.php"
+
+#: ../../Creational/Builder/README.rst:47
+msgid "BikeBuilder.php"
+msgstr "BikeBuilder.php"
+
+#: ../../Creational/Builder/README.rst:53
+msgid "CarBuilder.php"
+msgstr "CarBuilder.php"
+
+#: ../../Creational/Builder/README.rst:59
+msgid "Parts/Vehicle.php"
+msgstr "Parts/Vehicle.php"
+
+#: ../../Creational/Builder/README.rst:65
+msgid "Parts/Bike.php"
+msgstr "Parts/Bike.php"
+
+#: ../../Creational/Builder/README.rst:71
+msgid "Parts/Car.php"
+msgstr "Parts/Car.php"
+
+#: ../../Creational/Builder/README.rst:77
+msgid "Parts/Engine.php"
+msgstr "Parts/Engine.php"
+
+#: ../../Creational/Builder/README.rst:83
+msgid "Parts/Wheel.php"
+msgstr "Parts/Wheel.php"
+
+#: ../../Creational/Builder/README.rst:89
+msgid "Parts/Door.php"
+msgstr "Parts/Door.php"
+
+#: ../../Creational/Builder/README.rst:96
+msgid "Test"
+msgstr "Тест"
+
+#: ../../Creational/Builder/README.rst:98
+msgid "Tests/DirectorTest.php"
+msgstr "Tests/DirectorTest.php"

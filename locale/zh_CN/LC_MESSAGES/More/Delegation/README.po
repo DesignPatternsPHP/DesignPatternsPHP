@@ -1,0 +1,75 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../More/Delegation/README.rst:2
+msgid "`Delegation`__"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:10
+msgid "Examples"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:15
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:22
+msgid "Code"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:24
+msgid "You can also find these code on `GitHub`_"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:26
+msgid "Usage.php"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:32
+msgid "TeamLead.php"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:38
+msgid "JuniorDeveloper.php"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:45
+msgid "Test"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:47
+msgid "Tests/DelegationTest.php"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:7
+msgid ""
+"Demonstrate the Delegator pattern, where an object, instead of performing "
+"one of its stated tasks, delegates that task to an associated helper object."
+" In this case TeamLead professes to writeCode and Usage uses this, while "
+"TeamLead delegates writeCode to JuniorDeveloper's writeBadCode function. "
+"This inverts the responsibility so that Usage is unknowingly executing "
+"writeBadCode."
+msgstr ""
+
+#: ../../More/Delegation/README.rst:12
+msgid ""
+"Please review JuniorDeveloper.php, TeamLead.php, and then Usage.php to see "
+"it all tied together."
+msgstr ""
+
+#~ msgid "..."
+#~ msgstr ""

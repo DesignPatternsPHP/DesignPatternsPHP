@@ -3,9 +3,8 @@
 namespace DesignPatterns\Creational\StaticFactory;
 
 /**
- * Class FormatNumber
+ * Class FormatNumber.
  */
 class FormatNumber implements FormatterInterface
 {
-
 }

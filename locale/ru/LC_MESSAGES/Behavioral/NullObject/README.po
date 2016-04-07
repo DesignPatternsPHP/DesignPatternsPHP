@@ -1,0 +1,112 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 14:24+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../Behavioral/NullObject/README.rst:2
+msgid "`Null Object`__"
+msgstr "`Объект Null <https://ru.wikipedia.org/wiki/Null_object_(Шаблон_проектирования)>`_ (`Null Object`__)"
+
+#: ../../Behavioral/NullObject/README.rst:5
+msgid "Purpose"
+msgstr "Назначение"
+
+#: ../../Behavioral/NullObject/README.rst:7
+msgid ""
+"NullObject is not a GoF design pattern but a schema which appears "
+"frequently enough to be considered a pattern. It has the following benefits:"
+msgstr ""
+"NullObject не шаблон из книги Банды Четырёх, но схема, которая появляется "
+"достаточно часто, чтобы считаться паттерном. Она имеет следующие "
+"преимущества:"
+
+#: ../../Behavioral/NullObject/README.rst:11
+msgid "Client code is simplified"
+msgstr "Клиентский код упрощается"
+
+#: ../../Behavioral/NullObject/README.rst:12
+msgid "Reduces the chance of null pointer exceptions"
+msgstr ""
+"Уменьшает шанс исключений из-за нулевых указателей (и ошибок PHP различного "
+"уровня)"
+
+#: ../../Behavioral/NullObject/README.rst:13
+msgid "Fewer conditionals require less test cases"
+msgstr "Меньше дополнительных условий — значит меньше тесткейсов"
+
+#: ../../Behavioral/NullObject/README.rst:15
+msgid ""
+"Methods that return an object or null should instead return an object or "
+"``NullObject``. ``NullObject``\\ s simplify boilerplate code such as ``if "
+"(!is_null($obj)) { $obj->callSomething(); }`` to just "
+"``$obj->callSomething();`` by eliminating the conditional check in client "
+"code."
+msgstr ""
+"Методы, которые возвращают объект или Null, вместо этого должны вернуть "
+"объект ``NullObject``. Это упрощённый формальный код, устраняющий "
+"необходимость проверки ``if (!is_null($obj)) { $obj->callSomething(); }``, "
+"заменяя её на обычный вызов ``$obj->callSomething();``."
+
+#: ../../Behavioral/NullObject/README.rst:22
+msgid "Examples"
+msgstr "Примеры"
+
+#: ../../Behavioral/NullObject/README.rst:24
+msgid "Symfony2: null logger of profiler"
+msgstr "Symfony2: null logger of profiler"
+
+#: ../../Behavioral/NullObject/README.rst:25
+msgid "Symfony2: null output in Symfony/Console"
+msgstr "Symfony2: null output in Symfony/Console"
+
+#: ../../Behavioral/NullObject/README.rst:26
+msgid "null handler in a Chain of Responsibilities pattern"
+msgstr "null handler in a Chain of Responsibilities pattern"
+
+#: ../../Behavioral/NullObject/README.rst:27
+msgid "null command in a Command pattern"
+msgstr "null command in a Command pattern"
+
+#: ../../Behavioral/NullObject/README.rst:30
+msgid "UML Diagram"
+msgstr "UML Диаграмма"
+
+#: ../../Behavioral/NullObject/README.rst:37
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/NullObject/README.rst:39
+msgid "You can also find these code on `GitHub`_"
+msgstr "Вы можете найти этот код на `GitHub`_"
+
+#: ../../Behavioral/NullObject/README.rst:41
+msgid "Service.php"
+msgstr "Service.php"
+
+#: ../../Behavioral/NullObject/README.rst:47
+msgid "LoggerInterface.php"
+msgstr "LoggerInterface.php"
+
+#: ../../Behavioral/NullObject/README.rst:53
+msgid "PrintLogger.php"
+msgstr "PrintLogger.php"
+
+#: ../../Behavioral/NullObject/README.rst:59
+msgid "NullLogger.php"
+msgstr "NullLogger.php"
+
+#: ../../Behavioral/NullObject/README.rst:66
+msgid "Test"
+msgstr "Тест"
+
+#: ../../Behavioral/NullObject/README.rst:68
+msgid "Tests/LoggerTest.php"
+msgstr "Tests/LoggerTest.php"

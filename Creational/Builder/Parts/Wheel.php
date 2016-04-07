@@ -3,9 +3,8 @@
 namespace DesignPatterns\Creational\Builder\Parts;
 
 /**
- * Class Wheel
+ * Class Wheel.
  */
 class Wheel
 {
-
 }

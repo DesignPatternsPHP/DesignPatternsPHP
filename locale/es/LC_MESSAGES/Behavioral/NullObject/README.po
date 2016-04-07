@@ -1,0 +1,103 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Behavioral/NullObject/README.rst:2
+msgid "`Null Object`__"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:7
+msgid ""
+"NullObject is not a GoF design pattern but a schema which appears frequently"
+" enough to be considered a pattern. It has the following benefits:"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:11
+msgid "Client code is simplified"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:12
+msgid "Reduces the chance of null pointer exceptions"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:13
+msgid "Fewer conditionals require less test cases"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:15
+msgid ""
+"Methods that return an object or null should instead return an object or "
+"``NullObject``. ``NullObject``\\ s simplify boilerplate code such as ``if "
+"(!is_null($obj)) { $obj->callSomething(); }`` to just "
+"``$obj->callSomething();`` by eliminating the conditional check in client "
+"code."
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:22
+msgid "Examples"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:24
+msgid "Symfony2: null logger of profiler"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:25
+msgid "Symfony2: null output in Symfony/Console"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:26
+msgid "null handler in a Chain of Responsibilities pattern"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:27
+msgid "null command in a Command pattern"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:30
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:37
+msgid "Code"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:39
+msgid "You can also find these code on `GitHub`_"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:41
+msgid "Service.php"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:47
+msgid "LoggerInterface.php"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:53
+msgid "PrintLogger.php"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:59
+msgid "NullLogger.php"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:66
+msgid "Test"
+msgstr ""
+
+#: ../../Behavioral/NullObject/README.rst:68
+msgid "Tests/LoggerTest.php"
+msgstr ""

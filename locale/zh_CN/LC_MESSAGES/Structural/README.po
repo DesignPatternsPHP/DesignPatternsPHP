@@ -1,0 +1,25 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/README.rst:2
+msgid "`Structural`__"
+msgstr "`结构型设计模式`__"
+
+#: ../../Structural/README.rst:4
+msgid ""
+"In Software Engineering, Structural Design Patterns are Design Patterns that"
+" ease the design by identifying a simple way to realize relationships "
+"between entities."
+msgstr ""
+"在软件工程中，结构型设计模式集是用来抽象真实程序中的对象实体之间的关系，并使"
+"这种关系可被描述，概括和具体化。"

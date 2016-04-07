@@ -1,0 +1,107 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 05:14+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../More/ServiceLocator/README.rst:2
+msgid "`Service Locator`__"
+msgstr "Локатор Служб (`Service Locator`__)"
+
+#: ../../More/ServiceLocator/README.rst:5
+msgid "Purpose"
+msgstr "Назначение"
+
+#: ../../More/ServiceLocator/README.rst:7
+msgid ""
+"To implement a loosely coupled architecture in order to get better testable,"
+" maintainable and extendable code. DI pattern and Service Locator pattern "
+"are an implementation of the Inverse of Control pattern."
+msgstr ""
+"Для реализации слабосвязанной архитектуры, чтобы получить хорошо "
+"тестируемый, сопровождаемый и расширяемый код. Паттерн Инъекция "
+"зависимостей (DI) и паттерн Локатор Служб — это реализация паттерна "
+"Инверсия управления (Inversion of Control, IoC)."
+
+#: ../../More/ServiceLocator/README.rst:12
+msgid "Usage"
+msgstr "Использование"
+
+#: ../../More/ServiceLocator/README.rst:14
+msgid ""
+"With ``ServiceLocator`` you can register a service for a given interface. By"
+" using the interface you can retrieve the service and use it in the classes "
+"of the application without knowing its implementation. You can configure and"
+" inject the Service Locator object on bootstrap."
+msgstr ""
+"С ``Локатором Служб`` вы можете зарегистрировать сервис для определенного "
+"интерфейса. С помощью интерфейса вы можете получить зарегистрированный "
+"сервис и использовать его в классах приложения, не зная его реализацию. Вы "
+"можете настроить и внедрить объект Service Locator на начальном этапе "
+"сборки приложения."
+
+#: ../../More/ServiceLocator/README.rst:20
+msgid "Examples"
+msgstr "Примеры"
+
+#: ../../More/ServiceLocator/README.rst:22
+msgid ""
+"Zend Framework 2 uses Service Locator to create and share services used in "
+"the framework(i.e. EventManager, ModuleManager, all custom user services "
+"provided by modules, etc...)"
+msgstr ""
+"Zend Framework 2 использует Service Locator для создания и совместного "
+"использования сервисов, задействованных в фреймворке (т.е. EventManager, "
+"ModuleManager, все пользовательские сервисы, предоставляемые модулями, и т."
+"д ...)"
+
+#: ../../More/ServiceLocator/README.rst:27
+msgid "UML Diagram"
+msgstr "UML Диаграмма"
+
+#: ../../More/ServiceLocator/README.rst:34
+msgid "Code"
+msgstr "Код"
+
+#: ../../More/ServiceLocator/README.rst:36
+msgid "You can also find these code on `GitHub`_"
+msgstr "Вы можете найти этот код на `GitHub`_"
+
+#: ../../More/ServiceLocator/README.rst:38
+msgid "ServiceLocatorInterface.php"
+msgstr "ServiceLocatorInterface.php"
+
+#: ../../More/ServiceLocator/README.rst:44
+msgid "ServiceLocator.php"
+msgstr "ServiceLocator.php"
+
+#: ../../More/ServiceLocator/README.rst:50
+msgid "LogServiceInterface.php"
+msgstr "LogServiceInterface.php"
+
+#: ../../More/ServiceLocator/README.rst:56
+msgid "LogService.php"
+msgstr "LogService.php"
+
+#: ../../More/ServiceLocator/README.rst:62
+msgid "DatabaseServiceInterface.php"
+msgstr "DatabaseServiceInterface.php"
+
+#: ../../More/ServiceLocator/README.rst:68
+msgid "DatabaseService.php"
+msgstr "DatabaseService.php"
+
+#: ../../More/ServiceLocator/README.rst:75
+msgid "Test"
+msgstr "Тест"
+
+#: ../../More/ServiceLocator/README.rst:77
+msgid "Tests/ServiceLocatorTest.php"
+msgstr "Tests/ServiceLocatorTest.php"

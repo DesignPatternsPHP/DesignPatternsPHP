@@ -3,11 +3,10 @@
 namespace DesignPatterns\Structural\Bridge;
 
 /**
- * Refined Abstraction
+ * Refined Abstraction.
  */
 class Car extends Vehicle
 {
-
     public function __construct(Workshop $workShop1, Workshop $workShop2)
     {
         parent::__construct($workShop1, $workShop2);
@@ -15,7 +14,7 @@ class Car extends Vehicle
 
     public function manufacture()
     {
-        print 'Car ';
+        echo 'Car ';
         $this->workShop1->work();
         $this->workShop2->work();
     }

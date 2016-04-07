@@ -1,0 +1,94 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Creational/FactoryMethod/README.rst:2
+msgid "`Factory Method`__"
+msgstr "`工厂方法`__"
+
+#: ../../Creational/FactoryMethod/README.rst:5
+msgid "Purpose"
+msgstr "目的"
+
+#: ../../Creational/FactoryMethod/README.rst:7
+msgid ""
+"The good point over the SimpleFactory is you can subclass it to implement "
+"different ways to create objects"
+msgstr ""
+"比简单工厂模式好的一点是工厂方法可以通过继承实现不同的创建对象的逻辑。"
+
+#: ../../Creational/FactoryMethod/README.rst:10
+msgid "For simple case, this abstract class could be just an interface"
+msgstr ""
+"举个简单的例子，这些抽象类都仅仅是一个接口"
+
+#: ../../Creational/FactoryMethod/README.rst:12
+msgid ""
+"This pattern is a \"real\" Design Pattern because it achieves the "
+"\"Dependency Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
+msgstr ""
+"这个模式是一个 \"真正\" 的设计模式，因为它遵循了依赖反转原则（Dependency Inversion Principle） 众所周知这个 \"D\" 代表了真正的面向对象程序设计。"
+
+#: ../../Creational/FactoryMethod/README.rst:15
+msgid ""
+"It means the FactoryMethod class depends on abstractions, not concrete "
+"classes. This is the real trick compared to SimpleFactory or StaticFactory."
+msgstr ""
+"它意味着工厂方法类依赖于类的抽象，而不是具体将被创建的类，这是工厂方法模式与简单工厂模式和静态工厂模式最重要的区别"
+
+#: ../../Creational/FactoryMethod/README.rst:20
+msgid "UML Diagram"
+msgstr "UML 图"
+
+#: ../../Creational/FactoryMethod/README.rst:27
+msgid "Code"
+msgstr "代码"
+
+#: ../../Creational/FactoryMethod/README.rst:29
+msgid "You can also find these code on `GitHub`_"
+msgstr "你可以在 `GitHub`_ 上找到这些代码"
+
+#: ../../Creational/FactoryMethod/README.rst:31
+msgid "FactoryMethod.php"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:37
+msgid "ItalianFactory.php"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:43
+msgid "GermanFactory.php"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:49
+msgid "VehicleInterface.php"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:55
+msgid "Porsche.php"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:61
+msgid "Bicycle.php"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:67
+msgid "Ferrari.php"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:74
+msgid "Test"
+msgstr "测试"
+
+#: ../../Creational/FactoryMethod/README.rst:76
+msgid "Tests/FactoryMethodTest.php"
+msgstr ""

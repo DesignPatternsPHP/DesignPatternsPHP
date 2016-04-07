@@ -1,0 +1,101 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-29 21:17+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:2
+msgid "`Chain Of Responsibilities`__"
+msgstr "`Цепочка Обязанностей <https://ru.wikipedia.org/wiki/Цепочка_обязанностей>`_ (`Chain Of Responsibilities`__)"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:5
+msgid "Purpose:"
+msgstr "Назначение:"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:7
+msgid ""
+"To build a chain of objects to handle a call in sequential order. If one "
+"object cannot handle a call, it delegates the call to the next in the chain "
+"and so forth."
+msgstr ""
+"Построить цепочку объектов для обработки вызова в последовательном порядке. "
+"Если один объект не может справиться с вызовом, он делегирует вызов для "
+"следующего в цепи и так далее."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:12
+msgid "Examples:"
+msgstr "Примеры:"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:14
+msgid ""
+"logging framework, where each chain element decides autonomously what to do "
+"with a log message"
+msgstr ""
+"фреймворк для записи журналов, где каждый элемент цепи самостоятельно "
+"принимает решение, что делать с сообщением для логгирования."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:16
+msgid "a Spam filter"
+msgstr "фильтр спама"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:17
+msgid ""
+"Caching: first object is an instance of e.g. a Memcached Interface, if that "
+"\"misses\" it delegates the call to the database interface"
+msgstr ""
+"кеширование: первый объект является экземпляром, к примеру, интерфейса "
+"Memcached. Если запись в кеше отсутствует, вызов делегируется интерфейсу "
+"базы данных."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
+msgid ""
+"Yii Framework: CFilterChain is a chain of controller action filters. the "
+"executing point is passed from one filter to the next along the chain, and "
+"only if all filters say \"yes\", the action can be invoked at last."
+msgstr ""
+"Yii Framework: CFilterChain — это цепочка фильтров действий контроллера. "
+"Точка вызова передаётся от фильтра к фильтру по цепочке и только если все "
+"фильтры скажут “да”, действие в итоге может быть вызвано."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:25
+msgid "UML Diagram"
+msgstr "UML Диаграмма"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:32
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:34
+msgid "You can also find these code on `GitHub`_"
+msgstr "Вы можете найти этот код на `GitHub`_"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:36
+msgid "Request.php"
+msgstr "Request.php"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:42
+msgid "Handler.php"
+msgstr "Handler.php"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:48
+msgid "Responsible/SlowStorage.php"
+msgstr "Responsible/SlowStorage.php"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:54
+msgid "Responsible/FastStorage.php"
+msgstr "Responsible/FastStorage.php"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:61
+msgid "Test"
+msgstr "Тест"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:63
+msgid "Tests/ChainTest.php"
+msgstr "Tests/ChainTest.php"

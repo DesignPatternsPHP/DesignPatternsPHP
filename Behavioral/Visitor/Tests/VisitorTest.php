@@ -5,11 +5,10 @@ namespace DesignPatterns\Tests\Visitor\Tests;
 use DesignPatterns\Behavioral\Visitor;
 
 /**
- * VisitorTest tests the visitor pattern
+ * VisitorTest tests the visitor pattern.
  */
 class VisitorTest extends \PHPUnit_Framework_TestCase
 {
-
     protected $visitor;
 
     protected function setUp()
@@ -20,8 +19,8 @@ class VisitorTest extends \PHPUnit_Framework_TestCase
     public function getRole()
     {
         return array(
-            array(new Visitor\User("Dominik"), 'Role: User Dominik'),
-            array(new Visitor\Group("Administrators"), 'Role: Group: Administrators')
+            array(new Visitor\User('Dominik'), 'Role: User Dominik'),
+            array(new Visitor\Group('Administrators'), 'Role: Group: Administrators'),
         );
     }
 

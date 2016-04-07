@@ -1,0 +1,107 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/DependencyInjection/README.rst:2
+msgid "`Dependency Injection`__"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:7
+msgid ""
+"To implement a loosely coupled architecture in order to get better testable,"
+" maintainable and extendable code."
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:11
+msgid "Usage"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:13
+msgid ""
+"Configuration gets injected and ``Connection`` will get all that it needs "
+"from ``$config``. Without DI, the configuration would be created directly in"
+" ``Connection``, which is not very good for testing and extending "
+"``Connection``."
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:18
+msgid ""
+"Notice we are following Inversion of control principle in ``Connection`` by "
+"asking ``$config`` to implement ``Parameters`` interface. This decouples our"
+" components. We don't care where the source of information comes from, we "
+"only care that ``$config`` has certain methods to retrieve that information."
+" Read more about Inversion of control `here "
+"<http://en.wikipedia.org/wiki/Inversion_of_control>`__."
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:26
+msgid "Examples"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:28
+msgid ""
+"The Doctrine2 ORM uses dependency injection e.g. for configuration that is "
+"injected into a ``Connection`` object. For testing purposes, one can easily "
+"create a mock object of the configuration and inject that into the "
+"``Connection`` object"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:32
+msgid ""
+"Symfony and Zend Framework 2 already have containers for DI that create "
+"objects via a configuration array and inject them where needed (i.e. in "
+"Controllers)"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:37
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:44
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:46
+msgid "You can also find these code on `GitHub`_"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:48
+msgid "AbstractConfig.php"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:54
+msgid "Parameters.php"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:60
+msgid "ArrayConfig.php"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:66
+msgid "Connection.php"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:73
+msgid "Test"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:75
+msgid "Tests/DependencyInjectionTest.php"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:81
+msgid "Tests/config.php"
+msgstr ""

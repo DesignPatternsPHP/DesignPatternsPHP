@@ -3,16 +3,15 @@
 namespace DesignPatterns\Tests\Mediator\Tests;
 
 use DesignPatterns\Behavioral\Mediator\Mediator;
-use DesignPatterns\Behavioral\Mediator\Subsystem\Database;
 use DesignPatterns\Behavioral\Mediator\Subsystem\Client;
+use DesignPatterns\Behavioral\Mediator\Subsystem\Database;
 use DesignPatterns\Behavioral\Mediator\Subsystem\Server;
 
 /**
- * MediatorTest tests hello world
+ * MediatorTest tests hello world.
  */
 class MediatorTest extends \PHPUnit_Framework_TestCase
 {
-
     protected $client;
 
     protected function setUp()

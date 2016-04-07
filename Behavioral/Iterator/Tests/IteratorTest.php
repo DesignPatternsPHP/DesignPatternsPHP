@@ -9,7 +9,6 @@ use DesignPatterns\Behavioral\Iterator\BookListReverseIterator;
 
 class IteratorTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var BookList
      */
@@ -30,8 +29,8 @@ class IteratorTest extends \PHPUnit_Framework_TestCase
                 array(
                     'Learning PHP Design Patterns by William Sanders',
                     'Professional Php Design Patterns by Aaron Saray',
-                    'Clean Code by Robert C. Martin'
-                )
+                    'Clean Code by Robert C. Martin',
+                ),
             ),
         );
     }
@@ -62,5 +61,14 @@ class IteratorTest extends \PHPUnit_Framework_TestCase
             $this->assertEquals($expectedBook, $iterator->current()->getAuthorAndTitle());
             $iterator->next();
         }
+    }
+
+    /**
+     * Test BookList Remove.
+     */
+    public function testBookRemove()
+    {
+        $this->bookList->removeBook($this->bookList->getBook(0));
+        $this->assertEquals($this->bookList->count(), 2);
     }
 }

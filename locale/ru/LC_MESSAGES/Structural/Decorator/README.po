@@ -1,0 +1,82 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-06-02 00:53+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../Structural/Decorator/README.rst:2
+msgid "`Decorator`__"
+msgstr ""
+"`Декоратор <https://ru.wikipedia.org/wiki/"
+"Декоратор_(шаблон_проектирования)>`_ (`Decorator`__)"
+
+#: ../../Structural/Decorator/README.rst:5
+msgid "Purpose"
+msgstr "Назначение"
+
+#: ../../Structural/Decorator/README.rst:7
+msgid "To dynamically add new functionality to class instances."
+msgstr "Динамически добавляет новую функциональность в экземпляры классов."
+
+#: ../../Structural/Decorator/README.rst:10
+msgid "Examples"
+msgstr "Примеры"
+
+#: ../../Structural/Decorator/README.rst:12
+msgid "Zend Framework: decorators for ``Zend_Form_Element`` instances"
+msgstr "Zend Framework: декораторы для экземпляров ``Zend_Form_Element``"
+
+#: ../../Structural/Decorator/README.rst:13
+msgid ""
+"Web Service Layer: Decorators JSON and XML for a REST service (in this case,"
+" only one of these should be allowed of course)"
+msgstr ""
+"Web Service Layer: Декораторы JSON и XML для REST сервисов (в этом случае, "
+"конечно, только один из них может быть разрешен)."
+
+#: ../../Structural/Decorator/README.rst:17
+msgid "UML Diagram"
+msgstr "UML Диаграмма"
+
+#: ../../Structural/Decorator/README.rst:24
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/Decorator/README.rst:26
+msgid "You can also find these code on `GitHub`_"
+msgstr "Вы можете найти этот код на `GitHub`_"
+
+#: ../../Structural/Decorator/README.rst:28
+msgid "RendererInterface.php"
+msgstr "RendererInterface.php"
+
+#: ../../Structural/Decorator/README.rst:34
+msgid "Webservice.php"
+msgstr "Webservice.php"
+
+#: ../../Structural/Decorator/README.rst:40
+msgid "Decorator.php"
+msgstr "Decorator.php"
+
+#: ../../Structural/Decorator/README.rst:46
+msgid "RenderInXml.php"
+msgstr "RenderInXml.php"
+
+#: ../../Structural/Decorator/README.rst:52
+msgid "RenderInJson.php"
+msgstr "RenderInJson.php"
+
+#: ../../Structural/Decorator/README.rst:59
+msgid "Test"
+msgstr "Тест"
+
+#: ../../Structural/Decorator/README.rst:61
+msgid "Tests/DecoratorTest.php"
+msgstr "Tests/DecoratorTest.php"

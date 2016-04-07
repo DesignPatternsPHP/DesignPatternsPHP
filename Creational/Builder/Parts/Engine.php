@@ -3,9 +3,8 @@
 namespace DesignPatterns\Creational\Builder\Parts;
 
 /**
- * Class Engine
+ * Class Engine.
  */
 class Engine
 {
-
 }

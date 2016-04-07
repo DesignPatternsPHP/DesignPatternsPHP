@@ -1,0 +1,82 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 23:24+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../Creational/StaticFactory/README.rst:2
+msgid "Static Factory"
+msgstr "Статическая Фабрика (Static Factory)"
+
+#: ../../Creational/StaticFactory/README.rst:5
+msgid "Purpose"
+msgstr "Назначение"
+
+#: ../../Creational/StaticFactory/README.rst:7
+msgid ""
+"Similar to the AbstractFactory, this pattern is used to create series of "
+"related or dependent objects. The difference between this and the abstract "
+"factory pattern is that the static factory pattern uses just one static "
+"method to create all types of objects it can create. It is usually named "
+"``factory`` or ``build``."
+msgstr ""
+"Подобно AbstractFactory, этот паттерн используется для создания ряда "
+"связанных или зависимых объектов. Разница между этим шаблоном и Абстрактной "
+"Фабрикой заключается в том, что Статическая Фабрика использует только один "
+"статический метод, чтобы создать все допустимые типы объектов. Этот метод, "
+"обычно, называется ``factory`` или ``build``."
+
+#: ../../Creational/StaticFactory/README.rst:14
+msgid "Examples"
+msgstr "Примеры"
+
+#: ../../Creational/StaticFactory/README.rst:16
+msgid ""
+"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory method"
+" create cache backends or frontends"
+msgstr ""
+"Zend Framework: ``Zend_Cache_Backend`` или ``_Frontend`` использует "
+"фабричный метод для создания cache backends или frontends"
+
+#: ../../Creational/StaticFactory/README.rst:20
+msgid "UML Diagram"
+msgstr "UML Диаграмма"
+
+#: ../../Creational/StaticFactory/README.rst:27
+msgid "Code"
+msgstr "Код"
+
+#: ../../Creational/StaticFactory/README.rst:29
+msgid "You can also find these code on `GitHub`_"
+msgstr "Вы можете найти этот код на `GitHub`_"
+
+#: ../../Creational/StaticFactory/README.rst:31
+msgid "StaticFactory.php"
+msgstr "StaticFactory.php"
+
+#: ../../Creational/StaticFactory/README.rst:37
+msgid "FormatterInterface.php"
+msgstr "FormatterInterface.php"
+
+#: ../../Creational/StaticFactory/README.rst:43
+msgid "FormatString.php"
+msgstr "FormatString.php"
+
+#: ../../Creational/StaticFactory/README.rst:49
+msgid "FormatNumber.php"
+msgstr "FormatNumber.php"
+
+#: ../../Creational/StaticFactory/README.rst:56
+msgid "Test"
+msgstr "Тест"
+
+#: ../../Creational/StaticFactory/README.rst:58
+msgid "Tests/StaticFactoryTest.php"
+msgstr "Tests/StaticFactoryTest.php"

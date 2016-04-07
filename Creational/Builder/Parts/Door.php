@@ -3,9 +3,8 @@
 namespace DesignPatterns\Creational\Builder\Parts;
 
 /**
- * Class Door
+ * Class Door.
  */
 class Door
 {
-
 }

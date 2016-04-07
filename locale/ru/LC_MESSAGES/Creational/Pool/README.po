@@ -1,0 +1,98 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 23:08+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../Creational/Pool/README.rst:2
+msgid "`Pool`__"
+msgstr ""
+"`Объектный пул <https://ru.wikipedia.org/wiki/Объектный_пул>`_ (`Pool`__)"
+
+#: ../../Creational/Pool/README.rst:4
+msgid ""
+"The **object pool pattern** is a software creational design pattern that "
+"uses a set of initialized objects kept ready to use – a \"pool\" – rather "
+"than allocating and destroying them on demand. A client of the pool will "
+"request an object from the pool and perform operations on the returned "
+"object. When the client has finished, it returns the object, which is a "
+"specific type of factory object, to the pool rather than destroying it."
+msgstr ""
+"Порождающий паттерн, который предоставляет набор заранее инициализированных "
+"объектов, готовых к использованию («пул»), что не требует каждый раз "
+"создавать и уничтожать их."
+
+#: ../../Creational/Pool/README.rst:11
+msgid ""
+"Object pooling can offer a significant performance boost in situations where"
+" the cost of initializing a class instance is high, the rate of "
+"instantiation of a class is high, and the number of instances in use at any "
+"one time is low. The pooled object is obtained in predictable time when "
+"creation of the new objects (especially over network) may take variable "
+"time."
+msgstr ""
+"Хранение объектов в пуле может заметно повысить производительность в "
+"ситуациях, когда стоимость инициализации экземпляра класса высока, скорость "
+"экземпляра класса высока, а количество одновременно используемых "
+"экземпляров в любой момент времени является низкой. Время на извлечение "
+"объекта из пула легко прогнозируется, в отличие от создания новых объектов "
+"(особенно с сетевым оверхедом), что занимает неопределённое время."
+
+#: ../../Creational/Pool/README.rst:18
+msgid ""
+"However these benefits are mostly true for objects that are expensive with "
+"respect to time, such as database connections, socket connections, threads "
+"and large graphic objects like fonts or bitmaps. In certain situations, "
+"simple object pooling (that hold no external resources, but only occupy "
+"memory) may not be efficient and could decrease performance."
+msgstr ""
+"Однако эти преимущества в основном относится к объектам, которые изначально "
+"являются дорогостоящими по времени создания. Например, соединения с базой "
+"данных, соединения сокетов, потоков и инициализация больших графических "
+"объектов, таких как шрифты или растровые изображения. В некоторых "
+"ситуациях, использование простого пула объектов (которые не зависят от "
+"внешних ресурсов, а только занимают память) может оказаться неэффективным и "
+"приведёт к снижению производительности."
+
+#: ../../Creational/Pool/README.rst:25
+msgid "UML Diagram"
+msgstr "UML Диаграмма"
+
+#: ../../Creational/Pool/README.rst:32
+msgid "Code"
+msgstr "Код"
+
+#: ../../Creational/Pool/README.rst:34
+msgid "You can also find these code on `GitHub`_"
+msgstr "Вы можете найти этот код на `GitHub`_"
+
+#: ../../Creational/Pool/README.rst:36
+msgid "Pool.php"
+msgstr "Pool.php"
+
+#: ../../Creational/Pool/README.rst:42
+msgid "Processor.php"
+msgstr "Processor.php"
+
+#: ../../Creational/Pool/README.rst:48
+msgid "Worker.php"
+msgstr "Worker.php"
+
+#: ../../Creational/Pool/README.rst:55
+msgid "Test"
+msgstr "Тест"
+
+#: ../../Creational/Pool/README.rst:57
+msgid "Tests/PoolTest.php"
+msgstr "Tests/PoolTest.php"
+
+#: ../../Creational/Pool/README.rst:63
+msgid "Tests/TestWorker.php"
+msgstr "Tests/TestWorker.php"

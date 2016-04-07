@@ -1,0 +1,109 @@
+#
+# FULL NAME <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-29 12:37+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../../README.rst:5
+msgid "DesignPatternsPHP"
+msgstr "PHP设计模式范例"
+
+#: ../../README.rst:11
+msgid ""
+"This is a collection of known `design patterns`_ and some sample code how to "
+"implement them in PHP. Every pattern has a small list of examples (most of "
+"them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar with "
+"this software)."
+msgstr ""
+"这里收集了一些知名的 `设计模式`_ 以及它们对应的 PHP 实现的代码，每个模式都附"
+"有一个实际的例子（大多来源于Zend Framework， Symfony2 和 Doctrine2等）。"
+
+#: ../../README.rst:16
+msgid ""
+"I think the problem with patterns is that often people do know them but "
+"don't know when to apply which."
+msgstr ""
+"我认为人们对于设计模式抱有的问题在于大家都了解它们却不知道该如何在实际中使用它们。"
+
+#: ../../README.rst:20
+msgid "Patterns"
+msgstr "模式"
+
+#: ../../README.rst:22
+msgid ""
+"The patterns can be structured in roughly three different categories. Please "
+"click on **the title of every pattern's page** for a full explanation of the "
+"pattern on Wikipedia."
+msgstr ""
+"模式可以简单的被分为三大类。你可以点击每个模式页面下的标题来转到维基百科页"
+"面，来获取关于该模式更为详细的解释。"
+
+#: ../../README.rst:35
+msgid "Contribute"
+msgstr "贡献"
+
+#: ../../README.rst:37
+msgid ""
+"Please feel free to fork and extend existing or add your own examples and "
+"send a pull request with your changes! To establish a consistent code "
+"quality, please check your code using `PHP CodeSniffer`_ against `PSR2 "
+"standard`_ using ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``."
+msgstr ""
+"欢迎你fork代码修改和提pr，为了保证代码的质量，"
+"请使用 `PHP CodeSniffer`_ 检查你的代码是否遵守 `PSR2 编码规范`_，使用 ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``. 命令检查。"
+
+#: ../../README.rst:44
+msgid "License"
+msgstr "协议"
+
+#: ../../README.rst:46
+msgid "(The MIT License)"
+msgstr "MIT 授权协议"
+
+#: ../../README.rst:48
+msgid "Copyright (c) 2014 `Dominik Liebler`_ and `contributors`_"
+msgstr "Copyright (c) 2014 `Dominik Liebler`_ 和 `贡献者`_"
+
+#: ../../README.rst:50
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining a copy "
+"of this software and associated documentation files (the 'Software'), to "
+"deal in the Software without restriction, including without limitation the "
+"rights to use, copy, modify, merge, publish, distribute, sublicense, and/or "
+"sell copies of the Software, and to permit persons to whom the Software is "
+"furnished to do so, subject to the following conditions:"
+msgstr ""
+"在此授权给任何遵守本软件授权协议的人免费使用的权利，可以"
+"不受限制的的使用，包括不受限制的使用，复制，修改，合并，重新发布，分发，改变授权许可，甚至售卖本软件的拷贝，"
+"同时也允许买这个软件的个人也具备上述权利，大意如下："
+
+#: ../../README.rst:58
+msgid ""
+"The above copyright notice and this permission notice shall be included in "
+"all copies or substantial portions of the Software."
+msgstr ""
+"上面的权利和授权注意事项应该被包括在本软件的所有的派生分支/版本中"
+
+#: ../../README.rst:61
+msgid ""
+"THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR "
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, "
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE "
+"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER "
+"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING "
+"FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS "
+"IN THE SOFTWARE."
+msgstr ""
+"该软件是'按原样'提供的，没有任何形式的明示或暗示，包括但不限于为特定目的和不侵权的适销性和适用性的保证担保。"
+"在任何情况下，作者或版权持有人，都无权要求任何索赔，或有关损害赔偿的其他责任。"
+"无论在本软件的使用上或其他买卖交易中，是否涉及合同，侵权或其他行为。"

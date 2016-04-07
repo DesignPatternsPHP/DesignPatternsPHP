@@ -3,29 +3,33 @@
 namespace DesignPatterns\Behavioral\Observer;
 
 /**
- * Observer pattern : The observed object (the subject)
- * 
- * The subject maintains a list of Observers and sends notifications.
+ * Observer pattern : The observed object (the subject).
  *
+ * The subject maintains a list of Observers and sends notifications.
  */
 class User implements \SplSubject
 {
     /**
-     * user data
+     * user data.
      *
      * @var array
      */
     protected $data = array();
 
     /**
-     * observers
+     * observers.
      *
-     * @var array
+     * @var \SplObjectStorage
      */
-    protected $observers = array();
+    protected $observers;
+
+    public function __construct()
+    {
+        $this->observers = new \SplObjectStorage();
+    }
 
     /**
-     * attach a new observer
+     * attach a new observer.
      *
      * @param \SplObserver $observer
      *
@@ -33,11 +37,11 @@ class User implements \SplSubject
      */
     public function attach(\SplObserver $observer)
     {
-        $this->observers[] = $observer;
+        $this->observers->attach($observer);
     }
 
     /**
-     * detach an observer
+     * detach an observer.
      *
      * @param \SplObserver $observer
      *
@@ -45,15 +49,11 @@ class User implements \SplSubject
      */
     public function detach(\SplObserver $observer)
     {
-        $index = array_search($observer, $this->observers);
-
-        if (false !== $index) {
-            unset($this->observers[$index]);
-        }
+        $this->observers->detach($observer);
     }
 
     /**
-     * notify observers
+     * notify observers.
      *
      * @return void
      */
@@ -67,7 +67,7 @@ class User implements \SplSubject
 
     /**
      * Ideally one would better write setter/getter for all valid attributes and only call notify()
-     * on attributes that matter when changed
+     * on attributes that matter when changed.
      *
      * @param string $name
      * @param mixed  $value

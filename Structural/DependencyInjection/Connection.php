@@ -3,7 +3,7 @@
 namespace DesignPatterns\Structural\DependencyInjection;
 
 /**
- * Class Connection
+ * Class Connection.
  */
 class Connection
 {
@@ -26,7 +26,7 @@ class Connection
     }
 
     /**
-     * connection using the injected config
+     * connection using the injected config.
      */
     public function connect()
     {
@@ -42,6 +42,7 @@ class Connection
      *
      * @return string
      */
+
     public function getHost()
     {
         return $this->host;

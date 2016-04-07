@@ -1,0 +1,85 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 05:02+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../More/Repository/README.rst:2
+msgid "Repository"
+msgstr "Хранилище (Repository)"
+
+#: ../../More/Repository/README.rst:5
+msgid "Purpose"
+msgstr "Назначение"
+
+#: ../../More/Repository/README.rst:7
+msgid ""
+"Mediates between the domain and data mapping layers using a collection-like "
+"interface for accessing domain objects. Repository encapsulates the set of "
+"objects persisted in a data store and the operations performed over them, "
+"providing a more object-oriented view of the persistence layer. Repository "
+"also supports the objective of achieving a clean separation and one-way "
+"dependency between the domain and data mapping layers."
+msgstr ""
+"Посредник между уровнями области определения (хранилище) и распределения "
+"данных. Использует интерфейс, похожий на коллекции, для доступа к объектам "
+"области определения. Репозиторий инкапсулирует набор объектов, сохраняемых "
+"в хранилище данных, и операции выполняемые над ними, обеспечивая более "
+"объектно-ориентированное представление реальных данных. Репозиторий также "
+"преследует цель достижения полного разделения и односторонней зависимости "
+"между уровнями области определения и распределения данных."
+
+#: ../../More/Repository/README.rst:16
+msgid "Examples"
+msgstr "Примеры"
+
+#: ../../More/Repository/README.rst:18
+msgid ""
+"Doctrine 2 ORM: there is Repository that mediates between Entity and DBAL "
+"and contains methods to retrieve objects"
+msgstr ""
+"Doctrine 2 ORM: в ней есть Repository, который является связующим звеном "
+"между Entity и DBAL и содержит методы для получения объектов."
+
+#: ../../More/Repository/README.rst:20
+msgid "Laravel Framework"
+msgstr "Laravel Framework"
+
+#: ../../More/Repository/README.rst:23
+msgid "UML Diagram"
+msgstr "UML Диаграмма"
+
+#: ../../More/Repository/README.rst:30
+msgid "Code"
+msgstr "Код"
+
+#: ../../More/Repository/README.rst:32
+msgid "You can also find these code on `GitHub`_"
+msgstr "Вы можете найти этот код на `GitHub`_"
+
+#: ../../More/Repository/README.rst:34
+msgid "Post.php"
+msgstr "Post.php"
+
+#: ../../More/Repository/README.rst:40
+msgid "PostRepository.php"
+msgstr "PostRepository.php"
+
+#: ../../More/Repository/README.rst:46
+msgid "Storage.php"
+msgstr "Storage.php"
+
+#: ../../More/Repository/README.rst:52
+msgid "MemoryStorage.php"
+msgstr "MemoryStorage.php"
+
+#: ../../More/Repository/README.rst:59
+msgid "Test"
+msgstr "Тест"

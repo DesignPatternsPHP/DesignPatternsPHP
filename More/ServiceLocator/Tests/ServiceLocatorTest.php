@@ -5,7 +5,7 @@ namespace DesignPatterns\More\ServiceLocator\Tests;
 use DesignPatterns\More\ServiceLocator\DatabaseService;
 use DesignPatterns\More\ServiceLocator\LogService;
 use DesignPatterns\More\ServiceLocator\ServiceLocator;
-use \PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit_Framework_TestCase as TestCase;
 
 class ServiceLocatorTest extends TestCase
 {
@@ -26,8 +26,8 @@ class ServiceLocatorTest extends TestCase
 
     public function setUp()
     {
-        $this->serviceLocator  = new ServiceLocator();
-        $this->logService      = new LogService();
+        $this->serviceLocator = new ServiceLocator();
+        $this->logService = new LogService();
         $this->databaseService = new DatabaseService();
     }
 

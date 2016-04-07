@@ -3,12 +3,12 @@
 namespace DesignPatterns\Structural\Decorator;
 
 /**
- * Class RenderInXml
+ * Class RenderInXml.
  */
 class RenderInXml extends Decorator
 {
     /**
-     * render data as XML
+     * render data as XML.
      *
      * @return mixed|string
      */

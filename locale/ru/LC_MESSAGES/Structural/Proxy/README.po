@@ -1,0 +1,66 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-06-02 01:56+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../Structural/Proxy/README.rst:2
+msgid "`Proxy`__"
+msgstr ""
+"`Прокси <https://ru.wikipedia.org/wiki/Proxy_(шаблон_проектирования)>`_ "
+"(`Proxy`__)"
+
+#: ../../Structural/Proxy/README.rst:5
+msgid "Purpose"
+msgstr "Назначение"
+
+#: ../../Structural/Proxy/README.rst:7
+msgid "To interface to anything that is expensive or impossible to duplicate."
+msgstr ""
+"Создать интерфейс взаимодействия с любым классом, который трудно или "
+"невозможно использовать в оригинальном виде."
+
+#: ../../Structural/Proxy/README.rst:10
+msgid "Examples"
+msgstr "Примеры"
+
+#: ../../Structural/Proxy/README.rst:12
+msgid ""
+"Doctrine2 uses proxies to implement framework magic (e.g. lazy "
+"initialization) in them, while the user still works with his own entity "
+"classes and will never use nor touch the proxies"
+msgstr ""
+"Doctrine2 использует прокси для реализации магии фреймворка (например, для "
+"ленивой инициализации), в то время как пользователь работает со своими "
+"собственными классами сущностей и никогда не будет использовать прокси."
+
+#: ../../Structural/Proxy/README.rst:17
+msgid "UML Diagram"
+msgstr "UML Диаграмма"
+
+#: ../../Structural/Proxy/README.rst:24
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/Proxy/README.rst:26
+msgid "You can also find these code on `GitHub`_"
+msgstr "Вы можете найти этот код на `GitHub`_"
+
+#: ../../Structural/Proxy/README.rst:28
+msgid "Record.php"
+msgstr "Record.php"
+
+#: ../../Structural/Proxy/README.rst:34
+msgid "RecordProxy.php"
+msgstr "RecordProxy.php"
+
+#: ../../Structural/Proxy/README.rst:41
+msgid "Test"
+msgstr "Тест"

@@ -3,13 +3,12 @@
 namespace DesignPatterns\Structural\Bridge;
 
 /**
- * Concrete Implementation
+ * Concrete Implementation.
  */
 class Produce implements Workshop
 {
-
     public function work()
     {
-        print 'Produced ';
+        echo 'Produced ';
     }
 }

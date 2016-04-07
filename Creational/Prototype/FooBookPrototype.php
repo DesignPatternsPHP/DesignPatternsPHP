@@ -3,17 +3,16 @@
 namespace DesignPatterns\Creational\Prototype;
 
 /**
- * Class FooBookPrototype
+ * Class FooBookPrototype.
  */
 class FooBookPrototype extends BookPrototype
 {
     protected $category = 'Foo';
 
     /**
-     * empty clone
+     * empty clone.
      */
     public function __clone()
     {
-
     }
 }

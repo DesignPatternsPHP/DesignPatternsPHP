@@ -3,9 +3,8 @@
 namespace DesignPatterns\Creational\StaticFactory;
 
 /**
- * Class FormatString
+ * Class FormatString.
  */
 class FormatString implements FormatterInterface
 {
-
 }

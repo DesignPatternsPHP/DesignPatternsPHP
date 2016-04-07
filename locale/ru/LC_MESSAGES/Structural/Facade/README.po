@@ -1,0 +1,106 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-06-02 01:48+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../Structural/Facade/README.rst:2
+msgid "`Facade`__"
+msgstr ""
+"`Фасад <https://ru.wikipedia.org/wiki/Фасад_(шаблон_проектирования)>`_ "
+"(`Facade`__)"
+
+#: ../../Structural/Facade/README.rst:5
+msgid "Purpose"
+msgstr "Назначение"
+
+#: ../../Structural/Facade/README.rst:7
+msgid ""
+"The primary goal of a Facade Pattern is not to avoid you to read the manual "
+"of a complex API. It's only a side-effect. The first goal is to reduce "
+"coupling and follow the Law of Demeter."
+msgstr ""
+"Основная цель паттерна Фасад заключается не в том, чтобы помешать вам "
+"прочитать инструкцию комплексной API. Это только побочный эффект. Главная "
+"цель всё же состоит в уменьшении связности кода и соблюдении `Закона "
+"Деметры <https://ru.wikipedia.org/wiki/Закон_Деметры>`_."
+
+#: ../../Structural/Facade/README.rst:11
+msgid ""
+"A Facade is meant to decouple a client and a sub-system by embedding many "
+"(but sometimes just one) interface, and of course to reduce complexity."
+msgstr ""
+"Фасад предназначен для разделения клиента и подсистемы путем внедрения "
+"многих (но иногда только одного) интерфейсов, и, конечно, уменьшения общей "
+"сложности."
+
+#: ../../Structural/Facade/README.rst:15
+msgid "A facade does not forbid you the access to the sub-system"
+msgstr ""
+"Фасад не запрещает прямой доступ к подсистеме. Просто он делает его проще и "
+"понятнее."
+
+#: ../../Structural/Facade/README.rst:16
+msgid "You can (you should) have multiple facades for one sub-system"
+msgstr ""
+"Вы можете (и вам стоило бы) иметь несколько фасадов для одной подсистемы."
+
+#: ../../Structural/Facade/README.rst:18
+msgid ""
+"That's why a good facade has no ``new`` in it. If there are multiple "
+"creations for each method, it is not a Facade, it's a Builder or a "
+"[Abstract\\|Static\\|Simple] Factory [Method]."
+msgstr ""
+"Вот почему хороший фасад не содержит созданий экземпляров классов (``new``) "
+"внутри. Если внутри фасада создаются объекты для реализации каждого метода, "
+"это не Фасад, это Строитель или [Абстрактная\\|Статическая\\|Простая] "
+"Фабрика [или Фабричный Метод]."
+
+#: ../../Structural/Facade/README.rst:22
+msgid ""
+"The best facade has no ``new`` and a constructor with interface-type-hinted "
+"parameters. If you need creation of new instances, use a Factory as "
+"argument."
+msgstr ""
+"Лучший фасад не содержит ``new`` или конструктора с type-hinted "
+"параметрами. Если вам необходимо создавать новые экземпляры классов, в "
+"таком случае лучше использовать Фабрику в качестве аргумента."
+
+#: ../../Structural/Facade/README.rst:27
+msgid "UML Diagram"
+msgstr "UML Диаграмма"
+
+#: ../../Structural/Facade/README.rst:34
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/Facade/README.rst:36
+msgid "You can also find these code on `GitHub`_"
+msgstr "Вы можете найти этот код на `GitHub`_"
+
+#: ../../Structural/Facade/README.rst:38
+msgid "Facade.php"
+msgstr "Facade.php"
+
+#: ../../Structural/Facade/README.rst:44
+msgid "OsInterface.php"
+msgstr "OsInterface.php"
+
+#: ../../Structural/Facade/README.rst:50
+msgid "BiosInterface.php"
+msgstr "BiosInterface.php"
+
+#: ../../Structural/Facade/README.rst:57
+msgid "Test"
+msgstr "Тест"
+
+#: ../../Structural/Facade/README.rst:59
+msgid "Tests/FacadeTest.php"
+msgstr "Tests/FacadeTest.php"

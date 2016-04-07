@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\Builder;
 
 /**
- * BikeBuilder builds bike
+ * BikeBuilder builds bike.
  */
 class BikeBuilder implements BuilderInterface
 {
@@ -17,7 +17,6 @@ class BikeBuilder implements BuilderInterface
      */
     public function addDoors()
     {
-
     }
 
     /**

@@ -1,0 +1,84 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-09-08 17:34+0100\n"
+"Last-Translator: Daniel González <daniel@desarrolla2.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: es\n"
+"Language-Team: \n"
+
+#: ../../Creational/Singleton/README.rst:2
+msgid "`Singleton`__"
+msgstr "`Singleton`__"
+
+#: ../../Creational/Singleton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+"**ESTO ES CONSIDERADO UN ANTI-PATRÓN. PARA MEJOR TESTEABILIDAD Y "
+"MANTENIBILIDAD USA INYECCIÓN DE DEPENDENCIAS**"
+
+#: ../../Creational/Singleton/README.rst:8
+msgid "Purpose"
+msgstr "Proposito"
+
+#: ../../Creational/Singleton/README.rst:10
+msgid ""
+"To have only one instance of this object in the application that will handle "
+"all calls."
+msgstr ""
+"Tener una única instancia de este objeto en la aplicación que pueda "
+"encargarse de todas las llamadas."
+
+#: ../../Creational/Singleton/README.rst:14
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Creational/Singleton/README.rst:16
+msgid "DB Connector"
+msgstr "Conexión a la base de datos"
+
+#: ../../Creational/Singleton/README.rst:17
+msgid ""
+"Logger (may also be a Multiton if there are many log files for several "
+"purposes)"
+msgstr ""
+"Logger ( también podría ser un Multiton si hay varios ficheros de log para "
+"diferentes propósitos )"
+
+#: ../../Creational/Singleton/README.rst:19
+msgid "Lock file for the application (there is only one in the filesystem ...)"
+msgstr ""
+"Bloqueo de ficheros para la aplicación ( Solo hay uno en el sistema de "
+"ficheros )"
+
+#: ../../Creational/Singleton/README.rst:23
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Creational/Singleton/README.rst:30
+msgid "Code"
+msgstr "Código"
+
+#: ../../Creational/Singleton/README.rst:32
+msgid "You can also find these code on `GitHub`_"
+msgstr "Puedes ver este código en `GitHub`_"
+
+#: ../../Creational/Singleton/README.rst:34
+msgid "Singleton.php"
+msgstr "Singleton.php"
+
+#: ../../Creational/Singleton/README.rst:41
+msgid "Test"
+msgstr "Test"
+
+#: ../../Creational/Singleton/README.rst:43
+msgid "Tests/SingletonTest.php"
+msgstr "Tests/SingletonTest.php"

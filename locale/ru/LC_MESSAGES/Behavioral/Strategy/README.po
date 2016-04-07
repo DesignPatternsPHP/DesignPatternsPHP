@@ -1,0 +1,98 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 05:25+0300\n"
+"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../Behavioral/Strategy/README.rst:2
+msgid "`Strategy`__"
+msgstr "`Стратегия <https://ru.wikipedia.org/wiki/Стратегия_(шаблон_проектирования)>`_ (`Strategy`__)"
+
+#: ../../Behavioral/Strategy/README.rst:5
+msgid "Terminology:"
+msgstr "Терминология:"
+
+#: ../../Behavioral/Strategy/README.rst:7
+msgid "Context"
+msgstr "Context"
+
+#: ../../Behavioral/Strategy/README.rst:8
+msgid "Strategy"
+msgstr "Strategy"
+
+#: ../../Behavioral/Strategy/README.rst:9
+msgid "Concrete Strategy"
+msgstr "Concrete Strategy"
+
+#: ../../Behavioral/Strategy/README.rst:12
+msgid "Purpose"
+msgstr "Назначение"
+
+#: ../../Behavioral/Strategy/README.rst:14
+msgid ""
+"To separate strategies and to enable fast switching between them. Also this "
+"pattern is a good alternative to inheritance (instead of having an abstract "
+"class that is extended)."
+msgstr ""
+"Чтобы разделить стратегии и получить возможность быстрого переключения "
+"между ними. Также этот паттерн является хорошей альтернативой наследованию "
+"(вместо расширения абстрактного класса)."
+
+#: ../../Behavioral/Strategy/README.rst:19
+msgid "Examples"
+msgstr "Примеры"
+
+#: ../../Behavioral/Strategy/README.rst:21
+msgid "sorting a list of objects, one strategy by date, the other by id"
+msgstr ""
+"сортировка списка объектов, одна стратегия сортирует по дате, другая по id"
+
+#: ../../Behavioral/Strategy/README.rst:22
+msgid ""
+"simplify unit testing: e.g. switching between file and in-memory storage"
+msgstr ""
+"упростить юнит тестирование: например переключение между файловым "
+"хранилищем и хранилищем в оперативной памяти"
+
+#: ../../Behavioral/Strategy/README.rst:26
+msgid "UML Diagram"
+msgstr "UML Диаграмма"
+
+#: ../../Behavioral/Strategy/README.rst:33
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/Strategy/README.rst:35
+msgid "You can also find these code on `GitHub`_"
+msgstr "Вы можете найти этот код на `GitHub`_"
+
+#: ../../Behavioral/Strategy/README.rst:37
+msgid "ObjectCollection.php"
+msgstr "ObjectCollection.php"
+
+#: ../../Behavioral/Strategy/README.rst:43
+msgid "ComparatorInterface.php"
+msgstr "ComparatorInterface.php"
+
+#: ../../Behavioral/Strategy/README.rst:49
+msgid "DateComparator.php"
+msgstr "DateComparator.php"
+
+#: ../../Behavioral/Strategy/README.rst:55
+msgid "IdComparator.php"
+msgstr "IdComparator.php"
+
+#: ../../Behavioral/Strategy/README.rst:62
+msgid "Test"
+msgstr "Тест"
+
+#: ../../Behavioral/Strategy/README.rst:64
+msgid "Tests/StrategyTest.php"
+msgstr "Tests/StrategyTest.php"
