@@ -12,12 +12,14 @@ class FlyweightFactory
 {
     /**
      * Associative store for flyweight objects
+     * 
      * @var Array
      */
     private $pool = array();
 
     /**
      * Magic getter
+     *
      * @param string $name
      * @return Flyweight
      */
@@ -29,6 +31,9 @@ class FlyweightFactory
         return $this->pool[$name];
     }
 
+    /**
+     * @return int
+     */
     public function totalNumber()
     {
         return sizeof($this->pool);
