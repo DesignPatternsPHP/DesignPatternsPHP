@@ -12,7 +12,7 @@ class FlyweightFactory
 {
     /**
      * Associative store for flyweight objects
-     * 
+     *
      * @var Array
      */
     private $pool = array();
@@ -28,6 +28,7 @@ class FlyweightFactory
         if (!array_key_exists($name, $this->pool)) {
             $this->pool[$name] = new CharacterFlyweight($name);
         }
+        
         return $this->pool[$name];
     }
 
@@ -36,6 +37,6 @@ class FlyweightFactory
      */
     public function totalNumber()
     {
-        return sizeof($this->pool);
+        return count($this->pool);
     }
 }

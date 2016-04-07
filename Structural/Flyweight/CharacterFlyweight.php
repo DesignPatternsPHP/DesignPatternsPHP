@@ -16,7 +16,6 @@ class CharacterFlyweight implements FlyweightInterface
     private $name;
 
     /**
-     * Constructor.
      * @param string $name
      */
     public function __construct($name)
@@ -27,6 +26,7 @@ class CharacterFlyweight implements FlyweightInterface
     /**
      * Clients supply the context-dependent information that the flyweight needs to draw itself
      * For flyweights representing characters, extrinsic state usually contains e.g. the font
+     *
      * @param string $font
      */
     public function draw($font)

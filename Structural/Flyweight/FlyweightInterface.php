@@ -7,5 +7,8 @@ namespace DesignPatterns\Structural\Flyweight;
  */
 interface FlyweightInterface
 {
+    /**
+     * @param string $extrinsicState
+     */
     public function draw($extrinsicState);
 }
