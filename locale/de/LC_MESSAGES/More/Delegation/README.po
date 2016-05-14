@@ -1,0 +1,62 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-04 08:05+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../../More/Delegation/README.rst:2
+msgid "`Delegation`__"
+msgstr "`Delegation`__"
+
+#: ../../More/Delegation/README.rst:5
+msgid "Purpose"
+msgstr "Zweck"
+
+#: ../../More/Delegation/README.rst:7 ../../More/Delegation/README.rst:12
+msgid "..."
+msgstr "..."
+
+#: ../../More/Delegation/README.rst:10
+msgid "Examples"
+msgstr "Beispiele"
+
+#: ../../More/Delegation/README.rst:15
+msgid "UML Diagram"
+msgstr "UML Diagramm"
+
+#: ../../More/Delegation/README.rst:22
+msgid "Code"
+msgstr "Code"
+
+#: ../../More/Delegation/README.rst:24
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
+
+#: ../../More/Delegation/README.rst:26
+msgid "Usage.php"
+msgstr "Usage.php"
+
+#: ../../More/Delegation/README.rst:32
+msgid "TeamLead.php"
+msgstr "TeamLead.php"
+
+#: ../../More/Delegation/README.rst:38
+msgid "JuniorDeveloper.php"
+msgstr "JuniorDeveloper.php"
+
+#: ../../More/Delegation/README.rst:45
+msgid "Test"
+msgstr "Теst"
+
+#: ../../More/Delegation/README.rst:47
+msgid "Tests/DelegationTest.php"
+msgstr "Tests/DelegationTest.php"

@@ -1,0 +1,85 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-03 12:46+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: ../../Behavioral/Mediator/README.rst:2
+msgid "`Mediator`__"
+msgstr "`Mediator`__"
+
+#: ../../Behavioral/Mediator/README.rst:5
+msgid "Purpose"
+msgstr "Zweck"
+
+#: ../../Behavioral/Mediator/README.rst:7
+msgid ""
+"This pattern provides an easy to decouple many components working together. It is a good "
+"alternative over Observer IF you have a \"central intelligence\", like a controller (but not in the "
+"sense of the MVC)."
+msgstr ""
+"Dieses Muster bietet eine einfache Möglichkeit, viele, miteinander arbeitende Komponenten zu "
+"entkoppeln. Es ist eine gute Alternative für das Observer-Pattern, wenn du eine „zentrale "
+"Intelligenz“ wie z.B. einen Controller (nicht im MVC-Sinne) in deiner Architektur hast."
+
+#: ../../Behavioral/Mediator/README.rst:11
+msgid ""
+"All components (called Colleague) are only coupled to the MediatorInterface and it is a good thing "
+"because in OOP, one good friend is better than many. This is the key-feature of this pattern."
+msgstr ""
+"Alle Komponenten (genannt Kollegen) sind nur abhängig vom MediatorInterface und das ist gut so, "
+"denn in der Objektorientierten Programmierung ist ein guter Freund besser als viele. Das ist das "
+"beste Feature bei diesem Muster."
+
+#: ../../Behavioral/Mediator/README.rst:16
+msgid "UML Diagram"
+msgstr "UML-Diagramm"
+
+#: ../../Behavioral/Mediator/README.rst:23
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/Mediator/README.rst:25
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du findest den Code hierzu auf `GitHub`_"
+
+#: ../../Behavioral/Mediator/README.rst:27
+msgid "MediatorInterface.php"
+msgstr "MediatorInterface.php"
+
+#: ../../Behavioral/Mediator/README.rst:33
+msgid "Mediator.php"
+msgstr "Mediator.php"
+
+#: ../../Behavioral/Mediator/README.rst:39
+msgid "Colleague.php"
+msgstr "Colleague.php"
+
+#: ../../Behavioral/Mediator/README.rst:45
+msgid "Subsystem/Client.php"
+msgstr "Subsystem/Client.php"
+
+#: ../../Behavioral/Mediator/README.rst:51
+msgid "Subsystem/Database.php"
+msgstr "Subsystem/Database.php"
+
+#: ../../Behavioral/Mediator/README.rst:57
+msgid "Subsystem/Server.php"
+msgstr "Subsystem/Server.php"
+
+#: ../../Behavioral/Mediator/README.rst:64
+msgid "Test"
+msgstr "Test"
+
+#: ../../Behavioral/Mediator/README.rst:66
+msgid "Tests/MediatorTest.php"
+msgstr "Tests/MediatorTest.php"

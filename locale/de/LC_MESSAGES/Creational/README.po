@@ -1,0 +1,33 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-04 08:39+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../../Creational/README.rst:2
+msgid "`Creational`__"
+msgstr "`Erzeugung`__"
+
+#: ../../Creational/README.rst:4
+msgid ""
+"In software engineering, creational design patterns are design patterns "
+"that deal with object creation mechanisms, trying to create objects in a "
+"manner suitable to the situation. The basic form of object creation could "
+"result in design problems or added complexity to the design. Creational "
+"design patterns solve this problem by somehow controlling this object "
+"creation."
+msgstr ""
+"In der Softwareentwicklung bezeichnet man die Muster, die neue Objekte in "
+"passender Art und Weise erzeugen als Erzeugungsmuster. Die einfache Form "
+"der Erzeugung kann in bestimmten Situationen zu Problemen oder erhöhte "
+"Komplexität im Design führen. Erzeugungsmuster lösen dieses Problem, in dem "
+"sie Objekterzeugung kontrollieren."

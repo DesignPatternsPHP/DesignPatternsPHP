@@ -1,0 +1,77 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-04 08:02+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../../Structural/Registry/README.rst:2
+msgid "`Registry`__"
+msgstr "`Registry`__"
+
+#: ../../Structural/Registry/README.rst:5
+msgid "Purpose"
+msgstr "Zweck"
+
+#: ../../Structural/Registry/README.rst:7
+msgid ""
+"To implement a central storage for objects often used throughout the "
+"application, is typically implemented using an abstract class with only "
+"static methods (or using the Singleton pattern)"
+msgstr ""
+"Einen zentralen Speicher für Objekte zu implementieren, die oft "
+"innerhalb der Anwendung benötigt werden. Wird üblicherweise als "
+"abstrakte Klasse mit statischen Methoden (oder als Singleton) "
+"implementiert"
+
+#: ../../Structural/Registry/README.rst:12
+msgid "Examples"
+msgstr "Beispiele"
+
+#: ../../Structural/Registry/README.rst:14
+msgid ""
+"Zend Framework: ``Zend_Registry`` holds the application's logger object, "
+"front controller etc."
+msgstr ""
+"Zend Framework: ``Zend_Registry`` hält die zentralen Objekte der "
+"Anwendung: z.B. Logger oder Front Controller"
+
+#: ../../Structural/Registry/README.rst:16
+msgid ""
+"Yii Framework: ``CWebApplication`` holds all the application components, "
+"such as ``CWebUser``, ``CUrlManager``, etc."
+msgstr ""
+"Yii Framework: ``CWebApplication`` hält alle Anwendungskomponenten, wie "
+"z.B.``CWebUser``, ``CUrlManager``, etc."
+
+#: ../../Structural/Registry/README.rst:20
+msgid "UML Diagram"
+msgstr "UML Diagramm"
+
+#: ../../Structural/Registry/README.rst:27
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/Registry/README.rst:29
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
+
+#: ../../Structural/Registry/README.rst:31
+msgid "Registry.php"
+msgstr "Registry.php"
+
+#: ../../Structural/Registry/README.rst:38
+msgid "Test"
+msgstr "Теst"
+
+#: ../../Structural/Registry/README.rst:40
+msgid "Tests/RegistryTest.php"
+msgstr "Tests/RegistryTest.php"

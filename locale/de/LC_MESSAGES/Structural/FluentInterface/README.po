@@ -1,0 +1,72 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-04 07:57+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../../Structural/FluentInterface/README.rst:2
+msgid "`Fluent Interface`__"
+msgstr "`Fluent Interface`__"
+
+#: ../../Structural/FluentInterface/README.rst:5
+msgid "Purpose"
+msgstr "Zweck"
+
+#: ../../Structural/FluentInterface/README.rst:7
+msgid ""
+"To write code that is easy readable just like sentences in a natural "
+"language (like English)."
+msgstr ""
+"Um Code zu schreiben, der wie ein Satz in einer natürlichen Sprache gelesen "
+"werden kann (z.B. in Englisch)"
+
+#: ../../Structural/FluentInterface/README.rst:11
+msgid "Examples"
+msgstr "Beispiele"
+
+#: ../../Structural/FluentInterface/README.rst:13
+msgid "Doctrine2's QueryBuilder works something like that example class below"
+msgstr ""
+"Doctrine2's QueryBuilder funktioniert ähnlich zu dem Beispiel hier unten"
+
+#: ../../Structural/FluentInterface/README.rst:15
+msgid "PHPUnit uses fluent interfaces to build mock objects"
+msgstr "PHPUnit verwendet ein Fluent Interface, um Mockobjekte zu erstellen"
+
+#: ../../Structural/FluentInterface/README.rst:16
+msgid "Yii Framework: CDbCommand and CActiveRecord use this pattern, too"
+msgstr ""
+"Yii Framework: CDbCommand und CActiveRecord verwenden auch dieses Muster"
+
+#: ../../Structural/FluentInterface/README.rst:19
+msgid "UML Diagram"
+msgstr "UML Diagramm"
+
+#: ../../Structural/FluentInterface/README.rst:26
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/FluentInterface/README.rst:28
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
+
+#: ../../Structural/FluentInterface/README.rst:30
+msgid "Sql.php"
+msgstr "Sql.php"
+
+#: ../../Structural/FluentInterface/README.rst:37
+msgid "Test"
+msgstr "Теst"
+
+#: ../../Structural/FluentInterface/README.rst:39
+msgid "Tests/FluentInterfaceTest.php"
+msgstr "Tests/FluentInterfaceTest.php"

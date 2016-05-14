@@ -1,0 +1,66 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-04 07:59+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../../Structural/Proxy/README.rst:2
+msgid "`Proxy`__"
+msgstr "`Proxy`__"
+
+#: ../../Structural/Proxy/README.rst:5
+msgid "Purpose"
+msgstr "Zweck"
+
+#: ../../Structural/Proxy/README.rst:7
+msgid "To interface to anything that is expensive or impossible to duplicate."
+msgstr ""
+"Um ein Interface bereitzustellen, das teuer oder unmöglich zu duplizieren "
+"ist"
+
+#: ../../Structural/Proxy/README.rst:10
+msgid "Examples"
+msgstr "Beispiele"
+
+#: ../../Structural/Proxy/README.rst:12
+msgid ""
+"Doctrine2 uses proxies to implement framework magic (e.g. lazy "
+"initialization) in them, while the user still works with his own entity "
+"classes and will never use nor touch the proxies"
+msgstr ""
+"Doctrine2 verwendet Proxies, um sein Framework zu implementieren (z.B. Lazy "
+"Initialization), der User arbeitet aber dennoch mit seinen eigenen Entity "
+"Klassen und wird niemals die Proxies anpassen"
+
+#: ../../Structural/Proxy/README.rst:17
+msgid "UML Diagram"
+msgstr "UML Diagramm"
+
+#: ../../Structural/Proxy/README.rst:24
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/Proxy/README.rst:26
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
+
+#: ../../Structural/Proxy/README.rst:28
+msgid "Record.php"
+msgstr "Record.php"
+
+#: ../../Structural/Proxy/README.rst:34
+msgid "RecordProxy.php"
+msgstr "RecordProxy.php"
+
+#: ../../Structural/Proxy/README.rst:41
+msgid "Test"
+msgstr "Теst"

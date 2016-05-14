@@ -1,0 +1,81 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-03 14:25+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: ../../Behavioral/Observer/README.rst:2
+msgid "`Observer`__"
+msgstr "`Observer`__"
+
+#: ../../Behavioral/Observer/README.rst:5
+msgid "Purpose"
+msgstr "Zweck"
+
+#: ../../Behavioral/Observer/README.rst:7
+msgid ""
+"To implement a publish/subscribe behaviour to an object, whenever a \"Subject\" object changes it's "
+"state, the attached \"Observers\" will be notified. It is used to shorten the amount of coupled objects "
+"and uses loose coupling instead."
+msgstr ""
+"Um einen Publish/Subscribe-Mechanismus in einem Objekt zu implementieren, werden bei Änderungen an "
+"einem „Subject“-State  die registrierten „Observer“ benachrichtigt. Es wird benutzt, um die Menge von "
+"gekoppelten Objekten zu reduzieren und stattdessen eine lose Kopplung zu ermöglichen."
+
+#: ../../Behavioral/Observer/README.rst:13
+msgid "Examples"
+msgstr "Beispiele"
+
+#: ../../Behavioral/Observer/README.rst:15
+msgid "a message queue system is observed to show the progress of a job in a GUI"
+msgstr ""
+"ein Message-Queue-System wird auf Änderungen überwacht, um den Fortschritt eines Jobs in einer GUI "
+"anzuzeigen"
+
+#: ../../Behavioral/Observer/README.rst:19
+msgid "Note"
+msgstr "Hinweis"
+
+#: ../../Behavioral/Observer/README.rst:21
+msgid ""
+"PHP already defines two interfaces that can help to implement this pattern: SplObserver and SplSubject."
+msgstr ""
+"In der PHP-Standardbibliothek sind bereits zwei Interfaces enthalten, die bei der Implementierung "
+"dieses Musters helfen: SplObserver und SplSubject."
+
+#: ../../Behavioral/Observer/README.rst:25
+msgid "UML Diagram"
+msgstr "UML-Diagramm"
+
+#: ../../Behavioral/Observer/README.rst:32
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/Observer/README.rst:34
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du findest den Code hierzu auf `GitHub`_"
+
+#: ../../Behavioral/Observer/README.rst:36
+msgid "User.php"
+msgstr "User.php"
+
+#: ../../Behavioral/Observer/README.rst:42
+msgid "UserObserver.php"
+msgstr "UserObserver.php"
+
+#: ../../Behavioral/Observer/README.rst:49
+msgid "Test"
+msgstr "Test"
+
+#: ../../Behavioral/Observer/README.rst:51
+msgid "Tests/ObserverTest.php"
+msgstr "Tests/ObserverTest.php"
