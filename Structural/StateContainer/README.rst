@@ -11,9 +11,9 @@ This pattern have been popularized recently by the Redux JavaScript library and 
 Examples
 --------
 
--  Wizard application with several steps: In client applications some objects can subscribe to the changes in the repository and update themselves according to them. In this example, as we are studing PHP implementations and server side code instead of subscribing to the changes we will simulate a two steps process, in the first step the server receive the action and modifies the state, in the second state the server returns the result acording to the new state.
+-  Wizard application with several steps: In client applications some objects can subscribe to the changes in the repository and update themselves according to them. In this example, as we are studing PHP implementations and server side code instead of subscribing to the changes we can simulate a two steps process, in the first step the server receive the action and modifies the state, in the second state the server returns the result acording to the new state.
 
-- User actions tracking: stores all user actions as an unique stream. This allows for reproduction of the user interaction for testing purposes and analitycs of user behaviours.
+- User actions tracking: stores all user actions as an unique stream. This allows for reproduction of the user interaction for testing purposes and also for analitycs of user behaviours, this stream-consumer.
 
 UML Diagram
 -----------
