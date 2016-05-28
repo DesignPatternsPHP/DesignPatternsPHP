@@ -11,7 +11,7 @@ class StateContainerTest extends \PHPUnit_Framework_TestCase
     {
         StateContainer::init(function ($state, $action) {
 
-            switch($action) {
+            switch ($action) {
               
                 case 'INCREMENT':
                     return $state = $state + 1;
@@ -31,7 +31,7 @@ class StateContainerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Using StateContainer as central repository of truth from which 
+     * Using StateContainer as central repository of truth from which
      * derive html presentation.
      */
     public function testStateModify()
@@ -42,12 +42,12 @@ class StateContainerTest extends \PHPUnit_Framework_TestCase
 
 
     /**
-     * Using StateContainer as a reliable and straight forward 
+     * Using StateContainer as a reliable and straight forward
      * approach to reproduce use cases.
      */
     public function testReplayActions()
     {
-        $actions = ['INCREMENT', 'INCREMENT', 'DECREMENT', 'INCREMENT'];
+        $actions = array('INCREMENT', 'INCREMENT', 'DECREMENT', 'INCREMENT');
 
         foreach ($actions as $action) {
             StateContainer::dispatch($action);
