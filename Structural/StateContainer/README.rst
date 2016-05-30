@@ -1,4 +1,4 @@
-`State Container`__
+State Container
 ===============
 
 Purpose
@@ -6,7 +6,7 @@ Purpose
 
 A State Container is a class which contains the state of the app as a central repository. Other  This allows to build your application like stateless functions/components that send messages to the central repository and are easy to test. It also allows to do some data operations easier, like caching, data exportation.
 
-This pattern have been popularized recently by the Redux JavaScript library and it is specially usefull for the presentation layer and to keep track of every user action in the application for analytics.   
+This pattern have been popularized recently by the Redux JavaScript library and it is specially usefull for the presentation layer and to keep track of every user action in the application for analytics. More info about the pattern used in other languages and stacks here: `Redux influences`_
 
 Examples
 --------
@@ -37,3 +37,4 @@ Test
    :linenos: 
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/StateContainer
+.. _`Redux influences`: https://github.com/reactjs/redux#thanks
