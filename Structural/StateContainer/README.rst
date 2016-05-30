@@ -25,17 +25,15 @@ Code
 
 You can also find these code on `GitHub`_
 
-StateContainer.php
-
 .. literalinclude:: StateContainer.php
-   :language: php
-   :linenos:
-
-Controller.php
-
-.. literalinclude:: Controller.php
    :language: php
    :linenos:
 
 Test
 ----
+
+.. literalinclude:: Tests/StateContainerTest.php
+   :language: php
+   :linenos: 
+
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/StateContainer
