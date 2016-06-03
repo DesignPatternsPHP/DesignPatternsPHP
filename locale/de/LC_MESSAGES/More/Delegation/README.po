@@ -1,62 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2016-04-04 08:05+0200\n"
-"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"POT-Creation-Date: 2016-06-03 23:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Language-Team: \n"
-"X-Generator: Poedit 1.8.7.1\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../More/Delegation/README.rst:2
 msgid "`Delegation`__"
-msgstr "`Delegation`__"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:5
 msgid "Purpose"
-msgstr "Zweck"
+msgstr ""
 
-#: ../../More/Delegation/README.rst:7 ../../More/Delegation/README.rst:12
-msgid "..."
-msgstr "..."
+#: ../../More/Delegation/README.rst:7
+msgid ""
+"Demonstrate the Delegator pattern, where an object, instead of performing"
+" one of its stated tasks, delegates that task to an associated helper "
+"object. In this case TeamLead professes to writeCode and Usage uses this,"
+" while TeamLead delegates writeCode to JuniorDeveloper's writeBadCode "
+"function. This inverts the responsibility so that Usage is unknowingly "
+"executing writeBadCode."
+msgstr ""
 
 #: ../../More/Delegation/README.rst:10
 msgid "Examples"
-msgstr "Beispiele"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:12
+msgid ""
+"Please review JuniorDeveloper.php, TeamLead.php, and then Usage.php to "
+"see it all tied together."
+msgstr ""
 
 #: ../../More/Delegation/README.rst:15
 msgid "UML Diagram"
-msgstr "UML Diagramm"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:22
 msgid "Code"
-msgstr "Code"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:24
 msgid "You can also find these code on `GitHub`_"
-msgstr "Du findest den Code auch auf `GitHub`_"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:26
 msgid "Usage.php"
-msgstr "Usage.php"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:32
 msgid "TeamLead.php"
-msgstr "TeamLead.php"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:38
 msgid "JuniorDeveloper.php"
-msgstr "JuniorDeveloper.php"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:45
 msgid "Test"
-msgstr "Теst"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:47
 msgid "Tests/DelegationTest.php"
-msgstr "Tests/DelegationTest.php"
+msgstr ""
+

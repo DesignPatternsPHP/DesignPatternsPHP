@@ -1,115 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2015-05-30 01:42+0300\n"
-"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"POT-Creation-Date: 2016-06-03 23:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../Behavioral/Memento/README.rst:2
 msgid "`Memento`__"
-msgstr "`Хранитель`__"
+msgstr ""
 
 #: ../../Behavioral/Memento/README.rst:5
 msgid "Purpose"
-msgstr "Назначение"
+msgstr ""
 
 #: ../../Behavioral/Memento/README.rst:7
 msgid ""
-"Provide the ability to restore an object to its previous state (undo via "
-"rollback)."
+"It provides the ability to restore an object to it's previous state (undo"
+" via rollback) or to gain access to state of the object, without "
+"revealing it's implementation (i.e., the object is not required to have a"
+" functional for return the current state)."
 msgstr ""
-"Предоставляет возможность восстановить объект в его предыдущем состоянии или "
-"получить доступ к состоянию объекта, не раскрывая его реализацию (т.е. сам "
-"объект не обязан иметь функционал возврата текущего состояния)."
 
-#: ../../Behavioral/Memento/README.rst:10
+#: ../../Behavioral/Memento/README.rst:12
 msgid ""
-"The memento pattern is implemented with three objects: the originator, a "
-"caretaker and a memento. The originator is some object that has an internal "
-"state. The caretaker is going to do something to the originator, but wants "
-"to be able to undo the change. The caretaker first asks the originator for a"
-" memento object. Then it does whatever operation (or sequence of operations)"
-" it was going to do. To roll back to the state before the operations, it "
-"returns the memento object to the originator. The memento object itself is "
-"an opaque object (one which the caretaker cannot, or should not, change). "
-"When using this pattern, care should be taken if the originator may change "
-"other objects or resources - the memento pattern operates on a single "
-"object."
+"The memento pattern is implemented with three objects: the Originator, a "
+"Caretaker and a Memento."
 msgstr ""
-"Паттерн «Хранитель» реализуется тремя объектами: Создатель, Опекун и "
-"Хранитель.\n"
-"\n"
-"Хранитель — объект, который *хранит конкретный уникальный слепок состояния* "
-"любого объекта или ресурса: строка, число, массив, экземпляр класса и так "
-"далее. Уникальность в данном случае подразумевает не запрет существования "
-"одинаковых состояний в слепках, а то, что состояние можно извлечь в виде "
-"независимого клона. Это значит, объект, сохраняемый в Хранитель, должен *быть "
-"полной копией исходного объекта а не ссылкой* на исходный объект. Сам объект "
-"Хранитель является «непрозрачным объектом» (тот, который никто не может и не "
-"должен изменять).\n"
-"\n"
-"Создатель — это объект, который *содержит в себе актуальное состояние внешнего "
-"объекта строго заданного типа* и умеет создать уникальную копию этого "
-"состояния, возвращая её обёрнутую в Хранитель. Создатель не знает истории "
-"изменений. Создателю можно принудительно установить конкретное состояние "
-"извне, которое будет считаться актуальным. Создатель должен позаботиться, "
-"чтобы это состояние соответствовало типу объекта, с которым ему разрешено "
-"работать. Создатель может (но не обязан) иметь любые методы, но они *не могут "
-"менять сохранённое состояние объекта*.\n"
-"\n"
-"Опекун *управляет историей слепков состояний*. Он может вносить изменения в "
-"объект, принимать решение о сохранении состояния внешнего объекта в Создателе, "
-"требовать от Создателя слепок текущего состояния, или привести состояние "
-"Создателя в соответствие состоянию какого-то слепка из истории."
 
-#: ../../Behavioral/Memento/README.rst:23
+#: ../../Behavioral/Memento/README.rst:15
+msgid ""
+"Memento – an object that *contains a concrete unique snapshot of state* "
+"of any object or resource: string, number, array, an instance of class "
+"and so on. The uniqueness in this case does not imply the prohibition "
+"existence of similar states in different snapshots. That means the state "
+"can be extracted as the independent clone. Any object stored in the "
+"Memento should be *a full copy of the original object rather than a "
+"reference* to the original object. The Memento object is a \"opaque "
+"object\" (the object that no one can or should change)."
+msgstr ""
+
+#: ../../Behavioral/Memento/README.rst:24
+msgid ""
+"Originator – it is an object that contains the *actual state of an "
+"external object is strictly specified type*. Originator is able to create"
+" a unique copy of this state and return it wrapped in a Memento. The "
+"Originator does not know the history of changes. You can set a concrete "
+"state to Originator from the outside, which will be considered as actual."
+" The Originator must make sure that given state corresponds the allowed "
+"type of object. Originator may (but not should) have any methods, but "
+"they *they can't make changes to the saved object state*."
+msgstr ""
+
+#: ../../Behavioral/Memento/README.rst:33
+msgid ""
+"Caretaker *controls the states history*. He may make changes to an "
+"object; take a decision to save the state of an external object in the "
+"Originator; ask from the Originator snapshot of the current state; or set"
+" the Originator state to equivalence with some snapshot from history."
+msgstr ""
+
+#: ../../Behavioral/Memento/README.rst:39
 msgid "Examples"
-msgstr "Примеры"
+msgstr ""
 
-#: ../../Behavioral/Memento/README.rst:25
+#: ../../Behavioral/Memento/README.rst:41
 msgid "The seed of a pseudorandom number generator"
 msgstr ""
-"`Семя <http://en.wikipedia.org/wiki/Random_seed>`_ псевдослучайного генератора "
-"чисел."
 
-#: ../../Behavioral/Memento/README.rst:26
+#: ../../Behavioral/Memento/README.rst:42
 msgid "The state in a finite state machine"
-msgstr "Состояние конечного автомата"
+msgstr ""
 
-#: ../../Behavioral/Memento/README.rst:29
-msgid "UML Diagram"
-msgstr "UML Диаграмма"
-
-#: ../../Behavioral/Memento/README.rst:36
-msgid "Code"
-msgstr "Код"
-
-#: ../../Behavioral/Memento/README.rst:38
-msgid "You can also find these code on `GitHub`_"
-msgstr "Вы можете найти этот код на `GitHub`_"
-
-#: ../../Behavioral/Memento/README.rst:40
-msgid "Memento.php"
-msgstr "Memento.php"
+#: ../../Behavioral/Memento/README.rst:43
+msgid ""
+"Control for intermediate states of `ORM Model "
+"<http://en.wikipedia.org/wiki/Object-relational_mapping>`_ before saving"
+msgstr ""
 
 #: ../../Behavioral/Memento/README.rst:46
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/Memento/README.rst:53
+msgid "Code"
+msgstr ""
+
+#: ../../Behavioral/Memento/README.rst:55
+msgid "You can also find these code on `GitHub`_"
+msgstr ""
+
+#: ../../Behavioral/Memento/README.rst:57
+msgid "Memento.php"
+msgstr ""
+
+#: ../../Behavioral/Memento/README.rst:63
 msgid "Originator.php"
-msgstr "Originator.php"
+msgstr ""
 
-#: ../../Behavioral/Memento/README.rst:52
+#: ../../Behavioral/Memento/README.rst:69
 msgid "Caretaker.php"
-msgstr "Caretaker.php"
+msgstr ""
 
-#: ../../Behavioral/Memento/README.rst:59
+#: ../../Behavioral/Memento/README.rst:76
 msgid "Test"
-msgstr "Тест"
+msgstr ""
 
-#: ../../Behavioral/Memento/README.rst:61
+#: ../../Behavioral/Memento/README.rst:78
 msgid "Tests/MementoTest.php"
-msgstr "Tests/MementoTest.php"
+msgstr ""
+
+
+
+#.    #
+#.    msgid ""
+#.    msgstr ""
+#.    "Project-Id-Version: DesignPatternsPHP 1.0\n"
+#.    "Report-Msgid-Bugs-To: \n"
+#.    "POT-Creation-Date: 2015-05-29 12:18+0200\n"
+#.    "PO-Revision-Date: 2015-05-30 01:42+0300\n"
+#.    "Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+#.    "MIME-Version: 1.0\n"
+#.    "Content-Type: text/plain; charset=UTF-8\n"
+#.    "Content-Transfer-Encoding: 8bit\n"
+#.    "Language: ru\n"
+#.
+#.    #: ../../Behavioral/Memento/README.rst:2
+#.    msgid "`Memento`__"
+#.    msgstr "`Хранитель`__"
+#.
+#.    #: ../../Behavioral/Memento/README.rst:5
+#.    msgid "Purpose"
+#.    msgstr "Назначение"
+#.
+#.    #: ../../Behavioral/Memento/README.rst:7
+#.    msgid ""
+#.    "Provide the ability to restore an object to its previous state (undo via "
+#.    "rollback)."
+#.    msgstr ""
+#.    "Предоставляет возможность восстановить объект в его предыдущем состоянии или "
+#.    "получить доступ к состоянию объекта, не раскрывая его реализацию (т.е. сам "
+#.    "объект не обязан иметь функционал возврата текущего состояния)."
+#.
+#.    #: ../../Behavioral/Memento/README.rst:10
+#.    msgid ""
+#.    "The memento pattern is implemented with three objects: the originator, a "
+#.    "caretaker and a memento. The originator is some object that has an internal "
+#.    "state. The caretaker is going to do something to the originator, but wants "
+#.    "to be able to undo the change. The caretaker first asks the originator for a"
+#.    " memento object. Then it does whatever operation (or sequence of operations)"
+#.    " it was going to do. To roll back to the state before the operations, it "
+#.    "returns the memento object to the originator. The memento object itself is "
+#.    "an opaque object (one which the caretaker cannot, or should not, change). "
+#.    "When using this pattern, care should be taken if the originator may change "
+#.    "other objects or resources - the memento pattern operates on a single "
+#.    "object."
+#.    msgstr ""
+#.    "Паттерн «Хранитель» реализуется тремя объектами: Создатель, Опекун и "
+#.    "Хранитель.\n"
+#.    "\n"
+#.    "Хранитель — объект, который *хранит конкретный уникальный слепок состояния* "
+#.    "любого объекта или ресурса: строка, число, массив, экземпляр класса и так "
+#.    "далее. Уникальность в данном случае подразумевает не запрет существования "
+#.    "одинаковых состояний в слепках, а то, что состояние можно извлечь в виде "
+#.    "независимого клона. Это значит, объект, сохраняемый в Хранитель, должен *быть "
+#.    "полной копией исходного объекта а не ссылкой* на исходный объект. Сам объект "
+#.    "Хранитель является «непрозрачным объектом» (тот, который никто не может и не "
+#.    "должен изменять).\n"
+#.    "\n"
+#.    "Создатель — это объект, который *содержит в себе актуальное состояние внешнего "
+#.    "объекта строго заданного типа* и умеет создать уникальную копию этого "
+#.    "состояния, возвращая её обёрнутую в Хранитель. Создатель не знает истории "
+#.    "изменений. Создателю можно принудительно установить конкретное состояние "
+#.    "извне, которое будет считаться актуальным. Создатель должен позаботиться, "
+#.    "чтобы это состояние соответствовало типу объекта, с которым ему разрешено "
+#.    "работать. Создатель может (но не обязан) иметь любые методы, но они *не могут "
+#.    "менять сохранённое состояние объекта*.\n"
+#.    "\n"
+#.    "Опекун *управляет историей слепков состояний*. Он может вносить изменения в "
+#.    "объект, принимать решение о сохранении состояния внешнего объекта в Создателе, "
+#.    "требовать от Создателя слепок текущего состояния, или привести состояние "
+#.    "Создателя в соответствие состоянию какого-то слепка из истории."
+#.
+#.    #: ../../Behavioral/Memento/README.rst:23
+#.    msgid "Examples"
+#.    msgstr "Примеры"
+#.
+#.    #: ../../Behavioral/Memento/README.rst:25
+#.    msgid "The seed of a pseudorandom number generator"
+#.    msgstr ""
+#.    "`Семя <http://en.wikipedia.org/wiki/Random_seed>`_ псевдослучайного генератора "
+#.    "чисел."
+#.
+#.    #: ../../Behavioral/Memento/README.rst:26
+#.    msgid "The state in a finite state machine"
+#.    msgstr "Состояние конечного автомата"
+#.
+#.    #: ../../Behavioral/Memento/README.rst:29
+#.    msgid "UML Diagram"
+#.    msgstr "UML Диаграмма"
+#.
+#.    #: ../../Behavioral/Memento/README.rst:36
+#.    msgid "Code"
+#.    msgstr "Код"
+#.
+#.    #: ../../Behavioral/Memento/README.rst:38
+#.    msgid "You can also find these code on `GitHub`_"
+#.    msgstr "Вы можете найти этот код на `GitHub`_"
+#.
+#.    #: ../../Behavioral/Memento/README.rst:40
+#.    msgid "Memento.php"
+#.    msgstr "Memento.php"
+#.
+#.    #: ../../Behavioral/Memento/README.rst:46
+#.    msgid "Originator.php"
+#.    msgstr "Originator.php"
+#.
+#.    #: ../../Behavioral/Memento/README.rst:52
+#.    msgid "Caretaker.php"
+#.    msgstr "Caretaker.php"
+#.
+#.    #: ../../Behavioral/Memento/README.rst:59
+#.    msgid "Test"
+#.    msgstr "Тест"
+#.
+#.    #: ../../Behavioral/Memento/README.rst:61
+#.    msgid "Tests/MementoTest.php"
+#.    msgstr "Tests/MementoTest.php"

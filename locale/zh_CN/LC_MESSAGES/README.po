@@ -71,8 +71,8 @@ msgid "(The MIT License)"
 msgstr "MIT 授权协议"
 
 #: ../../README.rst:48
-msgid "Copyright (c) 2014 `Dominik Liebler`_ and `contributors`_"
-msgstr "Copyright (c) 2014 `Dominik Liebler`_ 和 `贡献者`_"
+msgid "Copyright (c) 2011 - 2016 `Dominik Liebler`_ and `contributors`_"
+msgstr "Copyright (c) 2011 - 2016 `Dominik Liebler`_ 和 `贡献者`_"
 
 #: ../../README.rst:50
 msgid ""

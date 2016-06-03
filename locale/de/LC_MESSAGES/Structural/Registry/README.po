@@ -38,10 +38,10 @@ msgstr "Beispiele"
 
 #: ../../Structural/Registry/README.rst:14
 msgid ""
-"Zend Framework: ``Zend_Registry`` holds the application's logger object, "
-"front controller etc."
+"Zend Framework 1: ``Zend_Registry`` holds the application's logger "
+"object, front controller etc."
 msgstr ""
-"Zend Framework: ``Zend_Registry`` hält die zentralen Objekte der "
+"Zend Framework 1: ``Zend_Registry`` hält die zentralen Objekte der "
 "Anwendung: z.B. Logger oder Front Controller"
 
 #: ../../Structural/Registry/README.rst:16
