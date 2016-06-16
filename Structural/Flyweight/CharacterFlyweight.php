@@ -11,6 +11,7 @@ class CharacterFlyweight implements FlyweightInterface
     /**
      * Any state stored by the concrete flyweight must be independent of its context.
      * For flyweights representing characters, this is usually the corresponding character code.
+     *
      * @var string
      */
     private $name;
@@ -25,7 +26,7 @@ class CharacterFlyweight implements FlyweightInterface
 
     /**
      * Clients supply the context-dependent information that the flyweight needs to draw itself
-     * For flyweights representing characters, extrinsic state usually contains e.g. the font
+     * For flyweights representing characters, extrinsic state usually contains e.g. the font.
      *
      * @param string $font
      */
