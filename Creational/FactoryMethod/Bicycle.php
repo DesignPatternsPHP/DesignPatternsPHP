@@ -13,7 +13,7 @@ class Bicycle implements VehicleInterface
     protected $color;
 
     /**
-     * sets the color of the bicycle.
+     * Sets the color of the bicycle.
      *
      * @param string $rgb
      */
