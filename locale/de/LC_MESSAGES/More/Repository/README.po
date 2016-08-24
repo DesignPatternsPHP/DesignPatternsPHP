@@ -1,0 +1,87 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-04 08:09+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../../More/Repository/README.rst:2
+msgid "Repository"
+msgstr "Repository"
+
+#: ../../More/Repository/README.rst:5
+msgid "Purpose"
+msgstr "Zweck"
+
+#: ../../More/Repository/README.rst:7
+msgid ""
+"Mediates between the domain and data mapping layers using a collection-like "
+"interface for accessing domain objects. Repository encapsulates the set of "
+"objects persisted in a data store and the operations performed over them, "
+"providing a more object-oriented view of the persistence layer. Repository "
+"also supports the objective of achieving a clean separation and one-way "
+"dependency between the domain and data mapping layers."
+msgstr ""
+"Vermittelt zwischen dem Domain- und Data-Mapping-Layer indem es ein "
+"Interface wie für eine Collection implementierung, um auf Domainobjekte zu "
+"zugreifen. Das Repository kapselt dabei alle persistierten Objekte und die "
+"Operationen auf diesen um eine objektorientierte Sicht auf die "
+"Persistenzschicht zu implementieren. Das Repository unterstützt damit die "
+"saubere Trennung und eine Abhängigkeit in nur eine Richtung von Domain- und "
+"Data-Mapping-Layern."
+
+#: ../../More/Repository/README.rst:16
+msgid "Examples"
+msgstr "Beispiele"
+
+#: ../../More/Repository/README.rst:18
+msgid ""
+"Doctrine 2 ORM: there is Repository that mediates between Entity and DBAL "
+"and contains methods to retrieve objects"
+msgstr ""
+"Doctrine 2 ORM: Repository vermittelt zwischen Entity und DBAL und enthält "
+"verschiedene Methoden, um Entities zu erhalten"
+
+#: ../../More/Repository/README.rst:20
+msgid "Laravel Framework"
+msgstr "Laravel Framework"
+
+#: ../../More/Repository/README.rst:23
+msgid "UML Diagram"
+msgstr "UML Diagramm"
+
+#: ../../More/Repository/README.rst:30
+msgid "Code"
+msgstr "Code"
+
+#: ../../More/Repository/README.rst:32
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
+
+#: ../../More/Repository/README.rst:34
+msgid "Post.php"
+msgstr "Post.php"
+
+#: ../../More/Repository/README.rst:40
+msgid "PostRepository.php"
+msgstr "PostRepository.php"
+
+#: ../../More/Repository/README.rst:46
+msgid "Storage.php"
+msgstr "Storage.php"
+
+#: ../../More/Repository/README.rst:52
+msgid "MemoryStorage.php"
+msgstr "MemoryStorage.php"
+
+#: ../../More/Repository/README.rst:59
+msgid "Test"
+msgstr "Теst"

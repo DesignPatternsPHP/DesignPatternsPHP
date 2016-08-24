@@ -1,60 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2015-05-30 04:46+0300\n"
-"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"POT-Creation-Date: 2016-06-03 23:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../More/Delegation/README.rst:2
 msgid "`Delegation`__"
-msgstr "`Делегирование <https://ru.wikipedia.org/wiki/Шаблон_делегирования>`_ (`Delegation`__)"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:5
 msgid "Purpose"
-msgstr "Назначение"
+msgstr ""
 
-#: ../../More/Delegation/README.rst:7 ../../More/Delegation/README.rst:12
-msgid "..."
-msgstr "Основной шаблон проектирования, в котором объект внешне выражает некоторое поведение, но в реальности передаёт ответственность за выполнение этого поведения связанному объекту. Шаблон делегирования является фундаментальной абстракцией, на основе которой реализованы другие шаблоны - композиция (также называемая агрегацией), примеси (mixins) и аспекты (aspects). (c) wiki"
+#: ../../More/Delegation/README.rst:7
+msgid ""
+"Demonstrate the Delegator pattern, where an object, instead of performing"
+" one of its stated tasks, delegates that task to an associated helper "
+"object. In this case TeamLead professes to writeCode and Usage uses this,"
+" while TeamLead delegates writeCode to JuniorDeveloper's writeBadCode "
+"function. This inverts the responsibility so that Usage is unknowingly "
+"executing writeBadCode."
+msgstr ""
 
 #: ../../More/Delegation/README.rst:10
 msgid "Examples"
-msgstr "Примеры"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:12
+msgid ""
+"Please review JuniorDeveloper.php, TeamLead.php, and then Usage.php to "
+"see it all tied together."
+msgstr ""
 
 #: ../../More/Delegation/README.rst:15
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:22
 msgid "Code"
-msgstr "Код"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:24
 msgid "You can also find these code on `GitHub`_"
-msgstr "Вы можете найти этот код на `GitHub`_"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:26
 msgid "Usage.php"
-msgstr "Usage.php"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:32
 msgid "TeamLead.php"
-msgstr "TeamLead.php"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:38
 msgid "JuniorDeveloper.php"
-msgstr "JuniorDeveloper.php"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:45
 msgid "Test"
-msgstr "Тест"
+msgstr ""
 
 #: ../../More/Delegation/README.rst:47
 msgid "Tests/DelegationTest.php"
-msgstr "Tests/DelegationTest.php"
+msgstr ""
+
+
+
+#.    #
+#.    msgid ""
+#.    msgstr ""
+#.    "Project-Id-Version: DesignPatternsPHP 1.0\n"
+#.    "Report-Msgid-Bugs-To: \n"
+#.    "POT-Creation-Date: 2015-05-29 12:18+0200\n"
+#.    "PO-Revision-Date: 2015-05-30 04:46+0300\n"
+#.    "Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+#.    "MIME-Version: 1.0\n"
+#.    "Content-Type: text/plain; charset=UTF-8\n"
+#.    "Content-Transfer-Encoding: 8bit\n"
+#.    "Language: ru\n"
+#.
+#.    #: ../../More/Delegation/README.rst:2
+#.    msgid "`Delegation`__"
+#.    msgstr "`Делегирование <https://ru.wikipedia.org/wiki/Шаблон_делегирования>`_ (`Delegation`__)"
+#.
+#.    #: ../../More/Delegation/README.rst:5
+#.    msgid "Purpose"
+#.    msgstr "Назначение"
+#.
+#.    #: ../../More/Delegation/README.rst:7 ../../More/Delegation/README.rst:12
+#.    msgid "..."
+#.    msgstr "Основной шаблон проектирования, в котором объект внешне выражает некоторое поведение, но в реальности передаёт ответственность за выполнение этого поведения связанному объекту. Шаблон делегирования является фундаментальной абстракцией, на основе которой реализованы другие шаблоны - композиция (также называемая агрегацией), примеси (mixins) и аспекты (aspects). (c) wiki"
+#.
+#.    #: ../../More/Delegation/README.rst:10
+#.    msgid "Examples"
+#.    msgstr "Примеры"
+#.
+#.    #: ../../More/Delegation/README.rst:15
+#.    msgid "UML Diagram"
+#.    msgstr "UML Диаграмма"
+#.
+#.    #: ../../More/Delegation/README.rst:22
+#.    msgid "Code"
+#.    msgstr "Код"
+#.
+#.    #: ../../More/Delegation/README.rst:24
+#.    msgid "You can also find these code on `GitHub`_"
+#.    msgstr "Вы можете найти этот код на `GitHub`_"
+#.
+#.    #: ../../More/Delegation/README.rst:26
+#.    msgid "Usage.php"
+#.    msgstr "Usage.php"
+#.
+#.    #: ../../More/Delegation/README.rst:32
+#.    msgid "TeamLead.php"
+#.    msgstr "TeamLead.php"
+#.
+#.    #: ../../More/Delegation/README.rst:38
+#.    msgid "JuniorDeveloper.php"
+#.    msgstr "JuniorDeveloper.php"
+#.
+#.    #: ../../More/Delegation/README.rst:45
+#.    msgid "Test"
+#.    msgstr "Тест"
+#.
+#.    #: ../../More/Delegation/README.rst:47
+#.    msgid "Tests/DelegationTest.php"
+#.    msgstr "Tests/DelegationTest.php"

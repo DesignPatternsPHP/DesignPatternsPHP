@@ -5,12 +5,12 @@ namespace DesignPatterns\Behavioral\Mediator\Subsystem;
 use DesignPatterns\Behavioral\Mediator\Colleague;
 
 /**
- * Client is a client that make request et get response
+ * Client is a client that make request et get response.
  */
 class Client extends Colleague
 {
     /**
-     * request
+     * request.
      */
     public function request()
     {
@@ -18,7 +18,7 @@ class Client extends Colleague
     }
 
     /**
-     * output content
+     * output content.
      *
      * @param string $content
      */

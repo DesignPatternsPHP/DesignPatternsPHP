@@ -9,7 +9,7 @@ communication.
 * [Command](Command) [:notebook:](http://en.wikipedia.org/wiki/Command_pattern)
 * [Iterator](Iterator) [:notebook:](http://en.wikipedia.org/wiki/Iterator_pattern)
 * [Mediator](Mediator) [:notebook:](http://en.wikipedia.org/wiki/Mediator_pattern)
-* [Memento](Behavioral/Memento) [:notebook:](http://en.wikipedia.org/wiki/Memento_pattern)
+* [Memento](Memento) [:notebook:](http://en.wikipedia.org/wiki/Memento_pattern)
 * [NullObject](NullObject) [:notebook:](http://en.wikipedia.org/wiki/Null_Object_pattern)
 * [Observer](Observer) [:notebook:](http://en.wikipedia.org/wiki/Observer_pattern)
 * [Specification](Specification) [:notebook:](http://en.wikipedia.org/wiki/Specification_pattern)

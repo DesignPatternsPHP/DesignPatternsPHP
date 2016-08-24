@@ -2,17 +2,16 @@
 
 namespace DesignPatterns\Creational\Builder\Tests;
 
-use DesignPatterns\Creational\Builder\Director;
-use DesignPatterns\Creational\Builder\CarBuilder;
 use DesignPatterns\Creational\Builder\BikeBuilder;
 use DesignPatterns\Creational\Builder\BuilderInterface;
+use DesignPatterns\Creational\Builder\CarBuilder;
+use DesignPatterns\Creational\Builder\Director;
 
 /**
- * DirectorTest tests the builder pattern
+ * DirectorTest tests the builder pattern.
  */
 class DirectorTest extends \PHPUnit_Framework_TestCase
 {
-
     protected $director;
 
     protected function setUp()
@@ -24,7 +23,7 @@ class DirectorTest extends \PHPUnit_Framework_TestCase
     {
         return array(
             array(new CarBuilder()),
-            array(new BikeBuilder())
+            array(new BikeBuilder()),
         );
     }
 

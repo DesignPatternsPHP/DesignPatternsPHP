@@ -13,41 +13,42 @@ msgstr ""
 
 #: ../../Structural/Decorator/README.rst:2
 msgid "`Decorator`__"
-msgstr ""
+msgstr "`装饰器`__"
 
 #: ../../Structural/Decorator/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../Structural/Decorator/README.rst:7
 msgid "To dynamically add new functionality to class instances."
-msgstr ""
+msgstr "动态地为类的实例添加功能"
 
 #: ../../Structural/Decorator/README.rst:10
 msgid "Examples"
-msgstr ""
+msgstr "例子"
 
 #: ../../Structural/Decorator/README.rst:12
 msgid "Zend Framework: decorators for ``Zend_Form_Element`` instances"
-msgstr ""
+msgstr "Zend Framework: ``Zend_Form_Element`` 实例的装饰器"
 
 #: ../../Structural/Decorator/README.rst:13
 msgid ""
 "Web Service Layer: Decorators JSON and XML for a REST service (in this case,"
 " only one of these should be allowed of course)"
 msgstr ""
+"Web Service层：REST服务的JSON与XML装饰器（当然，在此只能使用其中的一种）"
 
 #: ../../Structural/Decorator/README.rst:17
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Structural/Decorator/README.rst:24
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Structural/Decorator/README.rst:26
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
 #: ../../Structural/Decorator/README.rst:28
 msgid "RendererInterface.php"
@@ -71,7 +72,7 @@ msgstr ""
 
 #: ../../Structural/Decorator/README.rst:59
 msgid "Test"
-msgstr ""
+msgstr "测试"
 
 #: ../../Structural/Decorator/README.rst:61
 msgid "Tests/DecoratorTest.php"

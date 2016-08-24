@@ -3,29 +3,29 @@
 namespace DesignPatterns\Structural\Facade;
 
 /**
- * Class BiosInterface
+ * Interface BiosInterface.
  */
 interface BiosInterface
 {
     /**
-     * execute the BIOS
+     * Execute the BIOS.
      */
     public function execute();
 
     /**
-     * wait for halt
+     * Wait for halt.
      */
     public function waitForKeyPress();
 
     /**
-     * launches the OS
+     * Launches the OS.
      *
      * @param OsInterface $os
      */
     public function launch(OsInterface $os);
 
     /**
-     * power down BIOS
+     * Power down BIOS.
      */
     public function powerDown();
 }

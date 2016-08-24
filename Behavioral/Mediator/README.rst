@@ -4,8 +4,8 @@
 Purpose
 -------
 
-This pattern provides an easy to decouple many components working
-together. It is a good alternative over Observer IF you have a "central
+This pattern provides an easy way to decouple many components working
+together. It is a good alternative to Observer IF you have a "central
 intelligence", like a controller (but not in the sense of the MVC).
 
 All components (called Colleague) are only coupled to the

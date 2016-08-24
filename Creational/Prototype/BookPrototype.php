@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\Prototype;
 
 /**
- * class BookPrototype
+ * class BookPrototype.
  */
 abstract class BookPrototype
 {
@@ -19,6 +19,7 @@ abstract class BookPrototype
 
     /**
      * @abstract
+     *
      * @return void
      */
     abstract public function __clone();

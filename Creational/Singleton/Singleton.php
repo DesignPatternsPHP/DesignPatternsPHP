@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\Singleton;
 
 /**
- * class Singleton
+ * class Singleton.
  */
 class Singleton
 {
@@ -11,16 +11,16 @@ class Singleton
      * @var Singleton reference to singleton instance
      */
     private static $instance;
-    
+
     /**
-     * gets the instance via lazy initialization (created on first usage)
+     * gets the instance via lazy initialization (created on first usage).
      *
      * @return self
      */
     public static function getInstance()
     {
         if (null === static::$instance) {
-            static::$instance = new static;
+            static::$instance = new static();
         }
 
         return static::$instance;
@@ -28,27 +28,32 @@ class Singleton
 
     /**
      * is not allowed to call from outside: private!
-     *
      */
     private function __construct()
     {
     }
 
     /**
-     * prevent the instance from being cloned
+     * prevent the instance from being cloned.
+     *
+     * @throws SingletonPatternViolationException
      *
      * @return void
      */
-    private function __clone()
+    final public function __clone()
     {
+        throw new SingletonPatternViolationException('This is a Singleton. Clone is forbidden');
     }
 
     /**
-     * prevent from being unserialized
+     * prevent from being unserialized.
+     *
+     * @throws SingletonPatternViolationException
      *
      * @return void
      */
-    private function __wakeup()
+    final public function __wakeup()
     {
+        throw new SingletonPatternViolationException('This is a Singleton. __wakeup usage is forbidden');
     }
 }

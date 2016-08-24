@@ -3,7 +3,7 @@
 namespace DesignPatterns\More\EAV;
 
 /**
- * Interface ValueAccessInterface
+ * Interface ValueAccessInterface.
  */
 interface ValueAccessInterface
 {

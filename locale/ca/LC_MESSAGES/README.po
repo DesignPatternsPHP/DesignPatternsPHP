@@ -62,7 +62,7 @@ msgid "(The MIT License)"
 msgstr ""
 
 #: ../../README.rst:48
-msgid "Copyright (c) 2014 `Dominik Liebler`_ and `contributors`_"
+msgid "Copyright (c) 2011 - 2016 `Dominik Liebler`_ and `contributors`_"
 msgstr ""
 
 #: ../../README.rst:50

@@ -1,0 +1,80 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-04 08:41+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../../Creational/SimpleFactory/README.rst:2
+msgid "Simple Factory"
+msgstr "Simple Factory"
+
+#: ../../Creational/SimpleFactory/README.rst:5
+msgid "Purpose"
+msgstr "Zweck"
+
+#: ../../Creational/SimpleFactory/README.rst:7
+msgid "SimpleFactory is a simple factory pattern."
+msgstr "SimpleFactory ist ein vereinfachtes Factory Muster."
+
+#: ../../Creational/SimpleFactory/README.rst:9
+msgid ""
+"It differs from the static factory because it is NOT static and as you "
+"know: static => global => evil!"
+msgstr ""
+"Es hebt sich von der Static Factory ab, in dem es KEINE statischen Methoden "
+"anbietet, da statische Methoden global verfügbar sind und damit sich "
+"Probleme bei z.B. der Testbarkeit ergeben können."
+
+#: ../../Creational/SimpleFactory/README.rst:12
+msgid ""
+"Therefore, you can have multiple factories, differently parametrized, you "
+"can subclass it and you can mock-up it."
+msgstr ""
+"Deshalb kann es mehrere Factories geben, die verschieden parametrisiert "
+"werden können und durch Kindklassen erweitert und für Tests gemocked werden "
+"können."
+
+#: ../../Creational/SimpleFactory/README.rst:16
+msgid "UML Diagram"
+msgstr "UML Diagramm"
+
+#: ../../Creational/SimpleFactory/README.rst:23
+msgid "Code"
+msgstr "Code"
+
+#: ../../Creational/SimpleFactory/README.rst:25
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
+
+#: ../../Creational/SimpleFactory/README.rst:27
+msgid "SimpleFactory.php"
+msgstr "SimpleFactory.php"
+
+#: ../../Creational/SimpleFactory/README.rst:33
+msgid "VehicleInterface.php"
+msgstr "VehicleInterface.php"
+
+#: ../../Creational/SimpleFactory/README.rst:39
+msgid "Bicycle.php"
+msgstr "Bicycle.php"
+
+#: ../../Creational/SimpleFactory/README.rst:45
+msgid "Scooter.php"
+msgstr "Scooter.php"
+
+#: ../../Creational/SimpleFactory/README.rst:52
+msgid "Test"
+msgstr "Теst"
+
+#: ../../Creational/SimpleFactory/README.rst:54
+msgid "Tests/SimpleFactoryTest.php"
+msgstr "Tests/SimpleFactoryTest.php"

@@ -1,0 +1,101 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-04 08:35+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../../Creational/Pool/README.rst:2
+msgid "`Pool`__"
+msgstr "`Pool`__"
+
+#: ../../Creational/Pool/README.rst:4
+msgid ""
+"The **object pool pattern** is a software creational design pattern that "
+"uses a set of initialized objects kept ready to use – a \"pool\" – rather "
+"than allocating and destroying them on demand. A client of the pool will "
+"request an object from the pool and perform operations on the returned "
+"object. When the client has finished, it returns the object, which is a "
+"specific type of factory object, to the pool rather than destroying it."
+msgstr ""
+"Das **Objekt Pool Pattern** ist ein Erzeugungsmuster, das ein Set von "
+"initialisierten Objekten bereithält - ein \"Pool\" - statt jedesmal ein "
+"neues Objekt zu erzeugen und wieder zu zerstören bei Bedarf. Der Client des "
+"Pools fragt ein Objekt an und erhält es von dem Pool, führt alle "
+"gewünschten Operationen aus und gibt anschließend das Objekt zurück. Das "
+"Objekt selbst ist wie eine spezielle Factory implementiert."
+
+#: ../../Creational/Pool/README.rst:11
+msgid ""
+"Object pooling can offer a significant performance boost in situations "
+"where the cost of initializing a class instance is high, the rate of "
+"instantiation of a class is high, and the number of instances in use at any "
+"one time is low. The pooled object is obtained in predictable time when "
+"creation of the new objects (especially over network) may take variable "
+"time."
+msgstr ""
+"Dieses Muster kann die Performance einer Anwendung entscheidend verbessern, "
+"wenn die Erzeugung von Objekten teuer ist, oft neue Objekte erzeugt werden "
+"müssen und die gleichzeitig verwendete Anzahl von Instanzen eher gering "
+"ist. Das Objekt im Pool wird in konstanter Zeit erzeugt, wohingegen die "
+"Erzeugung neuer Objekte (vorallem über das Netzwerk) variable Zeit in "
+"Anspruch nimmt und bei hoher Auslastung zum Problem führen würde."
+
+#: ../../Creational/Pool/README.rst:18
+msgid ""
+"However these benefits are mostly true for objects that are expensive with "
+"respect to time, such as database connections, socket connections, threads "
+"and large graphic objects like fonts or bitmaps. In certain situations, "
+"simple object pooling (that hold no external resources, but only occupy "
+"memory) may not be efficient and could decrease performance."
+msgstr ""
+"Diese Vorteile können vorallem bei teuren Objekterzeugungen ausgespielt "
+"werden, wie z.B. Datenbankverbindungen, Socketverbindungen, Threads und "
+"großen Grafikobjekten wie Schriften oder Bitmaps. In manchen Situationen, "
+"in denen Objekte nur Speicher verbrauchen, aber nicht von externen "
+"Resourcen abhängig sind, wird das Muster nicht effizient sein und kann "
+"stattdessen die Performance beinträchtigen."
+
+#: ../../Creational/Pool/README.rst:25
+msgid "UML Diagram"
+msgstr "UML Diagramm"
+
+#: ../../Creational/Pool/README.rst:32
+msgid "Code"
+msgstr "Code"
+
+#: ../../Creational/Pool/README.rst:34
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
+
+#: ../../Creational/Pool/README.rst:36
+msgid "Pool.php"
+msgstr "Pool.php"
+
+#: ../../Creational/Pool/README.rst:42
+msgid "Processor.php"
+msgstr "Processor.php"
+
+#: ../../Creational/Pool/README.rst:48
+msgid "Worker.php"
+msgstr "Worker.php"
+
+#: ../../Creational/Pool/README.rst:55
+msgid "Test"
+msgstr "Теst"
+
+#: ../../Creational/Pool/README.rst:57
+msgid "Tests/PoolTest.php"
+msgstr "Tests/PoolTest.php"
+
+#: ../../Creational/Pool/README.rst:63
+msgid "Tests/TestWorker.php"
+msgstr "Tests/TestWorker.php"

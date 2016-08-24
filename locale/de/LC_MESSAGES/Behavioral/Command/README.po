@@ -1,0 +1,110 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-03-28 19:56+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: ../../Behavioral/Command/README.rst:2
+msgid "`Command`__"
+msgstr "`Command`__"
+
+#: ../../Behavioral/Command/README.rst:5
+msgid "Purpose"
+msgstr "Zweck"
+
+#: ../../Behavioral/Command/README.rst:7
+msgid "To encapsulate invocation and decoupling."
+msgstr "Um Ausführung zu kapseln und Entkopplung zu erreichen."
+
+#: ../../Behavioral/Command/README.rst:9
+msgid ""
+"We have an Invoker and a Receiver. This pattern uses a \"Command\" to delegate the method call "
+"against the Receiver and presents the same method \"execute\". Therefore, the Invoker just "
+"knows to call \"execute\" to process the Command of the client. The Receiver is decoupled from "
+"the Invoker."
+msgstr ""
+"Wir haben einen Invoker (Ausführer) und einen Receiver (Empfänger). Dieses Pattern benutzt ein "
+"„Command“ um die Ausführung einer Methode and einen Empfänger zu delegieren und eine "
+"einheitliche „execute“ Methode bereitzustellen. Damit weiß der Ausführer nur von der „execute“-"
+"Methode, um den Befehl auszuführen. Der Empfänger wird dadurch vom Aufrufer entkoppelt."
+
+#: ../../Behavioral/Command/README.rst:15
+msgid ""
+"The second aspect of this pattern is the undo(), which undoes the method execute(). Command "
+"can also be aggregated to combine more complex commands with minimum copy-paste and relying on "
+"composition over inheritance."
+msgstr ""
+"Der zweite Aspekt dieses Musters ist die `undo()` Methode, die die Ausführung der `execute()` "
+"Methode rückgängig machen kann. Befehlen können außerdem aggregiert werden, um komplexe "
+"Befehle mit minimalem Aufwand und mit Komposition (anstatt Vererbung) zu erstellen."
+
+#: ../../Behavioral/Command/README.rst:21
+msgid "Examples"
+msgstr "Beispiele"
+
+#: ../../Behavioral/Command/README.rst:23
+msgid "A text editor : all events are Command which can be undone, stacked and saved."
+msgstr ""
+"Ein Texteditor: alle Ereignisse sind Befehle, die rückgängig gemacht, gestapelt und "
+"gespeichert werden können."
+
+#: ../../Behavioral/Command/README.rst:25
+msgid ""
+"Symfony2: SF2 Commands that can be run from the CLI are built with just the Command pattern in "
+"mind"
+msgstr ""
+"Symfony2: Commands die auf der Konsole ausgeführt werden können, werden als Command Muster "
+"entwickelt."
+
+#: ../../Behavioral/Command/README.rst:27
+msgid ""
+"big CLI tools use subcommands to distribute various tasks and pack them in \"modules\", each "
+"of these can be implemented with the Command pattern (e.g. vagrant)"
+msgstr ""
+"Komplexe Konsolentools bestehen aus Subcommands, um die Aufgaben besser zu modulariseren. "
+"Jedes dieser Commands kann als Command-Pattern implementiert werden (z.B. vagrant)."
+
+#: ../../Behavioral/Command/README.rst:32
+msgid "UML Diagram"
+msgstr "UML Diagramm"
+
+#: ../../Behavioral/Command/README.rst:39
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/Command/README.rst:41
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du kannst diesen Code auch auf `GitHub` einsehen_"
+
+#: ../../Behavioral/Command/README.rst:43
+msgid "CommandInterface.php"
+msgstr "CommandInterface.php"
+
+#: ../../Behavioral/Command/README.rst:49
+msgid "HelloCommand.php"
+msgstr "HelloCommand.php"
+
+#: ../../Behavioral/Command/README.rst:55
+msgid "Receiver.php"
+msgstr "Receiver.php"
+
+#: ../../Behavioral/Command/README.rst:61
+msgid "Invoker.php"
+msgstr "Invoker.php"
+
+#: ../../Behavioral/Command/README.rst:68
+msgid "Test"
+msgstr "Теst"
+
+#: ../../Behavioral/Command/README.rst:70
+msgid "Tests/CommandTest.php"
+msgstr "Tests/CommandTest.php"

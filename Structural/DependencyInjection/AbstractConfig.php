@@ -3,7 +3,7 @@
 namespace DesignPatterns\Structural\DependencyInjection;
 
 /**
- * class AbstractConfig
+ * class AbstractConfig.
  */
 abstract class AbstractConfig
 {

@@ -1,0 +1,96 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-03-28 19:48+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:2
+msgid "`Chain Of Responsibilities`__"
+msgstr "`Chain Of Responsibilities`__"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:5
+msgid "Purpose:"
+msgstr "Zweck:"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:7
+msgid ""
+"To build a chain of objects to handle a call in sequential order. If one object cannot handle a call, it delegates "
+"the call to the next in the chain and so forth."
+msgstr ""
+"Um eine Kette von Objekten zu bauen, die einen Aufruf in sequentieller Folge abzuarbeiten. Wenn ein Objekt den "
+"Aufruf nicht bearbeiten kann, delegiert es die Anfrage weiter an das nächste Objekt und so weiter. So lange, bis "
+"die Anfrage von einem Objekt erfolgreich abgearbeitet werden kann."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:12
+msgid "Examples:"
+msgstr "Beispiele:"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:14
+msgid "logging framework, where each chain element decides autonomously what to do with a log message"
+msgstr ""
+"Logging Framework, in dem jedes Element der Kette automatisch entscheidet, was es mit einer Logmessage tun möchte"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:16
+msgid "a Spam filter"
+msgstr "ein Spamfilter"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:17
+msgid ""
+"Caching: first object is an instance of e.g. a Memcached Interface, if that \"misses\" it delegates the call to "
+"the database interface"
+msgstr ""
+"Caching: das erste Objekt ist Beispielsweise eine Memcache-Instanz. Wenn es einen „Miss“ hat, dann wird an das "
+"nächste Element weitergeleitet, das eine Datenbank-Abfrage unternimmt"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
+msgid ""
+"Yii Framework: CFilterChain is a chain of controller action filters. the executing point is passed from one filter "
+"to the next along the chain, and only if all filters say \"yes\", the action can be invoked at last."
+msgstr ""
+"Yii Framework: CFilterChain ist eine Kette von Controller Action Filters. In der Ausführung wird in der Kette "
+"immer weitergereicht und nur wenn alle Filter „ja“ sagen, wird die Aktion am Ende ausgeführt."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:25
+msgid "UML Diagram"
+msgstr "UML Diagramm"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:32
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:34
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du kannst den Code auch auf `GitHub` einsehen_"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:36
+msgid "Request.php"
+msgstr "Request.php"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:42
+msgid "Handler.php"
+msgstr "Handler.php"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:48
+msgid "Responsible/SlowStorage.php"
+msgstr "Responsible/SlowStorage.php"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:54
+msgid "Responsible/FastStorage.php"
+msgstr "Responsible/FastStorage.php"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:61
+msgid "Test"
+msgstr "Теst"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:63
+msgid "Tests/ChainTest.php"
+msgstr "Tests/ChainTest.php"

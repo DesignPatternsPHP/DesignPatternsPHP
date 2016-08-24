@@ -3,7 +3,7 @@
 namespace DesignPatterns\Creational\AbstractFactory;
 
 /**
- * Class Text
+ * Class Text.
  */
 abstract class Text implements MediaInterface
 {

@@ -1,0 +1,90 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-04 13:12+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../../Behavioral/Iterator/README.rst:2
+msgid "`Iterator`__"
+msgstr "`Iterator`__"
+
+#: ../../Behavioral/Iterator/README.rst:5
+msgid "Purpose"
+msgstr "Zweck"
+
+#: ../../Behavioral/Iterator/README.rst:7
+msgid "To make an object iterable and to make it appear like a collection of objects."
+msgstr ""
+"Um ein Objekt iterierbar zu machen und es nach außen aussehen zu lassen wie eine Sammlung von "
+"Objekten."
+
+#: ../../Behavioral/Iterator/README.rst:11
+msgid "Examples"
+msgstr "Beispiele"
+
+#: ../../Behavioral/Iterator/README.rst:13
+msgid ""
+"to process a file line by line by just running over all lines (which have an object "
+"representation) for a file (which of course is an object, too)"
+msgstr ""
+"Um eine Datei zeilenweise zu verarbeiten, in dem man über die Zeilen iteriert (die selbst auch "
+"Objekte sind)"
+
+#: ../../Behavioral/Iterator/README.rst:18
+msgid "Note"
+msgstr "Hinweis"
+
+#: ../../Behavioral/Iterator/README.rst:20
+msgid ""
+"Standard PHP Library (SPL) defines an interface Iterator which is best suited for this! Often you "
+"would want to implement the Countable interface too, to allow ``count($object)`` on your iterable "
+"object"
+msgstr ""
+"Standard PHP Library (SPL) stellt ein Interface `Iterator` bereit, das zu diesem Zweck bestens "
+"geeignet ist. Oftmals sollte man das Countable Interface auch implementieren, um "
+"``count($object)`` auf dem Objekt zu erlauben."
+
+#: ../../Behavioral/Iterator/README.rst:25
+msgid "UML Diagram"
+msgstr "UML Diagramm"
+
+#: ../../Behavioral/Iterator/README.rst:32
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/Iterator/README.rst:34
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du kannst den Code auch auf `GitHub` einsehen_"
+
+#: ../../Behavioral/Iterator/README.rst:36
+msgid "Book.php"
+msgstr "Book.php"
+
+#: ../../Behavioral/Iterator/README.rst:42
+msgid "BookList.php"
+msgstr "BookList.php"
+
+#: ../../Behavioral/Iterator/README.rst:48
+msgid "BookListIterator.php"
+msgstr "BookListIterator.php"
+
+#: ../../Behavioral/Iterator/README.rst:54
+msgid "BookListReverseIterator.php"
+msgstr "BookListReverseIterator.php"
+
+#: ../../Behavioral/Iterator/README.rst:61
+msgid "Test"
+msgstr "Теst"
+
+#: ../../Behavioral/Iterator/README.rst:63
+msgid "Tests/IteratorTest.php"
+msgstr "Tests/IteratorTest.php"

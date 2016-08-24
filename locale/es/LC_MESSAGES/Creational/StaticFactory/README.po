@@ -1,23 +1,25 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-09-08 17:47+0100\n"
+"Last-Translator: Daniel González <daniel@desarrolla2.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../../Creational/StaticFactory/README.rst:2
 msgid "Static Factory"
-msgstr ""
+msgstr "Static Factory"
 
 #: ../../Creational/StaticFactory/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Proposito"
 
 #: ../../Creational/StaticFactory/README.rst:7
 msgid ""
@@ -27,49 +29,56 @@ msgid ""
 "method to create all types of objects it can create. It is usually named "
 "``factory`` or ``build``."
 msgstr ""
+"Parecido a AbstractFactory, este patrón es usado para crear conjuntos de "
+"objetos relacionados o dependientes. La diferencia entre este y la factoría "
+"abstracta es que el patrón factoría estática usa un sólo método estático "
+"para crear todos los tipos de objetos que puede crear. Este método "
+"normalmente se llama ``factory`` or ``build``."
 
 #: ../../Creational/StaticFactory/README.rst:14
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: ../../Creational/StaticFactory/README.rst:16
 msgid ""
-"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory method"
-" create cache backends or frontends"
+"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory method "
+"create cache backends or frontends"
 msgstr ""
+"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` usa un método "
+"factoría para crear la cache de las aplicaciones."
 
 #: ../../Creational/StaticFactory/README.rst:20
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Creational/StaticFactory/README.rst:27
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Creational/StaticFactory/README.rst:29
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Creational/StaticFactory/README.rst:31
 msgid "StaticFactory.php"
-msgstr ""
+msgstr "StaticFactory.php"
 
 #: ../../Creational/StaticFactory/README.rst:37
 msgid "FormatterInterface.php"
-msgstr ""
+msgstr "FormatterInterface.php"
 
 #: ../../Creational/StaticFactory/README.rst:43
 msgid "FormatString.php"
-msgstr ""
+msgstr "FormatString.php"
 
 #: ../../Creational/StaticFactory/README.rst:49
 msgid "FormatNumber.php"
-msgstr ""
+msgstr "FormatNumber.php"
 
 #: ../../Creational/StaticFactory/README.rst:56
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 #: ../../Creational/StaticFactory/README.rst:58
 msgid "Tests/StaticFactoryTest.php"
-msgstr ""
+msgstr "Tests/StaticFactoryTest.php"

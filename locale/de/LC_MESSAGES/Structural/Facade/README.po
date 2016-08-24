@@ -1,0 +1,102 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-04 07:56+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../../Structural/Facade/README.rst:2
+msgid "`Facade`__"
+msgstr "`Facade`__"
+
+#: ../../Structural/Facade/README.rst:5
+msgid "Purpose"
+msgstr "Zweck"
+
+#: ../../Structural/Facade/README.rst:7
+msgid ""
+"The primary goal of a Facade Pattern is not to avoid you to read the manual "
+"of a complex API. It's only a side-effect. The first goal is to reduce "
+"coupling and follow the Law of Demeter."
+msgstr ""
+"Das primäre Ziel des Facade-Musters ist nicht, dir das Lesen von komplexen "
+"API Dokumentationen zu ersparen. Das kann ein Seiteneffekt sein. Es ist "
+"vielmehr das Ziel, Kopplungen zu vermeiden und dem Gesetz von Demeter zu "
+"folgen."
+
+#: ../../Structural/Facade/README.rst:11
+msgid ""
+"A Facade is meant to decouple a client and a sub-system by embedding many "
+"(but sometimes just one) interface, and of course to reduce complexity."
+msgstr ""
+"Eine Facade dient dazu, den Client von einem Subsystem zu entkopplen, indem "
+"ein oder mehrere Interfaces einzuführen und damit Komplexität zu verringern."
+
+#: ../../Structural/Facade/README.rst:15
+msgid "A facade does not forbid you the access to the sub-system"
+msgstr "Eine Facade verbietet nicht den Zugriff auf das Subsystem"
+
+#: ../../Structural/Facade/README.rst:16
+msgid "You can (you should) have multiple facades for one sub-system"
+msgstr ""
+"Es ist nicht unüblich, mehrere Fassaden für ein Subsystem zu implementieren"
+
+#: ../../Structural/Facade/README.rst:18
+msgid ""
+"That's why a good facade has no ``new`` in it. If there are multiple "
+"creations for each method, it is not a Facade, it's a Builder or a [Abstract"
+"\\|Static\\|Simple] Factory [Method]."
+msgstr ""
+"Deshalb besitzt eine gute Facade keine ``new`` Aufrufe. Falls es mehrere "
+"Erzeugungsmethoden pro Methode gibt, handelt es sicht nicht um eine Facade, "
+"sondern um einen Builder oder [Abstract\\|Static\\|Simple] Factory [Method]."
+
+#: ../../Structural/Facade/README.rst:22
+msgid ""
+"The best facade has no ``new`` and a constructor with interface-type-hinted "
+"parameters. If you need creation of new instances, use a Factory as "
+"argument."
+msgstr ""
+"Bestenfalls besitzt eine Facade kein ``new`` und einen Konstruktor mit Type-"
+"Hints als Parameter. Falls du neue Instanzen erzeugen willst, kannst du "
+"eine Factory als Argument verwenden."
+
+#: ../../Structural/Facade/README.rst:27
+msgid "UML Diagram"
+msgstr "UML Diagramm"
+
+#: ../../Structural/Facade/README.rst:34
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/Facade/README.rst:36
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du findest den Code auch auf `GitHub`_"
+
+#: ../../Structural/Facade/README.rst:38
+msgid "Facade.php"
+msgstr "Facade.php"
+
+#: ../../Structural/Facade/README.rst:44
+msgid "OsInterface.php"
+msgstr "OsInterface.php"
+
+#: ../../Structural/Facade/README.rst:50
+msgid "BiosInterface.php"
+msgstr "BiosInterface.php"
+
+#: ../../Structural/Facade/README.rst:57
+msgid "Test"
+msgstr "Теst"
+
+#: ../../Structural/Facade/README.rst:59
+msgid "Tests/FacadeTest.php"
+msgstr "Tests/FacadeTest.php"

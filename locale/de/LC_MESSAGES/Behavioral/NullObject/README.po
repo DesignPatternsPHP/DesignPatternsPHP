@@ -1,0 +1,109 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-03 12:58+0200\n"
+"Last-Translator: Dominik Liebler <liebler.dominik@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: ../../Behavioral/NullObject/README.rst:2
+msgid "`Null Object`__"
+msgstr "`Null Object`__"
+
+#: ../../Behavioral/NullObject/README.rst:5
+msgid "Purpose"
+msgstr "Zweck"
+
+#: ../../Behavioral/NullObject/README.rst:7
+msgid ""
+"NullObject is not a GoF design pattern but a schema which appears frequently enough to be considered a "
+"pattern. It has the following benefits:"
+msgstr ""
+"NullObject ist keines der Gang-Of-Four Design Patterns aber ein Muster, dass immer wieder häufig auftritt "
+"und deswegen erwähnt werden sollte. Es hat folgende Vorzüge:"
+
+#: ../../Behavioral/NullObject/README.rst:11
+msgid "Client code is simplified"
+msgstr "Client Code wird vereinfacht"
+
+#: ../../Behavioral/NullObject/README.rst:12
+msgid "Reduces the chance of null pointer exceptions"
+msgstr "Verringert die Möglichkeit einer Nullpoint-Exception"
+
+#: ../../Behavioral/NullObject/README.rst:13
+msgid "Fewer conditionals require less test cases"
+msgstr "Weniger Ausnahmefälle bedingen weniger Testfälle"
+
+#: ../../Behavioral/NullObject/README.rst:15
+msgid ""
+"Methods that return an object or null should instead return an object or ``NullObject``. ``NullObject``\\ "
+"s simplify boilerplate code such as ``if (!is_null($obj)) { $obj->callSomething(); }`` to just ``$obj-"
+">callSomething();`` by eliminating the conditional check in client code."
+msgstr ""
+"Methoden, die ein Objekt oder Null zurückgeben, sollten stattdessen ein Objekt oder ``NullObject`` "
+"zurückgeben. ``NullObject``s vereinfachen Boilerplate-code wie z.B.  ``if (!is_null($obj)) { $obj-"
+">callSomething(); }`` zu ``$obj->callSomething();``, indem sie die konditionale Prüfung im Clientcode "
+"entfernen."
+
+#: ../../Behavioral/NullObject/README.rst:22
+msgid "Examples"
+msgstr "Beispiele"
+
+#: ../../Behavioral/NullObject/README.rst:24
+msgid "Symfony2: null logger of profiler"
+msgstr "Symfony2: Null Logger im Profiler"
+
+#: ../../Behavioral/NullObject/README.rst:25
+msgid "Symfony2: null output in Symfony/Console"
+msgstr "Symfony 2: Null-Output in Symfony/Console"
+
+#: ../../Behavioral/NullObject/README.rst:26
+msgid "null handler in a Chain of Responsibilities pattern"
+msgstr "Nullhandler in einem Chain Of Responsibilities Pattern "
+
+#: ../../Behavioral/NullObject/README.rst:27
+msgid "null command in a Command pattern"
+msgstr "Null Command in einem Command-Pattern"
+
+#: ../../Behavioral/NullObject/README.rst:30
+msgid "UML Diagram"
+msgstr "UML-Diagramm"
+
+#: ../../Behavioral/NullObject/README.rst:37
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/NullObject/README.rst:39
+msgid "You can also find these code on `GitHub`_"
+msgstr "Du findest den Code hierzu auf `GitHub`_"
+
+#: ../../Behavioral/NullObject/README.rst:41
+msgid "Service.php"
+msgstr "Service.php"
+
+#: ../../Behavioral/NullObject/README.rst:47
+msgid "LoggerInterface.php"
+msgstr "LoggerInterface.php"
+
+#: ../../Behavioral/NullObject/README.rst:53
+msgid "PrintLogger.php"
+msgstr "PrintLogger.php"
+
+#: ../../Behavioral/NullObject/README.rst:59
+msgid "NullLogger.php"
+msgstr "NullLogger.php"
+
+#: ../../Behavioral/NullObject/README.rst:66
+msgid "Test"
+msgstr "Test"
+
+#: ../../Behavioral/NullObject/README.rst:68
+msgid "Tests/LoggerTest.php"
+msgstr "Tests/LoggerTest.php"

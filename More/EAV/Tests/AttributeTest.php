@@ -6,7 +6,7 @@ use DesignPatterns\More\EAV\Attribute;
 use DesignPatterns\More\EAV\Value;
 
 /**
- * AttributeTest tests the Attribute model of EAV pattern
+ * AttributeTest tests the Attribute model of EAV pattern.
  */
 class AttributeTest extends \PHPUnit_Framework_TestCase
 {

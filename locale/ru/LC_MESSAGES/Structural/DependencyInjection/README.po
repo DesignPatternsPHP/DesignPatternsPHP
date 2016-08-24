@@ -85,7 +85,7 @@ msgid ""
 "objects via a configuration array and inject them where needed (i.e. in "
 "Controllers)"
 msgstr ""
-"Symfony and Zend Framework 2 уже содержат контейнеры для DI, которые "
+"Symfony и Zend Framework 2 уже содержат контейнеры для DI, которые "
 "создают объекты с помощью массива из конфигурации, и внедряют их в случае "
 "необходимости (т.е. в Контроллерах)."
 

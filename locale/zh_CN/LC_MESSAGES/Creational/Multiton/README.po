@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
@@ -19,8 +19,7 @@ msgstr "多例"
 msgid ""
 "**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
 "MAINTAINABILITY USE DEPENDENCY INJECTION!**"
-msgstr ""
-"**多例模式已经被考虑列入到反模式中！请使用依赖注入获得更好的代码可测试性和可控性！**"
+msgstr "**多例模式已经被考虑列入到反模式中！请使用依赖注入获得更好的代码可测试性和可控性！**"
 
 #: ../../Creational/Multiton/README.rst:8
 msgid "Purpose"
@@ -61,5 +60,6 @@ msgid "Multiton.php"
 msgstr ""
 
 #: ../../Creational/Multiton/README.rst:38
-msgid "测试"
-msgstr ""
+msgid "Test"
+msgstr "测试"
+

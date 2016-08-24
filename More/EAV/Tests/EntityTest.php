@@ -2,19 +2,19 @@
 
 namespace DesignPatterns\More\EAV\Tests;
 
-use DesignPatterns\More\EAV\Entity;
 use DesignPatterns\More\EAV\Attribute;
+use DesignPatterns\More\EAV\Entity;
 use DesignPatterns\More\EAV\Value;
 
 /**
- * EntityTest tests the Entity model of EAV pattern
+ * EntityTest tests the Entity model of EAV pattern.
  */
 class EntityTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @dataProvider valueProvider
      *
-     * @var string $name
+     * @var string
      */
     public function testSetGetName($name)
     {
@@ -27,7 +27,7 @@ class EntityTest extends \PHPUnit_Framework_TestCase
     /**
      * @dataProvider valueProvider
      *
-     * @var string $name
+     * @var string
      * @var Value[] $values
      */
     public function testAddValue($name, array $values)
@@ -47,7 +47,7 @@ class EntityTest extends \PHPUnit_Framework_TestCase
      * @depends testAddValue
      * @dataProvider valueProvider
      *
-     * @var string $name
+     * @var string
      * @var Value[] $values
      */
     public function testRemoveValue($name, array $values)

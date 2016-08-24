@@ -5,7 +5,7 @@ namespace DesignPatterns\More\EAV;
 use SplObjectStorage;
 
 /**
- * Class Attribute
+ * Class Attribute.
  */
 class Attribute implements ValueAccessInterface
 {
@@ -34,6 +34,7 @@ class Attribute implements ValueAccessInterface
 
     /**
      * @param ValueInterface $value
+     *
      * @return $this
      */
     public function addValue(ValueInterface $value)
@@ -47,6 +48,7 @@ class Attribute implements ValueAccessInterface
 
     /**
      * @param ValueInterface $value
+     *
      * @return $this
      */
     public function removeValue(ValueInterface $value)
@@ -68,6 +70,7 @@ class Attribute implements ValueAccessInterface
 
     /**
      * @param string $name
+     *
      * @return $this
      */
     public function setName($name)
