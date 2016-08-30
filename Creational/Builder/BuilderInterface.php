@@ -8,6 +8,11 @@ interface BuilderInterface
      * @return mixed
      */
     public function createVehicle();
+    
+    /**
+     * @return mixed
+     */
+    public function addEngine();
 
     /**
      * @return mixed
