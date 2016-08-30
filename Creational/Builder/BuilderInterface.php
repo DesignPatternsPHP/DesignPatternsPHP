@@ -17,15 +17,5 @@ interface BuilderInterface
     /**
      * @return mixed
      */
-    public function addEngine();
-
-    /**
-     * @return mixed
-     */
-    public function addDoors();
-
-    /**
-     * @return mixed
-     */
     public function getVehicle();
 }
