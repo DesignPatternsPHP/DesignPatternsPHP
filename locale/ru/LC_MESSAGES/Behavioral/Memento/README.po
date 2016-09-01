@@ -20,9 +20,7 @@ msgstr ""
 
 #: ../../Behavioral/Memento/README.rst:2
 msgid "`Memento`__"
-msgstr ""
-"`Хранитель <https://ru.wikipedia.org/wiki/Хранитель_(шаблон_проектирования)>`_"
-"(`Memento`__)"
+msgstr "`Хранитель <https://ru.wikipedia.org/wiki/Хранитель_(шаблон_проектирования)>`_ (`Memento`__)"
 
 #: ../../Behavioral/Memento/README.rst:5
 msgid "Purpose"

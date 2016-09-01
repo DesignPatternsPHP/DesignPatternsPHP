@@ -20,9 +20,7 @@ msgstr ""
 
 #: ../../Structural/Flyweight/README.rst:2
 msgid "`Flyweight`__"
-msgstr ""
-"`Приспособленец <https://ru.wikipedia.org/wiki/Приспособленец_(шаблон_проектирования)>`_ "
-"(`Flyweight`__)"
+msgstr "`Приспособленец <https://ru.wikipedia.org/wiki/Приспособленец_(шаблон_проектирования)>`_ (`Flyweight`__)"
 
 #: ../../Structural/Flyweight/README.rst:5
 msgid "Purpose"

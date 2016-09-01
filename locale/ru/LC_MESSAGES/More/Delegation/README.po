@@ -20,9 +20,7 @@ msgstr ""
 
 #: ../../More/Delegation/README.rst:2
 msgid "`Delegation`__"
-msgstr ""
-"`Делегирование <https://ru.wikipedia.org/wiki/Шаблон_делегирования>`_"
-"(`Delegation`__)"
+msgstr "`Делегирование <https://ru.wikipedia.org/wiki/Шаблон_делегирования>`_ (`Delegation`__)"
 
 #: ../../More/Delegation/README.rst:5
 msgid "Purpose"
