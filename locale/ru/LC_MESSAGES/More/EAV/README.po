@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-03 23:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Nikita Strelkov <nikita.strelkov@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -20,17 +20,19 @@ msgstr ""
 
 #: ../../More/EAV/README.rst:2
 msgid "`Entity-Attribute-Value (EAV)`__"
-msgstr ""
+msgstr "`Сущность-Артибут-Значение`__"
 
 #: ../../More/EAV/README.rst:4
 msgid ""
 "The Entity–attribute–value (EAV) pattern in order to implement EAV model "
 "with PHP."
 msgstr ""
+"Шаблон Сущность-Атрибут-Значение используется для реализации модели EAV "
+"на PHP"
 
 #: ../../More/EAV/README.rst:7
 msgid "Purpose"
-msgstr ""
+msgstr "Назначение"
 
 #: ../../More/EAV/README.rst:9
 msgid ""
@@ -39,40 +41,45 @@ msgid ""
 " be used to describe them is potentially vast, but the number that will "
 "actually apply to a given entity is relatively modest."
 msgstr ""
+"Модель Сущность-Атрибут-Значение (EAV) - это модель данных, "
+"предназначенная для описания сущностей, в которых количество атрибутов "
+"(свойств, параметров), характеризующих их, потенциально огромно, "
+"но то количество, которое реально будет использоваться в конкретной "
+"сущности относительно мало."
 
 #: ../../More/EAV/README.rst:15
 msgid "Examples"
-msgstr ""
+msgstr "Примеры"
 
 #: ../../More/EAV/README.rst:17
 msgid "Check full work example in `example.php`_ file."
-msgstr ""
+msgstr "Смотри полный работоспособный пример в файле `example.php`_."
 
 #: ../../More/EAV/README.rst:90
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML Диаграмма"
 
 #: ../../More/EAV/README.rst:97
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #: ../../More/EAV/README.rst:99
 msgid "You can also find these code on `GitHub`_"
-msgstr ""
+msgstr "Вы можете найти этот код на `GitHub`_"
 
 #: ../../More/EAV/README.rst:102
 msgid "Test"
-msgstr ""
+msgstr "Тест"
 
 #: ../../More/EAV/README.rst:104
 msgid "Tests/EntityTest.php"
-msgstr ""
+msgstr "Tests/EntityTest.php"
 
 #: ../../More/EAV/README.rst:110
 msgid "Tests/AttributeTest.php"
-msgstr ""
+msgstr "Tests/AttributeTest.php"
 
 #: ../../More/EAV/README.rst:116
 msgid "Tests/ValueTest.php"
-msgstr ""
+msgstr "Tests/ValueTest.php"
 
