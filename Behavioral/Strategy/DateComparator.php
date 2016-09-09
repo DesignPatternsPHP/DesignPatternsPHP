@@ -17,8 +17,8 @@ class DateComparator implements ComparatorInterface
 
         if ($aDate == $bDate) {
             return 0;
-        } else {
-            return $aDate < $bDate ? -1 : 1;
         }
+        
+        return $aDate < $bDate ? -1 : 1;
     }
 }
