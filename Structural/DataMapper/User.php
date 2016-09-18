@@ -33,9 +33,9 @@ class User
      */
     public function __construct($id = null, $username = null, $email = null)
     {
-        $this->userId = $id;
-        $this->username = $username;
-        $this->email = $email;
+        $this->setUserID($id);
+        $this->setUsername($username);
+        $this->setEmail($email);
     }
 
     /**
