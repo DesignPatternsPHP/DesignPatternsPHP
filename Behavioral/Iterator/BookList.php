@@ -2,16 +2,17 @@
 
 namespace DesignPatterns\Behavioral\Iterator;
 
-class BookList implements \Countable
+class BookList implements \Countable, \Iterator
 {
+    /**
+     * @var Book[]
+     */
     private $books;
 
-    public function getBook($bookNumberToGet)
-    {
-        if (isset($this->books[$bookNumberToGet])) {
-            return $this->books[$bookNumberToGet];
-        }
-    }
+    /**
+     * @var int
+     */
+    private $currentIndex = 0;
 
     public function addBook(Book $book)
     {
@@ -28,8 +29,33 @@ class BookList implements \Countable
         }
     }
 
-    public function count()
+    public function count(): int
     {
         return count($this->books);
+    }
+
+    public function current(): Book
+    {
+        return $this->books[array_keys($this->books)[$this->currentIndex]];
+    }
+
+    public function key(): int
+    {
+        return array_keys($this->books)[$this->currentIndex];
+    }
+
+    public function next()
+    {
+        $this->currentIndex++;
+    }
+
+    public function rewind()
+    {
+        $this->currentIndex = 0;
+    }
+
+    public function valid(): bool
+    {
+        return isset(array_keys($this->books)[$this->currentIndex]);
     }
 }
