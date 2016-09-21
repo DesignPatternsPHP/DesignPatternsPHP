@@ -57,7 +57,7 @@ class ObserverTest extends \PHPUnit_Framework_TestCase
     public function testUpdateCalling()
     {
         $subject = new User();
-        $observer = $this->getMock('SplObserver');
+        $observer = $this->createMock('SplObserver');
         $subject->attach($observer);
 
         $observer->expects($this->once())

@@ -8,44 +8,44 @@ namespace DesignPatterns\Structural\Proxy;
 class Record
 {
     /**
-     * @var array|null
+     * @var string[]
      */
-    protected $data;
+    private $data;
 
     /**
-     * @param null $data
+     * @param string[] $data
      */
-    public function __construct($data = null)
+    public function __construct(array $data = [])
     {
-        $this->data = (array) $data;
+        $this->data = $data;
     }
 
     /**
-     * magic setter.
+     * magic setter
      *
      * @param string $name
      * @param mixed  $value
      *
      * @return void
      */
-    public function __set($name, $value)
+    public function __set(string $name, string $value)
     {
-        $this->data[(string) $name] = $value;
+        $this->data[$name] = $value;
     }
 
     /**
-     * magic getter.
+     * magic getter
      *
      * @param string $name
      *
-     * @return mixed|null
+     * @return string|null
      */
-    public function __get($name)
+    public function __get(string $name): string
     {
-        if (array_key_exists($name, $this->data)) {
-            return $this->data[(string) $name];
+        if (isset($this->data[$name])) {
+            return $this->data[$name];
         } else {
-            return;
+            return null;
         }
     }
 }

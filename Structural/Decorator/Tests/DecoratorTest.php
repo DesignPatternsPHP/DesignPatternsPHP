@@ -73,7 +73,7 @@ class DecoratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testDecoratorOnlyAcceptRenderer()
     {
-        $mock = $this->getMock('DesignPatterns\Structural\Decorator\RendererInterface');
+        $mock = $this->createMock('DesignPatterns\Structural\Decorator\RendererInterface');
         $dec = $this->getMockForAbstractClass('DesignPatterns\Structural\Decorator\Decorator', array($mock));
         $this->assertNotNull($dec);
     }
