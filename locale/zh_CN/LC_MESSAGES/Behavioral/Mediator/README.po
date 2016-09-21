@@ -21,8 +21,8 @@ msgstr ""
 
 #: ../../Behavioral/Mediator/README.rst:7
 msgid ""
-"This pattern provides an easy to decouple many components working together. "
-"It is a good alternative over Observer IF you have a \"central "
+"This pattern provides an easy way to decouple many components working "
+"together. It is a good alternative to Observer IF you have a \"central "
 "intelligence\", like a controller (but not in the sense of the MVC)."
 msgstr ""
 

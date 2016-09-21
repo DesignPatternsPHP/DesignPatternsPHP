@@ -10,12 +10,10 @@ class RenderInJson extends Decorator
     /**
      * render data as JSON.
      *
-     * @return mixed|string
+     * @return string
      */
     public function renderData()
     {
-        $output = $this->wrapped->renderData();
-
-        return json_encode($output);
+        return json_encode($this->wrapped->renderData());
     }
 }

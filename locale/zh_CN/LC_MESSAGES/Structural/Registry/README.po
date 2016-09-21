@@ -66,8 +66,8 @@ msgstr ""
 
 #: ../../Structural/Registry/README.rst:14
 msgid ""
-"Zend Framework 1: ``Zend_Registry`` holds the application's logger object, "
-"front controller etc."
+"Zend Framework 1: ``Zend_Registry`` holds the application's logger "
+"object, front controller etc."
 msgstr ""
 "Zend Framework 1: ``Zend_Registry`` 持有应用的logger对象，前端控制器等。"
 

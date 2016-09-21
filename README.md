@@ -65,6 +65,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [DependencyInjection](Structural/DependencyInjection) [:notebook:](http://en.wikipedia.org/wiki/Dependency_injection)
 * [Facade](Structural/Facade) [:notebook:](http://en.wikipedia.org/wiki/Facade_pattern)
 * [FluentInterface](Structural/FluentInterface) [:notebook:](http://en.wikipedia.org/wiki/Fluent_interface)
+* [Flyweight](Structural/Flyweight) [:notebook:](https://en.wikipedia.org/wiki/Flyweight_pattern)
 * [Proxy](Structural/Proxy) [:notebook:](http://en.wikipedia.org/wiki/Proxy_pattern)
 * [Registry](Structural/Registry) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
 
@@ -98,7 +99,7 @@ To establish a consistent code quality, please check your code using [PHP_CodeSn
 
 (The MIT License)
 
-Copyright (c) 2014 Dominik Liebler and [contributors](https://github.com/domnikl/DesignPatternsPHP/graphs/contributors)
+Copyright (c) 2011 - 2016 Dominik Liebler and [contributors](https://github.com/domnikl/DesignPatternsPHP/graphs/contributors)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
