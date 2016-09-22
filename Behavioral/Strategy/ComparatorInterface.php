@@ -8,7 +8,7 @@ interface ComparatorInterface
      * @param mixed $a
      * @param mixed $b
      *
-     * @return bool
+     * @return int
      */
-    public function compare($a, $b);
+    public function compare($a, $b): int;
 }
