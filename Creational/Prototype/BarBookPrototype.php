@@ -9,9 +9,6 @@ class BarBookPrototype extends BookPrototype
      */
     protected $category = 'Bar';
 
-    /**
-     * empty clone.
-     */
     public function __clone()
     {
     }
