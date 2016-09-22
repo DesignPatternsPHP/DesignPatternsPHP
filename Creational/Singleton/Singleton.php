@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Creational\Singleton;
 
-class Singleton
+final class Singleton
 {
     /**
      * @var Singleton
@@ -31,21 +31,15 @@ class Singleton
 
     /**
      * prevent the instance from being cloned (which would create a second instance of it)
-     *
-     * @throws SingletonPatternViolationException
      */
-    final public function __clone()
+    private function __clone()
     {
-        throw new \Exception('This is a Singleton. __clone is forbidden');
     }
 
     /**
      * prevent from being unserialized (which would create a second instance of it)
-     *
-     * @throws SingletonPatternViolationException
      */
-    final public function __wakeup()
+    private function __wakeup()
     {
-        throw new \Exception('This is a Singleton. __wakeup is forbidden');
     }
 }
