@@ -4,7 +4,9 @@ namespace DesignPatterns\Creational\Pool;
 
 class Pool
 {
-    private $instances = array();
+    private $instances = [];
+
+
     private $class;
 
     public function __construct($class)
