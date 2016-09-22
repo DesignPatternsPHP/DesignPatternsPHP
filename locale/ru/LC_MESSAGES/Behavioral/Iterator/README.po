@@ -20,9 +20,7 @@ msgid "Purpose"
 msgstr "Назначение"
 
 #: ../../Behavioral/Iterator/README.rst:7
-msgid ""
-"To make an object iterable and to make it appear like a collection of "
-"objects."
+msgid "To make an object iterable and to make it appear like a collection of objects."
 msgstr ""
 "Добавить коллекции объектов функционал последовательного доступа к "
 "содержащимся в ней экземплярам объектов без реализации этого функционала в "
