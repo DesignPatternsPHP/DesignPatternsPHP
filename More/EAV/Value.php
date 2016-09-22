@@ -2,9 +2,6 @@
 
 namespace DesignPatterns\More\EAV;
 
-/**
- * Class Value.
- */
 class Value implements ValueInterface
 {
     /**

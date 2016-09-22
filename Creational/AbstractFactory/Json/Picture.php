@@ -4,11 +4,6 @@ namespace DesignPatterns\Creational\AbstractFactory\Json;
 
 use DesignPatterns\Creational\AbstractFactory\Picture as BasePicture;
 
-/**
- * Class Picture.
- *
- * Picture is a concrete image for JSON rendering
- */
 class Picture extends BasePicture
 {
     /**

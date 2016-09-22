@@ -2,9 +2,6 @@
 
 namespace DesignPatterns\More\Delegation;
 
-/**
- * Class JuniorDeveloper.
- */
 class JuniorDeveloper
 {
     public function writeBadCode()

@@ -2,9 +2,6 @@
 
 namespace DesignPatterns\Structural\Composite;
 
-/**
- * Class FormElement.
- */
 abstract class FormElement
 {
     /**

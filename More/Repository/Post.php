@@ -2,11 +2,6 @@
 
 namespace DesignPatterns\More\Repository;
 
-/**
- * Post represents entity for some post that user left on the site.
- *
- * Class Post
- */
 class Post
 {
     /**

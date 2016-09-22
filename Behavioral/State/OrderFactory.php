@@ -2,9 +2,6 @@
 
 namespace DesignPatterns\Behavioral\State;
 
-/**
- * Class OrderFactory.
- */
 class OrderFactory
 {
     private function __construct()

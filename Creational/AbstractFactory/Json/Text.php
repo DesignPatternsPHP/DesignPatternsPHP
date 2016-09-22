@@ -4,11 +4,6 @@ namespace DesignPatterns\Creational\AbstractFactory\Json;
 
 use DesignPatterns\Creational\AbstractFactory\Text as BaseText;
 
-/**
- * Class Text.
- *
- * Text is a text component with a JSON rendering
- */
 class Text extends BaseText
 {
     /**

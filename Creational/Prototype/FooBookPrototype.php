@@ -2,9 +2,6 @@
 
 namespace DesignPatterns\Creational\Prototype;
 
-/**
- * Class FooBookPrototype.
- */
 class FooBookPrototype extends BookPrototype
 {
     protected $category = 'Foo';

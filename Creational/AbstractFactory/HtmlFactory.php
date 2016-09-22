@@ -2,11 +2,6 @@
 
 namespace DesignPatterns\Creational\AbstractFactory;
 
-/**
- * Class HtmlFactory.
- *
- * HtmlFactory is a concrete factory for HTML component
- */
 class HtmlFactory extends AbstractFactory
 {
     /**

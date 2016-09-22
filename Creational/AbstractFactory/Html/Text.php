@@ -4,11 +4,6 @@ namespace DesignPatterns\Creational\AbstractFactory\Html;
 
 use DesignPatterns\Creational\AbstractFactory\Text as BaseText;
 
-/**
- * Class Text.
- *
- * Text is a concrete text for HTML rendering
- */
 class Text extends BaseText
 {
     /**

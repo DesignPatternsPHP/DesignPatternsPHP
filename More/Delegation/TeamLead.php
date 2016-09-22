@@ -2,9 +2,6 @@
 
 namespace DesignPatterns\More\Delegation;
 
-/**
- * Class TeamLead.
- */
 class TeamLead
 {
     /** @var JuniorDeveloper */

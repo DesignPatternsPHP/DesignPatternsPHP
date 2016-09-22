@@ -2,9 +2,6 @@
 
 namespace DesignPatterns\Behavioral\Strategy;
 
-/**
- * Class ObjectCollection.
- */
 class ObjectCollection
 {
     /**

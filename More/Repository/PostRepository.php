@@ -3,16 +3,13 @@
 namespace DesignPatterns\More\Repository;
 
 /**
- * Repository for class Post
- * This class is between Entity layer(class Post) and access object layer(interface Storage).
+ * This class is between Entity layer (class Post) and access object layer (interface Storage).
  *
  * Repository encapsulates the set of objects persisted in a data store and the operations performed over them
  * providing a more object-oriented view of the persistence layer
  *
  * Repository also supports the objective of achieving a clean separation and one-way dependency
  * between the domain and data mapping layers
- *
- * Class PostRepository
  */
 class PostRepository
 {

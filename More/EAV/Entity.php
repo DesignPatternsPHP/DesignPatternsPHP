@@ -4,9 +4,6 @@ namespace DesignPatterns\More\EAV;
 
 use SplObjectStorage;
 
-/**
- * Class Entity.
- */
 class Entity implements ValueAccessInterface
 {
     /**

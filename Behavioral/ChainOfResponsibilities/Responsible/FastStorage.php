@@ -5,9 +5,6 @@ namespace DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible;
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Handler;
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Request;
 
-/**
- * Class FastStorage.
- */
 class FastStorage extends Handler
 {
     /**

@@ -2,9 +2,6 @@
 
 namespace DesignPatterns\Creational\Prototype;
 
-/**
- * Class BarBookPrototype.
- */
 class BarBookPrototype extends BookPrototype
 {
     /**

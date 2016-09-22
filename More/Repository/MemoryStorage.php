@@ -2,9 +2,6 @@
 
 namespace DesignPatterns\More\Repository;
 
-/**
- * Class MemoryStorage.
- */
 class MemoryStorage implements Storage
 {
     private $data;
