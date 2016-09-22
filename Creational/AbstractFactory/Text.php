@@ -2,18 +2,15 @@
 
 namespace DesignPatterns\Creational\AbstractFactory;
 
-abstract class Text implements MediaInterface
+abstract class Text
 {
     /**
      * @var string
      */
-    protected $text;
+    private $text;
 
-    /**
-     * @param string $text
-     */
-    public function __construct($text)
+    public function __construct(string $text)
     {
-        $this->text = (string) $text;
+        $this->text = $text;
     }
 }
