@@ -2,29 +2,43 @@
 
 namespace DesignPatterns\Creational\Pool;
 
-class Pool
+class WorkerPool implements \Countable
 {
-    private $instances = [];
+    /**
+     * @var StringReverseWorker[]
+     */
+    private $occupiedWorkers = [];
 
+    /**
+     * @var StringReverseWorker[]
+     */
+    private $freeWorkers = [];
 
-    private $class;
-
-    public function __construct($class)
+    public function get(): StringReverseWorker
     {
-        $this->class = $class;
-    }
-
-    public function get()
-    {
-        if (count($this->instances) > 0) {
-            return array_pop($this->instances);
+        if (count($this->freeWorkers) == 0) {
+            $worker = new StringReverseWorker();
+        } else {
+            $worker = array_pop($this->freeWorkers);
         }
 
-        return new $this->class();
+        $this->occupiedWorkers[spl_object_hash($worker)] = $worker;
+
+        return $worker;
     }
 
-    public function dispose($instance)
+    public function dispose(StringReverseWorker $worker)
     {
-        $this->instances[] = $instance;
+        $key = spl_object_hash($worker);
+
+        if (isset($this->occupiedWorkers[$key])) {
+            unset($this->occupiedWorkers[$key]);
+            $this->freeWorkers[$key] = $worker;
+        }
+    }
+
+    public function count(): int
+    {
+        return count($this->occupiedWorkers) + count($this->freeWorkers);
     }
 }

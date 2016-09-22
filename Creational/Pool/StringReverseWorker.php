@@ -2,18 +2,20 @@
 
 namespace DesignPatterns\Creational\Pool;
 
-class Worker
+class StringReverseWorker
 {
+    /**
+     * @var \DateTime
+     */
+    private $createdAt;
+
     public function __construct()
     {
-        // let's say that constuctor does really expensive work...
-        // for example creates "thread"
+        $this->createdAt = new \DateTime();
     }
 
-    public function run($image, array $callback)
+    public function run(string $text)
     {
-        // do something with $image...
-        // and when it's done, execute callback
-        call_user_func($callback, $this);
+        return strrev($text);
     }
 }
