@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Behavioral\State;
 
-interface OrderInterface
+interface Order
 {
     /**
      * @return mixed
@@ -13,4 +13,6 @@ interface OrderInterface
      * @return mixed
      */
     public function completeOrder();
+
+    public function getStatus(): string;
 }
