@@ -54,6 +54,18 @@ msgid ""
 "using ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``."
 msgstr ""
 
-#: ../../README.rst:43
-msgid "License"
+#: ../../README.rst:69
+msgid "`design patterns`"
+msgstr ""
+
+#: ../../README.rst:70
+msgid "`PHP CodeSniffer`"
+msgstr ""
+
+#: ../../README.rst:71
+msgid "`PSR2 standard`"
+msgstr ""
+
+#: ../../README.rst:73
+msgid "`contributors`"
 msgstr ""
