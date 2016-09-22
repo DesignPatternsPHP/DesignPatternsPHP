@@ -52,23 +52,23 @@ VehicleInterface.php
    :language: php
    :linenos:
 
-Porsche.php
+CarMercedes.php
 
-.. literalinclude:: Porsche.php
+.. literalinclude:: CarMercedes.php
    :language: php
    :linenos:
 
-Bicycle.php
+CarFerrari.php
+
+.. literalinclude:: CarFerrari.php
+   :language: php
+   :linenos:
+
+   Bicycle.php
 
 .. literalinclude:: Bicycle.php
-   :language: php
-   :linenos:
-
-Ferrari.php
-
-.. literalinclude:: Ferrari.php
-   :language: php
-   :linenos:
+:language: php
+      :linenos:
 
 Test
 ----

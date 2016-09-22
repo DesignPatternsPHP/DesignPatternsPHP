@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Creational\FactoryMethod;
 
-class Bicycle implements VehicleInterface
+class CarFerrari implements VehicleInterface
 {
     /**
      * @var string

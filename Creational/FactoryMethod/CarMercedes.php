@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Creational\FactoryMethod;
 
-class Bicycle implements VehicleInterface
+class CarMercedes implements VehicleInterface
 {
     /**
      * @var string
@@ -12,5 +12,10 @@ class Bicycle implements VehicleInterface
     public function setColor(string $rgb)
     {
         $this->color = $rgb;
+    }
+
+    public function addAMGTuning()
+    {
+        // do additional tuning here
     }
 }
