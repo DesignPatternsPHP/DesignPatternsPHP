@@ -20,9 +20,12 @@ class Director
     public function build(BuilderInterface $builder)
     {
         $builder->createVehicle();
-        $builder->addDoors();
         $builder->addEngine();
         $builder->addWheel();
+        
+        if ($builder instanceof CarBuilder) {
+            $builder->addDoors();
+        }
 
         return $builder->getVehicle();
     }

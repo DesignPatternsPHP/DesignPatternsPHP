@@ -8,12 +8,7 @@ interface BuilderInterface
      * @return mixed
      */
     public function createVehicle();
-
-    /**
-     * @return mixed
-     */
-    public function addWheel();
-
+    
     /**
      * @return mixed
      */
@@ -22,7 +17,7 @@ interface BuilderInterface
     /**
      * @return mixed
      */
-    public function addDoors();
+    public function addWheel();
 
     /**
      * @return mixed
