@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\More\EAV;
 
-class Value implements ValueInterface
+class Value
 {
     /**
      * @var Attribute
@@ -14,53 +14,16 @@ class Value implements ValueInterface
      */
     private $name;
 
-    /**
-     * @param Attribute $attribute
-     */
-    public function __construct(Attribute $attribute)
-    {
-        $this->setAttribute($attribute);
-    }
-
-    /**
-     * @param Attribute $attribute
-     *
-     * @return $this
-     */
-    public function setAttribute(Attribute $attribute)
-    {
-        $this->attribute && $this->attribute->removeValue($this); // Remove value from current attribute
-        $attribute->addValue($this); // Add value to new attribute
-        $this->attribute = $attribute;
-
-        return $this;
-    }
-
-    /**
-     * @return Attribute
-     */
-    public function getAttribute()
-    {
-        return $this->attribute;
-    }
-
-    /**
-     * @return string
-     */
-    public function getName()
-    {
-        return $this->name;
-    }
-
-    /**
-     * @param string $name
-     *
-     * @return $this
-     */
-    public function setName($name)
+    public function __construct(Attribute $attribute, string $name)
     {
         $this->name = $name;
+        $this->attribute = $attribute;
 
-        return $this;
+        $attribute->addValue($this);
+    }
+
+    public function __toString(): string
+    {
+        return sprintf('%s: %s', $this->attribute, $this->name);
     }
 }
