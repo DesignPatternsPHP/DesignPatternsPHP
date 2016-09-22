@@ -4,32 +4,21 @@ namespace DesignPatterns\Structural\Composite\Tests;
 
 use DesignPatterns\Structural\Composite;
 
-/**
- * FormTest tests the composite pattern on Form.
- */
 class CompositeTest extends \PHPUnit_Framework_TestCase
 {
     public function testRender()
     {
         $form = new Composite\Form();
-        $form->addElement(new Composite\TextElement());
+        $form->addElement(new Composite\TextElement('Email:'));
         $form->addElement(new Composite\InputElement());
         $embed = new Composite\Form();
-        $embed->addElement(new Composite\TextElement());
+        $embed->addElement(new Composite\TextElement('Password:'));
         $embed->addElement(new Composite\InputElement());
-        $form->addElement($embed);  // here we have a embedded form (like SF2 does)
+        $form->addElement($embed);
 
-        $this->assertRegExp('#^\s{4}#m', $form->render());
-    }
-
-    /**
-     * The point of this pattern, a Composite must inherit from the node
-     * if you want to build trees.
-     */
-    public function testFormImplementsFormEelement()
-    {
-        $className = 'DesignPatterns\Structural\Composite\Form';
-        $abstractName = 'DesignPatterns\Structural\Composite\FormElement';
-        $this->assertTrue(is_subclass_of($className, $abstractName));
+        $this->assertEquals(
+            '<form>Email:<input type="text" /><form>Password:<input type="text" /></form></form>',
+            $form->render()
+        );
     }
 }
