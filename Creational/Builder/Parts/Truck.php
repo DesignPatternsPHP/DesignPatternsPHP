@@ -2,6 +2,6 @@
 
 namespace DesignPatterns\Creational\Builder\Parts;
 
-class Bike extends Vehicle
+class Truck extends Vehicle
 {
 }

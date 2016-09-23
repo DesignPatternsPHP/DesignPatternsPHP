@@ -15,6 +15,7 @@ class CarBuilder implements BuilderInterface
     {
         $this->car->setPart('rightDoor', new Parts\Door());
         $this->car->setPart('leftDoor', new Parts\Door());
+        $this->car->setPart('trunkLid', new Parts\Door());
     }
 
     public function addEngine()
