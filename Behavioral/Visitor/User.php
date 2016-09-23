@@ -2,31 +2,25 @@
 
 namespace DesignPatterns\Behavioral\Visitor;
 
-/**
- * Visitor Pattern.
- *
- * One example for a visitee. Each visitee has to extends Role
- */
-class User extends Role
+class User implements Role
 {
     /**
      * @var string
      */
-    protected $name;
+    private $name;
 
-    /**
-     * @param string $name
-     */
-    public function __construct($name)
+    public function __construct(string $name)
     {
-        $this->name = (string) $name;
+        $this->name = $name;
     }
 
-    /**
-     * @return string
-     */
-    public function getName()
+    public function getName(): string
     {
-        return 'User '.$this->name;
+        return sprintf('User %s', $this->name);
+    }
+
+    public function accept(RoleVisitorInterface $visitor)
+    {
+        $visitor->visitUser($this);
     }
 }

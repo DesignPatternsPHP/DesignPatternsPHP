@@ -2,15 +2,10 @@
 
 namespace DesignPatterns\More\Repository;
 
-/**
- * Post represents entity for some post that user left on the site.
- *
- * Class Post
- */
 class Post
 {
     /**
-     * @var int
+     * @var int|null
      */
     private $id;
 
@@ -24,92 +19,43 @@ class Post
      */
     private $text;
 
-    /**
-     * @var string
-     */
-    private $author;
+    public static function fromState(array $state): Post
+    {
+        return new self(
+            $state['id'],
+            $state['title'],
+            $state['text']
+        );
+    }
 
     /**
-     * @var \DateTime
+     * @param int|null $id
+     * @param string $text
+     * @param string $title
      */
-    private $created;
+    public function __construct($id, string $title, string $text)
+    {
+        $this->id = $id;
+        $this->text = $text;
+        $this->title = $title;
+    }
 
-    /**
-     * @param int $id
-     */
-    public function setId($id)
+    public function setId(int $id)
     {
         $this->id = $id;
     }
 
-    /**
-     * @return int
-     */
-    public function getId()
+    public function getId(): int
     {
         return $this->id;
     }
 
-    /**
-     * @param string $author
-     */
-    public function setAuthor($author)
-    {
-        $this->author = $author;
-    }
-
-    /**
-     * @return string
-     */
-    public function getAuthor()
-    {
-        return $this->author;
-    }
-
-    /**
-     * @param \DateTime $created
-     */
-    public function setCreated($created)
-    {
-        $this->created = $created;
-    }
-
-    /**
-     * @return \DateTime
-     */
-    public function getCreated()
-    {
-        return $this->created;
-    }
-
-    /**
-     * @param string $text
-     */
-    public function setText($text)
-    {
-        $this->text = $text;
-    }
-
-    /**
-     * @return string
-     */
-    public function getText()
+    public function getText(): string
     {
         return $this->text;
     }
 
-    /**
-     * @param string $title
-     */
-    public function setTitle($title)
-    {
-        $this->title = $title;
-    }
-
-    /**
-     * @return string
-     */
-    public function getTitle()
+    public function getTitle(): string
     {
         return $this->title;
     }

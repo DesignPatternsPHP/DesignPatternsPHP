@@ -2,31 +2,23 @@
 
 namespace DesignPatterns\More\Delegation;
 
-/**
- * Class TeamLead.
- */
 class TeamLead
 {
-    /** @var JuniorDeveloper */
-    protected $slave;
+    /**
+     * @var JuniorDeveloper
+     */
+    private $junior;
 
     /**
-     * Give junior developer into teamlead submission.
-     *
      * @param JuniorDeveloper $junior
      */
     public function __construct(JuniorDeveloper $junior)
     {
-        $this->slave = $junior;
+        $this->junior = $junior;
     }
 
-    /**
-     * TeamLead drink coffee, junior work.
-     *
-     * @return mixed
-     */
-    public function writeCode()
+    public function writeCode(): string
     {
-        return $this->slave->writeBadCode();
+        return $this->junior->writeBadCode();
     }
 }

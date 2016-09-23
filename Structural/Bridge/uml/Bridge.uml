@@ -1,48 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>PHP</ID>
-  <OriginalElement>\DesignPatterns\Structural\Bridge\Vehicle</OriginalElement>
+  <OriginalElement>\DesignPatterns\Structural\Bridge\HtmlFormatter</OriginalElement>
   <nodes>
-    <node x="53.5" y="272.0">\DesignPatterns\Structural\Bridge\Workshop</node>
-    <node x="290.0" y="159.0">\DesignPatterns\Structural\Bridge\Car</node>
-    <node x="107.0" y="369.0">\DesignPatterns\Structural\Bridge\Produce</node>
-    <node x="0.0" y="159.0">\DesignPatterns\Structural\Bridge\Motorcycle</node>
-    <node x="0.0" y="369.0">\DesignPatterns\Structural\Bridge\Assemble</node>
-    <node x="187.5" y="0.0">\DesignPatterns\Structural\Bridge\Vehicle</node>
+    <node x="-111.0" y="-111.0">\DesignPatterns\Structural\Bridge\PlainTextFormatter</node>
+    <node x="-194.0" y="-212.0">\DesignPatterns\Structural\Bridge\FormatterInterface</node>
+    <node x="88.0" y="-239.0">\DesignPatterns\Structural\Bridge\Service</node>
+    <node x="121.0" y="-93.0">\DesignPatterns\Structural\Bridge\HelloWorldService</node>
+    <node x="-278.0" y="-111.0">\DesignPatterns\Structural\Bridge\HtmlFormatter</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="\DesignPatterns\Structural\Bridge\Car" target="\DesignPatterns\Structural\Bridge\Vehicle">
-      <point x="0.0" y="-34.0" />
-      <point x="425.0" y="134.0" />
-      <point x="326.25" y="134.0" />
-      <point x="46.25" y="54.5" />
+    <edge source="\DesignPatterns\Structural\Bridge\HelloWorldService" target="\DesignPatterns\Structural\Bridge\Service">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="48.0" />
     </edge>
-    <edge source="\DesignPatterns\Structural\Bridge\Assemble" target="\DesignPatterns\Structural\Bridge\Workshop">
-      <point x="0.0" y="-23.5" />
-      <point x="43.5" y="344.0" />
-      <point x="75.25" y="344.0" />
-      <point x="-21.75" y="23.5" />
+    <edge source="\DesignPatterns\Structural\Bridge\PlainTextFormatter" target="\DesignPatterns\Structural\Bridge\FormatterInterface">
+      <point x="0.0" y="-25.5" />
+      <point x="-35.5" y="-136.0" />
+      <point x="-83.0" y="-136.0" />
+      <point x="37.0" y="25.5" />
     </edge>
-    <edge source="\DesignPatterns\Structural\Bridge\Motorcycle" target="\DesignPatterns\Structural\Bridge\Vehicle">
-      <point x="0.0" y="-34.0" />
-      <point x="135.0" y="134.0" />
-      <point x="233.75" y="134.0" />
-      <point x="-46.25" y="54.5" />
-    </edge>
-    <edge source="\DesignPatterns\Structural\Bridge\Produce" target="\DesignPatterns\Structural\Bridge\Workshop">
-      <point x="0.0" y="-23.5" />
-      <point x="150.5" y="344.0" />
-      <point x="118.75" y="344.0" />
-      <point x="21.75" y="23.5" />
+    <edge source="\DesignPatterns\Structural\Bridge\HtmlFormatter" target="\DesignPatterns\Structural\Bridge\FormatterInterface">
+      <point x="0.0" y="-25.5" />
+      <point x="-204.5" y="-136.0" />
+      <point x="-157.0" y="-136.0" />
+      <point x="-37.0" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.8853211009174312" x="280.0" y="208.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="147.5" y="130.5" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Constants</Category>
-    <Category>Constructors</Category>
     <Category>Methods</Category>
   </Categories>
   <VISIBILITY>private</VISIBILITY>

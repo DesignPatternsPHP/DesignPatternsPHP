@@ -2,9 +2,6 @@
 
 namespace DesignPatterns\Behavioral\Strategy;
 
-/**
- * Class ObjectCollection.
- */
 class ObjectCollection
 {
     /**
@@ -20,30 +17,24 @@ class ObjectCollection
     /**
      * @param array $elements
      */
-    public function __construct(array $elements = array())
+    public function __construct(array $elements = [])
     {
         $this->elements = $elements;
     }
 
-    /**
-     * @return array
-     */
-    public function sort()
+    public function sort(): array
     {
         if (!$this->comparator) {
             throw new \LogicException('Comparator is not set');
         }
 
-        $callback = array($this->comparator, 'compare');
-        uasort($this->elements, $callback);
+        uasort($this->elements, [$this->comparator, 'compare']);
 
         return $this->elements;
     }
 
     /**
      * @param ComparatorInterface $comparator
-     *
-     * @return void
      */
     public function setComparator(ComparatorInterface $comparator)
     {
