@@ -2,46 +2,51 @@
 
 namespace DesignPatterns\Structural\Registry;
 
-/**
- * class Registry.
- */
 abstract class Registry
 {
     const LOGGER = 'logger';
 
     /**
+     * this introduces global state in your application which can not be mocked up for testing
+     * and is therefor considered an anti-pattern! Use dependency injection instead!
+     *
      * @var array
      */
-    protected static $storedValues = array();
+    private static $storedValues = [];
 
     /**
-     * sets a value.
-     *
+     * @var array
+     */
+    private static $allowedKeys = [
+        self::LOGGER,
+    ];
+
+    /**
      * @param string $key
      * @param mixed  $value
      *
-     * @static
-     *
      * @return void
      */
-    public static function set($key, $value)
+    public static function set(string $key, $value)
     {
+        if (!in_array($key, self::$allowedKeys)) {
+            throw new \InvalidArgumentException('Invalid key given');
+        }
+
         self::$storedValues[$key] = $value;
     }
 
     /**
-     * gets a value from the registry.
-     *
      * @param string $key
-     *
-     * @static
      *
      * @return mixed
      */
-    public static function get($key)
+    public static function get(string $key)
     {
+        if (!in_array($key, self::$allowedKeys) || !isset(self::$storedValues[$key])) {
+            throw new \InvalidArgumentException('Invalid key given');
+        }
+
         return self::$storedValues[$key];
     }
-
-    // typically there would be methods to check if a key has already been registered and so on ...
 }
