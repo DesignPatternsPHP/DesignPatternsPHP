@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP "
-"df64d6071c0eb15c581ac7549fbbd26fb53c25df\n"
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
 "POT-Creation-Date: 2016-09-19 17:00-0500\n"
 "Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
 "Content-Type: text/plain; "
@@ -29,29 +29,21 @@ msgid ""
 msgstr ""
 
 #: ../../More/EAV/README.rst:14
-msgid "Examples"
-msgstr ""
-
-#: ../../More/EAV/README.rst:17
-msgid "Check full work example in `example.php`_ file."
-msgstr ""
-
-#: ../../More/EAV/README.rst:89
 msgid "UML Diagram"
 msgstr ""
 
-#: ../../More/EAV/README.rst:93
+#: ../../More/EAV/README.rst:18
 msgid "EAV UML Diagram"
 msgstr ""
 
-#: ../../More/EAV/README.rst:96
+#: ../../More/EAV/README.rst:21
 msgid "Code"
 msgstr ""
 
-#: ../../More/EAV/README.rst:99
+#: ../../More/EAV/README.rst:24
 msgid "You can also find these code on `GitHub`_"
 msgstr ""
 
-#: ../../More/EAV/README.rst:101
+#: ../../More/EAV/README.rst:44
 msgid "Test"
 msgstr ""

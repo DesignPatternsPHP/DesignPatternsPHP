@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP "
-"df64d6071c0eb15c581ac7549fbbd26fb53c25df\n"
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
 "POT-Creation-Date: 2016-09-19 17:00-0500\n"
 "Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
 "Content-Type: text/plain; "
@@ -28,27 +28,17 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:13
 msgid ""
-"Configuration gets injected and ``Connection`` will get all that it "
+"DatabaseConfiguration gets injected and ``DatabaseConnection`` will get all that it "
 "needs from ``$config``. Without DI, the configuration would be created "
-"directly in ``Connection``, which is not very good for testing and "
-"extending ``Connection``."
+"directly in ``DatabaseConnection``, which is not very good for testing and "
+"extending it."
 msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:18
-msgid ""
-"Notice we are following Inversion of control principle in ``Connection`` "
-"by asking ``$config`` to implement ``Parameters`` interface. This "
-"decouples our components. We don't care where the source of information "
-"comes from, we only care that ``$config`` has certain methods to "
-"retrieve that information. Read more about Inversion of control "
-"`here <http://en.wikipedia.org/wiki/Inversion_of_control>`__."
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:25
 msgid "Examples"
 msgstr ""
 
-#: ../../Structural/DependencyInjection/README.rst:28
+#: ../../Structural/DependencyInjection/README.rst:21
 msgid ""
 "The Doctrine2 ORM uses dependency injection e.g. for configuration "
 "that is injected into a ``Connection`` object. For testing purposes, "
@@ -56,29 +46,29 @@ msgid ""
 "that into the ``Connection`` object"
 msgstr ""
 
-#: ../../Structural/DependencyInjection/README.rst:32
+#: ../../Structural/DependencyInjection/README.rst:25
 msgid ""
 "Symfony and Zend Framework 2 already have containers for DI that "
 "create objects via a configuration array and inject them where needed "
 "(i.e. in Controllers)"
 msgstr ""
 
-#: ../../Structural/DependencyInjection/README.rst:36
+#: ../../Structural/DependencyInjection/README.rst:29
 msgid "UML Diagram"
 msgstr ""
 
-#: ../../Structural/DependencyInjection/README.rst:40
+#: ../../Structural/DependencyInjection/README.rst:33
 msgid "Alt DependencyInjection UML Diagram"
 msgstr ""
 
-#: ../../Structural/DependencyInjection/README.rst:43
+#: ../../Structural/DependencyInjection/README.rst:36
 msgid "Code"
 msgstr ""
 
-#: ../../Structural/DependencyInjection/README.rst:46
+#: ../../Structural/DependencyInjection/README.rst:39
 msgid "You can also find these code on `GitHub`_"
 msgstr ""
 
-#: ../../Structural/DependencyInjection/README.rst:72
+#: ../../Structural/DependencyInjection/README.rst:53
 msgid "Test"
 msgstr ""

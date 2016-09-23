@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP "
-"df64d6071c0eb15c581ac7549fbbd26fb53c25df\n"
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
 "POT-Creation-Date: 2016-09-19 17:00-0500\n"
 "Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
 "Content-Type: text/plain; "
@@ -20,41 +20,42 @@ msgstr ""
 msgid ""
 "To implement a central storage for objects often used throughout the "
 "application, is typically implemented using an abstract class with only "
-"static methods (or using the Singleton pattern)"
+"static methods (or using the Singleton pattern). Remember that this introduces "
+"global state, which should be avoided at all times! Instead implement it using Dependency Injection!"
 msgstr ""
 
-#: ../../Structural/Registry/README.rst:11
+#: ../../Structural/Registry/README.rst:12
 msgid "Examples"
 msgstr ""
 
-#: ../../Structural/Registry/README.rst:14
+#: ../../Structural/Registry/README.rst:15
 msgid ""
 "Zend Framework 1: ``Zend_Registry`` holds the application's logger "
 "object, front controller etc."
 msgstr ""
 
-#: ../../Structural/Registry/README.rst:16
+#: ../../Structural/Registry/README.rst:17
 msgid ""
 "Yii Framework: ``CWebApplication`` holds all the application "
 "components, such as ``CWebUser``, ``CUrlManager``, etc."
 msgstr ""
 
-#: ../../Structural/Registry/README.rst:19
+#: ../../Structural/Registry/README.rst:20
 msgid "UML Diagram"
 msgstr ""
 
-#: ../../Structural/Registry/README.rst:23
+#: ../../Structural/Registry/README.rst:24
 msgid "Alt Registry UML Diagram"
 msgstr ""
 
-#: ../../Structural/Registry/README.rst:26
+#: ../../Structural/Registry/README.rst:27
 msgid "Code"
 msgstr ""
 
-#: ../../Structural/Registry/README.rst:29
+#: ../../Structural/Registry/README.rst:30
 msgid "You can also find these code on `GitHub`_"
 msgstr ""
 
-#: ../../Structural/Registry/README.rst:37
+#: ../../Structural/Registry/README.rst:38
 msgid "Test"
 msgstr ""
