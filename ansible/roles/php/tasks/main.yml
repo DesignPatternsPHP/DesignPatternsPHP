@@ -7,9 +7,9 @@
   sudo: yes
   apt: update_cache=yes
 
-- name: Install php5
+- name: Install php7
   sudo: yes
-  apt: pkg=php5 state=latest
+  apt: pkg=php7.0 state=latest
 
 - name: Install PHP Packages
   sudo: yes

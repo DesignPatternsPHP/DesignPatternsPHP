@@ -3,38 +3,26 @@
 namespace DesignPatterns\Structural\Flyweight;
 
 /**
- * A factory manages shared flyweights. Clients shouldn't instaniate them directly,
+ * A factory manages shared flyweights. Clients should not instantiate them directly,
  * but let the factory take care of returning existing objects or creating new ones.
  */
-class FlyweightFactory
+class FlyweightFactory implements \Countable
 {
     /**
-     * Associative store for flyweight objects.
-     *
-     * @var array
+     * @var CharacterFlyweight[]
      */
-    private $pool = array();
+    private $pool = [];
 
-    /**
-     * Magic getter.
-     *
-     * @param string $name
-     *
-     * @return Flyweight
-     */
-    public function __get($name)
+    public function get(string $name): CharacterFlyweight
     {
-        if (!array_key_exists($name, $this->pool)) {
+        if (!isset($this->pool[$name])) {
             $this->pool[$name] = new CharacterFlyweight($name);
         }
 
         return $this->pool[$name];
     }
 
-    /**
-     * @return int
-     */
-    public function totalNumber()
+    public function count(): int
     {
         return count($this->pool);
     }

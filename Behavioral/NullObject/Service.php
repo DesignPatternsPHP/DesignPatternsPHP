@@ -2,24 +2,19 @@
 
 namespace DesignPatterns\Behavioral\NullObject;
 
-/**
- * Service is dummy service that uses a logger.
- */
 class Service
 {
     /**
      * @var LoggerInterface
      */
-    protected $logger;
+    private $logger;
 
     /**
-     * we inject the logger in ctor and it is mandatory.
-     *
-     * @param LoggerInterface $log
+     * @param LoggerInterface $logger
      */
-    public function __construct(LoggerInterface $log)
+    public function __construct(LoggerInterface $logger)
     {
-        $this->logger = $log;
+        $this->logger = $logger;
     }
 
     /**
@@ -27,8 +22,7 @@ class Service
      */
     public function doSomething()
     {
-        // no more check "if (!is_null($this->logger))..." with the NullObject pattern
+        // notice here that you don't have to check if the logger is set with eg. is_null(), instead just use it
         $this->logger->log('We are in '.__METHOD__);
-        // something to do...
     }
 }

@@ -35,39 +35,15 @@ Code
 
 You can also find these code on `GitHub`_
 
-ServiceLocatorInterface.php
-
-.. literalinclude:: ServiceLocatorInterface.php
-   :language: php
-   :linenos:
-
 ServiceLocator.php
 
 .. literalinclude:: ServiceLocator.php
    :language: php
    :linenos:
 
-LogServiceInterface.php
-
-.. literalinclude:: LogServiceInterface.php
-   :language: php
-   :linenos:
-
 LogService.php
 
 .. literalinclude:: LogService.php
-   :language: php
-   :linenos:
-
-DatabaseServiceInterface.php
-
-.. literalinclude:: DatabaseServiceInterface.php
-   :language: php
-   :linenos:
-
-DatabaseService.php
-
-.. literalinclude:: DatabaseService.php
    :language: php
    :linenos:
 

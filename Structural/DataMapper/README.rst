@@ -47,6 +47,12 @@ UserMapper.php
    :language: php
    :linenos:
 
+StorageAdapter.php
+
+.. literalinclude:: StorageAdapter.php
+    :language: php
+    :linenos:
+
 Test
 ----
 

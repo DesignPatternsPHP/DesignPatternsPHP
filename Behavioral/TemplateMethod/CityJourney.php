@@ -2,16 +2,15 @@
 
 namespace DesignPatterns\Behavioral\TemplateMethod;
 
-/**
- * CityJourney is a journey in a city.
- */
 class CityJourney extends Journey
 {
-    /**
-     * prints what to do in your journey to enjoy vacation.
-     */
-    protected function enjoyVacation()
+    protected function enjoyVacation(): string
     {
-        echo "Eat, drink, take photos and sleep\n";
+        return "Eat, drink, take photos and sleep";
+    }
+
+    protected function buyGift(): string
+    {
+        return "Buy a gift";
     }
 }

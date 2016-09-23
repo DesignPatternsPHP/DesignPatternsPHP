@@ -3,59 +3,54 @@
 namespace DesignPatterns\Behavioral\Mediator;
 
 /**
- * Mediator is the concrete Mediator for this design pattern.
- * In this example, I have made a "Hello World" with the Mediator Pattern.
+ * Mediator is the concrete Mediator for this design pattern
+ *
+ * In this example, I have made a "Hello World" with the Mediator Pattern
  */
 class Mediator implements MediatorInterface
 {
     /**
      * @var Subsystem\Server
      */
-    protected $server;
+    private $server;
 
     /**
      * @var Subsystem\Database
      */
-    protected $database;
+    private $database;
 
     /**
      * @var Subsystem\Client
      */
-    protected $client;
+    private $client;
 
     /**
-     * @param Subsystem\Database $db
-     * @param Subsystem\Client   $cl
-     * @param Subsystem\Server   $srv
+     * @param Subsystem\Database $database
+     * @param Subsystem\Client $client
+     * @param Subsystem\Server $server
      */
-    public function setColleague(Subsystem\Database $db, Subsystem\Client $cl, Subsystem\Server $srv)
+    public function __construct(Subsystem\Database $database, Subsystem\Client $client, Subsystem\Server $server)
     {
-        $this->database = $db;
-        $this->server = $srv;
-        $this->client = $cl;
+        $this->database = $database;
+        $this->server = $server;
+        $this->client = $client;
+
+        $this->database->setMediator($this);
+        $this->server->setMediator($this);
+        $this->client->setMediator($this);
     }
 
-    /**
-     * make request.
-     */
     public function makeRequest()
     {
         $this->server->process();
     }
 
-    /**
-     * query db.
-     *
-     * @return mixed
-     */
-    public function queryDb()
+    public function queryDb(): string
     {
         return $this->database->getData();
     }
 
     /**
-     * send response.
-     *
      * @param string $content
      */
     public function sendResponse($content)

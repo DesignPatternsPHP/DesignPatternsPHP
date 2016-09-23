@@ -2,20 +2,20 @@
 
 namespace DesignPatterns\Structural\Composite;
 
-/**
- * Class TextElement.
- */
-class TextElement extends FormElement
+class TextElement implements RenderableInterface
 {
     /**
-     * renders the text element.
-     *
-     * @param int $indent
-     *
-     * @return mixed|string
+     * @var string
      */
-    public function render($indent = 0)
+    private $text;
+
+    public function __construct(string $text)
     {
-        return str_repeat('  ', $indent).'this is a text element';
+        $this->text = $text;
+    }
+
+    public function render(): string
+    {
+        return $this->text;
     }
 }

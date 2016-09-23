@@ -6,12 +6,12 @@ namespace DesignPatterns\Structural\Composite;
  * The composite node MUST extend the component contract. This is mandatory for building
  * a tree of components.
  */
-class Form extends FormElement
+class Form implements RenderableInterface
 {
     /**
-     * @var array|FormElement[]
+     * @var RenderableInterface[]
      */
-    protected $elements;
+    private $elements;
 
     /**
      * runs through all elements and calls render() on them, then returns the complete representation
@@ -19,25 +19,25 @@ class Form extends FormElement
      *
      * from the outside, one will not see this and the form will act like a single object instance
      *
-     * @param int $indent
-     *
      * @return string
      */
-    public function render($indent = 0)
+    public function render(): string
     {
-        $formCode = '';
+        $formCode = '<form>';
 
         foreach ($this->elements as $element) {
-            $formCode .= $element->render($indent + 1).PHP_EOL;
+            $formCode .= $element->render();
         }
+
+        $formCode .= '</form>';
 
         return $formCode;
     }
 
     /**
-     * @param FormElement $element
+     * @param RenderableInterface $element
      */
-    public function addElement(FormElement $element)
+    public function addElement(RenderableInterface $element)
     {
         $this->elements[] = $element;
     }

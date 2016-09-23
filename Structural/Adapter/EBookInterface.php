@@ -2,22 +2,16 @@
 
 namespace DesignPatterns\Structural\Adapter;
 
-/**
- * EBookInterface is a contract for an electronic book.
- */
 interface EBookInterface
 {
-    /**
-     * go to next page.
-     *
-     * @return mixed
-     */
+    public function unlock();
+
     public function pressNext();
 
     /**
-     * start the book.
+     * returns current page and total number of pages, like [10, 100] is page 10 of 100
      *
-     * @return mixed
+     * @return int[]
      */
-    public function pressStart();
+    public function getPage(): array;
 }

@@ -2,49 +2,34 @@
 
 namespace DesignPatterns\Behavioral\State;
 
-/**
- * Class CreateOrder.
- */
-class CreateOrder implements OrderInterface
+class CreateOrder implements Order
 {
     /**
      * @var array
      */
-    private $order;
+    private $details;
 
     /**
-     * @param array $order
-     *
-     * @throws \Exception
+     * @param array $details
      */
-    public function __construct(array $order)
+    public function __construct(array $details)
     {
-        if (empty($order)) {
-            throw new \Exception('Order can not be empty!');
-        }
-        $this->order = $order;
+        $this->details = $details;
     }
 
-    /**
-     * @return mixed
-     */
     public function shipOrder()
     {
-        $this->order['status'] = 'shipping';
-        $this->order['updatedTime'] = time();
-
-        // Setting the new order status into database;
-        return $this->updateOrder($this->order);
+        $this->details['status'] = 'shipping';
+        $this->details['updatedTime'] = time();
     }
 
-    /**
-     * @throws \Exception
-     *
-     * @return mixed|void
-     */
     public function completeOrder()
     {
-        //Can not complete the order which status is created, throw exception;
-        throw new \Exception('Can not complete the order which status is created!');
+        throw new \Exception('Can not complete the order which status is created');
+    }
+
+    public function getStatus(): string
+    {
+        return $this->details['status'];
     }
 }
