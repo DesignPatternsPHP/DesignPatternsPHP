@@ -8,7 +8,7 @@ msgstr ""
 "charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../Behavioral/Strategy/README.rst:1
+#: ../../Behavioral/Strategy/README.rst:1 ../../Behavioral/Strategy/README.rst:8
 msgid "Strategy"
 msgstr ""
 
@@ -18,10 +18,6 @@ msgstr ""
 
 #: ../../Behavioral/Strategy/README.rst:7
 msgid "Context"
-msgstr ""
-
-#: ../../Behavioral/Strategy/README.rst:8
-msgid "Strategy"
 msgstr ""
 
 #: ../../Behavioral/Strategy/README.rst:9
