@@ -23,12 +23,6 @@ Code
 
 You can also find these code on `GitHub`_
 
-Usage.php
-
-.. literalinclude:: Usage.php
-   :language: php
-   :linenos:
-
 TeamLead.php
 
 .. literalinclude:: TeamLead.php

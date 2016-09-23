@@ -2,50 +2,43 @@
 
 namespace DesignPatterns\More\Repository;
 
-/**
- * Class MemoryStorage.
- */
-class MemoryStorage implements Storage
+class MemoryStorage
 {
-    private $data;
-    private $lastId;
-
-    public function __construct()
-    {
-        $this->data = array();
-        $this->lastId = 0;
-    }
+    /**
+     * @var array
+     */
+    private $data = [];
 
     /**
-     * {@inheritdoc}
+     * @var int
      */
-    public function persist($data)
+    private $lastId = 0;
+
+    public function persist(array $data): int
     {
-        $this->data[++$this->lastId] = $data;
+        $this->lastId++;
+
+        $data['id'] = $this->lastId;
+        $this->data[$this->lastId] = $data;
 
         return $this->lastId;
     }
 
-    /**
-     * {@inheritdoc}
-     */
-    public function retrieve($id)
-    {
-        return isset($this->data[$id]) ? $this->data[$id] : null;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function delete($id)
+    public function retrieve(int $id): array
     {
         if (!isset($this->data[$id])) {
-            return false;
+            throw new \OutOfRangeException(sprintf('No data found for ID %d', $id));
         }
 
-        $this->data[$id] = null;
-        unset($this->data[$id]);
+        return $this->data[$id];
+    }
 
-        return true;
+    public function delete(int $id)
+    {
+        if (!isset($this->data[$id])) {
+            throw new \OutOfRangeException(sprintf('No data found for ID %d', $id));
+        }
+
+        unset($this->data[$id]);
     }
 }

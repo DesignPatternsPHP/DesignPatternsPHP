@@ -2,25 +2,22 @@
 
 namespace DesignPatterns\Structural\Proxy;
 
-/**
- * Class RecordProxy.
- */
 class RecordProxy extends Record
 {
     /**
      * @var bool
      */
-    protected $isDirty = false;
+    private $isDirty = false;
 
     /**
      * @var bool
      */
-    protected $isInitialized = false;
+    private $isInitialized = false;
 
     /**
      * @param array $data
      */
-    public function __construct($data)
+    public function __construct(array $data)
     {
         parent::__construct($data);
 
@@ -28,23 +25,25 @@ class RecordProxy extends Record
         // since Record will hold our business logic, we don't want to
         // implement this behaviour there, but instead in a new proxy class
         // that extends the Record class
-        if (null !== $data) {
+        if (count($data) > 0) {
             $this->isInitialized = true;
             $this->isDirty = true;
         }
     }
 
     /**
-     * magic setter.
-     *
      * @param string $name
-     * @param mixed  $value
-     *
-     * @return void
+     * @param string  $value
      */
-    public function __set($name, $value)
+    public function __set(string $name, string $value)
     {
         $this->isDirty = true;
+
         parent::__set($name, $value);
+    }
+
+    public function isDirty(): bool
+    {
+        return $this->isDirty;
     }
 }

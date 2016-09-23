@@ -25,12 +25,6 @@ Code
 
 You can also find these code on `GitHub`_
 
-index.php
-
-.. literalinclude:: index.php
-   :language: php
-   :linenos:
-
 BookPrototype.php
 
 .. literalinclude:: BookPrototype.php
@@ -51,6 +45,12 @@ FooBookPrototype.php
 
 Test
 ----
+
+Tests/PrototypeTest.php
+
+.. literalinclude:: Tests/PrototypeTest.php
+   :language: php
+   :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Prototype
 .. __: http://en.wikipedia.org/wiki/Prototype_pattern

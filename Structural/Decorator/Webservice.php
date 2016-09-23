@@ -2,28 +2,19 @@
 
 namespace DesignPatterns\Structural\Decorator;
 
-/**
- * Class Webservice.
- */
-class Webservice implements RendererInterface
+class Webservice implements RenderableInterface
 {
     /**
-     * @var mixed
+     * @var string
      */
-    protected $data;
+    private $data;
 
-    /**
-     * @param mixed $data
-     */
-    public function __construct($data)
+    public function __construct(string $data)
     {
         $this->data = $data;
     }
 
-    /**
-     * @return string
-     */
-    public function renderData()
+    public function renderData(): string
     {
         return $this->data;
     }
