@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP "
-"df64d6071c0eb15c581ac7549fbbd26fb53c25df\n"
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
 "POT-Creation-Date: 2016-09-22 19:34-0500\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -53,6 +53,6 @@ msgstr "Código"
 msgid "You can also find these code on `GitHub`_"
 msgstr "Puedes encontrar este código también en `GitHub`_"
 
-#: ../../Behavioral/Specification/README.rst:71
+#: ../../Behavioral/Specification/README.rst:65
 msgid "Test"
 msgstr "Pruebas"
