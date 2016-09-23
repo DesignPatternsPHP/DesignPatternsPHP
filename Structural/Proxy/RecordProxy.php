@@ -32,8 +32,6 @@ class RecordProxy extends Record
     }
 
     /**
-     * magic setter
-     *
      * @param string $name
      * @param string  $value
      */
@@ -44,9 +42,6 @@ class RecordProxy extends Record
         parent::__set($name, $value);
     }
 
-    /**
-     * @return bool
-     */
     public function isDirty(): bool
     {
         return $this->isDirty;

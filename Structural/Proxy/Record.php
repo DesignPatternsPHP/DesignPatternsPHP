@@ -3,7 +3,7 @@
 namespace DesignPatterns\Structural\Proxy;
 
 /**
- * class Record.
+ * @property string username
  */
 class Record
 {
@@ -21,31 +21,20 @@ class Record
     }
 
     /**
-     * magic setter
-     *
      * @param string $name
-     * @param mixed  $value
-     *
-     * @return void
+     * @param string  $value
      */
     public function __set(string $name, string $value)
     {
         $this->data[$name] = $value;
     }
 
-    /**
-     * magic getter
-     *
-     * @param string $name
-     *
-     * @return string|null
-     */
     public function __get(string $name): string
     {
-        if (isset($this->data[$name])) {
-            return $this->data[$name];
-        } else {
-            return null;
+        if (!isset($this->data[$name])) {
+            throw new \OutOfRangeException('Invalid name given');
         }
+
+        return $this->data[$name];
     }
 }

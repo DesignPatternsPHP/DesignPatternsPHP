@@ -10,7 +10,7 @@ class ProxyTest extends \PHPUnit_Framework_TestCase
     public function testWillSetDirtyFlagInProxy()
     {
         $recordProxy = new RecordProxy([]);
-        $recordProxy->foobar = 'baz';
+        $recordProxy->username = 'baz';
 
         $this->assertTrue($recordProxy->isDirty());
     }
@@ -18,7 +18,7 @@ class ProxyTest extends \PHPUnit_Framework_TestCase
     public function testProxyIsInstanceOfRecord()
     {
         $recordProxy = new RecordProxy([]);
-        $recordProxy->foobar = 'baz';
+        $recordProxy->username = 'baz';
 
         $this->assertInstanceOf('DesignPatterns\Structural\Proxy\Record', $recordProxy);
     }
