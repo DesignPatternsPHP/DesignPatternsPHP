@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"df64d6071c0eb15c581ac7549fbbd26fb53c25df\n"
+"POT-Creation-Date: 2016-09-22 20:50-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Creational/SimpleFactory/README.rst:1
+msgid "Simple Factory"
+msgstr "Fábrica Simple"
+
+#: ../../Creational/SimpleFactory/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Creational/SimpleFactory/README.rst:7
+msgid "SimpleFactory is a simple factory pattern."
+msgstr "La Fábrica Simple es un patrón de diseño de fábrica simple."
+
+#: ../../Creational/SimpleFactory/README.rst:9
+msgid ""
+"It differs from the static factory because it is NOT static and as you know: "
+"static => global => evil!"
+msgstr ""
+"Difiere de la Fábrica Estática porque NO es estática y como sabes: estático "
+"=> global => malo!"
+
+#: ../../Creational/SimpleFactory/README.rst:12
+msgid ""
+"Therefore, you can have multiple factories, differently parametrized, you "
+"can subclass it and you can mock-up it."
+msgstr ""
+"Por lo tanto, puedes tener varias fábricas parametrizadas de forma "
+"diferente, puedes crear subclases y puedes generar imitaciones (mock) de "
+"ella."
+
+#: ../../Creational/SimpleFactory/README.rst:15
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Creational/SimpleFactory/README.rst:19
+msgid "Alt SimpleFactory UML Diagram"
+msgstr "Alt Diagrama UML FábricaSimple"
+
+#: ../../Creational/SimpleFactory/README.rst:22
+msgid "Code"
+msgstr "Código"
+
+#: ../../Creational/SimpleFactory/README.rst:25
+msgid "You can also find these code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Creational/SimpleFactory/README.rst:51
+msgid "Usage"
+msgstr "Utilización"
+
+#: ../../Creational/SimpleFactory/README.rst:60
+msgid "Test"
+msgstr "Pruebas"
