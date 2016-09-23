@@ -92,7 +92,7 @@ The patterns can be structured in roughly three different categories. Please cli
 
 ## Contribute
 
-Please feel free to fork and extend existing or add your own examples and send a pull request with your changes!
+If you encounter any bugs or missing translations, please feel free to fork and send a pull request with your changes.
 To establish a consistent code quality, please check your code using [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) against [PSR2 standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) using `./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .`.
 
 ## License

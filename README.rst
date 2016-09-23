@@ -34,9 +34,9 @@ Please click on **the title of every pattern's page** for a full explanation of 
 Contribute
 ----------
 
-Please feel free to fork and extend existing or add your own examples
-and send a pull request with your changes! To establish a consistent
-code quality, please check your code using
+If you encounter any bugs or missing translations, please feel free
+to fork and send a pull request with your changes.
+To establish a consistent code quality, please check your code using
 `PHP CodeSniffer`_ against `PSR2 standard`_
 using ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``.
 
