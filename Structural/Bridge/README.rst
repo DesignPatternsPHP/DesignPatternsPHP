@@ -7,8 +7,8 @@ Purpose
 Decouple an abstraction from its implementation so that the two can vary
 independently.
 
-Sample:
-^^^^^^^
+Examples
+--------
 
 -  `Symfony
    DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__

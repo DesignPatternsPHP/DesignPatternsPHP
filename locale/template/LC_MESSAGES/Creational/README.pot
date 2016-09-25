@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Creational/README.rst:1
+msgid "Creational"
+msgstr ""
+
+#: ../../Creational/README.rst:4
+msgid ""
+"In software engineering, creational design patterns are design patterns "
+"that deal with object creation mechanisms, trying to create objects in a "
+"manner suitable to the situation. The basic form of object creation "
+"could result in design problems or added complexity to the design. "
+"Creational design patterns solve this problem by somehow controlling "
+"this object creation."
+msgstr ""
