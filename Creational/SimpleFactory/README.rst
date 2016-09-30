@@ -46,7 +46,7 @@ Usage
 .. code::  php
 
    $factory = new SimpleFactory();
-   $bicycle = $factory->createVehicle('bicycle');
+   $bicycle = $factory->createBicycle();
    $bicycle->driveTo('Paris');
 
 Test
