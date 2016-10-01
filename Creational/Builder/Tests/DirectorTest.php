@@ -8,10 +8,10 @@ use DesignPatterns\Creational\Builder\Director;
 
 class DirectorTest extends \PHPUnit_Framework_TestCase
 {
-    public function testCanBuildBike()
+    public function testCanBuildTruck()
     {
-        $bikeBuilder = new TruckBuilder();
-        $newVehicle = (new Director())->build($bikeBuilder);
+        $truckBuilder = new TruckBuilder();
+        $newVehicle = (new Director())->build($truckBuilder);
 
         $this->assertInstanceOf('DesignPatterns\Creational\Builder\Parts\Truck', $newVehicle);
     }
