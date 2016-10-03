@@ -1,4 +1,8 @@
 ---
+- name: Update apt
+  become: yes
+  apt: update_cache=yes autoremove=yes
+
 - name: Add ppa Repository
   sudo: yes
   apt_repository: repo=ppa:ondrej/{{ php.ppa }}
@@ -14,7 +18,13 @@
 - name: Install PHP Packages
   sudo: yes
   apt: pkg={{ item }} state=latest
-  with_items: php.packages
+  with_items: '{{ php.packages }}'
+  when: php.packages is defined
+
+- name: Install PHP PECL Packages
+  become: yes
+  apt: pkg={{ item }} state=latest force=yes
+  with_items: '{{ php.pecl_packages }}'
   when: php.packages is defined
 
 - include: configure.yml
