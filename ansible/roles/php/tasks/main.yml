@@ -25,6 +25,6 @@
   become: yes
   apt: pkg={{ item }} state=latest force=yes
   with_items: '{{ php.pecl_packages }}'
-  when: php.packages is defined
+  when: php.pecl_packages is defined
 
 - include: configure.yml
