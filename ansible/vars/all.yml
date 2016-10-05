@@ -1,12 +1,20 @@
 ---
 server:
     install: '1'
-    packages: [vim, htop, iotop, bwm-ng, git]
+    packages:
+      - vim
+      - htop
+      - iotop
+      - bwm-ng
+      - git
     timezone: UTC
     locale: en_US.UTF-8
+
 vagrant_local:
     install: '1'
-    vm: { base_box: trusty64, hostname: design-patterns, ip: 192.168.11.2, sharedfolder: ./, enableWindows: '1', useVagrantCloud: '1', syncType: nfs }
+    vm:
+        hostname: design-patterns
+
 php:
     install: '1'
     ppa: php
