@@ -64,11 +64,11 @@ CarFerrari.php
    :language: php
    :linenos:
 
-   Bicycle.php
+Bicycle.php
 
 .. literalinclude:: Bicycle.php
-:language: php
-      :linenos:
+   :language: php
+   :linenos:
 
 Test
 ----

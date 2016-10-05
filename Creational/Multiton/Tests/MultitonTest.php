@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Creational\Singleton\Tests;
+namespace DesignPatterns\Creational\Multition\Tests;
 
 use DesignPatterns\Creational\Multiton\Multiton;
 
