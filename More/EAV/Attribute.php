@@ -2,15 +2,10 @@
 
 namespace DesignPatterns\More\EAV;
 
-use SplObjectStorage;
-
-/**
- * Class Attribute.
- */
-class Attribute implements ValueAccessInterface
+class Attribute
 {
     /**
-     * @var SplObjectStorage
+     * @var \SplObjectStorage
      */
     private $values;
 
@@ -19,64 +14,27 @@ class Attribute implements ValueAccessInterface
      */
     private $name;
 
-    public function __construct()
+    public function __construct(string $name)
     {
-        $this->values = new SplObjectStorage();
+        $this->values = new \SplObjectStorage();
+        $this->name = $name;
+    }
+
+    public function addValue(Value $value)
+    {
+        $this->values->attach($value);
     }
 
     /**
-     * @return SplObjectStorage
+     * @return \SplObjectStorage
      */
-    public function getValues()
+    public function getValues(): \SplObjectStorage
     {
         return $this->values;
     }
 
-    /**
-     * @param ValueInterface $value
-     *
-     * @return $this
-     */
-    public function addValue(ValueInterface $value)
-    {
-        if (!$this->values->contains($value)) {
-            $this->values->attach($value);
-        }
-
-        return $this;
-    }
-
-    /**
-     * @param ValueInterface $value
-     *
-     * @return $this
-     */
-    public function removeValue(ValueInterface $value)
-    {
-        if ($this->values->contains($value)) {
-            $this->values->detach($value);
-        }
-
-        return $this;
-    }
-
-    /**
-     * @return string
-     */
-    public function getName()
+    public function __toString(): string
     {
         return $this->name;
-    }
-
-    /**
-     * @param string $name
-     *
-     * @return $this
-     */
-    public function setName($name)
-    {
-        $this->name = $name;
-
-        return $this;
     }
 }

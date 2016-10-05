@@ -4,14 +4,14 @@ namespace DesignPatterns\Behavioral\Command;
 
 /**
  * This concrete command tweaks receiver to add current date to messages
- * invoker just knows that it can call "execute".
+ * invoker just knows that it can call "execute"
  */
 class AddMessageDateCommand implements UndoableCommandInterface
 {
     /**
      * @var Receiver
      */
-    protected $output;
+    private $output;
 
     /**
      * Each concrete command is built with different receivers.

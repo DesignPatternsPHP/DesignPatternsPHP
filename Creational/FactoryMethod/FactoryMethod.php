@@ -2,36 +2,17 @@
 
 namespace DesignPatterns\Creational\FactoryMethod;
 
-/**
- * class FactoryMethod.
- */
 abstract class FactoryMethod
 {
-    const CHEAP = 1;
-    const FAST = 2;
+    const CHEAP = 'cheap';
+    const FAST = 'fast';
 
-    /**
-     * The children of the class must implement this method.
-     *
-     * Sometimes this method can be public to get "raw" object
-     *
-     * @param string $type a generic type
-     *
-     * @return VehicleInterface a new vehicle
-     */
-    abstract protected function createVehicle($type);
+    abstract protected function createVehicle(string $type): VehicleInterface;
 
-    /**
-     * Creates a new vehicle.
-     *
-     * @param int $type
-     *
-     * @return VehicleInterface a new vehicle
-     */
-    public function create($type)
+    public function create(string $type): VehicleInterface
     {
         $obj = $this->createVehicle($type);
-        $obj->setColor('#f00');
+        $obj->setColor('black');
 
         return $obj;
     }
