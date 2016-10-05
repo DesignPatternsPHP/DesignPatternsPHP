@@ -19,10 +19,6 @@ php:
       - php7.0-json
       - php7.0-xml
       - php7.0-mbstring
-    pecl_packages: [php-zip]
 
 xdebug:
     install: '1'
-
-composer:
-    timeout: '2000'
