@@ -22,3 +22,6 @@ php:
 
 xdebug:
     install: '1'
+
+composer:
+    timeout: 2400
