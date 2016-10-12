@@ -7,7 +7,7 @@ namespace DesignPatterns\Structural\Decorator;
  * of this design pattern. If not, this is no longer a Decorator but just a dumb
  * wrapper.
  */
-abstract class RendererDecorator
+abstract class RendererDecorator implements RenderableInterface
 {
     /**
      * @var RenderableInterface
