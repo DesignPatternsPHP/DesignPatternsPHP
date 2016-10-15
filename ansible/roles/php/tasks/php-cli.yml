@@ -1,10 +1,12 @@
 ---
-- name: ensure timezone is set in cli php.ini
-  lineinfile: dest=/etc/php5/cli/php.ini
-              regexp='date.timezone ='
-              line='date.timezone = {{ server.timezone }}'
-
 - name: enabling opcache cli
-  lineinfile: dest=/etc/php5/cli/php.ini
-              regexp=';opcache.enable_cli=0'
-              line='opcache.enable_cli=1'
+  lineinfile:
+    dest: /etc/php/7.0/cli/php.ini
+    regexp: ';?opcache.enable=\d'
+    line: 'opcache.enable=1'
+
+- name: ensure timezone is set in cli php.ini
+  lineinfile:
+    dest: /etc/php/7.0/cli/php.ini
+    regexp: 'date.timezone ='
+    line: 'date.timezone = {{ server.timezone }}'
