@@ -5,7 +5,7 @@ namespace DesignPatterns\Behavioral\Mediator\Subsystem;
 use DesignPatterns\Behavioral\Mediator\Colleague;
 
 /**
- * Client is a client that makes requests and gets the response response.
+ * Client is a client that makes requests and gets the response.
  */
 class Client extends Colleague
 {
