@@ -1,6 +1,11 @@
 `Service Locator`__
 ===================
 
+**THIS IS CONSIDERED TO BE AN ANTI-PATTERN!**
+
+Service Locator is considered for some people an anti-pattern. It violates the Dependency Inversion principle.
+Service Locator hides class' dependencies instead of exposing them as you would do using the Dependency Injection. In case of changes of those dependencies you risk to break the functionality of classses which are using them, making your system difficult to maintain.
+
 Purpose
 -------
 
