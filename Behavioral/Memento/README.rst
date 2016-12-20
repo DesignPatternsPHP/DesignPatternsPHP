@@ -60,9 +60,9 @@ Memento.php
    :language: php
    :linenos:
 
-Originator.php
+State.php
 
-.. literalinclude:: Originator.php
+.. literalinclude:: State.php
    :language: php
    :linenos:
 
