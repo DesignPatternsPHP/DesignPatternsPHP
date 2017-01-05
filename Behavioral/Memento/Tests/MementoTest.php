@@ -22,7 +22,7 @@ class MementoTest extends \PHPUnit_Framework_TestCase
         $ticket->assign();
         $this->assertEquals(State::STATE_ASSIGNED, (string) $ticket->getState());
 
-        // no restore to the opened state, but verify that the state object has been cloned for the memento
+        // now restore to the opened state, but verify that the state object has been cloned for the memento
         $ticket->restoreFromMemento($memento);
 
         $this->assertEquals(State::STATE_OPENED, (string) $ticket->getState());
