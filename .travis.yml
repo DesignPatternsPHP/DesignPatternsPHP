@@ -1,10 +1,6 @@
 language: php
 
 sudo: false
-anoither
-
-
-
 
 php:
   - 7.0
