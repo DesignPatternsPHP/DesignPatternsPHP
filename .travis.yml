@@ -1,7 +1,7 @@
 language: php
 
 sudo: false
-wehaveapush
+anoither
 php:
   - 7.0
   - 7.1
