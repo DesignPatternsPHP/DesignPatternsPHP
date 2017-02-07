@@ -34,7 +34,7 @@ Contribute
 ----------
 
 If you encounter any bugs or missing translations, please feel free
-to fork and send a pull request with your changes.
+to fork and send a request with your changes.
 To establish a consistent code quality, please check your code using
 `PHP CodeSniffer`_ against `PSR2 standard`_
 using ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``.
