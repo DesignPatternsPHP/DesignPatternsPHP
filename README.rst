@@ -16,6 +16,7 @@ familiar with this software).
 I think the problem with patterns is that often people do know them but
 don't know when to apply which.
 
+
 Patterns
 --------
 
