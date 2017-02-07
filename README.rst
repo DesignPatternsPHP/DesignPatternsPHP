@@ -30,7 +30,7 @@ Please click on **the title of every pattern's page** for a full explanation of 
    Structural/README
    Behavioral/README
    More/README
-
+a
 Contribute
 ----------
 
