@@ -6,8 +6,7 @@ DesignPatternsPHP
 
 .. image:: https://readthedocs.org/projects/designpatternsphp/badge/?version=latest
    :target: https://readthedocs.org/projects/designpatternsphp/?badge=latest
-   :alt: Documentation Status
-
+   :alt: Documentation Statu
 This is a collection of known `design patterns`_ and some sample code how
 to implement them in PHP. Every pattern has a small list of examples
 (most of them from Zend Framework, Symfony2 or Doctrine2 as I'm most
