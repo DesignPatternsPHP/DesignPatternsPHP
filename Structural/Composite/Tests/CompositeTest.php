@@ -16,6 +16,9 @@ class CompositeTest extends \PHPUnit_Framework_TestCase
         $embed->addElement(new Composite\InputElement());
         $form->addElement($embed);
 
+        // This is just an example, in a real world scenario it is important to remember that web browsers do not
+        // currently support nested forms
+
         $this->assertEquals(
             '<form>Email:<input type="text" /><form>Password:<input type="text" /></form></form>',
             $form->render()
