@@ -3,8 +3,9 @@
 namespace DesignPatterns\Creational\Pool\Tests;
 
 use DesignPatterns\Creational\Pool\WorkerPool;
+use PHPUnit\Framework\TestCase;
 
-class PoolTest extends \PHPUnit_Framework_TestCase
+class PoolTest extends TestCase
 {
     public function testCanGetNewInstancesWithGet()
     {

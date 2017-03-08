@@ -4,8 +4,9 @@ namespace DesignPatterns\Creational\AbstractFactory\Tests;
 
 use DesignPatterns\Creational\AbstractFactory\HtmlFactory;
 use DesignPatterns\Creational\AbstractFactory\JsonFactory;
+use PHPUnit\Framework\TestCase;
 
-class AbstractFactoryTest extends \PHPUnit_Framework_TestCase
+class AbstractFactoryTest extends TestCase
 {
     public function testCanCreateHtmlText()
     {

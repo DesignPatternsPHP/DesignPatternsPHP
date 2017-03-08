@@ -3,8 +3,9 @@
 namespace DesignPatterns\Creational\Multition\Tests;
 
 use DesignPatterns\Creational\Multiton\Multiton;
+use PHPUnit\Framework\TestCase;
 
-class MultitonTest extends \PHPUnit_Framework_TestCase
+class MultitonTest extends TestCase
 {
     public function testUniqueness()
     {

@@ -5,8 +5,9 @@ namespace DesignPatterns\Structural\Bridge\Tests;
 use DesignPatterns\Structural\Bridge\HelloWorldService;
 use DesignPatterns\Structural\Bridge\HtmlFormatter;
 use DesignPatterns\Structural\Bridge\PlainTextFormatter;
+use PHPUnit\Framework\TestCase;
 
-class BridgeTest extends \PHPUnit_Framework_TestCase
+class BridgeTest extends TestCase
 {
     public function testCanPrintUsingThePlainTextPrinter()
     {

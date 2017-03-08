@@ -6,8 +6,9 @@ use DesignPatterns\Behavioral\Command\AddMessageDateCommand;
 use DesignPatterns\Behavioral\Command\HelloCommand;
 use DesignPatterns\Behavioral\Command\Invoker;
 use DesignPatterns\Behavioral\Command\Receiver;
+use PHPUnit\Framework\TestCase;
 
-class UndoableCommandTest extends \PHPUnit_Framework_TestCase
+class UndoableCommandTest extends TestCase
 {
     public function testInvocation()
     {

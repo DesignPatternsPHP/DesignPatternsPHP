@@ -6,8 +6,9 @@ use DesignPatterns\Behavioral\Iterator\Book;
 use DesignPatterns\Behavioral\Iterator\BookList;
 use DesignPatterns\Behavioral\Iterator\BookListIterator;
 use DesignPatterns\Behavioral\Iterator\BookListReverseIterator;
+use PHPUnit\Framework\TestCase;
 
-class IteratorTest extends \PHPUnit_Framework_TestCase
+class IteratorTest extends TestCase
 {
     public function testCanIterateOverBookList()
     {

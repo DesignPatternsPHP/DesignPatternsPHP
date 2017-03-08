@@ -3,8 +3,9 @@
 namespace DesignPatterns\Structural\Registry\Tests;
 
 use DesignPatterns\Structural\Registry\Registry;
+use PHPUnit\Framework\TestCase;
 
-class RegistryTest extends \PHPUnit_Framework_TestCase
+class RegistryTest extends TestCase
 {
     public function testSetAndGetLogger()
     {

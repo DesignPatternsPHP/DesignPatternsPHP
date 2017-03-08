@@ -3,8 +3,9 @@
 namespace DesignPatterns\More\Delegation\Tests;
 
 use DesignPatterns\More\Delegation;
+use PHPUnit\Framework\TestCase;
 
-class DelegationTest extends \PHPUnit_Framework_TestCase
+class DelegationTest extends TestCase
 {
     public function testHowTeamLeadWriteCode()
     {

@@ -6,8 +6,9 @@ use DesignPatterns\Behavioral\Mediator\Mediator;
 use DesignPatterns\Behavioral\Mediator\Subsystem\Client;
 use DesignPatterns\Behavioral\Mediator\Subsystem\Database;
 use DesignPatterns\Behavioral\Mediator\Subsystem\Server;
+use PHPUnit\Framework\TestCase;
 
-class MediatorTest extends \PHPUnit_Framework_TestCase
+class MediatorTest extends TestCase
 {
     public function testOutputHelloWorld()
     {
