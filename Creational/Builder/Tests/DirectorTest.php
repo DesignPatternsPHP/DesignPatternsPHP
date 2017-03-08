@@ -2,6 +2,8 @@
 
 namespace DesignPatterns\Creational\Builder\Tests;
 
+use DesignPatterns\Creational\Builder\Parts\Car;
+use DesignPatterns\Creational\Builder\Parts\Truck;
 use DesignPatterns\Creational\Builder\TruckBuilder;
 use DesignPatterns\Creational\Builder\CarBuilder;
 use DesignPatterns\Creational\Builder\Director;
@@ -13,7 +15,7 @@ class DirectorTest extends \PHPUnit_Framework_TestCase
         $truckBuilder = new TruckBuilder();
         $newVehicle = (new Director())->build($truckBuilder);
 
-        $this->assertInstanceOf('DesignPatterns\Creational\Builder\Parts\Truck', $newVehicle);
+        $this->assertInstanceOf(Truck::class, $newVehicle);
     }
 
     public function testCanBuildCar()
@@ -21,6 +23,6 @@ class DirectorTest extends \PHPUnit_Framework_TestCase
         $carBuilder = new CarBuilder();
         $newVehicle = (new Director())->build($carBuilder);
 
-        $this->assertInstanceOf('DesignPatterns\Creational\Builder\Parts\Car', $newVehicle);
+        $this->assertInstanceOf(Car::class, $newVehicle);
     }
 }

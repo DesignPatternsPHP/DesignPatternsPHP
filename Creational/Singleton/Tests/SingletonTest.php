@@ -11,7 +11,7 @@ class SingletonTest extends \PHPUnit_Framework_TestCase
         $firstCall = Singleton::getInstance();
         $secondCall = Singleton::getInstance();
 
-        $this->assertInstanceOf('DesignPatterns\Creational\Singleton\Singleton', $firstCall);
+        $this->assertInstanceOf(Singleton::class, $firstCall);
         $this->assertSame($firstCall, $secondCall);
     }
 }
