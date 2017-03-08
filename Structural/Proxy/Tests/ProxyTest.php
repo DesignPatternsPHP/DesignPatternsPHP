@@ -19,6 +19,6 @@ class ProxyTest extends \PHPUnit_Framework_TestCase
         $recordProxy = new RecordProxy([]);
         $recordProxy->username = 'baz';
 
-        $this->assertInstanceOf('DesignPatterns\Structural\Proxy\Record', $recordProxy);
+        $this->assertInstanceOf(RecordProxy::class, $recordProxy);
     }
 }
