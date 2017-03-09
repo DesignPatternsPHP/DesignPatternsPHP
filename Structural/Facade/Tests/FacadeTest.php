@@ -4,8 +4,9 @@ namespace DesignPatterns\Structural\Facade\Tests;
 
 use DesignPatterns\Structural\Facade\Facade;
 use DesignPatterns\Structural\Facade\OsInterface;
+use PHPUnit\Framework\TestCase;
 
-class FacadeTest extends \PHPUnit_Framework_TestCase
+class FacadeTest extends TestCase
 {
     public function testComputerOn()
     {

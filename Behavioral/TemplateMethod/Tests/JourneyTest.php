@@ -3,8 +3,9 @@
 namespace DesignPatterns\Behavioral\TemplateMethod\Tests;
 
 use DesignPatterns\Behavioral\TemplateMethod;
+use PHPUnit\Framework\TestCase;
 
-class JourneyTest extends \PHPUnit_Framework_TestCase
+class JourneyTest extends TestCase
 {
     public function testCanGetOnVacationOnTheBeach()
     {

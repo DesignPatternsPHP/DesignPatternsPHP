@@ -4,8 +4,9 @@ namespace DesignPatterns\Behavioral\Memento\Tests;
 
 use DesignPatterns\Behavioral\Memento\State;
 use DesignPatterns\Behavioral\Memento\Ticket;
+use PHPUnit\Framework\TestCase;
 
-class MementoTest extends \PHPUnit_Framework_TestCase
+class MementoTest extends TestCase
 {
     public function testOpenTicketAssignAndSetBackToOpen()
     {

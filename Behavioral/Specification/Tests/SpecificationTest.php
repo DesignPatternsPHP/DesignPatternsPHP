@@ -7,8 +7,9 @@ use DesignPatterns\Behavioral\Specification\NotSpecification;
 use DesignPatterns\Behavioral\Specification\OrSpecification;
 use DesignPatterns\Behavioral\Specification\AndSpecification;
 use DesignPatterns\Behavioral\Specification\PriceSpecification;
+use PHPUnit\Framework\TestCase;
 
-class SpecificationTest extends \PHPUnit_Framework_TestCase
+class SpecificationTest extends TestCase
 {
     public function testCanOr()
     {

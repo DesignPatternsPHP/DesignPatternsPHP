@@ -3,8 +3,9 @@
 namespace DesignPatterns\Structural\Decorator\Tests;
 
 use DesignPatterns\Structural\Decorator;
+use PHPUnit\Framework\TestCase;
 
-class DecoratorTest extends \PHPUnit_Framework_TestCase
+class DecoratorTest extends TestCase
 {
     /**
      * @var Decorator\Webservice

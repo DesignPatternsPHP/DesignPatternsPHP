@@ -5,8 +5,9 @@ namespace DesignPatterns\Behavioral\ChainOfResponsibilities\Tests;
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Handler;
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible\HttpInMemoryCacheHandler;
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible\SlowDatabaseHandler;
+use PHPUnit\Framework\TestCase;
 
-class ChainTest extends \PHPUnit_Framework_TestCase
+class ChainTest extends TestCase
 {
     /**
      * @var Handler

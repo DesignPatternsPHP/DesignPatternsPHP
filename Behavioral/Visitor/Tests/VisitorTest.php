@@ -3,8 +3,9 @@
 namespace DesignPatterns\Tests\Visitor\Tests;
 
 use DesignPatterns\Behavioral\Visitor;
+use PHPUnit\Framework\TestCase;
 
-class VisitorTest extends \PHPUnit_Framework_TestCase
+class VisitorTest extends TestCase
 {
     /**
      * @var Visitor\RoleVisitor

@@ -7,8 +7,9 @@ use DesignPatterns\Creational\Builder\Parts\Truck;
 use DesignPatterns\Creational\Builder\TruckBuilder;
 use DesignPatterns\Creational\Builder\CarBuilder;
 use DesignPatterns\Creational\Builder\Director;
+use PHPUnit\Framework\TestCase;
 
-class DirectorTest extends \PHPUnit_Framework_TestCase
+class DirectorTest extends TestCase
 {
     public function testCanBuildTruck()
     {

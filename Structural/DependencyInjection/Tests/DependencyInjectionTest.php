@@ -4,8 +4,9 @@ namespace DesignPatterns\Structural\DependencyInjection\Tests;
 
 use DesignPatterns\Structural\DependencyInjection\DatabaseConfiguration;
 use DesignPatterns\Structural\DependencyInjection\DatabaseConnection;
+use PHPUnit\Framework\TestCase;
 
-class DependencyInjectionTest extends \PHPUnit_Framework_TestCase
+class DependencyInjectionTest extends TestCase
 {
     public function testDependencyInjection()
     {

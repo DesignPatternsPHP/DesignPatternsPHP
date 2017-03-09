@@ -3,8 +3,9 @@
 namespace DesignPatterns\Structural\Proxy\Tests;
 
 use DesignPatterns\Structural\Proxy\RecordProxy;
+use PHPUnit\Framework\TestCase;
 
-class ProxyTest extends \PHPUnit_Framework_TestCase
+class ProxyTest extends TestCase
 {
     public function testWillSetDirtyFlagInProxy()
     {
