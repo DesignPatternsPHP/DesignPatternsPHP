@@ -16,13 +16,13 @@ class PrototypeTest extends TestCase
         for ($i = 0; $i < 10; $i++) {
             $book = clone $fooPrototype;
             $book->setTitle('Foo Book No ' . $i);
-            $this->assertInstanceOf('DesignPatterns\Creational\Prototype\FooBookPrototype', $book);
+            $this->assertInstanceOf(FooBookPrototype::class, $book);
         }
 
         for ($i = 0; $i < 5; $i++) {
             $book = clone $barPrototype;
             $book->setTitle('Bar Book No ' . $i);
-            $this->assertInstanceOf('DesignPatterns\Creational\Prototype\BarBookPrototype', $book);
+            $this->assertInstanceOf(BarBookPrototype::class, $book);
         }
     }
 }

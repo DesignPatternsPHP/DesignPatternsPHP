@@ -31,6 +31,6 @@ class ServiceLocatorTest extends TestCase
         $this->serviceLocator->addClass(LogService::class, []);
         $logger = $this->serviceLocator->get(LogService::class);
 
-        $this->assertInstanceOf('DesignPatterns\More\ServiceLocator\LogService', $logger);
+        $this->assertInstanceOf(LogService::class, $logger);
     }
 }
