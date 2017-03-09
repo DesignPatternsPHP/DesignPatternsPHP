@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Creational\Multiton;
 
-class Multiton
+final class Multiton
 {
     const INSTANCE_1 = '1';
     const INSTANCE_2 = '2';
