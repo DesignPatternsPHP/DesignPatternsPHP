@@ -5,8 +5,9 @@ namespace DesignPatterns\Behavioral\Strategy\Tests;
 use DesignPatterns\Behavioral\Strategy\DateComparator;
 use DesignPatterns\Behavioral\Strategy\IdComparator;
 use DesignPatterns\Behavioral\Strategy\ObjectCollection;
+use PHPUnit\Framework\TestCase;
 
-class StrategyTest extends \PHPUnit_Framework_TestCase
+class StrategyTest extends TestCase
 {
     public function provideIntegers()
     {

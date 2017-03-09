@@ -5,8 +5,9 @@ namespace DesignPatterns\Creational\FactoryMethod\Tests;
 use DesignPatterns\Creational\FactoryMethod\FactoryMethod;
 use DesignPatterns\Creational\FactoryMethod\GermanFactory;
 use DesignPatterns\Creational\FactoryMethod\ItalianFactory;
+use PHPUnit\Framework\TestCase;
 
-class FactoryMethodTest extends \PHPUnit_Framework_TestCase
+class FactoryMethodTest extends TestCase
 {
     public function testCanCreateCheapVehicleInGermany()
     {

@@ -3,8 +3,9 @@
 namespace DesignPatterns\Behavioral\State\Tests;
 
 use DesignPatterns\Behavioral\State\OrderRepository;
+use PHPUnit\Framework\TestCase;
 
-class StateTest extends \PHPUnit_Framework_TestCase
+class StateTest extends TestCase
 {
     public function testCanShipCreatedOrder()
     {

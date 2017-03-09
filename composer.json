@@ -13,7 +13,7 @@
         "psr/http-message": "^1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": ">=5.5.4",
+        "phpunit/phpunit": "^6.0",
         "squizlabs/php_codesniffer": "1.5.*"
     },
     "autoload": {

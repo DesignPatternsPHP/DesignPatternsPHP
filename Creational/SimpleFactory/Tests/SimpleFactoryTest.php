@@ -3,8 +3,9 @@
 namespace DesignPatterns\Creational\SimpleFactory\Tests;
 
 use DesignPatterns\Creational\SimpleFactory\SimpleFactory;
+use PHPUnit\Framework\TestCase;
 
-class SimpleFactoryTest extends \PHPUnit_Framework_TestCase
+class SimpleFactoryTest extends TestCase
 {
     public function testCanCreateBicycle()
     {

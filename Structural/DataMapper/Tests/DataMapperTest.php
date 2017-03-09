@@ -4,8 +4,9 @@ namespace DesignPatterns\Structural\DataMapper\Tests;
 
 use DesignPatterns\Structural\DataMapper\StorageAdapter;
 use DesignPatterns\Structural\DataMapper\UserMapper;
+use PHPUnit\Framework\TestCase;
 
-class DataMapperTest extends \PHPUnit_Framework_TestCase
+class DataMapperTest extends TestCase
 {
     public function testCanMapUserFromStorage()
     {

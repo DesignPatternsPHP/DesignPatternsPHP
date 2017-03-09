@@ -5,8 +5,9 @@ namespace DesignPatterns\More\Repository\Tests;
 use DesignPatterns\More\Repository\MemoryStorage;
 use DesignPatterns\More\Repository\Post;
 use DesignPatterns\More\Repository\PostRepository;
+use PHPUnit\Framework\TestCase;
 
-class Repository extends \PHPUnit_Framework_TestCase
+class Repository extends TestCase
 {
     public function testCanPersistAndFindPost()
     {

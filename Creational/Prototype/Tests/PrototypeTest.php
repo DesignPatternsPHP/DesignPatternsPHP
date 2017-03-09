@@ -4,8 +4,9 @@ namespace DesignPatterns\Creational\Prototype\Tests;
 
 use DesignPatterns\Creational\Prototype\BarBookPrototype;
 use DesignPatterns\Creational\Prototype\FooBookPrototype;
+use PHPUnit\Framework\TestCase;
 
-class PrototypeTest extends \PHPUnit_Framework_TestCase
+class PrototypeTest extends TestCase
 {
     public function testCanGetFooBook()
     {
