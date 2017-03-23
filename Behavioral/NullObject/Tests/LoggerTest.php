@@ -12,7 +12,7 @@ class LoggerTest extends TestCase
     public function testNullObject()
     {
         $service = new Service(new NullLogger());
-        $this->expectOutputString(null);
+        $this->expectOutputString('');
         $service->doSomething();
     }
 
