@@ -30,7 +30,7 @@ You can also find these code on `GitHub`_
 
 BookInterface.php
 
-.. literalinclude:: PaperBookInterface.php
+.. literalinclude:: BookInterface.php
    :language: php
    :linenos:
 
