@@ -28,12 +28,6 @@ SimpleFactory.php
    :language: php
    :linenos:
 
-VehicleInterface.php
-
-.. literalinclude:: VehicleInterface.php
-   :language: php
-   :linenos:
-
 Bicycle.php
 
 .. literalinclude:: Bicycle.php
