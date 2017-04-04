@@ -14,20 +14,21 @@ class DecoratorTest extends TestCase
 
     protected function setUp()
     {
-        $this->service = new Decorator\Webservice('foobar');
+        $this->service = new Decorator\Webservice('foo/bar');
     }
 
     public function testJsonDecorator()
     {
         $service = new Decorator\JsonRenderer($this->service);
 
-        $this->assertEquals('"foobar"', $service->renderData());
+        $this->assertEquals('"foo\/bar"', $service->renderData());
+        $this->assertEquals('"foo/bar"', $service->renderDataWithOptions(JSON_UNESCAPED_SLASHES));
     }
 
     public function testXmlDecorator()
     {
         $service = new Decorator\XmlRenderer($this->service);
 
-        $this->assertXmlStringEqualsXmlString('<?xml version="1.0"?><content>foobar</content>', $service->renderData());
+        $this->assertXmlStringEqualsXmlString('<?xml version="1.0"?><content>foo/bar</content>', $service->renderData());
     }
 }
