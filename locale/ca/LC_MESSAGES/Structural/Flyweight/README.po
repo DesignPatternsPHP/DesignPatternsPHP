@@ -44,7 +44,7 @@ msgid "Code"
 msgstr ""
 
 #: ../../Structural/Flyweight/README.rst:21
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
 #: ../../Structural/Flyweight/README.rst:23

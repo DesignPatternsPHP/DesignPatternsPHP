@@ -58,7 +58,7 @@ msgid "Code"
 msgstr ""
 
 #: ../../Structural/DataMapperREADME.rst:36
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
 #: ../../Structural/DataMapperREADME.rst:56

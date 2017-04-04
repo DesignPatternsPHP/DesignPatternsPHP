@@ -55,7 +55,7 @@ msgid "Code"
 msgstr ""
 
 #: ../../Behavioral/Iterator/README.rst:34
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
 #: ../../Behavioral/Iterator/README.rst:60

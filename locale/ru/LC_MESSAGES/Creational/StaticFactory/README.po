@@ -54,7 +54,7 @@ msgid "Code"
 msgstr "Код"
 
 #: ../../Creational/StaticFactory/README.rst:29
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
 #: ../../Creational/StaticFactory/README.rst:31

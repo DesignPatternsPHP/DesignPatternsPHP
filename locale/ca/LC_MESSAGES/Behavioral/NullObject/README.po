@@ -75,7 +75,7 @@ msgid "Code"
 msgstr ""
 
 #: ../../Behavioral/NullObject/README.rst:39
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
 #: ../../Behavioral/NullObject/README.rst:41

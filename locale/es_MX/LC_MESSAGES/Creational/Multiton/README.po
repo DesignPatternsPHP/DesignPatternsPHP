@@ -65,7 +65,7 @@ msgid "Code"
 msgstr "Código"
 
 #: ../../Creational/Multiton/README.rst:29
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "Puedes encontrar este código también en `GitHub`_"
 
 #: ../../Creational/Multiton/README.rst:37

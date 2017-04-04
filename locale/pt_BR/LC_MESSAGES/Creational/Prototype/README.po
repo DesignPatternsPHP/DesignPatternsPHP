@@ -44,7 +44,7 @@ msgid "Code"
 msgstr ""
 
 #: ../../Creational/Prototype/README.rst:26
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
 #: ../../Creational/Prototype/README.rst:28

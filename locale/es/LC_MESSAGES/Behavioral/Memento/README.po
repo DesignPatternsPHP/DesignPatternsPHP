@@ -99,7 +99,7 @@ msgid "Code"
 msgstr ""
 
 #: ../../Behavioral/Memento/README.rst:55
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
 #: ../../Behavioral/Memento/README.rst:57
@@ -187,7 +187,7 @@ msgstr ""
 #.    msgstr ""
 #.
 #.    #: ../../Behavioral/Memento/README.rst:38
-#.    msgid "You can also find these code on `GitHub`_"
+#.    msgid "You can also find this code on `GitHub`_"
 #.    msgstr ""
 #.
 #.    #: ../../Behavioral/Memento/README.rst:40
