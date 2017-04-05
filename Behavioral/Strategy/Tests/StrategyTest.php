@@ -23,7 +23,7 @@ class StrategyTest extends TestCase
         ];
     }
 
-    public function providateDates()
+    public function provideDates()
     {
         return [
             [
@@ -54,7 +54,7 @@ class StrategyTest extends TestCase
     }
 
     /**
-     * @dataProvider providateDates
+     * @dataProvider provideDates
      *
      * @param array $collection
      * @param array $expected
