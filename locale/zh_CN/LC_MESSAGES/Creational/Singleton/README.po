@@ -60,7 +60,7 @@ msgid "Code"
 msgstr "代码"
 
 #: ../../Creational/Singleton/README.rst:32
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
 #: ../../Creational/Singleton/README.rst:34

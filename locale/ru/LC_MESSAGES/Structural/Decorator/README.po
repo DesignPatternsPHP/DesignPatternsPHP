@@ -50,7 +50,7 @@ msgid "Code"
 msgstr "Код"
 
 #: ../../Structural/Decorator/README.rst:26
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
 #: ../../Structural/Decorator/README.rst:28

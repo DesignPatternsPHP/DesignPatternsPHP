@@ -14,7 +14,7 @@ class BridgeTest extends TestCase
         $service = new HelloWorldService(new PlainTextFormatter());
         $this->assertEquals('Hello World', $service->get());
 
-        // now change the implemenation and use the HtmlFormatter instead
+        // now change the implementation and use the HtmlFormatter instead
         $service->setImplementation(new HtmlFormatter());
         $this->assertEquals('<p>Hello World</p>', $service->get());
     }

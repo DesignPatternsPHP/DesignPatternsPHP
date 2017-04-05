@@ -39,7 +39,7 @@ msgid "Code"
 msgstr "Код"
 
 #: ../../Behavioral/State/README.rst:21
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
 #: ../../Behavioral/State/README.rst:23
