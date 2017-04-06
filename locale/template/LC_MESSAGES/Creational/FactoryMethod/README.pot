@@ -29,7 +29,7 @@ msgstr ""
 #: ../../Creational/FactoryMethod/README.rst:12
 msgid ""
 "This pattern is a \"real\" Design Pattern because it achieves the "
-"Dependency Inversion Principle" a.k.a the "D" in S.O.L.I.D principles."
+"\"Dependency Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
 msgstr ""
 
 #: ../../Creational/FactoryMethod/README.rst:15

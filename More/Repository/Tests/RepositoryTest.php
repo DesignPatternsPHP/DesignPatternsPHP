@@ -7,7 +7,7 @@ use DesignPatterns\More\Repository\Post;
 use DesignPatterns\More\Repository\PostRepository;
 use PHPUnit\Framework\TestCase;
 
-class Repository extends TestCase
+class RepositoryTest extends TestCase
 {
     public function testCanPersistAndFindPost()
     {
