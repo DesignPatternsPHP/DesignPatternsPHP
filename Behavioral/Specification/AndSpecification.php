@@ -17,14 +17,17 @@ class AndSpecification implements SpecificationInterface
         $this->specifications = $specifications;
     }
 
+    /**
+     * if at least one specification is false, return false, else return true.
+     */
     public function isSatisfiedBy(Item $item): bool
     {
-        $satisfied = [];
-
         foreach ($this->specifications as $specification) {
-            $satisfied[] = $specification->isSatisfiedBy($item);
+            if (!$specification->isSatisfiedBy($item)) {
+                return false;
+            }
         }
 
-        return !in_array(false, $satisfied);
+        return true;
     }
 }

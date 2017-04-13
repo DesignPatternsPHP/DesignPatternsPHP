@@ -17,14 +17,16 @@ class OrSpecification implements SpecificationInterface
         $this->specifications = $specifications;
     }
 
+    /**
+     * if at least one specification is true, return true, else return false
+     */
     public function isSatisfiedBy(Item $item): bool
     {
-        $satisfied = [];
-
         foreach ($this->specifications as $specification) {
-            $satisfied[] = $specification->isSatisfiedBy($item);
+            if ($specification->isSatisfiedBy($item)) {
+                return true;
+            }
         }
-
-        return in_array(true, $satisfied);
+        return false;
     }
 }
