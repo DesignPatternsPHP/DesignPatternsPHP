@@ -3,6 +3,7 @@
 
 Purpose
 -------
+Preface: This is the only reason in my oppinion where the Singleton (anti-)pattern is implemented and recommend! Zend_Registry is a singleton!
 
 To implement a central storage for objects often used throughout the
 application, is typically implemented using an abstract class with only
