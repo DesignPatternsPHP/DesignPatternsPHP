@@ -20,15 +20,15 @@ Code
 
 You can also find this code on `GitHub`_
 
-OrderRepository.php
+ContextOrder.php
 
-.. literalinclude:: OrderRepository.php
+.. literalinclude:: ContextOrder.php
    :language: php
    :linenos:
 
-Order.php
+StateOrder.php
 
-.. literalinclude:: Order.php
+.. literalinclude:: StateOrder.php
    :language: php
    :linenos:
 

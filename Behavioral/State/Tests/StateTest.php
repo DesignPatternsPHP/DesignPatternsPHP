@@ -2,33 +2,30 @@
 
 namespace DesignPatterns\Behavioral\State\Tests;
 
-use DesignPatterns\Behavioral\State\OrderRepository;
+use DesignPatterns\Behavioral\State\ContextOrder;
+use DesignPatterns\Behavioral\State\CreateOrder;
 use PHPUnit\Framework\TestCase;
 
 class StateTest extends TestCase
 {
     public function testCanShipCreatedOrder()
     {
-        $order = (new OrderRepository())->findById(1);
-        $order->shipOrder();
+        $order = new CreateOrder();
+        $contextOrder = new ContextOrder();
+        $contextOrder->setState($order);
+        $contextOrder->done();
 
-        $this->assertEquals('shipping', $order->getStatus());
+        $this->assertEquals('shipping', $contextOrder->getStatus());
     }
 
     public function testCanCompleteShippedOrder()
     {
-        $order = (new OrderRepository())->findById(2);
-        $order->completeOrder();
+        $order = new CreateOrder();
+        $contextOrder = new ContextOrder();
+        $contextOrder->setState($order);
+        $contextOrder->done();
+        $contextOrder->done();
 
-        $this->assertEquals('completed', $order->getStatus());
-    }
-
-    /**
-     * @expectedException \Exception
-     */
-    public function testThrowsExceptionWhenTryingToCompleteCreatedOrder()
-    {
-        $order = (new OrderRepository())->findById(1);
-        $order->completeOrder();
+        $this->assertEquals('completed', $contextOrder->getStatus());
     }
 }
