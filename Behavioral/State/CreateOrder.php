@@ -11,8 +11,6 @@ class CreateOrder extends StateOrder
 
     protected function done()
     {
-        $order = new ShippingOrder();
-        static::$state = $order;
-        //$this->setStatus('shipping');
+        static::$state = new ShippingOrder();
     }
 }
