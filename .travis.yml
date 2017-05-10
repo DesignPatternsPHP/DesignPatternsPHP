@@ -6,9 +6,6 @@ php:
   - 7.0
   - 7.1
 
-matrix:
-  fast_finish: true
-
 cache:
   directories:
     - $HOME/.composer/cache
@@ -17,8 +14,8 @@ before_install:
   - composer self-update
   - composer validate
 
+
 install:
   - composer install --prefer-dist --no-interaction
-
 script:
   - vendor/bin/phpunit
