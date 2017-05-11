@@ -5,25 +5,17 @@ namespace DesignPatterns\Structural\Proxy;
 /**
  * @property string username
  */
-class Record
+class Record implements RecordInterface
 {
     /**
      * @var string[]
      */
     private $data;
 
-    /**
-     * @param string[] $data
-     */
-    public function __construct(array $data = [])
+    protected function __construct()
     {
-        $this->data = $data;
     }
 
-    /**
-     * @param string $name
-     * @param string  $value
-     */
     public function __set(string $name, string $value)
     {
         $this->data[$name] = $value;
