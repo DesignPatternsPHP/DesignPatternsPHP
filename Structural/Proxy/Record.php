@@ -2,9 +2,6 @@
 
 namespace DesignPatterns\Structural\Proxy;
 
-/**
- * @property string username
- */
 class Record implements RecordInterface
 {
     /**
