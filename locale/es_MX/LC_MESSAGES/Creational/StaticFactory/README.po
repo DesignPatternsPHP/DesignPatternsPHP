@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 20:58-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Creational/StaticFactory/README.rst:1
+msgid "Static Factory"
+msgstr "Fábrica Estática"
+
+#: ../../Creational/StaticFactory/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Creational/StaticFactory/README.rst:7
+msgid ""
+"Similar to the AbstractFactory, this pattern is used to create series of "
+"related or dependent objects. The difference between this and the abstract "
+"factory pattern is that the static factory pattern uses just one static "
+"method to create all types of objects it can create. It is usually named "
+"``factory`` or ``build``."
+msgstr ""
+"Similar a la Fábrica Abstracta, este patrones utilizado para crear series de "
+"objetos relacionados o dependientes. La diferencia entre este patrón y la "
+"Fábrica Abstracta es que la Fábrica Estática utiliza solamente un método "
+"estático para crear todo tipo de objetos que puede crear. Usualmente es "
+"llamado ``factory`` or ``build``."
+
+#: ../../Creational/StaticFactory/README.rst:13
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Creational/StaticFactory/README.rst:16
+msgid ""
+"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory method "
+"create cache backends or frontends"
+msgstr ""
+"Zend Framework: ``Zend_Cache_Backend`` o ``_Frontend`` utiliza un método de "
+"fabricación para crear *backends* o *frontends* de caché."
+
+#: ../../Creational/StaticFactory/README.rst:19
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Creational/StaticFactory/README.rst:23
+msgid "Alt StaticFactory UML Diagram"
+msgstr "Alt Diagrama UML FábricaEstática"
+
+#: ../../Creational/StaticFactory/README.rst:26
+msgid "Code"
+msgstr "Código"
+
+#: ../../Creational/StaticFactory/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Creational/StaticFactory/README.rst:55
+msgid "Test"
+msgstr "Pruebas"

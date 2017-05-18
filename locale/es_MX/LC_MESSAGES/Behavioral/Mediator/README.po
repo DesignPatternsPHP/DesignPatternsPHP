@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 16:58-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Behavioral/Mediator/README.rst:1
+msgid "Mediator"
+msgstr "Mediador"
+
+#: ../../Behavioral/Mediator/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Behavioral/Mediator/README.rst:7
+msgid ""
+"This pattern provides an easy way to decouple many components working "
+"together. It is a good alternative to Observer IF you have a \"central "
+"intelligence\", like a controller (but not in the sense of the MVC)."
+msgstr ""
+"Este patrón provee una forma sencilla para desacoplar muchos componentes "
+"que trabajan en conjunto. Es una buena alternativa al patrón Observador SI "
+"se tiene una \"inteligencia central\", como un controlador (pero no en el "
+"sentido de MVC)."
+
+#: ../../Behavioral/Mediator/README.rst:11
+msgid ""
+"All components (called Colleague) are only coupled to the MediatorInterface "
+"and it is a good thing because in OOP, one good friend is better than many. "
+"This is the key-feature of this pattern."
+msgstr ""
+"Todos los componentes (llamados Colegas) están acopladas solamente a la "
+"interfaz mediadora, lo cual es algo bueno porque, en OOP, un buen amigo es "
+"mejor que muchos. Esta es la característica principal de este patrón."
+
+#: ../../Behavioral/Mediator/README.rst:15
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Behavioral/Mediator/README.rst:19
+msgid "Alt Mediator UML Diagram"
+msgstr "Alt Diagrama UML MEdiador"
+
+#: ../../Behavioral/Mediator/README.rst:22
+msgid "Code"
+msgstr "Código"
+
+#: ../../Behavioral/Mediator/README.rst:25
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Behavioral/Mediator/README.rst:63
+msgid "Test"
+msgstr "Pruebas"

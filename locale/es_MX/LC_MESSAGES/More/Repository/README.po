@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-23 13:08-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../More/Repository/README.rst:1
+msgid "Repository"
+msgstr "Repositorio"
+
+#: ../../More/Repository/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../More/Repository/README.rst:7
+msgid ""
+"Mediates between the domain and data mapping layers using a collection-like "
+"interface for accessing domain objects. Repository encapsulates the set of "
+"objects persisted in a data store and the operations performed over them, "
+"providing a more object-oriented view of the persistence layer. Repository "
+"also supports the objective of achieving a clean separation and one-way "
+"dependency between the domain and data mapping layers."
+msgstr ""
+"Mediar entre las capas de dominio y mapeo de datos usando una interfaz tipo "
+"colección para acceder a los objetos del dominio. El Repositorio encapsula "
+"el set de objetos persistenes en el almacenamiento de datos y las "
+"operaciones realizadas sobre ellos, proporcionando una vista más orientada "
+"a objeto de la capa de persistencia. El Repositorio también soporta el "
+"objetivo de lograr una separación limpia y dependencia unidireccional entre "
+"las capas de dominio y mapeo de datos."
+
+#: ../../More/Repository/README.rst:15
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../More/Repository/README.rst:18
+msgid ""
+"Doctrine 2 ORM: there is Repository that mediates between Entity and DBAL "
+"and contains methods to retrieve objects"
+msgstr ""
+"Doctrine 2 ORM (Mapeo Objeto-Relacional): existe un Repositorio que media "
+"entre la Entidad y la Capa de Acceso a Base de Datos y contiene métodos "
+"para recuperar objetos"
+
+#: ../../More/Repository/README.rst:20
+msgid "Laravel Framework"
+msgstr "Framework Laravel"
+
+#: ../../More/Repository/README.rst:22
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../More/Repository/README.rst:26
+msgid "Alt Repository UML Diagram"
+msgstr "Alt Diagrama UML Repositorio"
+
+#: ../../More/Repository/README.rst:29
+msgid "Code"
+msgstr "Código"
+
+#: ../../More/Repository/README.rst:32
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../More/Repository/README.rst:52
+msgid "Test"
+msgstr "Pruebas"

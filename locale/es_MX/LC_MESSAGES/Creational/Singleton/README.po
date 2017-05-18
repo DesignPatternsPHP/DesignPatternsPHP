@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 20:55-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Creational/Singleton/README.rst:1
+msgid "Singleton"
+msgstr "Singleton"
+
+#: ../../Creational/Singleton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+"****¡ESTE ES CONSIDERADO COMO UN ANTI-PATRÓN! PARA UNA MEJOR CAPACIDAD DE "
+"PRUEBAS Y MANTENIMIENTO UTILIZA INYECCIÓN DE DEPENDENCIAS!**"
+
+#: ../../Creational/Singleton/README.rst:7
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Creational/Singleton/README.rst:10
+msgid ""
+"To have only one instance of this object in the application that will handle "
+"all calls."
+msgstr ""
+"Tener solamente una instancia de este objeto en la aplicación que atenderá "
+"todas las llamadas."
+
+#: ../../Creational/Singleton/README.rst:13
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Creational/Singleton/README.rst:16
+msgid "DB Connector"
+msgstr "Conector de Base de Datos"
+
+#: ../../Creational/Singleton/README.rst:17
+msgid ""
+"Logger (may also be a Multiton if there are many log files for several "
+"purposes)"
+msgstr ""
+"Registrador de Eventos (puede ser también un Multiton si hay archivos de "
+"registro de eventos para diferentes propósitos)"
+
+#: ../../Creational/Singleton/README.rst:19
+msgid "Lock file for the application (there is only one in the filesystem ...)"
+msgstr ""
+"Un archivo de bloqueo para la aplicación (solamente hay uno en el sistema de "
+"archivos...)"
+
+#: ../../Creational/Singleton/README.rst:22
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Creational/Singleton/README.rst:26
+msgid "Alt Singleton UML Diagram"
+msgstr "Alt Diagrama UML Singleton"
+
+#: ../../Creational/Singleton/README.rst:29
+msgid "Code"
+msgstr "Código"
+
+#: ../../Creational/Singleton/README.rst:32
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Creational/Singleton/README.rst:40
+msgid "Test"
+msgstr "Pruebas"

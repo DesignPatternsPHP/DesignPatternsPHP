@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Creational/Singleton/README.rst:1
+msgid "Singleton"
+msgstr ""
+
+#: ../../Creational/Singleton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+
+#: ../../Creational/Singleton/README.rst:7
+msgid "Purpose"
+msgstr ""
+
+#: ../../Creational/Singleton/README.rst:10
+msgid ""
+"To have only one instance of this object in the application that will "
+"handle all calls."
+msgstr ""
+
+#: ../../Creational/Singleton/README.rst:13
+msgid "Examples"
+msgstr ""
+
+#: ../../Creational/Singleton/README.rst:16
+msgid "DB Connector"
+msgstr ""
+
+#: ../../Creational/Singleton/README.rst:17
+msgid ""
+"Logger (may also be a Multiton if there are many log files for "
+"several purposes)"
+msgstr ""
+
+#: ../../Creational/Singleton/README.rst:19
+msgid ""
+"Lock file for the application (there is only one in the filesystem "
+"...)"
+msgstr ""
+
+#: ../../Creational/Singleton/README.rst:22
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Creational/Singleton/README.rst:26
+msgid "Alt Singleton UML Diagram"
+msgstr ""
+
+#: ../../Creational/Singleton/README.rst:29
+msgid "Code"
+msgstr ""
+
+#: ../../Creational/Singleton/README.rst:32
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Creational/Singleton/README.rst:40
+msgid "Test"
+msgstr ""

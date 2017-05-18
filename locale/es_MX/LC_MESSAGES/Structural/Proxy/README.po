@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-23 16:12-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Structural/Proxy/README.rst:1
+msgid "Proxy"
+msgstr "Proxy"
+
+#: ../../Structural/Proxy/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Structural/Proxy/README.rst:7
+msgid "To interface to anything that is expensive or impossible to duplicate."
+msgstr ""
+"Interconectar cualquier cosa que sea muy costosa o imposible de duplicar."
+
+#: ../../Structural/Proxy/README.rst:9
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Structural/Proxy/README.rst:12
+msgid ""
+"Doctrine2 uses proxies to implement framework magic (e.g. lazy "
+"initialization) in them, while the user still works with his own entity "
+"classes and will never use nor touch the proxies"
+msgstr ""
+"Doctrine2 utiliza Proxies para implementar magia del framework (p.ej. "
+"inicialización tardía) en ellos, mientras que el usuario aún trabaja con "
+"sus propias clases de entidad y nunca tocará o suará los proxies"
+
+#: ../../Structural/Proxy/README.rst:16
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Structural/Proxy/README.rst:20
+msgid "Alt Proxy UML Diagram"
+msgstr "Alt Diagrama UML Proxy"
+
+#: ../../Structural/Proxy/README.rst:23
+msgid "Code"
+msgstr "Código"
+
+#: ../../Structural/Proxy/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Structural/Proxy/README.rst:40
+msgid "Test"
+msgstr "Pruebas"

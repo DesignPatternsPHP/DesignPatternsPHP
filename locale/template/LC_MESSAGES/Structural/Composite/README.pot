@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/Composite/README.rst:1
+msgid "Composite"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:7
+msgid ""
+"To treat a group of objects the same way as a single instance of the "
+"object."
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:10
+msgid "Examples"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:13
+msgid ""
+"a form class instance handles all its form elements like a single "
+"instance of the form, when ``render()`` is called, it subsequently "
+"runs through all its child elements and calls ``render()`` on them"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:16
+msgid ""
+"``Zend_Config``: a tree of configuration options, each one is a "
+"``Zend_Config`` object itself"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:19
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:23
+msgid "Alt Composite UML Diagram"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:26
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Structural/Composite/README.rst:55
+msgid "Test"
+msgstr ""

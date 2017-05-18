@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Behavioral/TemplateMethod/README.rst:1
+msgid "Template Method"
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:7
+msgid "Template Method is a behavioral design pattern."
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:9
+msgid ""
+"Perhaps you have encountered it many times already. The idea is to let "
+"subclasses of this abstract template \"finish\" the behavior of an "
+"algorithm."
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:13
+msgid ""
+"A.k.a the \"Hollywood Principle\": \"Don't call us, we call you.\" This "
+"class is not called by subclasses but the inverse. How? With abstraction "
+"of course."
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:17
+msgid ""
+"In other words, this is a skeleton of algorithm, well-suited for "
+"framework libraries. The user has just to implement one method and the "
+"superclass does the job."
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:21
+msgid ""
+"It is an easy way to decouple concrete classes and reduce copy-paste, "
+"that's why you'll find it everywhere."
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:24
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:28
+msgid "Alt TemplateMethod UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:31
+msgid "Code"
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:54
+msgid "Test"
+msgstr ""

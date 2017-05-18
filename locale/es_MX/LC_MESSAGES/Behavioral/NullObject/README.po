@@ -1,0 +1,96 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 17:25-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Behavioral/NullObject/README.rst:1
+msgid "Null Object"
+msgstr "Objeto Nulo"
+
+#: ../../Behavioral/NullObject/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Behavioral/NullObject/README.rst:7
+msgid ""
+"NullObject is not a GoF design pattern but a schema which appears frequently "
+"enough to be considered a pattern. It has the following benefits:"
+msgstr ""
+"El Objeto Nulo no es un patrón del GoF (Gang of Four) pero un esquema que "
+"aparece tan frecuentemente para ser considerada un patrón. Tiene los "
+"siguientes beneficios:"
+
+#: ../../Behavioral/NullObject/README.rst:11
+msgid "Client code is simplified."
+msgstr "Se simplifica el código del cliente."
+
+#: ../../Behavioral/NullObject/README.rst:12
+msgid "Reduces the chance of null pointer exceptions."
+msgstr "Se reduce la probabilidad de excepciones de apuntador nulo."
+
+#: ../../Behavioral/NullObject/README.rst:13
+msgid "Fewer conditionals require less test cases."
+msgstr "Menos condicionales requieren menos casos de prueba."
+
+#: ../../Behavioral/NullObject/README.rst:15
+msgid ""
+"Methods that return an object or null should instead return an object or "
+"``NullObject``. ``NullObject``\\ s simplify boilerplate code such as ``if (!"
+"is_null($obj)) { $obj->callSomething(); }`` to just ``$obj->callSomething();"
+"`` by eliminating the conditional check in client code."
+msgstr ""
+"Los métodos que devuelven un objeto o nulo deben en su lugar devolver un "
+"objeto u `` ObjetoNulo``. El Objeto Nulo simplifica el código repetitivo "
+"como ``if (!is_null($obj)) { $obj->callSomething(); }`` a ``$obj-"
+">callSomething();`` eliminando la verificación condicional en el código del "
+"cliente."
+
+#: ../../Behavioral/NullObject/README.rst:21
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Behavioral/NullObject/README.rst:24
+msgid "Symfony2: null logger of profiler."
+msgstr "Symfony2: registro de eventos nulo del perfilador."
+
+#: ../../Behavioral/NullObject/README.rst:25
+msgid "Symfony2: null output in Symfony/Console."
+msgstr "Symfony2: salida nula en la consola de Symfony."
+
+#: ../../Behavioral/NullObject/README.rst:26
+msgid "null handler in a Chain of Responsibilities pattern."
+msgstr "Manejador nulo en un patrón de Cadena de Responsabilidades."
+
+#: ../../Behavioral/NullObject/README.rst:27
+msgid "null command in a Command pattern."
+msgstr "Comando nulo en un patrón de Comando."
+
+#: ../../Behavioral/NullObject/README.rst:29
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Behavioral/NullObject/README.rst:33
+msgid "Alt NullObject UML Diagram"
+msgstr "Alt Diagrama UML ObjetoNulo"
+
+#: ../../Behavioral/NullObject/README.rst:36
+msgid "Code"
+msgstr "Código"
+
+#: ../../Behavioral/NullObject/README.rst:39
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Behavioral/NullObject/README.rst:65
+msgid "Test"
+msgstr "Pruebas"

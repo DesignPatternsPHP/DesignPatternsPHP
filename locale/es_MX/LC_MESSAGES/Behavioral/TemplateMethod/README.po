@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 20:01-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Behavioral/TemplateMethod/README.rst:1
+msgid "Template Method"
+msgstr "Método Plantilla"
+
+#: ../../Behavioral/TemplateMethod/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Behavioral/TemplateMethod/README.rst:7
+msgid "Template Method is a behavioral design pattern."
+msgstr "Método Plantilla es un patrón de diseño de comportamiento."
+
+#: ../../Behavioral/TemplateMethod/README.rst:9
+msgid ""
+"Perhaps you have encountered it many times already. The idea is to let "
+"subclasses of this abstract template \"finish\" the behavior of an algorithm."
+msgstr ""
+"Posiblemente ya hayas encontrado este patrón muchas veces. La idea es dejar "
+"que las subclases de esta plantilla abstracta \"terminen\" el comportamiento "
+"de un algoritmo."
+
+#: ../../Behavioral/TemplateMethod/README.rst:13
+msgid ""
+"A.k.a the \"Hollywood Principle\": \"Don't call us, we call you.\" This "
+"class is not called by subclasses but the inverse. How? With abstraction of "
+"course."
+msgstr ""
+"También conocido como \"El Principio Hollywood\": \"No nos llames, nosotros "
+"te llamaremos.\" Esta clase no es llamada por las subclases, sino a la "
+"inversa. ¿Cómo? Con abstracción claramente."
+
+#: ../../Behavioral/TemplateMethod/README.rst:17
+msgid ""
+"In other words, this is a skeleton of algorithm, well-suited for framework "
+"libraries. The user has just to implement one method and the superclass does "
+"the job."
+msgstr ""
+"En otras palabras, este es un esqueleto del algoritmo, muy adecuado para "
+"librerías de *frameworks*. El usuario solamente tiene que implementar un "
+"método y la superclase hace el trabajo."
+
+#: ../../Behavioral/TemplateMethod/README.rst:21
+msgid ""
+"It is an easy way to decouple concrete classes and reduce copy-paste, that's "
+"why you'll find it everywhere."
+msgstr ""
+"Es una forma fácil para desacoplar clases concretas y reducir el copiado-"
+"pegado, es por esto que lo encontrarás en todos lados."
+
+#: ../../Behavioral/TemplateMethod/README.rst:24
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Behavioral/TemplateMethod/README.rst:28
+msgid "Alt TemplateMethod UML Diagram"
+msgstr "Alt Diagrama UML MétodoPlantilla"
+
+#: ../../Behavioral/TemplateMethod/README.rst:31
+msgid "Code"
+msgstr "Código"
+
+#: ../../Behavioral/TemplateMethod/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Behavioral/TemplateMethod/README.rst:54
+msgid "Test"
+msgstr "Pruebas"

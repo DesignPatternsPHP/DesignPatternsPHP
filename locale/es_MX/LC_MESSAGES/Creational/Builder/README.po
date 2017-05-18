@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 20:20-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Creational/Builder/README.rst:1
+msgid "Builder"
+msgstr "Constructor"
+
+#: ../../Creational/Builder/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Creational/Builder/README.rst:7
+msgid "Builder is an interface that build parts of a complex object."
+msgstr ""
+"El Constructor es una interfaz que construye partes de un objeto complejo."
+
+#: ../../Creational/Builder/README.rst:9
+msgid ""
+"Sometimes, if the builder has a better knowledge of what it builds, this "
+"interface could be an abstract class with default methods (aka adapter)."
+msgstr ""
+"A veces, si el constructor tiene mejor conocimiento de lo que construye, "
+"esta interfaz puede ser una clase abstracta con métodos por defecto "
+"(también conocido como adaptador)."
+
+#: ../../Creational/Builder/README.rst:12
+msgid ""
+"If you have a complex inheritance tree for objects, it is logical to have a "
+"complex inheritance tree for builders too."
+msgstr ""
+"Si se tiene un árbol de herencia compleja de objetos, es lógico que se "
+"tendrá un árbol de herencia complejo para los constructores también."
+
+#: ../../Creational/Builder/README.rst:15
+msgid ""
+"Note: Builders have often a fluent interface, see the mock builder of "
+"PHPUnit for example."
+msgstr ""
+"Nota: los Constructores suelen tener una interfaz fluida, como referencia "
+"está el constructor de imitaciones (mock) de PHPUnit."
+
+#: ../../Creational/Builder/README.rst:18
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Creational/Builder/README.rst:21
+msgid "PHPUnit: Mock Builder"
+msgstr "PHPUnit: Constructor de Imitaciones (Mock)"
+
+#: ../../Creational/Builder/README.rst:23
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Creational/Builder/README.rst:27
+msgid "Alt Builder UML Diagram"
+msgstr "Alt Diagrama UML Constructor"
+
+#: ../../Creational/Builder/README.rst:30
+msgid "Code"
+msgstr "Código"
+
+#: ../../Creational/Builder/README.rst:33
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Creational/Builder/README.rst:95
+msgid "Test"
+msgstr "Pruebas"

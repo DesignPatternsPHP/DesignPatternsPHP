@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/FluentInterface/README.rst:1
+msgid "Fluent Interface"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:7
+msgid ""
+"To write code that is easy readable just like sentences in a natural "
+"language (like English)."
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:13
+msgid ""
+"Doctrine2's QueryBuilder works something like that example class "
+"below"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:15
+msgid "PHPUnit uses fluent interfaces to build mock objects"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:16
+msgid "Yii Framework: CDbCommand and CActiveRecord use this pattern, too"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:18
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:22
+msgid "Alt FluentInterface UML Diagram"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:25
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:28
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Structural/FluentInterface/README.rst:36
+msgid "Test"
+msgstr ""

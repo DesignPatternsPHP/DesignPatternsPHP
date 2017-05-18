@@ -1,0 +1,10 @@
+- name: Install Composer
+  shell: curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer creates=/usr/local/bin/composer
+
+- name: Increase process timeout
+  shell: composer --global config process-timeout {{ composer.timeout }}
+
+- name: Install packages
+  shell: composer install --optimize-autoloader --prefer-source
+  args:
+   chdir: /vagrant

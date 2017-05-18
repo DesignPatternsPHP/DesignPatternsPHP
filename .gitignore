@@ -2,3 +2,8 @@
 .idea
 /nbproject
 /vendor/
+_build/
+*.mo
+.vagrant/
+phpunit.xml
+composer.phar

@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Creational/AbstractFactory/README.rst:1
+msgid "Abstract Factory"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:7
+msgid ""
+"To create series of related or dependent objects without specifying "
+"their concrete classes. Usually the created classes all implement the "
+"same interface. The client of the abstract factory does not care about "
+"how these objects are created, he just knows how they go together."
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:12
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:16
+msgid "Alt AbstractFactory UML Diagram"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:19
+msgid "Code"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:60
+msgid "Test"
+msgstr ""

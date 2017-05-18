@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/Decorator/README.rst:1
+msgid "Decorator"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:7
+msgid "To dynamically add new functionality to class instances."
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:9
+msgid "Examples"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:12
+msgid "Zend Framework: decorators for ``Zend_Form_Element`` instances"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:13
+msgid ""
+"Web Service Layer: Decorators JSON and XML for a REST service (in "
+"this case, only one of these should be allowed of course)"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:16
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:20
+msgid "Alt Decorator UML Diagram"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:23
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:58
+msgid "Test"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:
+msgid ""
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:
+msgid ""
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:
+msgid ""
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:
+msgid ""
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:
+msgid ""
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:
+msgid ""
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:
+msgid ""
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:
+msgid ""
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:
+msgid ""
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:
+msgid ""
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:
+msgid ""
+msgstr ""

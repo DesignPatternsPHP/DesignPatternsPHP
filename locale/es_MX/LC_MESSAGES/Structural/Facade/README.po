@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-23 15:45-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Structural/Facade/README.rst:1
+msgid "Facade"
+msgstr "Fachada"
+
+#: ../../Structural/Facade/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Structural/Facade/README.rst:7
+msgid ""
+"The primary goal of a Facade Pattern is not to avoid you to read the manual "
+"of a complex API. It's only a side-effect. The first goal is to reduce "
+"coupling and follow the Law of Demeter."
+msgstr ""
+"El principal objetivo del patrón de Fachada no es evitar que se lean "
+"manuales complejos de una API, es solamente un efecto secundario. El "
+"principal objetivo es reducir el acoplamiento y cumplir la Ley de Demeter."
+
+#: ../../Structural/Facade/README.rst:11
+msgid ""
+"A Facade is meant to decouple a client and a sub-system by embedding many "
+"(but sometimes just one) interface, and of course to reduce complexity."
+msgstr ""
+"Una Fachada está destinada a desacoplar un cleinte y un subsistema mediante "
+"la incorporación de muchas interfaces (aunque muchas veces solamente una) y "
+"por supuesto reducir la complejidad."
+
+#: ../../Structural/Facade/README.rst:15
+msgid "A facade does not forbid you the access to the sub-system"
+msgstr "Una Fachada no impide el acceso al subsistema"
+
+#: ../../Structural/Facade/README.rst:16
+msgid "You can (you should) have multiple facades for one sub-system"
+msgstr "Se puede (se debería) tener múltiples fachadas ára un subsistema"
+
+#: ../../Structural/Facade/README.rst:18
+msgid ""
+"That's why a good facade has no ``new`` in it. If there are multiple "
+"creations for each method, it is not a Facade, it's a Builder or a [Abstract"
+"\\|Static\\|Simple] Factory [Method]."
+msgstr ""
+"Esto es por lo que una buena Fachada no tiene ``new`` en ella. Si existen "
+"múltiples creaciones para cada método entonces no es una Fachada, es un "
+"Constructor o una Fábrica [Abstracta\\|Estática\\|Simple] o un Método "
+"Fábrica."
+
+#: ../../Structural/Facade/README.rst:22
+msgid ""
+"The best facade has no ``new`` and a constructor with interface-type-hinted "
+"parameters. If you need creation of new instances, use a Factory as argument."
+msgstr ""
+"La mejor Fachada no tiene ``new`` y un constructor con parámetros con tipos "
+"especificados por interfaz. Si se necesita la creación de nuevas instancias, "
+"se debe utilizar una Fábrica como argumento."
+
+#: ../../Structural/Facade/README.rst:26
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Structural/Facade/README.rst:30
+msgid "Alt Facade UML Diagram"
+msgstr "Alt Diagrmaa UML Fachada"
+
+#: ../../Structural/Facade/README.rst:33
+msgid "Code"
+msgstr "Código"
+
+#: ../../Structural/Facade/README.rst:36
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Structural/Facade/README.rst:56
+msgid "Test"
+msgstr "Pruebas"

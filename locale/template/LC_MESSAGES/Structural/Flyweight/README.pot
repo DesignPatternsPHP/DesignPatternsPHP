@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/Flyweight/README.rst:1
+msgid "Flyweight"
+msgstr ""
+
+#: ../../Structural/Flyweight/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/Flyweight/README.rst:7
+msgid ""
+"To minimise memory usage, a Flyweight shares as much as possible memory with similar objects. It "
+"is needed when a large amount of objects is used that don't differ much in state. A common practice is "
+"to hold state in external data structures and pass them to the flyweight object when needed."
+msgstr ""
+
+#: ../../Structural/Flyweight/README.rst:11
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/Flyweight/README.rst:15
+msgid "Alt Flyweight UML Diagram"
+msgstr ""
+
+#: ../../Structural/Flyweight/README.rst:18
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/Flyweight/README.rst:21
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Structural/Flyweight/README.rst:41
+msgid "Test"
+msgstr ""

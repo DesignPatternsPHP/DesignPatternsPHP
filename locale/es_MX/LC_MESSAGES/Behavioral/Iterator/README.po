@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 16:51-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Behavioral/Iterator/README.rst:1
+msgid "Iterator"
+msgstr "Iterador"
+
+#: ../../Behavioral/Iterator/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Behavioral/Iterator/README.rst:7
+msgid ""
+"To make an object iterable and to make it appear like a collection of "
+"objects."
+msgstr ""
+"Hacer que un objeto sea iterable y que parezca como una colección de objetos."
+
+#: ../../Behavioral/Iterator/README.rst:10
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Behavioral/Iterator/README.rst:13
+msgid ""
+"To process a file line by line by just running over all lines (which have an "
+"object representation) for a file (which of course is an object, too)."
+msgstr ""
+"Procesar un archivo linea por línea iterando sobre todas las líneas (que "
+"tienen una representación de objeto) para un archivo (que, por supuesto, "
+"también es un objeto)."
+
+#: ../../Behavioral/Iterator/README.rst:17
+msgid "Note"
+msgstr "Nota"
+
+#: ../../Behavioral/Iterator/README.rst:20
+msgid ""
+"Standard PHP Library (SPL) defines an interface Iterator which is best "
+"suited for this! Often you would want to implement the Countable interface "
+"too, to allow ``count($object)`` on your iterable object."
+msgstr ""
+"La Librería Estándar de PHP (SPL) define una interfaz Iterador que es más "
+"adecuada para esto! Frecuentemente querrás implementar la interfaz "
+"_Countable_ también, para permitir ``count($object)`` en tu objeto iterable."
+
+#: ../../Behavioral/Iterator/README.rst:24
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Behavioral/Iterator/README.rst:28
+msgid "Alt Iterator UML Diagram"
+msgstr "Alt Diagrama UML Iterador"
+
+#: ../../Behavioral/Iterator/README.rst:31
+msgid "Code"
+msgstr "Código"
+
+#: ../../Behavioral/Iterator/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Behavioral/Iterator/README.rst:60
+msgid "Test"
+msgstr "Pruebas"

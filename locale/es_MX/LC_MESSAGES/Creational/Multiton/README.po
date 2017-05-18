@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 20:30-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Creational/Multiton/README.rst:1
+msgid "Multiton"
+msgstr "Multiton"
+
+#: ../../Creational/Multiton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+"**¡ESTE ES CONSIDERADO COMO UN ANTI-PATRÓN! PARA UNA MEJOR CAPACIDAD DE "
+"PRUEBAS Y MANTENIMIENTO UTILIZA INYECCIÓN DE DEPENDENCIAS!**"
+
+#: ../../Creational/Multiton/README.rst:7
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Creational/Multiton/README.rst:10
+msgid ""
+"To have only a list of named instances that are used, like a singleton but "
+"with n instances."
+msgstr ""
+"Tener solamente una lista de instancias nombradas que se pueden utilizar, "
+"como un Singleton pero con n instancias."
+
+#: ../../Creational/Multiton/README.rst:13
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Creational/Multiton/README.rst:16
+msgid "2 DB Connectors, e.g. one for MySQL, the other for SQLite"
+msgstr ""
+"2 Conectores de Base de Datos, p.ej. uno para MySQL y otro para SQLite"
+
+#: ../../Creational/Multiton/README.rst:17
+msgid "multiple Loggers (one for debug messages, one for errors)"
+msgstr ""
+"Múltiples registradores de eventos (uno para mensajes de depuración y otro "
+"para errores)"
+
+#: ../../Creational/Multiton/README.rst:19
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Creational/Multiton/README.rst:23
+msgid "Alt Multiton UML Diagram"
+msgstr "Alt Diagrama UML Multiton"
+
+#: ../../Creational/Multiton/README.rst:26
+msgid "Code"
+msgstr "Código"
+
+#: ../../Creational/Multiton/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Creational/Multiton/README.rst:37
+msgid "Test"
+msgstr "Pruebas"

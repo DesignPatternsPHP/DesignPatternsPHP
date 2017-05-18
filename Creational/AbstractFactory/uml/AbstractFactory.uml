@@ -3,35 +3,48 @@
   <ID>PHP</ID>
   <OriginalElement>\DesignPatterns\Creational\AbstractFactory\AbstractFactory</OriginalElement>
   <nodes>
-    <node x="281.0" y="228.0">\DesignPatterns\Creational\AbstractFactory\Html\Text</node>
-    <node x="150.0" y="229.0">\DesignPatterns\Creational\AbstractFactory\Html\Picture</node>
-    <node x="223.0" y="117.0">\DesignPatterns\Creational\AbstractFactory\HtmlFactory</node>
-    <node x="0.0" y="117.0">\DesignPatterns\Creational\AbstractFactory\JsonFactory</node>
-    <node x="126.0" y="0.0">\DesignPatterns\Creational\AbstractFactory\AbstractFactory</node>
-    <node x="0.0" y="229.0">\DesignPatterns\Creational\AbstractFactory\MediaInterface</node>
+    <node x="214.0" y="101.0">\DesignPatterns\Creational\AbstractFactory\JsonFactory</node>
+    <node x="107.0" y="0.0">\DesignPatterns\Creational\AbstractFactory\AbstractFactory</node>
+    <node x="0.0" y="101.0">\DesignPatterns\Creational\AbstractFactory\HtmlFactory</node>
+    <node x="111.0" y="298.0">\DesignPatterns\Creational\AbstractFactory\JsonText</node>
+    <node x="0.0" y="298.0">\DesignPatterns\Creational\AbstractFactory\HtmlText</node>
+    <node x="51.5" y="197.0">\DesignPatterns\Creational\AbstractFactory\Text</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="\DesignPatterns\Creational\AbstractFactory\HtmlFactory" target="\DesignPatterns\Creational\AbstractFactory\AbstractFactory">
-      <point x="0.0" y="-33.5" />
-      <point x="324.5" y="92.0" />
-      <point x="256.5" y="92.0" />
-      <point x="43.5" y="33.5" />
+    <edge source="\DesignPatterns\Creational\AbstractFactory\HtmlText" target="\DesignPatterns\Creational\AbstractFactory\Text">
+      <point x="0.0" y="-14.5" />
+      <point x="45.5" y="273.0" />
+      <point x="75.75" y="273.0" />
+      <point x="-24.25" y="25.5" />
+    </edge>
+    <edge source="\DesignPatterns\Creational\AbstractFactory\JsonText" target="\DesignPatterns\Creational\AbstractFactory\Text">
+      <point x="0.0" y="-14.5" />
+      <point x="154.5" y="273.0" />
+      <point x="124.25" y="273.0" />
+      <point x="24.25" y="25.5" />
     </edge>
     <edge source="\DesignPatterns\Creational\AbstractFactory\JsonFactory" target="\DesignPatterns\Creational\AbstractFactory\AbstractFactory">
-      <point x="0.0" y="-33.5" />
-      <point x="101.5" y="92.0" />
-      <point x="169.5" y="92.0" />
-      <point x="-43.5" y="33.5" />
+      <point x="0.0" y="-25.5" />
+      <point x="311.0" y="76.0" />
+      <point x="252.5" y="76.0" />
+      <point x="48.5" y="25.5" />
+    </edge>
+    <edge source="\DesignPatterns\Creational\AbstractFactory\HtmlFactory" target="\DesignPatterns\Creational\AbstractFactory\AbstractFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="97.0" y="76.0" />
+      <point x="155.5" y="76.0" />
+      <point x="-48.5" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="213.0" y="138.0" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="1.0" x="117.0" y="130.5" />
+  <SelectedNodes>
+    <node>\DesignPatterns\Creational\AbstractFactory\AbstractFactory</node>
+  </SelectedNodes>
   <Categories>
-    <Category>Fields</Category>
-    <Category>Constants</Category>
-    <Category>Constructors</Category>
     <Category>Methods</Category>
+    <Category>Constants</Category>
+    <Category>Fields</Category>
   </Categories>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>

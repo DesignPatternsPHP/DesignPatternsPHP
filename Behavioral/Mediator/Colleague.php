@@ -4,29 +4,22 @@ namespace DesignPatterns\Behavioral\Mediator;
 
 /**
  * Colleague is an abstract colleague who works together but he only knows
- * the Mediator, not other colleague.
+ * the Mediator, not other colleagues
  */
 abstract class Colleague
 {
     /**
-     * this ensures no change in subclasses
+     * this ensures no change in subclasses.
      *
      * @var MediatorInterface
      */
-    private $mediator;
-
-    // for subclasses
-    protected function getMediator()
-    {
-        return $this->mediator;
-    }
+    protected $mediator;
 
     /**
-     * @param MediatorInterface $medium
+     * @param MediatorInterface $mediator
      */
-    public function __construct(MediatorInterface $medium)
+    public function setMediator(MediatorInterface $mediator)
     {
-        // in this way, we are sure the concrete colleague knows the mediator
-        $this->mediator = $medium;
+        $this->mediator = $mediator;
     }
 }

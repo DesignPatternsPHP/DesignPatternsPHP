@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Behavioral/Observer/README.rst:1
+msgid "Observer"
+msgstr ""
+
+#: ../../Behavioral/Observer/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Behavioral/Observer/README.rst:7
+msgid ""
+"To implement a publish/subscribe behaviour to an object, whenever a "
+"\"Subject\" object changes its state, the attached \"Observers\" will be "
+"notified. It is used to shorten the amount of coupled objects and uses "
+"loose coupling instead."
+msgstr ""
+
+#: ../../Behavioral/Observer/README.rst:12
+msgid "Examples"
+msgstr ""
+
+#: ../../Behavioral/Observer/README.rst:15
+msgid "A message queue system is observed to show the progress of a job in a GUI."
+msgstr ""
+
+#: ../../Behavioral/Observer/README.rst:17
+msgid "Note"
+msgstr ""
+
+#: ../../Behavioral/Observer/README.rst:20
+msgid ""
+"PHP already defines two interfaces that can help to implement this "
+"pattern: SplObserver and SplSubject."
+msgstr ""
+
+#: ../../Behavioral/Observer/README.rst:23
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/Observer/README.rst:27
+msgid "Alt Observer UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/Observer/README.rst:30
+msgid "Code"
+msgstr ""
+
+#: ../../Behavioral/Observer/README.rst:33
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Behavioral/Observer/README.rst:47
+msgid "Test"
+msgstr ""

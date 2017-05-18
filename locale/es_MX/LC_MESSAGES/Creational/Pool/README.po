@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 20:36-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Creational/Pool/README.rst:1
+msgid "Pool"
+msgstr "*Pool*"
+
+#: ../../Creational/Pool/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Creational/Pool/README.rst:7
+msgid ""
+"The **object pool pattern** is a software creational design pattern that "
+"uses a set of initialized objects kept ready to use – a \"pool\" – rather "
+"than allocating and destroying them on demand. A client of the pool will "
+"request an object from the pool and perform operations on the returned "
+"object. When the client has finished, it returns the object, which is a "
+"specific type of factory object, to the pool rather than destroying it."
+msgstr ""
+"El **patrón de *pool* de objetos** es un patrón de diseño creacional que "
+"utiliza un set the objetos inicializados listos para su uso – una \"alberca"
+"\" (pool) – en vez de asignarlos y destruirlos bajo demanda. Un cliente del "
+"*pool* solicita un objeto del *pool* y realiza operaciones en el objeto "
+"devuelto. Cuando el cliente ha terminado, regresa el objeto, el cual es de "
+"un tipo específico de objeto de fábrica, al *pool* en lugar de destruirlo."
+
+#: ../../Creational/Pool/README.rst:14
+msgid ""
+"Object pooling can offer a significant performance boost in situations where "
+"the cost of initializing a class instance is high, the rate of instantiation "
+"of a class is high, and the number of instances in use at any one time is "
+"low. The pooled object is obtained in predictable time when creation of the "
+"new objects (especially over network) may take variable time."
+msgstr ""
+"*Pooling* de objetos puede ofrecer un aumento significativo de rendimiento "
+"en situaciones en las que el costo de inicializar una instancia de clase es "
+"alto, el número de instancias de clase es alto y el número de instancias en "
+"uso es bajo. El objeto solicitado se obtiene en un tiempo predecible cuando "
+"la creación de nuevos objetos (especialmente a través de la red) puede "
+"variar en tiempo."
+
+#: ../../Creational/Pool/README.rst:21
+msgid ""
+"However these benefits are mostly true for objects that are expensive with "
+"respect to time, such as database connections, socket connections, threads "
+"and large graphic objects like fonts or bitmaps. In certain situations, "
+"simple object pooling (that hold no external resources, but only occupy "
+"memory) may not be efficient and could decrease performance."
+msgstr ""
+"Sin embargo, estos beneficios son en su mayoría ciertos para objetos que son "
+"costosos con respecto al tiempo, como las conexiones de base de datos, "
+"conexiones de socket, hilos y objetos gráficos grandes como fuentes o mapas "
+"de bits. En algunas situaciones, un *pool* simple de objetos (que no "
+"contienen recursos externos, sino solamente ocupan memoria) puede no ser "
+"eficiente y puede ocasionar una disminución de rendimiento."
+
+#: ../../Creational/Pool/README.rst:27
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Creational/Pool/README.rst:31
+msgid "Alt Pool UML Diagram"
+msgstr "Alt Diagrama UML Pool"
+
+#: ../../Creational/Pool/README.rst:34
+msgid "Code"
+msgstr "Código"
+
+#: ../../Creational/Pool/README.rst:37
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Creational/Pool/README.rst:51
+msgid "Test"
+msgstr "Pruebas"

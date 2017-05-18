@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 20:06-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Behavioral/Visitor/README.rst:1
+msgid "Visitor"
+msgstr "Visitante"
+
+#: ../../Behavioral/Visitor/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Behavioral/Visitor/README.rst:7
+msgid ""
+"The Visitor Pattern lets you outsource operations on objects to other "
+"objects. The main reason to do this is to keep a separation of concerns. But "
+"classes have to define a contract to allow visitors (the ``Role::accept`` "
+"method in the example)."
+msgstr ""
+"El patrón Visitante permite externalizar operaciones de un objeto hacia "
+"otros objetos. La razón principal para hacer esto es para mantener la "
+"separación de propósitos. Las clases deben definir un contrato para permitir "
+"visitantes (el método ``Role::accept`` en el ejemplo)."
+
+#: ../../Behavioral/Visitor/README.rst:12
+msgid ""
+"The contract is an abstract class but you can have also a clean interface. "
+"In that case, each Visitor has to choose itself which method to invoke on "
+"the visitor."
+msgstr ""
+"El contrato es una clase abstracta pero puedes tener una interface. En ese "
+"caso, cada Visitante tiene que elegir por él mismo qué método invocar en el "
+"visitante."
+
+#: ../../Behavioral/Visitor/README.rst:16
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Behavioral/Visitor/README.rst:20
+msgid "Alt Visitor UML Diagram"
+msgstr "Alt Diagrama UML Visitante"
+
+#: ../../Behavioral/Visitor/README.rst:23
+msgid "Code"
+msgstr "Código"
+
+#: ../../Behavioral/Visitor/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Behavioral/Visitor/README.rst:58
+msgid "Test"
+msgstr "Pruebas"

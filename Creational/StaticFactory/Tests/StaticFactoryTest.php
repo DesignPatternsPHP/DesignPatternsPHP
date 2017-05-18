@@ -3,28 +3,31 @@
 namespace DesignPatterns\Creational\StaticFactory\Tests;
 
 use DesignPatterns\Creational\StaticFactory\StaticFactory;
+use PHPUnit\Framework\TestCase;
 
-/**
- * Tests for Static Factory pattern
- *
- */
-class StaticFactoryTest extends \PHPUnit_Framework_TestCase
+class StaticFactoryTest extends TestCase
 {
-
-    public function getTypeList()
+    public function testCanCreateNumberFormatter()
     {
-        return array(
-            array('string'),
-            array('number')
+        $this->assertInstanceOf(
+            'DesignPatterns\Creational\StaticFactory\FormatNumber',
+            StaticFactory::factory('number')
+        );
+    }
+
+    public function testCanCreateStringFormatter()
+    {
+        $this->assertInstanceOf(
+            'DesignPatterns\Creational\StaticFactory\FormatString',
+            StaticFactory::factory('string')
         );
     }
 
     /**
-     * @dataProvider getTypeList
+     * @expectedException \InvalidArgumentException
      */
-    public function testCreation($type)
+    public function testException()
     {
-        $obj = StaticFactory::factory($type);
-        $this->assertInstanceOf('DesignPatterns\Creational\StaticFactory\FormatterInterface', $obj);
+        StaticFactory::factory('object');
     }
 }

@@ -2,68 +2,31 @@
 
 namespace DesignPatterns\Behavioral\Memento\Tests;
 
-use DesignPatterns\Behavioral\Memento\Originator;
+use DesignPatterns\Behavioral\Memento\State;
+use DesignPatterns\Behavioral\Memento\Ticket;
+use PHPUnit\Framework\TestCase;
 
-/**
- * MementoTest tests the memento pattern
- */
-class MementoTest extends \PHPUnit_Framework_TestCase
+class MementoTest extends TestCase
 {
-
-    public function testStringState()
+    public function testOpenTicketAssignAndSetBackToOpen()
     {
-        $originator = new Originator();
-        $originator->setState("State1");
+        $ticket = new Ticket();
 
-        $this->assertAttributeEquals("State1", "state", $originator);
+        // open the ticket
+        $ticket->open();
+        $openedState = $ticket->getState();
+        $this->assertEquals(State::STATE_OPENED, (string) $ticket->getState());
 
-        $originator->setState("State2");
+        $memento = $ticket->saveToMemento();
 
-        $this->assertAttributeEquals("State2", "state", $originator);
+        // assign the ticket
+        $ticket->assign();
+        $this->assertEquals(State::STATE_ASSIGNED, (string) $ticket->getState());
 
-        $savedState = $originator->saveToMemento();
+        // now restore to the opened state, but verify that the state object has been cloned for the memento
+        $ticket->restoreFromMemento($memento);
 
-        $this->assertAttributeEquals("State2", "state", $savedState);
-
-        $originator->setState("State3");
-
-        $this->assertAttributeEquals("State3", "state", $originator);
-
-        $originator->restoreFromMemento($savedState);
-
-        $this->assertAttributeEquals("State2", "state", $originator);
-    }
-
-    public function testObjectState()
-    {
-        $originator = new Originator();
-
-        $foo       = new \stdClass();
-        $foo->data = "foo";
-
-        $originator->setState($foo);
-
-        $this->assertAttributeEquals($foo, "state", $originator);
-
-        $savedState = $originator->saveToMemento();
-
-        $this->assertAttributeEquals($foo, "state", $savedState);
-
-        $bar       = new \stdClass();
-        $bar->data = "bar";
-
-        $originator->setState($bar);
-
-        $this->assertAttributeEquals($bar, "state", $originator);
-
-        $originator->restoreFromMemento($savedState);
-
-        $this->assertAttributeEquals($foo, "state", $originator);
-
-        $foo->data = null;
-
-        $this->assertAttributeNotEquals($foo, "state", $savedState);
-
-        $this->assertAttributeNotEquals($foo, "state", $originator);
+        $this->assertEquals(State::STATE_OPENED, (string) $ticket->getState());
+        $this->assertNotSame($openedState, $ticket->getState());
     }
 }

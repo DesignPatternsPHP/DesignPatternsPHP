@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/Bridge/README.rst:1
+msgid "Bridge"
+msgstr ""
+
+#: ../../Structural/Bridge/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/Bridge/README.rst:7
+msgid ""
+"Decouple an abstraction from its implementation so that the two can vary "
+"independently."
+msgstr ""
+
+#: ../../Structural/Bridge/README.rst:10
+msgid "Examples"
+msgstr ""
+
+#: ../../Structural/Bridge/README.rst:13
+msgid ""
+"`Symfony "
+"DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
+msgstr ""
+
+#: ../../Structural/Bridge/README.rst:16
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/Bridge/README.rst:20
+msgid "Alt Bridge UML Diagram"
+msgstr ""
+
+#: ../../Structural/Bridge/README.rst:23
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/Bridge/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Structural/Bridge/README.rst:58
+msgid "Test"
+msgstr ""

@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/DataMapper/README.rst:1
+msgid "Data Mapper"
+msgstr ""
+
+#: ../../Structural/DataMapperREADME.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/DataMapperREADME.rst:7
+msgid ""
+"A Data Mapper, is a Data Access Layer that performs bidirectional "
+"transfer of data between a persistent data store (often a relational "
+"database) and an in memory data representation (the domain layer). The "
+"goal of the pattern is to keep the in memory representation and the "
+"persistent data store independent of each other and the data mapper "
+"itself. The layer is composed of one or more mappers (or Data Access "
+"Objects), performing the data transfer. Mapper implementations vary in "
+"scope. Generic mappers will handle many different domain entity types, "
+"dedicated mappers will handle one or a few."
+msgstr ""
+
+#: ../../Structural/DataMapperREADME.rst:17
+msgid ""
+"The key point of this pattern is, unlike Active Record pattern, the data "
+"model follows Single Responsibility Principle."
+msgstr ""
+
+#: ../../Structural/DataMapperREADME.rst:20
+msgid "Examples"
+msgstr ""
+
+#: ../../Structural/DataMapperREADME.rst:23
+msgid ""
+"DB Object Relational Mapper (ORM) : Doctrine2 uses DAO named as "
+"\"EntityRepository\""
+msgstr ""
+
+#: ../../Structural/DataMapperREADME.rst:26
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/DataMapperREADME.rst:30
+msgid "Alt DataMapper UML Diagram"
+msgstr ""
+
+#: ../../Structural/DataMapperREADME.rst:33
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/DataMapperREADME.rst:36
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Structural/DataMapperREADME.rst:56
+msgid "Test"
+msgstr ""

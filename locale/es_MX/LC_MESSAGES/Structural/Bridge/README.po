@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-23 13:30-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Structural/Bridge/README.rst:1
+msgid "Bridge"
+msgstr "Puente"
+
+#: ../../Structural/Bridge/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Structural/Bridge/README.rst:7
+msgid ""
+"Decouple an abstraction from its implementation so that the two can vary "
+"independently."
+msgstr ""
+"Desacoplar una abstracción de su implementación para que ambas puedan "
+"variar independientemente."
+
+#: ../../Structural/Bridge/README.rst:10
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Structural/Bridge/README.rst:13
+msgid "`Symfony DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
+msgstr ""
+"`Symfony DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
+
+#: ../../Structural/Bridge/README.rst:16
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Structural/Bridge/README.rst:20
+msgid "Alt Bridge UML Diagram"
+msgstr "Alt Diagrama UML Puente"
+
+#: ../../Structural/Bridge/README.rst:23
+msgid "Code"
+msgstr "Código"
+
+#: ../../Structural/Bridge/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Structural/Bridge/README.rst:58
+msgid "Test"
+msgstr "Pruebas"

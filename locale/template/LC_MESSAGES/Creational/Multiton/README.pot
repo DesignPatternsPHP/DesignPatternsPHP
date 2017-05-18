@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Creational/Multiton/README.rst:1
+msgid "Multiton"
+msgstr ""
+
+#: ../../Creational/Multiton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+
+#: ../../Creational/Multiton/README.rst:7
+msgid "Purpose"
+msgstr ""
+
+#: ../../Creational/Multiton/README.rst:10
+msgid ""
+"To have only a list of named instances that are used, like a singleton "
+"but with n instances."
+msgstr ""
+
+#: ../../Creational/Multiton/README.rst:13
+msgid "Examples"
+msgstr ""
+
+#: ../../Creational/Multiton/README.rst:16
+msgid "2 DB Connectors, e.g. one for MySQL, the other for SQLite"
+msgstr ""
+
+#: ../../Creational/Multiton/README.rst:17
+msgid "multiple Loggers (one for debug messages, one for errors)"
+msgstr ""
+
+#: ../../Creational/Multiton/README.rst:19
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Creational/Multiton/README.rst:23
+msgid "Alt Multiton UML Diagram"
+msgstr ""
+
+#: ../../Creational/Multiton/README.rst:26
+msgid "Code"
+msgstr ""
+
+#: ../../Creational/Multiton/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Creational/Multiton/README.rst:37
+msgid "Test"
+msgstr ""

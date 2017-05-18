@@ -2,36 +2,20 @@
 
 namespace DesignPatterns\Behavioral\Command\Tests;
 
+use DesignPatterns\Behavioral\Command\HelloCommand;
 use DesignPatterns\Behavioral\Command\Invoker;
 use DesignPatterns\Behavioral\Command\Receiver;
-use DesignPatterns\Behavioral\Command\HelloCommand;
+use PHPUnit\Framework\TestCase;
 
-/**
- * CommandTest has the role of the Client in the Command Pattern
- */
-class CommandTest extends \PHPUnit_Framework_TestCase
+class CommandTest extends TestCase
 {
-
-    /**
-     * @var Invoker
-     */
-    protected $invoker;
-
-    /**
-     * @var Receiver
-     */
-    protected $receiver;
-
-    protected function setUp()
-    {
-        $this->invoker = new Invoker();
-        $this->receiver = new Receiver();
-    }
-
     public function testInvocation()
     {
-        $this->invoker->setCommand(new HelloCommand($this->receiver));
-        $this->expectOutputString('Hello World');
-        $this->invoker->run();
+        $invoker = new Invoker();
+        $receiver = new Receiver();
+
+        $invoker->setCommand(new HelloCommand($receiver));
+        $invoker->run();
+        $this->assertEquals('Hello World', $receiver->getOutput());
     }
 }

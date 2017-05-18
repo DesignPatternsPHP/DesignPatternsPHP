@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Structural\Flyweight\CharacterFlyweight</OriginalElement>
+  <nodes>
+    <node x="19.0" y="101.0">\DesignPatterns\Structural\Flyweight\CharacterFlyweight</node>
+    <node x="230.0" y="94.0">\DesignPatterns\Structural\Flyweight\FlyweightFactory</node>
+    <node x="0.0" y="0.0">\DesignPatterns\Structural\Flyweight\FlyweightInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPatterns\Structural\Flyweight\CharacterFlyweight" target="\DesignPatterns\Structural\Flyweight\FlyweightInterface">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="76.0" y="91.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
