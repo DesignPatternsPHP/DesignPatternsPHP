@@ -26,8 +26,8 @@ msgid ""
 msgstr ""
 "Esto es un recopilatorio de los conocidos como `patrones de diseño`_ junto "
 "con algunos ejemplos de código sobre como implementarlos en PHP. Cada patrón "
-"tiene una pequeña lista de ejemplos ( la mayoría de  ellos de Zend "
-"Framework, Symfony2 o Doctrine2 ya que estoy más familiarizado con ellos )."
+"tiene una pequeña lista de ejemplos (la mayoría de  ellos de Zend "
+"Framework, Symfony2 o Doctrine2 ya que estoy más familiarizado con ellos)."
 
 #: ../../README.rst:16
 msgid ""
@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Los patrones pueden clasificarse en tres categorías diferentes. Por favor  "
 "pincha en **el título de cada pagina de patrón** para ver la explicación "
-"completa  del patrón en la Wikipedia."
+"completa del patrón en la Wikipedia."
 
 #: ../../README.rst:35
 msgid "Contribute"
