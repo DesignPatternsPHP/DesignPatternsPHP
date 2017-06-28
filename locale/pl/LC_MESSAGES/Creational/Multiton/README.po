@@ -1,0 +1,70 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 22:58+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Creational/Multiton/README.rst:2
+msgid "Multiton"
+msgstr "Multiton (Multiton)"
+
+#: ../../Creational/Multiton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+"**TEN WZORZEC PROJEKTOWY JEST UZNAWANY ZA ANTY-WZORZEC! DLA LEPSZEGO TESTOWANIA I ŁATWIEJSZEGO UTRZYMANIA "
+"STOSUJĄC TEN WZORZEC POWINIENEŚ STOSOWAĆ TAKŻE WZORZEC WSTRZYKIWANIA ZALEŻNOŚCI (DEPENDENCY INJECTION)!**"
+
+#: ../../Creational/Multiton/README.rst:8
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Creational/Multiton/README.rst:10
+msgid ""
+"To have only a list of named instances that are used, like a singleton but "
+"with n instances."
+msgstr ""
+"Ten wzorzec jest bardzo podobny do Singletonu, z tą różnicą, że pozwala tworzyć unikalne instancje "
+"danej klasy w ramach przechowywanego klucza."
+
+#: ../../Creational/Multiton/README.rst:14
+msgid "Examples"
+msgstr "Przykłady"
+
+#: ../../Creational/Multiton/README.rst:16
+msgid "2 DB Connectors, e.g. one for MySQL, the other for SQLite"
+msgstr ""
+"Dwa obiekty do łączenia się z bazą danych - jeden do MySQL, a drugi do SQLite."
+
+#: ../../Creational/Multiton/README.rst:17
+msgid "multiple Loggers (one for debug messages, one for errors)"
+msgstr ""
+"Kilka Loggerów - na przykład jeden do debugowania, drugi do logowania błędów."
+
+#: ../../Creational/Multiton/README.rst:20
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Creational/Multiton/README.rst:27
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/Multiton/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Creational/Multiton/README.rst:31
+msgid "Multiton.php"
+msgstr "Multiton.php"
+
+#: ../../Creational/Multiton/README.rst:38
+msgid "Test"
+msgstr "Testy"
