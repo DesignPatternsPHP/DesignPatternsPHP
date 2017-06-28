@@ -1,0 +1,87 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 04:28+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Behavioral/Specification/README.rst:2
+msgid "`Specification`__"
+msgstr "`Specyfikacja <https://en.wikipedia.org/wiki/Specification_pattern>`_ (`Specification`__)"
+
+#: ../../Behavioral/Specification/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Behavioral/Specification/README.rst:7
+msgid ""
+"Builds a clear specification of business rules, where objects can be checked"
+" against. The composite specification class has one method called "
+"``isSatisfiedBy`` that returns either true or false depending on whether the"
+" given object satisfies the specification."
+msgstr ""
+"Pozwala na stworzenie specyfikacji reguł jakie obiekt musi spełnić. Klasa będą specyfikacją reguł biznesowych "
+"zawiera jedną metodę ``isSatisfiedBy``, która zwraca *true* lub *false* w zależności od tego czy dany obiekt "
+"spełnia wszystkie reguły określone w specyfikacji."
+
+#: ../../Behavioral/Specification/README.rst:13
+msgid "Examples"
+msgstr "Przykłady"
+
+#: ../../Behavioral/Specification/README.rst:15
+msgid "`RulerZ <https://github.com/K-Phoen/rulerz>`__"
+msgstr "`RulerZ <https://github.com/K-Phoen/rulerz>`__"
+
+#: ../../Behavioral/Specification/README.rst:18
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Behavioral/Specification/README.rst:25
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/Specification/README.rst:27
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Behavioral/Specification/README.rst:29
+msgid "Item.php"
+msgstr "Item.php"
+
+#: ../../Behavioral/Specification/README.rst:35
+msgid "SpecificationInterface.php"
+msgstr "SpecificationInterface.php"
+
+#: ../../Behavioral/Specification/README.rst:41
+msgid "AbstractSpecification.php"
+msgstr "AbstractSpecification.php"
+
+#: ../../Behavioral/Specification/README.rst:47
+msgid "Either.php"
+msgstr "Either.php"
+
+#: ../../Behavioral/Specification/README.rst:53
+msgid "PriceSpecification.php"
+msgstr "PriceSpecification.php"
+
+#: ../../Behavioral/Specification/README.rst:59
+msgid "Plus.php"
+msgstr "Plus.php"
+
+#: ../../Behavioral/Specification/README.rst:65
+msgid "Not.php"
+msgstr "Not.php"
+
+#: ../../Behavioral/Specification/README.rst:72
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Behavioral/Specification/README.rst:74
+msgid "Tests/SpecificationTest.php"
+msgstr "Tests/SpecificationTest.php"

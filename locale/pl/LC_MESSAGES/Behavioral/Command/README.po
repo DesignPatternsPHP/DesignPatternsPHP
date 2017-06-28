@@ -1,0 +1,111 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-29 21:16+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Behavioral/Command/README.rst:2
+msgid "`Command`__"
+msgstr "`Polecenie <https://pl.wikipedia.org/wiki/Polecenie_(wzorzec_projektowy)>`_ (`Command`__)"
+
+#: ../../Behavioral/Command/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Behavioral/Command/README.rst:7
+msgid "To encapsulate invocation and decoupling."
+msgstr "Pozwala wydzielić wykonanie określonej czynności w postaci obiektu."
+
+#: ../../Behavioral/Command/README.rst:9
+msgid ""
+"We have an Invoker and a Receiver. This pattern uses a \"Command\" to "
+"delegate the method call against the Receiver and presents the same method "
+"\"execute\". Therefore, the Invoker just knows to call \"execute\" to "
+"process the Command of the client. The Receiver is decoupled from the "
+"Invoker."
+msgstr ""
+"Wprowadzamy trzy obiekty: Nadawcę (ang. `Invoker`), Odbiorcę (ang. `Receiver`) i Polecenie (ang. `Command`). "
+"Używamy obiektu Polecenia do wykonywania działań na odbiorcy. Dodatkowo wprowadzamy w obiekcie Polecenia "
+"metodę `execute()`. Dzięki temu Nadawca wywołuje zawsze tą samą metodę niezależnie od Polecenia, aby "
+"przetworzyć żądanie klienta. Nadawca i Odbiorca nie są ze sobą połączeni."
+
+#: ../../Behavioral/Command/README.rst:15
+msgid ""
+"The second aspect of this pattern is the undo(), which undoes the method "
+"execute(). Command can also be aggregated to combine more complex commands "
+"with minimum copy-paste and relying on composition over inheritance."
+msgstr ""
+"Drugi aspektem tego wzorca jest metoda `undo()`, która pozwala cofnąć wywołanie metody `execute()`. "
+"Polecenie może agregować inne Polecenia, aby wykonywać bardziej złożone operacje. Dzięki temu minimalizujemy "
+"kopiowanie kodu z innych klas i opieramy się bardziej na kompozycji niż dziedziczeniu. "
+
+#: ../../Behavioral/Command/README.rst:21
+msgid "Examples"
+msgstr "Przykłady"
+
+#: ../../Behavioral/Command/README.rst:23
+msgid ""
+"A text editor : all events are Command which can be undone, stacked and "
+"saved."
+msgstr ""
+"Edytor tekstu: wszystkie zdarzenia (ang. `events`) są Poleceniami, które można cofnąć `undo()`, odłożyć na stosie "
+"i zapisać."
+
+#: ../../Behavioral/Command/README.rst:25
+msgid ""
+"Symfony2: SF2 Commands that can be run from the CLI are built with just the "
+"Command pattern in mind"
+msgstr ""
+"Symfony2: Polecenie w Symfony2, które można uruchomić z poziomu konsoli (CLI - ang. `Command Line Interface`) zostały oparte na wzorcu projektowym Polecenie."
+
+#: ../../Behavioral/Command/README.rst:27
+msgid ""
+"big CLI tools use subcommands to distribute various tasks and pack them in "
+"\"modules\", each of these can be implemented with the Command pattern (e.g."
+" vagrant)"
+msgstr ""
+"Rozbudowane narzędzia CLI używają Podpoleceń do rozdzielenia różnych zadań "
+"i pozwalają na łączenie ich w moduły. Każdy taki moduł może zostać zaimplementowany przy pomocy wzorca Polecenie (np. Vagrant)."
+
+#: ../../Behavioral/Command/README.rst:32
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Behavioral/Command/README.rst:39
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/Command/README.rst:41
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Behavioral/Command/README.rst:43
+msgid "CommandInterface.php"
+msgstr "CommandInterface.php"
+
+#: ../../Behavioral/Command/README.rst:49
+msgid "HelloCommand.php"
+msgstr "HelloCommand.php"
+
+#: ../../Behavioral/Command/README.rst:55
+msgid "Receiver.php"
+msgstr "Receiver.php"
+
+#: ../../Behavioral/Command/README.rst:61
+msgid "Invoker.php"
+msgstr "Invoker.php"
+
+#: ../../Behavioral/Command/README.rst:68
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Behavioral/Command/README.rst:70
+msgid "Tests/CommandTest.php"
+msgstr "Tests/CommandTest.php"

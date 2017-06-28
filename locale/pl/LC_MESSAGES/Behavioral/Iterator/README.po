@@ -1,0 +1,89 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-29 21:47+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Behavioral/Iterator/README.rst:2
+msgid "`Iterator`__"
+msgstr "`Iterator <https://pl.wikipedia.org/wiki/Iterator>`_ (`Iterator`__)"
+
+#: ../../Behavioral/Iterator/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Behavioral/Iterator/README.rst:7
+msgid "To make an object iterable and to make it appear like a collection of objects."
+msgstr ""
+"Umożliwienie sekwencyjnego dostępu do elementów zawartych w innym obiekcie, zwykle kontenerze lub liście."
+
+#: ../../Behavioral/Iterator/README.rst:11
+msgid "Examples"
+msgstr "Przykłady"
+
+#: ../../Behavioral/Iterator/README.rst:13
+msgid ""
+"to process a file line by line by just running over all lines (which have an"
+" object representation) for a file (which of course is an object, too)"
+msgstr ""
+"Procesowanie pliku linia po linii. Zakładamy, że zarówno plik jak i każda linijka z tego pliku "
+"to osobny obiekt. Możemy w ten sposób iterować po wszystkich liniach (będących obiektami) danego pliku."
+
+#: ../../Behavioral/Iterator/README.rst:18
+msgid "Note"
+msgstr "Uwagi"
+
+#: ../../Behavioral/Iterator/README.rst:20
+msgid ""
+"Standard PHP Library (SPL) defines an interface Iterator which is best "
+"suited for this! Often you would want to implement the Countable interface "
+"too, to allow ``count($object)`` on your iterable object"
+msgstr ""
+"Biblioteka SPL (Standard PHP Library) dostępna w PHP posiada interfejs Iterator, "
+"który świetnie nadaje się do tego zadania. Bardzo często klasa, która implementuje interfejs Iterator "
+"implementuje również interfejs Countable (również z biblioteki SPL), który pozwala policzyć liczbę elementów "
+"wywołaniem funkcji ``count($object)``."
+
+
+#: ../../Behavioral/Iterator/README.rst:25
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Behavioral/Iterator/README.rst:32
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/Iterator/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Behavioral/Iterator/README.rst:36
+msgid "Book.php"
+msgstr "Book.php"
+
+#: ../../Behavioral/Iterator/README.rst:42
+msgid "BookList.php"
+msgstr "BookList.php"
+
+#: ../../Behavioral/Iterator/README.rst:48
+msgid "BookListIterator.php"
+msgstr "BookListIterator.php"
+
+#: ../../Behavioral/Iterator/README.rst:54
+msgid "BookListReverseIterator.php"
+msgstr "BookListReverseIterator.php"
+
+#: ../../Behavioral/Iterator/README.rst:61
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Behavioral/Iterator/README.rst:63
+msgid "Tests/IteratorTest.php"
+msgstr "Tests/IteratorTest.php"

@@ -1,0 +1,97 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 05:25+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Behavioral/Strategy/README.rst:2
+msgid "`Strategy`__"
+msgstr "`Strategia <https://pl.wikipedia.org/wiki/Strategia_(wzorzec_projektowy)>`_ (`Strategy`__)"
+
+#: ../../Behavioral/Strategy/README.rst:5
+msgid "Terminology:"
+msgstr "Terminologia"
+
+#: ../../Behavioral/Strategy/README.rst:7
+msgid "Context"
+msgstr "Kontekst - ang. `Context`"
+
+#: ../../Behavioral/Strategy/README.rst:8
+msgid "Strategy"
+msgstr "Strategia - ang. `Strategy`"
+
+#: ../../Behavioral/Strategy/README.rst:9
+msgid "Concrete Strategy"
+msgstr "Konkretna Strategia - ang. `Concrete Strategy`"
+
+#: ../../Behavioral/Strategy/README.rst:12
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Behavioral/Strategy/README.rst:14
+msgid ""
+"To separate strategies and to enable fast switching between them. Also this "
+"pattern is a good alternative to inheritance (instead of having an abstract "
+"class that is extended)."
+msgstr ""
+"Wzorzec projektowy Strategii pozwala definiować wymienne algorytmy i kapsułkować je w klasach. Dzięki temu "
+"możemy łatwo przełączać się między algorytmami. Ten wzorzec jest również dobrą alternatywą dla dziedziczenia - zamiast "
+"dziedziczenia po klasie abstrakcyjnej kolejne klasy implementują interfejs strategii."
+
+#: ../../Behavioral/Strategy/README.rst:19
+msgid "Examples"
+msgstr "Przykłady"
+
+#: ../../Behavioral/Strategy/README.rst:21
+msgid "sorting a list of objects, one strategy by date, the other by id"
+msgstr ""
+"Sortowanie listy obiektów - jedną strategią może być sortowanie po dacie, drugą po id."
+
+#: ../../Behavioral/Strategy/README.rst:22
+msgid ""
+"simplify unit testing: e.g. switching between file and in-memory storage"
+msgstr ""
+"Uproszczenie testów jednostkowych, na przykład poprzez zmianę miejsca przechowywania danych: w pliku lub w pamięci."
+
+#: ../../Behavioral/Strategy/README.rst:26
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Behavioral/Strategy/README.rst:33
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/Strategy/README.rst:35
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Behavioral/Strategy/README.rst:37
+msgid "ObjectCollection.php"
+msgstr "ObjectCollection.php"
+
+#: ../../Behavioral/Strategy/README.rst:43
+msgid "ComparatorInterface.php"
+msgstr "ComparatorInterface.php"
+
+#: ../../Behavioral/Strategy/README.rst:49
+msgid "DateComparator.php"
+msgstr "DateComparator.php"
+
+#: ../../Behavioral/Strategy/README.rst:55
+msgid "IdComparator.php"
+msgstr "IdComparator.php"
+
+#: ../../Behavioral/Strategy/README.rst:62
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Behavioral/Strategy/README.rst:64
+msgid "Tests/StrategyTest.php"
+msgstr "Tests/StrategyTest.php"
