@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../More/EAV/README.rst:2
 msgid "`Entity-Attribute-Value (EAV)`__"
-msgstr "`Encja-Atrybut-Wartość`__"
+msgstr "Encja-Atrybut-Wartość (`Entity-Attribute-Value (EAV)`__)"
 
 #: ../../More/EAV/README.rst:4
 msgid ""
