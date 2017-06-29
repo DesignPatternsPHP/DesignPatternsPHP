@@ -39,7 +39,7 @@ msgid ""
 msgstr ""
 "Lokalizator usług jest używany stworzenia luźno powiązanej architektury w celu "
 "uzyskania kodu łatwiejszego w testowaniu, utrzymaniu i rozszrzaniu. Wzorce "
-"Wstrzykiwania zależności i Lokalizatora usług są implementacją wzorca `Odwróconego sterowania <https://pl.wikipedia.org/wiki/Odwr%C3%B3cenie_sterowania>`_."
+"Wstrzykiwania zależności i Lokalizatora usług są implementacją wzorca `Odwrócenia sterowania <https://pl.wikipedia.org/wiki/Odwr%C3%B3cenie_sterowania>`_."
 
 #: ../../More/ServiceLocator/README.rst:12
 msgid "Usage"
