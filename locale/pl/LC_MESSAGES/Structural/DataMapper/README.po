@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Structural/DataMapper/README.rst:2
 msgid "`Data Mapper`__"
-msgstr "Преобразователь Данных (`Data Mapper`__)"
+msgstr "Konwerter danych (`Data Mapper`__)"
 
 #: ../../Structural/DataMapper/README.rst:5
 msgid "Purpose"
@@ -31,14 +31,14 @@ msgid ""
 "many different domain entity types, dedicated mappers will handle one or a "
 "few."
 msgstr ""
-"Data Mapper jest warstwą dostępu do danych (ang. `DAL - Data Access Layer`),"
+"Konwerter Danych jest warstwą dostępu do danych (ang. `DAL - Data Access Layer`),"
 "która wykonuje dwukierowunkowe mapowanie pomiędzy warstwą przechowującą dane "
 "(na przykład bazą danych) a przechowywaną w pamięci reprezentacją tych danych "
 "(warstwa domeny). Celem tego wzorca jest jest uniezależnienie warstawy domeny "
-"od warstwy przechowującą dane oraz ich od Data Mappera. Warstwa dostępu do "
+"od warstwy przechowującą dane oraz ich od konwertera danych. Warstwa dostępu do "
 "danych (DAL) składa się z jednego lub więcej mapperów (lub Data Access Objects) "
 "obsługujących wymianę danych. Implementacja mappera nie jest z góry narzucona. "
-"Generyczne mappery będą obsługiwały różne encje, natomiast dedykowane tylko "
+"Generyczne konwertery będą obsługiwały różne encje, natomiast dedykowane tylko "
 "jeden lub kilka określonych typów encji. "
 
 #: ../../Structural/DataMapper/README.rst:17
