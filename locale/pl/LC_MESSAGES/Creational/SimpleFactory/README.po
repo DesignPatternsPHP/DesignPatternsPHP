@@ -25,13 +25,12 @@ msgstr "Klasa ``SimpleFactory`` w poniższym przykładzie jest implementacją wz
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
-"It differs from the static factory because it is not static."
-"Therefore, you can have multiple factories, differently parametrized, you can subclass it and you can mock it."
+"It differs from the static factory because it is not static. "
+"Therefore, you can have multiple factories, differently parametrized, you can subclass it and you can mock it. "
 "It always should be preferred over a static factory!"
 msgstr ""
 "W odróżnieniu od Fabryki statycznej implementacja Fabryki uproszczonej nie jest statyczna. "
-"Dzięki temu możemy tworzyć wiele instancji fabryki, parametryzować je w odmienny sposób, dziedziczyć po niej "
-"i przygotowywać zaślepki (ang. `mock`)."
+"Dzięki temu możemy tworzyć wiele instancji fabryki, parametryzować je w odmienny sposób, dziedziczyć po niej i przygotowywać zaślepki (ang. `mock`)."
 "Wybór tej fabryki powinien przeważyć nad wyborem Fabryki statycznej."
 
 #: ../../Creational/SimpleFactory/README.rst:16
