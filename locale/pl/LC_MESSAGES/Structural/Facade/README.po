@@ -37,7 +37,7 @@ msgid ""
 "A Facade is meant to decouple a client and a sub-system by embedding many "
 "(but sometimes just one) interface, and of course to reduce complexity."
 msgstr ""
-"Fasada pozwala oddzielić klienta od podsystemu poprzez udostępnienie jednego "
+"Fasada pozwala oddzielić klienta od podsystemu, poprzez udostępnienie jednego "
 "lub wielu interfejsów oraz zredukować złożoność rozwiązania."
 
 #: ../../Structural/Facade/README.rst:15
@@ -57,7 +57,7 @@ msgid ""
 "[Abstract\\|Static\\|Simple] Factory [Method]."
 msgstr ""
 "Dlatego dobra fasada nie tworzy nowych obiektów, tylko korzysta z istniejących "
-"(nie używa operatora ``new``). Jeżeli w ramach fasady tworzymy wiele obiektów "
+"(nie używa operatora ``new``). Jeżeli w ramach fasady tworzymy wiele obiektów, "
 "w ramach każdej metody, wtedy nie mamy do czynienia z Fasadą, tylko z Budowniczym lub formą Fabryki."
 
 #: ../../Structural/Facade/README.rst:22
@@ -68,7 +68,7 @@ msgid ""
 msgstr ""
 "W ramach Fasady najlepiej nie używać operatora ``new`` oraz definiować "
 "typy argumentów konstruktora (`type-hinting`). Jeżeli potrzebujemy stworzyć "
-"nowe obiekty, powinniśmy przekazać, jako argument, Fabrykę."
+"nowe obiekty, powinniśmy przekazać Fabrykę jako argument."
 
 #: ../../Structural/Facade/README.rst:27
 msgid "UML Diagram"

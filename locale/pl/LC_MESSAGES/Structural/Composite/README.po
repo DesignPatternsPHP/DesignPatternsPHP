@@ -24,8 +24,8 @@ msgstr "Przeznaczenie"
 msgid ""
 "To treat a group of objects the same way as a single instance of the object."
 msgstr ""
-"Pozwala traktować grupę obiektów jako pojendczy obiekt. Dzięki temu operacje na grupie "
-"obiektów wykonujemy w takim sam sposób jakbyśmy wykonywali je na pojedynczym obiekcie."
+"Pozwala traktować grupę obiektów jako pojedynczy obiekt. Dzięki temu operacje na grupie "
+"obiektów wykonujemy w takim sam sposób, jakbyśmy wykonywali je na pojedynczym obiekcie."
 
 #: ../../Structural/Composite/README.rst:11
 msgid "Examples"
@@ -37,9 +37,9 @@ msgid ""
 "of the form, when ``render()`` is called, it subsequently runs through all "
 "its child elements and calls ``render()`` on them"
 msgstr ""
-"Экземпляр класса Form обрабатывает все свои элементы формы, как будто это "
-"один экземпляр. И когда вызывается метод ``render()``, он перебирает все "
-"дочерние элементы и вызывает их собственный ``render()``."
+"Instancja klasy formularza, która obsługuje wszystkie jego elementy w taki sposób, "
+"jakby obsługiwała pojedynczą instancję formularza. Kiedy metoda ``render()`` jest wywołana, "
+"uruchamia w sposób sekwencyjny metody ``render()`` na elementach tego formularza."
 
 #: ../../Structural/Composite/README.rst:16
 msgid ""
@@ -47,7 +47,7 @@ msgid ""
 "``Zend_Config`` object itself"
 msgstr ""
 "``Zend_Config``: drzewo opcji konfiguracyjnych - każdy z elementów tego drzewa jest "
-"również obiektem klasy ``Zend_Config``"
+"również obiektem klasy ``Zend_Config``."
 
 #: ../../Structural/Composite/README.rst:20
 msgid "UML Diagram"

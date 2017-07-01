@@ -35,9 +35,9 @@ msgid ""
 "needed."
 msgstr ""
 "Aby zminimalizować ilość używanej pamięci Pyłek stara się dzielić ją z innymi obiektami "
-"w maksymalnym stopniu. Jest to istotne kiedy używamy dużej liczby obiektów, których stan "
+"w maksymalnym stopniu. Jest to istotne, kiedy używamy dużej liczby obiektów, których stan "
 "niewiele się różni. Powszechną praktyką jest przechowywanie stanu w zewnętrznej strukturze "
-"danych i przekazywanie go do obiektu kiedy jest to potrzebne."
+"danych i przekazywanie go do obiektu, kiedy jest to potrzebne."
 
 #: ../../Structural/Flyweight/README.rst:12
 msgid "UML Diagram"

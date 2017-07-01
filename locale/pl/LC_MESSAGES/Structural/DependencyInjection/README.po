@@ -73,7 +73,7 @@ msgid ""
 "create a mock object of the configuration and inject that into the "
 "``Connection`` object"
 msgstr ""
-"Doctrine2 ORM używa wstrzykiwania zależności do, na przykład, wstrzykiwania konfiguracji "
+"Doctrine2 ORM używa wstrzykiwania zależności do, na przykład, do wstrzykiwania konfiguracji "
 "do obiektu klasy ``Connection``. Na potrzeby testowania, można stworzyć obiekty symulujące "
 "konfigurację i wstrzyknąć je do obiektu klasy ``Connection``."
 
@@ -85,7 +85,7 @@ msgid ""
 msgstr ""
 "Symfony i Zend Framework 2 posiadają kontenery do wstrzykiwania zależności, "
 "które pozwalają tworzyć obiekty poprzez tablicę konfiguracyjną i wstrzykiwać je "
-"tam, gdzie są potrzebne (na przykład w kontrolerach)."
+"tam, gdzie są potrzebne (na przykład do kontrolera)."
 
 #: ../../Structural/DependencyInjection/README.rst:37
 msgid "UML Diagram"

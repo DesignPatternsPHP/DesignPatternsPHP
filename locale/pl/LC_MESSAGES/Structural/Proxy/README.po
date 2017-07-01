@@ -36,9 +36,9 @@ msgid ""
 "initialization) in them, while the user still works with his own entity "
 "classes and will never use nor touch the proxies"
 msgstr ""
-"Doctrine2 używa Pełnomocników do zaimplementowania na przykład późnej inicjalizacji (ang. `lazy initialization`), "
+"Doctrine2 używa Pełnomocników do zaimplementowania późnej inicjalizacji (ang. `lazy initialization`), "
 "co przekłada się na sposób pracy z encjami. Zamiast otrzymywać obiekt encji, która na przykład nie może być w pełni "
-"zainijcalizowana, otrzymujemy obiekt pośrednika."
+"zainicjalizowana, otrzymujemy obiekt Pośrednika."
 
 #: ../../Structural/Proxy/README.rst:17
 msgid "UML Diagram"

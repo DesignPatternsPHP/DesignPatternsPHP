@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Pozwala zaimplementować centralny magazyn często używanych obiektów w aplikacji. "
 "Zwykle jest implementowany przy użyciu klasy abstrakcyjnej posiadającej tylko "
-"statyczne metody lub przy użyciu wzroca Singleton. Zwróć uwagę, że Rejestr wprowadza globalny stan, "
+"statyczne metody lub przy użyciu wzorca Singleton. Zwróć uwagę, że Rejestr wprowadza globalny stan, "
 "czego powinno się unikać za wszelką cenę! Zamiast Rejestru powinieneś zaimplementować wzorzec Wstrzykiwania zależności."
 
 #: ../../Structural/Registry/README.rst:12

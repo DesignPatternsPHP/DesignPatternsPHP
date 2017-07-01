@@ -25,7 +25,7 @@ msgid ""
 "To write code that is easy readable just like sentences in a natural "
 "language (like English)."
 msgstr ""
-"Ideą tego wzorca jest towrzenie kodu, który jest łatwy do przeczytania, "
+"Ideą tego wzorca jest tworzenie kodu, który jest łatwy do przeczytania, "
 "jak zdanie w języku naturalnym (np. angielskim)."
 
 #: ../../Structural/FluentInterface/README.rst:11

@@ -30,7 +30,7 @@ msgstr "Przykłady"
 
 #: ../../Structural/Decorator/README.rst:12
 msgid "Zend Framework: decorators for ``Zend_Form_Element`` instances"
-msgstr "Zend Framework: dekoratory do obiektów klasy ``Zend_Form_Element``"
+msgstr "Zend Framework: dekoratory do obiektów klasy ``Zend_Form_Element``."
 
 #: ../../Structural/Decorator/README.rst:13
 msgid ""
@@ -38,7 +38,7 @@ msgid ""
 " only one of these should be allowed of course)"
 msgstr ""
 "Web Service Layer: Dekorator typu JSON i XML używany w usłudze typu "
-"REST (w tym przykłądzie tylko jeden z nich powinien być dozwolony)."
+"REST (w tym przykładzie tylko jeden z nich powinien być dozwolony)."
 
 #: ../../Structural/Decorator/README.rst:17
 msgid "UML Diagram"
