@@ -30,9 +30,9 @@ msgid ""
 msgstr ""
 "Wzorzec Repozytorium pośredniczy pomiędzy warstwą domeny i mapowania danych "
 "udostępniając interfejs pozwalający na dostęp do obiektów domeny. "
-"Repozytorium kapsułkuje zbiór obiektów utrwalonych w bazie i operacje jakie "
+"Repozytorium kapsułkuje zbiór obiektów utrwalonych w bazie oraz operacje jakie "
 "można na nich wykonywać. Dzięki temu otrzymujemy zorientowany obiektowo dostęp "
-"do wartstwy utrwalania obiektów. Stosując ten wzorzec osiągamy separację i "
+"do warstwy utrwalania obiektów. Stosując ten wzorzec osiągamy separację i "
 "jednokierunkową zależność pomiędzy domeną a warstwą mapowania danych."
 
 #: ../../More/Repository/README.rst:16
