@@ -24,7 +24,7 @@ msgid ""
 "NullObject is not a GoF design pattern but a schema which appears "
 "frequently enough to be considered a pattern. It has the following benefits:"
 msgstr ""
-"Pusty Obiekt nie jest wzrorcem zaproponowanym przez Gang Czterech, "
+"Pusty Obiekt nie jest wzrorcem zaproponowanym przez Bandę Czterech, "
 "niemniej jednak jest na tyle popularny, że może być uznany za wzorzec. Użycie tego wzorca niesie następujące korzyści: "
 
 #: ../../Behavioral/NullObject/README.rst:11
@@ -58,19 +58,19 @@ msgstr "Przykłady"
 
 #: ../../Behavioral/NullObject/README.rst:24
 msgid "Symfony2: null logger of profiler"
-msgstr "Symfony2: `NullLogger <http://api.symfony.com/2.8/Symfony/Component/HttpKernel/Log/NullLogger.html>`_ w ramach profilera"
+msgstr "Symfony2: `NullLogger <http://api.symfony.com/2.8/Symfony/Component/HttpKernel/Log/NullLogger.html>`_ w ramach profilera."
 
 #: ../../Behavioral/NullObject/README.rst:25
 msgid "Symfony2: null output in Symfony/Console"
-msgstr "Symfony2: `NullOutput <http://api.symfony.com/2.8/Symfony/Component/Console/Output/NullOutput.html>`_ w ramach komponentu Symfony/Coonsole"
+msgstr "Symfony2: `NullOutput <http://api.symfony.com/2.8/Symfony/Component/Console/Output/NullOutput.html>`_ w ramach komponentu Symfony/Coonsole."
 
 #: ../../Behavioral/NullObject/README.rst:26
 msgid "null handler in a Chain of Responsibilities pattern"
-msgstr "Obsługa NULL we wzrocu Łańcuch zobowiązań"
+msgstr "Obsługa NULL we wzrocu Łańcuch zobowiązań."
 
 #: ../../Behavioral/NullObject/README.rst:27
 msgid "null command in a Command pattern"
-msgstr "Polecenie NULL we wzorcu Polecenie"
+msgstr "Polecenie NULL we wzorcu Polecenie."
 
 #: ../../Behavioral/NullObject/README.rst:30
 msgid "UML Diagram"
