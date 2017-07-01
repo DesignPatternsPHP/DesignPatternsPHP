@@ -28,7 +28,7 @@ msgid ""
 "``factory`` or ``build``."
 msgstr ""
 "Wzorzec Fabryki statycznej jest bardzo podobny do wzorca Fabryki abstrakcyjnej "
-"i pozwala na tworzenie powiązanych lub zależnych obiektów. W porównaniu z Fabryką abstrakcyjną "
+"i pozwala na tworzenie powiązanych lub zależnych obiektów. W porównaniu z Fabryką abstrakcyjną, "
 "Fabryka statyczna używa jednej metody statycznej do tworzenia wszystkich typów obiektów, jakie może tworzyć. "
 "Zwykle taka metoda nazywa się ``factory`` lub ``build``."
 

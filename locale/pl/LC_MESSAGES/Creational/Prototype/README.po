@@ -25,7 +25,7 @@ msgid ""
 "To avoid the cost of creating objects the standard way (new Foo()) and "
 "instead create a prototype and clone it."
 msgstr ""
-"Pozwala zminimalizować koszt tworzenia nowych obiektów w sposób standardowy (new Foo()) poprzez "
+"Pozwala zminimalizować koszt tworzenia nowych obiektów w sposób standardowy (``new Foo()``) poprzez "
 "klonowanie utworzonego obiektu Prototypu."
 
 #: ../../Creational/Prototype/README.rst:11
@@ -37,7 +37,7 @@ msgid ""
 "Large amounts of data (e.g. create 1,000,000 rows in a database at once via "
 "a ORM)."
 msgstr ""
-"Przetwarzanie dużej ilości danych - na przykład tworzenie obiektów odpowiadających 1 000 000 wierszy z bazy danych "
+"Przetwarzanie dużej liczby danych - na przykład tworzenie obiektów odpowiadających 1 000 000 wierszy z bazy danych "
 "poprzez ORM."
 
 #: ../../Creational/Prototype/README.rst:17

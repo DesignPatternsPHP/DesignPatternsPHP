@@ -37,15 +37,15 @@ msgid ""
 "This pattern is a \"real\" Design Pattern because it achieves the "
 "\"Dependency Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
 msgstr ""
-"Ten wzorzec implementuje jedną z podtswowych zasad programowania obiektowego `SOLID <https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe)>`_ - \"D\" - zasadę odwrócenia zależności (ang. `Dependency inversion principle`)."
+"Ten wzorzec implementuje jedną z podstawowych zasad programowania obiektowego `SOLID <https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe)>`_ - \"D\" - zasadę odwrócenia zależności (ang. `Dependency inversion principle`)."
 
 #: ../../Creational/FactoryMethod/README.rst:15
 msgid ""
 "It means the FactoryMethod class depends on abstractions, not concrete "
 "classes. This is the real trick compared to SimpleFactory or StaticFactory."
 msgstr ""
-"Oznacza to, że klasa FactoryMethod opiera się na abstrakcji, a nie ma implementacji konkretnej klasie, "
-"co widać w porównaniu z Fabryką uproszczoną czy Fabryką statyczną."
+"Oznacza to, że klasa ``FactoryMethod`` opiera się na abstrakcji, a nie na konkretnej implementacji. "
+"Widać w porównaniu z Fabryką uproszczoną czy Fabryką statyczną."
 
 #: ../../Creational/FactoryMethod/README.rst:20
 msgid "UML Diagram"

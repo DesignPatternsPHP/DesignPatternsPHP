@@ -27,7 +27,7 @@ msgid ""
 "objects are created, he just knows how they go together."
 msgstr ""
 "Pozwala tworzyć powiązane lub zależne obiekty bez specyfikowania ich konkretnych klas. "
-"Tworzone obiekty zwykle implementują ten ten sam interfejs. Wzorzec Fabryki abstrakcyjnej kładzie nacisk "
+"Tworzone obiekty zwykle implementują ten sam interfejs. Wzorzec Fabryki abstrakcyjnej kładzie nacisk "
 "na tworzenie obiektów konkretnej rodziny, a nie na sposób w jaki te obiekty są tworzone."
 
 #: ../../Creational/AbstractFactory/README.rst:13

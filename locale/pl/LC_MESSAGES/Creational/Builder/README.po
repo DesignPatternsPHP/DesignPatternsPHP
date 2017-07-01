@@ -22,7 +22,7 @@ msgstr "Przeznaczenie"
 #: ../../Creational/Builder/README.rst:7
 msgid "Builder is an interface that build parts of a complex object."
 msgstr ""
-"Wzorzec Budowniczego pozwala na podzielenie skomplikowanego procesu tworzenia obiektu, na kilka mniejszych etapów, "
+"Wzorzec Budowniczego pozwala na podział skomplikowanego procesu tworzenia obiektu, na kilka mniejszych etapów, "
 "gdzie każdy z nich może być implementowany na różne sposoby. Budowniczy jest interfejsem, który pozwala budować części "
 "takiego obiektu."
 
@@ -31,7 +31,7 @@ msgid ""
 "Sometimes, if the builder has a better knowledge of what it builds, this "
 "interface could be an abstract class with default methods (aka adapter)."
 msgstr ""
-"Jeżeli Budowniczy ma większą wiedzę na temat tworzonego obiektu, wtedy zamiast interfejsu "
+"Jeżeli Budowniczy ma najlepszą wiedzę na temat tworzonego obiektu, wtedy zamiast interfejsu "
 "można zastosować klasę abstrakcyjną z domyślnymi metodami (patrz Adapter)."
 
 #: ../../Creational/Builder/README.rst:12
@@ -47,7 +47,7 @@ msgid ""
 "Note: Builders have often a fluent interface, see the mock builder of "
 "PHPUnit for example."
 msgstr ""
-"Budowniczy często wykorzystuje `fluent interface <https://en.wikipedia.org/wiki/Fluent_interface>`_ "
+"Budowniczy często wykorzystuje `płynny interfejs (ang. fluent interface) <https://en.wikipedia.org/wiki/Fluent_interface>`_ "
 "jak na przykład Mock Builder z biblioteki PHPUnit."
 
 #: ../../Creational/Builder/README.rst:19
