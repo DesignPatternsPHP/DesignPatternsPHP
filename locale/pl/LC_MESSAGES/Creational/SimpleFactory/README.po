@@ -21,25 +21,17 @@ msgstr "Przeznaczenie"
 
 #: ../../Creational/SimpleFactory/README.rst:7
 msgid "SimpleFactory is a simple factory pattern."
-msgstr "Klasa SimpleFactory w poniższym przykładzie jest implementacją wzorca Fabryki uproszczonej."
+msgstr "Klasa ``SimpleFactory`` w poniższym przykładzie jest implementacją wzorca Fabryki uproszczonej."
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
 "It differs from the static factory because it is not static."
-msgstr ""
-"W odróżnieniu od Fabryki statycznej implementacja Fabryki uproszczonej nie jest statyczna. "
-
-#: ../../Creational/SimpleFactory/README.rst:10
-msgid ""
 "Therefore, you can have multiple factories, differently parametrized, you can subclass it and you can mock it."
-msgstr ""
-"Dzięki temu możemy tworzyć wiele instancji fabryki, parametryzować je w odmienny sposób, dziedziczyć po niej "
-"i przygotowywać zaślepki (ang. `mock`)."
-
-#: ../../Creational/SimpleFactory/README.rst:11
-msgid ""
 "It always should be preferred over a static factory!"
 msgstr ""
+"W odróżnieniu od Fabryki statycznej implementacja Fabryki uproszczonej nie jest statyczna. "
+"Dzięki temu możemy tworzyć wiele instancji fabryki, parametryzować je w odmienny sposób, dziedziczyć po niej "
+"i przygotowywać zaślepki (ang. `mock`)."
 "Wybór tej fabryki powinien przeważyć nad wyborem Fabryki statycznej."
 
 #: ../../Creational/SimpleFactory/README.rst:16
