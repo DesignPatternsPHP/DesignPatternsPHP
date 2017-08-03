@@ -6,28 +6,16 @@ use DesignPatterns\Behavioral\Mediator\Mediator;
 use DesignPatterns\Behavioral\Mediator\Subsystem\Client;
 use DesignPatterns\Behavioral\Mediator\Subsystem\Database;
 use DesignPatterns\Behavioral\Mediator\Subsystem\Server;
+use PHPUnit\Framework\TestCase;
 
-/**
- * MediatorTest tests hello world.
- */
-class MediatorTest extends \PHPUnit_Framework_TestCase
+class MediatorTest extends TestCase
 {
-    protected $client;
-
-    protected function setUp()
-    {
-        $media = new Mediator();
-        $this->client = new Client($media);
-        $media->setColleague(new Database($media), $this->client, new Server($media));
-    }
-
     public function testOutputHelloWorld()
     {
-        // testing if Hello World is output :
+        $client = new Client();
+        new Mediator(new Database(), $client, new Server());
+
         $this->expectOutputString('Hello World');
-        // as you see, the 3 components Client, Server and Database are totally decoupled
-        $this->client->request();
-        // Anyway, it remains complexity in the Mediator that's why the pattern
-        // Observer is preferable in mnay situations.
+        $client->request();
     }
 }

@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 19:53-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Behavioral/Observer/README.rst:1
+msgid "Observer"
+msgstr "Observador"
+
+#: ../../Behavioral/Observer/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Behavioral/Observer/README.rst:7
+msgid ""
+"To implement a publish/subscribe behaviour to an object, whenever a \"Subject"
+"\" object changes its state, the attached \"Observers\" will be notified. It "
+"is used to shorten the amount of coupled objects and uses loose coupling "
+"instead."
+msgstr ""
+"Implementar el comportamiento publicar/suscribir en un objeto, cuando un "
+"objeto \"Sujeto\" cambia su estado, los \"Observadores\" suscritos serán "
+"notificados. Es utilizado para reducir la cantidad de objetos acoplados y en "
+"cambio utiliza un acoplamiento suelto."
+
+#: ../../Behavioral/Observer/README.rst:12
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Behavioral/Observer/README.rst:15
+msgid ""
+"A message queue system is observed to show the progress of a job in a GUI."
+msgstr ""
+"Un sistema de cola de mensajes es observada para mostrar el progreso de un "
+"trabajo en una interfaz gráfica (GUI)."
+
+#: ../../Behavioral/Observer/README.rst:17
+msgid "Note"
+msgstr "Notas"
+
+#: ../../Behavioral/Observer/README.rst:20
+msgid ""
+"PHP already defines two interfaces that can help to implement this pattern: "
+"SplObserver and SplSubject."
+msgstr ""
+"PHP ya define dos interfaces que pueden ayudar a implementar este patrón: "
+"SplObserver y SplSubject."
+
+#: ../../Behavioral/Observer/README.rst:23
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Behavioral/Observer/README.rst:27
+msgid "Alt Observer UML Diagram"
+msgstr "Alt Diagrama UML Observador"
+
+#: ../../Behavioral/Observer/README.rst:30
+msgid "Code"
+msgstr "Código"
+
+#: ../../Behavioral/Observer/README.rst:33
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Behavioral/Observer/README.rst:47
+msgid "Test"
+msgstr "Pruebas"

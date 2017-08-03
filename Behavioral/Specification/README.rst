@@ -24,7 +24,7 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
 Item.php
 
@@ -38,15 +38,9 @@ SpecificationInterface.php
    :language: php
    :linenos:
 
-AbstractSpecification.php
+OrSpecification.php
 
-.. literalinclude:: AbstractSpecification.php
-   :language: php
-   :linenos:
-
-Either.php
-
-.. literalinclude:: Either.php
+.. literalinclude:: OrSpecification.php
    :language: php
    :linenos:
 
@@ -56,15 +50,15 @@ PriceSpecification.php
    :language: php
    :linenos:
 
-Plus.php
+AndSpecification.php
 
-.. literalinclude:: Plus.php
+.. literalinclude:: AndSpecification.php
    :language: php
    :linenos:
 
-Not.php
+NotSpecification.php
 
-.. literalinclude:: Not.php
+.. literalinclude:: NotSpecification.php
    :language: php
    :linenos:
 

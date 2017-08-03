@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Creational/Prototype/README.rst:1
+msgid "Prototype"
+msgstr ""
+
+#: ../../Creational/Prototype/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Creational/Prototype/README.rst:7
+msgid ""
+"To avoid the cost of creating objects the standard way (new Foo()) and "
+"instead create a prototype and clone it."
+msgstr ""
+
+#: ../../Creational/Prototype/README.rst:10
+msgid "Examples"
+msgstr ""
+
+#: ../../Creational/Prototype/README.rst:13
+msgid ""
+"Large amounts of data (e.g. create 1,000,000 rows in a database at "
+"once via a ORM)."
+msgstr ""
+
+#: ../../Creational/Prototype/README.rst:16
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Creational/Prototype/README.rst:20
+msgid "Alt Prototype UML Diagram"
+msgstr ""
+
+#: ../../Creational/Prototype/README.rst:23
+msgid "Code"
+msgstr ""
+
+#: ../../Creational/Prototype/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Creational/Prototype/README.rst:46
+msgid "Test"
+msgstr ""

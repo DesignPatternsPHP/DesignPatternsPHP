@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 19:40-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Behavioral/State/README.rst:1
+msgid "State"
+msgstr "Estado"
+
+#: ../../Behavioral/State/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Behavioral/State/README.rst:7
+msgid ""
+"Encapsulate varying behavior for the same routine based on an object's "
+"state. This can be a cleaner way for an object to change its behavior at "
+"runtime without resorting to large monolithic conditional statements."
+msgstr ""
+"Encapsular comportamiento que difiere para la misma rutina basada en el "
+"estado de un objeto. Esta puede ser una forma más limpia para que un "
+"objeto cambie su comportamiento durante la ejecución sin depender de "
+"grandes sentencias condicionales monolíticas."
+
+#: ../../Behavioral/State/README.rst:11
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Behavioral/State/README.rst:15
+msgid "Alt State UML Diagram"
+msgstr "Alt Diagrama UML Estado"
+
+#: ../../Behavioral/State/README.rst:18
+msgid "Code"
+msgstr "Código"
+
+#: ../../Behavioral/State/README.rst:21
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Behavioral/State/README.rst:53
+msgid "Test"
+msgstr "Pruebas"

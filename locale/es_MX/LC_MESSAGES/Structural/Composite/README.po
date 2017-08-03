@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-23 13:31-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Structural/Composite/README.rst:1
+msgid "Composite"
+msgstr "Composición"
+
+#: ../../Structural/Composite/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Structural/Composite/README.rst:7
+msgid ""
+"To treat a group of objects the same way as a single instance of the object."
+msgstr ""
+"Tratar un grupo de objetos de la misma manera que una sola instancia del "
+"objeto."
+
+#: ../../Structural/Composite/README.rst:10
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Structural/Composite/README.rst:13
+msgid ""
+"a form class instance handles all its form elements like a single instance "
+"of the form, when ``render()`` is called, it subsequently runs through all "
+"its child elements and calls ``render()`` on them"
+msgstr ""
+"Una instancia de la clase forma se encarga de todos sus elementos de la "
+"misma manera que una sola instancia de un elemento, cuando ``render``() es "
+"llamado, el objeto recorre todos sus hijos y ejecuta el método ``render()`` "
+"en ellos"
+
+#: ../../Structural/Composite/README.rst:16
+msgid ""
+"``Zend_Config``: a tree of configuration options, each one is a "
+"``Zend_Config`` object itself"
+msgstr ""
+"``Zend_Config``: un árbol de opciones de configuración, cada una es un "
+"objeto ``Zend_Config`` a su vez"
+
+#: ../../Structural/Composite/README.rst:19
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Structural/Composite/README.rst:23
+msgid "Alt Composite UML Diagram"
+msgstr "Alta Diagrama UML Composición"
+
+#: ../../Structural/Composite/README.rst:26
+msgid "Code"
+msgstr "Código"
+
+#: ../../Structural/Composite/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Structural/Composite/README.rst:55
+msgid "Test"
+msgstr "Pruebas"

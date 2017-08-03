@@ -7,3 +7,4 @@ More
    Delegation/README
    ServiceLocator/README
    Repository/README
+   EAV/README

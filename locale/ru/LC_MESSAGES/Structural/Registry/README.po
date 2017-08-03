@@ -35,10 +35,10 @@ msgstr "Примеры"
 
 #: ../../Structural/Registry/README.rst:14
 msgid ""
-"Zend Framework: ``Zend_Registry`` holds the application's logger object, "
-"front controller etc."
+"Zend Framework 1: ``Zend_Registry`` holds the application's logger "
+"object, front controller etc."
 msgstr ""
-"Zend Framework: ``Zend_Registry`` содержит объект журналирования "
+"Zend Framework 1: ``Zend_Registry`` содержит объект журналирования "
 "приложения (логгер), фронт-контроллер и т.д."
 
 #: ../../Structural/Registry/README.rst:16
@@ -58,7 +58,7 @@ msgid "Code"
 msgstr "Код"
 
 #: ../../Structural/Registry/README.rst:29
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
 #: ../../Structural/Registry/README.rst:31

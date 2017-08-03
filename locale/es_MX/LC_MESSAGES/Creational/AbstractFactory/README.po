@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 20:17-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Creational/AbstractFactory/README.rst:1
+msgid "Abstract Factory"
+msgstr "Fábrica Abstracta"
+
+#: ../../Creational/AbstractFactory/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Creational/AbstractFactory/README.rst:7
+msgid ""
+"To create series of related or dependent objects without specifying their "
+"concrete classes. Usually the created classes all implement the same "
+"interface. The client of the abstract factory does not care about how these "
+"objects are created, he just knows how they go together."
+msgstr ""
+"Crear series de objetos relacionados o dependientes sin especificar su "
+"clase concreta. Usualmente todas clases creadas implementan la misma "
+"interfaz. Al cliente de la fábrica abstracta no le importa cómo son creados "
+"estos objetos, solamente sabe cómo se funcionan en conjunto."
+
+#: ../../Creational/AbstractFactory/README.rst:12
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Creational/AbstractFactory/README.rst:16
+msgid "Alt AbstractFactory UML Diagram"
+msgstr "Alt Diagrama UML FábricaAbstracta"
+
+#: ../../Creational/AbstractFactory/README.rst:19
+msgid "Code"
+msgstr "Código"
+
+#: ../../Creational/AbstractFactory/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Creational/AbstractFactory/README.rst:60
+msgid "Test"
+msgstr "Pruebas"

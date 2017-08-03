@@ -2,24 +2,20 @@
 
 namespace DesignPatterns\Structural\Bridge\Tests;
 
-use DesignPatterns\Structural\Bridge\Assemble;
-use DesignPatterns\Structural\Bridge\Car;
-use DesignPatterns\Structural\Bridge\Motorcycle;
-use DesignPatterns\Structural\Bridge\Produce;
+use DesignPatterns\Structural\Bridge\HelloWorldService;
+use DesignPatterns\Structural\Bridge\HtmlFormatter;
+use DesignPatterns\Structural\Bridge\PlainTextFormatter;
+use PHPUnit\Framework\TestCase;
 
-class BridgeTest extends \PHPUnit_Framework_TestCase
+class BridgeTest extends TestCase
 {
-    public function testCar()
+    public function testCanPrintUsingThePlainTextPrinter()
     {
-        $vehicle = new Car(new Produce(), new Assemble());
-        $this->expectOutputString('Car Produced Assembled');
-        $vehicle->manufacture();
-    }
+        $service = new HelloWorldService(new PlainTextFormatter());
+        $this->assertEquals('Hello World', $service->get());
 
-    public function testMotorcycle()
-    {
-        $vehicle = new Motorcycle(new Produce(), new Assemble());
-        $this->expectOutputString('Motorcycle Produced Assembled');
-        $vehicle->manufacture();
+        // now change the implementation and use the HtmlFormatter instead
+        $service->setImplementation(new HtmlFormatter());
+        $this->assertEquals('<p>Hello World</p>', $service->get());
     }
 }

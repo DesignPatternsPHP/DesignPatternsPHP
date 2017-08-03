@@ -23,7 +23,7 @@ msgstr "Objetivo"
 msgid ""
 "To translate one interface for a class into a compatible interface. An "
 "adapter allows classes to work together that normally could not because of "
-"incompatible interfaces by providing it's interface to clients while using "
+"incompatible interfaces by providing its interface to clients while using "
 "the original interface."
 msgstr ""
 "Para adaptar (compatibilizar) uma interface de uma classe a outra interface. Um "
@@ -55,8 +55,13 @@ msgid "Code"
 msgstr "Código"
 
 #: ../../Structural/Adapter/README.rst:29
+<<<<<<< HEAD
 msgid "You can also find these code on `GitHub`_"
 msgstr "Você também pode encontrar este código no `Github`_"
+=======
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+>>>>>>> c1f0faccc8503a78a1b4cae192aaef127a2edb02
 
 #: ../../Structural/Adapter/README.rst:31
 msgid "PaperBookInterface.php"

@@ -8,8 +8,12 @@
         }
     ],
     "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "psr/http-message": "^1.0"
+    },
     "require-dev": {
-        "phpunit/phpunit": "^4.6",
+        "phpunit/phpunit": "^6.0",
         "squizlabs/php_codesniffer": "1.5.*"
     },
     "autoload": {

@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-23 13:25-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Structural/Adapter/README.rst:1
+msgid "Adapter"
+msgstr "Adaptador"
+
+#: ../../Structural/Adapter/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Structural/Adapter/README.rst:7
+msgid ""
+"To translate one interface for a class into a compatible interface. An "
+"adapter allows classes to work together that normally could not because of "
+"incompatible interfaces by providing its interface to clients while using "
+"the original interface."
+msgstr ""
+"Traducir una interfaz para una clase en una interfaz compatible. Un "
+"adaptador permite a la clases, que normalmente no podrían interactuar debido "
+"a interfaces incompatibles, trabajar de forma conjunta proporcionando su "
+"interfaz a los clientes mientras se usa la interfaz original."
+
+#: ../../Structural/Adapter/README.rst:12
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Structural/Adapter/README.rst:15
+msgid "DB Client libraries adapter"
+msgstr "Adaptadores de librerías de Cleintes de Base de Datos"
+
+#: ../../Structural/Adapter/README.rst:16
+msgid ""
+"using multiple different webservices and adapters normalize data so that the "
+"outcome is the same for all"
+msgstr ""
+"Usando mútliples y diferentes servicios web y adaptadores normalizando la "
+"información de tal manera que el resultado es el mismo para todos"
+
+#: ../../Structural/Adapter/README.rst:19
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Structural/Adapter/README.rst:23
+msgid "Alt Adapter UML Diagram"
+msgstr "Alt Diagrama UML Adaptador"
+
+#: ../../Structural/Adapter/README.rst:26
+msgid "Code"
+msgstr "Código"
+
+#: ../../Structural/Adapter/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Structural/Adapter/README.rst:61
+msgid "Test"
+msgstr "Pruebas"

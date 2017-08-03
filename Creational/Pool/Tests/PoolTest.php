@@ -2,21 +2,29 @@
 
 namespace DesignPatterns\Creational\Pool\Tests;
 
-use DesignPatterns\Creational\Pool\Pool;
+use DesignPatterns\Creational\Pool\WorkerPool;
+use PHPUnit\Framework\TestCase;
 
-class PoolTest extends \PHPUnit_Framework_TestCase
+class PoolTest extends TestCase
 {
-    public function testPool()
+    public function testCanGetNewInstancesWithGet()
     {
-        $pool = new Pool('DesignPatterns\Creational\Pool\Tests\TestWorker');
-        $worker = $pool->get();
+        $pool = new WorkerPool();
+        $worker1 = $pool->get();
+        $worker2 = $pool->get();
 
-        $this->assertEquals(1, $worker->id);
+        $this->assertCount(2, $pool);
+        $this->assertNotSame($worker1, $worker2);
+    }
 
-        $worker->id = 5;
-        $pool->dispose($worker);
+    public function testCanGetSameInstanceTwiceWhenDisposingItFirst()
+    {
+        $pool = new WorkerPool();
+        $worker1 = $pool->get();
+        $pool->dispose($worker1);
+        $worker2 = $pool->get();
 
-        $this->assertEquals(5, $pool->get()->id);
-        $this->assertEquals(1, $pool->get()->id);
+        $this->assertCount(1, $pool);
+        $this->assertSame($worker1, $worker2);
     }
 }

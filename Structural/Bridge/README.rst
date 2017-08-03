@@ -7,8 +7,8 @@ Purpose
 Decouple an abstraction from its implementation so that the two can vary
 independently.
 
-Sample:
-^^^^^^^
+Examples
+--------
 
 -  `Symfony
    DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__
@@ -23,41 +23,35 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
-Workshop.php
+FormatterInterface.php
 
-.. literalinclude:: Workshop.php
+.. literalinclude:: FormatterInterface.php
    :language: php
    :linenos:
 
-Assemble.php
+PlainTextFormatter.php
 
-.. literalinclude:: Assemble.php
+.. literalinclude:: PlainTextFormatter.php
    :language: php
    :linenos:
 
-Produce.php
+HtmlFormatter.php
 
-.. literalinclude:: Produce.php
+.. literalinclude:: HtmlFormatter.php
    :language: php
    :linenos:
 
-Vehicle.php
+Service.php
 
-.. literalinclude:: Vehicle.php
+.. literalinclude:: Service.php
    :language: php
    :linenos:
 
-Motorcycle.php
+HelloWorldService.php
 
-.. literalinclude:: Motorcycle.php
-   :language: php
-   :linenos:
-
-Car.php
-
-.. literalinclude:: Car.php
+.. literalinclude:: HelloWorldService.php
    :language: php
    :linenos:
 

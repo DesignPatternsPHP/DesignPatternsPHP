@@ -1,41 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>PHP</ID>
-  <OriginalElement>\DesignPatterns\Structural\Composite\InputElement</OriginalElement>
+  <OriginalElement>\DesignPatterns\Structural\Composite\Form</OriginalElement>
   <nodes>
-    <node x="321.0" y="117.5">\DesignPatterns\Structural\Composite\TextElement</node>
-    <node x="175.0" y="0.0">\DesignPatterns\Structural\Composite\FormElement</node>
-    <node x="175.0" y="117.5">\DesignPatterns\Structural\Composite\InputElement</node>
-    <node x="0.0" y="97.0">\DesignPatterns\Structural\Composite\Form</node>
+    <node x="171.0" y="0.0">\DesignPatterns\Structural\Composite\RenderableInterface</node>
+    <node x="189.0" y="123.5">\DesignPatterns\Structural\Composite\InputElement</node>
+    <node x="329.0" y="112.0">\DesignPatterns\Structural\Composite\TextElement</node>
+    <node x="0.0" y="101.0">\DesignPatterns\Structural\Composite\Form</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="\DesignPatterns\Structural\Composite\InputElement" target="\DesignPatterns\Structural\Composite\FormElement">
-      <point x="0.0" y="-23.5" />
-      <point x="0.0" y="23.5" />
+    <edge source="\DesignPatterns\Structural\Composite\Form" target="\DesignPatterns\Structural\Composite\RenderableInterface">
+      <point x="0.0" y="-48.0" />
+      <point x="84.5" y="76.0" />
+      <point x="197.0" y="76.0" />
+      <point x="-52.0" y="25.5" />
     </edge>
-    <edge source="\DesignPatterns\Structural\Composite\Form" target="\DesignPatterns\Structural\Composite\FormElement">
-      <point x="0.0" y="-44.0" />
-      <point x="77.5" y="72.0" />
-      <point x="196.0" y="72.0" />
-      <point x="-42.0" y="23.5" />
+    <edge source="\DesignPatterns\Structural\Composite\TextElement" target="\DesignPatterns\Structural\Composite\RenderableInterface">
+      <point x="0.0" y="-37.0" />
+      <point x="387.5" y="76.0" />
+      <point x="301.0" y="76.0" />
+      <point x="52.0" y="25.5" />
     </edge>
-    <edge source="\DesignPatterns\Structural\Composite\TextElement" target="\DesignPatterns\Structural\Composite\FormElement">
-      <point x="0.0" y="-23.5" />
-      <point x="384.0" y="72.0" />
-      <point x="280.0" y="72.0" />
-      <point x="42.0" y="23.5" />
+    <edge source="\DesignPatterns\Structural\Composite\InputElement" target="\DesignPatterns\Structural\Composite\RenderableInterface">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="223.5" y="92.5" />
-  <SelectedNodes>
-    <node>\DesignPatterns\Structural\Composite\InputElement</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.0" x="164.5" y="54.0" />
+  <SelectedNodes />
   <Categories>
-    <Category>Fields</Category>
-    <Category>Constants</Category>
-    <Category>Constructors</Category>
     <Category>Methods</Category>
+    <Category>Constants</Category>
+    <Category>Fields</Category>
   </Categories>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>

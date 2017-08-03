@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 13:06-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../README.rst:4
+msgid "DesignPatternsPHP"
+msgstr "DesignPatternsPHP (Patrones de Diseño en PHP)"
+
+#: ../../README.rst:9
+msgid "Documentation Status"
+msgstr "Estatus de la documentación"
+
+#: ../../README.rst:11
+msgid ""
+"This is a collection of known `design patterns`_ and some sample code how to "
+"implement them in PHP. Every pattern has a small list of examples (most of "
+"them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar with "
+"this software)."
+msgstr ""
+"Esta es una colección de `patrones de diseño`_ conocidos y ejemplos de "
+"código de cómo implementarlos en PHP. Cada patrón tiene una pequeña lista de "
+"ejemplos (la mayoría de Zend Framework, Symfony2 o Doctrine2, ya que es el "
+"software que me es más familiar)."
+
+#: ../../README.rst:16
+msgid ""
+"I think the problem with patterns is that often people do know them but "
+"don't know when to apply which."
+msgstr ""
+"Creo que el problema con los patrones es que muchas veces las personas los "
+"conocen pero no saben cuando aplicar cual."
+
+#: ../../README.rst:19
+msgid "Patterns"
+msgstr "Patrones"
+
+#: ../../README.rst:22
+msgid ""
+"The patterns can be structured in roughly three different categories. Please "
+"click on **the title of every pattern's page** for a full explanation of the "
+"pattern on Wikipedia."
+msgstr ""
+"Los patrones se pueden organizar a grandes rasgos en tres diferentes "
+"categorías. Por favor has click en **el título de cada página de los "
+"patrones** para una explicación completa del patrón en Wikipedia."
+
+#: ../../README.rst:34
+msgid "Contribute"
+msgstr "Contribuciones"
+
+#: ../../README.rst:37
+msgid ""
+"Please feel free to fork and extend existing or add your own examples and "
+"send a pull request with your changes! To establish a consistent code "
+"quality, please check your code using `PHP CodeSniffer`_ against `PSR2 "
+"standard`_ using ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``."
+msgstr ""
+"Por favor ten la libertad de copiar el repositorio y extender o agregar tus "
+"propios ejemplos y envía un *pull request* con tus cambios! Para establecer "
+"una calidad de código consistente, por favor revisa tu código usando `PHP "
+"CodeSniffer`_ contra el `estándar PSR2`_ usando ``./vendor/bin/phpcs -p --"
+"standard=PSR2 --ignore=vendor .``."
+
+#: ../../README.rst:43
+msgid "License"
+msgstr "Licencia"
+
+#: ../../README.rst:69
+msgid "`design patterns`"
+msgstr "`patrones de diseño`"
+
+#: ../../README.rst:70
+msgid "`PHP CodeSniffer`"
+msgstr ""
+
+#: ../../README.rst:71
+msgid "`PSR2 standard`"
+msgstr "`estándar PSR2`"
+
+#: ../../README.rst:73
+msgid "`contributors`"
+msgstr "`contribuidores`"

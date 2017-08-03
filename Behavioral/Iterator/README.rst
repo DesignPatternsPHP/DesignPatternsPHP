@@ -4,8 +4,7 @@
 Purpose
 -------
 
-To make an object iterable and to make it appear like a collection of
-objects.
+To make an object iterable and to make it appear like a collection of objects.
 
 Examples
 --------
@@ -31,7 +30,7 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
 Book.php
 
@@ -42,18 +41,6 @@ Book.php
 BookList.php
 
 .. literalinclude:: BookList.php
-   :language: php
-   :linenos:
-
-BookListIterator.php
-
-.. literalinclude:: BookListIterator.php
-   :language: php
-   :linenos:
-
-BookListReverseIterator.php
-
-.. literalinclude:: BookListReverseIterator.php
    :language: php
    :linenos:
 

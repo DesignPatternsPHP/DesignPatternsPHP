@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  sudo: true
+  become: yes
   vars_files:
     - vars/all.yml
   roles:
@@ -9,3 +9,4 @@
     - php
     - xdebug
     - app
+    - composer

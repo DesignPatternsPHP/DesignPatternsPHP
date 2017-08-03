@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 19:34-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Behavioral/Specification/README.rst:1
+msgid "Specification"
+msgstr "Especificación"
+
+#: ../../Behavioral/Specification/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Behavioral/Specification/README.rst:7
+msgid ""
+"Builds a clear specification of business rules, where objects can be checked "
+"against. The composite specification class has one method called "
+"``isSatisfiedBy`` that returns either true or false depending on whether the "
+"given object satisfies the specification."
+msgstr ""
+"Construye una clara especificación de reglas de negocios, con la cual los "
+"objetos pueden ser verificados. La clase de especificación compuesta tiene "
+"un método llamado ``isSatisfiedBy`` que devuelve ya sea verdadero o falso "
+"dependiendo de si el objeto satisface la especificación."
+
+#: ../../Behavioral/Specification/README.rst:12
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Behavioral/Specification/README.rst:17
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Behavioral/Specification/README.rst:21
+msgid "Alt Specification UML Diagram"
+msgstr "Alt Diagrama UML Especificación"
+
+#: ../../Behavioral/Specification/README.rst:24
+msgid "Code"
+msgstr "Código"
+
+#: ../../Behavioral/Specification/README.rst:27
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Behavioral/Specification/README.rst:65
+msgid "Test"
+msgstr "Pruebas"

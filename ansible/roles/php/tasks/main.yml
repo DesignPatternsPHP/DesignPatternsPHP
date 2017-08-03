@@ -1,20 +1,19 @@
 ---
+- name: Update apt
+  apt: update_cache=yes autoremove=yes
+
 - name: Add ppa Repository
-  sudo: yes
   apt_repository: repo=ppa:ondrej/{{ php.ppa }}
 
 - name: Update apt
-  sudo: yes
   apt: update_cache=yes
 
-- name: Install php5
-  sudo: yes
-  apt: pkg=php5 state=latest
+- name: Install php7
+  apt: pkg=php7.0 state=latest
 
 - name: Install PHP Packages
-  sudo: yes
-  apt: pkg={{ item }} state=latest
-  with_items: php.packages
+  apt: pkg="{{ item }}" state=latest
+  with_items: "{{ php.packages }}"
   when: php.packages is defined
 
 - include: configure.yml

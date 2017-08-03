@@ -2,22 +2,14 @@
 
 namespace DesignPatterns\Creational\FactoryMethod;
 
-/**
- * Bicycle is a bicycle.
- */
 class Bicycle implements VehicleInterface
 {
     /**
      * @var string
      */
-    protected $color;
+    private $color;
 
-    /**
-     * sets the color of the bicycle.
-     *
-     * @param string $rgb
-     */
-    public function setColor($rgb)
+    public function setColor(string $rgb)
     {
         $this->color = $rgb;
     }

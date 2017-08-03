@@ -23,7 +23,7 @@ msgstr "目的"
 msgid ""
 "To translate one interface for a class into a compatible interface. An "
 "adapter allows classes to work together that normally could not because of "
-"incompatible interfaces by providing it's interface to clients while using "
+"incompatible interfaces by providing its interface to clients while using "
 "the original interface."
 msgstr ""
 "将某个类的接口转换成与另一个接口兼容。适配器通过将原始接口进行转换，给用户"
@@ -54,7 +54,7 @@ msgid "Code"
 msgstr "代码"
 
 #: ../../Structural/Adapter/README.rst:29
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
 #: ../../Structural/Adapter/README.rst:31

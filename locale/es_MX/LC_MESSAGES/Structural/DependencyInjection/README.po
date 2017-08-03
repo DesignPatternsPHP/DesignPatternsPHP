@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-23 15:36-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Structural/DependencyInjection/README.rst:1
+msgid "Dependency Injection"
+msgstr "Inyección de Dependencias"
+
+#: ../../Structural/DependencyInjection/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Structural/DependencyInjection/README.rst:7
+msgid ""
+"To implement a loosely coupled architecture in order to get better testable, "
+"maintainable and extendable code."
+msgstr ""
+"Implementar una arquitectura ligeramente acoplada para obtener un código que "
+"se puede probar, mantener y extender con mayor facilidad."
+
+#: ../../Structural/DependencyInjection/README.rst:10
+msgid "Usage"
+msgstr "Utilización"
+
+#: ../../Structural/DependencyInjection/README.rst:13
+msgid ""
+"DatabaseConfiguration gets injected and ``DatabaseConnection`` will get all "
+"that it needs from ``$config``. Without DI, the configuration would be "
+"created directly in ``DatabaseConnection``, which is not very good for "
+"testing and extending it."
+msgstr ""
+"DatabaseConfiguration (configuración de base de datos) es inyectado y "
+"``DatabaseConnection`` (conexión de base de datos) obtendrá todo lo que "
+"necesita de ``$config``. Sin Inyección de Dependencia, la configuración "
+"necesitaría ser creada directamente en ``DatabaseConnection``, lo cual no es "
+"muy recomendable para probar y extender."
+
+#: ../../Structural/DependencyInjection/README.rst:18
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Structural/DependencyInjection/README.rst:21
+msgid ""
+"The Doctrine2 ORM uses dependency injection e.g. for configuration that is "
+"injected into a ``Connection`` object. For testing purposes, one can easily "
+"create a mock object of the configuration and inject that into the "
+"``Connection`` object"
+msgstr ""
+"El ORM (Mapeo Objeto-Relación) de Doctrine2 utiliza inyección de "
+"dependencia, p.ej. la configuración que es inyectada en un objeto "
+"``Connection`` (conexión). Por razones de pruebas, uno puede crear "
+"fácilmente un objeto de imitación (mock) de la configuración e inyectarlo en "
+"el objeto ``Connection``."
+
+#: ../../Structural/DependencyInjection/README.rst:25
+msgid ""
+"Symfony and Zend Framework 2 already have containers for DI that create "
+"objects via a configuration array and inject them where needed (i.e. in "
+"Controllers)"
+msgstr ""
+"Symfony y Zend Framework2 ya cuentan con contenedores para Inyección de "
+"Dependencia que crean objetos a través de un arreglo de configuración y los "
+"inyectan cuando son necesarios (p.ej. en controladores)"
+
+#: ../../Structural/DependencyInjection/README.rst:29
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Structural/DependencyInjection/README.rst:33
+msgid "Alt DependencyInjection UML Diagram"
+msgstr "Alt Diagrama InyecciónDeDependencia"
+
+#: ../../Structural/DependencyInjection/README.rst:36
+msgid "Code"
+msgstr "Código"
+
+#: ../../Structural/DependencyInjection/README.rst:39
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Structural/DependencyInjection/README.rst:53
+msgid "Test"
+msgstr "Pruebas"

@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Creational/Builder/README.rst:1
+msgid "Builder"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:7
+msgid "Builder is an interface that build parts of a complex object."
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:9
+msgid ""
+"Sometimes, if the builder has a better knowledge of what it builds, this "
+"interface could be an abstract class with default methods (aka adapter)."
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:12
+msgid ""
+"If you have a complex inheritance tree for objects, it is logical to "
+"have a complex inheritance tree for builders too."
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:15
+msgid ""
+"Note: Builders have often a fluent interface, see the mock builder of "
+"PHPUnit for example."
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:18
+msgid "Examples"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:21
+msgid "PHPUnit: Mock Builder"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:23
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:27
+msgid "Alt Builder UML Diagram"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:30
+msgid "Code"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:33
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:95
+msgid "Test"
+msgstr ""

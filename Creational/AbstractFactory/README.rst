@@ -19,7 +19,7 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
 AbstractFactory.php
 
@@ -39,45 +39,21 @@ HtmlFactory.php
    :language: php
    :linenos:
 
-MediaInterface.php
-
-.. literalinclude:: MediaInterface.php
-   :language: php
-   :linenos:
-
-Picture.php
-
-.. literalinclude:: Picture.php
-   :language: php
-   :linenos:
-
 Text.php
 
 .. literalinclude:: Text.php
    :language: php
    :linenos:
 
-Json/Picture.php
+JsonText.php
 
-.. literalinclude:: Json/Picture.php
+.. literalinclude:: JsonText.php
    :language: php
    :linenos:
 
-Json/Text.php
+HtmlText.php
 
-.. literalinclude:: Json/Text.php
-   :language: php
-   :linenos:
-
-Html/Picture.php
-
-.. literalinclude:: Html/Picture.php
-   :language: php
-   :linenos:
-
-Html/Text.php
-
-.. literalinclude:: Html/Text.php
+.. literalinclude:: HtmlText.php
    :language: php
    :linenos:
 

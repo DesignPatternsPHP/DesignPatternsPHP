@@ -2,47 +2,35 @@
 
 namespace DesignPatterns\Behavioral\Specification;
 
-/**
- * A specification to check an Item is priced between min and max.
- */
-class PriceSpecification extends AbstractSpecification
+class PriceSpecification implements SpecificationInterface
 {
-    protected $maxPrice;
-    protected $minPrice;
+    /**
+     * @var float|null
+     */
+    private $maxPrice;
 
     /**
-     * Sets the optional maximum price.
-     *
-     * @param int $maxPrice
+     * @var float|null
      */
-    public function setMaxPrice($maxPrice)
+    private $minPrice;
+
+    /**
+     * @param float $minPrice
+     * @param float $maxPrice
+     */
+    public function __construct($minPrice, $maxPrice)
     {
+        $this->minPrice = $minPrice;
         $this->maxPrice = $maxPrice;
     }
 
-    /**
-     * Sets the optional minimum price.
-     *
-     * @param int $minPrice
-     */
-    public function setMinPrice($minPrice)
+    public function isSatisfiedBy(Item $item): bool
     {
-        $this->minPrice = $minPrice;
-    }
-
-    /**
-     * Checks if Item price falls between bounds.
-     *
-     * @param Item $item
-     *
-     * @return bool
-     */
-    public function isSatisfiedBy(Item $item)
-    {
-        if (!empty($this->maxPrice) && $item->getPrice() > $this->maxPrice) {
+        if ($this->maxPrice !== null && $item->getPrice() > $this->maxPrice) {
             return false;
         }
-        if (!empty($this->minPrice) && $item->getPrice() < $this->minPrice) {
+
+        if ($this->minPrice !== null && $item->getPrice() < $this->minPrice) {
             return false;
         }
 

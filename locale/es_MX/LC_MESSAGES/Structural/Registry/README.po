@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-23 16:15-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Structural/Registry/README.rst:1
+msgid "Registry"
+msgstr "Registro"
+
+#: ../../Structural/Registry/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Structural/Registry/README.rst:7
+msgid ""
+"To implement a central storage for objects often used throughout the "
+"application, is typically implemented using an abstract class with only "
+"static methods (or using the Singleton pattern). Remember that this "
+"introduces global state, which should be avoided at all times! Instead "
+"implement it using Dependency Injection!"
+msgstr ""
+"Implementar un almacenamiento central para objetos utilizados "
+"frecuentemente a través de la aplicación, se implementa típicamente "
+"utilizando una clase abstracta sólo con métodos estáticos (o utilizando el "
+"patrón Singleton). Recuerda que esto introduce un estado global que debe "
+"ser evitado siempre que se pueda! En vez de esto, impleméntalo utilizando "
+"Inyección de Dependencia!"
+
+#: ../../Structural/Registry/README.rst:12
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Structural/Registry/README.rst:15
+msgid ""
+"Zend Framework 1: ``Zend_Registry`` holds the application's logger object, "
+"front controller etc."
+msgstr ""
+"Zend Framework 1: ``Zend_Registry`` contiene el objeto de registro de "
+"eventos de la aplicación, controlador frontal, etc."
+
+#: ../../Structural/Registry/README.rst:17
+msgid ""
+"Yii Framework: ``CWebApplication`` holds all the application components, "
+"such as ``CWebUser``, ``CUrlManager``, etc."
+msgstr ""
+"Yii Framework: ``CWebApplication`` contiene todos los componenbtes de la "
+"aplicación como ``CWebUser``, ``CUrlManager``, etc."
+
+#: ../../Structural/Registry/README.rst:20
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Structural/Registry/README.rst:24
+msgid "Alt Registry UML Diagram"
+msgstr "Alt Diagrama UML Registro"
+
+#: ../../Structural/Registry/README.rst:27
+msgid "Code"
+msgstr "Código"
+
+#: ../../Structural/Registry/README.rst:30
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Structural/Registry/README.rst:38
+msgid "Test"
+msgstr "Pruebas"

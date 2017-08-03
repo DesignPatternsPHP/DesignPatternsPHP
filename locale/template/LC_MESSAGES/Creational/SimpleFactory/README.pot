@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Creational/SimpleFactory/README.rst:1
+msgid "Simple Factory"
+msgstr ""
+
+#: ../../Creational/SimpleFactory/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Creational/SimpleFactory/README.rst:7
+msgid "SimpleFactory is a simple factory pattern."
+msgstr ""
+
+#: ../../Creational/SimpleFactory/README.rst:9
+msgid ""
+"It differs from the static factory because it is not static. "
+"Therefore, you can have multiple factories, differently parametrized, you can subclass it and you can mock it."
+msgstr ""
+
+#: ../../Creational/SimpleFactory/README.rst:11
+msgid "It always should be preferred over a static factory!"
+msgstr ""
+
+#: ../../Creational/SimpleFactory/README.rst:13
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Creational/SimpleFactory/README.rst:17
+msgid "Alt SimpleFactory UML Diagram"
+msgstr ""
+
+#: ../../Creational/SimpleFactory/README.rst:20
+msgid "Code"
+msgstr ""
+
+#: ../../Creational/SimpleFactory/README.rst:23
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Creational/SimpleFactory/README.rst:43
+msgid "Usage"
+msgstr ""
+
+#: ../../Creational/SimpleFactory/README.rst:52
+msgid "Test"
+msgstr ""

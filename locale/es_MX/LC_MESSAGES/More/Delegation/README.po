@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-23 12:56-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../More/Delegation/README.rst:1
+msgid "Delegation"
+msgstr "Delegación"
+
+#: ../../More/Delegation/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../More/Delegation/README.rst:7
+msgid ""
+"Demonstrate the Delegator pattern, where an object, instead of performing "
+"one of its stated tasks, delegates that task to an associated helper object. "
+"In this case TeamLead professes to writeCode and Usage uses this, while "
+"TeamLead delegates writeCode to JuniorDeveloper's writeBadCode function. "
+"This inverts the responsibility so that Usage is unknowingly executing "
+"writeBadCode."
+msgstr ""
+"Demostrar el patrón Delegador, en el cual un objeto, en vez de desempeñar "
+"una de sus tareas asignadas, delega esta tarea a un objeto de ayuda "
+"asociado. En este caso *TeamLead* (líder de equipo) establece *writeCode* "
+"(escribe código) y *Usage* (uso) utiliza esta función, mientras que "
+"*TeamLead* delega *writeCode* a JuniorDeveloper (desarrolaldor junior) a "
+"través de la funcióin *writeBadCode* (escribe mal código). Esto invierte la "
+"responsabilidad de tal manera que *Usage* está ejecutando *writeBadCode* sin "
+"saberlo."
+
+#: ../../More/Delegation/README.rst:13
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../More/Delegation/README.rst:16
+msgid ""
+"Please review JuniorDeveloper.php, TeamLead.php, and then Usage.php to see "
+"it all tied together."
+msgstr ""
+"Por favor revisa JuniorDeveloper.php, TeamLead.php y luego Usage.php para "
+"ver como se integran en conjunto."
+
+#: ../../More/Delegation/README.rst:18
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../More/Delegation/README.rst:22
+msgid "Alt Delegation UML Diagram"
+msgstr "Alt Diagrama UML Delegacion"
+
+#: ../../More/Delegation/README.rst:25
+msgid "Code"
+msgstr "Código"
+
+#: ../../More/Delegation/README.rst:28
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../More/Delegation/README.rst:42
+msgid "Test"
+msgstr "Pruebas"

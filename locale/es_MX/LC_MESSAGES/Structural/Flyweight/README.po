@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-23 16:07-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Structural/Flyweight/README.rst:1
+msgid "Flyweight"
+msgstr "Flyweight (\"Peso Mosca\")"
+
+#: ../../Structural/Flyweight/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Structural/Flyweight/README.rst:7
+msgid ""
+"To minimise memory usage, a Flyweight shares as much as possible memory with "
+"similar objects. It is needed when a large amount of objects is used that "
+"don't differ much in state. A common practice is to hold state in external "
+"data structures and pass them to the flyweight object when needed."
+msgstr ""
+"Minimizar el uso de memoria, un Flyweight comparte lo más posible la memoria "
+"de objetos similares. Es necesario cuando se utiliza una gran cantidad de "
+"objetos que no difieren mucho en su estado. Una práctica común es mantener "
+"el estado en estructuras de datos externas y pasarlas al objeto Flyweight "
+"cuando sean necesarias."
+
+#: ../../Structural/Flyweight/README.rst:11
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Structural/Flyweight/README.rst:15
+msgid "Alt Flyweight UML Diagram"
+msgstr "Alt Diagrama UML Flyweight"
+
+#: ../../Structural/Flyweight/README.rst:18
+msgid "Code"
+msgstr "Código"
+
+#: ../../Structural/Flyweight/README.rst:21
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Structural/Flyweight/README.rst:41
+msgid "Test"
+msgstr "Pruebas"

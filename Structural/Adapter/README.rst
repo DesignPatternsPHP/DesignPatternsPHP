@@ -6,7 +6,7 @@ Purpose
 
 To translate one interface for a class into a compatible interface. An
 adapter allows classes to work together that normally could not because
-of incompatible interfaces by providing it's interface to clients while
+of incompatible interfaces by providing its interface to clients while
 using the original interface.
 
 Examples
@@ -26,11 +26,11 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
-PaperBookInterface.php
+BookInterface.php
 
-.. literalinclude:: PaperBookInterface.php
+.. literalinclude:: BookInterface.php
    :language: php
    :linenos:
 

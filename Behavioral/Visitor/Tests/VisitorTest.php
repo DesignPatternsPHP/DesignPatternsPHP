@@ -3,43 +3,36 @@
 namespace DesignPatterns\Tests\Visitor\Tests;
 
 use DesignPatterns\Behavioral\Visitor;
+use PHPUnit\Framework\TestCase;
 
-/**
- * VisitorTest tests the visitor pattern.
- */
-class VisitorTest extends \PHPUnit_Framework_TestCase
+class VisitorTest extends TestCase
 {
-    protected $visitor;
+    /**
+     * @var Visitor\RoleVisitor
+     */
+    private $visitor;
 
     protected function setUp()
     {
-        $this->visitor = new Visitor\RolePrintVisitor();
+        $this->visitor = new Visitor\RoleVisitor();
     }
 
-    public function getRole()
+    public function provideRoles()
     {
-        return array(
-            array(new Visitor\User('Dominik'), 'Role: User Dominik'),
-            array(new Visitor\Group('Administrators'), 'Role: Group: Administrators'),
-        );
+        return [
+            [new Visitor\User('Dominik')],
+            [new Visitor\Group('Administrators')],
+        ];
     }
 
     /**
-     * @dataProvider getRole
+     * @dataProvider provideRoles
+     *
+     * @param Visitor\Role $role
      */
-    public function testVisitSomeRole(Visitor\Role $role, $expect)
+    public function testVisitSomeRole(Visitor\Role $role)
     {
-        $this->expectOutputString($expect);
         $role->accept($this->visitor);
-    }
-
-    /**
-     * @expectedException \InvalidArgumentException
-     * @expectedExceptionMessage Mock
-     */
-    public function testUnknownObject()
-    {
-        $mock = $this->getMockForAbstractClass('DesignPatterns\Behavioral\Visitor\Role');
-        $mock->accept($this->visitor);
+        $this->assertSame($role, $this->visitor->getVisited()[0]);
     }
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPatterns\Behavioral\Memento\Memento</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">\DesignPatterns\Behavioral\Memento\State</node>
+    <node x="313.0" y="252.0">\DesignPatterns\Behavioral\Memento\Memento</node>
+    <node x="0.0" y="252.0">\DesignPatterns\Behavioral\Memento\Ticket</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="150.0" y="130.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

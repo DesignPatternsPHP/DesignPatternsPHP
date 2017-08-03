@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:1
+msgid "Chain Of Responsibilities"
+msgstr ""
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:7
+msgid ""
+"To build a chain of objects to handle a call in sequential order. If one "
+"object cannot handle a call, it delegates the call to the next in the "
+"chain and so forth."
+msgstr ""
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:11
+msgid "Examples"
+msgstr ""
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:14
+msgid ""
+"Logging framework: where each chain element decides autonomously what "
+"to do with a log message."
+msgstr ""
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:16
+msgid "A Spam filter."
+msgstr ""
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:17
+msgid ""
+"Caching: first object is an instance of e.g. a Memcached Interface, "
+"if that \"misses\" it delegates the call to the database interface."
+msgstr ""
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
+msgid ""
+"Yii Framework: CFilterChain is a chain of controller action filters. "
+"the executing point is passed from one filter to the next along the "
+"chain, and only if all filters say \"yes\", the action can be invoked "
+"at last."
+msgstr ""
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:24
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:28
+msgid "Alt ChainOfResponsibility UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:31
+msgid "Code"
+msgstr ""
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:54
+msgid "Test"
+msgstr ""

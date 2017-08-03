@@ -3,101 +3,45 @@
 namespace DesignPatterns\Behavioral\Specification\Tests;
 
 use DesignPatterns\Behavioral\Specification\Item;
+use DesignPatterns\Behavioral\Specification\NotSpecification;
+use DesignPatterns\Behavioral\Specification\OrSpecification;
+use DesignPatterns\Behavioral\Specification\AndSpecification;
 use DesignPatterns\Behavioral\Specification\PriceSpecification;
+use PHPUnit\Framework\TestCase;
 
-/**
- * SpecificationTest tests the specification pattern.
- */
-class SpecificationTest extends \PHPUnit_Framework_TestCase
+class SpecificationTest extends TestCase
 {
-    public function testSimpleSpecification()
+    public function testCanOr()
     {
-        $item = new Item(100);
-        $spec = new PriceSpecification();
+        $spec1 = new PriceSpecification(50, 99);
+        $spec2 = new PriceSpecification(101, 200);
 
-        $this->assertTrue($spec->isSatisfiedBy($item));
+        $orSpec = new OrSpecification($spec1, $spec2);
 
-        $spec->setMaxPrice(50);
-        $this->assertFalse($spec->isSatisfiedBy($item));
-
-        $spec->setMaxPrice(150);
-        $this->assertTrue($spec->isSatisfiedBy($item));
-
-        $spec->setMinPrice(101);
-        $this->assertFalse($spec->isSatisfiedBy($item));
-
-        $spec->setMinPrice(100);
-        $this->assertTrue($spec->isSatisfiedBy($item));
+        $this->assertFalse($orSpec->isSatisfiedBy(new Item(100)));
+        $this->assertTrue($orSpec->isSatisfiedBy(new Item(51)));
+        $this->assertTrue($orSpec->isSatisfiedBy(new Item(150)));
     }
 
-    public function testNotSpecification()
+    public function testCanAnd()
     {
-        $item = new Item(100);
-        $spec = new PriceSpecification();
-        $not = $spec->not();
+        $spec1 = new PriceSpecification(50, 100);
+        $spec2 = new PriceSpecification(80, 200);
 
-        $this->assertFalse($not->isSatisfiedBy($item));
+        $andSpec = new AndSpecification($spec1, $spec2);
 
-        $spec->setMaxPrice(50);
-        $this->assertTrue($not->isSatisfiedBy($item));
-
-        $spec->setMaxPrice(150);
-        $this->assertFalse($not->isSatisfiedBy($item));
-
-        $spec->setMinPrice(101);
-        $this->assertTrue($not->isSatisfiedBy($item));
-
-        $spec->setMinPrice(100);
-        $this->assertFalse($not->isSatisfiedBy($item));
+        $this->assertFalse($andSpec->isSatisfiedBy(new Item(150)));
+        $this->assertFalse($andSpec->isSatisfiedBy(new Item(1)));
+        $this->assertFalse($andSpec->isSatisfiedBy(new Item(51)));
+        $this->assertTrue($andSpec->isSatisfiedBy(new Item(100)));
     }
 
-    public function testPlusSpecification()
+    public function testCanNot()
     {
-        $spec1 = new PriceSpecification();
-        $spec2 = new PriceSpecification();
-        $plus = $spec1->plus($spec2);
+        $spec1 = new PriceSpecification(50, 100);
+        $notSpec = new NotSpecification($spec1);
 
-        $item = new Item(100);
-
-        $this->assertTrue($plus->isSatisfiedBy($item));
-
-        $spec1->setMaxPrice(150);
-        $spec2->setMinPrice(50);
-        $this->assertTrue($plus->isSatisfiedBy($item));
-
-        $spec1->setMaxPrice(150);
-        $spec2->setMinPrice(101);
-        $this->assertFalse($plus->isSatisfiedBy($item));
-
-        $spec1->setMaxPrice(99);
-        $spec2->setMinPrice(50);
-        $this->assertFalse($plus->isSatisfiedBy($item));
-    }
-
-    public function testEitherSpecification()
-    {
-        $spec1 = new PriceSpecification();
-        $spec2 = new PriceSpecification();
-        $either = $spec1->either($spec2);
-
-        $item = new Item(100);
-
-        $this->assertTrue($either->isSatisfiedBy($item));
-
-        $spec1->setMaxPrice(150);
-        $spec2->setMaxPrice(150);
-        $this->assertTrue($either->isSatisfiedBy($item));
-
-        $spec1->setMaxPrice(150);
-        $spec2->setMaxPrice(0);
-        $this->assertTrue($either->isSatisfiedBy($item));
-
-        $spec1->setMaxPrice(0);
-        $spec2->setMaxPrice(150);
-        $this->assertTrue($either->isSatisfiedBy($item));
-
-        $spec1->setMaxPrice(99);
-        $spec2->setMaxPrice(99);
-        $this->assertFalse($either->isSatisfiedBy($item));
+        $this->assertTrue($notSpec->isSatisfiedBy(new Item(150)));
+        $this->assertFalse($notSpec->isSatisfiedBy(new Item(50)));
     }
 }

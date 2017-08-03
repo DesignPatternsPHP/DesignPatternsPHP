@@ -33,7 +33,7 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
 User.php
 
@@ -46,6 +46,12 @@ UserMapper.php
 .. literalinclude:: UserMapper.php
    :language: php
    :linenos:
+
+StorageAdapter.php
+
+.. literalinclude:: StorageAdapter.php
+    :language: php
+    :linenos:
 
 Test
 ----

@@ -26,11 +26,11 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
-FormElement.php
+RenderableInterface.php
 
-.. literalinclude:: FormElement.php
+.. literalinclude:: RenderableInterface.php
    :language: php
    :linenos:
 

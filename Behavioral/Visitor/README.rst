@@ -23,7 +23,7 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
 RoleVisitorInterface.php
 
@@ -31,9 +31,9 @@ RoleVisitorInterface.php
    :language: php
    :linenos:
 
-RolePrintVisitor.php
+RoleVisitor.php
 
-.. literalinclude:: RolePrintVisitor.php
+.. literalinclude:: RoleVisitor.php
    :language: php
    :linenos:
 

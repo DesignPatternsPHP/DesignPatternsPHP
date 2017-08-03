@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: ../../Behavioral/Observer/README.rst:7
 msgid ""
 "To implement a publish/subscribe behaviour to an object, whenever a "
-"\"Subject\" object changes it's state, the attached \"Observers\" will be "
+"\"Subject\" object changes its state, the attached \"Observers\" will be "
 "notified. It is used to shorten the amount of coupled objects and uses loose"
 " coupling instead."
 msgstr ""
@@ -55,7 +55,7 @@ msgid "Code"
 msgstr ""
 
 #: ../../Behavioral/Observer/README.rst:34
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
 #: ../../Behavioral/Observer/README.rst:36

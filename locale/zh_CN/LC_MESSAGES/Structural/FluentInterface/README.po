@@ -51,7 +51,7 @@ msgid "Code"
 msgstr "代码"
 
 #: ../../Structural/FluentInterface/README.rst:28
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
 #: ../../Structural/FluentInterface/README.rst:30

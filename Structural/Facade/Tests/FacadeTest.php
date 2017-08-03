@@ -2,45 +2,35 @@
 
 namespace DesignPatterns\Structural\Facade\Tests;
 
-use DesignPatterns\Structural\Facade\Facade as Computer;
+use DesignPatterns\Structural\Facade\Facade;
 use DesignPatterns\Structural\Facade\OsInterface;
+use PHPUnit\Framework\TestCase;
 
-/**
- * FacadeTest shows example of facades.
- */
-class FacadeTest extends \PHPUnit_Framework_TestCase
+class FacadeTest extends TestCase
 {
-    public function getComputer()
+    public function testComputerOn()
     {
+        /** @var OsInterface|\PHPUnit_Framework_MockObject_MockObject $os */
+        $os = $this->createMock('DesignPatterns\Structural\Facade\OsInterface');
+
+        $os->method('getName')
+            ->will($this->returnValue('Linux'));
+
         $bios = $this->getMockBuilder('DesignPatterns\Structural\Facade\BiosInterface')
-                ->setMethods(array('launch', 'execute', 'waitForKeyPress'))
-                ->disableAutoload()
-                ->getMock();
-        $operatingSys = $this->getMockBuilder('DesignPatterns\Structural\Facade\OsInterface')
-                ->setMethods(array('getName'))
-                ->disableAutoload()
-                ->getMock();
+            ->setMethods(['launch', 'execute', 'waitForKeyPress'])
+            ->disableAutoload()
+            ->getMock();
+
         $bios->expects($this->once())
-                ->method('launch')
-                ->with($operatingSys);
-        $operatingSys
-                ->expects($this->once())
-                ->method('getName')
-                ->will($this->returnValue('Linux'));
+            ->method('launch')
+            ->with($os);
 
-        $facade = new Computer($bios, $operatingSys);
+        $facade = new Facade($bios, $os);
 
-        return array(array($facade, $operatingSys));
-    }
-
-    /**
-     * @dataProvider getComputer
-     */
-    public function testComputerOn(Computer $facade, OsInterface $os)
-    {
-        // interface is simpler :
+        // the facade interface is simple
         $facade->turnOn();
-        // but I can access to lower component
+
+        // but you can also access the underlying components
         $this->assertEquals('Linux', $os->getName());
     }
 }

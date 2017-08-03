@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-23 13:44-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Structural/DataMapper/README.rst:1
+msgid "Data Mapper"
+msgstr "Mapeo de Datos"
+
+#: ../../Structural/DataMapperREADME.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Structural/DataMapperREADME.rst:7
+msgid ""
+"A Data Mapper, is a Data Access Layer that performs bidirectional transfer "
+"of data between a persistent data store (often a relational database) and an "
+"in memory data representation (the domain layer). The goal of the pattern is "
+"to keep the in memory representation and the persistent data store "
+"independent of each other and the data mapper itself. The layer is composed "
+"of one or more mappers (or Data Access Objects), performing the data "
+"transfer. Mapper implementations vary in scope. Generic mappers will handle "
+"many different domain entity types, dedicated mappers will handle one or a "
+"few."
+msgstr ""
+"Un Mapeo de Datos, es una Capa de Acceso a Datos que realiza transferencia "
+"bidireccional de datos entre el Almacenamiento persistente de datos (por lo "
+"general una base de datos relacional) y una represnetación en memoria de los "
+"datos (capa de dominio). El objetivo del patrón es mantener la "
+"representación en memoria y la información almacenada en el almacenamiento "
+"persistente independiente una de otra y del mapeo. La capa está compuesta "
+"por uno o más mapeos (u Objetos de Acceso de Datos), realizando la "
+"transferencia de datos. La implementación de mapeos pueden variar en "
+"alcance. Los mapeos genéricos manejan muchos tipos de entidad del dominio, "
+"mapeos dedicados solamente manejan uno o algunos."
+
+#: ../../Structural/DataMapperREADME.rst:17
+msgid ""
+"The key point of this pattern is, unlike Active Record pattern, the data "
+"model follows Single Responsibility Principle."
+msgstr ""
+"El punto principal de este patrón es, no como el patrón Registro Activo "
+"(Active Record), que el modelo de datos sigua el Principio de "
+"Responsabilidad Única (Single Responsibility Principle)."
+
+#: ../../Structural/DataMapperREADME.rst:20
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Structural/DataMapperREADME.rst:23
+msgid ""
+"DB Object Relational Mapper (ORM) : Doctrine2 uses DAO named as "
+"\"EntityRepository\""
+msgstr ""
+"Mapeo Objeto-Relacional de Base de Datos (ORM) : Doctrine2 usa DAO nombrado "
+"como \"EntityRepository\" (RepositorioEntidad)"
+
+#: ../../Structural/DataMapperREADME.rst:26
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Structural/DataMapperREADME.rst:30
+msgid "Alt DataMapper UML Diagram"
+msgstr "Alt Diagrama UML MapeoDeDatos"
+
+#: ../../Structural/DataMapperREADME.rst:33
+msgid "Code"
+msgstr "Código"
+
+#: ../../Structural/DataMapperREADME.rst:36
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Structural/DataMapperREADME.rst:56
+msgid "Test"
+msgstr "Pruebas"

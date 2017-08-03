@@ -1,6 +1,11 @@
 `Service Locator`__
 ===================
 
+**THIS IS CONSIDERED TO BE AN ANTI-PATTERN!**
+
+Service Locator is considered for some people an anti-pattern. It violates the Dependency Inversion principle.
+Service Locator hides class' dependencies instead of exposing them as you would do using the Dependency Injection. In case of changes of those dependencies you risk to break the functionality of classes which are using them, making your system difficult to maintain.
+
 Purpose
 -------
 
@@ -33,13 +38,7 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
-
-ServiceLocatorInterface.php
-
-.. literalinclude:: ServiceLocatorInterface.php
-   :language: php
-   :linenos:
+You can also find this code on `GitHub`_
 
 ServiceLocator.php
 
@@ -47,27 +46,9 @@ ServiceLocator.php
    :language: php
    :linenos:
 
-LogServiceInterface.php
-
-.. literalinclude:: LogServiceInterface.php
-   :language: php
-   :linenos:
-
 LogService.php
 
 .. literalinclude:: LogService.php
-   :language: php
-   :linenos:
-
-DatabaseServiceInterface.php
-
-.. literalinclude:: DatabaseServiceInterface.php
-   :language: php
-   :linenos:
-
-DatabaseService.php
-
-.. literalinclude:: DatabaseService.php
    :language: php
    :linenos:
 

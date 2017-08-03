@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 13:53-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:1
+msgid "Chain Of Responsibilities"
+msgstr "Cadena de Responsabilidad"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:7
+msgid ""
+"To build a chain of objects to handle a call in sequential order. If one "
+"object cannot handle a call, it delegates the call to the next in the chain "
+"and so forth."
+msgstr ""
+"Para crear una cadena de objetos que atiendan una llamada en orden "
+"secuencial. Si un objeto no puede atender la llamada, delega esta al "
+"siguiente objeto en la cadena, y así sucesivamente."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:11
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:14
+msgid ""
+"Logging framework: where each chain element decides autonomously what to do "
+"with a log message."
+msgstr ""
+"Un framework de registro de eventos: en la que cada elemento de la cadena "
+"decide autónomamente que hacer con un mensaje de evento."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:16
+msgid "A Spam filter."
+msgstr "Un filtro de spam."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:17
+msgid ""
+"Caching: first object is an instance of e.g. a Memcached Interface, if that "
+"\"misses\" it delegates the call to the database interface."
+msgstr ""
+"Almacenamiento en caché: la primera instancia p.ej. es una interfaz "
+"Memcached, si esta \"falla\" delega la llamada a la interfaz de base de "
+"datos."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
+msgid ""
+"Yii Framework: CFilterChain is a chain of controller action filters. the "
+"executing point is passed from one filter to the next along the chain, and "
+"only if all filters say \"yes\", the action can be invoked at last."
+msgstr ""
+"Framework Yii: CFilterChain es una cadena de filtros de acción de "
+"controlador. El punto de ejecución es pasado de un filtro al siguiente en "
+"la cadena y solamente si un filtro responde \"sí\", la acción puede ser por "
+"fin invocada."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:24
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:28
+msgid "Alt ChainOfResponsibility UML Diagram"
+msgstr "Alt DiagramaUML CadenaDeResponsabilidad"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:31
+msgid "Code"
+msgstr "Código"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:54
+msgid "Test"
+msgstr "Pruebas"

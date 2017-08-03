@@ -2,48 +2,54 @@
 
 namespace DesignPatterns\Creational\FactoryMethod\Tests;
 
+use DesignPatterns\Creational\FactoryMethod\Bicycle;
+use DesignPatterns\Creational\FactoryMethod\CarFerrari;
+use DesignPatterns\Creational\FactoryMethod\CarMercedes;
 use DesignPatterns\Creational\FactoryMethod\FactoryMethod;
 use DesignPatterns\Creational\FactoryMethod\GermanFactory;
 use DesignPatterns\Creational\FactoryMethod\ItalianFactory;
+use PHPUnit\Framework\TestCase;
 
-/**
- * FactoryMethodTest tests the factory method pattern.
- */
-class FactoryMethodTest extends \PHPUnit_Framework_TestCase
+class FactoryMethodTest extends TestCase
 {
-    protected $type = array(
-        FactoryMethod::CHEAP,
-        FactoryMethod::FAST,
-    );
-
-    public function getShop()
+    public function testCanCreateCheapVehicleInGermany()
     {
-        return array(
-            array(new GermanFactory()),
-            array(new ItalianFactory()),
-        );
+        $factory = new GermanFactory();
+        $result = $factory->create(FactoryMethod::CHEAP);
+
+        $this->assertInstanceOf(Bicycle::class, $result);
+    }
+
+    public function testCanCreateFastVehicleInGermany()
+    {
+        $factory = new GermanFactory();
+        $result = $factory->create(FactoryMethod::FAST);
+
+        $this->assertInstanceOf(CarMercedes::class, $result);
+    }
+
+    public function testCanCreateCheapVehicleInItaly()
+    {
+        $factory = new ItalianFactory();
+        $result = $factory->create(FactoryMethod::CHEAP);
+
+        $this->assertInstanceOf(Bicycle::class, $result);
+    }
+
+    public function testCanCreateFastVehicleInItaly()
+    {
+        $factory = new ItalianFactory();
+        $result = $factory->create(FactoryMethod::FAST);
+
+        $this->assertInstanceOf(CarFerrari::class, $result);
     }
 
     /**
-     * @dataProvider getShop
-     */
-    public function testCreation(FactoryMethod $shop)
-    {
-        // this test method acts as a client for the factory. We don't care
-        // about the factory, all we know is it can produce vehicle
-        foreach ($this->type as $oneType) {
-            $vehicle = $shop->create($oneType);
-            $this->assertInstanceOf('DesignPatterns\Creational\FactoryMethod\VehicleInterface', $vehicle);
-        }
-    }
-
-    /**
-     * @dataProvider getShop
      * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage spaceship is not a valid vehicle
      */
-    public function testUnknownType(FactoryMethod $shop)
+    public function testUnknownType()
     {
-        $shop->create('spaceship');
+        (new ItalianFactory())->create('spaceship');
     }
 }

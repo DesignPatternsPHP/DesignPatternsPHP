@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../More/Repository/README.rst:1
+msgid "Repository"
+msgstr ""
+
+#: ../../More/Repository/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../More/Repository/README.rst:7
+msgid ""
+"Mediates between the domain and data mapping layers using a "
+"collection-like interface for accessing domain objects. Repository "
+"encapsulates the set of objects persisted in a data store and the "
+"operations performed over them, providing a more object-oriented view of "
+"the persistence layer. Repository also supports the objective of "
+"achieving a clean separation and one-way dependency between the domain "
+"and data mapping layers."
+msgstr ""
+
+#: ../../More/Repository/README.rst:15
+msgid "Examples"
+msgstr ""
+
+#: ../../More/Repository/README.rst:18
+msgid ""
+"Doctrine 2 ORM: there is Repository that mediates between Entity and "
+"DBAL and contains methods to retrieve objects"
+msgstr ""
+
+#: ../../More/Repository/README.rst:20
+msgid "Laravel Framework"
+msgstr ""
+
+#: ../../More/Repository/README.rst:22
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../More/Repository/README.rst:26
+msgid "Alt Repository UML Diagram"
+msgstr ""
+
+#: ../../More/Repository/README.rst:29
+msgid "Code"
+msgstr ""
+
+#: ../../More/Repository/README.rst:32
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../More/Repository/README.rst:52
+msgid "Test"
+msgstr ""

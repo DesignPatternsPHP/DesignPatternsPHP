@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-22 20:48-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: ../../Creational/Prototype/README.rst:1
+msgid "Prototype"
+msgstr "Prototipo"
+
+#: ../../Creational/Prototype/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Creational/Prototype/README.rst:7
+msgid ""
+"To avoid the cost of creating objects the standard way (new Foo()) and "
+"instead create a prototype and clone it."
+msgstr ""
+"Para evitar el costo de crear objetos de la manera tradicional (new Foo()) "
+"y en cambio crear un prototipo y clonarlo."
+
+#: ../../Creational/Prototype/README.rst:10
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Creational/Prototype/README.rst:13
+msgid ""
+"Large amounts of data (e.g. create 1,000,000 rows in a database at once via "
+"a ORM)."
+msgstr ""
+"Grandes cantidades de datos (p.ej. crear 1,000,000 registros en una base de "
+"datos de una vez a través de ORM)."
+
+#: ../../Creational/Prototype/README.rst:16
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Creational/Prototype/README.rst:20
+msgid "Alt Prototype UML Diagram"
+msgstr "Alt Diagrama UML Prototipo"
+
+#: ../../Creational/Prototype/README.rst:23
+msgid "Code"
+msgstr "Código"
+
+#: ../../Creational/Prototype/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar este código también en `GitHub`_"
+
+#: ../../Creational/Prototype/README.rst:46
+msgid "Test"
+msgstr "Pruebas"

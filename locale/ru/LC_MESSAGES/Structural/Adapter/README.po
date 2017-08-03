@@ -25,7 +25,7 @@ msgstr "Назначение"
 msgid ""
 "To translate one interface for a class into a compatible interface. An "
 "adapter allows classes to work together that normally could not because of "
-"incompatible interfaces by providing it's interface to clients while using "
+"incompatible interfaces by providing its interface to clients while using "
 "the original interface."
 msgstr ""
 "Привести нестандартный или неудобный интерфейс какого-то класса в "
@@ -60,7 +60,7 @@ msgid "Code"
 msgstr "Код"
 
 #: ../../Structural/Adapter/README.rst:29
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
 #: ../../Structural/Adapter/README.rst:31

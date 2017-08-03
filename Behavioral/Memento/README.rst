@@ -6,8 +6,8 @@ Purpose
 
 It provides the ability to restore an object to it's previous state (undo
 via rollback) or to gain access to state of the object, without revealing
-it's implementation (i.e., the object is not required to have a functional
-for return the current state).
+it's implementation (i.e., the object is not required to have a function
+to return the current state).
 
 The memento pattern is implemented with three objects: the Originator, a
 Caretaker and a Memento.
@@ -52,7 +52,7 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
 Memento.php
 
@@ -60,15 +60,15 @@ Memento.php
    :language: php
    :linenos:
 
-Originator.php
+State.php
 
-.. literalinclude:: Originator.php
+.. literalinclude:: State.php
    :language: php
    :linenos:
 
-Caretaker.php
+Ticket.php
 
-.. literalinclude:: Caretaker.php
+.. literalinclude:: Ticket.php
    :language: php
    :linenos:
 

@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/DependencyInjection/README.rst:1
+msgid "Dependency Injection"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:7
+msgid ""
+"To implement a loosely coupled architecture in order to get better "
+"testable, maintainable and extendable code."
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:10
+msgid "Usage"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:13
+msgid ""
+"DatabaseConfiguration gets injected and ``DatabaseConnection`` will get all that it "
+"needs from ``$config``. Without DI, the configuration would be created "
+"directly in ``DatabaseConnection``, which is not very good for testing and "
+"extending it."
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:18
+msgid "Examples"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:21
+msgid ""
+"The Doctrine2 ORM uses dependency injection e.g. for configuration "
+"that is injected into a ``Connection`` object. For testing purposes, "
+"one can easily create a mock object of the configuration and inject "
+"that into the ``Connection`` object"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:25
+msgid ""
+"Symfony and Zend Framework 2 already have containers for DI that "
+"create objects via a configuration array and inject them where needed "
+"(i.e. in Controllers)"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:29
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:33
+msgid "Alt DependencyInjection UML Diagram"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:36
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:39
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Structural/DependencyInjection/README.rst:53
+msgid "Test"
+msgstr ""

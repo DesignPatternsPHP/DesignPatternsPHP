@@ -2,29 +2,19 @@
 
 namespace DesignPatterns\Behavioral\Specification;
 
-/**
- * An trivial item.
- */
 class Item
 {
-    protected $price;
-
     /**
-     * An item must have a price.
-     *
-     * @param int $price
+     * @var float
      */
-    public function __construct($price)
+    private $price;
+
+    public function __construct(float $price)
     {
         $this->price = $price;
     }
 
-    /**
-     * Get the items price.
-     *
-     * @return int
-     */
-    public function getPrice()
+    public function getPrice(): float
     {
         return $this->price;
     }

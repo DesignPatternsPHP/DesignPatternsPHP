@@ -6,11 +6,9 @@ Purpose
 
 SimpleFactory is a simple factory pattern.
 
-It differs from the static factory because it is NOT static and as you
-know: static => global => evil!
-
-Therefore, you can have multiple factories, differently parametrized,
-you can subclass it and you can mock-up it.
+It differs from the static factory because it is not static.
+Therefore, you can have multiple factories, differently parametrized, you can subclass it and you can mock it.
+It always should be preferred over a static factory!
 
 UML Diagram
 -----------
@@ -22,17 +20,11 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
 SimpleFactory.php
 
 .. literalinclude:: SimpleFactory.php
-   :language: php
-   :linenos:
-
-VehicleInterface.php
-
-.. literalinclude:: VehicleInterface.php
    :language: php
    :linenos:
 
@@ -42,20 +34,15 @@ Bicycle.php
    :language: php
    :linenos:
 
-Scooter.php
-
-.. literalinclude:: Scooter.php
-   :language: php
-   :linenos:
-
 Usage
 -----
 
-.. code::  php
+.. code-block::  php
+   :linenos:
 
-   $factory = new SimpleFactory();
-   $bicycle = $factory->createVehicle('bicycle');
-   $bicycle->driveTo('Paris');
+    $factory = new SimpleFactory();
+    $bicycle = $factory->createBicycle();
+    $bicycle->driveTo('Paris');
 
 Test
 ----

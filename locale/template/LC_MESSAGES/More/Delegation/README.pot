@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP "
+"d4972f03fc93de3ef10bb31220de49931487d5e0\n"
+"POT-Creation-Date: 2016-09-19 17:00-0500\n"
+"Last-Translator: Axel Pardemann <axelitusdev@gmail.com>\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../More/Delegation/README.rst:1
+msgid "Delegation"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:4
+msgid "Purpose"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:7
+msgid ""
+"Demonstrate the Delegator pattern, where an object, instead of performing one "
+"of its stated tasks, delegates that task to an associated helper object. In "
+"this case TeamLead professes to writeCode and Usage uses this, while TeamLead "
+"delegates writeCode to JuniorDeveloper's writeBadCode function. This inverts "
+"the responsibility so that Usage is unknowingly executing writeBadCode."
+msgstr ""
+
+#: ../../More/Delegation/README.rst:13
+msgid "Examples"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:16
+msgid "Please review JuniorDeveloper.php, TeamLead.php, and then Usage.php to see it all tied together."
+msgstr ""
+
+#: ../../More/Delegation/README.rst:18
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:22
+msgid "Alt Delegation UML Diagram"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:25
+msgid "Code"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:28
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../More/Delegation/README.rst:42
+msgid "Test"
+msgstr ""
