@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
@@ -13,39 +13,43 @@ msgstr ""
 
 #: ../../Creational/Prototype/README.rst:2
 msgid "`Prototype`__"
-msgstr ""
+msgstr "`Protótipo`"
 
 #: ../../Creational/Prototype/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Creational/Prototype/README.rst:7
 msgid ""
 "To avoid the cost of creating objects the standard way (new Foo()) and "
 "instead create a prototype and clone it."
 msgstr ""
+"Para evitar o custo da criação tradicional de objetos (new Foo()) e "
+"criar um protótipo deste e cloná-los"
 
 #: ../../Creational/Prototype/README.rst:11
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 #: ../../Creational/Prototype/README.rst:13
 msgid ""
 "Large amounts of data (e.g. create 1,000,000 rows in a database at once via "
 "a ORM)."
 msgstr ""
+"Uma grande quantidade de dados. Exemplo: a criação de 1,000.000 linhas em um banco de dados via "
+"um ORM"
 
 #: ../../Creational/Prototype/README.rst:17
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Creational/Prototype/README.rst:24
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Creational/Prototype/README.rst:26
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Você também encontra este código no `GitHub`_"
 
 #: ../../Creational/Prototype/README.rst:28
 msgid "index.php"
