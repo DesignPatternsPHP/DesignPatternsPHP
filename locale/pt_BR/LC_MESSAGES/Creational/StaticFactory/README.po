@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
@@ -13,11 +13,11 @@ msgstr ""
 
 #: ../../Creational/StaticFactory/README.rst:2
 msgid "Static Factory"
-msgstr ""
+msgstr "Fábrica Estática"
 
 #: ../../Creational/StaticFactory/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Creational/StaticFactory/README.rst:7
 msgid ""
@@ -27,6 +27,8 @@ msgid ""
 "method to create all types of objects it can create. It is usually named "
 "``factory`` or ``build``."
 msgstr ""
+"Semelhante à Fábrica Abstrata, este padrão é utilizado para a criação de um conjunto de"
+" objetos relacionados ou dependentes. A diferença entre o padrão "
 
 #: ../../Creational/StaticFactory/README.rst:14
 msgid "Examples"

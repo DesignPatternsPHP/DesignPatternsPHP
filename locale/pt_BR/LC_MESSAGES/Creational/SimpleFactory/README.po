@@ -1,11 +1,11 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2017-08-03 21:02-0300\n"
+"Last-Translator: Leonam Pereira Dias <leonam.pd@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,39 +13,43 @@ msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:2
 msgid "Simple Factory"
-msgstr ""
+msgstr "Fábrica Simples"
 
 #: ../../Creational/SimpleFactory/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Creational/SimpleFactory/README.rst:7
 msgid "SimpleFactory is a simple factory pattern."
-msgstr ""
+msgstr "SimpleFactory (Fábrica Simples) é uma implementação mais simples do padrão fábrica"
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
 "It differs from the static factory because it is NOT static and as you know:"
 " static => global => evil!"
 msgstr ""
+"Diferencia-se do padrão de Fábrica estática porque não faz uso de implementação estática e como você sabe"
+" estático => escopo global => caos!"
 
 #: ../../Creational/SimpleFactory/README.rst:12
 msgid ""
 "Therefore, you can have multiple factories, differently parametrized, you "
 "can subclass it and you can mock-up it."
 msgstr ""
+"Deste modo, você pode ter múltiplas fábricas, diferentemente parametrizadas, permitindo"
+" a extensão da mesma permitindo a criação de dublês"
 
 #: ../../Creational/SimpleFactory/README.rst:16
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Creational/SimpleFactory/README.rst:23
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Creational/SimpleFactory/README.rst:25
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Você também pode encontrar esse código no `GitHub`_"
 
 #: ../../Creational/SimpleFactory/README.rst:27
 msgid "SimpleFactory.php"
@@ -65,7 +69,7 @@ msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:52
 msgid "Test"
-msgstr ""
+msgstr "Teste"
 
 #: ../../Creational/SimpleFactory/README.rst:54
 msgid "Tests/SimpleFactoryTest.php"

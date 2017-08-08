@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
@@ -90,7 +90,7 @@ msgstr ""
 
 #: ../../Creational/FactoryMethod/README.rst:74
 msgid "Test"
-msgstr ""
+msgstr "Teste"
 
 #: ../../Creational/FactoryMethod/README.rst:76
 msgid "Tests/FactoryMethodTest.php"

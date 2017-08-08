@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-03-13 14:26-0300\n"
+"Last-Translator: Leonam Pereira Dias <leonam.pd@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,11 +13,11 @@ msgstr ""
 
 #: ../../Structural/Adapter/README.rst:2
 msgid "`Adapter / Wrapper`__"
-msgstr ""
+msgstr "Adaptador"
 
 #: ../../Structural/Adapter/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Structural/Adapter/README.rst:7
 msgid ""
@@ -26,10 +26,14 @@ msgid ""
 "incompatible interfaces by providing its interface to clients while using "
 "the original interface."
 msgstr ""
+"Para adaptar (compatibilizar) uma interface de uma classe a outra interface. Um "
+"adapter permite que classes trabalhem juntas quando, normalmente isso não seria possível "
+"devido imcompatibilidade, provendo sua interface para seus clientes enquanto usa a"
+"interface original"
 
 #: ../../Structural/Adapter/README.rst:13
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 #: ../../Structural/Adapter/README.rst:15
 msgid "DB Client libraries adapter"
@@ -39,19 +43,25 @@ msgstr ""
 msgid ""
 "using multiple different webservices and adapters normalize data so that the"
 " outcome is the same for all"
-msgstr ""
+msgstr "usando diversos webservices e adapters para normalizar os dados de modo que"
+" a saída seja sempre a mesma"
 
 #: ../../Structural/Adapter/README.rst:20
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Structural/Adapter/README.rst:27
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Structural/Adapter/README.rst:29
+<<<<<<< HEAD
+msgid "You can also find these code on `GitHub`_"
+msgstr "Você também pode encontrar este código no `Github`_"
+=======
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
+>>>>>>> c1f0faccc8503a78a1b4cae192aaef127a2edb02
 
 #: ../../Structural/Adapter/README.rst:31
 msgid "PaperBookInterface.php"

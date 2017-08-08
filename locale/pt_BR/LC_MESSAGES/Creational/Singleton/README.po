@@ -1,11 +1,11 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2017-08-03 21:02-0300\n"
+"Last-Translator: Leonam Pereira Dias <leonam.pd@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,47 +20,54 @@ msgid ""
 "**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
 "MAINTAINABILITY USE DEPENDENCY INJECTION!**"
 msgstr ""
+"**CONSIDERADO UM ANTI-PATTERN! PARA MELHOR TESTABILIDADE E "
+"MANUTENIBILIDADE USE INJEÇÃO DEPENDÊNCIAS"
 
 #: ../../Creational/Singleton/README.rst:8
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Creational/Singleton/README.rst:10
 msgid ""
 "To have only one instance of this object in the application that will handle"
 " all calls."
 msgstr ""
+"Ter uma única instância da classe na aplicação que será responsável por gerenciar"
+"todas as chamadas a ela"
 
 #: ../../Creational/Singleton/README.rst:14
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 #: ../../Creational/Singleton/README.rst:16
 msgid "DB Connector"
-msgstr ""
+msgstr "Conexão ao banco de dados"
 
 #: ../../Creational/Singleton/README.rst:17
 msgid ""
 "Logger (may also be a Multiton if there are many log files for several "
 "purposes)"
 msgstr ""
+"Logger (pode ser necessário um Multiton se houverem mais de um arquivo de log para diferentes "
+"necessidades"
 
 #: ../../Creational/Singleton/README.rst:19
 msgid ""
 "Lock file for the application (there is only one in the filesystem ...)"
 msgstr ""
+"Arquivo de lock para a aplicação (existe apenas um em todo o sistema de arquivos ...)"
 
 #: ../../Creational/Singleton/README.rst:23
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Creational/Singleton/README.rst:30
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Creational/Singleton/README.rst:32
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Você também pode encontrar esse código no `GitHub`_"
 
 #: ../../Creational/Singleton/README.rst:34
 msgid "Singleton.php"
@@ -68,7 +75,7 @@ msgstr ""
 
 #: ../../Creational/Singleton/README.rst:41
 msgid "Test"
-msgstr ""
+msgstr "Teste"
 
 #: ../../Creational/Singleton/README.rst:43
 msgid "Tests/SingletonTest.php"
