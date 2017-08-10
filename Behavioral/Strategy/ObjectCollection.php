@@ -22,6 +22,9 @@ class ObjectCollection
         $this->elements = $elements;
     }
 
+    /**
+     * @return array
+     */
     public function sort(): array
     {
         if (!$this->comparator) {

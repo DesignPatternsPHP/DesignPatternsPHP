@@ -9,6 +9,9 @@ class CarFerrari implements VehicleInterface
      */
     private $color;
 
+    /**
+     * @param string $rgb
+     */
     public function setColor(string $rgb)
     {
         $this->color = $rgb;

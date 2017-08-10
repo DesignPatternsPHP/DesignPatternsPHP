@@ -12,6 +12,10 @@ abstract class Handler
      */
     private $successor = null;
 
+    /**
+     * Handler constructor.
+     * @param Handler|null $handler
+     */
     public function __construct(Handler $handler = null)
     {
         $this->successor = $handler;
@@ -29,11 +33,9 @@ abstract class Handler
     {
         $processed = $this->processing($request);
 
-        if ($processed === null) {
+        if (null === $processed && null !== $this->successor) {
             // the request has not been processed by this handler => see the next
-            if ($this->successor !== null) {
-                $processed = $this->successor->handle($request);
-            }
+            $processed = $this->successor->handle($request);
         }
 
         return $processed;

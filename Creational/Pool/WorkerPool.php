@@ -14,19 +14,21 @@ class WorkerPool implements \Countable
      */
     private $freeWorkers = [];
 
+    /**
+     * @return StringReverseWorker
+     */
     public function get(): StringReverseWorker
     {
-        if (count($this->freeWorkers) == 0) {
-            $worker = new StringReverseWorker();
-        } else {
-            $worker = array_pop($this->freeWorkers);
-        }
+        $worker = (count($this->freeWorkers) === 0) ? new StringReverseWorker() : array_pop($this->freeWorkers);
 
         $this->occupiedWorkers[spl_object_hash($worker)] = $worker;
 
         return $worker;
     }
 
+    /**
+     * @param StringReverseWorker $worker
+     */
     public function dispose(StringReverseWorker $worker)
     {
         $key = spl_object_hash($worker);
@@ -37,6 +39,9 @@ class WorkerPool implements \Countable
         }
     }
 
+    /**
+     * @return int
+     */
     public function count(): int
     {
         return count($this->occupiedWorkers) + count($this->freeWorkers);

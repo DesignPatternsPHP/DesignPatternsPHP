@@ -17,6 +17,9 @@ class DatabaseConnection
         $this->configuration = $config;
     }
 
+    /**
+     * @return string
+     */
     public function getDsn(): string
     {
         // this is just for the sake of demonstration, not a real DSN

@@ -24,13 +24,18 @@ class PriceSpecification implements SpecificationInterface
         $this->maxPrice = $maxPrice;
     }
 
+    /**
+     * @param Item $item
+     *
+     * @return bool
+     */
     public function isSatisfiedBy(Item $item): bool
     {
-        if ($this->maxPrice !== null && $item->getPrice() > $this->maxPrice) {
+        if (null !== $this->maxPrice && $item->getPrice() > $this->maxPrice) {
             return false;
         }
 
-        if ($this->minPrice !== null && $item->getPrice() < $this->minPrice) {
+        if (null !== $this->minPrice && $item->getPrice() < $this->minPrice) {
             return false;
         }
 

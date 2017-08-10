@@ -6,13 +6,24 @@ abstract class FactoryMethod
 {
     const CHEAP = 'cheap';
     const FAST = 'fast';
+    const COLOR = 'black';
 
-    abstract protected function createVehicle(string $type): VehicleInterface;
+    /**
+     * @param string $typeOfVehicle
+     *
+     * @return VehicleInterface
+     */
+    abstract protected function createVehicle(string $typeOfVehicle): VehicleInterface;
 
-    public function create(string $type): VehicleInterface
+    /**
+     * @param string $typeOfVehicle
+     *
+     * @return VehicleInterface
+     */
+    public function create(string $typeOfVehicle): VehicleInterface
     {
-        $obj = $this->createVehicle($type);
-        $obj->setColor('black');
+        $obj = $this->createVehicle($typeOfVehicle);
+        $obj->setColor(self::COLOR);
 
         return $obj;
     }

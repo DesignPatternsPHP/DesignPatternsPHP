@@ -8,5 +8,8 @@ interface BookInterface
 
     public function open();
 
+    /**
+     * @return int
+     */
     public function getPage(): int;
 }
