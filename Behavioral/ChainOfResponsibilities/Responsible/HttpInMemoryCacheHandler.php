@@ -12,6 +12,8 @@ class HttpInMemoryCacheHandler extends Handler
      */
     private $data;
 
+    const GET_METHOD = 'GET';
+
     /**
      * @param array $data
      * @param Handler|null $successor
@@ -36,7 +38,7 @@ class HttpInMemoryCacheHandler extends Handler
             $request->getUri()->getQuery()
         );
 
-        if ($request->getMethod() == 'GET' && isset($this->data[$key])) {
+        if (isset($this->data[$key]) && self::GET_METHOD === $request->getMethod()) {
             return $this->data[$key];
         }
 

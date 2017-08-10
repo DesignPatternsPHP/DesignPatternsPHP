@@ -4,9 +4,14 @@ namespace DesignPatterns\Creational\FactoryMethod;
 
 class GermanFactory extends FactoryMethod
 {
-    protected function createVehicle(string $type): VehicleInterface
+    /**
+     * @param string $typeOfVehicle
+     *
+     * @return VehicleInterface
+     */
+    protected function createVehicle(string $typeOfVehicle): VehicleInterface
     {
-        switch ($type) {
+        switch ($typeOfVehicle) {
             case parent::CHEAP:
                 return new Bicycle();
             case parent::FAST:
@@ -16,7 +21,7 @@ class GermanFactory extends FactoryMethod
 
                 return $carMercedes;
             default:
-                throw new \InvalidArgumentException("$type is not a valid vehicle");
+                throw new \InvalidArgumentException("$typeOfVehicle is not a valid vehicle");
         }
     }
 }

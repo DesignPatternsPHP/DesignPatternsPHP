@@ -6,5 +6,8 @@ interface OsInterface
 {
     public function halt();
 
+    /**
+     * @return string
+     */
     public function getName(): string;
 }

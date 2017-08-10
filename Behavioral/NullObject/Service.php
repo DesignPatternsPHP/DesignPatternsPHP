@@ -10,6 +10,7 @@ class Service
     private $logger;
 
     /**
+     * Service constructor.
      * @param LoggerInterface $logger
      */
     public function __construct(LoggerInterface $logger)

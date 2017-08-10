@@ -16,12 +16,18 @@ abstract class BookPrototype
 
     abstract public function __clone();
 
+    /**
+     * @return string
+     */
     public function getTitle(): string
     {
         return $this->title;
     }
 
-    public function setTitle($title)
+    /**
+     * @param string $title
+     */
+    public function setTitle(string $title)
     {
         $this->title = $title;
     }

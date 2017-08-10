@@ -4,11 +4,17 @@ namespace DesignPatterns\Behavioral\State;
 
 class ContextOrder extends StateOrder
 {
+    /**
+     * @return StateOrder
+     */
     public function getState():StateOrder
     {
         return static::$state;
     }
 
+    /**
+     * @param StateOrder $state
+     */
     public function setState(StateOrder $state)
     {
         static::$state = $state;
@@ -19,6 +25,9 @@ class ContextOrder extends StateOrder
         static::$state->done();
     }
 
+    /**
+     * @return string
+     */
     public function getStatus(): string
     {
         return static::$state->getStatus();

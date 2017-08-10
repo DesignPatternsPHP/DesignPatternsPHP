@@ -8,6 +8,9 @@ namespace DesignPatterns\Creational\StaticFactory;
  */
 final class StaticFactory
 {
+    const NUMBER_TYPE = 'number';
+    const STRING_TYPE = 'string';
+
     /**
      * @param string $type
      *
@@ -15,11 +18,11 @@ final class StaticFactory
      */
     public static function factory(string $type): FormatterInterface
     {
-        if ($type == 'number') {
+        if (self::NUMBER_TYPE === $type) {
             return new FormatNumber();
         }
 
-        if ($type == 'string') {
+        if (self::STRING_TYPE === $type) {
             return new FormatString();
         }
 

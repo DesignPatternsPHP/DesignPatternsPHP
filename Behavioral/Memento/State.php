@@ -34,6 +34,9 @@ class State
         $this->state = $state;
     }
 
+    /**
+     * @param string $state
+     */
     private static function ensureIsValidState(string $state)
     {
         if (!in_array($state, self::$validStates)) {
@@ -41,6 +44,9 @@ class State
         }
     }
 
+    /**
+     * @return string
+     */
     public function __toString(): string
     {
         return $this->state;
