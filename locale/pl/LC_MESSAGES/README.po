@@ -1,0 +1,122 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-29 19:46+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../README.rst:5
+msgid "DesignPatternsPHP"
+msgstr "DesignPatternsPHP"
+
+#: ../../README.rst:11
+msgid ""
+"This is a collection of known `design patterns`_ and some sample code how "
+"to implement them in PHP. Every pattern has a small list of examples (most "
+"of them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar "
+"with this software)."
+msgstr ""
+"Poniższe zestawienie to zbiór wzorców projektowych wraz z przykładowym kodem "
+"źródłowym ilustrującym ich implementację w PHP. Każdy z nich posiada przykłady,  "
+"pochodzące głównie z Zend Framework, Symfony2 lub Doctrine2 (jako że najlepiej "
+"znam to oprogramowanie)."
+
+#: ../../README.rst:16
+msgid ""
+"I think the problem with patterns is that often people do know them but "
+"don't know when to apply which."
+msgstr ""
+"Uważam, że głównym problemem związanym z wzorcami projektowymi jest to, że ludzie je znają, "
+"ale nie wiedzą, kiedy którego użyć."
+
+#: ../../README.rst:20
+msgid "Patterns"
+msgstr "Wzorce projektowe"
+
+#: ../../README.rst:22
+msgid ""
+"The patterns can be structured in roughly three different categories. "
+"Please click on **the title of every pattern's page** for a full "
+"explanation of the pattern on Wikipedia."
+msgstr ""
+"Wzorce projektowe można z grubsza podzielić na trzy kategorie. "
+"Kliknij na **nazwę wzorca**, aby zobaczyć pełny "
+"opis dane wzorca w Wikipedii."
+
+#: ../../README.rst:35
+msgid "Contribute"
+msgstr "Rozwijaj"
+
+#: ../../README.rst:37
+msgid ""
+"If you encounter any bugs or missing translations, please feel free "
+"to fork and send a pull request with your changes. "
+"To establish a consistent code quality, please check your code using "
+"`PHP CodeSniffer`_ against `PSR2 standard`_ "
+"using ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``."
+msgstr ""
+"Jeżeli zauważysz błędy czy brakujące tłumaczenie skorzystaj z opcji ``fork`` "
+"i uzupełnij braki. Pamiętaj o ``pull request``! "
+"Skorzystaj z opcji fork aby rozszerzać lub dodawać swoje przykłady! "
+"Dla utrzymania spójnego kodu o dobrej jakości, używaj "
+"`PHP CodeSniffer`_ razem ze `Standardem PSR2`_ w taki sposób: `./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .`. "
+
+#: ../../README.rst:44
+msgid "License"
+msgstr "Licencja"
+
+#: ../../README.rst:46
+msgid "(The MIT License)"
+msgstr "(Licencja MIT)"
+
+#: ../../README.rst:48
+msgid "Copyright (c) 2011 - 2017 `Dominik Liebler`_ and `contributors`_"
+msgstr "Copyright (c) 2011 - 2017 `Dominik Liebler`_ i `twórcy`_"
+
+#: ../../README.rst:50
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining a "
+"copy of this software and associated documentation files (the 'Software'), "
+"to deal in the Software without restriction, including without limitation "
+"the rights to use, copy, modify, merge, publish, distribute, sublicense, "
+"and/or sell copies of the Software, and to permit persons to whom the "
+"Software is furnished to do so, subject to the following conditions:"
+msgstr ""
+"Niniejszym gwarantuje się, bez opłat, że każda osoba, która wejdzie w posiadanie kopii tego oprogramowania "
+"i związanych z nim plików dokumentacji (dalej \"Oprogramowanie\") może wprowadzać do obrotu Oprogramowanie "
+"bez żadnych ograniczeń, w tym bez ograniczeń "
+"prawa do użytkowania, kopiowania, modyfikowania, łączenia, publikowania, dystrybuowania, sublicencjonowania "
+"i/lub sprzedaży kopii Oprogramowania a także zezwalania osobie, której "
+"Oprogramowanie zostało dostarczone czynienia tego samego, z zastrzeżeniem następujących warunków:"
+
+#: ../../README.rst:58
+msgid ""
+"The above copyright notice and this permission notice shall be included in "
+"all copies or substantial portions of the Software."
+msgstr ""
+"Powyższa nota zastrzegająca prawa autorskie oraz niniejsza nota zezwalająca muszą zostać włączone "
+"do wszystkich kopii lub istotnych części Oprogramowania."
+
+#: ../../README.rst:61
+msgid ""
+"THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR "
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, "
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE "
+"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER "
+"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING "
+"FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER "
+"DEALINGS IN THE SOFTWARE."
+msgstr ""
+"Oprogramowanie jest dostarczone takim, jakie jest, bez jakiejkolwiek gwarancji, wyraźnej lub dorozumianej, "
+"nie wyłączając gwarancji przydatności handlowej lub przydatności "
+"do określonych celów a także braku wad prawnych. W żadnym przypadku "
+"twórca lub posiadacz praw autorskich nie może ponosić odpowiedzialności z tytułu roszczeń "
+"lub wyrządzonej szkody a także żadnej innej odpowiedzialności czy to wynikającej z umowy, deliktu, "
+"czy jakiejkolwiek innej podstawy powstałej w związku z oprogramowaniem lub "
+"użytkowaniem go lub wprowadzaniem go do obrotu."

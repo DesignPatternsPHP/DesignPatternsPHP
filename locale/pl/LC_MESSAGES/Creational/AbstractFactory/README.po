@@ -1,0 +1,91 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 22:25+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Creational/AbstractFactory/README.rst:2
+msgid "`Abstract Factory`__"
+msgstr "`Fabryka abstrakcyjna <https://pl.wikipedia.org/wiki/Fabryka_abstrakcyjna_(wzorzec_projektowy)>`_ (`Abstract Factory`__)"
+
+#: ../../Creational/AbstractFactory/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Creational/AbstractFactory/README.rst:7
+msgid ""
+"To create series of related or dependent objects without specifying their "
+"concrete classes. Usually the created classes all implement the same "
+"interface. The client of the abstract factory does not care about how these "
+"objects are created, he just knows how they go together."
+msgstr ""
+"Pozwala tworzyć powiązane lub zależne obiekty bez specyfikowania ich konkretnych klas. "
+"Tworzone obiekty zwykle implementują ten sam interfejs. Wzorzec Fabryki abstrakcyjnej kładzie nacisk "
+"na tworzenie obiektów konkretnej rodziny, a nie na sposób w jaki te obiekty są tworzone."
+
+#: ../../Creational/AbstractFactory/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Creational/AbstractFactory/README.rst:20
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/AbstractFactory/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Creational/AbstractFactory/README.rst:24
+msgid "AbstractFactory.php"
+msgstr "AbstractFactory.php"
+
+#: ../../Creational/AbstractFactory/README.rst:30
+msgid "JsonFactory.php"
+msgstr "JsonFactory.php"
+
+#: ../../Creational/AbstractFactory/README.rst:36
+msgid "HtmlFactory.php"
+msgstr "HtmlFactory.php"
+
+#: ../../Creational/AbstractFactory/README.rst:42
+msgid "MediaInterface.php"
+msgstr "MediaInterface.php"
+
+#: ../../Creational/AbstractFactory/README.rst:48
+msgid "Picture.php"
+msgstr "Picture.php"
+
+#: ../../Creational/AbstractFactory/README.rst:54
+msgid "Text.php"
+msgstr "Text.php"
+
+#: ../../Creational/AbstractFactory/README.rst:60
+msgid "Json/Picture.php"
+msgstr "Json/Picture.php"
+
+#: ../../Creational/AbstractFactory/README.rst:66
+msgid "Json/Text.php"
+msgstr "Json/Text.php"
+
+#: ../../Creational/AbstractFactory/README.rst:72
+msgid "Html/Picture.php"
+msgstr "Html/Picture.php"
+
+#: ../../Creational/AbstractFactory/README.rst:78
+msgid "Html/Text.php"
+msgstr "Html/Text.php"
+
+#: ../../Creational/AbstractFactory/README.rst:85
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Creational/AbstractFactory/README.rst:87
+msgid "Tests/AbstractFactoryTest.php"
+msgstr "Tests/AbstractFactoryTest.php"

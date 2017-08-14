@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-03 23:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Nikita Strelkov <nikita.strelkov@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../Structural/Flyweight/README.rst:2
+msgid "`Flyweight`__"
+msgstr "`Pyłek <https://pl.wikipedia.org/wiki/Py%C5%82ek_(wzorzec_projektowy)>`_ (`Flyweight`__)"
+
+#: ../../Structural/Flyweight/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Structural/Flyweight/README.rst:7
+msgid ""
+"To minimise memory usage, a Flyweight shares as much as possible memory "
+"with similar objects. It is needed when a large amount of objects is used"
+" that don't differ much in state. A common practice is to hold state in "
+"external data structures and pass them to the flyweight object when "
+"needed."
+msgstr ""
+"Aby zminimalizować ilość używanej pamięci Pyłek stara się dzielić ją z innymi obiektami "
+"w maksymalnym stopniu. Jest to istotne, kiedy używamy dużej liczby obiektów, których stan "
+"niewiele się różni. Powszechną praktyką jest przechowywanie stanu w zewnętrznej strukturze "
+"danych i przekazywanie go do obiektu, kiedy jest to potrzebne."
+
+#: ../../Structural/Flyweight/README.rst:12
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Structural/Flyweight/README.rst:19
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Structural/Flyweight/README.rst:21
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Structural/Flyweight/README.rst:23
+msgid "FlyweightInterface.php"
+msgstr "FlyweightInterface.php"
+
+#: ../../Structural/Flyweight/README.rst:29
+msgid "CharacterFlyweight.php"
+msgstr "CharacterFlyweight.php"
+
+#: ../../Structural/Flyweight/README.rst:35
+msgid "FlyweightFactory.php"
+msgstr "FlyweightFactory.php"
+
+#: ../../Structural/Flyweight/README.rst:42
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Structural/Flyweight/README.rst:44
+msgid "Tests/FlyweightTest.php"
+msgstr "Tests/FlyweightTest.php"
+

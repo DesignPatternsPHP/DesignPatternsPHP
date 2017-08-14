@@ -1,0 +1,98 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 23:08+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Creational/Pool/README.rst:2
+msgid "`Pool`__"
+msgstr ""
+"`Pula obiektów <https://pl.wikipedia.org/wiki/Pula_obiekt%C3%B3w_(wzorzec_projektowy)>`_ (`Pool`__)"
+
+#: ../../Creational/Pool/README.rst:4
+msgid ""
+"The **object pool pattern** is a software creational design pattern that "
+"uses a set of initialized objects kept ready to use – a \"pool\" – rather "
+"than allocating and destroying them on demand. A client of the pool will "
+"request an object from the pool and perform operations on the returned "
+"object. When the client has finished, it returns the object, which is a "
+"specific type of factory object, to the pool rather than destroying it."
+msgstr ""
+"Wzorzec Puli obiektów wzorcem, który polega na użyciu puli obiektów. Pula obiektów "
+"to zbiór zainicjowanych obiektów, które są trzymane w gotowości do użycia (zamiast je alokować "
+"lub dealokować na żądanie). Klient puli obiektów żąda obiektu z tej puli i wykonuje na tym "
+"obiekcie jakieś operacje. Po skończeniu, zamiast niszczyć obiekt - zwraca go do puli. "
+"Jest to szczególny typ obiektu fabrykującego."
+
+#: ../../Creational/Pool/README.rst:11
+msgid ""
+"Object pooling can offer a significant performance boost in situations where"
+" the cost of initializing a class instance is high, the rate of "
+"instantiation of a class is high, and the number of instances in use at any "
+"one time is low. The pooled object is obtained in predictable time when "
+"creation of the new objects (especially over network) may take variable "
+"time."
+msgstr ""
+"Użycie puli obiektów może przyczynić się do znacznego wzrostu wydajności wtedy, gdy: "
+"koszt inicjalizacji instancji klasy jest wysoki, "
+"częstotliwość tworzenia kolejnych obiektów klasy jest wysoka, "
+"liczba instancji klas będących w użyciu jest mała. "
+"Obiekt z puli jest dostarczany w przewidywalnym czasie, podczas gdy czas tworzenia "
+"nowego obiektu (szczególnie przez sieć) może być duży."
+
+#: ../../Creational/Pool/README.rst:18
+msgid ""
+"However these benefits are mostly true for objects that are expensive with "
+"respect to time, such as database connections, socket connections, threads "
+"and large graphic objects like fonts or bitmaps. In certain situations, "
+"simple object pooling (that hold no external resources, but only occupy "
+"memory) may not be efficient and could decrease performance."
+msgstr ""
+"Korzyści te są w większości odczuwalne dla takich obiektów jak: "
+"połączenia bazodanowe, połączenia gniazdowe, wątki, "
+"duże obiekty graficzne (takie jak fonty i bitmapy). "
+"Użycie puli dla prostych obiektów (które nie wskazują na zewnętrzne zasoby, lecz tylko zajmują pamięć), "
+"nie jest tak samo efektywne i może nawet obniżyć wydajność."
+
+#: ../../Creational/Pool/README.rst:25
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Creational/Pool/README.rst:32
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/Pool/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Creational/Pool/README.rst:36
+msgid "Pool.php"
+msgstr "Pool.php"
+
+#: ../../Creational/Pool/README.rst:42
+msgid "Processor.php"
+msgstr "Processor.php"
+
+#: ../../Creational/Pool/README.rst:48
+msgid "Worker.php"
+msgstr "Worker.php"
+
+#: ../../Creational/Pool/README.rst:55
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Creational/Pool/README.rst:57
+msgid "Tests/PoolTest.php"
+msgstr "Tests/PoolTest.php"
+
+#: ../../Creational/Pool/README.rst:63
+msgid "Tests/TestWorker.php"
+msgstr "Tests/TestWorker.php"

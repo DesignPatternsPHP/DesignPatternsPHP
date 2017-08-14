@@ -1,0 +1,96 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 22:46+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Creational/FactoryMethod/README.rst:2
+msgid "`Factory Method`__"
+msgstr "`Metoda wytwórcza <https://pl.wikipedia.org/wiki/Metoda_wytw%C3%B3rcza_(wzorzec_projektowy)>`_ (`Factory Method`__)"
+
+#: ../../Creational/FactoryMethod/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Creational/FactoryMethod/README.rst:7
+msgid ""
+"The good point over the SimpleFactory is you can subclass it to implement "
+"different ways to create objects"
+msgstr ""
+"Przewagą Metody wytwórczej nad Fabryką uproszczoną jest możliwość implementowania różnych sposobów tworzenia "
+"obiektów poprzez dziedziczenie po klasie Metody wytwórczej."
+
+#: ../../Creational/FactoryMethod/README.rst:10
+msgid "For simple case, this abstract class could be just an interface"
+msgstr ""
+"W prostych przypadkach zamiast klasy abstrakcyjnej można użyć zwykłego interfejsu."
+
+#: ../../Creational/FactoryMethod/README.rst:12
+msgid ""
+"This pattern is a \"real\" Design Pattern because it achieves the "
+"\"Dependency Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
+msgstr ""
+"Ten wzorzec implementuje jedną z podstawowych zasad programowania obiektowego `SOLID <https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe)>`_ - \"D\" - zasadę odwrócenia zależności (ang. `Dependency inversion principle`)."
+
+#: ../../Creational/FactoryMethod/README.rst:15
+msgid ""
+"It means the FactoryMethod class depends on abstractions, not concrete "
+"classes. This is the real trick compared to SimpleFactory or StaticFactory."
+msgstr ""
+"Oznacza to, że klasa ``FactoryMethod`` opiera się na abstrakcji, a nie na konkretnej implementacji. "
+"Widać w porównaniu z Fabryką uproszczoną czy Fabryką statyczną."
+
+#: ../../Creational/FactoryMethod/README.rst:20
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Creational/FactoryMethod/README.rst:27
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/FactoryMethod/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Creational/FactoryMethod/README.rst:31
+msgid "FactoryMethod.php"
+msgstr "FactoryMethod.php"
+
+#: ../../Creational/FactoryMethod/README.rst:37
+msgid "ItalianFactory.php"
+msgstr "ItalianFactory.php"
+
+#: ../../Creational/FactoryMethod/README.rst:43
+msgid "GermanFactory.php"
+msgstr "GermanFactory.php"
+
+#: ../../Creational/FactoryMethod/README.rst:49
+msgid "VehicleInterface.php"
+msgstr "VehicleInterface.php"
+
+#: ../../Creational/FactoryMethod/README.rst:55
+msgid "Porsche.php"
+msgstr "Porsche.php"
+
+#: ../../Creational/FactoryMethod/README.rst:61
+msgid "Bicycle.php"
+msgstr "Bicycle.php"
+
+#: ../../Creational/FactoryMethod/README.rst:67
+msgid "Ferrari.php"
+msgstr "Ferrari.php"
+
+#: ../../Creational/FactoryMethod/README.rst:74
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Creational/FactoryMethod/README.rst:76
+msgid "Tests/FactoryMethodTest.php"
+msgstr "Tests/FactoryMethodTest.php"

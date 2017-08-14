@@ -1,0 +1,90 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-31 14:58+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Structural/Adapter/README.rst:2
+msgid "`Adapter / Wrapper`__"
+msgstr ""
+"`Adapter <https://pl.wikipedia.org/wiki/Adapter_(wzorzec_projektowy)>`_ "
+"(`Adapter / Wrapper`__)"
+
+#: ../../Structural/Adapter/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Structural/Adapter/README.rst:7
+msgid ""
+"To translate one interface for a class into a compatible interface. An "
+"adapter allows classes to work together that normally could not because of "
+"incompatible interfaces by providing its interface to clients while using "
+"the original interface."
+msgstr ""
+"Adapter pozwala z jednej strony na opakowanie interfejsu istniejącej klasy nowym, "
+"kompatybilnym z naszą aplikacją. Z drugiej strony pozwala współpracować klasom o "
+"niekompatybilnych interfejsach poprzez udostępnienie nowego interfejsu (bazującego na "
+"niekompatybilnych interfejsach)."
+
+#: ../../Structural/Adapter/README.rst:13
+msgid "Examples"
+msgstr "Przykłady"
+
+#: ../../Structural/Adapter/README.rst:15
+msgid "DB Client libraries adapter"
+msgstr "Adaptery bibliotek do łączenia się z bazami danych."
+
+#: ../../Structural/Adapter/README.rst:16
+msgid ""
+"using multiple different webservices and adapters normalize data so that the"
+" outcome is the same for all"
+msgstr ""
+"Używanie różnych webserwisów i adapterów pozwala nam w spójny sposób korzystać z danych "
+"(na przykład kiedy korzystamy z ogólnodostępnych API)."
+
+#: ../../Structural/Adapter/README.rst:20
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Structural/Adapter/README.rst:27
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Structural/Adapter/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Structural/Adapter/README.rst:31
+msgid "PaperBookInterface.php"
+msgstr "PaperBookInterface.php"
+
+#: ../../Structural/Adapter/README.rst:37
+msgid "Book.php"
+msgstr "Book.php"
+
+#: ../../Structural/Adapter/README.rst:43
+msgid "EBookAdapter.php"
+msgstr "EBookAdapter.php"
+
+#: ../../Structural/Adapter/README.rst:49
+msgid "EBookInterface.php"
+msgstr "EBookInterface.php"
+
+#: ../../Structural/Adapter/README.rst:55
+msgid "Kindle.php"
+msgstr "Kindle.php"
+
+#: ../../Structural/Adapter/README.rst:62
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Structural/Adapter/README.rst:64
+msgid "Tests/AdapterTest.php"
+msgstr "Tests/AdapterTest.php"

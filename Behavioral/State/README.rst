@@ -47,5 +47,12 @@ CreateOrder.php
 Test
 ----
 
+Tests/StateTest.php
+
+.. literalinclude:: Tests/StateTest.php
+   :language: php
+   :linenos:
+
+
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/State
 .. __: http://en.wikipedia.org/wiki/State_pattern

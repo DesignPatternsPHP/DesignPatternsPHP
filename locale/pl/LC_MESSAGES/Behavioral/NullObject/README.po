@@ -1,0 +1,109 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 14:24+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Behavioral/NullObject/README.rst:2
+msgid "`Null Object`__"
+msgstr "`Pusty obiekt <https://pl.wikipedia.org/wiki/Pusty_Obiekt_(wzorzec_projektowy)>`_ (`Null Object`__)"
+
+#: ../../Behavioral/NullObject/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Behavioral/NullObject/README.rst:7
+msgid ""
+"NullObject is not a GoF design pattern but a schema which appears "
+"frequently enough to be considered a pattern. It has the following benefits:"
+msgstr ""
+"Pusty Obiekt nie jest wzrorcem zaproponowanym przez Bandę Czterech, "
+"niemniej jednak jest na tyle popularny, że może być uznany za wzorzec. Użycie tego wzorca niesie następujące korzyści: "
+
+#: ../../Behavioral/NullObject/README.rst:11
+msgid "Client code is simplified"
+msgstr "uproszcza kodu programu,"
+
+#: ../../Behavioral/NullObject/README.rst:12
+msgid "Reduces the chance of null pointer exceptions"
+msgstr ""
+"zmniejsza prawdopodobieństwo wystąpienia błędu *null pointer exception*,"
+
+#: ../../Behavioral/NullObject/README.rst:13
+msgid "Fewer conditionals require less test cases"
+msgstr "eliminuje zbędne lub powtarzające się warunki, które wpływają na zmniejszenie liczby przypadków testowych,"
+
+#: ../../Behavioral/NullObject/README.rst:15
+msgid ""
+"Methods that return an object or null should instead return an object or "
+"``NullObject``. ``NullObject``\\ s simplify boilerplate code such as ``if "
+"(!is_null($obj)) { $obj->callSomething(); }`` to just "
+"``$obj->callSomething();`` by eliminating the conditional check in client "
+"code."
+msgstr ""
+"Metoda, która zwraca obiekt lub null powinna zwracać obiekt lub Obiekt Pusty (``NullObject``). "
+"``NullObject`` w znaczący sposób upraszcza kod z postaci ``if (!is_null($obj)) { $obj->callSomething(); }`` "
+"do ``$obj->callSomething();`` poprzez eliminację warunku w kodzie klienta."
+
+#: ../../Behavioral/NullObject/README.rst:22
+msgid "Examples"
+msgstr "Przykłady"
+
+#: ../../Behavioral/NullObject/README.rst:24
+msgid "Symfony2: null logger of profiler"
+msgstr "Symfony2: `NullLogger <http://api.symfony.com/2.8/Symfony/Component/HttpKernel/Log/NullLogger.html>`_ w ramach profilera."
+
+#: ../../Behavioral/NullObject/README.rst:25
+msgid "Symfony2: null output in Symfony/Console"
+msgstr "Symfony2: `NullOutput <http://api.symfony.com/2.8/Symfony/Component/Console/Output/NullOutput.html>`_ w ramach komponentu Symfony/Coonsole."
+
+#: ../../Behavioral/NullObject/README.rst:26
+msgid "null handler in a Chain of Responsibilities pattern"
+msgstr "Obsługa NULL we wzrocu Łańcuch zobowiązań."
+
+#: ../../Behavioral/NullObject/README.rst:27
+msgid "null command in a Command pattern"
+msgstr "Polecenie NULL we wzorcu Polecenie."
+
+#: ../../Behavioral/NullObject/README.rst:30
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Behavioral/NullObject/README.rst:37
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/NullObject/README.rst:39
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Behavioral/NullObject/README.rst:41
+msgid "Service.php"
+msgstr "Service.php"
+
+#: ../../Behavioral/NullObject/README.rst:47
+msgid "LoggerInterface.php"
+msgstr "LoggerInterface.php"
+
+#: ../../Behavioral/NullObject/README.rst:53
+msgid "PrintLogger.php"
+msgstr "PrintLogger.php"
+
+#: ../../Behavioral/NullObject/README.rst:59
+msgid "NullLogger.php"
+msgstr "NullLogger.php"
+
+#: ../../Behavioral/NullObject/README.rst:66
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Behavioral/NullObject/README.rst:68
+msgid "Tests/LoggerTest.php"
+msgstr "Tests/LoggerTest.php"

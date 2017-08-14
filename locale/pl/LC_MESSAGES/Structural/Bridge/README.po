@@ -1,0 +1,82 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-06-02 00:24+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Structural/Bridge/README.rst:2
+msgid "`Bridge`__"
+msgstr ""
+"`Most <https://pl.wikipedia.org/wiki/Most_(wzorzec_projektowy)>`_ "
+"(`Bridge`__)"
+
+#: ../../Structural/Bridge/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Structural/Bridge/README.rst:7
+msgid ""
+"Decouple an abstraction from its implementation so that the two can vary "
+"independently."
+msgstr ""
+"Pozwala oddzielić abstrakcję obiektu od jego implementacji."
+
+#: ../../Structural/Bridge/README.rst:11
+msgid "Sample:"
+msgstr "Przykład:"
+
+#: ../../Structural/Bridge/README.rst:13
+msgid "`Symfony DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
+msgstr ""
+"`Symfony DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
+
+#: ../../Structural/Bridge/README.rst:17
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Structural/Bridge/README.rst:24
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Structural/Bridge/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Structural/Bridge/README.rst:28
+msgid "Workshop.php"
+msgstr "Workshop.php"
+
+#: ../../Structural/Bridge/README.rst:34
+msgid "Assemble.php"
+msgstr "Assemble.php"
+
+#: ../../Structural/Bridge/README.rst:40
+msgid "Produce.php"
+msgstr "Produce.php"
+
+#: ../../Structural/Bridge/README.rst:46
+msgid "Vehicle.php"
+msgstr "Vehicle.php"
+
+#: ../../Structural/Bridge/README.rst:52
+msgid "Motorcycle.php"
+msgstr "Motorcycle.php"
+
+#: ../../Structural/Bridge/README.rst:58
+msgid "Car.php"
+msgstr "Car.php"
+
+#: ../../Structural/Bridge/README.rst:65
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Structural/Bridge/README.rst:67
+msgid "Tests/BridgeTest.php"
+msgstr "Tests/BridgeTest.php"

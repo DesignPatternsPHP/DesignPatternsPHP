@@ -1,0 +1,76 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-06-02 01:36+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Structural/Registry/README.rst:2
+msgid "`Registry`__"
+msgstr "Rejestr (Registry)"
+
+#: ../../Structural/Registry/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Structural/Registry/README.rst:7
+msgid ""
+"To implement a central storage for objects often used throughout the "
+"application, is typically implemented using an abstract class with only "
+"static methods (or using the Singleton pattern). Remember that this introduces "
+"global state, which should be avoided at all times! Instead implement it using Dependency Injection!"
+msgstr ""
+"Pozwala zaimplementować centralny magazyn często używanych obiektów w aplikacji. "
+"Zwykle jest implementowany przy użyciu klasy abstrakcyjnej posiadającej tylko "
+"statyczne metody lub przy użyciu wzorca Singleton. Zwróć uwagę, że Rejestr wprowadza globalny stan, "
+"czego powinno się unikać za wszelką cenę! Zamiast Rejestru powinieneś zaimplementować wzorzec Wstrzykiwania zależności."
+
+#: ../../Structural/Registry/README.rst:12
+msgid "Examples"
+msgstr "Przykłady"
+
+#: ../../Structural/Registry/README.rst:14
+msgid ""
+"Zend Framework 1: ``Zend_Registry`` holds the application's logger "
+"object, front controller etc."
+msgstr ""
+"Zend Framework 1: ``Zend_Registry`` przechowuje kluczowe elementy aplikacji "
+"jak logger, front controller itp."
+
+#: ../../Structural/Registry/README.rst:16
+msgid ""
+"Yii Framework: ``CWebApplication`` holds all the application components, "
+"such as ``CWebUser``, ``CUrlManager``, etc."
+msgstr ""
+"Yii Framework: ``CWebApplication`` zawiera wszystkie komponenty aplikacji "
+"takie jak ``CWebUser``, ``CUrlManager``, itp."
+
+#: ../../Structural/Registry/README.rst:20
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Structural/Registry/README.rst:27
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Structural/Registry/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Structural/Registry/README.rst:31
+msgid "Registry.php"
+msgstr "Registry.php"
+
+#: ../../Structural/Registry/README.rst:38
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Structural/Registry/README.rst:40
+msgid "Tests/RegistryTest.php"
+msgstr "Tests/RegistryTest.php"

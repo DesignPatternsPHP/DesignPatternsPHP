@@ -1,0 +1,82 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 05:20+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Behavioral/Observer/README.rst:2
+msgid "`Observer`__"
+msgstr "`Obserwator <https://pl.wikipedia.org/wiki/Obserwator_(wzorzec_projektowy)>`_ (`Observer`__)"
+
+#: ../../Behavioral/Observer/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Behavioral/Observer/README.rst:7
+msgid ""
+"To implement a publish/subscribe behaviour to an object, whenever a "
+"\"Subject\" object changes its state, the attached \"Observers\" will be "
+"notified. It is used to shorten the amount of coupled objects and uses loose"
+" coupling instead."
+msgstr ""
+"Pozwala na implementację zachowania rozgłaszania i konsumowania informacji o zmianach w danym obiekcie. "
+"Wzorzec Obserwator składa się z Obiektu Obserwowanego (ang. `subject`, `observable`) i Obserwatora (ang. `listener`, `observer`). "
+"Za każdym razem, kiedy Obiekt Obserwowany zmienia swój stan, wszyscy obserwujący go Obserwatorzy są informowani o zmianie. "
+"Takie działa pozwala na zmniejszenie powiązań pomiędzy obiektami. Zamiast ścisłego wiązania używane jest luźne wiązanie."
+
+#: ../../Behavioral/Observer/README.rst:13
+msgid "Examples"
+msgstr "Przykłady"
+
+#: ../../Behavioral/Observer/README.rst:15
+msgid ""
+"a message queue system is observed to show the progress of a job in a GUI"
+msgstr ""
+"System kolejkowania wiadomości jest obserwowany, aby wyświetlić postęp w realizacji danego zadania w GUI."
+
+#: ../../Behavioral/Observer/README.rst:19
+msgid "Note"
+msgstr "Uwaga"
+
+#: ../../Behavioral/Observer/README.rst:21
+msgid ""
+"PHP already defines two interfaces that can help to implement this pattern: "
+"SplObserver and SplSubject."
+msgstr ""
+"W PHP są dostępne dwa interfejsy, dostępne w bibliotece SPL: *SplSubject* i *SplObserver*, które pozwalają "
+"zaimplementować wzorzec Obserwatora."
+
+#: ../../Behavioral/Observer/README.rst:25
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Behavioral/Observer/README.rst:32
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/Observer/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Behavioral/Observer/README.rst:36
+msgid "User.php"
+msgstr "User.php"
+
+#: ../../Behavioral/Observer/README.rst:42
+msgid "UserObserver.php"
+msgstr "UserObserver.php"
+
+#: ../../Behavioral/Observer/README.rst:49
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Behavioral/Observer/README.rst:51
+msgid "Tests/ObserverTest.php"
+msgstr "Tests/ObserverTest.php"

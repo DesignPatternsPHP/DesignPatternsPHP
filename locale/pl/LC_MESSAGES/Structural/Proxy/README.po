@@ -1,0 +1,65 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-06-02 01:56+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Structural/Proxy/README.rst:2
+msgid "`Proxy`__"
+msgstr ""
+"`Pełnomocnik <https://pl.wikipedia.org/wiki/Pe%C5%82nomocnik_(wzorzec_projektowy)>`_ "
+"(`Proxy`__)"
+
+#: ../../Structural/Proxy/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Structural/Proxy/README.rst:7
+msgid "To interface to anything that is expensive or impossible to duplicate."
+msgstr ""
+"Stosowany jest w celu kontrolowanego tworzenia na żądanie kosztownych obiektów oraz kontroli dostępu do nich."
+
+#: ../../Structural/Proxy/README.rst:10
+msgid "Examples"
+msgstr "Przykłady"
+
+#: ../../Structural/Proxy/README.rst:12
+msgid ""
+"Doctrine2 uses proxies to implement framework magic (e.g. lazy "
+"initialization) in them, while the user still works with his own entity "
+"classes and will never use nor touch the proxies"
+msgstr ""
+"Doctrine2 używa Pełnomocników do zaimplementowania późnej inicjalizacji (ang. `lazy initialization`), "
+"co przekłada się na sposób pracy z encjami. Zamiast otrzymywać obiekt encji, która na przykład nie może być w pełni "
+"zainicjalizowana, otrzymujemy obiekt Pośrednika."
+
+#: ../../Structural/Proxy/README.rst:17
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Structural/Proxy/README.rst:24
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Structural/Proxy/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Structural/Proxy/README.rst:28
+msgid "Record.php"
+msgstr "Record.php"
+
+#: ../../Structural/Proxy/README.rst:34
+msgid "RecordProxy.php"
+msgstr "RecordProxy.php"
+
+#: ../../Structural/Proxy/README.rst:41
+msgid "Test"
+msgstr "Testy"

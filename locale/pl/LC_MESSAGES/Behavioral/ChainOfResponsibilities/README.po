@@ -1,0 +1,99 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-29 21:17+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:2
+msgid "`Chain Of Responsibilities`__"
+msgstr "`Łańcuch zobowiązań <https://pl.wikipedia.org/wiki/%C5%81a%C5%84cuch_zobowi%C4%85za%C5%84_(wzorzec_projektowy)>`_ (`Chain Of Responsibilities`__)"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:7
+msgid ""
+"To build a chain of objects to handle a call in sequential order. If one "
+"object cannot handle a call, it delegates the call to the next in the chain "
+"and so forth."
+msgstr ""
+"Zbudowanie łańcucha obiektów przetwarzających żądanie w sposób sekwencyjny. "
+"Jeżeli jeden obiekt nie może obsłużyć żądania, przekazuje je do następnego w łańcuchu."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:12
+msgid "Examples"
+msgstr "Przykłady"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:14
+msgid ""
+"logging framework, where each chain element decides autonomously what to do "
+"with a log message"
+msgstr ""
+"Framework do zapisywania logów, gdzie każdy obiekt z łańcucha odpowiedzialności decyduje  "
+"co zrobić z danym wpisem."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:16
+msgid "a Spam filter"
+msgstr "filtr antyspamowy"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:17
+msgid ""
+"Caching: first object is an instance of e.g. a Memcached Interface, if that "
+"\"misses\" it delegates the call to the database interface"
+msgstr ""
+"Zapis w pamięci podręcznej (caching): pierwszy obiekt jest na przykład instancją implementującą interfejs Memcached - "
+"jeżeli nie może zapisać w pamięci podręcznej żądania, wtedy przekazuje je do obiektu implementującego interfejs zapisu w bazie danych."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
+msgid ""
+"Yii Framework: CFilterChain is a chain of controller action filters. the "
+"executing point is passed from one filter to the next along the chain, and "
+"only if all filters say \"yes\", the action can be invoked at last."
+msgstr ""
+"Yii Framework: CFilterChain jest łańcuchem filtrów dla danej akcji kontrolera. "
+"Wszystkie filtry są wykonywane po kolei w łańcuchu i dopiero jak wszystkie "
+"zwrócą pozytywny wynik finalna akcja zostanie uruchomiona."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:25
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:32
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:36
+msgid "Request.php"
+msgstr "Request.php"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:42
+msgid "Handler.php"
+msgstr "Handler.php"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:48
+msgid "Responsible/SlowStorage.php"
+msgstr "Responsible/SlowStorage.php"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:54
+msgid "Responsible/FastStorage.php"
+msgstr "Responsible/FastStorage.php"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:61
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:63
+msgid "Tests/ChainTest.php"
+msgstr "Tests/ChainTest.php"

@@ -1,0 +1,128 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-06-02 01:32+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Structural/DependencyInjection/README.rst:2
+msgid "`Dependency Injection`__"
+msgstr ""
+"`Wstrzykiwanie zależności <https://pl.wikipedia.org/wiki/Wstrzykiwanie_zale%C5%BCno%C5%9Bci>`_ (`Dependency Injection`__)"
+
+#: ../../Structural/DependencyInjection/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Structural/DependencyInjection/README.rst:7
+msgid ""
+"To implement a loosely coupled architecture in order to get better testable,"
+" maintainable and extendable code."
+msgstr ""
+"Pozwala stworzyć luźno powiązaną architekturę, aby uzyskać aplikację, którą "
+"możemy w łatwy sposób testować, utrzymywać i rozszerzać."
+
+#: ../../Structural/DependencyInjection/README.rst:11
+msgid "Usage"
+msgstr "Użycie"
+
+#: ../../Structural/DependencyInjection/README.rst:13
+msgid ""
+"DatabaseConfiguration gets injected and ``DatabaseConnection`` will get all that it "
+"needs from ``$config``. Without DI, the configuration would be created "
+"directly in ``DatabaseConnection``, which is not very good for testing and "
+"extending it."
+msgstr ""
+"Konfiguracja połączenia z bazą danych zostaje wstrzyknięta i obiekt klasy "
+"``DatabaseConnection`` może pobrać wszystkie potrzebne parametry z tablicy ``$config``. "
+"Bez Wstrzykiwania zależności zostałaby zawarta bezpośrednio w klasie ``DatabaseConnection``, "
+"co nie jest dobrym pomysłem ze względu na utrudnione testowanie i rozszerzanie klasy ``DatabaseConnection``."
+
+#: ../../Structural/DependencyInjection/README.rst:18
+msgid ""
+"Notice we are following Inversion of control principle in ``Connection`` by "
+"asking ``$config`` to implement ``Parameters`` interface. This decouples our"
+" components. We don't care where the source of information comes from, we "
+"only care that ``$config`` has certain methods to retrieve that information."
+" Read more about Inversion of control `here "
+"<http://en.wikipedia.org/wiki/Inversion_of_control>`__."
+msgstr ""
+"Istotnym jest fakt, że klasa ``DatabaseConnection`` przestrzega zasady "
+"odwróconego sterowania (ang. `Inverse of Controll, IoC`) "
+"- obiekt, który przekazujemy do konstruktora klasy ``DatabaseConnection`` "
+"musi implementować ``DatabaseConfiguration``. "
+"Dzięki temu oba komponenty są od siebie niezależne. W klasie ``DatabaseConnection`` nie "
+"interesuje nas skąd przychodzą parametry konfiguracyjne. Liczy się dla nas tylko to, aby obiekt "
+"w argumencie ``$config`` posiadał odpowiednie metody, za pomocą których te dane pobierzemy. "
+"Więcej informacji na temat `odwóconego sterowania <https://pl.wikipedia.org/wiki/Odwr%C3%B3cenie_sterowania>`_."
+
+#: ../../Structural/DependencyInjection/README.rst:26
+msgid "Examples"
+msgstr "Przykłady"
+
+#: ../../Structural/DependencyInjection/README.rst:28
+msgid ""
+"The Doctrine2 ORM uses dependency injection e.g. for configuration that is "
+"injected into a ``Connection`` object. For testing purposes, one can easily "
+"create a mock object of the configuration and inject that into the "
+"``Connection`` object"
+msgstr ""
+"Doctrine2 ORM używa wstrzykiwania zależności do, na przykład, do wstrzykiwania konfiguracji "
+"do obiektu klasy ``Connection``. Na potrzeby testowania, można stworzyć obiekty symulujące "
+"konfigurację i wstrzyknąć je do obiektu klasy ``Connection``."
+
+#: ../../Structural/DependencyInjection/README.rst:32
+msgid ""
+"Symfony and Zend Framework 2 already have containers for DI that create "
+"objects via a configuration array and inject them where needed (i.e. in "
+"Controllers)"
+msgstr ""
+"Symfony i Zend Framework 2 posiadają kontenery do wstrzykiwania zależności, "
+"które pozwalają tworzyć obiekty poprzez tablicę konfiguracyjną i wstrzykiwać je "
+"tam, gdzie są potrzebne (na przykład do kontrolera)."
+
+#: ../../Structural/DependencyInjection/README.rst:37
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Structural/DependencyInjection/README.rst:44
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Structural/DependencyInjection/README.rst:46
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Structural/DependencyInjection/README.rst:48
+msgid "AbstractConfig.php"
+msgstr "AbstractConfig.php"
+
+#: ../../Structural/DependencyInjection/README.rst:54
+msgid "Parameters.php"
+msgstr "Parameters.php"
+
+#: ../../Structural/DependencyInjection/README.rst:60
+msgid "ArrayConfig.php"
+msgstr "ArrayConfig.php"
+
+#: ../../Structural/DependencyInjection/README.rst:66
+msgid "Connection.php"
+msgstr "Connection.php"
+
+#: ../../Structural/DependencyInjection/README.rst:73
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Structural/DependencyInjection/README.rst:75
+msgid "Tests/DependencyInjectionTest.php"
+msgstr "Tests/DependencyInjectionTest.php"
+
+#: ../../Structural/DependencyInjection/README.rst:81
+msgid "Tests/config.php"
+msgstr "Tests/config.php"

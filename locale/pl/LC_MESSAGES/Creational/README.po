@@ -1,0 +1,29 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 23:11+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Creational/README.rst:2
+msgid "`Creational`__"
+msgstr "Kreacyjne (`Creational`__)"
+
+#: ../../Creational/README.rst:4
+msgid ""
+"In software engineering, creational design patterns are design patterns that"
+" deal with object creation mechanisms, trying to create objects in a manner "
+"suitable to the situation. The basic form of object creation could result in"
+" design problems or added complexity to the design. Creational design "
+"patterns solve this problem by somehow controlling this object creation."
+msgstr ""
+"W inżynierii oprogramowania wzorce kreacyjne to takie, które dotyczą mechanizmów tworzenia obiektów "
+"w najlepszy możliwy sposób dla danej sytuacji. Tworzenie obiektów w sposób standardowy często "
+"skutkuje problemami na poziomie architektury lub w dodatkowy sposób ją komplikuje. "
+"Wzorce kreacyjne pozwalają rozwiązać ten problem poprzez wprowadzenie kontroli nad tym jak obiekty są tworzone. "

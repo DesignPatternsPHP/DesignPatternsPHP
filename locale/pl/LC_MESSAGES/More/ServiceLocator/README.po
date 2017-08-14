@@ -1,0 +1,120 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 05:14+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../More/ServiceLocator/README.rst:2
+msgid "`Service Locator`__"
+msgstr "Lokalizator usług (`Service Locator`__)"
+
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN!**"
+msgstr "**TEN WZORZEC PROJEKTOWY JEST UZNAWANY ZA ANTY-WZORZEC!**"
+
+msgid ""
+"Service Locator is considered for some people an anti-pattern. It violates the Dependency Inversion principle. "
+"Service Locator hides class' dependencies instead of exposing them as you would do using the Dependency Injection. In case of changes of those dependencies you risk to break the functionality of classes which are using them, making your system difficult to maintain."
+msgstr ""
+"Lokalizator usług (ang. `Service Locator`) jest uważany przez część środowiska za anty-wzorzec. "
+"Łamie zasadę odwrócenia zależności ze zbioru zasad "
+"`SOLID <https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe)>`_. "
+"Lokalizator usług ukrywa zależności danej klasy zamiast je udostępniać, jak ma to miejsce "
+"we wzorcu Wstrzykiwania zależności (ang. `Dependency Injection`). W przypadku zmiany w zależnościach "
+"ryzykujemy problemami z niepoprawnym działaniem klas, które z tych zależności korzystają. "
+"Powoduje to, że system staje się trudniejszy w utrzymaniu."
+
+#: ../../More/ServiceLocator/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../More/ServiceLocator/README.rst:7
+msgid ""
+"To implement a loosely coupled architecture in order to get better testable,"
+" maintainable and extendable code. DI pattern and Service Locator pattern "
+"are an implementation of the Inverse of Control pattern."
+msgstr ""
+"Lokalizator usług jest używany do stworzenia luźno powiązanej architektury, w celu "
+"uzyskania kodu łatwiejszego w testowaniu, utrzymaniu i rozszerzaniu. Wzorce "
+"Wstrzykiwania zależności i Lokalizatora usług są implementacją wzorca `Odwrócenia sterowania <https://pl.wikipedia.org/wiki/Odwr%C3%B3cenie_sterowania>`_."
+
+#: ../../More/ServiceLocator/README.rst:12
+msgid "Usage"
+msgstr "Użycie"
+
+#: ../../More/ServiceLocator/README.rst:14
+msgid ""
+"With ``ServiceLocator`` you can register a service for a given interface. By"
+" using the interface you can retrieve the service and use it in the classes "
+"of the application without knowing its implementation. You can configure and"
+" inject the Service Locator object on bootstrap."
+msgstr ""
+"Przy użyciu Lokalizatora usług możemy zarejestrować usługę pod daną nazwą interfejsu. "
+"Używając nazwy interfejsu możemy pobrać daną usługę i wykorzystywać ją dalej w klasach  "
+"bez znajomości jej implementacji. Konfigurację i wstrzykiwanie obiektu Lokalizatora usług "
+"możemy ustawić na poziomie boostrapu aplikacji."
+
+#: ../../More/ServiceLocator/README.rst:20
+msgid "Examples"
+msgstr "Przykłady"
+
+#: ../../More/ServiceLocator/README.rst:22
+msgid ""
+"Zend Framework 2 uses Service Locator to create and share services used in "
+"the framework(i.e. EventManager, ModuleManager, all custom user services "
+"provided by modules, etc...)"
+msgstr ""
+"Zend Framework 2 wykorzystuje Lokalizator usług do tworzenia i udostępniania "
+"usług używanych w tym frameworku (np. EventManager, ModuleManager, dedykowane usługi "
+"udostępnione przez moduły, itp.)."
+
+#: ../../More/ServiceLocator/README.rst:27
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../More/ServiceLocator/README.rst:34
+msgid "Code"
+msgstr "Kod"
+
+#: ../../More/ServiceLocator/README.rst:36
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../More/ServiceLocator/README.rst:38
+msgid "ServiceLocatorInterface.php"
+msgstr "ServiceLocatorInterface.php"
+
+#: ../../More/ServiceLocator/README.rst:44
+msgid "ServiceLocator.php"
+msgstr "ServiceLocator.php"
+
+#: ../../More/ServiceLocator/README.rst:50
+msgid "LogServiceInterface.php"
+msgstr "LogServiceInterface.php"
+
+#: ../../More/ServiceLocator/README.rst:56
+msgid "LogService.php"
+msgstr "LogService.php"
+
+#: ../../More/ServiceLocator/README.rst:62
+msgid "DatabaseServiceInterface.php"
+msgstr "DatabaseServiceInterface.php"
+
+#: ../../More/ServiceLocator/README.rst:68
+msgid "DatabaseService.php"
+msgstr "DatabaseService.php"
+
+#: ../../More/ServiceLocator/README.rst:75
+msgid "Test"
+msgstr "Testy"
+
+#: ../../More/ServiceLocator/README.rst:77
+msgid "Tests/ServiceLocatorTest.php"
+msgstr "Tests/ServiceLocatorTest.php"

@@ -1,0 +1,70 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 23:17+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Creational/SimpleFactory/README.rst:2
+msgid "Simple Factory"
+msgstr "Fabryka uproszczona (Simple Factory)"
+
+#: ../../Creational/SimpleFactory/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Creational/SimpleFactory/README.rst:7
+msgid "SimpleFactory is a simple factory pattern."
+msgstr "Klasa ``SimpleFactory`` w poniższym przykładzie jest implementacją wzorca Fabryki uproszczonej."
+
+#: ../../Creational/SimpleFactory/README.rst:9
+msgid ""
+"It differs from the static factory because it is not static. "
+"Therefore, you can have multiple factories, differently parametrized, you can subclass it and you can mock it. "
+"It always should be preferred over a static factory!"
+msgstr ""
+"W odróżnieniu od Fabryki statycznej implementacja Fabryki uproszczonej nie jest statyczna. "
+"Dzięki temu możemy tworzyć wiele instancji fabryki, parametryzować je w odmienny sposób, dziedziczyć po niej i przygotowywać zaślepki (ang. `mock`). "
+"Wybór tej fabryki powinien przeważyć nad wyborem Fabryki statycznej."
+
+#: ../../Creational/SimpleFactory/README.rst:16
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Creational/SimpleFactory/README.rst:23
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/SimpleFactory/README.rst:25
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Creational/SimpleFactory/README.rst:27
+msgid "SimpleFactory.php"
+msgstr "SimpleFactory.php"
+
+#: ../../Creational/SimpleFactory/README.rst:33
+msgid "VehicleInterface.php"
+msgstr "VehicleInterface.php"
+
+#: ../../Creational/SimpleFactory/README.rst:39
+msgid "Bicycle.php"
+msgstr "Bicycle.php"
+
+#: ../../Creational/SimpleFactory/README.rst:45
+msgid "Scooter.php"
+msgstr "Scooter.php"
+
+#: ../../Creational/SimpleFactory/README.rst:52
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Creational/SimpleFactory/README.rst:54
+msgid "Tests/SimpleFactoryTest.php"
+msgstr "Tests/SimpleFactoryTest.php"

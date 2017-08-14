@@ -1,0 +1,95 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 18:41+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.1\n"
+
+#: ../../Behavioral/TemplateMethod/README.rst:2
+msgid "`Template Method`__"
+msgstr "`Metoda szablonowa <https://pl.wikipedia.org/wiki/Metoda_szablonowa_(wzorzec_projektowy)>`_ (`Template Method`__)"
+
+#: ../../Behavioral/TemplateMethod/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Behavioral/TemplateMethod/README.rst:7
+msgid "Template Method is a behavioral design pattern."
+msgstr "Metoda szablonowa jest czynnościowym wzorcem projektowym."
+
+#: ../../Behavioral/TemplateMethod/README.rst:9
+msgid ""
+"Perhaps you have encountered it many times already. The idea is to let "
+"subclasses of this abstract template \"finish\" the behavior of an "
+"algorithm."
+msgstr ""
+"Prawdopodobnie spotkałeś się z tym wzorcem wielokrotnie. Jego idea opiera się na implementacji w klasie pochodnej "
+"metody z klasy rodzica zdefiniowanej jako abstrakcyjna i tym samym dokończenie działania algorytmu. "
+
+#: ../../Behavioral/TemplateMethod/README.rst:13
+msgid ""
+"A.k.a the \"Hollywood principle\": \"Don't call us, we call you.\" This "
+"class is not called by subclasses but the inverse. How? With abstraction of "
+"course."
+msgstr ""
+"Jak w Hollywoodzkim powiedzeniu \"Nie dzwoń do nas, my zadzwonimy do Ciebie\" klasa zawierająca metodę szablonową "
+"nie jest instancjonowana, tylko klasa, która po niej dziedziczy. Jest to możliwe dzięki abstrakcji. W klasie rodzica "
+"znajduje się metoda, która wywołuje zaimplementowane metody (w klasie rodzica oznaczone jako abstrakcyjne)."
+
+#: ../../Behavioral/TemplateMethod/README.rst:17
+msgid ""
+"In other words, this is a skeleton of algorithm, well-suited for framework "
+"libraries. The user has just to implement one method and the superclass do "
+"the job."
+msgstr ""
+"Innymi słowy, klasa zawierająca metodę szablonową jest szkieletem algorytmu. To rozwiązanie świetnie pasuje do "
+"różnego rodzaju frameworków. Programista korzystający z takiej klasy musi zaimplementować tylko metodę szablonową "
+"a reszta jest realizowana przez klasę rodzica. "
+
+#: ../../Behavioral/TemplateMethod/README.rst:21
+msgid ""
+"It is an easy way to decouple concrete classes and reduce copy-paste, "
+"that's why you'll find it everywhere."
+msgstr ""
+"Jest to prosty sposób na rozdzielenie konkretnych klas i zredukowanie powielonych fragmentów kodu metodą kopiuj-wklej. "
+"Jest to główny powód, dla którego takie podejście znajdziesz w wielu miejscach."
+
+#: ../../Behavioral/TemplateMethod/README.rst:25
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Behavioral/TemplateMethod/README.rst:32
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/TemplateMethod/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Behavioral/TemplateMethod/README.rst:36
+msgid "Journey.php"
+msgstr "Journey.php"
+
+#: ../../Behavioral/TemplateMethod/README.rst:42
+msgid "BeachJourney.php"
+msgstr "BeachJourney.php"
+
+#: ../../Behavioral/TemplateMethod/README.rst:48
+msgid "CityJourney.php"
+msgstr "CityJourney.php"
+
+#: ../../Behavioral/TemplateMethod/README.rst:55
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Behavioral/TemplateMethod/README.rst:57
+msgid "Tests/JourneyTest.php"
+msgstr "Tests/JourneyTest.php"

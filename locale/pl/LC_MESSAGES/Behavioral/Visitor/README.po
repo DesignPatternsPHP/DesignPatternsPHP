@@ -1,0 +1,80 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-05-30 14:44+0300\n"
+"Last-Translator: Piotr Grabski-Gradzinski <piotr.gradzinski@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+#: ../../Behavioral/Visitor/README.rst:2
+msgid "`Visitor`__"
+msgstr "`Odwiedzający <https://pl.wikipedia.org/wiki/Odwiedzaj%C4%85cy>`_ (`Visitor`__)"
+
+#: ../../Behavioral/Visitor/README.rst:5
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: ../../Behavioral/Visitor/README.rst:7
+msgid ""
+"The Visitor Pattern lets you outsource operations on objects to other "
+"objects. The main reason to do this is to keep a separation of concerns. But"
+" classes have to define a contract to allow visitors (the ``Role::accept`` "
+"method in the example)."
+msgstr ""
+"Wzorzec Odwiedzającego pozwala wydzielić wykonywanie operacji na obiektach do innych obiektów. "
+"Głównym powodem stosowania tego wzorca jest podział odpowiedzialności (ang. `separation of concerns <https://en.wikipedia.org/wiki/Separation_of_concerns>`_). Poszczególne klasy muszą definiować kontrakt pozwalający Wizytatorowi na dostęp "
+"(w poniższym przykładzie za pomocą metody ``Role::accept``)"
+
+#: ../../Behavioral/Visitor/README.rst:12
+msgid ""
+"The contract is an abstract class but you can have also a clean interface. "
+"In that case, each Visitor has to choose itself which method to invoke on "
+"the visitor."
+msgstr ""
+"W poniższym przykładzie kontrakt jest klasą abstrakcyjną, ale może to być również interfejs. "
+"Tworząc taki kontrakt obiekt odwiedzany musi zdecydować jaką metodę wywołać na Wizytatorze. "
+
+#: ../../Behavioral/Visitor/README.rst:17
+msgid "UML Diagram"
+msgstr "Diagram UML"
+
+#: ../../Behavioral/Visitor/README.rst:24
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/Visitor/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ten kod znajdziesz również na `GitHub`_."
+
+#: ../../Behavioral/Visitor/README.rst:28
+msgid "RoleVisitorInterface.php"
+msgstr "RoleVisitorInterface.php"
+
+#: ../../Behavioral/Visitor/README.rst:34
+msgid "RolePrintVisitor.php"
+msgstr "RolePrintVisitor.php"
+
+#: ../../Behavioral/Visitor/README.rst:40
+msgid "Role.php"
+msgstr "Role.php"
+
+#: ../../Behavioral/Visitor/README.rst:46
+msgid "User.php"
+msgstr "User.php"
+
+#: ../../Behavioral/Visitor/README.rst:52
+msgid "Group.php"
+msgstr "Group.php"
+
+#: ../../Behavioral/Visitor/README.rst:59
+msgid "Test"
+msgstr "Testy"
+
+#: ../../Behavioral/Visitor/README.rst:61
+msgid "Tests/VisitorTest.php"
+msgstr "Tests/VisitorTest.php"
