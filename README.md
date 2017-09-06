@@ -1,6 +1,7 @@
 # DesignPatternsPHP
 
 [![Build Status](https://travis-ci.org/domnikl/DesignPatternsPHP.svg?branch=master)](https://travis-ci.org/domnikl/DesignPatternsPHP)
+[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/DominikLiebler)
 
 [Read the Docs of DesignPatternsPHP](http://designpatternsphp.readthedocs.org)
 or [Download as PDF/Epub](https://readthedocs.org/projects/designpatternsphp/downloads/)
