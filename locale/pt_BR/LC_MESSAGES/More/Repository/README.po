@@ -1,11 +1,11 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2017-08-07 23:53-0300\n"
+"Last-Translator: Leonam Pereira Dias <leonam.pd@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,11 +13,11 @@ msgstr ""
 
 #: ../../More/Repository/README.rst:2
 msgid "Repository"
-msgstr ""
+msgstr "Repositório"
 
 #: ../../More/Repository/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../More/Repository/README.rst:7
 msgid ""
@@ -44,6 +44,8 @@ msgid ""
 "Doctrine 2 ORM: there is Repository that mediates between Entity and DBAL "
 "and contains methods to retrieve objects"
 msgstr ""
+"Doctrine 2 ORM: existe um Repositório que faz a mediação entre Entity e DBAL "
+" contendo métodos para recuperação de objetos"
 
 #: ../../More/Repository/README.rst:20
 msgid "Laravel Framework"
