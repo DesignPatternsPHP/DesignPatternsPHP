@@ -20,8 +20,8 @@ msgid ""
 "**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
 "MAINTAINABILITY USE DEPENDENCY INJECTION!**"
 msgstr ""
-"**Это считается анти-паттерном! Для лучшей тестируемости и сопровождения "
-"кода используйте Инъекцию Зависимости (Dependency Injection)!**"
+"**Этот шаблон считается анти-паттерном! Для лучшей тестируемости и сопровождения "
+"кода используйте внедрение зависимости (Dependency Injection)!**"
 
 #: ../../Creational/Multiton/README.rst:8
 msgid "Purpose"
