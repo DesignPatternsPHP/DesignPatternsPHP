@@ -8,3 +8,4 @@ More
    ServiceLocator/README
    Repository/README
    EAV/README
+   LazyLoading/README
