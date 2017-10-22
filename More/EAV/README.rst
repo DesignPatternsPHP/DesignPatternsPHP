@@ -46,7 +46,7 @@ Test
 
 Tests/EAVTest.php
 
-.. literalinclude:: Tests/EntityTest.php
+.. literalinclude:: Tests/EAVTest.php
    :language: php
    :linenos:
 
