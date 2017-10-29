@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../Structural/Decorator/README.rst:26
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Structural/Decorator/README.rst:28
 msgid "RendererInterface.php"

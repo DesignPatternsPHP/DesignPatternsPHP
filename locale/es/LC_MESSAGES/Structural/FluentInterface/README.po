@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../Structural/FluentInterface/README.rst:28
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Structural/FluentInterface/README.rst:30
 msgid "Sql.php"

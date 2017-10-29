@@ -100,7 +100,7 @@ msgstr ""
 
 #: ../../Behavioral/Memento/README.rst:55
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Behavioral/Memento/README.rst:57
 msgid "Memento.php"

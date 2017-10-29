@@ -56,7 +56,7 @@ msgstr ""
 
 #: ../../Behavioral/Observer/README.rst:34
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Behavioral/Observer/README.rst:36
 msgid "User.php"

@@ -65,7 +65,7 @@ msgstr ""
 
 #: ../../Behavioral/Strategy/README.rst:35
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Behavioral/Strategy/README.rst:37
 msgid "ObjectCollection.php"

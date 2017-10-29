@@ -69,7 +69,7 @@ msgstr "Código"
 
 #: ../../Creational/Singleton/README.rst:32
 msgid "You can also find this code on `GitHub`_"
-msgstr "Puedes ver este código en `GitHub`_"
+msgstr "Puedes encontrar este código en `GitHub`_"
 
 #: ../../Creational/Singleton/README.rst:34
 msgid "Singleton.php"

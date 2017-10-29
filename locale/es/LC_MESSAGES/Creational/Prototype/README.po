@@ -26,7 +26,7 @@ msgid ""
 "To avoid the cost of creating objects the standard way (new Foo()) and "
 "instead create a prototype and clone it."
 msgstr ""
-"Evitar el cote de crear objetos de la forma estandar (new Foo()). En su "
+"Evitar el cote de crear objetos de la forma estándar (new Foo()). En su "
 "lugar crear una instancia y clonarla."
 
 #: ../../Creational/Prototype/README.rst:11
@@ -38,8 +38,8 @@ msgid ""
 "Large amounts of data (e.g. create 1,000,000 rows in a database at once via "
 "a ORM)."
 msgstr ""
-"Grandes cantidades de datos ( ej. crear 1.000.000 de registros en la base de "
-"datos a través del ORM )."
+"Grandes cantidades de datos (ej. crear 1.000.000 de registros en la base de "
+"datos a través del ORM)."
 
 #: ../../Creational/Prototype/README.rst:17
 msgid "UML Diagram"
