@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../Structural/Registry/README.rst:29
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Structural/Registry/README.rst:31
 msgid "Registry.php"

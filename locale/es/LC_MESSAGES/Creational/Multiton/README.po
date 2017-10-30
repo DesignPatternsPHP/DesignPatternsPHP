@@ -34,8 +34,8 @@ msgid ""
 "To have only a list of named instances that are used, like a singleton but "
 "with n instances."
 msgstr ""
-"Tener una única lista de los nombres de las instancias que has usando, como "
-"en el singleton pero con varias instancias."
+"Tener una única lista de los nombres de las instancias que se están "
+"utilizando, como en el singleton pero con n instancias."
 
 #: ../../Creational/Multiton/README.rst:14
 msgid "Examples"
@@ -43,12 +43,12 @@ msgstr "Ejemplos"
 
 #: ../../Creational/Multiton/README.rst:16
 msgid "2 DB Connectors, e.g. one for MySQL, the other for SQLite"
-msgstr "2 Conectores de base de datos, Ej. uno para MySQL el otro para SQLite."
+msgstr "2 Conectores de base de datos, Ej. uno para MySQL y otro para SQLite."
 
 #: ../../Creational/Multiton/README.rst:17
 msgid "multiple Loggers (one for debug messages, one for errors)"
 msgstr ""
-"Múltiples sistemas de log ( no para mensajes de debug, uno para errores )."
+"Múltiples sistemas de log (uno para mensajes de debug, uno para errores)."
 
 #: ../../Creational/Multiton/README.rst:20
 msgid "UML Diagram"

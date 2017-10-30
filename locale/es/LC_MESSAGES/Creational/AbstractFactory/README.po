@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../Creational/AbstractFactory/README.rst:2
 msgid "`Abstract Factory`__"
-msgstr "`Factoria Abstracta`__"
+msgstr "`Factoría Abstracta`__"
 
 #: ../../Creational/AbstractFactory/README.rst:5
 msgid "Purpose"
@@ -28,9 +28,9 @@ msgid ""
 "objects are created, he just knows how they go together."
 msgstr ""
 "Para crear una serie de objetos relacionados o dependientes sin especificar "
-"a que clase concreta pertenecen. Normalmente las clases creadas implementan "
+"a qué clase concreta pertenecen. Normalmente las clases creadas implementan "
 "las mismas interfaces. El cliente de la factoría abstracta no necesita "
-"preocupase por como estos objetos son creados, el solo sabe que tiene que "
+"preocuparse por cómo estos objetos son creados, él solo sabe qué tiene que "
 "hacer con ellos."
 
 #: ../../Creational/AbstractFactory/README.rst:13

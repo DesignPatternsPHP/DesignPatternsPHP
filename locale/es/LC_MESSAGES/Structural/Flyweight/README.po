@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../../Structural/Flyweight/README.rst:21
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Structural/Flyweight/README.rst:23
 msgid "FlyweightInterface.php"

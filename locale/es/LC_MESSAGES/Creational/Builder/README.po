@@ -33,8 +33,8 @@ msgid ""
 "interface could be an abstract class with default methods (aka adapter)."
 msgstr ""
 "A veces, si el constructor conoce bien lo que está construyendo, esta "
-"interfaz podría ser una clase abstracta con métodos por defecto ( también "
-"conocido como Adaptador )"
+"interfaz podría ser una clase abstracta con métodos por defecto (también "
+"conocido como Adaptador)"
 
 #: ../../Creational/Builder/README.rst:12
 msgid ""
