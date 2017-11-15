@@ -2,9 +2,9 @@
 
 namespace DesignPatterns\Behavioral\Strategy\Tests;
 
+use DesignPatterns\Behavioral\Strategy\Context;
 use DesignPatterns\Behavioral\Strategy\DateComparator;
 use DesignPatterns\Behavioral\Strategy\IdComparator;
-use DesignPatterns\Behavioral\Strategy\ObjectCollection;
 use PHPUnit\Framework\TestCase;
 
 class StrategyTest extends TestCase
@@ -45,9 +45,8 @@ class StrategyTest extends TestCase
      */
     public function testIdComparator($collection, $expected)
     {
-        $obj = new ObjectCollection($collection);
-        $obj->setComparator(new IdComparator());
-        $elements = $obj->sort();
+        $obj = new Context(new IdComparator());
+        $elements = $obj->executeStrategy($collection);
 
         $firstElement = array_shift($elements);
         $this->assertEquals($expected, $firstElement);
@@ -61,9 +60,8 @@ class StrategyTest extends TestCase
      */
     public function testDateComparator($collection, $expected)
     {
-        $obj = new ObjectCollection($collection);
-        $obj->setComparator(new DateComparator());
-        $elements = $obj->sort();
+        $obj = new Context(new DateComparator());
+        $elements = $obj->executeStrategy($collection);
 
         $firstElement = array_shift($elements);
         $this->assertEquals($expected, $firstElement);
