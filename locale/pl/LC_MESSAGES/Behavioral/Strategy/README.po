@@ -73,8 +73,8 @@ msgid "You can also find this code on `GitHub`_"
 msgstr "Ten kod znajdziesz również na `GitHub`_."
 
 #: ../../Behavioral/Strategy/README.rst:37
-msgid "ObjectCollection.php"
-msgstr "ObjectCollection.php"
+msgid "Context.php"
+msgstr "Context.php"
 
 #: ../../Behavioral/Strategy/README.rst:43
 msgid "ComparatorInterface.php"
