@@ -7,7 +7,7 @@ abstract class Text
     /**
      * @var string
      */
-    private $text;
+    protected $text;
 
     public function __construct(string $text)
     {
