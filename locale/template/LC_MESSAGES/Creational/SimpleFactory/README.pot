@@ -23,7 +23,7 @@ msgstr ""
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
 "It differs from the static factory because it is not static. "
-"Therefore, you can have multiple factories, differently parametrized, you can subclass it and you can mock it."
+"Therefore, you can have multiple factories, differently parameterized, you can subclass it and you can mock it."
 msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:11

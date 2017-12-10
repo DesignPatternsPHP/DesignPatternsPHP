@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:12
 msgid ""
-"Therefore, you can have multiple factories, differently parametrized, you "
+"Therefore, you can have multiple factories, differently parameterized, you "
 "can subclass it and you can mock-up it."
 msgstr ""
 
