@@ -10,7 +10,7 @@ testable, maintainable and extendable code.
 Usage
 -----
 
-DatabaseConfiguration gets injected and ``DatabaseConnection`` will get all that it
+``DatabaseConfiguration`` gets injected and ``DatabaseConnection`` will get all that it
 needs from ``$config``. Without DI, the configuration would be created
 directly in ``DatabaseConnection``, which is not very good for testing and
 extending it.
