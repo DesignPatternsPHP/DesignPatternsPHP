@@ -19,6 +19,11 @@ final class Multiton
     {
     }
 
+    /**
+     * @param string $instanceName
+     *
+     * @return Multiton
+     */
     public static function getInstance(string $instanceName): Multiton
     {
         if (!isset(self::$instances[$instanceName])) {

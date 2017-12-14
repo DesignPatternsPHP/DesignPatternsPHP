@@ -18,11 +18,21 @@ class PostRepository
      */
     private $persistence;
 
+    /**
+     * PostRepository constructor.
+     *
+     * @param MemoryStorage $persistence
+     */
     public function __construct(MemoryStorage $persistence)
     {
         $this->persistence = $persistence;
     }
 
+    /**
+     * @param int $id
+     *
+     * @return Post
+     */
     public function findById(int $id): Post
     {
         $arrayData = $this->persistence->retrieve($id);
@@ -34,6 +44,9 @@ class PostRepository
         return Post::fromState($arrayData);
     }
 
+    /**
+     * @param Post $post
+     */
     public function save(Post $post)
     {
         $id = $this->persistence->persist([

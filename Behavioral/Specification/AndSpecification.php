@@ -19,6 +19,10 @@ class AndSpecification implements SpecificationInterface
 
     /**
      * if at least one specification is false, return false, else return true.
+     *
+     * @param Item $item
+     *
+     * @return bool
      */
     public function isSatisfiedBy(Item $item): bool
     {

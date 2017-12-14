@@ -42,6 +42,9 @@ class RecordProxy extends Record
         parent::__set($name, $value);
     }
 
+    /**
+     * @return bool
+     */
     public function isDirty(): bool
     {
         return $this->isDirty;

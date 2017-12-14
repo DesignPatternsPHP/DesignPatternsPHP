@@ -9,6 +9,9 @@ class CreateOrder extends StateOrder
         $this->setStatus('created');
     }
 
+    /**
+     * @return mixed|void
+     */
     protected function done()
     {
         static::$state = new ShippingOrder();

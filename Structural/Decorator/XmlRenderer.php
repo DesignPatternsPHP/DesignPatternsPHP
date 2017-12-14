@@ -4,6 +4,9 @@ namespace DesignPatterns\Structural\Decorator;
 
 class XmlRenderer extends RendererDecorator
 {
+    /**
+     * @return string
+     */
     public function renderData(): string
     {
         $doc = new \DOMDocument();

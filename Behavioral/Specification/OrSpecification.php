@@ -19,6 +19,10 @@ class OrSpecification implements SpecificationInterface
 
     /**
      * if at least one specification is true, return true, else return false
+     *
+     * @param Item $item
+     *
+     * @return bool
      */
     public function isSatisfiedBy(Item $item): bool
     {

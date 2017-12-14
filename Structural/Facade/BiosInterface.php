@@ -8,6 +8,11 @@ interface BiosInterface
 
     public function waitForKeyPress();
 
+    /**
+     * @param OsInterface $os
+     *
+     * @return mixed
+     */
     public function launch(OsInterface $os);
 
     public function powerDown();

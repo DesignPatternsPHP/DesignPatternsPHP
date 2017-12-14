@@ -9,6 +9,9 @@ use PHPUnit\Framework\TestCase;
 
 class StrategyTest extends TestCase
 {
+    /**
+     * @return array
+     */
     public function provideIntegers()
     {
         return [
@@ -23,6 +26,9 @@ class StrategyTest extends TestCase
         ];
     }
 
+    /**
+     * @return array
+     */
     public function provideDates()
     {
         return [

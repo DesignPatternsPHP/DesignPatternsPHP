@@ -9,6 +9,11 @@ class CarMercedes implements VehicleInterface
      */
     private $color;
 
+    /**
+     * @param string $rgb
+     *
+     * @return mixed|void
+     */
     public function setColor(string $rgb)
     {
         $this->color = $rgb;

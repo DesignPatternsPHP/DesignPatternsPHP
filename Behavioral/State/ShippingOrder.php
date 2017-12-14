@@ -9,6 +9,9 @@ class ShippingOrder extends StateOrder
         $this->setStatus('shipping');
     }
 
+    /**
+     * @return mixed|void
+     */
     protected function done()
     {
         $this->setStatus('completed');

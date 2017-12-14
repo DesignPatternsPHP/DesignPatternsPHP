@@ -28,6 +28,9 @@ class Entity
         }
     }
 
+    /**
+     * @return string
+     */
     public function __toString(): string
     {
         $text = [$this->name];

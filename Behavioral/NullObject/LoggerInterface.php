@@ -7,5 +7,10 @@ namespace DesignPatterns\Behavioral\NullObject;
  */
 interface LoggerInterface
 {
+    /**
+     * @param string $str
+     *
+     * @return mixed
+     */
     public function log(string $str);
 }

@@ -29,6 +29,11 @@ class Record
         $this->data[$name] = $value;
     }
 
+    /**
+     * @param string $name
+     *
+     * @return string
+     */
     public function __get(string $name): string
     {
         if (!isset($this->data[$name])) {

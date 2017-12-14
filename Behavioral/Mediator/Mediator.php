@@ -45,6 +45,9 @@ class Mediator implements MediatorInterface
         $this->server->process();
     }
 
+    /**
+     * @return string
+     */
     public function queryDb(): string
     {
         return $this->database->getData();

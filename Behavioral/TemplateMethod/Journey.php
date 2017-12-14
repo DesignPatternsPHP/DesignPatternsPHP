@@ -45,11 +45,17 @@ abstract class Journey
         return null;
     }
 
+    /**
+     * @return string
+     */
     private function buyAFlight(): string
     {
         return 'Buy a flight ticket';
     }
 
+    /**
+     * @return string
+     */
     private function takePlane(): string
     {
         return 'Taking the plane';

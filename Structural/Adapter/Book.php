@@ -19,6 +19,9 @@ class Book implements BookInterface
         $this->page++;
     }
 
+    /**
+     * @return int
+     */
     public function getPage(): int
     {
         return $this->page;

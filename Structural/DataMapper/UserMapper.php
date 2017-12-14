@@ -38,6 +38,11 @@ class UserMapper
         return $this->mapRowToUser($result);
     }
 
+    /**
+     * @param array $row
+     *
+     * @return User
+     */
     private function mapRowToUser(array $row): User
     {
         return User::fromState($row);
