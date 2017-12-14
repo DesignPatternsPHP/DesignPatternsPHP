@@ -18,7 +18,7 @@ msgstr ""
 
 #: ../../Behavioral/Memento/README.rst:7
 msgid ""
-"It provides the ability to restore an object to it's previous state (undo "
+"It provides the ability to restore an object to its previous state (undo "
 "via rollback) or to gain access to state of the object, without revealing "
 "its implementation (i.e., the object is not required to have a function "
 "to return the current state)."
