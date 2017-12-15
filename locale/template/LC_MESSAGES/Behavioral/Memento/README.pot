@@ -38,7 +38,7 @@ msgid ""
 "states in different snapshots. That means the state can be extracted as "
 "the independent clone. Any object stored in the Memento should be "
 "*a full copy of the original object rather than a reference* to the original "
-"object. The Memento object is a \"opaque object\" (the object that no one can "
+"object. The Memento object is an \"opaque object\" (the object that no one can "
 "or should change)."
 msgstr ""
 
