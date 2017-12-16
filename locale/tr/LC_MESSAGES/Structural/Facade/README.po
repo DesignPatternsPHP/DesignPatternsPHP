@@ -1,0 +1,88 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Hatice Ergün\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Structural/Facade/README.rst:1
+msgid "Facade"
+msgstr "Facade (Önyüz)"
+
+#: ../../Structural/Facade/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Structural/Facade/README.rst:7
+msgid ""
+"The primary goal of a Facade Pattern is not to avoid you to read the "
+"manual of a complex API. It's only a side-effect. The first goal is to "
+"reduce coupling and follow the Law of Demeter."
+msgstr ""
+"Önyüz deseninin öncelikli amacı, karmaşık bir API kullanım kılavuzunun okumasından "
+"kaçınmak değildir. Bu sadece bir yan etkidir. Birinci hedef, bağlantıları ayrıştırmak "
+"ve Demeter Yasasını (Law of Demeter) takip etmektir."
+
+#: ../../Structural/Facade/README.rst:11
+msgid ""
+"A Facade is meant to decouple a client and a sub-system by embedding "
+"many (but sometimes just one) interface, and of course to reduce "
+"complexity."
+msgstr ""
+"Bir önyüz, bir veya birden fazla arayüzü gömerek (interface injection) bir "
+"istemci ve bir alt sistemi ayrıştırmak ve tabii ki karmaşıklığı azaltmak içindir."
+
+#: ../../Structural/Facade/README.rst:15
+msgid "A facade does not forbid you the access to the sub-system"
+msgstr "Bir önyüz alt sisteme erişimi yasaklamaz."
+
+#: ../../Structural/Facade/README.rst:16
+msgid "You can (you should) have multiple facades for one sub-system"
+msgstr "Bir alt sistem için birden fazla önyüze sahip olabilirsiniz (olmalısınız)."
+
+#: ../../Structural/Facade/README.rst:18
+msgid ""
+"That's why a good facade has no ``new`` in it. If there are multiple "
+"creations for each method, it is not a Facade, it's a Builder or a "
+"[Abstract\|Static\|Simple] Factory [Method]."
+msgstr ""
+"İyi tasarlamış bir önyüzde ``new`` diye bir şey olmamasının nedeni budur. Her yöntem "
+"için birden fazla oluşturum varsa (multiple creation), bu artık bir Önyüz değil, "
+"bir Yapıcı (Builder) ya da [Soyut (Abstract)\|Statik (Static)\|Basit (Simple)] "
+"Fabrika (Factory) [Yöntem (Method)] olur."
+
+#: ../../Structural/Facade/README.rst:22
+msgid ""
+"The best facade has no ``new`` and a constructor with "
+"interface-type-hinted parameters. If you need creation of new instances, "
+"use a Factory as argument."
+msgstr ""
+"En iyi önyüz ``new`` içermeyen ve kurucusu (constructor) arayüz türü ipuçlanarak "
+"(interface-type-hinted) parametrize edilmiş olandır. Şayet yeni örnekler (instance) "
+"oluşturmanız gerekiyorsa, argüman olarak bir Fabrika (Factory) kullanın."
+
+#: ../../Structural/Facade/README.rst:26
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Structural/Facade/README.rst:30
+msgid "Alt Facade UML Diagram"
+msgstr "Alt Facade UML Diyagramı"
+
+#: ../../Structural/Facade/README.rst:33
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Structural/Facade/README.rst:36
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Structural/Facade/README.rst:56
+msgid "Test"
+msgstr "Test"

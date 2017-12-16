@@ -1,0 +1,56 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Faruk Zeren\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../More/EAV/README.rst:1
+msgid "Entity-Attribute-Value (EAV)"
+msgstr "Entity-Attribute-Value (Varlık-Özellik-Değer)"
+
+#: ../../More/EAV/README.rst:4
+msgid "The Entity–attribute–value (EAV) pattern in order to implement EAV model with PHP."
+msgstr ""
+
+#: ../../More/EAV/README.rst:6
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../More/EAV/README.rst:9
+msgid ""
+"The Entity–attribute–value (EAV) model is a data model to describe entities "
+"where the number of attributes (properties, parameters) that can be used "
+"to describe them is potentially vast, but the number that will actually apply "
+"to a given entity is relatively modest."
+msgstr ""
+"Varlık-Özellik-Değer modeli, onları tanımlamak için kullanılabilecek özelliklerin "
+"(properties, parameters) sayısının büyük olabileceği varlıkları tanımlamak için bir "
+"veri modeli olmakla birlikte, aslında belirli ve nispeten ılımlı bir varlık için "
+"geçerli olacak sayıdır."
+
+#: ../../More/EAV/README.rst:14
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../More/EAV/README.rst:18
+msgid "EAV UML Diagram"
+msgstr "EAV UML Diyagramı"
+
+#: ../../More/EAV/README.rst:21
+msgid "Code"
+msgstr "Kod"
+
+#: ../../More/EAV/README.rst:24
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../More/EAV/README.rst:44
+msgid "Test"
+msgstr "Test"

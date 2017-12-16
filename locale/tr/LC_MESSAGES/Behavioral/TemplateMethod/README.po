@@ -1,0 +1,84 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Ahmet Burak Tektaş\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Behavioral/TemplateMethod/README.rst:1
+msgid "Template Method"
+msgstr "Template Method (Şablon Yöntemi)"
+
+#: ../../Behavioral/TemplateMethod/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Behavioral/TemplateMethod/README.rst:7
+msgid "Template Method is a behavioral design pattern."
+msgstr ""
+"Alt sınıflar içerisinde kullanılabilecek yöntemleri üst sınıf içerisinde "
+"tanımlayarak, kopyala-yapıştır işlemini azaltıp, gereksiz kod yoğunluğunu önlemek."
+
+#: ../../Behavioral/TemplateMethod/README.rst:9
+msgid ""
+"Perhaps you have encountered it many times already. The idea is to let "
+"subclasses of this abstract template \"finish\" the behavior of an "
+"algorithm."
+msgstr ""
+"Belki de bununla pek çok kez karşılamışsınızdır zaten. Aslında fikir, bu soyut "
+"şablonun alt sınıflarının bir algoritmanın davranışını \"bitirmesini\" sağlamaktır."
+
+#: ../../Behavioral/TemplateMethod/README.rst:13
+msgid ""
+"A.k.a the \"Hollywood Principle\": \"Don't call us, we call you.\" This "
+"class is not called by subclasses but the inverse. How? With abstraction "
+"of course."
+msgstr ""
+"Örneğin Hollywood İlkesi (Hollywood Principle): \"Siz bizi aramayın, biz sizi ararız.\". "
+"İşin özü, çoğunlukla bu sınıfın alt sınıfların çoğu çağrıya cevap vermez, bizzat "
+"kendisi cevap verir. Peki nasıl? Tabii ki de soyutlama (abstraction) yoluyla."
+
+#: ../../Behavioral/TemplateMethod/README.rst:17
+msgid ""
+"In other words, this is a skeleton of algorithm, well-suited for "
+"framework libraries. The user has just to implement one method and the "
+"superclass does the job."
+msgstr ""
+"Başka bir deyişle, bu bir iskele algoritmasıdır ve çatı (framework) kütüphaneleri "
+"için çok uygundur. Kullanıcı yalnızca bir (veya bir-iki) yöntemi alt sınıfta uygulanımlar "
+"(implementation), geri kalan işi ise üst sınıf halleder."
+
+#: ../../Behavioral/TemplateMethod/README.rst:21
+msgid ""
+"It is an easy way to decouple concrete classes and reduce copy-paste, "
+"that's why you'll find it everywhere."
+msgstr ""
+"Bu desenle somut sınıfların ayrışımı kolaylaşır ve kod bünyesindeki kopyala-yapıştır "
+"işlemi azalır. Bu yüzden bu desenle her yerde karşılaşabilirsiniz (örn. "
+"`Oppa\Agent\AgentCrud <https://github.com/k-gun/oppa/blob/master/src/Agent/AgentCrud.php>`__))."
+
+#: ../../Behavioral/TemplateMethod/README.rst:24
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Behavioral/TemplateMethod/README.rst:28
+msgid "Alt TemplateMethod UML Diagram"
+msgstr "Alt TemplateMethod UML Diyagramı"
+
+#: ../../Behavioral/TemplateMethod/README.rst:31
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/TemplateMethod/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Behavioral/TemplateMethod/README.rst:54
+msgid "Test"
+msgstr "Test"

@@ -1,0 +1,62 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Ahmet Burak Tektaş\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Behavioral/Visitor/README.rst:1
+msgid "Visitor"
+msgstr "Visitor (Ziyaretçi)"
+
+#: ../../Behavioral/Visitor/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Behavioral/Visitor/README.rst:7
+msgid ""
+"The Visitor Pattern lets you outsource operations on objects to other "
+"objects. The main reason to do this is to keep a separation of concerns. "
+"But classes have to define a contract to allow visitors (the "
+"``Role::accept`` method in the example)."
+msgstr ""
+"Nesneler üzerindeki işlemleri, başka dış nesneler üzerine aktarmanıza olanak tanımak. "
+"Bunun yapılmasının başlıca nedeni, İlgilerin Ayrımı (Separation of Concerns) ilkesi "
+"uyarınca, sınıflar arasındaki iş bölümünün düzgün bir biçimde ilerlemesini sağlamaktır. "
+"Ancak sınıflar, ziyaretçilere izin vermek için bir sözleşme tanımlamak zorundadır "
+"(örn. aşağıdaki örnek kodda görebileceğiniz ``Role::accept()`` yöntemi)."
+
+#: ../../Behavioral/Visitor/README.rst:12
+msgid ""
+"The contract is an abstract class but you can have also a clean "
+"interface. In that case, each Visitor has to choose itself which method "
+"to invoke on the visitor."
+msgstr ""
+"Sözleşme soyut bir sınıftır, ancak bu sınıf yerine temiz bir arayüze de sahip olabilirsiniz. "
+"Bu durumda her Ziyaretçi, ziyaretçi üzerinde hangi yöntemi çağıracağını kendisi seçmelidir."
+
+#: ../../Behavioral/Visitor/README.rst:16
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Behavioral/Visitor/README.rst:20
+msgid "Alt Visitor UML Diagram"
+msgstr "Alt Visitor UML Diyagramı"
+
+#: ../../Behavioral/Visitor/README.rst:23
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/Visitor/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Behavioral/Visitor/README.rst:58
+msgid "Test"
+msgstr "Test"

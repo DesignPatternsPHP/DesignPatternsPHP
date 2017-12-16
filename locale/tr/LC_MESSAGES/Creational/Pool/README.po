@@ -1,0 +1,83 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Hatice Ergün\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Creational/Pool/README.rst:1
+msgid "Pool"
+msgstr "Pool (Havuz)"
+
+#: ../../Creational/Pool/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Creational/Pool/README.rst:7
+msgid ""
+"The **object pool pattern** is a software creational design pattern that "
+"uses a set of initialized objects kept ready to use – a \"pool\" – rather "
+"than allocating and destroying them on demand. A client of the pool will "
+"request an object from the pool and perform operations on the returned "
+"object. When the client has finished, it returns the object, which is a "
+"specific type of factory object, to the pool rather than destroying it."
+msgstr ""
+"İstek üzerine tahsis ve tahrip etmek yerine (construct/destruct) yerine, "
+"bir dizi örneklenmiş (initialized) nesneyi bir \"havuz\" içerisinde kullanıma "
+"hazır halde tutmak. İstemci havuzdan bir nesne ister ve döndürülen nesne üzerinden "
+"işlem yapar. Ancak (dönen nesneyle) işi bittiğinde ise, belirli bir fabrika nesnesi "
+"türü olan o nesneyi, yok etmek yerine havuza geri döndürür."
+
+#: ../../Creational/Pool/README.rst:14
+msgid ""
+"Object pooling can offer a significant performance boost in situations "
+"where the cost of initializing a class instance is high, the rate of "
+"instantiation of a class is high, and the number of instances in use at "
+"any one time is low. The pooled object is obtained in predictable time "
+"when creation of the new objects (especially over network) may take "
+"variable time."
+msgstr ""
+"Nesne havuzlama, bir sınıfın başlatılma veya örneklenme (initialization/instantiation) "
+"maliyetlerinin yüksek olduğu ve herhangi bir anda kullanılan örneklerin sayısının "
+"düşük olduğu durumlarda belirgin bir verim artışı (performance boost) sağlayabilir. "
+"Yeni nesnelerin oluşturulması (özellikle ağ üzerinden) değişken zamanlar alabiliyorken, "
+"havuzlanan nesne öngörülebilir bir zamanda elde edilir."
+
+#: ../../Creational/Pool/README.rst:21
+msgid ""
+"However these benefits are mostly true for objects that are expensive "
+"with respect to time, such as database connections, socket connections, "
+"threads and large graphic objects like fonts or bitmaps. In certain "
+"situations, simple object pooling (that hold no external resources, but "
+"only occupy memory) may not be efficient and could decrease performance."
+msgstr ""
+"Bununla birlikte bu getiriler genellikle maliyetli nesneler için geçerlidir "
+"(örn: veritabanı veya soket bağlantıları, iş parçacıkları (thread), font veya "
+"bitmap gibi büyük grafik nesneleri). Bazı durumlarda basit nesne havuzu (harici "
+"kaynakları tutmaz, yalnızca bellek kaplar) etkin olmadığı gibi verimi de düşürebilir."
+
+#: ../../Creational/Pool/README.rst:27
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Creational/Pool/README.rst:31
+msgid "Alt Pool UML Diagram"
+msgstr "Alt Pool UML Diyagramı"
+
+#: ../../Creational/Pool/README.rst:34
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/Pool/README.rst:37
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Creational/Pool/README.rst:51
+msgid "Test"
+msgstr "Test"

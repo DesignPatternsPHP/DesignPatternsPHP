@@ -1,0 +1,80 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Muhammet Burak Şentürk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Creational/Singleton/README.rst:1
+msgid "Singleton"
+msgstr "Singleton (Tekilleme)"
+
+#: ../../Creational/Singleton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+"**BU DESEN ANTI-PATTERN OLARAK NİTELENDİRİLMİŞTİR, DAHA İYİ BİR TEST EDİLEBİLİRLİK "
+"(TESTABILITY) VE BAKIM YAPILABİLİRLİK (MAINTAINABILITY) İÇİN BAĞIMLILIK ENJEKSİYONU "
+"(DEPENDENCY INJECTION) KULLANINIZ!**"
+
+#: ../../Creational/Singleton/README.rst:7
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Creational/Singleton/README.rst:10
+msgid ""
+"To have only one instance of this object in the application that will "
+"handle all calls."
+msgstr ""
+"Bir uygulamada bir nesnenin yalnızca bir örneğine (instance) "
+"ilgili tüm istemleri işletmek."
+
+#: ../../Creational/Singleton/README.rst:13
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Creational/Singleton/README.rst:16
+msgid "DB Connector"
+msgstr "Veritabanı Bağlantıcısı (Database Connector)"
+
+#: ../../Creational/Singleton/README.rst:17
+msgid ""
+"Logger (may also be a Multiton if there are many log files for "
+"several purposes)"
+msgstr ""
+"Kayıtçı (Logger) (çeşitli amaçlara yönelik çok sayıda kayıt dosyası varsa, "
+"bu aynı zamanda bir Çoğullama (Multiton) da olabilir)."
+
+#: ../../Creational/Singleton/README.rst:19
+msgid ""
+"Lock file for the application (there is only one in the filesystem "
+"...)"
+msgstr ""
+"Uygulama için kilitleme (lock) dosyası (dosya sisteminde sadece bir tane var ...)."
+
+#: ../../Creational/Singleton/README.rst:22
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Creational/Singleton/README.rst:26
+msgid "Alt Singleton UML Diagram"
+msgstr "Alt Singleton UML Diyagramı"
+
+#: ../../Creational/Singleton/README.rst:29
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/Singleton/README.rst:32
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Creational/Singleton/README.rst:40
+msgid "Test"
+msgstr "Test"

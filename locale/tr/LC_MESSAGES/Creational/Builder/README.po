@@ -1,0 +1,77 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Muhammet Burak Şentürk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Creational/Builder/README.rst:1
+msgid "Builder"
+msgstr "Builder (Yapıcı)"
+
+#: ../../Creational/Builder/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Creational/Builder/README.rst:7
+msgid "Builder is an interface that build parts of a complex object."
+msgstr "Yapıcı, karmaşık bir nesnenin parçalarını oluşturan bir arayüzdür."
+
+#: ../../Creational/Builder/README.rst:9
+msgid ""
+"Sometimes, if the builder has a better knowledge of what it builds, this "
+"interface could be an abstract class with default methods (aka adapter)."
+msgstr ""
+"Bazen yapıcı, oluşturduğu şey hakkında daha iyi bir bilgiye sahipse, "
+"bir arayüz (interface) yerine varsayılan yöntemlere (method) sahip soyut "
+"bir sınıf (class) olabilir (diğer bir deyişle bir adaptör (adapter))."
+
+#: ../../Creational/Builder/README.rst:12
+msgid ""
+"If you have a complex inheritance tree for objects, it is logical to "
+"have a complex inheritance tree for builders too."
+msgstr ""
+"Eğer nesneler için girift bir kalıtım ağacınız (inheritance tree) varsa, "
+"yapıcılar için de girift bir kalıtım ağacınızın olması mantıklı olacaktır."
+
+#: ../../Creational/Builder/README.rst:15
+msgid ""
+"Note: Builders have often a fluent interface, see the mock builder of "
+"PHPUnit for example."
+msgstr ""
+"Not: Yapıcılar çoğu zaman akıcı bir arayüze sahiptir, örneğin PHPUnit'in "
+"yapay (mock) yapıcısına bakabilirsiniz."
+
+#: ../../Creational/Builder/README.rst:18
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Creational/Builder/README.rst:21
+msgid "PHPUnit: Mock Builder"
+msgstr "PHPUnit: Mock Builder"
+
+#: ../../Creational/Builder/README.rst:23
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Creational/Builder/README.rst:27
+msgid "Alt Builder UML Diagram"
+msgstr "Alt Builder UML Diyagramı"
+
+#: ../../Creational/Builder/README.rst:30
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/Builder/README.rst:33
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Creational/Builder/README.rst:95
+msgid "Test"
+msgstr "Test"

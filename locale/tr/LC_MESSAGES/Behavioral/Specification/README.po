@@ -1,0 +1,55 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Ahmet Burak Tektaş\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Behavioral/Specification/README.rst:1
+msgid "Specification"
+msgstr "Specification (Belirtim)"
+
+#: ../../Behavioral/Specification/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Behavioral/Specification/README.rst:7
+msgid ""
+"Builds a clear specification of business rules, where objects can be "
+"checked against. The composite specification class has one method called "
+"``isSatisfiedBy`` that returns either true or false depending on whether "
+"the given object satisfies the specification."
+msgstr ""
+"Nesnelerin kontrol edilebileceği açık bir iş kuralları (business rules) belirtimi oluşturur. "
+"Bileşik belirtim sınıfı, belirtilen nesnenin belirtimi karşılayıp karşılamadığına "
+"bağlı olarak 'true' veya 'false' döndüren, ``isSatisfiedBy`` adında bir yönteme sahiptir."
+
+#: ../../Behavioral/Specification/README.rst:12
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Behavioral/Specification/README.rst:17
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Behavioral/Specification/README.rst:21
+msgid "Alt Specification UML Diagram"
+msgstr "Alt Specification UML Diyagramı"
+
+#: ../../Behavioral/Specification/README.rst:24
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/Specification/README.rst:27
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Behavioral/Specification/README.rst:65
+msgid "Test"
+msgstr "Test"

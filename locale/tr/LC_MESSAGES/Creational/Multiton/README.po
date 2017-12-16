@@ -1,0 +1,74 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Muhammet Burak Şentürk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Creational/Multiton/README.rst:1
+msgid "Multiton"
+msgstr "Multiton (Çoğullama)"
+
+#: ../../Creational/Multiton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+"**BU DESEN ANTI-PATTERN OLARAK NİTELENDİRİLMİŞTİR, DAHA İYİ BİR TEST EDİLEBİLİRLİK "
+"(TESTABILITY) VE BAKIM YAPILABİLİRLİK (MAINTAINABILITY) İÇİN BAĞIMLILIK ENJEKSİYONU "
+"(DEPENDENCY INJECTION) KULLANINIZ!**"
+
+#: ../../Creational/Multiton/README.rst:7
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Creational/Multiton/README.rst:10
+msgid ""
+"To have only a list of named instances that are used, like a singleton "
+"but with n instances."
+msgstr ""
+"Yalnızca kullanımda olan adlandırılmış örneklerin (named instances) bir listesine "
+"sahip olmak. Mesala bir tekilleme (singleton) gibi, ancak \"N\" kez örneklenmiş "
+"(initialized) olan."
+
+#: ../../Creational/Multiton/README.rst:13
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Creational/Multiton/README.rst:16
+msgid "2 DB Connectors, e.g. one for MySQL, the other for SQLite"
+msgstr ""
+"2 Veritabanı Bağlantıcısı (Database Connector): Örneğin birisi MySQL, bir diğeri ise "
+"SQLite bağlantısını yapar."
+
+#: ../../Creational/Multiton/README.rst:17
+msgid "multiple Loggers (one for debug messages, one for errors)"
+msgstr ""
+"Çoklu Kayıtçılar (Multiple Logger): Örneğin birisi hata yakalama (debug), bir diğeri ise "
+"hata iletileri (error) ile ilgili işlemleri yapar."
+
+#: ../../Creational/Multiton/README.rst:19
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Creational/Multiton/README.rst:23
+msgid "Alt Multiton UML Diagram"
+msgstr "Alt Multiton UML Diyagramı"
+
+#: ../../Creational/Multiton/README.rst:26
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/Multiton/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Creational/Multiton/README.rst:37
+msgid "Test"
+msgstr "Test"
