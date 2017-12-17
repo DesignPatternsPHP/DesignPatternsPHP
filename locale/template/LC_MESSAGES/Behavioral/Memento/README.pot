@@ -18,9 +18,9 @@ msgstr ""
 
 #: ../../Behavioral/Memento/README.rst:7
 msgid ""
-"It provides the ability to restore an object to its previous state (undo "
+"It provides the ability to restore an object to it's previous state (undo "
 "via rollback) or to gain access to state of the object, without revealing "
-"its implementation (i.e., the object is not required to have a function "
+"it's implementation (i.e., the object is not required to have a function "
 "to return the current state)."
 msgstr ""
 
@@ -38,7 +38,7 @@ msgid ""
 "states in different snapshots. That means the state can be extracted as "
 "the independent clone. Any object stored in the Memento should be "
 "*a full copy of the original object rather than a reference* to the original "
-"object. The Memento object is an \"opaque object\" (the object that no one can "
+"object. The Memento object is a \"opaque object\" (the object that no one can "
 "or should change)."
 msgstr ""
 
@@ -56,7 +56,7 @@ msgstr ""
 
 #: ../../Behavioral/Memento/README.rst:33
 msgid ""
-"Caretaker *controls the states history*. It may make changes to an object; "
+"Caretaker *controls the states history*. He may make changes to an object; "
 "take a decision to save the state of an external object in the Originator; "
 "ask from the Originator snapshot of the current state; or set the Originator "
 "state to equivalence with some snapshot from history."
