@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Faruk Zeren\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Behavioral/Iterator/README.rst:1
+msgid "Iterator"
+msgstr "Iterator (İlerletici)"
+
+#: ../../Behavioral/Iterator/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Behavioral/Iterator/README.rst:7
+msgid "To make an object iterable and to make it appear like a collection of objects."
+msgstr ""
+"Nesneyi ilerletilebilir (iterable) yapmak ve nesnelerin bir yığın (collection) gibi görünmesini sağlamak."
+
+#: ../../Behavioral/Iterator/README.rst:10
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Behavioral/Iterator/README.rst:13
+msgid ""
+"to process a file line by line by just running over all lines (which "
+"have an object representation) for a file (which of course is an "
+"object, too)."
+msgstr ""
+"Bir dosyayı satır satır işleyip, dosyanın (bu tabii ki aynı zamanda bir nesnedir) "
+"tüm satırlarının (nesne gösterimi olan satırlarının) üzerinde çalışması."
+
+#: ../../Behavioral/Iterator/README.rst:17
+msgid "Note"
+msgstr "Not"
+
+#: ../../Behavioral/Iterator/README.rst:20
+msgid ""
+"Standard PHP Library (SPL) defines an interface Iterator which is best "
+"suited for this! Often you would want to implement the Countable "
+"interface too, to allow ``count($object)`` on your iterable object."
+msgstr ""
+"Standart PHP Kütüphanesi (Standard PHP Library (SPL)) bunun için harika bir ilerletici arayüz "
+"(`Iterator interface <http://php.net/manual/en/class.iterator.php>`__) tanımlanmıştır. "
+"Çoğu zaman `Countable <http://php.net/manual/en/class.countable.php>`__ arayüzünü de uygulanımlayarak, "
+"ilerletilebilir nesnenizde ``count()`` yönetimine olanak sağlamak isteyebilirsiniz."
+
+#: ../../Behavioral/Iterator/README.rst:24
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Behavioral/Iterator/README.rst:28
+msgid "Alt Iterator UML Diagram"
+msgstr "Alt Iterator UML Diyagramı"
+
+#: ../../Behavioral/Iterator/README.rst:31
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/Iterator/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `GitHub`_ üzerinde de bulabilirsiniz."
+
+#: ../../Behavioral/Iterator/README.rst:60
+msgid "Test"
+msgstr "Test"

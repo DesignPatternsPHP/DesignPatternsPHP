@@ -1,0 +1,75 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Faruk Zeren\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Behavioral/Observer/README.rst:1
+msgid "Observer"
+msgstr "Observer (Gözlemci)"
+
+#: ../../Behavioral/Observer/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Behavioral/Observer/README.rst:7
+msgid ""
+"To implement a publish/subscribe behaviour to an object, whenever a "
+"\"Subject\" object changes its state, the attached \"Observers\" will be "
+"notified. It is used to shorten the amount of coupled objects and uses "
+"loose coupling instead."
+msgstr ""
+"Bir nesneye, yayınım/katınım (publish/subscribe) davranışını uygulanımlamak. "
+"Bir \"Konu (Subject)\" nesnesi durumunu değiştirdiğinde, kendisine eklenen tüm "
+"gözlemciler bilgilendirilir. Birleştirilen nesnelerin sayısını azaltmak için "
+"kullanılır ve bunu yaparken gevşek birleşimler kullanır."
+
+#: ../../Behavioral/Observer/README.rst:12
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Behavioral/Observer/README.rst:15
+msgid "A message queue system is observed to show the progress of a job in a GUI."
+msgstr ""
+"Bir İleti Kuyruk Sistemi (Message Queue System), Çizgesel Kullanıcı Arayüzü'e "
+"(Graphical User Interface) ait bir işin ilerleyişini göstermek için gözlemlenir."
+
+#: ../../Behavioral/Observer/README.rst:17
+msgid "Note"
+msgstr "Not"
+
+#: ../../Behavioral/Observer/README.rst:20
+msgid ""
+"PHP already defines two interfaces that can help to implement this "
+"pattern: SplObserver and SplSubject."
+msgstr ""
+"PHP, `SplObserver <http://php.net/manual/en/class.splobserver.php>`__ ve "
+"`SplSubject <http://php.net/manual/en/class.splsubject.php>`__ adında, bu "
+"desenin uygulanımında yardımcı olabilecek iki adet arayüze sahiptir."
+
+#: ../../Behavioral/Observer/README.rst:23
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Behavioral/Observer/README.rst:27
+msgid "Alt Observer UML Diagram"
+msgstr "Alt Observer UML Diyagramı"
+
+#: ../../Behavioral/Observer/README.rst:30
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/Observer/README.rst:33
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Behavioral/Observer/README.rst:47
+msgid "Test"
+msgstr "Test"

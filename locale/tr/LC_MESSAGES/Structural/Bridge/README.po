@@ -1,0 +1,59 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Ahmet Burak Tektaş\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Structural/Bridge/README.rst:1
+msgid "Bridge"
+msgstr "Bridge (Köprü)"
+
+#: ../../Structural/Bridge/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Structural/Bridge/README.rst:7
+msgid ""
+"Decouple an abstraction from its implementation so that the two can vary "
+"independently."
+msgstr ""
+"İkisinin de bağımsız olarak değişebilmesi için, bir soyutlanımı (abstraction) "
+"onun uygulanımından (implementation) ayırmak."
+
+#: ../../Structural/Bridge/README.rst:10
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Structural/Bridge/README.rst:13
+msgid ""
+"`Symfony "
+"DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
+msgstr ""
+"Symfony: `DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__ kullanır."
+
+#: ../../Structural/Bridge/README.rst:16
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Structural/Bridge/README.rst:20
+msgid "Alt Bridge UML Diagram"
+msgstr "Alt Bridge UML Diyagramı"
+
+#: ../../Structural/Bridge/README.rst:23
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Structural/Bridge/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Structural/Bridge/README.rst:58
+msgid "Test"
+msgstr "Test"

@@ -1,0 +1,65 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Hatice Ergün\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Structural/FluentInterface/README.rst:1
+msgid "Fluent Interface"
+msgstr "Fluent Interface (Akıcı Arayüz)"
+
+#: ../../Structural/FluentInterface/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Structural/FluentInterface/README.rst:7
+msgid ""
+"To write code that is easy readable just like sentences in a natural "
+"language (like English)."
+msgstr ""
+"Tıpkı doğal dillerdeki tümcelerde olduğu gibi (örn: Türkçe), kodu kolayca "
+"okunabilir bir biçimde yazmak."
+
+#: ../../Structural/FluentInterface/README.rst:13
+msgid ""
+"Doctrine2's QueryBuilder works something like that example class "
+"below"
+msgstr ""
+"Doctrine2: ``QueryBuilder`` aşağıdaki örnek nesneye benzer bir biçimde çalışır."
+
+#: ../../Structural/FluentInterface/README.rst:15
+msgid "PHPUnit uses fluent interfaces to build mock objects"
+msgstr ""
+"PHPUnit: Akıcı arayüzleri yapaylamalar (mocking) için kullanır."
+
+#: ../../Structural/FluentInterface/README.rst:16
+msgid "Yii Framework: CDbCommand and CActiveRecord use this pattern, too"
+msgstr ""
+"Yii Framework: ``CDbCommand`` ve ``CActiveRecord`` bu deseni kullanır."
+
+#: ../../Structural/FluentInterface/README.rst:18
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Structural/FluentInterface/README.rst:22
+msgid "Alt FluentInterface UML Diagram"
+msgstr "Alt FluentInterface UML Diyagramı"
+
+#: ../../Structural/FluentInterface/README.rst:25
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Structural/FluentInterface/README.rst:28
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Structural/FluentInterface/README.rst:36
+msgid "Test"
+msgstr "Test"

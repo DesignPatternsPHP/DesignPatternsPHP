@@ -1,0 +1,51 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Hatice Ergün\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Structural/Flyweight/README.rst:1
+msgid "Flyweight"
+msgstr "Flyweight (Hafifletici)"
+
+#: ../../Structural/Flyweight/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Structural/Flyweight/README.rst:7
+msgid ""
+"To minimise memory usage, a Flyweight shares as much as possible memory with similar objects. It "
+"is needed when a large amount of objects is used that don't differ much in state. A common practice is "
+"to hold state in external data structures and pass them to the flyweight object when needed."
+msgstr ""
+"Bellek kullanımını en aza indirmek. Bir hafifletici, belleği mümkün olduğunca "
+"benzer nesneler ile paylaşır. Durum (state) içerisinde çok değişikliğe uğramayan "
+"çok sayıda nesne kullanıldığında gerek duyulur. Genel bir uygulama, harici veri "
+"yapılarında durumu tutmak ve gerektiğinde onları hafifletici nesnesine geçirmektir."
+
+#: ../../Structural/Flyweight/README.rst:11
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Structural/Flyweight/README.rst:15
+msgid "Alt Flyweight UML Diagram"
+msgstr "Alt Flyweight UML Diyagramı"
+
+#: ../../Structural/Flyweight/README.rst:18
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Structural/Flyweight/README.rst:21
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Structural/Flyweight/README.rst:41
+msgid "Test"
+msgstr "Test"

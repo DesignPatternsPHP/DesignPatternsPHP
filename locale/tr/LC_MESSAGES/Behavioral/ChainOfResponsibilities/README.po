@@ -1,0 +1,84 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Ahmet Burak Tektaş\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:1
+msgid "Chain Of Responsibilities"
+msgstr "Chain Of Responsibilities (Yüklenim Zinciri)"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:7
+msgid ""
+"To build a chain of objects to handle a call in sequential order. If one "
+"object cannot handle a call, it delegates the call to the next in the "
+"chain and so forth."
+msgstr ""
+"Bir isteme sıralı bir düzende cevap verecek bir nesneler zinciri oluşturmak. "
+"Eğer bir nesne bir istemi çözümleyemezse, bu istemi zincirdeki bir sonraki nesneye devreder."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:11
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:14
+msgid ""
+"Logging framework: where each chain element decides autonomously what "
+"to do with a log message."
+msgstr ""
+"Logging framework (kayıtlama yapısı): Zincirin her elemanı, bir kayıt iletisiyle "
+"ne yapacağına bağımsız bir şekilde karar verir."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:16
+msgid "A Spam filter."
+msgstr "Bir spam filtresi."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:17
+msgid ""
+"Caching: first object is an instance of e.g. a Memcached Interface, "
+"if that \"misses\" it delegates the call to the database interface."
+msgstr ""
+"Caching (önbellekleme): Mesela ilk nesne, örn. Memcached Interface'idir. "
+"Eğer (bu nesne) istemi \"çözümleyemezse\", istemi Database Interface'ine devreder."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
+msgid ""
+"Yii Framework: CFilterChain is a chain of controller action filters. "
+"the executing point is passed from one filter to the next along the "
+"chain, and only if all filters say \"yes\", the action can be invoked "
+"at last."
+msgstr ""
+"Yii Framework: CFilterChain, bir denetleyici eylemi (controller action) için filtreler "
+"zinciridir. Çalışım noktası zincir boyunca bir filtreden diğerine geçer, "
+"ve ancak tüm filtreler \"evet\" derse en son aşamada eylem çağrılabilir."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:24
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:28
+msgid "Alt ChainOfResponsibility UML Diagram"
+msgstr "Alt ChainOfResponsibility UML Diyagramı"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:31
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:54
+msgid "Test"
+msgstr "Test"

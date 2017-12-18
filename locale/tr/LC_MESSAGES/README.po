@@ -1,0 +1,87 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Muhammet Burak Şentürk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../README.rst:4
+msgid "DesignPatternsPHP"
+msgstr "Design Patterns PHP (Tasarım Desenleri PHP)"
+
+#: ../../README.rst:9
+msgid "Documentation Status"
+msgstr "Dokümantasyon Durumu"
+
+#: ../../README.rst:11
+msgid ""
+"This is a collection of known `design patterns`_ and some sample code how "
+"to implement them in PHP. Every pattern has a small list of examples "
+"(most of them from Zend Framework, Symfony2 or Doctrine2 as I'm most "
+"familiar with this software)."
+msgstr ""
+"Bu, `tasarım desenleri`_ olarak bilinen kalıpların bir derlemesidir ve "
+"örnek kodlar bu kalıpların PHP'de nasıl uygulanabileceğini gösterir. Her desen (sayfası)"
+"küçük kod örnekleri içerir. Bu örneklerin çoğu kendimin aşina olduğu Zend Framework, "
+"Symfony2, veya Doctrine2 yapılarındandır."
+
+#: ../../README.rst:16
+msgid ""
+"I think the problem with patterns is that often people do know them but "
+"don't know when to apply which."
+msgstr ""
+"Sanırım desenlerle ilgili sorun, insanların desenleri bilmesi, ancak "
+"hangi durumda, hangisini kullanacaklarını genellikle bilmemesidir."
+
+#: ../../README.rst:19
+msgid "Patterns"
+msgstr "Desenler"
+
+#: ../../README.rst:22
+msgid ""
+"The patterns can be structured in roughly three different categories. "
+"Please click on **the title of every pattern's page** for a full explanation "
+"of the pattern on Wikipedia."
+msgstr ""
+"Desenler kabaca üç farklı kategoride gruplandırılabilir. Lütfen her desenin "
+"detaylı açıklamalarının olduğu Wikipedia sayfalarına göz atmayı unutmayınız."
+
+#: ../../README.rst:34
+msgid "Contribute"
+msgstr "Katkıda Bulunun"
+
+#: ../../README.rst:37
+msgid ""
+"If you encounter any bugs or missing translations, please feel free "
+"to fork and send a pull request with your changes. "
+"To establish a consistent code quality, please check your code using "
+"`PHP CodeSniffer`_ against `PSR2 standard`_ "
+"using ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``."
+msgstr ""
+"Eğer bir yazılım hatası (bug) veya hatalı çeviriyle karşılaşırsanız, lütfen "
+"fork yaparak yaptığınız değişiklerle beraber pull request gönderiniz. "
+"Tutarlı bir kod kalitesi sağlamak için, lütfen kodunuzu `PHP CodeSniffer`_ kullanarak kontrol "
+"ediniz. Örn: `PSR2 standartı`_ için ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``."
+
+
+#: ../../README.rst:69
+msgid "`design patterns`"
+msgstr "`tasarım desenleri`"
+
+#: ../../README.rst:70
+msgid "`PHP CodeSniffer`"
+msgstr "`PHP CodeSniffer`"
+
+#: ../../README.rst:71
+msgid "`PSR2 standard`"
+msgstr "`PSR2 standartı`"
+
+#: ../../README.rst:73
+msgid "`contributors`"
+msgstr "`katkıda bulunanlar`"

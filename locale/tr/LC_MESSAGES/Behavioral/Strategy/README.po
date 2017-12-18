@@ -1,0 +1,79 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Ahmet Burak Tektaş\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Behavioral/Strategy/README.rst:1 ../../Behavioral/Strategy/README.rst:8
+msgid "Strategy"
+msgstr "Strategy (Yordam)"
+
+#: ../../Behavioral/Strategy/README.rst:4
+msgid "Terminology"
+msgstr "Terimler"
+
+#: ../../Behavioral/Strategy/README.rst:7
+msgid "Context"
+msgstr "Context (Bağlam)"
+
+#: ../../Behavioral/Strategy/README.rst:9
+msgid "Concrete Strategy"
+msgstr "Concrete Strategy (Somut Yordam)"
+
+#: ../../Behavioral/Strategy/README.rst:11
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Behavioral/Strategy/README.rst:14
+msgid ""
+"To separate strategies and to enable fast switching between them. Also "
+"this pattern is a good alternative to inheritance (instead of having an "
+"abstract class that is extended)."
+msgstr ""
+"Yordamları ayırarak, aralarındaki hızlı geçişlere olanak sağlamak. Aynı "
+"zamanda bu desen, kalıtım (inheritance) için iyi bir alternatiftir "
+"(genişletilmiş soyut bir sınıf sahibi olmak yerine)."
+
+#: ../../Behavioral/Strategy/README.rst:18
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Behavioral/Strategy/README.rst:21
+msgid "Sorting a list of objects, one strategy by date, the other by id."
+msgstr ""
+"Bir nesneler dizisinin sıralanması: birinin 'date', bir diğerinin 'id' değerlerine göre."
+
+#: ../../Behavioral/Strategy/README.rst:22
+msgid ""
+"Simplify unit testing: e.g. switching between file and in-memory "
+"storage."
+msgstr ""
+"Birim testinin kolaylaştırılması: örneğin dosya ve bellek "
+"odaklı saklama işlemleri arasındaki geçişler."
+
+#: ../../Behavioral/Strategy/README.rst:25
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Behavioral/Strategy/README.rst:29
+msgid "Alt Strategy UML Diagram"
+msgstr "Alt Strategy UML Diyagramı"
+
+#: ../../Behavioral/Strategy/README.rst:32
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/Strategy/README.rst:35
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Behavioral/Strategy/README.rst:61
+msgid "Test"
+msgstr "Test"

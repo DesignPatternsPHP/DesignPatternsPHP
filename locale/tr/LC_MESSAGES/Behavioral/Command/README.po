@@ -1,0 +1,100 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Faruk Zeren\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Behavioral/Command/README.rst:1
+msgid "Command"
+msgstr "Command (Komut)"
+
+#: ../../Behavioral/Command/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Behavioral/Command/README.rst:7
+msgid "To encapsulate invocation and decoupling."
+msgstr "İstemi ve istem ayrıştırmasını sarmalamak."
+
+#: ../../Behavioral/Command/README.rst:9
+msgid ""
+"We have an Invoker and a Receiver. This pattern uses a \"Command\" to "
+"delegate the method call against the Receiver and presents the same "
+"method \"execute\". Therefore, the Invoker just knows to call \"execute\" to "
+"process the Command of the client. The Receiver is decoupled from the "
+"Invoker."
+msgstr ""
+"Bir çağrıcımız (invoker) ve bir çağrı ayrıştırmacımız yani alıcımız (receiver) olsun. "
+"Bu desen, bir \"Komut\" kullanarak alıcıya karşı yöntem çağrısının (method call) "
+"atamasını yapar, ve aynı yöntemi ``execute()`` olarak sunar. Böylece çağrıcı, istemcinin "
+"(client) komutunu yürütmek için, yalnızca ``execute()`` yöntemini çağıracağını bilir. "
+"Alıcı çağrıcıdan ayrışmıştır."
+
+#: ../../Behavioral/Command/README.rst:15
+msgid ""
+"The second aspect of this pattern is the undo(), which undoes the method "
+"execute(). Command can also be aggregated to combine more complex "
+"commands with minimum copy-paste and relying on composition over "
+"inheritance."
+msgstr ""
+"Bu desenin ikinci yönü, ``execute()`` yöntemini geri almayı sağlayan ``undo()`` "
+"yöntemidir. Komut deseni, daha karmaşık işlemleri gerçekleştirmek için diğer "
+"komutları bir araya getirebilir ve bu sayede kodun (diğer nesnelerden) "
+"kopyalanmasını en aza indirir, kalıtımdan çok kompozisyona güvenir."
+
+#: ../../Behavioral/Command/README.rst:20
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Behavioral/Command/README.rst:23
+msgid ""
+"A text editor : all events are Command which can be undone, stacked "
+"and saved."
+msgstr ""
+"Bir metin düzenleyici: bütün olaylar (events) geri alınabilen, yığılmış ve kaydedilmiş "
+"Komut'lardır."
+
+#: ../../Behavioral/Command/README.rst:25
+msgid ""
+"Symfony2: SF2 Commands that can be run from the CLI are built with "
+"just the Command pattern in mind."
+msgstr ""
+"Symfony2: SF2 CLI'dan çalıştırılabilen komutlar, yalnızca Komut deseni "
+"düşünülerek oluşturulmuştur."
+
+#: ../../Behavioral/Command/README.rst:27
+msgid ""
+"Big CLI tools use subcommands to distribute various tasks and pack "
+"them in \"modules\", each of these can be implemented with the Command "
+"pattern (e.g. vagrant)."
+msgstr ""
+"Büyük CLI araçları, çeşitli görevleri ayırmak ve bunları \"modüller\" ile "
+"birleştirmek için alt komutları kullanır. Bu alt komutlar, Komut deseni ile "
+"uygulanabilir (örn. Vagrant)."
+
+#: ../../Behavioral/Command/README.rst:31
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Behavioral/Command/README.rst:35
+msgid "Alt Command UML Diagram"
+msgstr "Alt Command UML Diyagramı"
+
+#: ../../Behavioral/Command/README.rst:38
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/Command/README.rst:41
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Behavioral/Command/README.rst:67
+msgid "Test"
+msgstr "Test"
