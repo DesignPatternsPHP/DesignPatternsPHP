@@ -9,6 +9,11 @@ class StorageAdapter
      */
     private $data = [];
 
+    /**
+     * StorageAdapter constructor.
+     *
+     * @param array $data
+     */
     public function __construct(array $data)
     {
         $this->data = $data;

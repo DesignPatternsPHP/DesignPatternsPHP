@@ -17,6 +17,9 @@ class VisitorTest extends TestCase
         $this->visitor = new Visitor\RoleVisitor();
     }
 
+    /**
+     * @return array
+     */
     public function provideRoles()
     {
         return [

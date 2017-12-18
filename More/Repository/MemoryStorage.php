@@ -14,6 +14,11 @@ class MemoryStorage
      */
     private $lastId = 0;
 
+    /**
+     * @param array $data
+     *
+     * @return int
+     */
     public function persist(array $data): int
     {
         $this->lastId++;
@@ -24,6 +29,11 @@ class MemoryStorage
         return $this->lastId;
     }
 
+    /**
+     * @param int $id
+     *
+     * @return array
+     */
     public function retrieve(int $id): array
     {
         if (!isset($this->data[$id])) {
@@ -33,6 +43,9 @@ class MemoryStorage
         return $this->data[$id];
     }
 
+    /**
+     * @param int $id
+     */
     public function delete(int $id)
     {
         if (!isset($this->data[$id])) {

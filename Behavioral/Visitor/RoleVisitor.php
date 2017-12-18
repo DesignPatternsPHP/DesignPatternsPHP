@@ -9,11 +9,21 @@ class RoleVisitor implements RoleVisitorInterface
      */
     private $visited = [];
 
+    /**
+     * @param Group $role
+     *
+     * @return mixed|void
+     */
     public function visitGroup(Group $role)
     {
         $this->visited[] = $role;
     }
 
+    /**
+     * @param User $role
+     *
+     * @return mixed|void
+     */
     public function visitUser(User $role)
     {
         $this->visited[] = $role;

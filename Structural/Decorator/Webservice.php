@@ -9,11 +9,19 @@ class Webservice implements RenderableInterface
      */
     private $data;
 
+    /**
+     * Webservice constructor.
+     *
+     * @param string $data
+     */
     public function __construct(string $data)
     {
         $this->data = $data;
     }
 
+    /**
+     * @return string
+     */
     public function renderData(): string
     {
         return $this->data;

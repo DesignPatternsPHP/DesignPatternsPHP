@@ -4,6 +4,11 @@ namespace DesignPatterns\Creational\FactoryMethod;
 
 class ItalianFactory extends FactoryMethod
 {
+    /**
+     * @param string $type
+     *
+     * @return VehicleInterface
+     */
     protected function createVehicle(string $type): VehicleInterface
     {
         switch ($type) {

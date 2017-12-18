@@ -29,6 +29,9 @@ class Receiver
         $this->output[] = $str;
     }
 
+    /**
+     * @return string
+     */
     public function getOutput(): string
     {
         return join("\n", $this->output);

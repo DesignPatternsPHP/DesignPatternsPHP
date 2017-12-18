@@ -14,6 +14,12 @@ class Value
      */
     private $name;
 
+    /**
+     * Value constructor.
+     *
+     * @param Attribute $attribute
+     * @param string    $name
+     */
     public function __construct(Attribute $attribute, string $name)
     {
         $this->name = $name;
@@ -22,6 +28,9 @@ class Value
         $attribute->addValue($this);
     }
 
+    /**
+     * @return string
+     */
     public function __toString(): string
     {
         return sprintf('%s: %s', $this->attribute, $this->name);

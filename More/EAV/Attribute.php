@@ -14,12 +14,20 @@ class Attribute
      */
     private $name;
 
+    /**
+     * Attribute constructor.
+     *
+     * @param string $name
+     */
     public function __construct(string $name)
     {
         $this->values = new \SplObjectStorage();
         $this->name = $name;
     }
 
+    /**
+     * @param Value $value
+     */
     public function addValue(Value $value)
     {
         $this->values->attach($value);
@@ -33,6 +41,9 @@ class Attribute
         return $this->values;
     }
 
+    /**
+     * @return string
+     */
     public function __toString(): string
     {
         return $this->name;

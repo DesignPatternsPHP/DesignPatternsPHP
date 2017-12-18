@@ -12,6 +12,11 @@ abstract class Handler
      */
     private $successor = null;
 
+    /**
+     * Handler constructor.
+     *
+     * @param Handler|null $handler
+     */
     public function __construct(Handler $handler = null)
     {
         $this->successor = $handler;
@@ -39,5 +44,10 @@ abstract class Handler
         return $processed;
     }
 
+    /**
+     * @param RequestInterface $request
+     *
+     * @return mixed
+     */
     abstract protected function processing(RequestInterface $request);
 }

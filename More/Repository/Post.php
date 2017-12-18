@@ -19,6 +19,11 @@ class Post
      */
     private $text;
 
+    /**
+     * @param array $state
+     *
+     * @return Post
+     */
     public static function fromState(array $state): Post
     {
         return new self(
@@ -40,21 +45,33 @@ class Post
         $this->title = $title;
     }
 
+    /**
+     * @param int $id
+     */
     public function setId(int $id)
     {
         $this->id = $id;
     }
 
+    /**
+     * @return int
+     */
     public function getId(): int
     {
         return $this->id;
     }
 
+    /**
+     * @return string
+     */
     public function getText(): string
     {
         return $this->text;
     }
 
+    /**
+     * @return string
+     */
     public function getTitle(): string
     {
         return $this->title;
