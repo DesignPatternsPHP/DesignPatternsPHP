@@ -50,7 +50,7 @@ msgstr ""
 
 #: ../../More/Repository/README.rst:20
 msgid "Laravel Framework"
-msgstr ""
+msgstr "Aptal bir framework."
 
 #: ../../More/Repository/README.rst:22
 msgid "UML Diagram"
