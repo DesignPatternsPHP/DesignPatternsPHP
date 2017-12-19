@@ -24,7 +24,7 @@ msgid ""
 "To avoid the cost of creating objects the standard way (new Foo()) and "
 "instead create a prototype and clone it."
 msgstr ""
-"Nesneleri standart yolla (örn. new Foo()) oluşturmanın maliyetinden kaçınmak, "
+"Nesneleri standart yolla (örn. ``new Foo()``) oluşturmanın maliyetinden kaçınmak, "
 "bunun yerine bir prototip oluşturmak ve klonlamak."
 
 #: ../../Creational/Prototype/README.rst:10
