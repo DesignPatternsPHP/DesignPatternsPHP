@@ -1,0 +1,91 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Faruk Zeren\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Structural/DependencyInjection/README.rst:1
+msgid "Dependency Injection"
+msgstr "Dependency Injection (Bağımlılık Aktarımı)"
+
+#: ../../Structural/DependencyInjection/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Structural/DependencyInjection/README.rst:7
+msgid ""
+"To implement a loosely coupled architecture in order to get better "
+"testable, maintainable and extendable code."
+msgstr ""
+"Daha iyi test edilebilir, bakım yapılabilir ve genişletilebilir kod elde "
+"etmek için gevşek bağlı bir mimari uygulamak."
+
+#: ../../Structural/DependencyInjection/README.rst:10
+msgid "Usage"
+msgstr "Kullanım"
+
+#: ../../Structural/DependencyInjection/README.rst:13
+msgid ""
+"DatabaseConfiguration gets injected and ``DatabaseConnection`` will get all that it "
+"needs from ``$config``. Without DI, the configuration would be created "
+"directly in ``DatabaseConnection``, which is not very good for testing and "
+"extending it."
+msgstr ""
+"``DatabaseConnection`` nesnesi ``DatabaseConfiguration`` nesnesine bağımlanır "
+"ve gereksinimlerini ``$config`` değişkeninden alır. Bağımlılık aktarımı olmaksızın "
+"yapılandırma (configuration), ``DatabaseConnection`` nesnesi içinde oluşturulabilir. "
+"Ancak bu, iyi bir test ve genişletme olanaklarını ortadan kaldıracaktır."
+
+#: ../../Structural/DependencyInjection/README.rst:18
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Structural/DependencyInjection/README.rst:21
+msgid ""
+"The Doctrine2 ORM uses dependency injection e.g. for configuration "
+"that is injected into a ``Connection`` object. For testing purposes, "
+"one can easily create a mock object of the configuration and inject "
+"that into the ``Connection`` object"
+msgstr ""
+"Doctrine2 ORM bağımlılık aktarımını kullanır. Örneğin bir "
+"``Connection`` nesnesi, yapılandırma (configuration) nesnesine bağımlanmıştır. "
+"Test amacıyla bir yapılandırma yapaylaması (configuration mock) kolayca "
+"oluşturulabilir ve ``Connection`` nesnesine aktarılabilir."
+
+#: ../../Structural/DependencyInjection/README.rst:25
+msgid ""
+"Symfony and Zend Framework 2 already have containers for DI that "
+"create objects via a configuration array and inject them where needed "
+"(i.e. in Controllers)"
+msgstr ""
+"Symfony ve Zend Framework 2, bir yapılandırma dizisi (configuration array) "
+"aracılığıyla nesneler oluşturan ve bunları gerekli yerlere aktaran "
+"(örn: Denetçiler'e (Controllers)) bağımlılık aktarımı kapsayıcılarına "
+"(containers) sahiptirler."
+
+#: ../../Structural/DependencyInjection/README.rst:29
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Structural/DependencyInjection/README.rst:33
+msgid "Alt DependencyInjection UML Diagram"
+msgstr "Alt DependencyInjection UML Diyagramı"
+
+#: ../../Structural/DependencyInjection/README.rst:36
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Structural/DependencyInjection/README.rst:39
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Structural/DependencyInjection/README.rst:53
+msgid "Test"
+msgstr "Test"

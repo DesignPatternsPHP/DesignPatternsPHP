@@ -1,0 +1,67 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Hatice Ergün\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Creational/StaticFactory/README.rst:1
+msgid "Static Factory"
+msgstr "Static Factory (Statik Fabrika)"
+
+#: ../../Creational/StaticFactory/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Creational/StaticFactory/README.rst:7
+msgid ""
+"Similar to the AbstractFactory, this pattern is used to create series of "
+"related or dependent objects. The difference between this and the "
+"abstract factory pattern is that the static factory pattern uses just "
+"one static method to create all types of objects it can create. It is "
+"usually named ``factory`` or ``build``."
+msgstr ""
+"Soyut Fabrika'ya (Abstract Factory) benzer biçimde, ilgili veya bağımlı nesneler "
+"serisi oluşturmak. Bu desen ile Soyut Fabrika deseni arasındaki fark, bu desenin"
+"oluşturabileceği her türlü nesneyi oluşturmak için yalnızca bir statik yöntem (method) "
+"kullanmasıdır. Yöntem ise genellikle ``factory``, ``build`` veya ``create`` olarak "
+"adlandırılır."
+
+
+#: ../../Creational/StaticFactory/README.rst:13
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Creational/StaticFactory/README.rst:16
+msgid ""
+"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory "
+"method create cache backends or frontends"
+msgstr ""
+"Zend Framework: ``Zend_Cache_Backend`` veya ``Zend_Cache_Frontend``, "
+"ön yüz veya arka yüz önbelleği (cache) oluşturmak için fabrika yönetimi kullanırlar."
+
+#: ../../Creational/StaticFactory/README.rst:19
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Creational/StaticFactory/README.rst:23
+msgid "Alt StaticFactory UML Diagram"
+msgstr "Alt StaticFactory UML Diyagramı"
+
+#: ../../Creational/StaticFactory/README.rst:26
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/StaticFactory/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Creational/StaticFactory/README.rst:55
+msgid "Test"
+msgstr "Test"

@@ -1,0 +1,71 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Hatice Ergün\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Creational/FactoryMethod/README.rst:1
+msgid "Factory Method"
+msgstr "Factory Method (Fabrika Yöntemi)"
+
+#: ../../Creational/FactoryMethod/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Creational/FactoryMethod/README.rst:7
+msgid ""
+"The good point over the SimpleFactory is you can subclass it to "
+"implement different ways to create objects."
+msgstr ""
+"Fabrika Yöntemi'nin güzel tarafı Simple Factory aksine, kendisini alt "
+"neslerle genişleterek (subclassing), bu yolla farklı biçimlerde nesne "
+"oluşturabilmeye olanak sağlamasıdır."
+
+#: ../../Creational/FactoryMethod/README.rst:10
+msgid "For simple case, this abstract class could be just an interface."
+msgstr "Basit bir durum için ise, bu soyut sınıf (abstract class) yanlızca bir arayüz (interface) de olabilir."
+
+#: ../../Creational/FactoryMethod/README.rst:12
+msgid ""
+"This pattern is a \"real\" Design Pattern because it achieves the "
+"\"Dependency Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
+msgstr ""
+"Bu desen \"gerçek\" bir Tasarım Deseni'dir, çünkü S.O.L.I.D ilkelerinden biri olan "
+"\"D\" yani \"Dependency Inversion Principle (Bağımlılık Tersinme İlkesi)\" bölümünün "
+"sorumluluğunu yerine getirir."
+
+#: ../../Creational/FactoryMethod/README.rst:15
+msgid ""
+"It means the FactoryMethod class depends on abstractions, not concrete "
+"classes. This is the real trick compared to SimpleFactory or "
+"StaticFactory."
+msgstr ""
+"Bu, Factory Method sınıfının somut sınıflara değil soyutlamalara (abstraction) dayandığı anlamına "
+"gelir. İşte işin püf noktası da, Simple Factory veya Static Factory ile karşılaştırıldığında budur."
+
+#: ../../Creational/FactoryMethod/README.rst:19
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Creational/FactoryMethod/README.rst:23
+msgid "Alt FactoryMethod UML Diagram"
+msgstr "Alt FactoryMethod UML Diyagramı"
+
+#: ../../Creational/FactoryMethod/README.rst:26
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/FactoryMethod/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Creational/FactoryMethod/README.rst:73
+msgid "Test"
+msgstr "Test"

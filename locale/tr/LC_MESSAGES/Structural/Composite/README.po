@@ -1,0 +1,70 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Ahmet Burak Tektaş\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Structural/Composite/README.rst:1
+msgid "Composite"
+msgstr "Composite (Bileşik)"
+
+#: ../../Structural/Composite/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Structural/Composite/README.rst:7
+msgid ""
+"To treat a group of objects the same way as a single instance of the "
+"object."
+msgstr ""
+"Bir gruptaki nesnelerin tümüne, tek bir nesne örneğiymiş (instance) "
+"gibi davranmak."
+
+#: ../../Structural/Composite/README.rst:10
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Structural/Composite/README.rst:13
+msgid ""
+"a form class instance handles all its form elements like a single "
+"instance of the form, when ``render()`` is called, it subsequently "
+"runs through all its child elements and calls ``render()`` on them"
+msgstr ""
+"Bir form sınıfı örneği, tüm alt ögelerini (child element) tek bir form "
+"örneğiymiş gibi ele alır. Ne zaman ``render()`` yöntemi çağrılsa, peşi sıra "
+"tüm alt ögelerin ``render()`` yöntemini çağrırır."
+
+#: ../../Structural/Composite/README.rst:16
+msgid ""
+"``Zend_Config``: a tree of configuration options, each one is a "
+"``Zend_Config`` object itself"
+msgstr ""
+"``Zend_Config``: Bir yapılandırma seçenekleri dizisidir (configuration options). "
+"Dizi ögelerinin her biri de, özünde yine bir ``Zend_Config`` nesnesidir."
+
+#: ../../Structural/Composite/README.rst:19
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Structural/Composite/README.rst:23
+msgid "Alt Composite UML Diagram"
+msgstr "Alt Composite UML Diyagramı"
+
+#: ../../Structural/Composite/README.rst:26
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Structural/Composite/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Structural/Composite/README.rst:55
+msgid "Test"
+msgstr "Test"

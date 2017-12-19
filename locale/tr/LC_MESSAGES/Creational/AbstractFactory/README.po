@@ -1,0 +1,52 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Muhammet Burak Şentürk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Creational/AbstractFactory/README.rst:1
+msgid "Abstract Factory"
+msgstr "Abstract Factory (Soyut Fabrika)"
+
+#: ../../Creational/AbstractFactory/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Creational/AbstractFactory/README.rst:7
+msgid ""
+"To create series of related or dependent objects without specifying "
+"their concrete classes. Usually the created classes all implement the "
+"same interface. The client of the abstract factory does not care about "
+"how these objects are created, he just knows how they go together."
+msgstr ""
+"Somut sınıflarını belirtmeden ilgili veya bağımlı nesneler serisi oluşturmak. "
+"Genellikle oluşturulan sınıfların hepsi aynı arayüzü uygular. Soyut fabrika "
+"istemcisi, bu nesnelerin nasıl oluşturulduğu ile ilgilenmez, yalnızca birlikte "
+"nasıl ilerleneceğini bilir."
+
+#: ../../Creational/AbstractFactory/README.rst:12
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Creational/AbstractFactory/README.rst:16
+msgid "Alt AbstractFactory UML Diagram"
+msgstr "Alt AbstractFactory UML Diyagramı"
+
+#: ../../Creational/AbstractFactory/README.rst:19
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/AbstractFactory/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Creational/AbstractFactory/README.rst:60
+msgid "Test"
+msgstr "Test"

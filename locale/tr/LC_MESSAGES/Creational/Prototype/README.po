@@ -1,0 +1,60 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Muhammet Burak Şentürk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Creational/Prototype/README.rst:1
+msgid "Prototype"
+msgstr "Prototype (Prototip)"
+
+#: ../../Creational/Prototype/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Creational/Prototype/README.rst:7
+msgid ""
+"To avoid the cost of creating objects the standard way (new Foo()) and "
+"instead create a prototype and clone it."
+msgstr ""
+"Nesneleri standart yolla (örn. new Foo()) oluşturmanın maliyetinden kaçınmak, "
+"bunun yerine bir prototip oluşturmak ve klonlamak."
+
+#: ../../Creational/Prototype/README.rst:10
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Creational/Prototype/README.rst:13
+msgid ""
+"Large amounts of data (e.g. create 1,000,000 rows in a database at "
+"once via a ORM)."
+msgstr "Yüksek oranda veri (örn. ORM aracılığıyla bir veritabanında aynı anda "
+"1.000.000 satır oluşturma)."
+
+
+#: ../../Creational/Prototype/README.rst:16
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Creational/Prototype/README.rst:20
+msgid "Alt Prototype UML Diagram"
+msgstr "Alt Prototype UML Diyagramı"
+
+#: ../../Creational/Prototype/README.rst:23
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/Prototype/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Creational/Prototype/README.rst:46
+msgid "Test"
+msgstr "Test"

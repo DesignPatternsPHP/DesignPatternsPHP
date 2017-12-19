@@ -1,0 +1,61 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Hatice Ergün\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Creational/SimpleFactory/README.rst:1
+msgid "Simple Factory"
+msgstr "Simple Factory (Basit Fabrika)"
+
+#: ../../Creational/SimpleFactory/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Creational/SimpleFactory/README.rst:7
+msgid "SimpleFactory is a simple factory pattern."
+msgstr "Basit ve kontrollü bir şekilde nesneler oluşturmak."
+
+#: ../../Creational/SimpleFactory/README.rst:9
+msgid ""
+"It differs from the static factory because it is not static. "
+"Therefore, you can have multiple factories, differently parametrized, you can subclass it and you can mock it."
+msgstr ""
+"Statik olmadığı için Statik Fabrika (Static Factory) deseninden farklıdır. "
+"Bu nedenle, birden fazla fabrika sahibi olunabilir ve bunlar değişik biçimlerde "
+"parametrize edilmiş, alt sınıflama (subclassing) veya yapaylama da (mocking) yapılmış olabilir."
+
+#: ../../Creational/SimpleFactory/README.rst:11
+msgid "It always should be preferred over a static factory!"
+msgstr "Her zaman statik bir fabrika yerine tercih edilmelidir!"
+
+#: ../../Creational/SimpleFactory/README.rst:13
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Creational/SimpleFactory/README.rst:17
+msgid "Alt SimpleFactory UML Diagram"
+msgstr "Alt SimpleFactory UML Diyagramı"
+
+#: ../../Creational/SimpleFactory/README.rst:20
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Creational/SimpleFactory/README.rst:23
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Creational/SimpleFactory/README.rst:43
+msgid "Usage"
+msgstr "Kullanım"
+
+#: ../../Creational/SimpleFactory/README.rst:52
+msgid "Test"
+msgstr "Test"

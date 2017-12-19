@@ -1,0 +1,59 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Hatice Ergün\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Structural/Proxy/README.rst:1
+msgid "Proxy"
+msgstr "Proxy (Aracı)"
+
+#: ../../Structural/Proxy/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Structural/Proxy/README.rst:7
+msgid "To interface to anything that is expensive or impossible to duplicate."
+msgstr "Maliyetli olan veya yinelenmesi (duplicate) mümkün olmayan bir şeyi arayüzlemek."
+
+#: ../../Structural/Proxy/README.rst:9
+msgid "Examples"
+msgstr "Örnekler"
+
+#: ../../Structural/Proxy/README.rst:12
+msgid ""
+"Doctrine2 uses proxies to implement framework magic (e.g. lazy "
+"initialization) in them, while the user still works with his own "
+"entity classes and will never use nor touch the proxies"
+msgstr ""
+"Doctrine2, kullanıcı kendi varlık sınıflarını (entity class) kullanırken "
+"ve asla aracıları kullanmaz ya da aracılara dokunmazken, framework içindeki "
+"özel yöntemleri (magic method) (örn: yavaş başlatım (lazy initialization)) "
+"uygulamak için aracıları kullanır."
+
+#: ../../Structural/Proxy/README.rst:16
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Structural/Proxy/README.rst:20
+msgid "Alt Proxy UML Diagram"
+msgstr "Alt Proxy UML Diyagramı"
+
+#: ../../Structural/Proxy/README.rst:23
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Structural/Proxy/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Structural/Proxy/README.rst:40
+msgid "Test"
+msgstr "Test"

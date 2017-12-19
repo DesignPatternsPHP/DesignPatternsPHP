@@ -1,0 +1,60 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"POT-Creation-Date: 2017-12-16 05:32+0300\n"
+"PO-Revision-Date: 2017-12-16 05:32+0300\n"
+"Last-Translator: Ahmet Burak Tektaş\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Language-Team: Mütercimler\n"
+
+#: ../../Behavioral/Mediator/README.rst:1
+msgid "Mediator"
+msgstr "Mediator (Aracı)"
+
+#: ../../Behavioral/Mediator/README.rst:4
+msgid "Purpose"
+msgstr "Amaç"
+
+#: ../../Behavioral/Mediator/README.rst:7
+msgid ""
+"This pattern provides an easy way to decouple many components working "
+"together. It is a good alternative to Observer IF you have a \"central "
+"intelligence\", like a controller (but not in the sense of the MVC)."
+msgstr ""
+"Bu desen, ayrık çalışan parçaların kolay bir şekilde birlikte çalışmasını sağlar. Eğer "
+"\"Merkezi Bilgi\"niz (Central Intelligence) varsa Gözlemci'ye (Observer) iyi bir alternatiftir, "
+"Denetleyici (Controller) gibi (ancak MVC (Model-View-Controller) kavramındaki anlamda değil)."
+
+#: ../../Behavioral/Mediator/README.rst:11
+msgid ""
+"All components (called Colleague) are only coupled to the "
+"MediatorInterface and it is a good thing because in OOP, one good friend "
+"is better than many. This is the key-feature of this pattern."
+msgstr ""
+"Tüm parçalar (Görevdaş (Colleague) da denir) sadece Aracı Arayüz (Mediator Interface) ile "
+"ilişkilenebilir ve bu iyi bir özelliktir. Çünkü Nesne Yönelimli Programlama'da (Object Oriented Programming (OOP)) "
+"iyi bir arkadaş, çoğu arkadaştan iyidir. İşte bu desenin kilit özelliği de budur."
+
+#: ../../Behavioral/Mediator/README.rst:15
+msgid "UML Diagram"
+msgstr "UML Diyagramı"
+
+#: ../../Behavioral/Mediator/README.rst:19
+msgid "Alt Mediator UML Diagram"
+msgstr "Alt Mediator UML Diyagramı"
+
+#: ../../Behavioral/Mediator/README.rst:22
+msgid "Code"
+msgstr "Kod"
+
+#: ../../Behavioral/Mediator/README.rst:25
+msgid "You can also find this code on `GitHub`_"
+msgstr "Bu kodu `Github`_ üzerinde de bulabilirsiniz."
+
+#: ../../Behavioral/Mediator/README.rst:63
+msgid "Test"
+msgstr "Test"
