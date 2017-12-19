@@ -17,7 +17,7 @@ msgstr "Entity-Attribute-Value (Varlık-Özellik-Değer)"
 
 #: ../../More/EAV/README.rst:4
 msgid "The Entity–attribute–value (EAV) pattern in order to implement EAV model with PHP."
-msgstr ""
+msgstr "-"
 
 #: ../../More/EAV/README.rst:6
 msgid "Purpose"
