@@ -27,7 +27,7 @@ msgid ""
 "familiar with this software)."
 msgstr ""
 "Bu, `tasarım desenleri`_ olarak bilinen kalıpların bir derlemesidir ve "
-"örnek kodlar bu kalıpların PHP'de nasıl uygulanabileceğini gösterir. Her desen (sayfası)"
+"örnek kodlar bu kalıpların PHP'de nasıl uygulanabileceğini gösterir. Her desen (sayfası) "
 "küçük kod örnekleri içerir. Bu örneklerin çoğu kendimin aşina olduğu Zend Framework, "
 "Symfony2, veya Doctrine2 yapılarındandır."
 
