@@ -22,18 +22,6 @@ Just run:
 docker-compose up
 ```
 
-### [optional] [DEPRECATED] Using a Virtual Machine (VM)
-
-If you wish to use a ready made VM environment, you can easily create one with Vagrant and Ansible.
-
-```bash
-$ vagrant up
-```
-
-Then `vagrant ssh` and `cd /vagrant`
-
-More information on [vagrant](https://www.vagrantup.com)
-
 ### Install dependencies
 
 ```bash
