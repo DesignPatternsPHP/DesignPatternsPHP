@@ -9,7 +9,7 @@ DesignPatternsPHP
    :alt: Documentation Status
 
 .. image:: https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square
-   :target: https://paypal.me/LieblerDominik
+   :target: https://paypal.me/DominikLiebler
    :alt: Donate
 
 This is a collection of known `design patterns`_ and some sample code how
