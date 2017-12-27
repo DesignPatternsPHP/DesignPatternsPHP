@@ -14,7 +14,7 @@ I think the problem with patterns is that often people do know them but don't kn
 You should look at and run the tests to see what happens in the example.
 To do this, you should install dependencies with `Composer` first:
 
-### [option] Using Docker
+### [optional] Using Docker
 
 You can optionally run tests using [Docker for Mac](https://www.docker.com/docker-mac) or [Windows](https://www.docker.com/docker-windows) or native one for [Linux](https://www.docker.com/docker-debian).
 Just run:
