@@ -1,9 +1,9 @@
 version: "3.1"
-
 services:
   php:
-    image: php:7.1.7-cli
+    build: 
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - .:/opt/php
-    privileged: true
     command: ["/opt/php/docker/test_runner.sh"]
