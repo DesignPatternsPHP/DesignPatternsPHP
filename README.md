@@ -30,6 +30,12 @@ $ composer install
 
 Read more about how to install and use `Composer` on your local machine [here](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
+If you are using Docker, you just have to run:
+
+```bash
+docker-compose run composer install
+```
+
 ### Running test suite
 
 ```bash
