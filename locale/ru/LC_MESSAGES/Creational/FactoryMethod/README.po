@@ -40,7 +40,7 @@ msgid ""
 "\"Dependency Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
 msgstr ""
 "Этот паттерн является «настоящим» Шаблоном Проектирования, потому что он "
-"следует «Принципу инверсии зависимостей\" ака \"D\" в `S.O.L.I.D <https://"
+"следует «Принципу инъекции зависимостей (внедрения зависимостей)\" ака \"D\" в `S.O.L.I.D <https://"
 "ru.wikipedia.org/wiki/SOLID_(объектно-ориентированное_программирование)>`_."
 
 #: ../../Creational/FactoryMethod/README.rst:15
