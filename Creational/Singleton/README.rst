@@ -16,8 +16,7 @@ Examples
 -  DB Connector
 -  Logger (may also be a Multiton if there are many log files for
    several purposes)
--  Lock file for the application (there is only one in the filesystem
-   ...)
+-  Lock file for the application (there is only one in the filesystem)
 
 UML Diagram
 -----------
