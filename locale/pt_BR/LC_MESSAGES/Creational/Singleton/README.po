@@ -33,7 +33,7 @@ msgid ""
 " all calls."
 msgstr ""
 "Ter uma única instância da classe na aplicação que será responsável por gerenciar"
-"todas as chamadas a ela"
+" todas as chamadas a ela"
 
 #: ../../Creational/Singleton/README.rst:14
 msgid "Examples"
