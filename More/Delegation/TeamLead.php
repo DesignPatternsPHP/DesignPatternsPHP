@@ -26,6 +26,7 @@ class TeamLead
         //note that we are passing $this from teamLead context
         return $this->junior->writeReallyBadCode($this);
     }
+
     /**
      * Junior can call this method
      */

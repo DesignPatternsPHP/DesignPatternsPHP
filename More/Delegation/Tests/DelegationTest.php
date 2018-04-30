@@ -17,6 +17,7 @@ class DelegationTest extends TestCase
 
         $this->assertEquals($junior->writeBadCode(), $teamLead->writeCode());
     }
+
     /**
      * @test
      */

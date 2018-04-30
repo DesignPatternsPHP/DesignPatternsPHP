@@ -8,6 +8,7 @@ class JuniorDeveloper
     {
         return 'Some junior developer generated code...';
     }
+
     /**
      * Junior is authorized to call method on TeamLead (real delegation)
      */
