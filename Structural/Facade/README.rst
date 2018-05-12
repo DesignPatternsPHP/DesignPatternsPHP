@@ -4,7 +4,7 @@
 Purpose
 -------
 
-The primary goal of a Facade Pattern is not to avoid you to read the
+The primary goal of a Facade Pattern is not to avoid you having to read the
 manual of a complex API. It's only a side-effect. The first goal is to
 reduce coupling and follow the Law of Demeter.
 
