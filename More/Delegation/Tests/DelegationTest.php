@@ -7,10 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class DelegationTest extends TestCase
 {
-    /**
-     * @test
-     */
-    public function teamLeadCanBlameJuniorForBadCode()
+    public function testTeamLeadCanBlameJuniorForBadCode()
     {
         $junior = new Delegation\JuniorDeveloper();
         $teamLead = new Delegation\TeamLead($junior);
@@ -18,10 +15,7 @@ class DelegationTest extends TestCase
         $this->assertEquals($junior->writeBadCode(), $teamLead->writeCode());
     }
 
-    /**
-     * @test
-     */
-    public function teamLeadCanWriteBadCode()
+    public function testTeamLeadCanWriteBadCode()
     {
         $junior = new Delegation\JuniorDeveloper();
         $teamLead = new Delegation\TeamLead($junior);

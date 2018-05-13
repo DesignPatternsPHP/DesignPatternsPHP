@@ -21,6 +21,7 @@ class TeamLead
     {
         return $this->junior->writeBadCode();
     }
+
     public function writeBadCode(): string
     {
         //note that we are passing $this from teamLead context
