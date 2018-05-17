@@ -21,4 +21,18 @@ class TeamLead
     {
         return $this->junior->writeBadCode();
     }
+
+    public function writeBadCode(): string
+    {
+        //note that we are passing $this from teamLead context
+        return $this->junior->writeReallyBadCode($this);
+    }
+
+    /**
+     * Junior can call this method
+     */
+    public function writeReallyBadCode(): string
+    {
+        return 'Even team lead can write bad code...';
+    }
 }
