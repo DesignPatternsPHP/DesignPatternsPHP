@@ -1,10 +1,7 @@
 <?php
 
-namespace DesignPatterns\More\Delegation\Tests;
-
 use DesignPatterns\More\Money\Money;
 use PHPUnit\Framework\TestCase;
-use ReflectionClass;
 
 class MoneyTest extends TestCase
 {

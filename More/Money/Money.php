@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\More\Money;
 
-use \Exception;
+use Exception;
 
 class Money
 {
