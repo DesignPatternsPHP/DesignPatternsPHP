@@ -82,10 +82,10 @@ class Money
      */
     public function equals(Money $money): bool
     {
-        return $this->getAmount() == $money->getAmount();
+        return $this->getCurrency() . "" . $this->getAmount() == $money->getCurrency() . "" . $money->getAmount();
     }
 
-    /**
+    /** mo
      * More user friendly interface for creating money
      *
      * @param $method
