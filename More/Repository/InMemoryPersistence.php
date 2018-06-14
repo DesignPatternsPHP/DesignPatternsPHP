@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\More\Repository;
 
-class MemoryStorage implements Storage
+class InMemoryPersistence implements Persistence
 {
     /**
      * @var array

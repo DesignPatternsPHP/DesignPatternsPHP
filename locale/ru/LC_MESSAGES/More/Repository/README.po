@@ -73,12 +73,12 @@ msgid "PostRepository.php"
 msgstr "PostRepository.php"
 
 #: ../../More/Repository/README.rst:46
-msgid "Storage.php"
-msgstr "Storage.php"
+msgid "Persistence.php"
+msgstr "Persistence.php"
 
 #: ../../More/Repository/README.rst:52
-msgid "MemoryStorage.php"
-msgstr "MemoryStorage.php"
+msgid "InMemoryPersistence.php"
+msgstr "InMemoryPersistence.php"
 
 #: ../../More/Repository/README.rst:59
 msgid "Test"

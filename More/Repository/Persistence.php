@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\More\Repository;
 
-interface Storage
+interface Persistence
 {
     public function generateId(): int;
 

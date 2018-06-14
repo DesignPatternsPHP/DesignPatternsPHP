@@ -5,9 +5,14 @@ namespace DesignPatterns\More\Repository\Domain;
 class Post
 {
     /**
-     * @var int
+     * @var PostId
      */
     private $id;
+
+    /**
+     * @var PostStatus
+     */
+    private $status;
 
     /**
      * @var string
@@ -19,10 +24,11 @@ class Post
      */
     private $text;
 
-    public static function draft(int $id, string $title, string $text): Post
+    public static function draft(PostId $id, string $title, string $text): Post
     {
         return new self(
             $id,
+            PostStatus::fromString(PostStatus::STATE_DRAFT),
             $title,
             $text
         );
@@ -31,27 +37,35 @@ class Post
     public static function fromState(array $state): Post
     {
         return new self(
-            $state['id'],
+            PostId::fromInt($state['id']),
+            PostStatus::fromInt($state['statusId']),
             $state['title'],
             $state['text']
         );
     }
 
     /**
-     * @param int $id
-     * @param string $text
+     * @param PostId $id
+     * @param PostStatus $status
      * @param string $title
+     * @param string $text
      */
-    private function __construct(int $id, string $title, string $text)
+    private function __construct(PostId $id, PostStatus $status, string $title, string $text)
     {
         $this->id = $id;
+        $this->status = $status;
         $this->text = $text;
         $this->title = $title;
     }
 
-    public function getId(): int
+    public function getId(): PostId
     {
         return $this->id;
+    }
+
+    public function getStatus(): PostStatus
+    {
+        return $this->status;
     }
 
     public function getText(): string
