@@ -14,11 +14,11 @@ namespace DesignPatterns\More\Repository;
 class PostRepository
 {
     /**
-     * @var MemoryStorage
+     * @var Storage
      */
     private $persistence;
 
-    public function __construct(MemoryStorage $persistence)
+    public function __construct(Storage $persistence)
     {
         $this->persistence = $persistence;
     }

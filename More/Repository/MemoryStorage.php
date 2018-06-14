@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\More\Repository;
 
-class MemoryStorage
+class MemoryStorage implements Storage
 {
     /**
      * @var array
