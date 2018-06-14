@@ -4,6 +4,10 @@
 DesignPatternsPHP
 =================
 
+.. image:: https://travis-ci.org/domnikl/DesignPatternsPHP.svg?branch=master
+   :target: https://travis-ci.org/domnikl/DesignPatternsPHP
+   :alt: Build Status
+
 .. image:: https://readthedocs.org/projects/designpatternsphp/badge/?version=latest
    :target: https://readthedocs.org/projects/designpatternsphp/?badge=latest
    :alt: Documentation Status
