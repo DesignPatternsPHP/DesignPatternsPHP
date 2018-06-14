@@ -13,12 +13,12 @@ class ProxyTest extends TestCase
         $bankAccount->deposit(30);
 
         // this time balance is being calculated
-        $this->assertEquals(0, $bankAccount->getBalance());
+        $this->assertEquals(30, $bankAccount->getBalance());
 
         // inheritance allows for BankAccountProxy to behave to an outsider exactly like ServerBankAccount
         $bankAccount->deposit(50);
 
         // this time the previously calculated balance is returned again without re-calculating it
-        $this->assertEquals(0, $bankAccount->getBalance());
+        $this->assertEquals(30, $bankAccount->getBalance());
     }
 }
