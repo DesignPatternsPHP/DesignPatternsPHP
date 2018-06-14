@@ -38,26 +38,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Behavioral/State/README.rst:23
-msgid "OrderController.php"
-msgstr ""
-
-#: ../../Behavioral/State/README.rst:29
-msgid "OrderFactory.php"
-msgstr ""
-
-#: ../../Behavioral/State/README.rst:35
-msgid "OrderInterface.php"
-msgstr ""
-
-#: ../../Behavioral/State/README.rst:41
-msgid "ShippingOrder.php"
-msgstr ""
-
-#: ../../Behavioral/State/README.rst:47
-msgid "CreateOrder.php"
-msgstr ""
-
 #: ../../Behavioral/State/README.rst:54
 msgid "Test"
 msgstr ""

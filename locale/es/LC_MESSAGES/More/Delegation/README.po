@@ -58,23 +58,7 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr "Puedes encontrar el código en `GitHub`_"
 
-#: ../../More/Delegation/README.rst:26
-msgid "Usage.php"
-msgstr ""
-
-#: ../../More/Delegation/README.rst:32
-msgid "TeamLead.php"
-msgstr ""
-
-#: ../../More/Delegation/README.rst:38
-msgid "JuniorDeveloper.php"
-msgstr ""
-
 #: ../../More/Delegation/README.rst:45
 msgid "Test"
-msgstr ""
-
-#: ../../More/Delegation/README.rst:47
-msgid "Tests/DelegationTest.php"
 msgstr ""
 

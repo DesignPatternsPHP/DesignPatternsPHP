@@ -99,30 +99,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code auch auf `GitHub`_"
 
-#: ../../Structural/DependencyInjection/README.rst:48
-msgid "AbstractConfig.php"
-msgstr "AbstractConfig.php"
-
-#: ../../Structural/DependencyInjection/README.rst:54
-msgid "Parameters.php"
-msgstr "Parameters.php"
-
-#: ../../Structural/DependencyInjection/README.rst:60
-msgid "ArrayConfig.php"
-msgstr "ArrayConfig.php"
-
-#: ../../Structural/DependencyInjection/README.rst:66
-msgid "Connection.php"
-msgstr "Connection.php"
-
 #: ../../Structural/DependencyInjection/README.rst:73
 msgid "Test"
 msgstr "Теst"
-
-#: ../../Structural/DependencyInjection/README.rst:75
-msgid "Tests/DependencyInjectionTest.php"
-msgstr "Tests/DependencyInjectionTest.php"
-
-#: ../../Structural/DependencyInjection/README.rst:81
-msgid "Tests/config.php"
-msgstr "Tests/config.php"

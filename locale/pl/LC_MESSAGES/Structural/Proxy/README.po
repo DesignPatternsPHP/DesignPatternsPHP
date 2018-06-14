@@ -52,14 +52,6 @@ msgstr "Kod"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Ten kod znajdziesz również na `GitHub`_."
 
-#: ../../Structural/Proxy/README.rst:28
-msgid "Record.php"
-msgstr "Record.php"
-
-#: ../../Structural/Proxy/README.rst:34
-msgid "RecordProxy.php"
-msgstr "RecordProxy.php"
-
 #: ../../Structural/Proxy/README.rst:41
 msgid "Test"
 msgstr "Testy"

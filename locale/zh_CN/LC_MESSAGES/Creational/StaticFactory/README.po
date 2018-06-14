@@ -54,26 +54,6 @@ msgstr "代码"
 msgid "You can also find this code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
-#: ../../Creational/StaticFactory/README.rst:31
-msgid "StaticFactory.php"
-msgstr ""
-
-#: ../../Creational/StaticFactory/README.rst:37
-msgid "FormatterInterface.php"
-msgstr ""
-
-#: ../../Creational/StaticFactory/README.rst:43
-msgid "FormatString.php"
-msgstr ""
-
-#: ../../Creational/StaticFactory/README.rst:49
-msgid "FormatNumber.php"
-msgstr ""
-
 #: ../../Creational/StaticFactory/README.rst:56
 msgid "Test"
 msgstr "测试"
-
-#: ../../Creational/StaticFactory/README.rst:58
-msgid "Tests/StaticFactoryTest.php"
-msgstr ""

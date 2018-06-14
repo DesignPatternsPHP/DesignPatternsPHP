@@ -65,26 +65,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:36
-msgid "Request.php"
-msgstr ""
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:42
-msgid "Handler.php"
-msgstr ""
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:48
-msgid "Responsible/SlowStorage.php"
-msgstr ""
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:54
-msgid "Responsible/FastStorage.php"
-msgstr ""
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:61
 msgid "Test"
-msgstr ""
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:63
-msgid "Tests/ChainTest.php"
 msgstr ""

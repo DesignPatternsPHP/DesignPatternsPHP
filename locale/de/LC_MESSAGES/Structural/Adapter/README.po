@@ -63,30 +63,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code auch auf `GitHub`_"
 
-#: ../../Structural/Adapter/README.rst:31
-msgid "PaperBookInterface.php"
-msgstr "PaperBookInterface.php"
-
-#: ../../Structural/Adapter/README.rst:37
-msgid "Book.php"
-msgstr "Book.php"
-
-#: ../../Structural/Adapter/README.rst:43
-msgid "EBookAdapter.php"
-msgstr "EBookAdapter.php"
-
-#: ../../Structural/Adapter/README.rst:49
-msgid "EBookInterface.php"
-msgstr "EBookInterface.php"
-
-#: ../../Structural/Adapter/README.rst:55
-msgid "Kindle.php"
-msgstr "Kindle.php"
-
 #: ../../Structural/Adapter/README.rst:62
 msgid "Test"
 msgstr "Теst"
-
-#: ../../Structural/Adapter/README.rst:64
-msgid "Tests/AdapterTest.php"
-msgstr "Tests/AdapterTest.php"

@@ -72,14 +72,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code auch auf `GitHub`_"
 
-#: ../../Creational/Singleton/README.rst:34
-msgid "Singleton.php"
-msgstr "Singleton.php"
-
 #: ../../Creational/Singleton/README.rst:41
 msgid "Test"
 msgstr "Теst"
-
-#: ../../Creational/Singleton/README.rst:43
-msgid "Tests/SingletonTest.php"
-msgstr "Tests/SingletonTest.php"

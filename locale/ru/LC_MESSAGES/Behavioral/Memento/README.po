@@ -132,22 +132,6 @@ msgstr "Код"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
-#: ../../Behavioral/Memento/README.rst:57
-msgid "Memento.php"
-msgstr "Memento.php"
-
-#: ../../Behavioral/Memento/README.rst:63
-msgid "Originator.php"
-msgstr "Originator.php"
-
-#: ../../Behavioral/Memento/README.rst:69
-msgid "Caretaker.php"
-msgstr "Caretaker.php"
-
 #: ../../Behavioral/Memento/README.rst:76
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Behavioral/Memento/README.rst:78
-msgid "Tests/MementoTest.php"
-msgstr "Tests/MementoTest.php"

@@ -71,15 +71,3 @@ msgstr "Вы можете найти этот код на `GitHub`_"
 msgid "Test"
 msgstr "Тест"
 
-#: ../../More/EAV/README.rst:104
-msgid "Tests/EntityTest.php"
-msgstr "Tests/EntityTest.php"
-
-#: ../../More/EAV/README.rst:110
-msgid "Tests/AttributeTest.php"
-msgstr "Tests/AttributeTest.php"
-
-#: ../../More/EAV/README.rst:116
-msgid "Tests/ValueTest.php"
-msgstr "Tests/ValueTest.php"
-

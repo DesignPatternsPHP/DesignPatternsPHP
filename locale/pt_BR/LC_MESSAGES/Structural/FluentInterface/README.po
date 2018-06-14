@@ -53,14 +53,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Structural/FluentInterface/README.rst:30
-msgid "Sql.php"
-msgstr ""
-
 #: ../../Structural/FluentInterface/README.rst:37
 msgid "Test"
-msgstr ""
-
-#: ../../Structural/FluentInterface/README.rst:39
-msgid "Tests/FluentInterfaceTest.php"
 msgstr ""

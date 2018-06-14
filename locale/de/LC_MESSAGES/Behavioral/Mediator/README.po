@@ -52,34 +52,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code hierzu auf `GitHub`_"
 
-#: ../../Behavioral/Mediator/README.rst:27
-msgid "MediatorInterface.php"
-msgstr "MediatorInterface.php"
-
-#: ../../Behavioral/Mediator/README.rst:33
-msgid "Mediator.php"
-msgstr "Mediator.php"
-
-#: ../../Behavioral/Mediator/README.rst:39
-msgid "Colleague.php"
-msgstr "Colleague.php"
-
-#: ../../Behavioral/Mediator/README.rst:45
-msgid "Subsystem/Client.php"
-msgstr "Subsystem/Client.php"
-
-#: ../../Behavioral/Mediator/README.rst:51
-msgid "Subsystem/Database.php"
-msgstr "Subsystem/Database.php"
-
-#: ../../Behavioral/Mediator/README.rst:57
-msgid "Subsystem/Server.php"
-msgstr "Subsystem/Server.php"
-
 #: ../../Behavioral/Mediator/README.rst:64
 msgid "Test"
 msgstr "Test"
-
-#: ../../Behavioral/Mediator/README.rst:66
-msgid "Tests/MediatorTest.php"
-msgstr "Tests/MediatorTest.php"

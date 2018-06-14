@@ -61,34 +61,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../More/ServiceLocator/README.rst:38
-msgid "ServiceLocatorInterface.php"
-msgstr ""
-
-#: ../../More/ServiceLocator/README.rst:44
-msgid "ServiceLocator.php"
-msgstr ""
-
-#: ../../More/ServiceLocator/README.rst:50
-msgid "LogServiceInterface.php"
-msgstr ""
-
-#: ../../More/ServiceLocator/README.rst:56
-msgid "LogService.php"
-msgstr ""
-
-#: ../../More/ServiceLocator/README.rst:62
-msgid "DatabaseServiceInterface.php"
-msgstr ""
-
-#: ../../More/ServiceLocator/README.rst:68
-msgid "DatabaseService.php"
-msgstr ""
-
 #: ../../More/ServiceLocator/README.rst:75
 msgid "Test"
-msgstr ""
-
-#: ../../More/ServiceLocator/README.rst:77
-msgid "Tests/ServiceLocatorTest.php"
 msgstr ""

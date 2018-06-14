@@ -60,38 +60,6 @@ msgstr "Código"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Você pode encontrar este código no `Github`_"
 
-#: ../../Creational/FactoryMethod/README.rst:31
-msgid "FactoryMethod.php"
-msgstr ""
-
-#: ../../Creational/FactoryMethod/README.rst:37
-msgid "ItalianFactory.php"
-msgstr ""
-
-#: ../../Creational/FactoryMethod/README.rst:43
-msgid "GermanFactory.php"
-msgstr ""
-
-#: ../../Creational/FactoryMethod/README.rst:49
-msgid "VehicleInterface.php"
-msgstr ""
-
-#: ../../Creational/FactoryMethod/README.rst:55
-msgid "Porsche.php"
-msgstr ""
-
-#: ../../Creational/FactoryMethod/README.rst:61
-msgid "Bicycle.php"
-msgstr ""
-
-#: ../../Creational/FactoryMethod/README.rst:67
-msgid "Ferrari.php"
-msgstr ""
-
 #: ../../Creational/FactoryMethod/README.rst:74
 msgid "Test"
 msgstr "Teste"
-
-#: ../../Creational/FactoryMethod/README.rst:76
-msgid "Tests/FactoryMethodTest.php"
-msgstr ""

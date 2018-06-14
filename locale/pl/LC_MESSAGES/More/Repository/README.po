@@ -63,22 +63,6 @@ msgstr "Kod"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Ten kod znajdziesz również na `GitHub`_."
 
-#: ../../More/Repository/README.rst:34
-msgid "Post.php"
-msgstr "Post.php"
-
-#: ../../More/Repository/README.rst:40
-msgid "PostRepository.php"
-msgstr "PostRepository.php"
-
-#: ../../More/Repository/README.rst:46
-msgid "Persistence.php"
-msgstr "Persistence.php"
-
-#: ../../More/Repository/README.rst:52
-msgid "InMemoryPersistence.php"
-msgstr "InMemoryPersistence.php"
-
 #: ../../More/Repository/README.rst:59
 msgid "Test"
 msgstr "Testy"

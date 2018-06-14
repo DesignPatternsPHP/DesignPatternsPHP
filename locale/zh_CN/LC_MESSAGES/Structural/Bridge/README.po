@@ -46,34 +46,6 @@ msgstr "代码"
 msgid "You can also find this code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
-#: ../../Structural/Bridge/README.rst:28
-msgid "Workshop.php"
-msgstr ""
-
-#: ../../Structural/Bridge/README.rst:34
-msgid "Assemble.php"
-msgstr ""
-
-#: ../../Structural/Bridge/README.rst:40
-msgid "Produce.php"
-msgstr ""
-
-#: ../../Structural/Bridge/README.rst:46
-msgid "Vehicle.php"
-msgstr ""
-
-#: ../../Structural/Bridge/README.rst:52
-msgid "Motorcycle.php"
-msgstr ""
-
-#: ../../Structural/Bridge/README.rst:58
-msgid "Car.php"
-msgstr ""
-
 #: ../../Structural/Bridge/README.rst:65
 msgid "Test"
 msgstr "测试"
-
-#: ../../Structural/Bridge/README.rst:67
-msgid "Tests/BridgeTest.php"
-msgstr ""
