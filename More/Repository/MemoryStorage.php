@@ -14,20 +14,22 @@ class MemoryStorage implements Storage
      */
     private $lastId = 0;
 
-    public function persist(array $data): int
+    public function generateId(): int
     {
         $this->lastId++;
 
-        $data['id'] = $this->lastId;
-        $this->data[$this->lastId] = $data;
-
         return $this->lastId;
+    }
+
+    public function persist(array $data)
+    {
+        $this->data[$this->lastId] = $data;
     }
 
     public function retrieve(int $id): array
     {
         if (!isset($this->data[$id])) {
-            throw new \OutOfRangeException(sprintf('No data found for ID %d', $id));
+            throw new \OutOfBoundsException(sprintf('No data found for ID %d', $id));
         }
 
         return $this->data[$id];
@@ -36,7 +38,7 @@ class MemoryStorage implements Storage
     public function delete(int $id)
     {
         if (!isset($this->data[$id])) {
-            throw new \OutOfRangeException(sprintf('No data found for ID %d', $id));
+            throw new \OutOfBoundsException(sprintf('No data found for ID %d', $id));
         }
 
         unset($this->data[$id]);

@@ -5,7 +5,7 @@ namespace DesignPatterns\More\Repository\Domain;
 class Post
 {
     /**
-     * @var int|null
+     * @var int
      */
     private $id;
 
@@ -19,6 +19,15 @@ class Post
      */
     private $text;
 
+    public static function draft(int $id, string $title, string $text): Post
+    {
+        return new self(
+            $id,
+            $title,
+            $text
+        );
+    }
+
     public static function fromState(array $state): Post
     {
         return new self(
@@ -29,20 +38,15 @@ class Post
     }
 
     /**
-     * @param int|null $id
+     * @param int $id
      * @param string $text
      * @param string $title
      */
-    public function __construct($id, string $title, string $text)
+    private function __construct(int $id, string $title, string $text)
     {
         $this->id = $id;
         $this->text = $text;
         $this->title = $title;
-    }
-
-    public function setId(int $id)
-    {
-        $this->id = $id;
     }
 
     public function getId(): int

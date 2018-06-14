@@ -4,7 +4,9 @@ namespace DesignPatterns\More\Repository;
 
 interface Storage
 {
-    public function persist(array $data): int;
+    public function generateId(): int;
+
+    public function persist(array $data);
 
     public function retrieve(int $id): array;
 

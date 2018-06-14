@@ -25,12 +25,17 @@ class PostRepository
         $this->persistence = $persistence;
     }
 
+    public function generateId(): int
+    {
+        return $this->persistence->generateId();
+    }
+
     public function findById(int $id): Post
     {
-        $arrayData = $this->persistence->retrieve($id);
-
-        if (is_null($arrayData)) {
-            throw new \InvalidArgumentException(sprintf('Post with ID %d does not exist', $id));
+        try {
+            $arrayData = $this->persistence->retrieve($id);
+        } catch (\OutOfBoundsException $e) {
+            throw new \OutOfBoundsException(sprintf('Post with id %d does not exist', $id), 0, $e);
         }
 
         return Post::fromState($arrayData);
@@ -38,11 +43,10 @@ class PostRepository
 
     public function save(Post $post)
     {
-        $id = $this->persistence->persist([
+        $this->persistence->persist([
+            'id' => $post->getId(),
             'text' => $post->getText(),
             'title' => $post->getTitle(),
         ]);
-
-        $post->setId($id);
     }
 }
