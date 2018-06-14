@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\More\Repository;
+namespace DesignPatterns\More\Repository\Domain;
 
 class Post
 {

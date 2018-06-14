@@ -2,6 +2,8 @@
 
 namespace DesignPatterns\More\Repository;
 
+use DesignPatterns\More\Repository\Domain\Post;
+
 /**
  * This class is situated between Entity layer (class Post) and access object layer (MemoryStorage).
  *

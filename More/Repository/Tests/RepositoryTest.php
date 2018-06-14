@@ -3,7 +3,7 @@
 namespace DesignPatterns\More\Repository\Tests;
 
 use DesignPatterns\More\Repository\MemoryStorage;
-use DesignPatterns\More\Repository\Post;
+use DesignPatterns\More\Repository\Domain\Post;
 use DesignPatterns\More\Repository\PostRepository;
 use PHPUnit\Framework\TestCase;
 
