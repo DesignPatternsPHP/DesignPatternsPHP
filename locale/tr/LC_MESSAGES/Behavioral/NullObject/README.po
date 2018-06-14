@@ -26,7 +26,7 @@ msgid ""
 "benefits:"
 msgstr ""
 "Boş Nesne, bir Dörtlü Takım (Gang of Four) tasarım deseni değildir. Ancak, "
-"bir şemadır ve görünen o ki sıklıkla bir desen olarak ele alınmaktadır."
+"bir şemadır ve görünen o ki sıklıkla bir desen olarak ele alınmaktadır. "
 "Aşağıdaki yararlıklara sahiptir:"
 
 #: ../../Behavioral/NullObject/README.rst:11

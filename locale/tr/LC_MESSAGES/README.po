@@ -26,8 +26,8 @@ msgid ""
 "(most of them from Zend Framework, Symfony2 or Doctrine2 as I'm most "
 "familiar with this software)."
 msgstr ""
-"Bu, `tasarım desenleri`_ olarak bilinen kalıpların bir derlemesidir ve "
-"örnek kodlar bu kalıpların PHP'de nasıl uygulanabileceğini gösterir. Her desen (sayfası)"
+"Bu, Tasarım Desenleri olarak bilinen kalıpların bir derlemesidir ve "
+"örnek kodlar bu kalıpların PHP'de nasıl uygulanabileceğini gösterir. Her desen (sayfası) "
 "küçük kod örnekleri içerir. Bu örneklerin çoğu kendimin aşina olduğu Zend Framework, "
 "Symfony2, veya Doctrine2 yapılarındandır."
 
@@ -66,9 +66,8 @@ msgid ""
 msgstr ""
 "Eğer bir yazılım hatası (bug) veya hatalı çeviriyle karşılaşırsanız, lütfen "
 "fork yaparak yaptığınız değişiklerle beraber pull request gönderiniz. "
-"Tutarlı bir kod kalitesi sağlamak için, lütfen kodunuzu `PHP CodeSniffer`_ kullanarak kontrol "
-"ediniz. Örn: `PSR2 standartı`_ için ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``."
-
+"Tutarlı bir kod kalitesi sağlamak için, lütfen kodunuzu `PHP CodeSniffer <https://github.com/squizlabs/PHP_CodeSniffer>`_ kullanarak kontrol "
+"ediniz. Örn: `PSR2 standartı <http://www.php-fig.org/psr/psr-2/>`_ için ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``."
 
 #: ../../README.rst:69
 msgid "`design patterns`"
