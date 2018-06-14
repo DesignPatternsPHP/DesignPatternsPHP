@@ -2,48 +2,36 @@
 
 namespace DesignPatterns\Structural\Proxy;
 
-class RecordProxy extends Record
+class RecordProxy extends Record implements RecordInterface
 {
     /**
-     * @var bool
+     * @var RecordInterface
      */
-    private $isDirty = false;
+    private $record;
 
-    /**
-     * @var bool
-     */
-    private $isInitialized = false;
-
-    /**
-     * @param array $data
-     */
-    public function __construct(array $data)
+    public function __construct()
     {
-        parent::__construct($data);
-
-        // when the record has data, mark it as initialized
-        // since Record will hold our business logic, we don't want to
-        // implement this behaviour there, but instead in a new proxy class
-        // that extends the Record class
-        if (count($data) > 0) {
-            $this->isInitialized = true;
-            $this->isDirty = true;
-        }
     }
 
     /**
      * @param string $name
-     * @param string  $value
+     * @param string $value
      */
     public function __set(string $name, string $value)
     {
-        $this->isDirty = true;
+        if ($this->record == null) {
+            $this->record = new Record;
+        }
 
-        parent::__set($name, $value);
+        $this->record->__set($name, $value);
     }
 
-    public function isDirty(): bool
+    public function __get(string $name): string
     {
-        return $this->isDirty;
+        if ($this->record == null) {
+            throw new \Exception('Invalid record! Not Initialized.');
+        }
+
+        return $this->record->__get($name);
     }
 }

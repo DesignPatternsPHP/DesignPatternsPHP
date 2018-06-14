@@ -7,19 +7,29 @@ use PHPUnit\Framework\TestCase;
 
 class ProxyTest extends TestCase
 {
-    public function testWillSetDirtyFlagInProxy()
+    public function testProxyReturnTheSameValue()
     {
-        $recordProxy = new RecordProxy([]);
-        $recordProxy->username = 'baz';
-
-        $this->assertTrue($recordProxy->isDirty());
+        $foo = 'Foo';
+        $bar = 'Bar';
+        $recordProxy = new RecordProxy;
+        $recordProxy->__set($foo, $bar);
+        $this->assertEquals($bar, $recordProxy->__get($foo));
     }
 
-    public function testProxyIsInstanceOfRecord()
+    public function testProxyThrowExceptionWhenNotSetData()
     {
-        $recordProxy = new RecordProxy([]);
-        $recordProxy->username = 'baz';
+        $this->expectException(\Exception::class);
+        $recordProxy = new RecordProxy;
+        $recordProxy->__get('Foo');
+    }
 
-        $this->assertInstanceOf(RecordProxy::class, $recordProxy);
+    public function testProxyThrowExceptionWhenNotNameInData()
+    {
+        $this->expectException(\OutOfRangeException::class);
+        $foo = 'Foo';
+        $bar = 'Bar';
+        $recordProxy = new RecordProxy;
+        $recordProxy->__set($foo, $bar);
+        $recordProxy->__get('Baz');
     }
 }

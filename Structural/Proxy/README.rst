@@ -25,6 +25,12 @@ Code
 
 You can also find this code on `GitHub`_
 
+RecordInterface.php
+
+.. literalinclude:: RecordInterface.php
+   :language: php
+   :linenos:
+
 Record.php
 
 .. literalinclude:: Record.php
