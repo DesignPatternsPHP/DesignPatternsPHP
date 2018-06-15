@@ -35,7 +35,7 @@ msgstr "Basit bir durum için ise, bu soyut sınıf (abstract class) yanlızca b
 #: ../../Creational/FactoryMethod/README.rst:12
 msgid ""
 "This pattern is a \"real\" Design Pattern because it achieves the "
-"\"Dependency Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
+"Dependency Inversion principle a.k.a the \"D\" in SOLID principles."
 msgstr ""
 "Bu desen \"gerçek\" bir Tasarım Deseni'dir, çünkü S.O.L.I.D ilkelerinden biri olan "
 "\"D\" yani \"Dependency Inversion Principle (Bağımlılık Tersinme İlkesi)\" bölümünün "

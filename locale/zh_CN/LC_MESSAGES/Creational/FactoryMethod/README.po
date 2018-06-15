@@ -34,7 +34,7 @@ msgstr ""
 #: ../../Creational/FactoryMethod/README.rst:12
 msgid ""
 "This pattern is a \"real\" Design Pattern because it achieves the "
-"\"Dependency Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
+"Dependency Inversion principle a.k.a the \"D\" in SOLID principles."
 msgstr ""
 "这个模式是一个 \"真正\" 的设计模式，因为它遵循了依赖反转原则（Dependency Inversion Principle） 众所周知这个 \"D\" 代表了真正的面向对象程序设计。"
 

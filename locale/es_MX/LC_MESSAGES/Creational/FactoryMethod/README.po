@@ -38,7 +38,7 @@ msgstr ""
 #: ../../Creational/FactoryMethod/README.rst:12
 msgid ""
 "This pattern is a \"real\" Design Pattern because it achieves the Dependency "
-"Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
+"Dependency Inversion principle a.k.a the \"D\" in SOLID principles."
 msgstr ""
 "Este es un patrón \"real\" de diseño porque realiza el Principio de "
 "Inversión de Dependencia, también conocido como la \"D\" de los principios S."

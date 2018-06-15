@@ -35,7 +35,7 @@ msgstr ""
 #: ../../Creational/FactoryMethod/README.rst:12
 msgid ""
 "This pattern is a \"real\" Design Pattern because it achieves the "
-"\"Dependency Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
+"Dependency Inversion principle a.k.a the \"D\" in SOLID principles."
 msgstr ""
 "Ten wzorzec implementuje jedną z podstawowych zasad programowania obiektowego `SOLID <https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe)>`_ - \"D\" - zasadę odwrócenia zależności (ang. `Dependency inversion principle`)."
 

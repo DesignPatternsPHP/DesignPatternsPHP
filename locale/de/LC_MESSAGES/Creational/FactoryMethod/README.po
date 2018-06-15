@@ -39,10 +39,10 @@ msgstr ""
 #: ../../Creational/FactoryMethod/README.rst:12
 msgid ""
 "This pattern is a \"real\" Design Pattern because it achieves the "
-"\"Dependency Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
+"Dependency Inversion principle a.k.a the \"D\" in SOLID principles."
 msgstr ""
-"Dieses Muster ist ein \"echtes\" Muster, da es das \"D\" in S.O.L.I.D. "
-"implementiert, das \"Dependency Inversion Prinzip\"."
+"Dieses Muster ist ein \"echtes\" Muster, da es das \"D\" in SOLID "
+"implementiert, das Dependency Inversion Prinzip."
 
 #: ../../Creational/FactoryMethod/README.rst:15
 msgid ""
