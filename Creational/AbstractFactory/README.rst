@@ -21,39 +21,27 @@ Code
 
 You can also find this code on `GitHub`_
 
-AbstractFactory.php
+Parser.php
 
-.. literalinclude:: AbstractFactory.php
+.. literalinclude:: Parser.php
    :language: php
    :linenos:
 
-JsonFactory.php
+CsvParser.php
 
-.. literalinclude:: JsonFactory.php
+.. literalinclude:: CsvParser.php
    :language: php
    :linenos:
 
-HtmlFactory.php
+JsonParser.php
 
-.. literalinclude:: HtmlFactory.php
+.. literalinclude:: JsonParser.php
    :language: php
    :linenos:
 
-Text.php
+ParserFactory.php
 
-.. literalinclude:: Text.php
-   :language: php
-   :linenos:
-
-JsonText.php
-
-.. literalinclude:: JsonText.php
-   :language: php
-   :linenos:
-
-HtmlText.php
-
-.. literalinclude:: HtmlText.php
+.. literalinclude:: ParserFactory.php
    :language: php
    :linenos:
 

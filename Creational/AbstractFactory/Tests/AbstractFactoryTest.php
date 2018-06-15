@@ -2,27 +2,26 @@
 
 namespace DesignPatterns\Creational\AbstractFactory\Tests;
 
-use DesignPatterns\Creational\AbstractFactory\HtmlFactory;
-use DesignPatterns\Creational\AbstractFactory\HtmlText;
-use DesignPatterns\Creational\AbstractFactory\JsonFactory;
-use DesignPatterns\Creational\AbstractFactory\JsonText;
+use DesignPatterns\Creational\AbstractFactory\CsvParser;
+use DesignPatterns\Creational\AbstractFactory\JsonParser;
+use DesignPatterns\Creational\AbstractFactory\ParserFactory;
 use PHPUnit\Framework\TestCase;
 
 class AbstractFactoryTest extends TestCase
 {
-    public function testCanCreateHtmlText()
+    public function testCanCreateCsvParser()
     {
-        $factory = new HtmlFactory();
-        $text = $factory->createText('foobar');
+        $factory = new ParserFactory();
+        $parser = $factory->createCsvParser(CsvParser::OPTION_CONTAINS_HEADER);
 
-        $this->assertInstanceOf(HtmlText::class, $text);
+        $this->assertInstanceOf(CsvParser::class, $parser);
     }
 
-    public function testCanCreateJsonText()
+    public function testCanCreateJsonParser()
     {
-        $factory = new JsonFactory();
-        $text = $factory->createText('foobar');
+        $factory = new ParserFactory();
+        $parser = $factory->createJsonParser();
 
-        $this->assertInstanceOf(JsonText::class, $text);
+        $this->assertInstanceOf(JsonParser::class, $parser);
     }
 }
