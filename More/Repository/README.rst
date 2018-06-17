@@ -57,7 +57,7 @@ PostRepository.php
 
 Persistence.php
 
-.. literalinclude:: InMemoryPersistence.php
+.. literalinclude:: Persistence.php
    :language: php
    :linenos:
 
