@@ -25,33 +25,33 @@ Code
 
 You can also find this code on `GitHub`_
 
-RenderableInterface.php
+Booking.php
 
-.. literalinclude:: RenderableInterface.php
+.. literalinclude:: Booking.php
    :language: php
    :linenos:
 
-Webservice.php
+BookingDecorator.php
 
-.. literalinclude:: Webservice.php
+.. literalinclude:: BookingDecorator.php
    :language: php
    :linenos:
 
-RendererDecorator.php
+DoubleRoomBooking.php
 
-.. literalinclude:: RendererDecorator.php
+.. literalinclude:: DoubleRoomBooking.php
    :language: php
    :linenos:
 
-XmlRenderer.php
+ExtraBed.php
 
-.. literalinclude:: XmlRenderer.php
+.. literalinclude:: ExtraBed.php
    :language: php
    :linenos:
 
-JsonRenderer.php
+WiFi.php
 
-.. literalinclude:: JsonRenderer.php
+.. literalinclude:: WiFi.php
    :language: php
    :linenos:
 
