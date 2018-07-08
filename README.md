@@ -15,32 +15,31 @@ I think the problem with patterns is that often people do know them but don't kn
 You should look at and run the tests to see what happens in the example.
 To do this, you should install dependencies with `Composer` first:
 
-### [optional] Using Docker
-
-You can optionally run tests using [Docker for Mac](https://www.docker.com/docker-mac) or [Windows](https://www.docker.com/docker-windows) or native one for [Linux](https://www.docker.com/docker-debian).
-Just run:
-```
-docker-compose up
-```
-
-### Install dependencies
-
 ```bash
 $ composer install
 ```
 
 Read more about how to install and use `Composer` on your local machine [here](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
-If you are using Docker, you just have to run:
-
-```bash
-docker-compose run composer install
-```
-
-### Running test suite
+To run the tests use `phpunit`:
 
 ```bash
 $ ./vendor/bin/phpunit
+```
+
+## using Docker (optional)
+
+You can optionally run tests using [Docker for Mac](https://www.docker.com/docker-mac) or [Windows](https://www.docker.com/docker-windows) or native one for [Linux](https://www.docker.com/docker-debian).
+Just run:
+
+```
+docker-compose up
+```
+
+To install the dependencies, use `docker-compose` like this:
+
+```bash
+docker-compose run composer install
 ```
 
 ## Patterns
