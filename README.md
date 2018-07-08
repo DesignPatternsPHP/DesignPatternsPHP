@@ -32,14 +32,14 @@ $ ./vendor/bin/phpunit
 You can optionally run tests using [Docker for Mac](https://www.docker.com/docker-mac) or [Windows](https://www.docker.com/docker-windows) or native one for [Linux](https://www.docker.com/docker-debian).
 Just run:
 
-```
-docker-compose up
+```bash
+$ docker-compose up
 ```
 
-To install the dependencies, use `docker-compose` like this:
+To only install the dependencies, use `docker-compose` like this:
 
 ```bash
-docker-compose run composer install
+$ docker-compose run composer install
 ```
 
 ## Patterns
