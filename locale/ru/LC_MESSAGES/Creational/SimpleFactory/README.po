@@ -25,10 +25,14 @@ msgstr "SimpleFactory в примере ниже, это паттерн «Про
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
-"It differs from the static factory because it is not static."
+"It differs from the static factory because it is not static. "
+"Therefore, you can have multiple factories, differently parameterized, "
+"you can subclass it and you can mock it. It always should be preferred "
+"over a static factory!"
 msgstr ""
 "Она отличается от Статической Фабрики тем, что собственно *не является "
-"статической*. Потому как вы должны понимать: статическая => глобальная => зло!"
+"статической*. Таким образом, вы можете иметь множество фабрик с разными параметрами. "
+"Простая фабрика всегда должна быть предпочтительнее Статической фабрики!"
 
 #: ../../Creational/SimpleFactory/README.rst:10
 msgid ""

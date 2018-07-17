@@ -17,6 +17,10 @@ msgstr ""
 "`Объектный пул <https://ru.wikipedia.org/wiki/Объектный_пул>`_ (`Pool`__)"
 
 #: ../../Creational/Pool/README.rst:4
+msgid "Purpose"
+msgstr "Назначение"
+
+#: ../../Creational/Pool/README.rst:4
 msgid ""
 "The **object pool pattern** is a software creational design pattern that "
 "uses a set of initialized objects kept ready to use – a \"pool\" – rather "
