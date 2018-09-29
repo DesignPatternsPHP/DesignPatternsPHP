@@ -33,7 +33,7 @@ class ChainTest extends TestCase
             ->willReturn('GET');
         $request->method('getUri')->willReturn($uri);
 
-        $this->assertEquals('Hello In Memory!', $this->chain->handle($request));
+        $this->assertSame('Hello In Memory!', $this->chain->handle($request));
     }
 
     public function testCanRequestKeyInSlowStorage()
@@ -47,6 +47,6 @@ class ChainTest extends TestCase
             ->willReturn('GET');
         $request->method('getUri')->willReturn($uri);
 
-        $this->assertEquals('Hello World!', $this->chain->handle($request));
+        $this->assertSame('Hello World!', $this->chain->handle($request));
     }
 }
