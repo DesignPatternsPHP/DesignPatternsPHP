@@ -11,7 +11,7 @@ class StateTest extends TestCase
     {
         $orderContext = OrderContext::create();
 
-        $this->assertEquals('created', $orderContext->toString());
+        $this->assertSame('created', $orderContext->toString());
     }
 
     public function testCanProceedToStateShipped()
@@ -19,7 +19,7 @@ class StateTest extends TestCase
         $contextOrder = OrderContext::create();
         $contextOrder->proceedToNext();
 
-        $this->assertEquals('shipped', $contextOrder->toString());
+        $this->assertSame('shipped', $contextOrder->toString());
     }
 
     public function testCanProceedToStateDone()
@@ -28,7 +28,7 @@ class StateTest extends TestCase
         $contextOrder->proceedToNext();
         $contextOrder->proceedToNext();
 
-        $this->assertEquals('done', $contextOrder->toString());
+        $this->assertSame('done', $contextOrder->toString());
     }
 
     public function testStateDoneIsTheLastPossibleState()
@@ -38,6 +38,6 @@ class StateTest extends TestCase
         $contextOrder->proceedToNext();
         $contextOrder->proceedToNext();
 
-        $this->assertEquals('done', $contextOrder->toString());
+        $this->assertSame('done', $contextOrder->toString());
     }
 }

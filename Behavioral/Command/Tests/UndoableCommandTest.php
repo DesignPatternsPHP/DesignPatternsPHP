@@ -17,17 +17,17 @@ class UndoableCommandTest extends TestCase
 
         $invoker->setCommand(new HelloCommand($receiver));
         $invoker->run();
-        $this->assertEquals('Hello World', $receiver->getOutput());
+        $this->assertSame('Hello World', $receiver->getOutput());
 
         $messageDateCommand = new AddMessageDateCommand($receiver);
         $messageDateCommand->execute();
 
         $invoker->run();
-        $this->assertEquals("Hello World\nHello World [".date('Y-m-d').']', $receiver->getOutput());
+        $this->assertSame("Hello World\nHello World [".date('Y-m-d').']', $receiver->getOutput());
 
         $messageDateCommand->undo();
 
         $invoker->run();
-        $this->assertEquals("Hello World\nHello World [".date('Y-m-d')."]\nHello World", $receiver->getOutput());
+        $this->assertSame("Hello World\nHello World [".date('Y-m-d')."]\nHello World", $receiver->getOutput());
     }
 }
