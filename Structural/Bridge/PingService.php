@@ -2,10 +2,10 @@
 
 namespace DesignPatterns\Structural\Bridge;
 
-class HelloWorldService extends Service
+class PingService extends Service
 {
     public function get(): string
     {
-        return $this->implementation->format('Hello World');
+        return $this->implementation->format('pong');
     }
 }
