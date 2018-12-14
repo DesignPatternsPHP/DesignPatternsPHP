@@ -25,9 +25,9 @@ Code
 
 You can also find this code on `GitHub`_
 
-FormatterInterface.php
+Formatter.php
 
-.. literalinclude:: FormatterInterface.php
+.. literalinclude:: Formatter.php
    :language: php
    :linenos:
 
@@ -52,6 +52,12 @@ Service.php
 HelloWorldService.php
 
 .. literalinclude:: HelloWorldService.php
+   :language: php
+   :linenos:
+
+PingService.php
+
+.. literalinclude:: PingService.php
    :language: php
    :linenos:
 

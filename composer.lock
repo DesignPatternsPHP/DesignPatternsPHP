@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "af39391ec89831e5552cd0018816e53e",
@@ -725,16 +725,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.1.1",
+            "version": "7.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "f7fe5127889519e421600fe0feeb113a5e210f20"
+                "reference": "6a17c170fb92845896e1b3b00fcb462cd4b3c017"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f7fe5127889519e421600fe0feeb113a5e210f20",
-                "reference": "f7fe5127889519e421600fe0feeb113a5e210f20",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/6a17c170fb92845896e1b3b00fcb462cd4b3c017",
+                "reference": "6a17c170fb92845896e1b3b00fcb462cd4b3c017",
                 "shasum": ""
             },
             "require": {
@@ -801,7 +801,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-04-06T12:39:30+00:00"
+            "time": "2018-04-10T11:40:22+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1424,16 +1424,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.2.3",
+            "version": "3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "4842476c434e375f9d3182ff7b89059583aa8b27"
+                "reference": "6ad28354c04b364c3c71a34e4a18b629cc3b231e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/4842476c434e375f9d3182ff7b89059583aa8b27",
-                "reference": "4842476c434e375f9d3182ff7b89059583aa8b27",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/6ad28354c04b364c3c71a34e4a18b629cc3b231e",
+                "reference": "6ad28354c04b364c3c71a34e4a18b629cc3b231e",
                 "shasum": ""
             },
             "require": {
@@ -1471,7 +1471,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-02-20T21:35:23+00:00"
+            "time": "2018-09-23T23:08:17+00:00"
         },
         {
             "name": "theseer/tokenizer",
