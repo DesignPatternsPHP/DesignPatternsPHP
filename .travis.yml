@@ -5,6 +5,7 @@ sudo: false
 php:
   - 7.1
   - 7.2
+  - 7.3
 
 matrix:
   fast_finish: true
