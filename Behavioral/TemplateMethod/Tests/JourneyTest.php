@@ -20,8 +20,8 @@ class JourneyTest extends TestCase
 
     public function testCanGetOnAJourneyToACity()
     {
-        $beachJourney = new TemplateMethod\CityJourney();
-        $beachJourney->takeATrip();
+        $cityJourney = new TemplateMethod\CityJourney();
+        $cityJourney->takeATrip();
 
         $this->assertSame(
             [
@@ -31,7 +31,7 @@ class JourneyTest extends TestCase
                 'Buy a gift',
                 'Taking the plane'
             ],
-            $beachJourney->getThingsToDo()
+            $cityJourney->getThingsToDo()
         );
     }
 }
