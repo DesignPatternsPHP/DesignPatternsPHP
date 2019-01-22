@@ -13,21 +13,23 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:2
 msgid "`Dependency Injection`__"
-msgstr ""
+msgstr "Injeção de dependência"
 
 #: ../../Structural/DependencyInjection/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Structural/DependencyInjection/README.rst:7
 msgid ""
 "To implement a loosely coupled architecture in order to get better testable,"
 " maintainable and extendable code."
 msgstr ""
+"Para implementar uma arquitetura menos acoplada com o objetivo de obter um código "
+"mais fácil de testar, de melhor manutenibilidade e mais extensível."
 
 #: ../../Structural/DependencyInjection/README.rst:11
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #: ../../Structural/DependencyInjection/README.rst:13
 msgid ""
@@ -68,16 +70,16 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:37
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Structural/DependencyInjection/README.rst:44
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Structural/DependencyInjection/README.rst:46
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Você pode também ver este código no `GitHub`_"
 
 #: ../../Structural/DependencyInjection/README.rst:73
 msgid "Test"
-msgstr ""
+msgstr "Teste"
