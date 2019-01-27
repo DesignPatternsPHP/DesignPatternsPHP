@@ -87,7 +87,7 @@ msgstr ""
 
 #: ../../More/ServiceLocator/README.rst:31
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../More/ServiceLocator/README.rst:38
 msgid "Code"

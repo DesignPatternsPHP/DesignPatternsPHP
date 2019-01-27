@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../Behavioral/Visitor/README.rst:17
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Behavioral/Visitor/README.rst:24
 msgid "Code"

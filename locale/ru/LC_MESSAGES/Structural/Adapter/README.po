@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../Structural/Adapter/README.rst:20
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Structural/Adapter/README.rst:27
 msgid "Code"

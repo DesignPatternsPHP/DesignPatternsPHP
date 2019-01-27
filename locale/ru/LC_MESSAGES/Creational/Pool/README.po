@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../Creational/Pool/README.rst:25
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Creational/Pool/README.rst:32
 msgid "Code"

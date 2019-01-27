@@ -42,7 +42,7 @@ msgstr ""
 
 #: ../../Structural/Flyweight/README.rst:12
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Structural/Flyweight/README.rst:19
 msgid "Code"
