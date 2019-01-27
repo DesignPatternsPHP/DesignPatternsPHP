@@ -77,7 +77,7 @@ msgstr "null command in a Command pattern"
 
 #: ../../Behavioral/NullObject/README.rst:30
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Behavioral/NullObject/README.rst:37
 msgid "Code"

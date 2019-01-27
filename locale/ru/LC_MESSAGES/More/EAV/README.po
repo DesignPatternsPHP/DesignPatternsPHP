@@ -57,7 +57,7 @@ msgstr "Смотри полный работоспособный пример в
 
 #: ../../More/EAV/README.rst:90
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../More/EAV/README.rst:97
 msgid "Code"

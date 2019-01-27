@@ -91,7 +91,7 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:37
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Structural/DependencyInjection/README.rst:44
 msgid "Code"

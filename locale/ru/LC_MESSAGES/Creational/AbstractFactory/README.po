@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../Creational/AbstractFactory/README.rst:13
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Creational/AbstractFactory/README.rst:20
 msgid "Code"

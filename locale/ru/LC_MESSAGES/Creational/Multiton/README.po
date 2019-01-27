@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../Creational/Multiton/README.rst:20
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Creational/Multiton/README.rst:27
 msgid "Code"
