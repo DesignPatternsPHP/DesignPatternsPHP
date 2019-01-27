@@ -1,49 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>PHP</ID>
-  <OriginalElement>\DesignPatterns\Behavioral\Specification\AbstractSpecification</OriginalElement>
+  <OriginalElement>\DesignPatterns\Behavioral\Specification\AndSpecification</OriginalElement>
   <nodes>
-    <node x="168.0" y="314.0">\DesignPatterns\Behavioral\Specification\PriceSpecification</node>
-    <node x="551.0" y="333.5">\DesignPatterns\Behavioral\Specification\Not</node>
-    <node x="259.25" y="0.0">\DesignPatterns\Behavioral\Specification\SpecificationInterface</node>
-    <node x="383.0" y="323.5">\DesignPatterns\Behavioral\Specification\Plus</node>
-    <node x="259.25" y="157.0">\DesignPatterns\Behavioral\Specification\AbstractSpecification</node>
-    <node x="0.0" y="323.5">\DesignPatterns\Behavioral\Specification\Either</node>
-    <node x="0.0" y="487.0">\DesignPatterns\Behavioral\Specification\Item</node>
+    <node x="0.0" y="112.0">\DesignPatterns\Behavioral\Specification\OrSpecification</node>
+    <node x="259.0" y="101.0">\DesignPatterns\Behavioral\Specification\PriceSpecification</node>
+    <node x="807.0" y="112.0">\DesignPatterns\Behavioral\Specification\NotSpecification</node>
+    <node x="0.0" y="265.0">\DesignPatterns\Behavioral\Specification\Item</node>
+    <node x="548.0" y="112.0">\DesignPatterns\Behavioral\Specification\AndSpecification</node>
+    <node x="436.99999999999994" y="0.0">\DesignPatterns\Behavioral\Specification\SpecificationInterface</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="\DesignPatterns\Behavioral\Specification\Plus" target="\DesignPatterns\Behavioral\Specification\AbstractSpecification">
-      <point x="0.0" y="-54.5" />
-      <point x="457.0" y="294.0" />
-      <point x="386.75" y="294.0" />
-      <point x="25.5" y="53.5" />
+    <edge source="\DesignPatterns\Behavioral\Specification\AndSpecification" target="\DesignPatterns\Behavioral\Specification\SpecificationInterface">
+      <point x="0.0" y="-48.5" />
+      <point x="667.5" y="81.0" />
+      <point x="553.875" y="81.0" />
+      <point x="23.375000000000057" y="25.5" />
     </edge>
-    <edge source="\DesignPatterns\Behavioral\Specification\AbstractSpecification" target="\DesignPatterns\Behavioral\Specification\SpecificationInterface">
-      <point x="0.0" y="-53.5" />
-      <point x="0.0" y="53.5" />
+    <edge source="\DesignPatterns\Behavioral\Specification\NotSpecification" target="\DesignPatterns\Behavioral\Specification\SpecificationInterface">
+      <point x="0.0" y="-48.5" />
+      <point x="923.0" y="71.0" />
+      <point x="600.625" y="71.0" />
+      <point x="70.12500000000006" y="25.5" />
     </edge>
-    <edge source="\DesignPatterns\Behavioral\Specification\PriceSpecification" target="\DesignPatterns\Behavioral\Specification\AbstractSpecification">
-      <point x="0.0" y="-64.0" />
-      <point x="265.5" y="294.0" />
-      <point x="335.75" y="294.0" />
-      <point x="-25.5" y="53.5" />
+    <edge source="\DesignPatterns\Behavioral\Specification\PriceSpecification" target="\DesignPatterns\Behavioral\Specification\SpecificationInterface">
+      <point x="0.0" y="-59.5" />
+      <point x="393.5" y="81.0" />
+      <point x="507.12499999999994" y="81.0" />
+      <point x="-23.375" y="25.5" />
     </edge>
-    <edge source="\DesignPatterns\Behavioral\Specification\Not" target="\DesignPatterns\Behavioral\Specification\AbstractSpecification">
-      <point x="0.0" y="-44.5" />
-      <point x="618.0" y="284.0" />
-      <point x="437.75" y="284.0" />
-      <point x="76.5" y="53.5" />
-    </edge>
-    <edge source="\DesignPatterns\Behavioral\Specification\Either" target="\DesignPatterns\Behavioral\Specification\AbstractSpecification">
-      <point x="0.0" y="-54.5" />
-      <point x="74.0" y="284.0" />
-      <point x="284.75" y="284.0" />
-      <point x="-76.5" y="53.5" />
+    <edge source="\DesignPatterns\Behavioral\Specification\OrSpecification" target="\DesignPatterns\Behavioral\Specification\SpecificationInterface">
+      <point x="0.0" y="-48.5" />
+      <point x="119.5" y="71.0" />
+      <point x="460.37499999999994" y="71.0" />
+      <point x="-70.125" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.6476510067114094" x="342.5" y="288.0" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="1.0" x="425.5" y="91.0" />
+  <SelectedNodes>
+    <node>\DesignPatterns\Behavioral\Specification\AndSpecification</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Constants</Category>

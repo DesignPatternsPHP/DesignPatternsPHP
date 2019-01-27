@@ -33,7 +33,19 @@ You can also find this code on `GitHub`_
 
 Post.php
 
-.. literalinclude:: Post.php
+.. literalinclude:: Domain/Post.php
+   :language: php
+   :linenos:
+
+PostId.php
+
+.. literalinclude:: Domain/PostId.php
+   :language: php
+   :linenos:
+
+PostStatus.php
+
+.. literalinclude:: Domain/PostStatus.php
    :language: php
    :linenos:
 
@@ -43,18 +55,24 @@ PostRepository.php
    :language: php
    :linenos:
 
-MemoryStorage.php
+Persistence.php
 
-.. literalinclude:: MemoryStorage.php
+.. literalinclude:: Persistence.php
+   :language: php
+   :linenos:
+
+InMemoryPersistence.php
+
+.. literalinclude:: InMemoryPersistence.php
    :language: php
    :linenos:
 
 Test
 ----
 
-Tests/RepositoryTest.php
+Tests/PostRepositoryTest.php
 
-.. literalinclude:: Tests/RepositoryTest.php
+.. literalinclude:: Tests/PostRepositoryTest.php
     :language: php
     :linenos:
 

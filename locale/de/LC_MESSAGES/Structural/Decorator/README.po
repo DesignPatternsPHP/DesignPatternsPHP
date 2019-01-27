@@ -51,30 +51,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code auch auf `GitHub`_"
 
-#: ../../Structural/Decorator/README.rst:28
-msgid "RendererInterface.php"
-msgstr "RendererInterface.php"
-
-#: ../../Structural/Decorator/README.rst:34
-msgid "Webservice.php"
-msgstr "Webservice.php"
-
-#: ../../Structural/Decorator/README.rst:40
-msgid "Decorator.php"
-msgstr "Decorator.php"
-
-#: ../../Structural/Decorator/README.rst:46
-msgid "RenderInXml.php"
-msgstr "RenderInXml.php"
-
-#: ../../Structural/Decorator/README.rst:52
-msgid "RenderInJson.php"
-msgstr "RenderInJson.php"
-
 #: ../../Structural/Decorator/README.rst:59
 msgid "Test"
 msgstr "Теst"
-
-#: ../../Structural/Decorator/README.rst:61
-msgid "Tests/DecoratorTest.php"
-msgstr "Tests/DecoratorTest.php"

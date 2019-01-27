@@ -2,8 +2,11 @@
 
 namespace DesignPatterns\More\Repository;
 
+use DesignPatterns\More\Repository\Domain\Post;
+use DesignPatterns\More\Repository\Domain\PostId;
+
 /**
- * This class is situated between Entity layer (class Post) and access object layer (MemoryStorage).
+ * This class is situated between Entity layer (class Post) and access object layer (Persistence).
  *
  * Repository encapsulates the set of objects persisted in a data store and the operations performed over them
  * providing a more object-oriented view of the persistence layer
@@ -14,21 +17,26 @@ namespace DesignPatterns\More\Repository;
 class PostRepository
 {
     /**
-     * @var MemoryStorage
+     * @var Persistence
      */
     private $persistence;
 
-    public function __construct(MemoryStorage $persistence)
+    public function __construct(Persistence $persistence)
     {
         $this->persistence = $persistence;
     }
 
-    public function findById(int $id): Post
+    public function generateId(): PostId
     {
-        $arrayData = $this->persistence->retrieve($id);
+        return PostId::fromInt($this->persistence->generateId());
+    }
 
-        if (is_null($arrayData)) {
-            throw new \InvalidArgumentException(sprintf('Post with ID %d does not exist', $id));
+    public function findById(PostId $id): Post
+    {
+        try {
+            $arrayData = $this->persistence->retrieve($id->toInt());
+        } catch (\OutOfBoundsException $e) {
+            throw new \OutOfBoundsException(sprintf('Post with id %d does not exist', $id->toInt()), 0, $e);
         }
 
         return Post::fromState($arrayData);
@@ -36,11 +44,11 @@ class PostRepository
 
     public function save(Post $post)
     {
-        $id = $this->persistence->persist([
+        $this->persistence->persist([
+            'id' => $post->getId()->toInt(),
+            'statusId' => $post->getStatus()->toInt(),
             'text' => $post->getText(),
             'title' => $post->getTitle(),
         ]);
-
-        $post->setId($id);
     }
 }

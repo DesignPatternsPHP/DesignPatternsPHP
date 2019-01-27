@@ -39,50 +39,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Creational/AbstractFactory/README.rst:24
-msgid "AbstractFactory.php"
-msgstr ""
-
-#: ../../Creational/AbstractFactory/README.rst:30
-msgid "JsonFactory.php"
-msgstr ""
-
-#: ../../Creational/AbstractFactory/README.rst:36
-msgid "HtmlFactory.php"
-msgstr ""
-
-#: ../../Creational/AbstractFactory/README.rst:42
-msgid "MediaInterface.php"
-msgstr ""
-
-#: ../../Creational/AbstractFactory/README.rst:48
-msgid "Picture.php"
-msgstr ""
-
-#: ../../Creational/AbstractFactory/README.rst:54
-msgid "Text.php"
-msgstr ""
-
-#: ../../Creational/AbstractFactory/README.rst:60
-msgid "Json/Picture.php"
-msgstr ""
-
-#: ../../Creational/AbstractFactory/README.rst:66
-msgid "Json/Text.php"
-msgstr ""
-
-#: ../../Creational/AbstractFactory/README.rst:72
-msgid "Html/Picture.php"
-msgstr ""
-
-#: ../../Creational/AbstractFactory/README.rst:78
-msgid "Html/Text.php"
-msgstr ""
-
 #: ../../Creational/AbstractFactory/README.rst:85
 msgid "Test"
-msgstr ""
-
-#: ../../Creational/AbstractFactory/README.rst:87
-msgid "Tests/AbstractFactoryTest.php"
 msgstr ""

@@ -1,6 +1,7 @@
 # DesignPatternsPHP
 
 [![Build Status](https://travis-ci.org/domnikl/DesignPatternsPHP.svg?branch=master)](https://travis-ci.org/domnikl/DesignPatternsPHP)
+[![Documentation Status](https://readthedocs.org/projects/designpatternsphp/badge/?version=latest)](https://readthedocs.org/projects/designpatternsphp/?badge=latest)
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/DominikLiebler)
 
 [Read the Docs of DesignPatternsPHP](http://designpatternsphp.readthedocs.org)
@@ -14,32 +15,31 @@ I think the problem with patterns is that often people do know them but don't kn
 You should look at and run the tests to see what happens in the example.
 To do this, you should install dependencies with `Composer` first:
 
-### [optional] Using Docker
-
-You can optionally run tests using [Docker for Mac](https://www.docker.com/docker-mac) or [Windows](https://www.docker.com/docker-windows) or native one for [Linux](https://www.docker.com/docker-debian).
-Just run:
-```
-docker-compose up
-```
-
-### Install dependencies
-
 ```bash
 $ composer install
 ```
 
 Read more about how to install and use `Composer` on your local machine [here](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
-If you are using Docker, you just have to run:
-
-```bash
-docker-compose run composer install
-```
-
-### Running test suite
+To run the tests use `phpunit`:
 
 ```bash
 $ ./vendor/bin/phpunit
+```
+
+## using Docker (optional)
+
+You can optionally run tests using [Docker for Mac](https://www.docker.com/docker-mac) or [Windows](https://www.docker.com/docker-windows) or native one for [Linux](https://www.docker.com/docker-debian).
+Just run:
+
+```bash
+$ docker-compose up
+```
+
+To only install the dependencies, use `docker-compose` like this:
+
+```bash
+$ docker-compose run composer install
 ```
 
 ## Patterns
@@ -88,7 +88,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Visitor](Behavioral/Visitor) [:notebook:](http://en.wikipedia.org/wiki/Visitor_pattern)
 
 ### [More](More)
-* [Delegation](More/Delegation) [:notebook:](http://en.wikipedia.org/wiki/Delegation_pattern)
+
 * [ServiceLocator](More/ServiceLocator) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern) (is considered an anti-pattern! :no_entry:)
 * [Repository](More/Repository)
 * [EAV](More/EAV) [:notebook:](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model)

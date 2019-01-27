@@ -78,30 +78,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Structural/DependencyInjection/README.rst:48
-msgid "AbstractConfig.php"
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:54
-msgid "Parameters.php"
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:60
-msgid "ArrayConfig.php"
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:66
-msgid "Connection.php"
-msgstr ""
-
 #: ../../Structural/DependencyInjection/README.rst:73
 msgid "Test"
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:75
-msgid "Tests/DependencyInjectionTest.php"
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:81
-msgid "Tests/config.php"
 msgstr ""

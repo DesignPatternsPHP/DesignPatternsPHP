@@ -66,22 +66,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Structural/Facade/README.rst:38
-msgid "Facade.php"
-msgstr ""
-
-#: ../../Structural/Facade/README.rst:44
-msgid "OsInterface.php"
-msgstr ""
-
-#: ../../Structural/Facade/README.rst:50
-msgid "BiosInterface.php"
-msgstr ""
-
 #: ../../Structural/Facade/README.rst:57
 msgid "Test"
-msgstr ""
-
-#: ../../Structural/Facade/README.rst:59
-msgid "Tests/FacadeTest.php"
 msgstr ""

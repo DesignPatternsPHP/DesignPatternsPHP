@@ -64,15 +64,3 @@ msgstr ""
 msgid "Test"
 msgstr ""
 
-#: ../../More/EAV/README.rst:104
-msgid "Tests/EntityTest.php"
-msgstr ""
-
-#: ../../More/EAV/README.rst:110
-msgid "Tests/AttributeTest.php"
-msgstr ""
-
-#: ../../More/EAV/README.rst:116
-msgid "Tests/ValueTest.php"
-msgstr ""
-

@@ -25,7 +25,7 @@ msgstr ""
 "Esta é uma coleção de padrões de projetos conhecidos e alguns códigos de exemplo de como "
 "implementá-los em PHP. Todo padrão tem uma pequena lista de exemplos (muitos deles "
 "vindos do Zend Framework, Symfony2 ou Doctrine2 já que tenho mais familiaridade com "
-"eles"
+"eles)."
 
 #: ../../README.rst:16
 msgid ""

@@ -75,18 +75,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code auch auf `GitHub`_"
 
-#: ../../Structural/DataMapper/README.rst:38
-msgid "User.php"
-msgstr "User.php"
-
-#: ../../Structural/DataMapper/README.rst:44
-msgid "UserMapper.php"
-msgstr "UserMapper.php"
-
 #: ../../Structural/DataMapper/README.rst:51
 msgid "Test"
 msgstr "Теst"
-
-#: ../../Structural/DataMapper/README.rst:53
-msgid "Tests/DataMapperTest.php"
-msgstr "Tests/DataMapperTest.php"

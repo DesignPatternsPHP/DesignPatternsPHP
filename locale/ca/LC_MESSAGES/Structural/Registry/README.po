@@ -54,14 +54,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Structural/Registry/README.rst:31
-msgid "Registry.php"
-msgstr ""
-
 #: ../../Structural/Registry/README.rst:38
 msgid "Test"
-msgstr ""
-
-#: ../../Structural/Registry/README.rst:40
-msgid "Tests/RegistryTest.php"
 msgstr ""

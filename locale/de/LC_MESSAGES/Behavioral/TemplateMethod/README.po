@@ -65,22 +65,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code hierzu auf `GitHub`_"
 
-#: ../../Behavioral/TemplateMethod/README.rst:36
-msgid "Journey.php"
-msgstr "Journey.php"
-
-#: ../../Behavioral/TemplateMethod/README.rst:42
-msgid "BeachJourney.php"
-msgstr "BeachJourney.php"
-
-#: ../../Behavioral/TemplateMethod/README.rst:48
-msgid "CityJourney.php"
-msgstr "CityJourney.php"
-
 #: ../../Behavioral/TemplateMethod/README.rst:55
 msgid "Test"
 msgstr "Test"
-
-#: ../../Behavioral/TemplateMethod/README.rst:57
-msgid "Tests/JourneyTest.php"
-msgstr "Tests/JourneyTest.php"

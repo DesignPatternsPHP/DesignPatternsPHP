@@ -5,12 +5,4 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/opt/php
-    command: ["/opt/php/docker/test_runner.sh"]
-  composer:
-    image: composer:latest
-    working_dir: /app
-    volumes:
-       - .:/app
-    command:
-      - install
+      - .:/app

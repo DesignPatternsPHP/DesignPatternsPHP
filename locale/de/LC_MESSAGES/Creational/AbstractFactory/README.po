@@ -46,50 +46,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code auch auf `GitHub`_"
 
-#: ../../Creational/AbstractFactory/README.rst:24
-msgid "AbstractFactory.php"
-msgstr "AbstractFactory.php"
-
-#: ../../Creational/AbstractFactory/README.rst:30
-msgid "JsonFactory.php"
-msgstr "JsonFactory.php"
-
-#: ../../Creational/AbstractFactory/README.rst:36
-msgid "HtmlFactory.php"
-msgstr "HtmlFactory.php"
-
-#: ../../Creational/AbstractFactory/README.rst:42
-msgid "MediaInterface.php"
-msgstr "MediaInterface.php"
-
-#: ../../Creational/AbstractFactory/README.rst:48
-msgid "Picture.php"
-msgstr "Picture.php"
-
-#: ../../Creational/AbstractFactory/README.rst:54
-msgid "Text.php"
-msgstr "Text.php"
-
-#: ../../Creational/AbstractFactory/README.rst:60
-msgid "Json/Picture.php"
-msgstr "Json/Picture.php"
-
-#: ../../Creational/AbstractFactory/README.rst:66
-msgid "Json/Text.php"
-msgstr "Json/Text.php"
-
-#: ../../Creational/AbstractFactory/README.rst:72
-msgid "Html/Picture.php"
-msgstr "Html/Picture.php"
-
-#: ../../Creational/AbstractFactory/README.rst:78
-msgid "Html/Text.php"
-msgstr "Html/Text.php"
-
 #: ../../Creational/AbstractFactory/README.rst:85
 msgid "Test"
 msgstr "Теst"
-
-#: ../../Creational/AbstractFactory/README.rst:87
-msgid "Tests/AbstractFactoryTest.php"
-msgstr "Tests/AbstractFactoryTest.php"

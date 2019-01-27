@@ -51,38 +51,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code hierzu auf `GitHub`_"
 
-#: ../../Behavioral/Specification/README.rst:29
-msgid "Item.php"
-msgstr "Item.php"
-
-#: ../../Behavioral/Specification/README.rst:35
-msgid "SpecificationInterface.php"
-msgstr "SpecificationInterface.php"
-
-#: ../../Behavioral/Specification/README.rst:41
-msgid "AbstractSpecification.php"
-msgstr "AbstractSpecification.php"
-
-#: ../../Behavioral/Specification/README.rst:47
-msgid "Either.php"
-msgstr "Either.php"
-
-#: ../../Behavioral/Specification/README.rst:53
-msgid "PriceSpecification.php"
-msgstr "PriceSpecification.php"
-
-#: ../../Behavioral/Specification/README.rst:59
-msgid "Plus.php"
-msgstr "Plus.php"
-
-#: ../../Behavioral/Specification/README.rst:65
-msgid "Not.php"
-msgstr "Not.php"
-
 #: ../../Behavioral/Specification/README.rst:72
 msgid "Test"
 msgstr "Test"
-
-#: ../../Behavioral/Specification/README.rst:74
-msgid "Tests/SpecificationTest.php"
-msgstr "Tests/SpecificationTest.php"

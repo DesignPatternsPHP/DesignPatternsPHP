@@ -56,26 +56,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Creational/Pool/README.rst:36
-msgid "Pool.php"
-msgstr ""
-
-#: ../../Creational/Pool/README.rst:42
-msgid "Processor.php"
-msgstr ""
-
-#: ../../Creational/Pool/README.rst:48
-msgid "Worker.php"
-msgstr ""
-
 #: ../../Creational/Pool/README.rst:55
 msgid "Test"
-msgstr ""
-
-#: ../../Creational/Pool/README.rst:57
-msgid "Tests/PoolTest.php"
-msgstr ""
-
-#: ../../Creational/Pool/README.rst:63
-msgid "Tests/TestWorker.php"
 msgstr ""

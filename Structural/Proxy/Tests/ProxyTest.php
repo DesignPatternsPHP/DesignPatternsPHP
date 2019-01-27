@@ -2,24 +2,23 @@
 
 namespace DesignPatterns\Structural\Proxy\Tests;
 
-use DesignPatterns\Structural\Proxy\RecordProxy;
+use DesignPatterns\Structural\Proxy\BankAccountProxy;
 use PHPUnit\Framework\TestCase;
 
 class ProxyTest extends TestCase
 {
-    public function testWillSetDirtyFlagInProxy()
+    public function testProxyWillOnlyExecuteExpensiveGetBalanceOnce()
     {
-        $recordProxy = new RecordProxy([]);
-        $recordProxy->username = 'baz';
+        $bankAccount = new BankAccountProxy();
+        $bankAccount->deposit(30);
 
-        $this->assertTrue($recordProxy->isDirty());
-    }
+        // this time balance is being calculated
+        $this->assertSame(30, $bankAccount->getBalance());
 
-    public function testProxyIsInstanceOfRecord()
-    {
-        $recordProxy = new RecordProxy([]);
-        $recordProxy->username = 'baz';
+        // inheritance allows for BankAccountProxy to behave to an outsider exactly like ServerBankAccount
+        $bankAccount->deposit(50);
 
-        $this->assertInstanceOf(RecordProxy::class, $recordProxy);
+        // this time the previously calculated balance is returned again without re-calculating it
+        $this->assertSame(30, $bankAccount->getBalance());
     }
 }

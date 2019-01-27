@@ -71,26 +71,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du kannst den Code auch auf `GitHub` einsehen_"
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:36
-msgid "Request.php"
-msgstr "Request.php"
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:42
-msgid "Handler.php"
-msgstr "Handler.php"
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:48
-msgid "Responsible/SlowStorage.php"
-msgstr "Responsible/SlowStorage.php"
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:54
-msgid "Responsible/FastStorage.php"
-msgstr "Responsible/FastStorage.php"
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:61
 msgid "Test"
 msgstr "Теst"
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:63
-msgid "Tests/ChainTest.php"
-msgstr "Tests/ChainTest.php"

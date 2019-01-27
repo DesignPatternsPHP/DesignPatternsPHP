@@ -49,7 +49,7 @@ class StrategyTest extends TestCase
         $elements = $obj->executeStrategy($collection);
 
         $firstElement = array_shift($elements);
-        $this->assertEquals($expected, $firstElement);
+        $this->assertSame($expected, $firstElement);
     }
 
     /**
@@ -64,6 +64,6 @@ class StrategyTest extends TestCase
         $elements = $obj->executeStrategy($collection);
 
         $firstElement = array_shift($elements);
-        $this->assertEquals($expected, $firstElement);
+        $this->assertSame($expected, $firstElement);
     }
 }

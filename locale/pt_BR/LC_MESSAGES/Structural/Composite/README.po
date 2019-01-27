@@ -53,26 +53,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Structural/Composite/README.rst:31
-msgid "FormElement.php"
-msgstr ""
-
-#: ../../Structural/Composite/README.rst:37
-msgid "Form.php"
-msgstr ""
-
-#: ../../Structural/Composite/README.rst:43
-msgid "InputElement.php"
-msgstr ""
-
-#: ../../Structural/Composite/README.rst:49
-msgid "TextElement.php"
-msgstr ""
-
 #: ../../Structural/Composite/README.rst:56
 msgid "Test"
-msgstr ""
-
-#: ../../Structural/Composite/README.rst:58
-msgid "Tests/CompositeTest.php"
 msgstr ""

@@ -84,26 +84,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code hierzu auf `GitHub`_"
 
-#: ../../Behavioral/NullObject/README.rst:41
-msgid "Service.php"
-msgstr "Service.php"
-
-#: ../../Behavioral/NullObject/README.rst:47
-msgid "LoggerInterface.php"
-msgstr "LoggerInterface.php"
-
-#: ../../Behavioral/NullObject/README.rst:53
-msgid "PrintLogger.php"
-msgstr "PrintLogger.php"
-
-#: ../../Behavioral/NullObject/README.rst:59
-msgid "NullLogger.php"
-msgstr "NullLogger.php"
-
 #: ../../Behavioral/NullObject/README.rst:66
 msgid "Test"
 msgstr "Test"
-
-#: ../../Behavioral/NullObject/README.rst:68
-msgid "Tests/LoggerTest.php"
-msgstr "Tests/LoggerTest.php"

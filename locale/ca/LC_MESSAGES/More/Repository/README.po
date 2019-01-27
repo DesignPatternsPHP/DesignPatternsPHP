@@ -55,22 +55,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../More/Repository/README.rst:34
-msgid "Post.php"
-msgstr ""
-
-#: ../../More/Repository/README.rst:40
-msgid "PostRepository.php"
-msgstr ""
-
-#: ../../More/Repository/README.rst:46
-msgid "Storage.php"
-msgstr ""
-
-#: ../../More/Repository/README.rst:52
-msgid "MemoryStorage.php"
-msgstr ""
-
 #: ../../More/Repository/README.rst:59
 msgid "Test"
 msgstr ""

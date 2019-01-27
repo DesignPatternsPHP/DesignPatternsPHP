@@ -2,32 +2,37 @@
 
 namespace DesignPatterns\Structural\Decorator\Tests;
 
-use DesignPatterns\Structural\Decorator;
+use DesignPatterns\Structural\Decorator\DoubleRoomBooking;
+use DesignPatterns\Structural\Decorator\ExtraBed;
+use DesignPatterns\Structural\Decorator\WiFi;
 use PHPUnit\Framework\TestCase;
 
 class DecoratorTest extends TestCase
 {
-    /**
-     * @var Decorator\Webservice
-     */
-    private $service;
-
-    protected function setUp()
+    public function testCanCalculatePriceForBasicDoubleRoomBooking()
     {
-        $this->service = new Decorator\Webservice('foobar');
+        $booking = new DoubleRoomBooking();
+
+        $this->assertSame(40, $booking->calculatePrice());
+        $this->assertSame('double room', $booking->getDescription());
     }
 
-    public function testJsonDecorator()
+    public function testCanCalculatePriceForDoubleRoomBookingWithWiFi()
     {
-        $service = new Decorator\JsonRenderer($this->service);
+        $booking = new DoubleRoomBooking();
+        $booking = new WiFi($booking);
 
-        $this->assertEquals('"foobar"', $service->renderData());
+        $this->assertSame(42, $booking->calculatePrice());
+        $this->assertSame('double room with wifi', $booking->getDescription());
     }
 
-    public function testXmlDecorator()
+    public function testCanCalculatePriceForDoubleRoomBookingWithWiFiAndExtraBed()
     {
-        $service = new Decorator\XmlRenderer($this->service);
+        $booking = new DoubleRoomBooking();
+        $booking = new WiFi($booking);
+        $booking = new ExtraBed($booking);
 
-        $this->assertXmlStringEqualsXmlString('<?xml version="1.0"?><content>foobar</content>', $service->renderData());
+        $this->assertSame(72, $booking->calculatePrice());
+        $this->assertSame('double room with wifi with extra bed', $booking->getDescription());
     }
 }

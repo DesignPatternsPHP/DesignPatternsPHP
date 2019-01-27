@@ -5,12 +5,12 @@ Purpose
 -------
 
 The good point over the SimpleFactory is you can subclass it to
-implement different ways to create objects
+implement different ways to create objects.
 
-For simple case, this abstract class could be just an interface
+For simple cases, this abstract class could be just an interface.
 
 This pattern is a "real" Design Pattern because it achieves the
-"Dependency Inversion Principle" a.k.a the "D" in S.O.L.I.D principles.
+Dependency Inversion principle a.k.a the "D" in SOLID principles.
 
 It means the FactoryMethod class depends on abstractions, not concrete
 classes. This is the real trick compared to SimpleFactory or
@@ -28,45 +28,39 @@ Code
 
 You can also find this code on `GitHub`_
 
-FactoryMethod.php
+Logger.php
 
-.. literalinclude:: FactoryMethod.php
+.. literalinclude:: Logger.php
    :language: php
    :linenos:
 
-ItalianFactory.php
+StdoutLogger.php
 
-.. literalinclude:: ItalianFactory.php
+.. literalinclude:: StdoutLogger.php
    :language: php
    :linenos:
 
-GermanFactory.php
+FileLogger.php
 
-.. literalinclude:: GermanFactory.php
+.. literalinclude:: FileLogger.php
    :language: php
    :linenos:
 
-VehicleInterface.php
+LoggerFactory.php
 
-.. literalinclude:: VehicleInterface.php
+.. literalinclude:: LoggerFactory.php
    :language: php
    :linenos:
 
-CarMercedes.php
+StdoutLoggerFactory.php
 
-.. literalinclude:: CarMercedes.php
+.. literalinclude:: StdoutLoggerFactory.php
    :language: php
    :linenos:
 
-CarFerrari.php
+FileLoggerFactory.php
 
-.. literalinclude:: CarFerrari.php
-   :language: php
-   :linenos:
-
-Bicycle.php
-
-.. literalinclude:: Bicycle.php
+.. literalinclude:: FileLoggerFactory.php
    :language: php
    :linenos:
 

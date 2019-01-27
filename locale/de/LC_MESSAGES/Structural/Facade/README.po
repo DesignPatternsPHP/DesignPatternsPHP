@@ -81,22 +81,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code auch auf `GitHub`_"
 
-#: ../../Structural/Facade/README.rst:38
-msgid "Facade.php"
-msgstr "Facade.php"
-
-#: ../../Structural/Facade/README.rst:44
-msgid "OsInterface.php"
-msgstr "OsInterface.php"
-
-#: ../../Structural/Facade/README.rst:50
-msgid "BiosInterface.php"
-msgstr "BiosInterface.php"
-
 #: ../../Structural/Facade/README.rst:57
 msgid "Test"
 msgstr "Теst"
-
-#: ../../Structural/Facade/README.rst:59
-msgid "Tests/FacadeTest.php"
-msgstr "Tests/FacadeTest.php"

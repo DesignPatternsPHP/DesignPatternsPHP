@@ -2,9 +2,9 @@
 
 namespace DesignPatterns\Structural\Bridge;
 
-class PlainTextFormatter implements FormatterInterface
+class PlainTextFormatter implements Formatter
 {
-    public function format(string $text)
+    public function format(string $text): string
     {
         return $text;
     }

@@ -3,27 +3,27 @@
   <ID>PHP</ID>
   <OriginalElement>\DesignPatterns\Creational\StaticFactory\FormatNumber</OriginalElement>
   <nodes>
-    <node x="114.0" y="77.0">\DesignPatterns\Creational\StaticFactory\FormatNumber</node>
-    <node x="-8.0" y="149.0">\DesignPatterns\Creational\StaticFactory\StaticFactory</node>
-    <node x="0.0" y="77.0">\DesignPatterns\Creational\StaticFactory\FormatString</node>
-    <node x="43.75" y="0.0">\DesignPatterns\Creational\StaticFactory\FormatterInterface</node>
+    <node x="0.0" y="101.0">\DesignPatterns\Creational\StaticFactory\FormatString</node>
+    <node x="0.0" y="197.0">\DesignPatterns\Creational\StaticFactory\StaticFactory</node>
+    <node x="79.5" y="0.0">\DesignPatterns\Creational\StaticFactory\Formatter</node>
+    <node x="159.0" y="101.0">\DesignPatterns\Creational\StaticFactory\FormatNumber</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="\DesignPatterns\Creational\StaticFactory\FormatString" target="\DesignPatterns\Creational\StaticFactory\FormatterInterface">
-      <point x="0.0" y="-13.5" />
-      <point x="47.0" y="52.0" />
-      <point x="75.0" y="52.0" />
-      <point x="-31.25" y="13.5" />
+    <edge source="\DesignPatterns\Creational\StaticFactory\FormatString" target="\DesignPatterns\Creational\StaticFactory\Formatter">
+      <point x="0.0" y="-25.5" />
+      <point x="69.5" y="76.0" />
+      <point x="114.25" y="76.0" />
+      <point x="-34.75" y="25.5" />
     </edge>
-    <edge source="\DesignPatterns\Creational\StaticFactory\FormatNumber" target="\DesignPatterns\Creational\StaticFactory\FormatterInterface">
-      <point x="0.0" y="-13.5" />
-      <point x="165.5" y="52.0" />
-      <point x="137.5" y="52.0" />
-      <point x="31.25" y="13.5" />
+    <edge source="\DesignPatterns\Creational\StaticFactory\FormatNumber" target="\DesignPatterns\Creational\StaticFactory\Formatter">
+      <point x="0.0" y="-25.5" />
+      <point x="228.5" y="76.0" />
+      <point x="183.75" y="76.0" />
+      <point x="34.75" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="108.5" y="98.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="128.0" y="102.0" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

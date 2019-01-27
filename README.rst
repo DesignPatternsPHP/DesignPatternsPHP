@@ -4,6 +4,10 @@
 DesignPatternsPHP
 =================
 
+.. image:: https://travis-ci.org/domnikl/DesignPatternsPHP.svg?branch=master
+   :target: https://travis-ci.org/domnikl/DesignPatternsPHP
+   :alt: Build Status
+
 .. image:: https://readthedocs.org/projects/designpatternsphp/badge/?version=latest
    :target: https://readthedocs.org/projects/designpatternsphp/?badge=latest
    :alt: Documentation Status
@@ -44,3 +48,6 @@ To establish a consistent code quality, please check your code using
 `PHP CodeSniffer`_ against `PSR2 standard`_
 using ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``.
 
+.. _`design patterns`: http://en.wikipedia.org/wiki/Software_design_pattern
+.. _`PHP CodeSniffer`: https://github.com/squizlabs/PHP_CodeSniffer
+.. _`PSR2 standard`: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md

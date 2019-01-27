@@ -63,26 +63,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code auch auf `GitHub`_"
 
-#: ../../Structural/Composite/README.rst:31
-msgid "FormElement.php"
-msgstr "FormElement.php"
-
-#: ../../Structural/Composite/README.rst:37
-msgid "Form.php"
-msgstr "Form.php"
-
-#: ../../Structural/Composite/README.rst:43
-msgid "InputElement.php"
-msgstr "InputElement.php"
-
-#: ../../Structural/Composite/README.rst:49
-msgid "TextElement.php"
-msgstr "TextElement.php"
-
 #: ../../Structural/Composite/README.rst:56
 msgid "Test"
 msgstr "Теst"
-
-#: ../../Structural/Composite/README.rst:58
-msgid "Tests/CompositeTest.php"
-msgstr "Tests/CompositeTest.php"

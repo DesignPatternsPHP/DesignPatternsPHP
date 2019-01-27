@@ -60,18 +60,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Structural/DataMapper/README.rst:38
-msgid "User.php"
-msgstr ""
-
-#: ../../Structural/DataMapper/README.rst:44
-msgid "UserMapper.php"
-msgstr ""
-
 #: ../../Structural/DataMapper/README.rst:51
 msgid "Test"
-msgstr ""
-
-#: ../../Structural/DataMapper/README.rst:53
-msgid "Tests/DataMapperTest.php"
 msgstr ""

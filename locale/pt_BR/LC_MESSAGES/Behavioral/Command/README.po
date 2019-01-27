@@ -74,26 +74,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Behavioral/Command/README.rst:43
-msgid "CommandInterface.php"
-msgstr ""
-
-#: ../../Behavioral/Command/README.rst:49
-msgid "HelloCommand.php"
-msgstr ""
-
-#: ../../Behavioral/Command/README.rst:55
-msgid "Receiver.php"
-msgstr ""
-
-#: ../../Behavioral/Command/README.rst:61
-msgid "Invoker.php"
-msgstr ""
-
 #: ../../Behavioral/Command/README.rst:68
 msgid "Test"
-msgstr ""
-
-#: ../../Behavioral/Command/README.rst:70
-msgid "Tests/CommandTest.php"
 msgstr ""

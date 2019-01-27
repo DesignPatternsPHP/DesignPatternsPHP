@@ -15,7 +15,7 @@ class AdapterTest extends TestCase
         $book->open();
         $book->turnPage();
 
-        $this->assertEquals(2, $book->getPage());
+        $this->assertSame(2, $book->getPage());
     }
 
     public function testCanTurnPageOnKindleLikeInANormalBook()
@@ -26,6 +26,6 @@ class AdapterTest extends TestCase
         $book->open();
         $book->turnPage();
 
-        $this->assertEquals(2, $book->getPage());
+        $this->assertSame(2, $book->getPage());
     }
 }

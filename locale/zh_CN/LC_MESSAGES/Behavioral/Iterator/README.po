@@ -56,26 +56,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Behavioral/Iterator/README.rst:36
-msgid "Book.php"
-msgstr ""
-
-#: ../../Behavioral/Iterator/README.rst:42
-msgid "BookList.php"
-msgstr ""
-
-#: ../../Behavioral/Iterator/README.rst:48
-msgid "BookListIterator.php"
-msgstr ""
-
-#: ../../Behavioral/Iterator/README.rst:54
-msgid "BookListReverseIterator.php"
-msgstr ""
-
 #: ../../Behavioral/Iterator/README.rst:61
 msgid "Test"
-msgstr ""
-
-#: ../../Behavioral/Iterator/README.rst:63
-msgid "Tests/IteratorTest.php"
 msgstr ""

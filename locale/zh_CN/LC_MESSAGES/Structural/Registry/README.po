@@ -52,17 +52,9 @@ msgstr "代码"
 msgid "You can also find this code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
-#: ../../Structural/Registry/README.rst:31
-msgid "Registry.php"
-msgstr ""
-
 #: ../../Structural/Registry/README.rst:38
 msgid "Test"
 msgstr "测试"
-
-#: ../../Structural/Registry/README.rst:40
-msgid "Tests/RegistryTest.php"
-msgstr ""
 
 #: ../../Structural/Registry/README.rst:14
 msgid ""

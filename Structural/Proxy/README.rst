@@ -25,15 +25,21 @@ Code
 
 You can also find this code on `GitHub`_
 
-Record.php
+BankAccount.php
 
-.. literalinclude:: Record.php
+.. literalinclude:: BankAccount.php
    :language: php
    :linenos:
 
-RecordProxy.php
+HeavyBankAccount.php
 
-.. literalinclude:: RecordProxy.php
+.. literalinclude:: HeavyBankAccount.php
+   :language: php
+   :linenos:
+
+BankAccountProxy.php
+
+.. literalinclude:: BankAccountProxy.php
    :language: php
    :linenos:
 
