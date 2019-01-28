@@ -75,7 +75,7 @@ msgstr ""
 
 #: ../../Structural/Facade/README.rst:27
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Structural/Facade/README.rst:34
 msgid "Code"

@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../Structural/Bridge/README.rst:17
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Structural/Bridge/README.rst:24
 msgid "Code"

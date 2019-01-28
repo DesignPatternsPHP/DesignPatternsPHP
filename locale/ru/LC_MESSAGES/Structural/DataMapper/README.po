@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../Structural/DataMapper/README.rst:27
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Structural/DataMapper/README.rst:34
 msgid "Code"

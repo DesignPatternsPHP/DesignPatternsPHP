@@ -41,7 +41,7 @@ msgstr "`RulerZ <https://github.com/K-Phoen/rulerz>`__"
 
 #: ../../Behavioral/Specification/README.rst:18
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Behavioral/Specification/README.rst:25
 msgid "Code"
