@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Structural/Adapter/README.rst:2
 msgid "`Adapter / Wrapper`__"
-msgstr "Adaptador"
+msgstr "`Adaptador (Adapter / Wrapper)`__"
 
 #: ../../Structural/Adapter/README.rst:5
 msgid "Purpose"
@@ -37,7 +37,7 @@ msgstr "Exemplos"
 
 #: ../../Structural/Adapter/README.rst:15
 msgid "DB Client libraries adapter"
-msgstr ""
+msgstr "Adaptador de bibliotecas clientes de banco de dados"
 
 #: ../../Structural/Adapter/README.rst:16
 msgid ""
@@ -55,14 +55,9 @@ msgid "Code"
 msgstr "Código"
 
 #: ../../Structural/Adapter/README.rst:29
-<<<<<<< HEAD
 msgid "You can also find these code on `GitHub`_"
 msgstr "Você também pode encontrar este código no `Github`_"
-=======
-msgid "You can also find this code on `GitHub`_"
-msgstr ""
->>>>>>> c1f0faccc8503a78a1b4cae192aaef127a2edb02
 
 #: ../../Structural/Adapter/README.rst:62
 msgid "Test"
-msgstr ""
+msgstr "Teste"

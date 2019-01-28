@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:2
 msgid "`Dependency Injection`__"
-msgstr "Injeção de dependência"
+msgstr "`Injeção de dependência (Dependency Injection)`__"
 
 #: ../../Structural/DependencyInjection/README.rst:5
 msgid "Purpose"
@@ -33,15 +33,15 @@ msgstr "Uso"
 
 #: ../../Structural/DependencyInjection/README.rst:13
 msgid ""
-"Configuration gets injected and ``Connection`` will get all that it needs "
-"from ``$config``. Without DI, the configuration would be created directly in"
-" ``Connection``, which is not very good for testing and extending "
-"``Connection``."
+"``DatabaseConfiguration`` gets injected and ``DatabaseConnection`` will get all that it "
+"needs from ``$config``. Without DI, the configuration would be created "
+"directly in ``DatabaseConnection``, which is not very good for testing and "
+"extending it."
 msgstr ""
-"Configuration é injetado e ``Connection`` irá receber tudo o que é necessário "
-" de ``$config``. Sem a Injeção de Dependência, a configuração poderia ser criada "
-" diretamente em ``Connection``, o que não é muito bom para testar e extender "
-"``Connection``."
+"``DatabaseConfiguration`` é injetado e ``DatabaseConnection`` irá receber tudo o que é "
+" necessário de ``$config``. Sem a Injeção de Dependência, a configuração seria criada "
+" diretamente em ``DatabaseConnection``, o que não é muito bom para testar e extender "
+" isto."
 
 #: ../../Structural/DependencyInjection/README.rst:18
 msgid ""

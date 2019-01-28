@@ -13,11 +13,11 @@ msgstr ""
 
 #: ../../Structural/Bridge/README.rst:2
 msgid "`Bridge`__"
-msgstr ""
+msgstr "`Ponte (Bridge)`__"
 
 #: ../../Structural/Bridge/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Structural/Bridge/README.rst:7
 msgid ""
@@ -27,24 +27,24 @@ msgstr ""
 
 #: ../../Structural/Bridge/README.rst:11
 msgid "Sample:"
-msgstr ""
+msgstr "Exemplo:"
 
 #: ../../Structural/Bridge/README.rst:13
 msgid "`Symfony DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
-msgstr ""
+msgstr "`Symfony DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
 
 #: ../../Structural/Bridge/README.rst:17
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Structural/Bridge/README.rst:24
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Structural/Bridge/README.rst:26
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Você também pode encontrar este código no `GitHub`_"
 
 #: ../../Structural/Bridge/README.rst:65
 msgid "Test"
-msgstr ""
+msgstr "Teste"
