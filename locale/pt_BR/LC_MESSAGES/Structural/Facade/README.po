@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2019-01-29 16:39-0300\n"
+"PO-Revision-Date: 2019-02-01 13:54-0300\n"
 "Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Structural/Facade/README.rst:2
 msgid "`Facade`__"
-msgstr "`Fachada (Facade)`__"
+msgstr "`Facade (Fachada)`__"
 
 #: ../../Structural/Facade/README.rst:5
 msgid "Purpose"
@@ -25,7 +25,7 @@ msgid ""
 "of a complex API. It's only a side-effect. The first goal is to reduce "
 "coupling and follow the Law of Demeter."
 msgstr ""
-"O principal objetivo de um Padrão Fachada (Facade Pattern) não é evitar que você leia o manual "
+"O principal objetivo de um Facade Pattern não é evitar que você leia o manual "
 "de uma API complexa. É apenas um efeito colateral. O primeiro objetivo é reduzir "
 "o acoplamento e seguir a Lei de Demeter."
 
@@ -34,16 +34,16 @@ msgid ""
 "A Facade is meant to decouple a client and a sub-system by embedding many "
 "(but sometimes just one) interface, and of course to reduce complexity."
 msgstr ""
-"Uma Fachada destina-se a dissociar um cliente e um subsistema, incorporando muitas "
+"Uma Facade destina-se a dissociar um cliente e um subsistema, incorporando muitas "
 "(porém as vezes apenas uma) interface e, é claro, para reduzir a complexidade."
 
 #: ../../Structural/Facade/README.rst:15
 msgid "A facade does not forbid you the access to the sub-system"
-msgstr "Uma fachada não proibe seu acesso ao sub-sistema"
+msgstr "Uma Facade não proibe você de acessar o sub-sistema"
 
 #: ../../Structural/Facade/README.rst:16
 msgid "You can (you should) have multiple facades for one sub-system"
-msgstr "Você pode (você deve) ter múltiplas fachadas para um sub-sistema"
+msgstr "Você pode (você deve) ter múltiplas facades para um sub-sistema"
 
 #: ../../Structural/Facade/README.rst:18
 msgid ""
