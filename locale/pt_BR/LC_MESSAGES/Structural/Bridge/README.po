@@ -19,6 +19,10 @@ msgstr "`Ponte (Bridge)`__"
 msgid "Purpose"
 msgstr "Objetivo"
 
+#: ../../Structural/Adapter/README.rst:10
+msgid "Examples"
+msgstr "Exemplos"
+
 #: ../../Structural/Bridge/README.rst:7
 msgid ""
 "Decouple an abstraction from its implementation so that the two can vary "

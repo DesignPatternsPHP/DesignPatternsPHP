@@ -21,13 +21,13 @@ msgstr "Objetivo"
 
 #: ../../Structural/Facade/README.rst:7
 msgid ""
-"The primary goal of a Facade Pattern is not to avoid you to read the manual "
-"of a complex API. It's only a side-effect. The first goal is to reduce "
-"coupling and follow the Law of Demeter."
+"The primary goal of a Facade Pattern is not to avoid you having to read the "
+"manual of a complex API. It's only a side-effect. The first goal is to "
+"reduce coupling and follow the Law of Demeter."
 msgstr ""
-"O principal objetivo de um Facade Pattern não é evitar que você leia o manual "
-"de uma API complexa. É apenas um efeito colateral. O primeiro objetivo é reduzir "
-"o acoplamento e seguir a Lei de Demeter."
+"O principal objetivo de um Facade Pattern não é evitar que você tenha que ler o "
+"manual de uma API complexa. É apenas um efeito colateral. O primeiro objetivo é "
+"reduzir o acoplamento e seguir a Lei de Demeter."
 
 #: ../../Structural/Facade/README.rst:11
 msgid ""
@@ -51,6 +51,9 @@ msgid ""
 "creations for each method, it is not a Facade, it's a Builder or a "
 "[Abstract\\|Static\\|Simple] Factory [Method]."
 msgstr ""
+"É por isso que uma boa facade não tem nenhum ``new`` nela. Se há multiplas "
+"criações para cada método, ela não é uma facade, ela é uma Builder (Construtora) ou uma "
+"[Abstract\\|Static\\|Simple] Factory (Fábrica) [Method]."
 
 #: ../../Structural/Facade/README.rst:22
 msgid ""
@@ -58,6 +61,8 @@ msgid ""
 "parameters. If you need creation of new instances, use a Factory as "
 "argument."
 msgstr ""
+"A melhor facade não tem nenhum ``new`` e um construtor com parâmetros interface-type-hinted. "
+"Se você precisa da criação de novas instâncias, use uma Factory (Fábrica) como argumento."
 
 #: ../../Structural/Facade/README.rst:27
 msgid "UML Diagram"
