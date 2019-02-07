@@ -4,55 +4,57 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-02-07 13:52-0300\n"
+"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 
 #: ../../Structural/FluentInterface/README.rst:2
 msgid "`Fluent Interface`__"
-msgstr ""
+msgstr "`Interface Fluente (Fluent Interface)`__"
 
 #: ../../Structural/FluentInterface/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Structural/FluentInterface/README.rst:7
 msgid ""
 "To write code that is easy readable just like sentences in a natural "
 "language (like English)."
 msgstr ""
+"Para escrever código que é facilmente legível como sentenças em uma linguagem "
+"natural (como o Português)."
 
 #: ../../Structural/FluentInterface/README.rst:11
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 #: ../../Structural/FluentInterface/README.rst:13
 msgid "Doctrine2's QueryBuilder works something like that example class below"
-msgstr ""
+msgstr "O QueryBuilder do Doctrine2 funciona de alguma forma parecida com o exemplo abaixo"
 
 #: ../../Structural/FluentInterface/README.rst:15
 msgid "PHPUnit uses fluent interfaces to build mock objects"
-msgstr ""
+msgstr "PHPUnit usa interfaces fluentes para construir objetos simulados (mock objects)"
 
 #: ../../Structural/FluentInterface/README.rst:16
 msgid "Yii Framework: CDbCommand and CActiveRecord use this pattern, too"
-msgstr ""
+msgstr "Yii Framework: CDbCommand e CActiveRecord usam este padrão também"
 
 #: ../../Structural/FluentInterface/README.rst:19
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Structural/FluentInterface/README.rst:26
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Structural/FluentInterface/README.rst:28
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Você também pode encontrar este código no `GitHub`_"
 
 #: ../../Structural/FluentInterface/README.rst:37
 msgid "Test"
-msgstr ""
+msgstr "Teste"
