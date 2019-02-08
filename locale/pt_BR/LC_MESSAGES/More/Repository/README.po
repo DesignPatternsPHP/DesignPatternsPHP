@@ -65,4 +65,4 @@ msgstr "Você também pode encontrar esse código no `GitHub`_"
 
 #: ../../More/Repository/README.rst:59
 msgid "Test"
-msgstr ""
+msgstr "Teste"
