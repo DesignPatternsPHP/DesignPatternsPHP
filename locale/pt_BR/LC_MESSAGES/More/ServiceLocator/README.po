@@ -27,7 +27,7 @@ msgid ""
 msgstr ""
 "Oferece uma arquitetura desacoplada garantindo testabilidade"
 " manutenibilidade e extensão de um código. Injeção de dependências e Localizador de Serviços "
-"s'ao implementações do padrão de Inversão de dependências."
+"são implementações do padrão de Inversão de dependências."
 
 #: ../../More/ServiceLocator/README.rst:12
 msgid "Usage"
