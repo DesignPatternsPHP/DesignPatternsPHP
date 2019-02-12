@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Creational/Multiton/README.rst:2
 msgid "Multiton"
-msgstr ""
+msgstr "Multiton"
 
 #: ../../Creational/Multiton/README.rst:4
 msgid ""
@@ -61,4 +61,4 @@ msgstr "Você também pode encontrar esse código no `GitHub`_"
 
 #: ../../Creational/Multiton/README.rst:38
 msgid "Test"
-msgstr ""
+msgstr "Teste"

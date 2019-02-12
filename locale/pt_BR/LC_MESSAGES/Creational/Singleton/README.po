@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Creational/Singleton/README.rst:2
 msgid "`Singleton`__"
-msgstr ""
+msgstr "`Singleton`__"
 
 #: ../../Creational/Singleton/README.rst:4
 msgid ""
