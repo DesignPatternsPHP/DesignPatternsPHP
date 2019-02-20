@@ -4,38 +4,40 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-02-20 14:25-0300\n"
+"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 
 #: ../../Behavioral/Iterator/README.rst:2
 msgid "`Iterator`__"
-msgstr ""
+msgstr "`Iterator (Iterador)`__"
 
 #: ../../Behavioral/Iterator/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Behavioral/Iterator/README.rst:7
 msgid "To make an object iterable and to make it appear like a collection of objects."
-msgstr ""
+msgstr "Tornar um objeto iterável e fazê-lo aparecer como uma coleção de objetos."
 
 #: ../../Behavioral/Iterator/README.rst:11
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 #: ../../Behavioral/Iterator/README.rst:13
 msgid ""
 "to process a file line by line by just running over all lines (which have an"
 " object representation) for a file (which of course is an object, too)"
 msgstr ""
+"processar um arquivo linha por linha somente passando por todas as linhas (as quais "
+"tenham uma representação em objeto) do arquivo (que, é claro, um objeto também)"
 
 #: ../../Behavioral/Iterator/README.rst:18
 msgid "Note"
-msgstr ""
+msgstr "Nota"
 
 #: ../../Behavioral/Iterator/README.rst:20
 msgid ""
@@ -43,19 +45,22 @@ msgid ""
 "suited for this! Often you would want to implement the Countable interface "
 "too, to allow ``count($object)`` on your iterable object"
 msgstr ""
+"A Standard PHP Library (SPL) define um Iterator de interface que é mais apropriado "
+"para isto! Muitas vezes você gostaria de implementar a interface Countable "
+"também, para permitir ``count($object)`` no seu objeto iterável"
 
 #: ../../Behavioral/Iterator/README.rst:25
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Behavioral/Iterator/README.rst:32
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Behavioral/Iterator/README.rst:34
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Você também pode encontrar este código no `GitHub`_"
 
 #: ../../Behavioral/Iterator/README.rst:61
 msgid "Test"
-msgstr ""
+msgstr "Teste"
