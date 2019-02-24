@@ -22,7 +22,7 @@ class AbstractFactoryTest extends TestCase
         $factory = new ParserFactory();
         $parser = $factory->createCsvParser(CsvParser::OPTION_CONTAINS_NO_HEADER);
 
-        $result = $parser->parse("A0,A1,A2\nB0,B1,B2\nC0,C1,C2");
+        $result = $parser->parse("A0,A1,A2" . PHP_EOL . "B0,B1,B2" . PHP_EOL . "C0,C1,C2");
 
         $this->assertEquals(
             [
@@ -39,7 +39,7 @@ class AbstractFactoryTest extends TestCase
         $factory = new ParserFactory();
         $parser = $factory->createCsvParser(CsvParser::OPTION_CONTAINS_HEADER);
 
-        $result = $parser->parse("A0,A1,A2\nB0,B1,B2\nC0,C1,C2");
+        $result = $parser->parse("A0,A1,A2" . PHP_EOL . "B0,B1,B2" . PHP_EOL . "C0,C1,C2");
 
         $this->assertEquals(
             [
