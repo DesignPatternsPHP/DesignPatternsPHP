@@ -40,7 +40,7 @@ $ docker-compose up
 To only install the dependencies, use `docker-compose` like this:
 
 ```bash
-$ docker-compose run composer install
+$ docker-compose run php php composer.phar install
 ```
 
 ## Patterns
