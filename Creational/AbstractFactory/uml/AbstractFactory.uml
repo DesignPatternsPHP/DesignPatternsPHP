@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>PHP</ID>
-  <OriginalElement>\DesignPatterns\Creational\AbstractFactory\CsvParser</OriginalElement>
+  <OriginalElement>\DesignPatterns\Creational\AbstractFactory\DigitalProduct</OriginalElement>
   <nodes>
-    <node x="116.5" y="0.0">\DesignPatterns\Creational\AbstractFactory\Parser</node>
-    <node x="0.0" y="288.0">\DesignPatterns\Creational\AbstractFactory\ParserFactory</node>
-    <node x="0.0" y="146.5">\DesignPatterns\Creational\AbstractFactory\JsonParser</node>
-    <node x="168.0" y="101.0">\DesignPatterns\Creational\AbstractFactory\CsvParser</node>
+    <node x="0.0" y="112.0">\DesignPatterns\Creational\AbstractFactory\DigitalProduct</node>
+    <node x="0.0" y="265.0">\DesignPatterns\Creational\AbstractFactory\ProductFactory</node>
+    <node x="204.0" y="101.0">\DesignPatterns\Creational\AbstractFactory\ShippableProduct</node>
+    <node x="147.5" y="0.0">\DesignPatterns\Creational\AbstractFactory\Product</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="\DesignPatterns\Creational\AbstractFactory\CsvParser" target="\DesignPatterns\Creational\AbstractFactory\Parser">
-      <point x="0.0" y="-71.0" />
-      <point x="307.0" y="76.0" />
-      <point x="227.5" y="76.0" />
-      <point x="37.0" y="25.5" />
+    <edge source="\DesignPatterns\Creational\AbstractFactory\ShippableProduct" target="\DesignPatterns\Creational\AbstractFactory\Product">
+      <point x="0.0" y="-59.5" />
+      <point x="369.0" y="76.0" />
+      <point x="272.0" y="76.0" />
+      <point x="41.5" y="25.5" />
     </edge>
-    <edge source="\DesignPatterns\Creational\AbstractFactory\JsonParser" target="\DesignPatterns\Creational\AbstractFactory\Parser">
-      <point x="0.0" y="-25.5" />
-      <point x="74.0" y="76.0" />
-      <point x="153.5" y="76.0" />
-      <point x="-37.0" y="25.5" />
+    <edge source="\DesignPatterns\Creational\AbstractFactory\DigitalProduct" target="\DesignPatterns\Creational\AbstractFactory\Product">
+      <point x="0.0" y="-48.5" />
+      <point x="92.0" y="76.0" />
+      <point x="189.0" y="76.0" />
+      <point x="-41.5" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="107.5" y="91.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="140.0" y="91.0" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
