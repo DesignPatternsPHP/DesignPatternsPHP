@@ -29,7 +29,8 @@ $ ./vendor/bin/phpunit
 
 ## using Docker (optional)
 
-You can optionally run tests using [Docker for Mac](https://www.docker.com/docker-mac) or [Windows](https://www.docker.com/docker-windows) or native one for [Linux](https://www.docker.com/docker-debian).
+You can optionally run tests using [Docker for Mac, Windows or Linux](https://docs.docker.com/compose/install/).
+
 Just run:
 
 ```bash
@@ -39,7 +40,7 @@ $ docker-compose up
 To only install the dependencies, use `docker-compose` like this:
 
 ```bash
-$ docker-compose run composer install
+$ docker-compose run php php composer.phar install
 ```
 
 ## Patterns
