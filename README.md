@@ -29,13 +29,15 @@ $ ./vendor/bin/phpunit
 
 ## using Docker (optional)
 
-You can optionally run tests using [Docker for Mac, Windows or Linux](https://docs.docker.com/compose/install/).
+You can optionally build and browse the documentation using [Docker for Mac, Windows or Linux](https://docs.docker.com/compose/install/).
 
 Just run:
 
 ```bash
 $ docker-compose up
 ```
+
+Go to [http://localhost:8080/README.html](http://localhost:8080/README.html) to read the generated documentation.
 
 To only install the dependencies, use `docker-compose` like this:
 

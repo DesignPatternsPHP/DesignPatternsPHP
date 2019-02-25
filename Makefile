@@ -200,7 +200,7 @@ vendor: composer.phar
 	php composer.phar install
 
 cs: install
-	./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .
+	./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor,_build .
 
-test: install cs
+test: install
 	./vendor/bin/phpunit
