@@ -194,7 +194,7 @@ pseudoxml:
 install: vendor
 
 composer.phar:
-	chmod +x docker/install-composer.sh && docker/install-composer.sh
+	docker/install-composer.sh
 
 vendor: composer.phar
 	php composer.phar install
