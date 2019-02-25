@@ -30,7 +30,6 @@ $ ./vendor/bin/phpunit
 ## using Docker (optional)
 
 You can optionally run tests using [Docker for Mac, Windows or Linux](https://docs.docker.com/compose/install/).
-Or use Play With Docker [https://labs.play-with-docker.com] and run the tests right inside a browser.
 
 Just run:
 
