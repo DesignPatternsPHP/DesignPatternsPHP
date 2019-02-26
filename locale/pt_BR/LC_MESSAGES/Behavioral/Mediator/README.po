@@ -4,20 +4,20 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-02-26 10:21-0300\n"
+"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 
 #: ../../Behavioral/Mediator/README.rst:2
 msgid "`Mediator`__"
-msgstr ""
+msgstr "`Mediator (Mediador)`__"
 
 #: ../../Behavioral/Mediator/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Behavioral/Mediator/README.rst:7
 msgid ""
@@ -25,6 +25,9 @@ msgid ""
 "together. It is a good alternative to Observer IF you have a \"central "
 "intelligence\", like a controller (but not in the sense of the MVC)."
 msgstr ""
+"Este padrão provê uma forma fácil para desacoplar muitos componentes trabalhando "
+"juntos. Ele é uma boa alternativa ao Observer SE você tem uma \"inteligência "
+"central\", como um controlador (mas não no sentido do MVC)."
 
 #: ../../Behavioral/Mediator/README.rst:11
 msgid ""
@@ -32,19 +35,23 @@ msgid ""
 "and it is a good thing because in OOP, one good friend is better than many. "
 "This is the key-feature of this pattern."
 msgstr ""
+"Todos componentes (chamados Colleague - em inglês, Colega) são acoplados "
+"apenas ao MediatorInterface e é uma coisa boa porque, em POO (Programação "
+"Orientada a Objetos), uma boa amiga é melhor que muitas. Esta é a "
+"característica-chave deste padrão."
 
 #: ../../Behavioral/Mediator/README.rst:16
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Behavioral/Mediator/README.rst:23
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Behavioral/Mediator/README.rst:25
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Você também pode encontrar este código no `GitHub`_"
 
 #: ../../Behavioral/Mediator/README.rst:64
 msgid "Test"
-msgstr ""
+msgstr "Teste"
