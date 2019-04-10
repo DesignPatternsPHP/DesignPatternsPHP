@@ -4,8 +4,9 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2017-08-03 21:02-0300\n"
-"Last-Translator: Leonam Pereira Dias <leonam.pd@gmail.com>\n"
+"PO-Revision-Date: 2019-04-10 15:45-0300\n"
+"Previous-Translator: Leonam Pereira Dias <leonam.pd@gmail.com>\n"
+"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +22,7 @@ msgid ""
 "MAINTAINABILITY USE DEPENDENCY INJECTION!**"
 msgstr ""
 "**CONSIDERADO UM ANTI-PATTERN! PARA MELHOR TESTABILIDADE E "
-"MANUTENIBILIDADE USE INJEÇÃO DEPENDÊNCIAS"
+"MANUTENIBILIDADE USE INJEÇÃO DEPENDÊNCIAS!**"
 
 #: ../../Creational/Singleton/README.rst:8
 msgid "Purpose"
@@ -33,7 +34,7 @@ msgid ""
 " all calls."
 msgstr ""
 "Ter uma única instância da classe na aplicação que será responsável por gerenciar"
-" todas as chamadas a ela"
+" todas as chamadas a ela."
 
 #: ../../Creational/Singleton/README.rst:14
 msgid "Examples"
@@ -41,7 +42,7 @@ msgstr "Exemplos"
 
 #: ../../Creational/Singleton/README.rst:16
 msgid "DB Connector"
-msgstr "Conexão ao banco de dados"
+msgstr "Conexão ao banco de dados (DB Connector)"
 
 #: ../../Creational/Singleton/README.rst:17
 msgid ""
