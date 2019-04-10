@@ -21,7 +21,7 @@ msgstr "Objetivo"
 
 #: ../../Structural/Proxy/README.rst:7
 msgid "To interface to anything that is expensive or impossible to duplicate."
-msgstr "Para servir de interface para qualquer coisa que é custosa ou impossível de duplicar."
+msgstr "Servir de interface para qualquer coisa que é custosa ou impossível de duplicar."
 
 #: ../../Structural/Proxy/README.rst:10
 msgid "Examples"

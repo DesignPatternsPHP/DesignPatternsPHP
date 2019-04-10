@@ -24,7 +24,7 @@ msgid ""
 "To write code that is easy readable just like sentences in a natural "
 "language (like English)."
 msgstr ""
-"Para escrever código que é facilmente legível como sentenças em uma linguagem "
+"Escrever código que é facilmente legível como sentenças em uma linguagem "
 "natural (como o Português)."
 
 #: ../../Structural/FluentInterface/README.rst:11

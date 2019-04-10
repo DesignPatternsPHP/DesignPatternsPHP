@@ -24,7 +24,7 @@ msgid ""
 "To implement a loosely coupled architecture in order to get better testable,"
 " maintainable and extendable code."
 msgstr ""
-"Para implementar uma arquitetura menos acoplada com o objetivo de obter um código "
+"Implementar uma arquitetura menos acoplada com o objetivo de obter um código "
 "mais fácil de testar, de melhor manutenibilidade e mais extensível."
 
 #: ../../Structural/DependencyInjection/README.rst:11
