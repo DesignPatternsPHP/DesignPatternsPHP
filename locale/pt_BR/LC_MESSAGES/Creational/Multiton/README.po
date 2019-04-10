@@ -33,8 +33,8 @@ msgid ""
 "To have only a list of named instances that are used, like a singleton but "
 "with n instances."
 msgstr ""
-"Para se ter uma lista conhecida de instâncias utilizáveis, como um singleton mas"
-"com n instâncias"
+"Para se ter uma lista conhecida de instâncias utilizáveis, como um singleton mas "
+"com n instâncias."
 
 #: ../../Creational/Multiton/README.rst:14
 msgid "Examples"
