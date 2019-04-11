@@ -16,8 +16,8 @@ msgid "`Chain Of Responsibilities`__"
 msgstr "`Cadeia de Responsabilidades (Chain Of Responsibilities)`__"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:5
-msgid "Purpose:"
-msgstr "Objetivo:"
+msgid "Purpose"
+msgstr "Objetivo"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:7
 msgid ""
@@ -30,8 +30,8 @@ msgstr ""
 "e assim por diante."
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:12
-msgid "Examples:"
-msgstr "Exemplos:"
+msgid "Examples"
+msgstr "Exemplos"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:14
 msgid ""
