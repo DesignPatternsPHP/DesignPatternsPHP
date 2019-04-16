@@ -4,8 +4,9 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2017-10-14 12:00-0300\n"
-"Last-Translator: Leonam Pereira Dias <leonam.pd@gmail.com>\n"
+"PO-Revision-Date: 2019-04-10 17:25-0300\n"
+"Previous-Translator: Leonam Pereira Dias <leonam.pd@gmail.com>\n"
+"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,11 +16,27 @@ msgstr ""
 msgid "`Service Locator`__"
 msgstr "`Localizador de Serviço`__"
 
-#: ../../More/ServiceLocator/README.rst:5
+#: ../../More/ServiceLocator/README.rst:4
+msgid "**THIS IS CONSIDERED TO BE AN ANTI-PATTERN!**"
+msgstr "**ESTE É CONSIDERADO UM ANTI-PATTERN!**"
+
+#: ../../More/ServiceLocator/README.rst:6
+msgid ""
+"Service Locator is considered for some people an anti-pattern. It violates the Dependency Inversion principle. "
+"Service Locator hides class' dependencies instead of exposing them as you would do using the Dependency Injection. "
+"In case of changes of those dependencies you risk to break the functionality of classes which are using them, "
+"making your system difficult to maintain."
+msgstr ""
+"O Localizador de Serviço (Service Locator) é considerado por muitas pessoas como um anti-padrão. Ele viola o princípio da "
+"inversão de dependência. O padrão Localizador de Serviço oculta as dependências da classe ao invés de expô-las, como você "
+"poderia fazer usando Injeção de Dependências (Dependency Injection). Em caso de mudanças destas dependências, você corre o "
+"risco de quebrar a funcionalidade das classes que estão as usando, fazendo com que seu sistema seja difícil de manter."
+
+#: ../../More/ServiceLocator/README.rst:9
 msgid "Purpose"
 msgstr "Objetivo"
 
-#: ../../More/ServiceLocator/README.rst:7
+#: ../../More/ServiceLocator/README.rst:12
 msgid ""
 "To implement a loosely coupled architecture in order to get better testable,"
 " maintainable and extendable code. DI pattern and Service Locator pattern "
@@ -29,11 +46,11 @@ msgstr ""
 " manutenibilidade e extensão de um código. Injeção de dependências e Localizador de Serviços "
 "são implementações do padrão de Inversão de dependências."
 
-#: ../../More/ServiceLocator/README.rst:12
+#: ../../More/ServiceLocator/README.rst:16
 msgid "Usage"
 msgstr "Uso"
 
-#: ../../More/ServiceLocator/README.rst:14
+#: ../../More/ServiceLocator/README.rst:19
 msgid ""
 "With ``ServiceLocator`` you can register a service for a given interface. By"
 " using the interface you can retrieve the service and use it in the classes "
@@ -45,11 +62,11 @@ msgstr ""
 " da aplicação sem conhecimento de sua implementação. É possível configurar e"
 " injetar a instancia de um Localizador de Serviço no _bootstrap_."
 
-#: ../../More/ServiceLocator/README.rst:20
+#: ../../More/ServiceLocator/README.rst:24
 msgid "Examples"
 msgstr "Exemplos"
 
-#: ../../More/ServiceLocator/README.rst:22
+#: ../../More/ServiceLocator/README.rst:27
 msgid ""
 "Zend Framework 2 uses Service Locator to create and share services used in "
 "the framework(i.e. EventManager, ModuleManager, all custom user services "
@@ -59,7 +76,7 @@ msgstr ""
 "framework (Ex: EventManager, ModuleManager, todos os serviços customizados "
 "fornecidos por módulos, etc...)"
 
-#: ../../More/ServiceLocator/README.rst:27
+#: ../../More/ServiceLocator/README.rst:31
 msgid "UML Diagram"
 msgstr "Diagrama UML"
 

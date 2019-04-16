@@ -23,7 +23,7 @@ msgstr "Objetivo"
 msgid ""
 "To treat a group of objects the same way as a single instance of the object."
 msgstr ""
-"Para tratar um grupo de objetos da mesma forma como uma única instância do objeto."
+"Tratar um grupo de objetos da mesma forma como uma única instância do objeto."
 
 #: ../../Structural/Composite/README.rst:11
 msgid "Examples"
