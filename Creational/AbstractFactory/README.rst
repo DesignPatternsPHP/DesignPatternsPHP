@@ -21,27 +21,27 @@ Code
 
 You can also find this code on `GitHub`_
 
-Parser.php
+Product.php
 
-.. literalinclude:: Parser.php
+.. literalinclude:: Product.php
    :language: php
    :linenos:
 
-CsvParser.php
+ShippableProduct.php
 
-.. literalinclude:: CsvParser.php
+.. literalinclude:: ShippableProduct.php
    :language: php
    :linenos:
 
-JsonParser.php
+DigitalProduct.php
 
-.. literalinclude:: JsonParser.php
+.. literalinclude:: DigitalProduct.php
    :language: php
    :linenos:
 
-ParserFactory.php
+ProductFactory.php
 
-.. literalinclude:: ParserFactory.php
+.. literalinclude:: ProductFactory.php
    :language: php
    :linenos:
 

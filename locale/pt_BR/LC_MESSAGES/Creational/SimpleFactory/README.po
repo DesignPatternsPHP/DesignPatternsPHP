@@ -4,8 +4,9 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2017-08-03 21:02-0300\n"
-"Last-Translator: Leonam Pereira Dias <leonam.pd@gmail.com>\n"
+"PO-Revision-Date: 2019-04-10 15:35-0300\n"
+"Previous-Translator: Leonam Pereira Dias <leonam.pd@gmail.com>\n"
+"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,11 +26,13 @@ msgstr "SimpleFactory (Fábrica Simples) é uma implementação mais simples do 
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
-"It differs from the static factory because it is NOT static and as you know:"
-" static => global => evil!"
+"It differs from the static factory because it is not static. "
+"Therefore, you can have multiple factories, differently parameterized, you can subclass it and you can mock it. "
+"It always should be preferred over a static factory!"
 msgstr ""
-"Diferencia-se do padrão de Fábrica estática porque não faz uso de implementação estática e como você sabe"
-" estático => escopo global => caos!"
+"Diferencia-se do padrão de Fábrica Estática porque não é estático. "
+"Assim sendo, você precisa ter múltiplas fábricas, diferentemente parametrizadas, você pode ter subclasses disto e "
+"pode simular isto. Este padrão deve ser sempre preferido sobre o padrão de Fábrica Estática!"
 
 #: ../../Creational/SimpleFactory/README.rst:12
 msgid ""
@@ -50,6 +53,10 @@ msgstr "Código"
 #: ../../Creational/SimpleFactory/README.rst:25
 msgid "You can also find this code on `GitHub`_"
 msgstr "Você também pode encontrar esse código no `GitHub`_"
+
+#: ../../Creational/SimpleFactory/README.rst:37
+msgid "Usage"
+msgstr "Uso"
 
 #: ../../Creational/SimpleFactory/README.rst:52
 msgid "Test"

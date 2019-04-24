@@ -68,4 +68,4 @@ msgstr "Você pode encontrar esse código no `Github`_"
 
 #: ../../Creational/Builder/README.rst:96
 msgid "Test"
-msgstr ""
+msgstr "Teste"

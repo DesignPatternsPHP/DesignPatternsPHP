@@ -59,7 +59,7 @@ msgstr "PHPUnit: Mock Builder"
 
 #: ../../Creational/Builder/README.rst:24
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Creational/Builder/README.rst:31
 msgid "Code"

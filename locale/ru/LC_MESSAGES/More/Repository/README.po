@@ -54,7 +54,7 @@ msgstr "Laravel Framework"
 
 #: ../../More/Repository/README.rst:23
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../More/Repository/README.rst:30
 msgid "Code"

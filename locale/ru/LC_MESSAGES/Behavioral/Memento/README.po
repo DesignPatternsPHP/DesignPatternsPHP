@@ -122,7 +122,7 @@ msgstr ""
 
 #: ../../Behavioral/Memento/README.rst:46
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Behavioral/Memento/README.rst:53
 msgid "Code"

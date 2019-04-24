@@ -49,7 +49,7 @@ msgstr ""
 
 #: ../../Structural/FluentInterface/README.rst:19
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Structural/FluentInterface/README.rst:26
 msgid "Code"

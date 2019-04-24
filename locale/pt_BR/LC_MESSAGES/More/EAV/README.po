@@ -14,7 +14,7 @@ msgstr "Entidade–Atributo–Valor (EAV)"
 
 #: ../../More/EAV/README.rst:4
 msgid "The Entity–attribute–value (EAV) pattern in order to implement EAV model with PHP."
-msgstr "O padrão Entidade–atributo–valor (EAV), a fim de implementar o modelo EAV com o PHP."
+msgstr "O padrão Entidade–Atributo–Valor (EAV), a fim de implementar o modelo EAV com o PHP."
 
 #: ../../More/EAV/README.rst:6
 msgid "Purpose"

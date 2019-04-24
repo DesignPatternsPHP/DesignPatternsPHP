@@ -4,24 +4,24 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-02-18 15:17-0300\n"
+"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 
 #: ../../Behavioral/Command/README.rst:2
 msgid "`Command`__"
-msgstr ""
+msgstr "`Comando (Command)`__"
 
 #: ../../Behavioral/Command/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Behavioral/Command/README.rst:7
 msgid "To encapsulate invocation and decoupling."
-msgstr ""
+msgstr "Encapsular invocação e desacoplamento."
 
 #: ../../Behavioral/Command/README.rst:9
 msgid ""
@@ -31,6 +31,10 @@ msgid ""
 "process the Command of the client. The Receiver is decoupled from the "
 "Invoker."
 msgstr ""
+"Nós temos um Invocador e um Receptor. Este padrão usa um \"Comando\" para "
+"delegar a chamada do método contra o Receptor e apresenta o mesmo método "
+"\"execute\". Portanto, o Invocador sabe apenas chamar \"execute\" para "
+"processar o Comando do cliente. O Receptor é desacoplado do Invocador."
 
 #: ../../Behavioral/Command/README.rst:15
 msgid ""
@@ -38,22 +42,29 @@ msgid ""
 "execute(). Command can also be aggregated to combine more complex commands "
 "with minimum copy-paste and relying on composition over inheritance."
 msgstr ""
+"O segundo aspecto deste padrão é o desfazer(), o qual desfaz o método "
+"execute(). O comando pode ser também agregado para combinar mais comandos "
+"complexos com o mínimo copiar-colar e confiando na composição sobre herança."
 
 #: ../../Behavioral/Command/README.rst:21
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 #: ../../Behavioral/Command/README.rst:23
 msgid ""
 "A text editor : all events are Command which can be undone, stacked and "
 "saved."
 msgstr ""
+"Um editor de texto : todos os eventos são Comando o qual pode ser desfeito, "
+"empilhado e salvo."
 
 #: ../../Behavioral/Command/README.rst:25
 msgid ""
 "Symfony2: SF2 Commands that can be run from the CLI are built with just the "
 "Command pattern in mind"
 msgstr ""
+"Symfony2: Comandos do SF2 que podem ser rodados do CLI são construídos com "
+"apenas o padrão Comando em mente"
 
 #: ../../Behavioral/Command/README.rst:27
 msgid ""
@@ -61,19 +72,22 @@ msgid ""
 "\"modules\", each of these can be implemented with the Command pattern (e.g."
 " vagrant)"
 msgstr ""
+"grandes ferramentas CLI usam subcomandos para distribuir várias tarefas e empacotá-las "
+"em \"módulos\", cada um deles pode ser implementado com o padrão Comando (p.e. "
+"vagrant)"
 
 #: ../../Behavioral/Command/README.rst:32
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Behavioral/Command/README.rst:39
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Behavioral/Command/README.rst:41
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Você também pode encontrar este código no `GitHub`_"
 
 #: ../../Behavioral/Command/README.rst:68
 msgid "Test"
-msgstr ""
+msgstr "Teste"

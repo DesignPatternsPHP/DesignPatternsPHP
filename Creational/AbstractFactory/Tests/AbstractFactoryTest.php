@@ -2,59 +2,42 @@
 
 namespace DesignPatterns\Creational\AbstractFactory\Tests;
 
-use DesignPatterns\Creational\AbstractFactory\CsvParser;
-use DesignPatterns\Creational\AbstractFactory\JsonParser;
-use DesignPatterns\Creational\AbstractFactory\ParserFactory;
+use DesignPatterns\Creational\AbstractFactory\DigitalProduct;
+use DesignPatterns\Creational\AbstractFactory\ProductFactory;
+use DesignPatterns\Creational\AbstractFactory\ShippableProduct;
 use PHPUnit\Framework\TestCase;
 
 class AbstractFactoryTest extends TestCase
 {
-    public function testCanCreateCsvParser()
+    public function testCanCreateDigitalProduct()
     {
-        $factory = new ParserFactory();
-        $parser = $factory->createCsvParser(CsvParser::OPTION_CONTAINS_HEADER);
+        $factory = new ProductFactory();
+        $product = $factory->createDigitalProduct(150);
 
-        $this->assertInstanceOf(CsvParser::class, $parser);
+        $this->assertInstanceOf(DigitalProduct::class, $product);
     }
 
-    public function testCsvParserCanParse()
+    public function testCanCreateShippableProduct()
     {
-        $factory = new ParserFactory();
-        $parser = $factory->createCsvParser(CsvParser::OPTION_CONTAINS_NO_HEADER);
+        $factory = new ProductFactory();
+        $product = $factory->createShippableProduct(150);
 
-        $result = $parser->parse("A0,A1,A2\nB0,B1,B2\nC0,C1,C2");
-
-        $this->assertEquals(
-            [
-                ['A0', 'A1', 'A2'],
-                ['B0', 'B1', 'B2'],
-                ['C0', 'C1', 'C2']
-            ],
-            $result
-        );
+        $this->assertInstanceOf(ShippableProduct::class, $product);
     }
 
-    public function testCsvParserCanSkipHeader()
+    public function testCanCalculatePriceForDigitalProduct()
     {
-        $factory = new ParserFactory();
-        $parser = $factory->createCsvParser(CsvParser::OPTION_CONTAINS_HEADER);
+        $factory = new ProductFactory();
+        $product = $factory->createDigitalProduct(150);
 
-        $result = $parser->parse("A0,A1,A2\nB0,B1,B2\nC0,C1,C2");
-
-        $this->assertEquals(
-            [
-                ['B0', 'B1', 'B2'],
-                ['C0', 'C1', 'C2']
-            ],
-            $result
-        );
+        $this->assertEquals(150, $product->calculatePrice());
     }
 
-    public function testCanCreateJsonParser()
+    public function testCanCalculatePriceForShippableProduct()
     {
-        $factory = new ParserFactory();
-        $parser = $factory->createJsonParser();
+        $factory = new ProductFactory();
+        $product = $factory->createShippableProduct(150);
 
-        $this->assertInstanceOf(JsonParser::class, $parser);
+        $this->assertEquals(200, $product->calculatePrice());
     }
 }
