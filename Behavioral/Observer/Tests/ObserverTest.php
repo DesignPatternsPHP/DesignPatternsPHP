@@ -16,6 +16,6 @@ class ObserverTest extends TestCase
         $user->attach($observer);
 
         $user->changeEmail('foo@bar.com');
-        $this->assertCount(1, $observer->getChangedUsers());
+        $this->assertCount(1, count($observer->getChangedUsers()));
     }
 }
