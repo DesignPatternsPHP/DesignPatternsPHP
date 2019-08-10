@@ -19,6 +19,11 @@ class ShippableProduct implements Product
         $this->productPrice = $productPrice;
         $this->shippingCosts = $shippingCosts;
     }
+    
+    public function getShippingCosts()
+    {
+        return $this->shippingCosts;
+    }
 
     public function calculatePrice(): int
     {
