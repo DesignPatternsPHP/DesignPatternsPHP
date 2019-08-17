@@ -53,16 +53,6 @@ msgstr ""
 "Cache: o primeiro objeto é uma instância de p.e. uma interface Memcached, se essa "
 " \"falta\" é delegada a chamada à interface de banco de dados."
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
-msgid ""
-"Yii Framework: CFilterChain is a chain of controller action filters. the "
-"executing point is passed from one filter to the next along the chain, and "
-"only if all filters say \"yes\", the action can be invoked at last."
-msgstr ""
-"Yii Framework: CFilterChain é uma cadeia de filtros de ações do controlador. O "
-"ponto em execução é passado de um filtro para o próximo ao longo da cadeia e apenas "
-"se todos os filtros dizem \"sim\", a ação pode ser finalmente invocada."
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:25
 msgid "UML Diagram"
 msgstr "Diagrama UML"

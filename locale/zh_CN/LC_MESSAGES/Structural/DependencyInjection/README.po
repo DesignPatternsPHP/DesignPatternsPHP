@@ -69,12 +69,10 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:32
 msgid ""
-"Symfony and Zend Framework 2 already have containers for DI that create "
+"many frameworks already have containers for DI that create "
 "objects via a configuration array and inject them where needed (i.e. in "
 "Controllers)"
 msgstr ""
-"Symfony 和 Zend Framework 2 也有了专门的依赖注入容器，用来通过配置数据创建需要的对象"
-"(比如在控制器中使用依赖注入容器获取所需的对象)"
 
 #: ../../Structural/DependencyInjection/README.rst:37
 msgid "UML Diagram"

@@ -42,14 +42,6 @@ msgstr ""
 "один экземпляр. И когда вызывается метод ``render()``, он перебирает все "
 "дочерние элементы и вызывает их собственный ``render()``."
 
-#: ../../Structural/Composite/README.rst:16
-msgid ""
-"``Zend_Config``: a tree of configuration options, each one is a "
-"``Zend_Config`` object itself"
-msgstr ""
-"``Zend_Config``: дерево вариантов конфигурации, где каждая из конфигураций "
-"тоже представляет собой объект ``Zend_Config``"
-
 #: ../../Structural/Composite/README.rst:20
 msgid "UML Diagram"
 msgstr "Диаграмма UML"

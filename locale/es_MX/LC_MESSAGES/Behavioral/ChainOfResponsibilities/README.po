@@ -56,17 +56,6 @@ msgstr ""
 "Memcached, si esta \"falla\" delega la llamada a la interfaz de base de "
 "datos."
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
-msgid ""
-"Yii Framework: CFilterChain is a chain of controller action filters. the "
-"executing point is passed from one filter to the next along the chain, and "
-"only if all filters say \"yes\", the action can be invoked at last."
-msgstr ""
-"Framework Yii: CFilterChain es una cadena de filtros de acción de "
-"controlador. El punto de ejecución es pasado de un filtro al siguiente en "
-"la cadena y solamente si un filtro responde \"sí\", la acción puede ser por "
-"fin invocada."
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:24
 msgid "UML Diagram"
 msgstr "Diagrama UML"

@@ -61,20 +61,6 @@ msgstr ""
 "bez znajomości jej implementacji. Konfigurację i wstrzykiwanie obiektu Lokalizatora usług "
 "możemy ustawić na poziomie boostrapu aplikacji."
 
-#: ../../More/ServiceLocator/README.rst:20
-msgid "Examples"
-msgstr "Przykłady"
-
-#: ../../More/ServiceLocator/README.rst:22
-msgid ""
-"Zend Framework 2 uses Service Locator to create and share services used in "
-"the framework(i.e. EventManager, ModuleManager, all custom user services "
-"provided by modules, etc...)"
-msgstr ""
-"Zend Framework 2 wykorzystuje Lokalizator usług do tworzenia i udostępniania "
-"usług używanych w tym frameworku (np. EventManager, ModuleManager, dedykowane usługi "
-"udostępnione przez moduły, itp.)."
-
 #: ../../More/ServiceLocator/README.rst:27
 msgid "UML Diagram"
 msgstr "Diagram UML"

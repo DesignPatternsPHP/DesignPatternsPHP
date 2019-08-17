@@ -49,12 +49,6 @@ msgid ""
 "saved."
 msgstr ""
 
-#: ../../Behavioral/Command/README.rst:25
-msgid ""
-"Symfony2: SF2 Commands that can be run from the CLI are built with just the "
-"Command pattern in mind"
-msgstr ""
-
 #: ../../Behavioral/Command/README.rst:27
 msgid ""
 "big CLI tools use subcommands to distribute various tasks and pack them in "

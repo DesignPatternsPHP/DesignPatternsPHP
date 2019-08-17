@@ -79,11 +79,10 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:32
 msgid ""
-"Symfony and Zend Framework 2 already have containers for DI that create "
+"many frameworks already have containers for DI that create "
 "objects via a configuration array and inject them where needed (i.e. in "
 "Controllers)"
-msgstr ""
-"Symfony2 und Zend Framework 2 bieten beide Dependency Injection Container "
+msgstr "Viele Frameworks bieten bereits Dependency Injection Container "
 "an, die selbstständig vorkonfigurierte Objekte bei Bedarf erzeugen und "
 "diese in z.B. Controller injizieren können."
 

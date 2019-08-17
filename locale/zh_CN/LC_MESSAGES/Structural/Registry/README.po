@@ -28,18 +28,6 @@ msgstr ""
 "为应用中常用的对象实现一个中央存储，通常用一个只有静态方法的抽象类来实现"
 "（或者使用单例模式）"
 
-#: ../../Structural/Registry/README.rst:12
-msgid "Examples"
-msgstr "例子"
-
-#: ../../Structural/Registry/README.rst:16
-msgid ""
-"Yii Framework: ``CWebApplication`` holds all the application components, "
-"such as ``CWebUser``, ``CUrlManager``, etc."
-msgstr ""
-"Yii 框架: ``CWebApplication`` 持有所有的应用组件，"
-"如 ``CWebUser``, ``CUrlManager``, 等。"
-
 #: ../../Structural/Registry/README.rst:20
 msgid "UML Diagram"
 msgstr "UML 图"
@@ -55,15 +43,3 @@ msgstr "你可以在 `GitHub`_ 上找到这些代码"
 #: ../../Structural/Registry/README.rst:38
 msgid "Test"
 msgstr "测试"
-
-#: ../../Structural/Registry/README.rst:14
-msgid ""
-"Zend Framework 1: ``Zend_Registry`` holds the application's logger "
-"object, front controller etc."
-msgstr ""
-"Zend Framework 1: ``Zend_Registry`` 持有应用的logger对象，前端控制器等。"
-
-#~ msgid ""
-#~ "Zend Framework: ``Zend_Registry`` holds the application's logger object, "
-#~ "front controller etc."
-#~ msgstr ""

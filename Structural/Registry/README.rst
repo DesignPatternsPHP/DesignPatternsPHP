@@ -9,14 +9,6 @@ application, is typically implemented using an abstract class with only
 static methods (or using the Singleton pattern). Remember that this introduces
 global state, which should be avoided at all times! Instead implement it using Dependency Injection!
 
-Examples
---------
-
--  Zend Framework 1: ``Zend_Registry`` holds the application's logger
-   object, front controller etc.
--  Yii Framework: ``CWebApplication`` holds all the application
-   components, such as ``CWebUser``, ``CUrlManager``, etc.
-
 UML Diagram
 -----------
 

@@ -33,18 +33,6 @@ msgstr ""
 "статический метод, чтобы создать все допустимые типы объектов. Этот метод, "
 "обычно, называется ``factory`` или ``build``."
 
-#: ../../Creational/StaticFactory/README.rst:14
-msgid "Examples"
-msgstr "Примеры"
-
-#: ../../Creational/StaticFactory/README.rst:16
-msgid ""
-"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory method"
-" create cache backends or frontends"
-msgstr ""
-"Zend Framework: ``Zend_Cache_Backend`` или ``_Frontend`` использует "
-"фабричный метод для создания cache backends или frontends"
-
 #: ../../Creational/StaticFactory/README.rst:20
 msgid "UML Diagram"
 msgstr "Диаграмма UML"

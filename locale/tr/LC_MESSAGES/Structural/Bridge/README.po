@@ -27,17 +27,6 @@ msgstr ""
 "İkisinin de bağımsız olarak değişebilmesi için, bir soyutlanımı (abstraction) "
 "onun uygulanımından (implementation) ayırmak."
 
-#: ../../Structural/Bridge/README.rst:10
-msgid "Examples"
-msgstr "Örnekler"
-
-#: ../../Structural/Bridge/README.rst:13
-msgid ""
-"`Symfony "
-"DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
-msgstr ""
-"Symfony: `DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__ kullanır."
-
 #: ../../Structural/Bridge/README.rst:16
 msgid "UML Diagram"
 msgstr "UML Diyagramı"

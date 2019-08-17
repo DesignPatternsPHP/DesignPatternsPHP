@@ -39,10 +39,6 @@ msgstr "O QueryBuilder do Doctrine2 funciona de alguma forma parecida com o exem
 msgid "PHPUnit uses fluent interfaces to build mock objects"
 msgstr "PHPUnit usa interfaces fluentes para construir objetos simulados (mock objects)"
 
-#: ../../Structural/FluentInterface/README.rst:16
-msgid "Yii Framework: CDbCommand and CActiveRecord use this pattern, too"
-msgstr "Yii Framework: CDbCommand e CActiveRecord usam este padrão também"
-
 #: ../../Structural/FluentInterface/README.rst:19
 msgid "UML Diagram"
 msgstr "Diagrama UML"

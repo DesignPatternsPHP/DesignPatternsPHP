@@ -70,21 +70,6 @@ msgstr ""
 "можете настроить и внедрить объект Service Locator на начальном этапе "
 "сборки приложения."
 
-#: ../../More/ServiceLocator/README.rst:24
-msgid "Examples"
-msgstr "Примеры"
-
-#: ../../More/ServiceLocator/README.rst:27
-msgid ""
-"Zend Framework 2 uses Service Locator to create and share services used in "
-"the framework(i.e. EventManager, ModuleManager, all custom user services "
-"provided by modules, etc...)"
-msgstr ""
-"Zend Framework 2 использует Service Locator для создания и совместного "
-"использования сервисов, задействованных в фреймворке (т.е. EventManager, "
-"ModuleManager, все пользовательские сервисы, предоставляемые модулями, и т."
-"д ...)"
-
 #: ../../More/ServiceLocator/README.rst:31
 msgid "UML Diagram"
 msgstr "Диаграмма UML"

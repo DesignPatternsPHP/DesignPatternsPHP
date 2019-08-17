@@ -38,10 +38,6 @@ msgstr "Doctrine2 的 QueryBuilder，就像下面例子中类似"
 msgid "PHPUnit uses fluent interfaces to build mock objects"
 msgstr "PHPUnit 使用连贯接口来创建 mock 对象"
 
-#: ../../Structural/FluentInterface/README.rst:16
-msgid "Yii Framework: CDbCommand and CActiveRecord use this pattern, too"
-msgstr "Yii 框架：CDbCommand 与 CActiveRecord 也使用此模式"
-
 #: ../../Structural/FluentInterface/README.rst:19
 msgid "UML Diagram"
 msgstr "UML 图"

@@ -35,18 +35,6 @@ msgstr ""
 "Factory nur eine statische Methode zur Verfügung stellt, um alle Arten von "
 "Objekten zu erzeugen. Diese heißt typischerweise ``factory`` oder ``build``."
 
-#: ../../Creational/StaticFactory/README.rst:14
-msgid "Examples"
-msgstr "Beispiele"
-
-#: ../../Creational/StaticFactory/README.rst:16
-msgid ""
-"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory "
-"method create cache backends or frontends"
-msgstr ""
-"Zend Framework: ``Zend_Cache_Backend`` oder ``_Frontend`` benutzen eine "
-"Factory Methode, um Cache Backends oder Frontends zu erzeugen"
-
 #: ../../Creational/StaticFactory/README.rst:20
 msgid "UML Diagram"
 msgstr "UML Diagramm"

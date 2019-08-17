@@ -58,14 +58,6 @@ msgstr ""
 "Um editor de texto : todos os eventos são Comando o qual pode ser desfeito, "
 "empilhado e salvo."
 
-#: ../../Behavioral/Command/README.rst:25
-msgid ""
-"Symfony2: SF2 Commands that can be run from the CLI are built with just the "
-"Command pattern in mind"
-msgstr ""
-"Symfony2: Comandos do SF2 que podem ser rodados do CLI são construídos com "
-"apenas o padrão Comando em mente"
-
 #: ../../Behavioral/Command/README.rst:27
 msgid ""
 "big CLI tools use subcommands to distribute various tasks and pack them in "

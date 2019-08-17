@@ -16,10 +16,6 @@ Examples
 -  a Spam filter
 -  Caching: first object is an instance of e.g. a Memcached Interface,
    if that "misses" it delegates the call to the database interface
--  Yii Framework: CFilterChain is a chain of controller action filters.
-   the executing point is passed from one filter to the next along the
-   chain, and only if all filters say "yes", the action can be invoked
-   at last.
 
 UML Diagram
 -----------

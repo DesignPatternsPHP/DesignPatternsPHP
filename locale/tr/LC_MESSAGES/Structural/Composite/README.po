@@ -41,14 +41,6 @@ msgstr ""
 "örneğiymiş gibi ele alır. Ne zaman ``render()`` yöntemi çağrılsa, peşi sıra "
 "tüm alt ögelerin ``render()`` yöntemini çağrırır."
 
-#: ../../Structural/Composite/README.rst:16
-msgid ""
-"``Zend_Config``: a tree of configuration options, each one is a "
-"``Zend_Config`` object itself"
-msgstr ""
-"``Zend_Config``: Bir yapılandırma seçenekleri dizisidir (configuration options). "
-"Dizi ögelerinin her biri de, özünde yine bir ``Zend_Config`` nesnesidir."
-
 #: ../../Structural/Composite/README.rst:19
 msgid "UML Diagram"
 msgstr "UML Diyagramı"

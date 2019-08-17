@@ -52,17 +52,6 @@ msgstr ""
 "Caching (önbellekleme): Mesela ilk nesne, örn. Memcached Interface'idir. "
 "Eğer (bu nesne) istemi \"çözümleyemezse\", istemi Database Interface'ine devreder."
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
-msgid ""
-"Yii Framework: CFilterChain is a chain of controller action filters. "
-"the executing point is passed from one filter to the next along the "
-"chain, and only if all filters say \"yes\", the action can be invoked "
-"at last."
-msgstr ""
-"Yii Framework: CFilterChain, bir denetleyici eylemi (controller action) için filtreler "
-"zinciridir. Çalışım noktası zincir boyunca bir filtreden diğerine geçer, "
-"ve ancak tüm filtreler \"evet\" derse en son aşamada eylem çağrılabilir."
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:24
 msgid "UML Diagram"
 msgstr "UML Diyagramı"

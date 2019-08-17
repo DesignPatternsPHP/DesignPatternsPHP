@@ -35,12 +35,6 @@ msgid ""
 "its child elements and calls ``render()`` on them"
 msgstr ""
 
-#: ../../Structural/Composite/README.rst:16
-msgid ""
-"``Zend_Config``: a tree of configuration options, each one is a "
-"``Zend_Config`` object itself"
-msgstr ""
-
 #: ../../Structural/Composite/README.rst:20
 msgid "UML Diagram"
 msgstr ""
