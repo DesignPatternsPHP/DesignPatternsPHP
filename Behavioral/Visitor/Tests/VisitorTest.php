@@ -13,7 +13,7 @@ class VisitorTest extends TestCase
      */
     private $visitor;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->visitor = new Visitor\RoleVisitor();
     }

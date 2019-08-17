@@ -14,7 +14,7 @@ class ServiceLocatorTest extends TestCase
      */
     private $serviceLocator;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->serviceLocator = new ServiceLocator();
     }

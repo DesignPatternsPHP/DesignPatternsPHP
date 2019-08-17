@@ -24,11 +24,10 @@ class StaticFactoryTest extends TestCase
         );
     }
 
-    /**
-     * @expectedException \InvalidArgumentException
-     */
     public function testException()
     {
+        $this->expectException(\InvalidArgumentException::class);
+
         StaticFactory::factory('object');
     }
 }

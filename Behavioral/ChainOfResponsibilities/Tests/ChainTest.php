@@ -15,7 +15,7 @@ class ChainTest extends TestCase
      */
     private $chain;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->chain = new HttpInMemoryCacheHandler(
             ['/foo/bar?index=1' => 'Hello In Memory!'],
