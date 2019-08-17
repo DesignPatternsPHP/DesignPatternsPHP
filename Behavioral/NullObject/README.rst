@@ -21,8 +21,7 @@ client code.
 Examples
 --------
 
--  Symfony2: null logger of profiler
--  Symfony2: null output in Symfony/Console
+- Null logger or null output to preserve a standard way of interaction between objects, even if the shouldn't do anything
 -  null handler in a Chain of Responsibilities pattern
 -  null command in a Command pattern
 
