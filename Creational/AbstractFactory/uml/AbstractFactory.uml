@@ -3,27 +3,27 @@
   <ID>PHP</ID>
   <OriginalElement>\DesignPatterns\Creational\AbstractFactory\DigitalProduct</OriginalElement>
   <nodes>
-    <node x="0.0" y="112.0">\DesignPatterns\Creational\AbstractFactory\DigitalProduct</node>
-    <node x="0.0" y="265.0">\DesignPatterns\Creational\AbstractFactory\ProductFactory</node>
-    <node x="204.0" y="101.0">\DesignPatterns\Creational\AbstractFactory\ShippableProduct</node>
-    <node x="147.5" y="0.0">\DesignPatterns\Creational\AbstractFactory\Product</node>
+    <node x="0.0" y="109.0">\DesignPatterns\Creational\AbstractFactory\DigitalProduct</node>
+    <node x="0.0" y="259.0">\DesignPatterns\Creational\AbstractFactory\ProductFactory</node>
+    <node x="166.0" y="98.0">\DesignPatterns\Creational\AbstractFactory\ShippableProduct</node>
+    <node x="128.5" y="0.0">\DesignPatterns\Creational\AbstractFactory\Product</node>
   </nodes>
   <notes />
   <edges>
     <edge source="\DesignPatterns\Creational\AbstractFactory\ShippableProduct" target="\DesignPatterns\Creational\AbstractFactory\Product">
-      <point x="0.0" y="-59.5" />
-      <point x="369.0" y="76.0" />
-      <point x="272.0" y="76.0" />
-      <point x="41.5" y="25.5" />
+      <point x="0.0" y="-58.0" />
+      <point x="312.0" y="73.0" />
+      <point x="224.5" y="73.0" />
+      <point x="32.0" y="24.0" />
     </edge>
     <edge source="\DesignPatterns\Creational\AbstractFactory\DigitalProduct" target="\DesignPatterns\Creational\AbstractFactory\Product">
-      <point x="0.0" y="-48.5" />
-      <point x="92.0" y="76.0" />
-      <point x="189.0" y="76.0" />
-      <point x="-41.5" y="25.5" />
+      <point x="0.0" y="-47.0" />
+      <point x="73.0" y="73.0" />
+      <point x="160.5" y="73.0" />
+      <point x="-32.0" y="24.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="140.0" y="91.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="537.5" y="256.0" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
