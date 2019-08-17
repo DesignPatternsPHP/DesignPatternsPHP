@@ -1,9 +1,17 @@
-# common
-.idea
+# IDE
+/.idea
 /nbproject
+
+# PHPUnit
+
+phpunit.xml
+/.phpunit.result.cache
+
+# build
+
+composer.phar
 /vendor/
 /_build/
+
+# translations
 *.mo
-.vagrant/
-phpunit.xml
-composer.phar

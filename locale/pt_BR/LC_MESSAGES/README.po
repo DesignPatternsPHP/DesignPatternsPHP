@@ -89,8 +89,8 @@ msgid "Copyright (c) 2011 - 2016 `Dominik Liebler`_ and `contributors`_"
 msgstr "Copyright (c) 2011 - 2016 `Dominik Liebler`_ e `contribuidores`_"
 
 #: ../../README.rst:48
-msgid "Copyright 2011-2018, Dominik Liebler and contributors"
-msgstr "Copyright 2011-2018, Dominik Liebler e contribuidores"
+msgid "Copyright 2011-2019, Dominik Liebler and contributors"
+msgstr "Copyright 2011-2019, Dominik Liebler e contribuidores"
 
 
 #: ../../README.rst:50

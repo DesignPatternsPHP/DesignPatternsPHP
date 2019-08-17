@@ -47,7 +47,7 @@ master_doc = 'README'
 
 # General information about the project.
 project = u'DesignPatternsPHP'
-copyright = u'2011-2018, Dominik Liebler and contributors'
+copyright = u'2011-2019, Dominik Liebler and contributors'
 author = u'Dominik Liebler and contributors'
 
 # The version info for the project you're documenting, acts as replacement for
