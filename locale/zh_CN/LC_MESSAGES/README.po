@@ -21,12 +21,10 @@ msgstr "PHP设计模式范例"
 #: ../../README.rst:11
 msgid ""
 "This is a collection of known `design patterns`_ and some sample code how to "
-"implement them in PHP. Every pattern has a small list of examples (most of "
-"them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar with "
-"this software)."
+"implement them in PHP. Every pattern has a small list of examples."
 msgstr ""
 "这里收集了一些知名的 `设计模式`_ 以及它们对应的 PHP 实现的代码，每个模式都附"
-"有一个实际的例子（大多来源于Zend Framework， Symfony2 和 Doctrine2等）。"
+"有一个实际的例子。"
 
 #: ../../README.rst:16
 msgid ""

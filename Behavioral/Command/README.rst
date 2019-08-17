@@ -20,10 +20,8 @@ inheritance.
 Examples
 --------
 
--  A text editor : all events are Command which can be undone, stacked
+-  A text editor : all events are commands which can be undone, stacked
    and saved.
--  Symfony2: SF2 Commands that can be run from the CLI are built with
-   just the Command pattern in mind
 -  big CLI tools use subcommands to distribute various tasks and pack
    them in "modules", each of these can be implemented with the Command
    pattern (e.g. vagrant)

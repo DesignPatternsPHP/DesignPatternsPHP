@@ -19,14 +19,10 @@ msgstr "Padrões de Projetos PHP (DesignPatternsPHP)"
 #: ../../README.rst:11
 msgid ""
 "This is a collection of known `design patterns`_ and some sample code how to"
-" implement them in PHP. Every pattern has a small list of examples (most of "
-"them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar with "
-"this software)."
+" implement them in PHP. Every pattern has a small list of examples."
 msgstr ""
 "Esta é uma coleção de padrões de projetos conhecidos e alguns códigos de exemplo de como "
-"implementá-los em PHP. Todo padrão tem uma pequena lista de exemplos (muitos deles "
-"vindos do Zend Framework, Symfony2 ou Doctrine2 já que tenho mais familiaridade com "
-"eles)."
+"implementá-los em PHP. Todo padrão tem uma pequena lista de exemplos."
 
 #: ../../README.rst:16
 msgid ""

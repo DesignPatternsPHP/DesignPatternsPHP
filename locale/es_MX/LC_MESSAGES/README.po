@@ -24,14 +24,11 @@ msgstr "Estatus de la documentación"
 #: ../../README.rst:11
 msgid ""
 "This is a collection of known `design patterns`_ and some sample code how to "
-"implement them in PHP. Every pattern has a small list of examples (most of "
-"them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar with "
-"this software)."
+"implement them in PHP. Every pattern has a small list of examples."
 msgstr ""
 "Esta es una colección de `patrones de diseño`_ conocidos y ejemplos de "
 "código de cómo implementarlos en PHP. Cada patrón tiene una pequeña lista de "
-"ejemplos (la mayoría de Zend Framework, Symfony2 o Doctrine2, ya que es el "
-"software que me es más familiar)."
+"ejemplos."
 
 #: ../../README.rst:16
 msgid ""
