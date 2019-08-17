@@ -29,11 +29,9 @@ abstract class Handler
     {
         $processed = $this->processing($request);
 
-        if ($processed === null) {
+        if ($processed === null && $this->successor !== null) {
             // the request has not been processed by this handler => see the next
-            if ($this->successor !== null) {
-                $processed = $this->successor->handle($request);
-            }
+            $processed = $this->successor->handle($request);
         }
 
         return $processed;
