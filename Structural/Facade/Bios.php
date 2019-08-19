@@ -3,13 +3,13 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Structural\Facade;
 
-interface BiosInterface
+interface Bios
 {
     public function execute();
 
     public function waitForKeyPress();
 
-    public function launch(OsInterface $os);
+    public function launch(OperatingSystem $os);
 
     public function powerDown();
 }

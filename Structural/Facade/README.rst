@@ -41,15 +41,15 @@ Facade.php
    :language: php
    :linenos:
 
-OsInterface.php
+OperatingSystem.php
 
-.. literalinclude:: OsInterface.php
+.. literalinclude:: OperatingSystem.php
    :language: php
    :linenos:
 
-BiosInterface.php
+Bios.php
 
-.. literalinclude:: BiosInterface.php
+.. literalinclude:: Bios.php
    :language: php
    :linenos:
 

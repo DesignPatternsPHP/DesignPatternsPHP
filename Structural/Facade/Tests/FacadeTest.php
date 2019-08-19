@@ -4,20 +4,20 @@ declare(strict_types=1);
 namespace DesignPatterns\Structural\Facade\Tests;
 
 use DesignPatterns\Structural\Facade\Facade;
-use DesignPatterns\Structural\Facade\OsInterface;
+use DesignPatterns\Structural\Facade\OperatingSystem;
 use PHPUnit\Framework\TestCase;
 
 class FacadeTest extends TestCase
 {
     public function testComputerOn()
     {
-        /** @var OsInterface|\PHPUnit_Framework_MockObject_MockObject $os */
-        $os = $this->createMock('DesignPatterns\Structural\Facade\OsInterface');
+        /** @var OperatingSystem|\PHPUnit_Framework_MockObject_MockObject $os */
+        $os = $this->createMock('DesignPatterns\Structural\Facade\OperatingSystem');
 
         $os->method('getName')
             ->will($this->returnValue('Linux'));
 
-        $bios = $this->getMockBuilder('DesignPatterns\Structural\Facade\BiosInterface')
+        $bios = $this->getMockBuilder('DesignPatterns\Structural\Facade\Bios')
             ->setMethods(['launch', 'execute', 'waitForKeyPress'])
             ->disableAutoload()
             ->getMock();
