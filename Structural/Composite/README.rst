@@ -26,9 +26,9 @@ Code
 
 You can also find this code on `GitHub`_
 
-RenderableInterface.php
+Renderable.php
 
-.. literalinclude:: RenderableInterface.php
+.. literalinclude:: Renderable.php
    :language: php
    :linenos:
 

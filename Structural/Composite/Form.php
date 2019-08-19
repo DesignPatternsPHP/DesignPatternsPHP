@@ -7,10 +7,10 @@ namespace DesignPatterns\Structural\Composite;
  * The composite node MUST extend the component contract. This is mandatory for building
  * a tree of components.
  */
-class Form implements RenderableInterface
+class Form implements Renderable
 {
     /**
-     * @var RenderableInterface[]
+     * @var Renderable[]
      */
     private $elements;
 
@@ -36,9 +36,9 @@ class Form implements RenderableInterface
     }
 
     /**
-     * @param RenderableInterface $element
+     * @param Renderable $element
      */
-    public function addElement(RenderableInterface $element)
+    public function addElement(Renderable $element)
     {
         $this->elements[] = $element;
     }

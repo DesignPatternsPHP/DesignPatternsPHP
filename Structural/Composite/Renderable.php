@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Structural\Composite;
 
-interface RenderableInterface
+interface Renderable
 {
     public function render(): string;
 }
