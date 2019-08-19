@@ -15,3 +15,6 @@ composer.phar
 
 # translations
 *.mo
+
+# general
+.DS_Store

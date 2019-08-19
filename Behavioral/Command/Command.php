@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Command;
 
-interface CommandInterface
+interface Command
 {
     /**
      * this is the most important method in the Command pattern,

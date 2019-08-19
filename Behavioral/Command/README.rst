@@ -38,9 +38,9 @@ Code
 
 You can also find this code on `GitHub`_
 
-CommandInterface.php
+Command.php
 
-.. literalinclude:: CommandInterface.php
+.. literalinclude:: Command.php
    :language: php
    :linenos:
 
