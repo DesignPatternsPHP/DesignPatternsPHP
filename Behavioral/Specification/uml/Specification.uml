@@ -2,51 +2,12 @@
 <Diagram>
   <ID>PHP</ID>
   <OriginalElement>\DesignPatterns\Behavioral\Specification\AndSpecification</OriginalElement>
-  <nodes>
-    <node x="0.0" y="112.0">\DesignPatterns\Behavioral\Specification\OrSpecification</node>
-    <node x="259.0" y="101.0">\DesignPatterns\Behavioral\Specification\PriceSpecification</node>
-    <node x="807.0" y="112.0">\DesignPatterns\Behavioral\Specification\NotSpecification</node>
-    <node x="0.0" y="265.0">\DesignPatterns\Behavioral\Specification\Item</node>
-    <node x="548.0" y="112.0">\DesignPatterns\Behavioral\Specification\AndSpecification</node>
-    <node x="436.99999999999994" y="0.0">\DesignPatterns\Behavioral\Specification\SpecificationInterface</node>
-  </nodes>
+  <nodes />
   <notes />
-  <edges>
-    <edge source="\DesignPatterns\Behavioral\Specification\AndSpecification" target="\DesignPatterns\Behavioral\Specification\SpecificationInterface">
-      <point x="0.0" y="-48.5" />
-      <point x="667.5" y="81.0" />
-      <point x="553.875" y="81.0" />
-      <point x="23.375000000000057" y="25.5" />
-    </edge>
-    <edge source="\DesignPatterns\Behavioral\Specification\NotSpecification" target="\DesignPatterns\Behavioral\Specification\SpecificationInterface">
-      <point x="0.0" y="-48.5" />
-      <point x="923.0" y="71.0" />
-      <point x="600.625" y="71.0" />
-      <point x="70.12500000000006" y="25.5" />
-    </edge>
-    <edge source="\DesignPatterns\Behavioral\Specification\PriceSpecification" target="\DesignPatterns\Behavioral\Specification\SpecificationInterface">
-      <point x="0.0" y="-59.5" />
-      <point x="393.5" y="81.0" />
-      <point x="507.12499999999994" y="81.0" />
-      <point x="-23.375" y="25.5" />
-    </edge>
-    <edge source="\DesignPatterns\Behavioral\Specification\OrSpecification" target="\DesignPatterns\Behavioral\Specification\SpecificationInterface">
-      <point x="0.0" y="-48.5" />
-      <point x="119.5" y="71.0" />
-      <point x="460.37499999999994" y="71.0" />
-      <point x="-70.125" y="25.5" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="425.5" y="91.0" />
-  <SelectedNodes>
-    <node>\DesignPatterns\Behavioral\Specification\AndSpecification</node>
-  </SelectedNodes>
-  <Categories>
-    <Category>Fields</Category>
-    <Category>Constants</Category>
-    <Category>Constructors</Category>
-    <Category>Methods</Category>
-  </Categories>
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="524.5" y="191.0" />
+  <SelectedNodes />
+  <Categories />
   <VISIBILITY>private</VISIBILITY>
 </Diagram>
 

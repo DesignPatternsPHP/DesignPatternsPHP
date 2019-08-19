@@ -3,14 +3,14 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Specification;
 
-class NotSpecification implements SpecificationInterface
+class NotSpecification implements Specification
 {
     /**
-     * @var SpecificationInterface
+     * @var Specification
      */
     private $specification;
 
-    public function __construct(SpecificationInterface $specification)
+    public function __construct(Specification $specification)
     {
         $this->specification = $specification;
     }

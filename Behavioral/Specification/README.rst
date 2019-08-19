@@ -32,9 +32,9 @@ Item.php
    :language: php
    :linenos:
 
-SpecificationInterface.php
+Specification.php
 
-.. literalinclude:: SpecificationInterface.php
+.. literalinclude:: Specification.php
    :language: php
    :linenos:
 

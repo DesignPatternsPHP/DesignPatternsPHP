@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Specification;
 
-class PriceSpecification implements SpecificationInterface
+class PriceSpecification implements Specification
 {
     /**
      * @var float|null
