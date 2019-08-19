@@ -5,7 +5,7 @@ namespace DesignPatterns\Creational\Builder;
 
 use DesignPatterns\Creational\Builder\Parts\Vehicle;
 
-class TruckBuilder implements BuilderInterface
+class TruckBuilder implements Builder
 {
     /**
      * @var Parts\Truck

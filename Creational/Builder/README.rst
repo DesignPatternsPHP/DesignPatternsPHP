@@ -38,9 +38,9 @@ Director.php
    :language: php
    :linenos:
 
-BuilderInterface.php
+Builder.php
 
-.. literalinclude:: BuilderInterface.php
+.. literalinclude:: Builder.php
    :language: php
    :linenos:
 
