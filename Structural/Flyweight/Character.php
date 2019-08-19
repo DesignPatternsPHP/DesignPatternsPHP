@@ -7,7 +7,7 @@ namespace DesignPatterns\Structural\Flyweight;
  * Implements the flyweight interface and adds storage for intrinsic state, if any.
  * Instances of concrete flyweights are shared by means of a factory.
  */
-class CharacterFlyweight implements FlyweightInterface
+class Character implements Text
 {
     /**
      * Any state stored by the concrete flyweight must be independent of its context.
