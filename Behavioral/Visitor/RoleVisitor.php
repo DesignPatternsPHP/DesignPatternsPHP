@@ -3,28 +3,13 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Visitor;
 
-class RoleVisitor implements RoleVisitorInterface
+/**
+ * Note: the visitor must not choose itself which method to
+ * invoke, it is the Visitee that make this decision
+ */
+interface RoleVisitor
 {
-    /**
-     * @var Role[]
-     */
-    private $visited = [];
+    public function visitUser(User $role);
 
-    public function visitGroup(Group $role)
-    {
-        $this->visited[] = $role;
-    }
-
-    public function visitUser(User $role)
-    {
-        $this->visited[] = $role;
-    }
-
-    /**
-     * @return Role[]
-     */
-    public function getVisited(): array
-    {
-        return $this->visited;
-    }
+    public function visitGroup(Group $role);
 }

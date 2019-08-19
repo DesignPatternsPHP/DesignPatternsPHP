@@ -25,15 +25,15 @@ Code
 
 You can also find this code on `GitHub`_
 
-RoleVisitorInterface.php
-
-.. literalinclude:: RoleVisitorInterface.php
-   :language: php
-   :linenos:
-
 RoleVisitor.php
 
 .. literalinclude:: RoleVisitor.php
+   :language: php
+   :linenos:
+
+RecordingVisitor.php
+
+.. literalinclude:: RecordingVisitor.php
    :language: php
    :linenos:
 
