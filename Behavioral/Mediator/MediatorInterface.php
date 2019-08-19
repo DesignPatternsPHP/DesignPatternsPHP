@@ -3,10 +3,6 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Mediator;
 
-/**
- * MediatorInterface is a contract for the Mediator
- * This interface is not mandatory but it is better for Liskov substitution principle concerns.
- */
 interface MediatorInterface
 {
     /**

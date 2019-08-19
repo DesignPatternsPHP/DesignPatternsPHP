@@ -3,11 +3,6 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Mediator;
 
-/**
- * Mediator is the concrete Mediator for this design pattern
- *
- * In this example, I have made a "Hello World" with the Mediator Pattern
- */
 class Mediator implements MediatorInterface
 {
     /**
