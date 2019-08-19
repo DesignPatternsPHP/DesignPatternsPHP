@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Strategy;
 
-interface ComparatorInterface
+interface Comparator
 {
     /**
      * @param mixed $a

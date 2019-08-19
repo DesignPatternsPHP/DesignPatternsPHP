@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Strategy;
 
-class DateComparator implements ComparatorInterface
+class DateComparator implements Comparator
 {
     /**
      * @param mixed $a

@@ -6,11 +6,11 @@ namespace DesignPatterns\Behavioral\Strategy;
 class Context
 {
     /**
-     * @var ComparatorInterface
+     * @var Comparator
      */
     private $comparator;
 
-    public function __construct(ComparatorInterface $comparator)
+    public function __construct(Comparator $comparator)
     {
         $this->comparator = $comparator;
     }
