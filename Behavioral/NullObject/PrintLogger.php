@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\NullObject;
 
-class PrintLogger implements LoggerInterface
+class PrintLogger implements Logger
 {
     public function log(string $str)
     {

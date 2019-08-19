@@ -43,9 +43,9 @@ Service.php
    :language: php
    :linenos:
 
-LoggerInterface.php
+Logger.php
 
-.. literalinclude:: LoggerInterface.php
+.. literalinclude:: Logger.php
    :language: php
    :linenos:
 
