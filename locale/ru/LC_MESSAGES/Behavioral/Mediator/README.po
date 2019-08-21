@@ -34,12 +34,12 @@ msgstr ""
 
 #: ../../Behavioral/Mediator/README.rst:11
 msgid ""
-"All components (called Colleague) are only coupled to the MediatorInterface "
+"All components (called Colleague) are only coupled to the Mediator interface "
 "and it is a good thing because in OOP, one good friend is better than many. "
 "This is the key-feature of this pattern."
 msgstr ""
 "Все компоненты (называемые «Коллеги») объединяются в интерфейс "
-"MediatorInterface и это хорошо, потому что в рамках ООП, «старый друг лучше "
+"Mediator и это хорошо, потому что в рамках ООП, «старый друг лучше "
 "новых двух»."
 
 #: ../../Behavioral/Mediator/README.rst:16

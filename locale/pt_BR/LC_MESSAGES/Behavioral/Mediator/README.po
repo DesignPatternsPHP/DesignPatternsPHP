@@ -31,12 +31,12 @@ msgstr ""
 
 #: ../../Behavioral/Mediator/README.rst:11
 msgid ""
-"All components (called Colleague) are only coupled to the MediatorInterface "
+"All components (called Colleague) are only coupled to the Mediator interface "
 "and it is a good thing because in OOP, one good friend is better than many. "
 "This is the key-feature of this pattern."
 msgstr ""
 "Todos componentes (chamados Colleague - em inglês, Colega) são acoplados "
-"apenas ao MediatorInterface e é uma coisa boa porque, em POO (Programação "
+"apenas ao Mediator e é uma coisa boa porque, em POO (Programação "
 "Orientada a Objetos), uma boa amiga é melhor que muitas. Esta é a "
 "característica-chave deste padrão."
 

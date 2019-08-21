@@ -5,14 +5,14 @@ namespace DesignPatterns\Behavioral\Mediator;
 abstract class Colleague
 {
     /**
-     * @var MediatorInterface
+     * @var Mediator
      */
     protected $mediator;
 
     /**
-     * @param MediatorInterface $mediator
+     * @param Mediator $mediator
      */
-    public function setMediator(MediatorInterface $mediator)
+    public function setMediator(Mediator $mediator)
     {
         $this->mediator = $mediator;
     }

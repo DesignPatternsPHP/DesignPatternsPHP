@@ -33,10 +33,10 @@ msgstr ""
 
 #: ../../Behavioral/Mediator/README.rst:11
 msgid ""
-"All components (called Colleague) are only coupled to the MediatorInterface and it is a good thing "
+"All components (called Colleague) are only coupled to the Mediator interface and it is a good thing "
 "because in OOP, one good friend is better than many. This is the key-feature of this pattern."
 msgstr ""
-"Alle Komponenten (genannt Kollegen) sind nur abhängig vom MediatorInterface und das ist gut so, "
+"Alle Komponenten (genannt Kollegen) sind nur abhängig vom Mediator interface und das ist gut so, "
 "denn in der Objektorientierten Programmierung ist ein guter Freund besser als viele. Das ist das "
 "beste Feature bei diesem Muster."
 

@@ -32,7 +32,7 @@ msgstr ""
 #: ../../Behavioral/Mediator/README.rst:11
 msgid ""
 "All components (called Colleague) are only coupled to the "
-"MediatorInterface and it is a good thing because in OOP, one good friend "
+"Mediator interface and it is a good thing because in OOP, one good friend "
 "is better than many. This is the key-feature of this pattern."
 msgstr ""
 "Tüm parçalar (Görevdaş (Colleague) da denir) sadece Aracı Arayüz (Mediator Interface) ile "
