@@ -2,25 +2,11 @@
 
 namespace DesignPatterns\Structural\Adapter;
 
-class Book implements BookInterface
+interface Book
 {
-    /**
-     * @var int
-     */
-    private $page;
+    public function turnPage();
 
-    public function open()
-    {
-        $this->page = 1;
-    }
+    public function open();
 
-    public function turnPage()
-    {
-        $this->page++;
-    }
-
-    public function getPage(): int
-    {
-        return $this->page;
-    }
+    public function getPage(): int;
 }

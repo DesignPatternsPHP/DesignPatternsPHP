@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Structural\Adapter;
 
-interface EBookInterface
+interface EBook
 {
     public function unlock();
 

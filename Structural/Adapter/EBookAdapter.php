@@ -3,20 +3,20 @@
 namespace DesignPatterns\Structural\Adapter;
 
 /**
- * This is the adapter here. Notice it implements BookInterface,
+ * This is the adapter here. Notice it implements Book,
  * therefore you don't have to change the code of the client which is using a Book
  */
-class EBookAdapter implements BookInterface
+class EBookAdapter implements Book
 {
     /**
-     * @var EBookInterface
+     * @var EBook
      */
     protected $eBook;
 
     /**
-     * @param EBookInterface $eBook
+     * @param EBook $eBook
      */
-    public function __construct(EBookInterface $eBook)
+    public function __construct(EBook $eBook)
     {
         $this->eBook = $eBook;
     }
@@ -35,7 +35,7 @@ class EBookAdapter implements BookInterface
     }
 
     /**
-     * notice the adapted behavior here: EBookInterface::getPage() will return two integers, but BookInterface
+     * notice the adapted behavior here: EBook::getPage() will return two integers, but Book
      * supports only a current page getter, so we adapt the behavior here
      *
      * @return int
