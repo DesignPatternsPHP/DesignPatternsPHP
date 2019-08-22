@@ -2,20 +2,18 @@
 
 namespace DesignPatterns\Tests\Mediator\Tests;
 
-use DesignPatterns\Behavioral\Mediator\ConcreteMediator;
-use DesignPatterns\Behavioral\Mediator\Subsystem\Client;
-use DesignPatterns\Behavioral\Mediator\Subsystem\Database;
-use DesignPatterns\Behavioral\Mediator\Subsystem\Server;
+use DesignPatterns\Behavioral\Mediator\Ui;
+use DesignPatterns\Behavioral\Mediator\UserRepository;
+use DesignPatterns\Behavioral\Mediator\UserRepositoryUiMediator;
 use PHPUnit\Framework\TestCase;
 
 class MediatorTest extends TestCase
 {
     public function testOutputHelloWorld()
     {
-        $client = new Client();
-        new ConcreteMediator(new Database(), $client, new Server());
+        $mediator = new UserRepositoryUiMediator(new UserRepository(), new UI());
 
-        $this->expectOutputString('Hello World');
-        $client->request();
+        $this->expectOutputString('User: Dominik');
+        $mediator->printInfoAbout('Dominik');
     }
 }

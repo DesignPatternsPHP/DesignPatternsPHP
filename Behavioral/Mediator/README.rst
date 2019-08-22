@@ -30,33 +30,27 @@ Mediator.php
    :language: php
    :linenos:
 
-ConcreteMediator.php
-
-.. literalinclude:: ConcreteMediator.php
-   :language: php
-   :linenos:
-
 Colleague.php
 
 .. literalinclude:: Colleague.php
    :language: php
    :linenos:
 
-Subsystem/Client.php
+Ui.php
 
-.. literalinclude:: Subsystem/Client.php
+.. literalinclude:: Ui.php
    :language: php
    :linenos:
 
-Subsystem/Database.php
+UserRepository.php
 
-.. literalinclude:: Subsystem/Database.php
+.. literalinclude:: UserRepository.php
    :language: php
    :linenos:
 
-Subsystem/Server.php
+UserRepositoryUiMediator.php
 
-.. literalinclude:: Subsystem/Server.php
+.. literalinclude:: UserRepositoryUiMediator.php
    :language: php
    :linenos:
 
