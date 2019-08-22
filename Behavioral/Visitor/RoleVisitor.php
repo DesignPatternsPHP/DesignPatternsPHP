@@ -4,7 +4,7 @@ namespace DesignPatterns\Behavioral\Visitor;
 
 /**
  * Note: the visitor must not choose itself which method to
- * invoke, it is the Visitee that make this decision
+ * invoke, it is the visited object that makes this decision
  */
 interface RoleVisitor
 {
