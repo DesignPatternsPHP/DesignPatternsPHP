@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ded2124a559b6f94b21d8bb99c89e7a",
+    "content-hash": "d5270aabf0cc9417cf99d27e6819f0ad",
     "packages": [
         {
             "name": "psr/http-message",
@@ -113,6 +113,44 @@
                 "instantiate"
             ],
             "time": "2019-03-17T17:37:11+00:00"
+        },
+        {
+            "name": "flyeralarm/php-code-validator",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flyeralarm/php-code-validator.git",
+                "reference": "a663524e57ae92da51dd0afc62e58a8f678b2066"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flyeralarm/php-code-validator/zipball/a663524e57ae92da51dd0afc62e58a8f678b2066",
+                "reference": "a663524e57ae92da51dd0afc62e58a8f678b2066",
+                "shasum": ""
+            },
+            "require": {
+                "squizlabs/php_codesniffer": "^3.0"
+            },
+            "bin": [
+                "bin/php-code-validator"
+            ],
+            "type": "config",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Müller",
+                    "email": "daniel.mueller@flyeralarm.com"
+                },
+                {
+                    "name": "Maximilian Grosch",
+                    "email": "maximilian.grosch@flyeralarm.com"
+                }
+            ],
+            "description": "A custom coding standard for FLYERALARM",
+            "time": "2019-08-22T07:12:50+00:00"
         },
         {
             "name": "myclabs/deep-copy",
