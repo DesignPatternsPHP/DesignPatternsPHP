@@ -5,45 +5,24 @@ namespace DesignPatterns\More\ServiceLocator;
 class ServiceLocator
 {
     /**
-     * @var array
+     * @var array|Service[]
      */
     private $services = [];
 
     /**
-     * @var array
+     * @var array|Service[]
      */
     private $instantiated = [];
 
-    /**
-     * @var array
-     */
-    private $shared = [];
-
-    /**
-     * instead of supplying a class here, you could also store a service for an interface
-     *
-     * @param string $class
-     * @param object $service
-     * @param bool $share
-     */
-    public function addInstance(string $class, $service, bool $share = true)
+    public function addInstance(string $class, Service $service)
     {
         $this->services[$class] = $service;
         $this->instantiated[$class] = $service;
-        $this->shared[$class] = $share;
     }
 
-    /**
-     * instead of supplying a class here, you could also store a service for an interface
-     *
-     * @param string $class
-     * @param array $params
-     * @param bool $share
-     */
-    public function addClass(string $class, array $params, bool $share = true)
+    public function addClass(string $class, array $params)
     {
         $this->services[$class] = $params;
-        $this->shared[$class] = $share;
     }
 
     public function has(string $interface): bool
@@ -51,14 +30,9 @@ class ServiceLocator
         return isset($this->services[$interface]) || isset($this->instantiated[$interface]);
     }
 
-    /**
-     * @param string $class
-     *
-     * @return object
-     */
-    public function get(string $class)
+    public function get(string $class): Service
     {
-        if (isset($this->instantiated[$class]) && $this->shared[$class]) {
+        if (isset($this->instantiated[$class])) {
             return $this->instantiated[$class];
         }
 
@@ -81,9 +55,7 @@ class ServiceLocator
                 throw new \OutOfRangeException('Too many arguments given');
         }
 
-        if ($this->shared[$class]) {
-            $this->instantiated[$class] = $object;
-        }
+        $this->instantiated[$class] = $object;
 
         return $object;
     }
