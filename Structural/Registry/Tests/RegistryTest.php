@@ -3,28 +3,34 @@
 namespace DesignPatterns\Structural\Registry\Tests;
 
 use DesignPatterns\Structural\Registry\Registry;
-use stdClass;
+use DesignPatterns\Structural\Registry\Service;
+use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 class RegistryTest extends TestCase
 {
+    /**
+     * @var Service|MockObject
+     */
+    private $service;
+
+    protected function setUp(): void
+    {
+        $this->service = $this->getMockBuilder(Service::class)->getMock();
+    }
+
     public function testSetAndGetLogger()
     {
-        $key = Registry::LOGGER;
-        $logger = new stdClass();
+        Registry::set(Registry::LOGGER, $this->service);
 
-        Registry::set($key, $logger);
-        $storedLogger = Registry::get($key);
-
-        $this->assertSame($logger, $storedLogger);
-        $this->assertInstanceOf(stdClass::class, $storedLogger);
+        $this->assertSame($this->service, Registry::get(Registry::LOGGER));
     }
 
     public function testThrowsExceptionWhenTryingToSetInvalidKey()
     {
         $this->expectException(\InvalidArgumentException::class);
 
-        Registry::set('foobar', new stdClass());
+        Registry::set('foobar', $this->service);
     }
 
     /**
