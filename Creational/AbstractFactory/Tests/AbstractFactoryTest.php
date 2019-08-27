@@ -2,42 +2,31 @@
 
 namespace DesignPatterns\Creational\AbstractFactory\Tests;
 
-use DesignPatterns\Creational\AbstractFactory\DigitalProduct;
-use DesignPatterns\Creational\AbstractFactory\ProductFactory;
-use DesignPatterns\Creational\AbstractFactory\ShippableProduct;
+use DesignPatterns\Creational\AbstractFactory\CsvWriter;
+use DesignPatterns\Creational\AbstractFactory\JsonWriter;
+use DesignPatterns\Creational\AbstractFactory\UnixWriterFactory;
+use DesignPatterns\Creational\AbstractFactory\WinWriterFactory;
+use DesignPatterns\Creational\AbstractFactory\WriterFactory;
 use PHPUnit\Framework\TestCase;
 
 class AbstractFactoryTest extends TestCase
 {
-    public function testCanCreateDigitalProduct()
+    public function provideFactory()
     {
-        $factory = new ProductFactory();
-        $product = $factory->createDigitalProduct(150);
-
-        $this->assertInstanceOf(DigitalProduct::class, $product);
+        return [
+            [new UnixWriterFactory()],
+            [new WinWriterFactory()]
+        ];
     }
 
-    public function testCanCreateShippableProduct()
+    /**
+     * @dataProvider provideFactory
+     *
+     * @param WriterFactory $writerFactory
+     */
+    public function testCanCreateCsvWriterOnUnix(WriterFactory $writerFactory)
     {
-        $factory = new ProductFactory();
-        $product = $factory->createShippableProduct(150);
-
-        $this->assertInstanceOf(ShippableProduct::class, $product);
-    }
-
-    public function testCanCalculatePriceForDigitalProduct()
-    {
-        $factory = new ProductFactory();
-        $product = $factory->createDigitalProduct(150);
-
-        $this->assertEquals(150, $product->calculatePrice());
-    }
-
-    public function testCanCalculatePriceForShippableProduct()
-    {
-        $factory = new ProductFactory();
-        $product = $factory->createShippableProduct(150);
-
-        $this->assertEquals(200, $product->calculatePrice());
+        $this->assertInstanceOf(JsonWriter::class, $writerFactory->createJsonWriter());
+        $this->assertInstanceOf(CsvWriter::class, $writerFactory->createCsvWriter());
     }
 }
