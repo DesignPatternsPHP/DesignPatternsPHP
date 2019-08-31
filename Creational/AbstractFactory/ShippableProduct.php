@@ -5,12 +5,12 @@ namespace DesignPatterns\Creational\AbstractFactory;
 class ShippableProduct implements Product
 {
     /**
-     * @var float
+     * @var int
      */
     private $productPrice;
 
     /**
-     * @var float
+     * @var int
      */
     private $shippingCosts;
 
