@@ -2,6 +2,7 @@
 
 namespace DesignPatterns\Structural\Facade\Tests;
 
+use DesignPatterns\Structural\Facade\Bios;
 use DesignPatterns\Structural\Facade\Facade;
 use DesignPatterns\Structural\Facade\OperatingSystem;
 use PHPUnit\Framework\TestCase;
@@ -10,27 +11,20 @@ class FacadeTest extends TestCase
 {
     public function testComputerOn()
     {
-        /** @var OperatingSystem|\PHPUnit_Framework_MockObject_MockObject $os */
-        $os = $this->createMock('DesignPatterns\Structural\Facade\OperatingSystem');
+        $os = $this->createMock(OperatingSystem::class);
 
         $os->method('getName')
             ->will($this->returnValue('Linux'));
 
-        $bios = $this->getMockBuilder('DesignPatterns\Structural\Facade\Bios')
-            ->setMethods(['launch', 'execute', 'waitForKeyPress'])
-            ->disableAutoload()
-            ->getMock();
+        $bios = $this->createMock(Bios::class);
 
-        $bios->expects($this->once())
-            ->method('launch')
+        $bios->method('launch')
             ->with($os);
 
+        /** @noinspection PhpParamsInspection */
         $facade = new Facade($bios, $os);
-
-        // the facade interface is simple
         $facade->turnOn();
 
-        // but you can also access the underlying components
         $this->assertSame('Linux', $os->getName());
     }
 }

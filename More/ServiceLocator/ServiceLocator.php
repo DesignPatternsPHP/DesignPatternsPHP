@@ -5,18 +5,17 @@ namespace DesignPatterns\More\ServiceLocator;
 class ServiceLocator
 {
     /**
-     * @var array|Service[]
+     * @var string[][]
      */
     private $services = [];
 
     /**
-     * @var array|Service[]
+     * @var Service[]
      */
     private $instantiated = [];
 
     public function addInstance(string $class, Service $service)
     {
-        $this->services[$class] = $service;
         $this->instantiated[$class] = $service;
     }
 
@@ -53,6 +52,10 @@ class ServiceLocator
                 break;
             default:
                 throw new \OutOfRangeException('Too many arguments given');
+        }
+
+        if (!$object instanceof Service) {
+            throw new \InvalidArgumentException('Could not register service: is no instance of Service');
         }
 
         $this->instantiated[$class] = $object;

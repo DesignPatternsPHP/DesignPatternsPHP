@@ -10,7 +10,7 @@ class AndSpecification implements Specification
     private $specifications;
 
     /**
-     * @param Specification[] ...$specifications
+     * @param Specification[] $specifications
      */
     public function __construct(Specification ...$specifications)
     {

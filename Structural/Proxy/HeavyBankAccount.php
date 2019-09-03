@@ -20,6 +20,6 @@ class HeavyBankAccount implements BankAccount
         // years and decades ago must be fetched from a database or web service
         // and the balance must be calculated from it
 
-        return array_sum($this->transactions);
+        return (int) array_sum($this->transactions);
     }
 }

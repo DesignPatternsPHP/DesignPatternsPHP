@@ -2,25 +2,27 @@
 
 namespace DesignPatterns\Behavioral\Observer;
 
+use SplSubject;
+
 class UserObserver implements \SplObserver
 {
     /**
-     * @var User[]
+     * @var SplSubject[]
      */
     private $changedUsers = [];
 
     /**
      * It is called by the Subject, usually by SplSubject::notify()
      *
-     * @param \SplSubject $subject
+     * @param SplSubject $subject
      */
-    public function update(\SplSubject $subject)
+    public function update(SplSubject $subject)
     {
         $this->changedUsers[] = clone $subject;
     }
 
     /**
-     * @return User[]
+     * @return SplSubject[]
      */
     public function getChangedUsers(): array
     {

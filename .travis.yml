@@ -5,6 +5,7 @@ sudo: false
 php:
   - 7.2
   - 7.3
+  - 7.4snapshot
 
 matrix:
   fast_finish: true
@@ -23,3 +24,4 @@ install:
 script:
   - vendor/bin/phpunit
   - vendor/bin/phpcs .
+  - vendor/bin/psalm --show-info=false

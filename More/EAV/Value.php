@@ -24,6 +24,6 @@ class Value
 
     public function __toString(): string
     {
-        return sprintf('%s: %s', $this->attribute, $this->name);
+        return sprintf('%s: %s', (string) $this->attribute, $this->name);
     }
 }

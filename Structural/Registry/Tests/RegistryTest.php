@@ -9,9 +9,6 @@ use PHPUnit\Framework\TestCase;
 
 class RegistryTest extends TestCase
 {
-    /**
-     * @var Service|MockObject
-     */
     private $service;
 
     protected function setUp(): void
@@ -21,6 +18,7 @@ class RegistryTest extends TestCase
 
     public function testSetAndGetLogger()
     {
+        /** @noinspection PhpParamsInspection */
         Registry::set(Registry::LOGGER, $this->service);
 
         $this->assertSame($this->service, Registry::get(Registry::LOGGER));
