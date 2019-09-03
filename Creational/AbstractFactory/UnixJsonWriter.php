@@ -6,7 +6,7 @@ class UnixJsonWriter implements JsonWriter
 {
     public function write(array $data, bool $formatted): string
     {
-        $options = null;
+        $options = 0;
 
         if ($formatted) {
             $options = JSON_PRETTY_PRINT;
