@@ -55,11 +55,16 @@ function getFilesFromReadmes() {
 $phpFiles = getFiles('/^.+\.php$/');
 $filesFromReadme = getFilesFromReadmes();
 $diff = array_diff($phpFiles, $filesFromReadme);
+$diff2 = array_diff($filesFromReadme, $phpFiles);
 
 foreach ($diff as $file) {
     echo $file . PHP_EOL;
 }
 
-if (count($diff) != 0) {
+foreach ($diff2 as $file) {
+    echo $file . PHP_EOL;
+}
+
+if (count($diff) != 0 || count($diff2) != 0) {
     exit(1);
 }

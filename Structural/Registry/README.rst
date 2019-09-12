@@ -27,6 +27,12 @@ Registry.php
    :language: php
    :linenos:
 
+Service.php
+
+.. literalinclude:: Service.php
+   :language: php
+   :linenos:
+
 Test
 ----
 

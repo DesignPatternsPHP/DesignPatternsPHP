@@ -37,4 +37,10 @@ Multiton.php
 Test
 ----
 
+MultitonTest.php
+
+.. literalinclude:: Tests/MultitonTest.php
+   :language: php
+   :linenos:
+
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Multiton

@@ -33,6 +33,12 @@ Code
 
 You can also find this code on `GitHub`_
 
+Service.php
+
+.. literalinclude:: Service.php
+   :language: php
+   :linenos:
+
 ServiceLocator.php
 
 .. literalinclude:: ServiceLocator.php

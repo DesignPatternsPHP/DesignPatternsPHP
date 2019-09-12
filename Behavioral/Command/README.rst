@@ -44,9 +44,21 @@ Command.php
    :language: php
    :linenos:
 
+UndoableCommand.php
+
+.. literalinclude:: UndoableCommand.php
+   :language: php
+   :linenos:
+
 HelloCommand.php
 
 .. literalinclude:: HelloCommand.php
+   :language: php
+   :linenos:
+
+AddMessageDateCommand.php
+
+.. literalinclude:: AddMessageDateCommand.php
    :language: php
    :linenos:
 
@@ -68,6 +80,12 @@ Test
 Tests/CommandTest.php
 
 .. literalinclude:: Tests/CommandTest.php
+   :language: php
+   :linenos:
+
+Tests/UndoableCommandTest.php
+
+.. literalinclude:: Tests/UndoableCommandTest.php
    :language: php
    :linenos:
 
