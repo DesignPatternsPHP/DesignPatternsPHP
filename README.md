@@ -34,16 +34,10 @@ You can optionally build and browse the documentation using [Docker for Mac, Win
 Just run:
 
 ```bash
-$ docker-compose up
+$ docker-compose up --build
 ```
 
 Go to [http://localhost:8080/README.html](http://localhost:8080/README.html) to read the generated documentation.
-
-To only install the dependencies, use `docker-compose` like this:
-
-```bash
-$ docker-compose run php php composer.phar install
-```
 
 ## Patterns
 
