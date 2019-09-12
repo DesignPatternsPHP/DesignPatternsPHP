@@ -57,6 +57,9 @@ $filesFromReadme = getFilesFromReadmes();
 $diff = array_diff($phpFiles, $filesFromReadme);
 $diff2 = array_diff($filesFromReadme, $phpFiles);
 
+sort($diff);
+sort($diff2);
+
 foreach ($diff as $file) {
     echo $file . PHP_EOL;
 }
