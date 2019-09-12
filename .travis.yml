@@ -25,3 +25,4 @@ script:
   - vendor/bin/phpunit
   - vendor/bin/phpcs .
   - vendor/bin/psalm --show-info=false
+  - ./check-refs-readmes
