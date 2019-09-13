@@ -11,6 +11,6 @@ class WinWriterFactory implements WriterFactory
 
     public function createJsonWriter(): JsonWriter
     {
-        return new UnixJsonWriter();
+        return new WinJsonWriter();
     }
 }
