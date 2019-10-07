@@ -23,9 +23,9 @@ msgstr "Przeznaczenie"
 
 #: ../../Structural/Facade/README.rst:7
 msgid ""
-"The primary goal of a Facade Pattern is not to avoid you to read the manual "
-"of a complex API. It's only a side-effect. The first goal is to reduce "
-"coupling and follow the Law of Demeter."
+"The primary goal of a Facade Pattern is not to avoid you having to read the"
+"manual of a complex API. It's only a side-effect. The first goal is to"
+"reduce coupling and follow the Law of Demeter."
 msgstr ""
 "Głównym celem wzorca Fasady jest udostępnienie prostego interfejsu do złożonego "
 "systemu - dzięki czemu nie trzeba znać obszernej dokumentacji API. Takie podejście "
