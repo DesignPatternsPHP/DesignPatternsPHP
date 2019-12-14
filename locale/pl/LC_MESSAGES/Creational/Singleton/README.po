@@ -45,10 +45,9 @@ msgstr "Połączenie do bazy danych."
 
 #: ../../Creational/Singleton/README.rst:17
 msgid ""
-"Logger (may also be a Multiton if there are many log files for several "
-"purposes)"
+"Logger"
 msgstr ""
-"Logger - można do tego wykorzystać również wzorzec Multitona."
+"Logger"
 
 #: ../../Creational/Singleton/README.rst:19
 msgid ""

@@ -48,7 +48,6 @@ The patterns can be structured in roughly three different categories. Please cli
 * [AbstractFactory](Creational/AbstractFactory) [:notebook:](http://en.wikipedia.org/wiki/Abstract_factory_pattern)
 * [Builder](Creational/Builder) [:notebook:](http://en.wikipedia.org/wiki/Builder_pattern)
 * [FactoryMethod](Creational/FactoryMethod) [:notebook:](http://en.wikipedia.org/wiki/Factory_method_pattern)
-* [Multiton](Creational/Multiton) (is considered an anti-pattern! :no_entry:)
 * [Pool](Creational/Pool) [:notebook:](http://en.wikipedia.org/wiki/Object_pool_pattern)
 * [Prototype](Creational/Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
 * [SimpleFactory](Creational/SimpleFactory)

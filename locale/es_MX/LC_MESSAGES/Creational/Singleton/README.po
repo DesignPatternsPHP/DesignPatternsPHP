@@ -47,11 +47,9 @@ msgstr "Conector de Base de Datos"
 
 #: ../../Creational/Singleton/README.rst:17
 msgid ""
-"Logger (may also be a Multiton if there are many log files for several "
-"purposes)"
+"Logger"
 msgstr ""
-"Registrador de Eventos (puede ser también un Multiton si hay archivos de "
-"registro de eventos para diferentes propósitos)"
+"Registrador de Eventos"
 
 #: ../../Creational/Singleton/README.rst:19
 msgid "Lock file for the application (there is only one in the filesystem ...)"

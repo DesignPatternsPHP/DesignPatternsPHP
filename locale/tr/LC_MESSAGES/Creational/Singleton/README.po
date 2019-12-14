@@ -46,11 +46,9 @@ msgstr "Veritabanı Bağlantıcısı (Database Connector)"
 
 #: ../../Creational/Singleton/README.rst:17
 msgid ""
-"Logger (may also be a Multiton if there are many log files for "
-"several purposes)"
+"Logger"
 msgstr ""
-"Kayıtçı (Logger) (çeşitli amaçlara yönelik çok sayıda kayıt dosyası varsa, "
-"bu aynı zamanda bir Çoğullama (Multiton) da olabilir)."
+"Kayıtçı (Logger)"
 
 #: ../../Creational/Singleton/README.rst:19
 msgid ""
