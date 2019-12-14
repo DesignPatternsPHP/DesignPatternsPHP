@@ -4,10 +4,7 @@ namespace DesignPatterns\Creational\Prototype;
 
 class FooBookPrototype extends BookPrototype
 {
-    /**
-     * @var string
-     */
-    protected $category = 'Foo';
+    protected string $category = 'Foo';
 
     public function __clone()
     {

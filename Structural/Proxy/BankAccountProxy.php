@@ -4,10 +4,7 @@ namespace DesignPatterns\Structural\Proxy;
 
 class BankAccountProxy extends HeavyBankAccount implements BankAccount
 {
-    /**
-     * @var int
-     */
-    private $balance;
+    private ?int $balance = null;
 
     public function getBalance(): int
     {

@@ -4,14 +4,8 @@ namespace DesignPatterns\Behavioral\Mediator;
 
 abstract class Colleague
 {
-    /**
-     * @var Mediator
-     */
-    protected $mediator;
+    protected Mediator $mediator;
 
-    /**
-     * @param Mediator $mediator
-     */
     public function setMediator(Mediator $mediator)
     {
         $this->mediator = $mediator;

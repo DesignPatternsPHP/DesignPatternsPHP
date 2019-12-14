@@ -10,7 +10,7 @@ final class Multiton
     /**
      * @var Multiton[]
      */
-    private static $instances = [];
+    private static array $instances = [];
 
     /**
      * this is private to prevent from creating arbitrary instances

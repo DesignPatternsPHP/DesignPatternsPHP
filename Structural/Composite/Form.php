@@ -11,15 +11,13 @@ class Form implements Renderable
     /**
      * @var Renderable[]
      */
-    private $elements;
+    private array $elements;
 
     /**
      * runs through all elements and calls render() on them, then returns the complete representation
      * of the form.
      *
      * from the outside, one will not see this and the form will act like a single object instance
-     *
-     * @return string
      */
     public function render(): string
     {
@@ -34,9 +32,6 @@ class Form implements Renderable
         return $formCode;
     }
 
-    /**
-     * @param Renderable $element
-     */
     public function addElement(Renderable $element)
     {
         $this->elements[] = $element;

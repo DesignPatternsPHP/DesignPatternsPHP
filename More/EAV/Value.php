@@ -4,15 +4,8 @@ namespace DesignPatterns\More\EAV;
 
 class Value
 {
-    /**
-     * @var Attribute
-     */
-    private $attribute;
-
-    /**
-     * @var string
-     */
-    private $name;
+    private Attribute $attribute;
+    private string $name;
 
     public function __construct(Attribute $attribute, string $name)
     {

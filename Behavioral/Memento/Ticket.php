@@ -7,10 +7,7 @@ namespace DesignPatterns\Behavioral\Memento;
  */
 class Ticket
 {
-    /**
-     * @var State
-     */
-    private $currentState;
+    private State $currentState;
 
     public function __construct()
     {

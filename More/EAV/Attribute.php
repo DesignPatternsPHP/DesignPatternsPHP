@@ -2,21 +2,16 @@
 
 namespace DesignPatterns\More\EAV;
 
+use SplObjectStorage;
+
 class Attribute
 {
-    /**
-     * @var \SplObjectStorage
-     */
-    private $values;
-
-    /**
-     * @var string
-     */
-    private $name;
+    private SplObjectStorage $values;
+    private string $name;
 
     public function __construct(string $name)
     {
-        $this->values = new \SplObjectStorage();
+        $this->values = new SplObjectStorage();
         $this->name = $name;
     }
 
@@ -25,10 +20,7 @@ class Attribute
         $this->values->attach($value);
     }
 
-    /**
-     * @return \SplObjectStorage
-     */
-    public function getValues(): \SplObjectStorage
+    public function getValues(): SplObjectStorage
     {
         return $this->values;
     }

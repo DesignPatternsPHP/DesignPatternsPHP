@@ -5,17 +5,13 @@ namespace DesignPatterns\Behavioral\ChainOfResponsibilities\Tests;
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Handler;
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible\HttpInMemoryCacheHandler;
 use DesignPatterns\Behavioral\ChainOfResponsibilities\Responsible\SlowDatabaseHandler;
-use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\UriInterface;
 
 class ChainTest extends TestCase
 {
-    /**
-     * @var Handler
-     */
-    private $chain;
+    private Handler $chain;
 
     protected function setUp(): void
     {

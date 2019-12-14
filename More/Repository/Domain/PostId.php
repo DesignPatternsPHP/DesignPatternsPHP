@@ -2,6 +2,8 @@
 
 namespace DesignPatterns\More\Repository\Domain;
 
+use InvalidArgumentException;
+
 /**
  * This is a perfect example of a value object that is identifiable by it's value alone and
  * is guaranteed to be valid each time an instance is created. Another important property of value objects
@@ -11,12 +13,9 @@ namespace DesignPatterns\More\Repository\Domain;
  */
 class PostId
 {
-    /**
-     * @var int
-     */
-    private $id;
+    private int $id;
 
-    public static function fromInt(int $id)
+    public static function fromInt(int $id): PostId
     {
         self::ensureIsValid($id);
 
@@ -36,7 +35,7 @@ class PostId
     private static function ensureIsValid(int $id)
     {
         if ($id <= 0) {
-            throw new \InvalidArgumentException('Invalid PostId given');
+            throw new InvalidArgumentException('Invalid PostId given');
         }
     }
 }

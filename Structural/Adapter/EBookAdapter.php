@@ -8,14 +8,8 @@ namespace DesignPatterns\Structural\Adapter;
  */
 class EBookAdapter implements Book
 {
-    /**
-     * @var EBook
-     */
-    protected $eBook;
+    protected EBook $eBook;
 
-    /**
-     * @param EBook $eBook
-     */
     public function __construct(EBook $eBook)
     {
         $this->eBook = $eBook;
@@ -37,8 +31,6 @@ class EBookAdapter implements Book
     /**
      * notice the adapted behavior here: EBook::getPage() will return two integers, but Book
      * supports only a current page getter, so we adapt the behavior here
-     *
-     * @return int
      */
     public function getPage(): int
     {

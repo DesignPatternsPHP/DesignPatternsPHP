@@ -4,10 +4,7 @@ namespace DesignPatterns\Structural\Flyweight;
 
 class Word implements Text
 {
-    /**
-     * @var string
-     */
-    private $name;
+    private string $name;
 
     public function __construct(string $name)
     {

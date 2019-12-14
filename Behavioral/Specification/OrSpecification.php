@@ -7,7 +7,7 @@ class OrSpecification implements Specification
     /**
      * @var Specification[]
      */
-    private $specifications;
+    private array $specifications;
 
     /**
      * @param Specification[] $specifications
@@ -27,6 +27,7 @@ class OrSpecification implements Specification
                 return true;
             }
         }
+
         return false;
     }
 }

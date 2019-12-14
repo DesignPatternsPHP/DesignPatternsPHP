@@ -4,10 +4,7 @@ namespace DesignPatterns\Behavioral\Specification;
 
 class Item
 {
-    /**
-     * @var float
-     */
-    private $price;
+    private float $price;
 
     public function __construct(float $price)
     {

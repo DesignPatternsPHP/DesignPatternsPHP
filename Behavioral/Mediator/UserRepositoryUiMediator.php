@@ -4,15 +4,8 @@ namespace DesignPatterns\Behavioral\Mediator;
 
 class UserRepositoryUiMediator implements Mediator
 {
-    /**
-     * @var UserRepository
-     */
-    private $userRepository;
-
-    /**
-     * @var Ui
-     */
-    private $ui;
+    private UserRepository $userRepository;
+    private Ui $ui;
 
     public function __construct(UserRepository $userRepository, Ui $ui)
     {

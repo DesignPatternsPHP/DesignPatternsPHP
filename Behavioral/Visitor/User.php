@@ -4,10 +4,7 @@ namespace DesignPatterns\Behavioral\Visitor;
 
 class User implements Role
 {
-    /**
-     * @var string
-     */
-    private $name;
+    private string $name;
 
     public function __construct(string $name)
     {

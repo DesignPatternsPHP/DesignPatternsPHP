@@ -2,6 +2,7 @@
 
 namespace DesignPatterns\Structural\Registry\Tests;
 
+use InvalidArgumentException;
 use DesignPatterns\Structural\Registry\Registry;
 use DesignPatterns\Structural\Registry\Service;
 use PHPUnit\Framework\MockObject\MockObject;
@@ -9,7 +10,10 @@ use PHPUnit\Framework\TestCase;
 
 class RegistryTest extends TestCase
 {
-    private $service;
+    /**
+     * @var Service
+     */
+    private MockObject $service;
 
     protected function setUp(): void
     {
@@ -18,7 +22,6 @@ class RegistryTest extends TestCase
 
     public function testSetAndGetLogger()
     {
-        /** @noinspection PhpParamsInspection */
         Registry::set(Registry::LOGGER, $this->service);
 
         $this->assertSame($this->service, Registry::get(Registry::LOGGER));
@@ -26,7 +29,7 @@ class RegistryTest extends TestCase
 
     public function testThrowsExceptionWhenTryingToSetInvalidKey()
     {
-        $this->expectException(\InvalidArgumentException::class);
+        $this->expectException(InvalidArgumentException::class);
 
         Registry::set('foobar', $this->service);
     }
@@ -40,7 +43,7 @@ class RegistryTest extends TestCase
      */
     public function testThrowsExceptionWhenTryingToGetNotSetKey()
     {
-        $this->expectException(\InvalidArgumentException::class);
+        $this->expectException(InvalidArgumentException::class);
 
         Registry::get(Registry::LOGGER);
     }

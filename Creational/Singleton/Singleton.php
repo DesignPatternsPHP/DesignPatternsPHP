@@ -4,10 +4,7 @@ namespace DesignPatterns\Creational\Singleton;
 
 final class Singleton
 {
-    /**
-     * @var Singleton
-     */
-    private static $instance;
+    private static ?Singleton $instance = null;
 
     /**
      * gets the instance via lazy initialization (created on first usage)

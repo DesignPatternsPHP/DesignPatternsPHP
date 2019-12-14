@@ -8,16 +8,11 @@ namespace DesignPatterns\Behavioral\Command;
  */
 class Invoker
 {
-    /**
-     * @var Command
-     */
-    private $command;
+    private Command $command;
 
     /**
      * in the invoker we find this kind of method for subscribing the command
      * There can be also a stack, a list, a fixed set ...
-     *
-     * @param Command $cmd
      */
     public function setCommand(Command $cmd)
     {

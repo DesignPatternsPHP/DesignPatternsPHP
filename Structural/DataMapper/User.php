@@ -4,15 +4,8 @@ namespace DesignPatterns\Structural\DataMapper;
 
 class User
 {
-    /**
-     * @var string
-     */
-    private $username;
-
-    /**
-     * @var string
-     */
-    private $email;
+    private string $username;
+    private string $email;
 
     public static function fromState(array $state): User
     {
@@ -32,18 +25,12 @@ class User
         $this->email = $email;
     }
 
-    /**
-     * @return string
-     */
-    public function getUsername()
+    public function getUsername(): string
     {
         return $this->username;
     }
 
-    /**
-     * @return string
-     */
-    public function getEmail()
+    public function getEmail(): string
     {
         return $this->email;
     }

@@ -14,7 +14,7 @@ class Entity
     /**
      * @var string
      */
-    private $name;
+    private string $name;
 
     /**
      * @param string $name
@@ -22,6 +22,7 @@ class Entity
      */
     public function __construct(string $name, $values)
     {
+        /** @var SplObjectStorage<Value,Value> values */
         $this->values = new SplObjectStorage();
         $this->name = $name;
 

@@ -7,7 +7,7 @@ abstract class Journey
     /**
      * @var string[]
      */
-    private $thingsToDo = [];
+    private array $thingsToDo = [];
 
     /**
      * This is the public service provided by this class and its subclasses.
@@ -37,10 +37,8 @@ abstract class Journey
     /**
      * This method is also part of the algorithm but it is optional.
      * You can override it only if you need to
-     *
-     * @return null|string
      */
-    protected function buyGift()
+    protected function buyGift(): ?string
     {
         return null;
     }

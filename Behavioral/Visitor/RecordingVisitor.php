@@ -7,7 +7,7 @@ class RecordingVisitor implements RoleVisitor
     /**
      * @var Role[]
      */
-    private $visited = [];
+    private array $visited = [];
 
     public function visitGroup(Group $role)
     {

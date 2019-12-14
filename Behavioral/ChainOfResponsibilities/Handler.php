@@ -3,14 +3,10 @@
 namespace DesignPatterns\Behavioral\ChainOfResponsibilities;
 
 use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
 
 abstract class Handler
 {
-    /**
-     * @var Handler|null
-     */
-    private $successor = null;
+    private ?Handler $successor = null;
 
     public function __construct(Handler $handler = null)
     {
@@ -20,12 +16,8 @@ abstract class Handler
     /**
      * This approach by using a template method pattern ensures you that
      * each subclass will not forget to call the successor
-     *
-     * @param RequestInterface $request
-     *
-     * @return string|null
      */
-    final public function handle(RequestInterface $request)
+    final public function handle(RequestInterface $request): ?string
     {
         $processed = $this->processing($request);
 
@@ -37,5 +29,5 @@ abstract class Handler
         return $processed;
     }
 
-    abstract protected function processing(RequestInterface $request);
+    abstract protected function processing(RequestInterface $request): ?string;
 }

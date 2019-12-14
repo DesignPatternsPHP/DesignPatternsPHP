@@ -3,23 +3,17 @@
 namespace DesignPatterns\Behavioral\Command;
 
 /**
- * Receiver is specific service with its own contract and can be only concrete.
+ * Receiver is a specific service with its own contract and can be only concrete.
  */
 class Receiver
 {
-    /**
-     * @var bool
-     */
-    private $enableDate = false;
+    private bool $enableDate = false;
 
     /**
      * @var string[]
      */
-    private $output = [];
+    private array $output = [];
 
-    /**
-     * @param string $str
-     */
     public function write(string $str)
     {
         if ($this->enableDate) {

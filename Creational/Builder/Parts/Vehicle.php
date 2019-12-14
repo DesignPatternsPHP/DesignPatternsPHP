@@ -7,13 +7,9 @@ abstract class Vehicle
     /**
      * @var object[]
      */
-    private $data = [];
+    private array $data = [];
 
-    /**
-     * @param string $key
-     * @param object $value
-     */
-    public function setPart($key, $value)
+    public function setPart(string $key, object $value)
     {
         $this->data[$key] = $value;
     }

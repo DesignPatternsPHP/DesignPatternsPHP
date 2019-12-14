@@ -2,35 +2,34 @@
 
 namespace DesignPatterns\Tests\Visitor\Tests;
 
+use DesignPatterns\Behavioral\Visitor\RecordingVisitor;
+use DesignPatterns\Behavioral\Visitor\User;
+use DesignPatterns\Behavioral\Visitor\Group;
+use DesignPatterns\Behavioral\Visitor\Role;
 use DesignPatterns\Behavioral\Visitor;
 use PHPUnit\Framework\TestCase;
 
 class VisitorTest extends TestCase
 {
-    /**
-     * @var Visitor\RecordingVisitor
-     */
-    private $visitor;
+    private RecordingVisitor $visitor;
 
     protected function setUp(): void
     {
-        $this->visitor = new Visitor\RecordingVisitor();
+        $this->visitor = new RecordingVisitor();
     }
 
     public function provideRoles()
     {
         return [
-            [new Visitor\User('Dominik')],
-            [new Visitor\Group('Administrators')],
+            [new User('Dominik')],
+            [new Group('Administrators')],
         ];
     }
 
     /**
      * @dataProvider provideRoles
-     *
-     * @param Visitor\Role $role
      */
-    public function testVisitSomeRole(Visitor\Role $role)
+    public function testVisitSomeRole(Role $role)
     {
         $role->accept($this->visitor);
         $this->assertSame($role, $this->visitor->getVisited()[0]);

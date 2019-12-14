@@ -2,6 +2,7 @@
 
 namespace DesignPatterns\Creational\StaticFactory\Tests;
 
+use InvalidArgumentException;
 use DesignPatterns\Creational\StaticFactory\FormatNumber;
 use DesignPatterns\Creational\StaticFactory\FormatString;
 use DesignPatterns\Creational\StaticFactory\StaticFactory;
@@ -21,7 +22,7 @@ class StaticFactoryTest extends TestCase
 
     public function testException()
     {
-        $this->expectException(\InvalidArgumentException::class);
+        $this->expectException(InvalidArgumentException::class);
 
         StaticFactory::factory('object');
     }

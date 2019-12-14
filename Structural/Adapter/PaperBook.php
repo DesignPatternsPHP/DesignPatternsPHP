@@ -4,10 +4,7 @@ namespace DesignPatterns\Structural\Adapter;
 
 class PaperBook implements Book
 {
-    /**
-     * @var int
-     */
-    private $page;
+    private int $page;
 
     public function open()
     {

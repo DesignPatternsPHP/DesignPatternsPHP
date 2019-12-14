@@ -2,38 +2,39 @@
 
 namespace DesignPatterns\Creational\Builder;
 
+use DesignPatterns\Creational\Builder\Parts\Door;
+use DesignPatterns\Creational\Builder\Parts\Engine;
+use DesignPatterns\Creational\Builder\Parts\Wheel;
+use DesignPatterns\Creational\Builder\Parts\Car;
 use DesignPatterns\Creational\Builder\Parts\Vehicle;
 
 class CarBuilder implements Builder
 {
-    /**
-     * @var Parts\Car
-     */
-    private $car;
+    private Car $car;
 
     public function addDoors()
     {
-        $this->car->setPart('rightDoor', new Parts\Door());
-        $this->car->setPart('leftDoor', new Parts\Door());
-        $this->car->setPart('trunkLid', new Parts\Door());
+        $this->car->setPart('rightDoor', new Door());
+        $this->car->setPart('leftDoor', new Door());
+        $this->car->setPart('trunkLid', new Door());
     }
 
     public function addEngine()
     {
-        $this->car->setPart('engine', new Parts\Engine());
+        $this->car->setPart('engine', new Engine());
     }
 
     public function addWheel()
     {
-        $this->car->setPart('wheelLF', new Parts\Wheel());
-        $this->car->setPart('wheelRF', new Parts\Wheel());
-        $this->car->setPart('wheelLR', new Parts\Wheel());
-        $this->car->setPart('wheelRR', new Parts\Wheel());
+        $this->car->setPart('wheelLF', new Wheel());
+        $this->car->setPart('wheelRF', new Wheel());
+        $this->car->setPart('wheelLR', new Wheel());
+        $this->car->setPart('wheelRR', new Wheel());
     }
 
     public function createVehicle()
     {
-        $this->car = new Parts\Car();
+        $this->car = new Car();
     }
 
     public function getVehicle(): Vehicle

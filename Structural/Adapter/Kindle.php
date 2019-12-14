@@ -8,15 +8,8 @@ namespace DesignPatterns\Structural\Adapter;
  */
 class Kindle implements EBook
 {
-    /**
-     * @var int
-     */
-    private $page = 1;
-
-    /**
-     * @var int
-     */
-    private $totalPages = 100;
+    private int $page = 1;
+    private int $totalPages = 100;
 
     public function pressNext()
     {

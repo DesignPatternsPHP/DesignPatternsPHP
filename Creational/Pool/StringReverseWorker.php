@@ -2,16 +2,15 @@
 
 namespace DesignPatterns\Creational\Pool;
 
+use DateTime;
+
 class StringReverseWorker
 {
-    /**
-     * @var \DateTime
-     */
-    private $createdAt;
+    private DateTime $createdAt;
 
     public function __construct()
     {
-        $this->createdAt = new \DateTime();
+        $this->createdAt = new DateTime();
     }
 
     public function run(string $text)

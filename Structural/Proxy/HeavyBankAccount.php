@@ -7,7 +7,7 @@ class HeavyBankAccount implements BankAccount
     /**
      * @var int[]
      */
-    private $transactions = [];
+    private array $transactions = [];
 
     public function deposit(int $amount)
     {

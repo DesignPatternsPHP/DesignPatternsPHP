@@ -4,25 +4,10 @@ namespace DesignPatterns\More\Repository\Domain;
 
 class Post
 {
-    /**
-     * @var PostId
-     */
-    private $id;
-
-    /**
-     * @var PostStatus
-     */
-    private $status;
-
-    /**
-     * @var string
-     */
-    private $title;
-
-    /**
-     * @var string
-     */
-    private $text;
+    private PostId $id;
+    private PostStatus $status;
+    private string $title;
+    private string $text;
 
     public static function draft(PostId $id, string $title, string $text): Post
     {
@@ -44,12 +29,6 @@ class Post
         );
     }
 
-    /**
-     * @param PostId $id
-     * @param PostStatus $status
-     * @param string $title
-     * @param string $text
-     */
     private function __construct(PostId $id, PostStatus $status, string $title, string $text)
     {
         $this->id = $id;

@@ -4,10 +4,7 @@ namespace DesignPatterns\Behavioral\Specification;
 
 class NotSpecification implements Specification
 {
-    /**
-     * @var Specification
-     */
-    private $specification;
+    private Specification $specification;
 
     public function __construct(Specification $specification)
     {

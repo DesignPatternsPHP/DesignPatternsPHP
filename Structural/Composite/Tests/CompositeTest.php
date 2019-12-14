@@ -2,19 +2,21 @@
 
 namespace DesignPatterns\Structural\Composite\Tests;
 
-use DesignPatterns\Structural\Composite;
+use DesignPatterns\Structural\Composite\Form;
+use DesignPatterns\Structural\Composite\TextElement;
+use DesignPatterns\Structural\Composite\InputElement;
 use PHPUnit\Framework\TestCase;
 
 class CompositeTest extends TestCase
 {
     public function testRender()
     {
-        $form = new Composite\Form();
-        $form->addElement(new Composite\TextElement('Email:'));
-        $form->addElement(new Composite\InputElement());
-        $embed = new Composite\Form();
-        $embed->addElement(new Composite\TextElement('Password:'));
-        $embed->addElement(new Composite\InputElement());
+        $form = new Form();
+        $form->addElement(new TextElement('Email:'));
+        $form->addElement(new InputElement());
+        $embed = new Form();
+        $embed->addElement(new TextElement('Password:'));
+        $embed->addElement(new InputElement());
         $form->addElement($embed);
 
         // This is just an example, in a real world scenario it is important to remember that web browsers do not

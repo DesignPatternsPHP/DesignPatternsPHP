@@ -7,7 +7,7 @@ class AndSpecification implements Specification
     /**
      * @var Specification[]
      */
-    private $specifications;
+    private array $specifications;
 
     /**
      * @param Specification[] $specifications

@@ -2,16 +2,18 @@
 
 namespace DesignPatterns\Structural\Flyweight;
 
+use Countable;
+
 /**
  * A factory manages shared flyweights. Clients should not instantiate them directly,
  * but let the factory take care of returning existing objects or creating new ones.
  */
-class TextFactory implements \Countable
+class TextFactory implements Countable
 {
     /**
      * @var Text[]
      */
-    private $charPool = [];
+    private array $charPool = [];
 
     public function get(string $name): Text
     {

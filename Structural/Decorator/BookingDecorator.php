@@ -4,10 +4,7 @@ namespace DesignPatterns\Structural\Decorator;
 
 abstract class BookingDecorator implements Booking
 {
-    /**
-     * @var Booking
-     */
-    protected $booking;
+    protected Booking $booking;
 
     public function __construct(Booking $booking)
     {

@@ -8,10 +8,7 @@ use PHPUnit\Framework\TestCase;
 
 class ServiceLocatorTest extends TestCase
 {
-    /**
-     * @var ServiceLocator
-     */
-    private $serviceLocator;
+    private ServiceLocator $serviceLocator;
 
     public function setUp(): void
     {
