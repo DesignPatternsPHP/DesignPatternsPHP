@@ -1,6 +1,6 @@
 name: CI
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   build:
@@ -10,6 +10,7 @@ jobs:
     - uses: shivammathur/setup-php@v1
       with:
         php-version: '7.4'  
+        extensions: mbstring  
         coverage: xdebug
           
     - uses: actions/checkout@v1
