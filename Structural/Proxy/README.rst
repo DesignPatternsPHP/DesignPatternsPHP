@@ -27,7 +27,7 @@ You can also find this code on `GitHub`_
 
 BankAccount.php
 
-.. literalinclude:: BankAccount.php
+.. literalinclude:: BankAccoun.php
    :language: php
    :linenos:
 
