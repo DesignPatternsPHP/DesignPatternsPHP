@@ -4,8 +4,8 @@
 DesignPatternsPHP
 =================
 
-.. image:: https://travis-ci.org/domnikl/DesignPatternsPHP.svg?branch=master
-   :target: https://travis-ci.org/domnikl/DesignPatternsPHP
+.. image:: https://github.com/domnikl/DesignPatternsPHP/workflows/CI/badge.svg
+   :target: https://github.com/domnikl/DesignPatternsPHP/actions
    :alt: Build Status
 
 .. image:: https://readthedocs.org/projects/designpatternsphp/badge/?version=latest
