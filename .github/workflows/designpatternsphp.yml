@@ -1,0 +1,34 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: shivammathur/setup-php@v1
+      with:
+        php-version: '7.4'  
+        extensions: mbstring  
+        coverage: xdebug
+          
+    - uses: actions/checkout@v1
+
+    - name: Validate composer.json and composer.lock
+      run: composer validate
+
+    - name: Install dependencies
+      run: composer install --prefer-dist --no-progress --no-suggest --no-interaction
+
+    - name: phpunit
+      run: vendor/bin/phpunit
+    
+    - name: phpcs
+      run: vendor/bin/phpcs .
+    
+    - name: psalm
+      run: vendor/bin/psalm --show-info=false
+      
+    - name: check readme refs
+      run: ./check-refs-readmes
