@@ -15,7 +15,8 @@ jobs:
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress --no-suggest --no-interaction
 
-    - uses: php-actions/phpunit@v1
+    - name: phpunit
+      run: vendor/bin/phpunit
     
     - name: phpcs
       run: vendor/bin/phpcs .
