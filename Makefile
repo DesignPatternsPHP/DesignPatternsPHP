@@ -193,14 +193,11 @@ pseudoxml:
 
 install: vendor
 
-composer.phar:
-	docker/install-composer.sh
-
-vendor: composer.phar
-	php composer.phar install
+vendor:
+	composer install
 
 cs: install
-	./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor,_build .
+	./vendor/bin/phpcs .
 
 test: install
 	./vendor/bin/phpunit
