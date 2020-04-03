@@ -190,14 +190,3 @@ pseudoxml:
 	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
-
-install: vendor
-
-vendor:
-	composer install
-
-cs: install
-	./vendor/bin/phpcs .
-
-test: install
-	./vendor/bin/phpunit
