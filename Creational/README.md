@@ -12,5 +12,5 @@ solve this problem by somehow controlling this object creation.
 * [Pool](Pool) [:notebook:](http://en.wikipedia.org/wiki/Object_pool_pattern)
 * [Prototype](Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
 * [SimpleFactory](SimpleFactory)
-* [Singleton](Singleton) [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (is considered an anti-pattern! :no_entry:)
+* [Singleton](Singleton) [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern)
 * [StaticFactory](StaticFactory)
