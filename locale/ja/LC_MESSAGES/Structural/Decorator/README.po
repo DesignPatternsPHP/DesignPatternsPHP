@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2019, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-04 00:50+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../Structural/Decorator/README.rst:2
+msgid "`Decorator`__"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:7
+msgid "To dynamically add new functionality to class instances."
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:10
+msgid "Examples"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:12
+msgid ""
+"Web Service Layer: Decorators JSON and XML for a REST service (in this "
+"case, only one of these should be allowed of course)"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:16
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:23
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:25
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:27
+msgid "Booking.php"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:33
+msgid "BookingDecorator.php"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:39
+msgid "DoubleRoomBooking.php"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:45
+msgid "ExtraBed.php"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:51
+msgid "WiFi.php"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:58
+msgid "Test"
+msgstr ""
+
+#: ../../Structural/Decorator/README.rst:60
+msgid "Tests/DecoratorTest.php"
+msgstr ""
+

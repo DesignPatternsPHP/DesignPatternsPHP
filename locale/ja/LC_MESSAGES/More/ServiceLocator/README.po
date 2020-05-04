@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2019, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-04 00:50+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../More/ServiceLocator/README.rst:2
+msgid "`Service Locator`__"
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:4
+msgid "**THIS IS CONSIDERED TO BE AN ANTI-PATTERN!**"
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:6
+msgid ""
+"Service Locator is considered for some people an anti-pattern. It "
+"violates the Dependency Inversion principle. Service Locator hides class'"
+" dependencies instead of exposing them as you would do using the "
+"Dependency Injection. In case of changes of those dependencies you risk "
+"to break the functionality of classes which are using them, making your "
+"system difficult to maintain."
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:10
+msgid "Purpose"
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:12
+msgid ""
+"To implement a loosely coupled architecture in order to get better "
+"testable, maintainable and extendable code. DI pattern and Service "
+"Locator pattern are an implementation of the Inverse of Control pattern."
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:17
+msgid "Usage"
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:19
+msgid ""
+"With ``ServiceLocator`` you can register a service for a given interface."
+" By using the interface you can retrieve the service and use it in the "
+"classes of the application without knowing its implementation. You can "
+"configure and inject the Service Locator object on bootstrap."
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:25
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:32
+msgid "Code"
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:36
+msgid "Service.php"
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:42
+msgid "ServiceLocator.php"
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:48
+msgid "LogService.php"
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:55
+msgid "Test"
+msgstr ""
+
+#: ../../More/ServiceLocator/README.rst:57
+msgid "Tests/ServiceLocatorTest.php"
+msgstr ""
+

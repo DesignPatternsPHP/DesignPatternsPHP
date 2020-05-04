@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2019, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-04 00:50+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../Creational/AbstractFactory/README.rst:2
+msgid "`Abstract Factory`__"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:7
+msgid ""
+"To create series of related or dependent objects without specifying their"
+" concrete classes. Usually the created classes all implement the same "
+"interface. The client of the abstract factory does not care about how "
+"these objects are created, it just knows how they go together."
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:13
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:20
+msgid "Code"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:24
+msgid "WriterFactory.php"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:30
+msgid "CsvWriter.php"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:36
+msgid "JsonWriter.php"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:42
+msgid "UnixCsvWriter.php"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:48
+msgid "UnixJsonWriter.php"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:54
+msgid "UnixWriterFactory.php"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:60
+msgid "WinCsvWriter.php"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:66
+msgid "WinJsonWriter.php"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:72
+msgid "WinWriterFactory.php"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:79
+msgid "Test"
+msgstr ""
+
+#: ../../Creational/AbstractFactory/README.rst:81
+msgid "Tests/AbstractFactoryTest.php"
+msgstr ""
+

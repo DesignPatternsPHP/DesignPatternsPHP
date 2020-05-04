@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2019, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-04 00:50+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../Behavioral/Command/README.rst:2
+msgid "`Command`__"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:7
+msgid "To encapsulate invocation and decoupling."
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:9
+msgid ""
+"We have an Invoker and a Receiver. This pattern uses a \"Command\" to "
+"delegate the method call against the Receiver and presents the same "
+"method \"execute\". Therefore, the Invoker just knows to call \"execute\""
+" to process the Command of the client. The Receiver is decoupled from the"
+" Invoker."
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:15
+msgid ""
+"The second aspect of this pattern is the undo(), which undoes the method "
+"execute(). Command can also be aggregated to combine more complex "
+"commands with minimum copy-paste and relying on composition over "
+"inheritance."
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:21
+msgid "Examples"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:23
+msgid ""
+"A text editor : all events are commands which can be undone, stacked and "
+"saved."
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:25
+msgid ""
+"big CLI tools use subcommands to distribute various tasks and pack them "
+"in \"modules\", each of these can be implemented with the Command pattern"
+" (e.g. vagrant)"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:30
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:37
+msgid "Code"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:39
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:41
+msgid "Command.php"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:47
+msgid "UndoableCommand.php"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:53
+msgid "HelloCommand.php"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:59
+msgid "AddMessageDateCommand.php"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:65
+msgid "Receiver.php"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:71
+msgid "Invoker.php"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:78
+msgid "Test"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:80
+msgid "Tests/CommandTest.php"
+msgstr ""
+
+#: ../../Behavioral/Command/README.rst:86
+msgid "Tests/UndoableCommandTest.php"
+msgstr ""
+
