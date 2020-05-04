@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../Creational/Builder/README.rst:2
 msgid "`Builder`__"
-msgstr "`Builderパターン`__"
+msgstr "`Builder パターン`__"
 
 #: ../../Creational/Builder/README.rst:5
 msgid "Purpose"
@@ -36,7 +36,7 @@ msgid ""
 "interface could be an abstract class with default methods (aka adapter)."
 msgstr ""
 "ときに、Builderクラス自身が何を構築するのか知っている場合、このインターフェースはデフォルトメソッド"
-"を持つ抽象クラスとなります（Adapterパターン）。"
+"を持つ抽象クラスとなります（Adapter パターン）。"
 
 #: ../../Creational/Builder/README.rst:12
 msgid ""

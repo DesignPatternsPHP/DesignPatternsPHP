@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../Creational/FactoryMethod/README.rst:2
 msgid "`Factory Method`__"
-msgstr "`Factory Methodパターン`__"
+msgstr "`Factory Method パターン`__"
 
 #: ../../Creational/FactoryMethod/README.rst:5
 msgid "Purpose"
@@ -31,7 +31,7 @@ msgid ""
 "The good point over the SimpleFactory is you can subclass it to implement"
 " different ways to create objects."
 msgstr ""
-"FacboryMethodパターンはSimpleFactoryパターンと比べて、"
+"FacboryMethod パターンはSimpleFactory パターンと比べて、"
 "オブジェクト生成のために行う様々な実装を、サブクラスに任せることができる点が優れています。"
 
 #: ../../Creational/FactoryMethod/README.rst:10
@@ -43,7 +43,7 @@ msgid ""
 "This pattern is a \"real\" Design Pattern because it achieves the "
 "Dependency Inversion principle a.k.a the \"D\" in SOLID principles."
 msgstr ""
-"このFactoryMethodパターンは、SOLIDとして知られているソフトウェア設計の5つの原則のうち、「D」の依存性逆転の法則"
+"このFactoryMethod パターンは、SOLIDとして知られているソフトウェア設計の5つの原則のうち、「D」の依存性逆転の法則"
 "（Dependency Inversion principle）を実現するための「実用的な」デザインパターンです。"
 
 #: ../../Creational/FactoryMethod/README.rst:15
@@ -53,7 +53,7 @@ msgid ""
 "StaticFactory."
 msgstr ""
 "つまり、FactoryMethodクラスは具象クラスではなく、抽象クラスに依存するということです。"
-"SimpleFactoryパターンや、StaticFactoryパターンと比較したときに、ここが異なる優れた点であると言えます。"
+"SimpleFactory パターンや、StaticFactory パターンと比較したときに、ここが異なる優れた点であると言えます。"
 
 #: ../../Creational/FactoryMethod/README.rst:20
 msgid "UML Diagram"
