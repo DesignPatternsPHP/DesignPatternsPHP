@@ -2,7 +2,7 @@
 # Copyright (C) 2011-2019, Dominik Liebler and contributors
 # This file is distributed under the same license as the DesignPatternsPHP
 # package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# Sumita Takaki <sumita.takaki@gmail.com>, 2020.
 #
 #, fuzzy
 msgid ""
@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-04 00:50+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Sumita Takaki <sumita.takaki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../Creational/AbstractFactory/README.rst:2
 msgid "`Abstract Factory`__"
-msgstr ""
+msgstr "`Abstract Factoryパターン`__"
 
 #: ../../Creational/AbstractFactory/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../Creational/AbstractFactory/README.rst:7
 msgid ""
@@ -33,18 +33,22 @@ msgid ""
 "interface. The client of the abstract factory does not care about how "
 "these objects are created, it just knows how they go together."
 msgstr ""
+"具体的なクラスを指定せずに、互いに関連・依存し合う一連のオブジェクト郡を生成します。"
+"一般に、生成された全てのクラスは同じインターフェースを実装します。"
+"AbstractFactoryクラスを利用するClientクラスは、これらのオブジェクト郡がどのように連携するかについては知っていますが、"
+"どのように生成されたかについて把握する必要はありません。"
 
 #: ../../Creational/AbstractFactory/README.rst:13
 msgid "UML Diagram"
-msgstr ""
+msgstr "クラス図"
 
 #: ../../Creational/AbstractFactory/README.rst:20
 msgid "Code"
-msgstr ""
+msgstr "サンプルコード"
 
 #: ../../Creational/AbstractFactory/README.rst:22
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "サンプルコードは `GitHub`_ でも確認することができます。"
 
 #: ../../Creational/AbstractFactory/README.rst:24
 msgid "WriterFactory.php"
@@ -84,7 +88,7 @@ msgstr ""
 
 #: ../../Creational/AbstractFactory/README.rst:79
 msgid "Test"
-msgstr ""
+msgstr "テスト"
 
 #: ../../Creational/AbstractFactory/README.rst:81
 msgid "Tests/AbstractFactoryTest.php"
