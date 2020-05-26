@@ -39,14 +39,6 @@ msgstr ""
 "uma simples instância do formulário, quando ``render()`` é chamado, ele subsequentemente "
 "roda através de seus elementos filhos e chama ``render()`` neles."
 
-#: ../../Structural/Composite/README.rst:16
-msgid ""
-"``Zend_Config``: a tree of configuration options, each one is a "
-"``Zend_Config`` object itself"
-msgstr ""
-"``Zend_Config``: uma árvore de opções de configuração, cada qual é um "
-"objeto ``Zend_Config`` em si."
-
 #: ../../Structural/Composite/README.rst:20
 msgid "UML Diagram"
 msgstr "Diagrama UML"

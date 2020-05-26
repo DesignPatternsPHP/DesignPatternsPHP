@@ -29,10 +29,6 @@ msgstr "Динамически добавляет новую функциона�
 msgid "Examples"
 msgstr "Примеры"
 
-#: ../../Structural/Decorator/README.rst:12
-msgid "Zend Framework: decorators for ``Zend_Form_Element`` instances"
-msgstr "Zend Framework: декораторы для экземпляров ``Zend_Form_Element``"
-
 #: ../../Structural/Decorator/README.rst:13
 msgid ""
 "Web Service Layer: Decorators JSON and XML for a REST service (in this case,"

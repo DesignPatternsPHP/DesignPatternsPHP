@@ -1,7 +1,8 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\More\Repository\Tests;
 
+use OutOfBoundsException;
 use DesignPatterns\More\Repository\Domain\PostId;
 use DesignPatterns\More\Repository\Domain\PostStatus;
 use DesignPatterns\More\Repository\InMemoryPersistence;
@@ -11,12 +12,9 @@ use PHPUnit\Framework\TestCase;
 
 class PostRepositoryTest extends TestCase
 {
-    /**
-     * @var PostRepository
-     */
-    private $repository;
+    private PostRepository $repository;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->repository = new PostRepository(new InMemoryPersistence());
     }
@@ -26,12 +24,11 @@ class PostRepositoryTest extends TestCase
         $this->assertEquals(1, $this->repository->generateId()->toInt());
     }
 
-    /**
-     * @expectedException \OutOfBoundsException
-     * @expectedExceptionMessage Post with id 42 does not exist
-     */
     public function testThrowsExceptionWhenTryingToFindPostWhichDoesNotExist()
     {
+        $this->expectException(OutOfBoundsException::class);
+        $this->expectExceptionMessage('Post with id 42 does not exist');
+
         $this->repository->findById(PostId::fromInt(42));
     }
 

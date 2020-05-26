@@ -27,10 +27,6 @@ msgstr "动态地为类的实例添加功能"
 msgid "Examples"
 msgstr "例子"
 
-#: ../../Structural/Decorator/README.rst:12
-msgid "Zend Framework: decorators for ``Zend_Form_Element`` instances"
-msgstr "Zend Framework: ``Zend_Form_Element`` 实例的装饰器"
-
 #: ../../Structural/Decorator/README.rst:13
 msgid ""
 "Web Service Layer: Decorators JSON and XML for a REST service (in this case,"

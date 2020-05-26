@@ -1,0 +1,73 @@
+#!/usr/bin/env php
+<?php
+
+// checks if all the PHP have been referenced in a README.rst
+// and lists all PHP files that have not been referenced
+
+function getFileIterator(string $regex): Generator {
+    $directory = new RecursiveDirectoryIterator(__DIR__);
+    $iterator = new RecursiveIteratorIterator($directory);
+    $iterator = new RegexIterator($iterator, $regex, RecursiveRegexIterator::GET_MATCH);
+
+    foreach ($iterator as $list) {
+        foreach ($list as $file) {
+            yield $file;
+        }
+    }
+}
+
+function getFiles($regex) {
+    $files = [];
+
+    foreach (getFileIterator($regex) as $file) {
+        $vendor = __DIR__ . '/vendor';
+
+        if (substr($file, 0, strlen($vendor)) != $vendor && $file != __FILE__) {
+            $files[] = $file;
+        }
+    }
+
+    return $files;
+}
+
+function getFilesFromReadmes() {
+    $allFiles = [];
+    $start = '.. literalinclude::';
+
+    foreach (getFiles('/^.+\.rst$/') as $rst) {
+        $dirName = dirname($rst);
+
+        $lines = file($rst);
+        $lines = array_filter($lines, function (string $line) use ($start): bool {
+            return substr($line, 0, strlen($start)) == $start;
+        });
+
+        $files = array_map(function (string $line) use ($dirName, $start): string {
+            return trim($dirName . '/' . substr($line, strlen($start) + 1));
+        }, $lines);
+
+        $allFiles = array_merge($allFiles, (array) $files);
+    }
+
+    return $allFiles;
+}
+
+$phpFiles = getFiles('/^.+\.php$/');
+$filesFromReadme = getFilesFromReadmes();
+$diff = array_diff($phpFiles, $filesFromReadme);
+$diff2 = array_diff($filesFromReadme, $phpFiles);
+
+sort($diff);
+sort($diff2);
+
+foreach ($diff as $file) {
+    echo $file . PHP_EOL;
+}
+
+foreach ($diff2 as $file) {
+    echo $file . PHP_EOL;
+}
+
+if (count($diff) != 0 || count($diff2) != 0) {
+    exit(1);
+}

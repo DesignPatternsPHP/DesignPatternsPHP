@@ -30,18 +30,6 @@ msgstr ""
 "和抽象工厂类似，静态工厂模式用来创建一系列互相关联或依赖的对象，和抽象工厂模式不同的是静态工厂"
 "模式只用一个静态方法就解决了所有类型的对象创建，通常被命名为``工厂`` 或者 ``构建器``"
 
-#: ../../Creational/StaticFactory/README.rst:14
-msgid "Examples"
-msgstr "例子"
-
-#: ../../Creational/StaticFactory/README.rst:16
-msgid ""
-"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory method"
-" create cache backends or frontends"
-msgstr ""
-"Zend Framework 框架中的: ``Zend_Cache_Backend`` 和 ``_Frontend`` 使用了静态工厂设计模式"
-" 创建后端缓存或者前端缓存对象"
-
 #: ../../Creational/StaticFactory/README.rst:20
 msgid "UML Diagram"
 msgstr "UML 图"

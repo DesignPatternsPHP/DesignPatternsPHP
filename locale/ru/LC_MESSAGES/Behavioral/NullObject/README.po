@@ -60,12 +60,8 @@ msgid "Examples"
 msgstr "Примеры"
 
 #: ../../Behavioral/NullObject/README.rst:24
-msgid "Symfony2: null logger of profiler"
-msgstr "Symfony2: null logger of profiler"
-
-#: ../../Behavioral/NullObject/README.rst:25
-msgid "Symfony2: null output in Symfony/Console"
-msgstr "Symfony2: null output in Symfony/Console"
+msgid "Null logger or null output to preserve a standard way of interaction between objects, even if the shouldn't do anything"
+msgstr ""
 
 #: ../../Behavioral/NullObject/README.rst:26
 msgid "null handler in a Chain of Responsibilities pattern"

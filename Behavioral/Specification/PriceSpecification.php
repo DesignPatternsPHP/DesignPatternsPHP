@@ -1,24 +1,13 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Specification;
 
-class PriceSpecification implements SpecificationInterface
+class PriceSpecification implements Specification
 {
-    /**
-     * @var float|null
-     */
-    private $maxPrice;
+    private ?float $maxPrice;
+    private ?float $minPrice;
 
-    /**
-     * @var float|null
-     */
-    private $minPrice;
-
-    /**
-     * @param float $minPrice
-     * @param float $maxPrice
-     */
-    public function __construct($minPrice, $maxPrice)
+    public function __construct(?float $minPrice, ?float $maxPrice)
     {
         $this->minPrice = $minPrice;
         $this->maxPrice = $maxPrice;

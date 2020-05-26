@@ -37,10 +37,6 @@ msgstr ""
 msgid "PHPUnit uses fluent interfaces to build mock objects"
 msgstr ""
 
-#: ../../Structural/FluentInterface/README.rst:16
-msgid "Yii Framework: CDbCommand and CActiveRecord use this pattern, too"
-msgstr ""
-
 #: ../../Structural/FluentInterface/README.rst:19
 msgid "UML Diagram"
 msgstr ""

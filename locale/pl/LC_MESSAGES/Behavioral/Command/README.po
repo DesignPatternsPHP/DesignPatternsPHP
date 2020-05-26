@@ -58,13 +58,6 @@ msgstr ""
 "Edytor tekstu: wszystkie zdarzenia (ang. `events`) są Poleceniami, które można cofnąć `undo()`, odłożyć na stosie "
 "i zapisać."
 
-#: ../../Behavioral/Command/README.rst:25
-msgid ""
-"Symfony2: SF2 Commands that can be run from the CLI are built with just the "
-"Command pattern in mind"
-msgstr ""
-"Symfony2: Polecenie w Symfony2, które można uruchomić z poziomu konsoli (CLI - ang. `Command Line Interface`) zostały oparte na wzorcu projektowym Polecenie."
-
 #: ../../Behavioral/Command/README.rst:27
 msgid ""
 "big CLI tools use subcommands to distribute various tasks and pack them in "

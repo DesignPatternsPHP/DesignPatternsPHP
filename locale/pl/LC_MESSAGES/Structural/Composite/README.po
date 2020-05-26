@@ -41,14 +41,6 @@ msgstr ""
 "jakby obsługiwała pojedynczą instancję formularza. Kiedy metoda ``render()`` jest wywołana, "
 "uruchamia w sposób sekwencyjny metody ``render()`` na elementach tego formularza."
 
-#: ../../Structural/Composite/README.rst:16
-msgid ""
-"``Zend_Config``: a tree of configuration options, each one is a "
-"``Zend_Config`` object itself"
-msgstr ""
-"``Zend_Config``: drzewo opcji konfiguracyjnych - każdy z elementów tego drzewa jest "
-"również obiektem klasy ``Zend_Config``."
-
 #: ../../Structural/Composite/README.rst:20
 msgid "UML Diagram"
 msgstr "Diagram UML"

@@ -47,11 +47,9 @@ msgstr "Conexión a la base de datos"
 
 #: ../../Creational/Singleton/README.rst:17
 msgid ""
-"Logger (may also be a Multiton if there are many log files for several "
-"purposes)"
+"Logger"
 msgstr ""
-"Logger ( también podría ser un Multiton si hay varios ficheros de log para "
-"diferentes propósitos )"
+"Logger"
 
 #: ../../Creational/Singleton/README.rst:19
 msgid "Lock file for the application (there is only one in the filesystem ...)"

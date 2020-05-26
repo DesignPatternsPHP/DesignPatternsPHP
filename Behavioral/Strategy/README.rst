@@ -40,9 +40,9 @@ Context.php
    :language: php
    :linenos:
 
-ComparatorInterface.php
+Comparator.php
 
-.. literalinclude:: ComparatorInterface.php
+.. literalinclude:: Comparator.php
    :language: php
    :linenos:
 

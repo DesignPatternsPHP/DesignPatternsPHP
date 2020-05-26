@@ -43,14 +43,6 @@ msgstr ""
 "wird, werden alle Kindelemente durchlaufen und auf jedem wieder "
 "``render()`` aufgerufen."
 
-#: ../../Structural/Composite/README.rst:16
-msgid ""
-"``Zend_Config``: a tree of configuration options, each one is a "
-"``Zend_Config`` object itself"
-msgstr ""
-"``Zend_Config``: ein Baum aus Konfigurationsoptionen, bei dem jedes Objekt "
-"wieder eine Instanz von``Zend_Config`` ist"
-
 #: ../../Structural/Composite/README.rst:20
 msgid "UML Diagram"
 msgstr "UML Diagramm"

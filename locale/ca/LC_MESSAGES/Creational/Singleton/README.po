@@ -40,9 +40,7 @@ msgid "DB Connector"
 msgstr ""
 
 #: ../../Creational/Singleton/README.rst:17
-msgid ""
-"Logger (may also be a Multiton if there are many log files for several "
-"purposes)"
+msgid "Logger"
 msgstr ""
 
 #: ../../Creational/Singleton/README.rst:19

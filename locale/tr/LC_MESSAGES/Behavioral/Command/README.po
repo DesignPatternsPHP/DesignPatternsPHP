@@ -61,14 +61,6 @@ msgstr ""
 "Bir metin düzenleyici: bütün olaylar (events) geri alınabilen, yığılmış ve kaydedilmiş "
 "Komut'lardır."
 
-#: ../../Behavioral/Command/README.rst:25
-msgid ""
-"Symfony2: SF2 Commands that can be run from the CLI are built with "
-"just the Command pattern in mind."
-msgstr ""
-"Symfony2: SF2 CLI'dan çalıştırılabilen komutlar, yalnızca Komut deseni "
-"düşünülerek oluşturulmuştur."
-
 #: ../../Behavioral/Command/README.rst:27
 msgid ""
 "Big CLI tools use subcommands to distribute various tasks and pack "

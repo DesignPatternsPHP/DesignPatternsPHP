@@ -14,7 +14,6 @@ this object creation.
    AbstractFactory/README
    Builder/README
    FactoryMethod/README
-   Multiton/README
    Pool/README
    Prototype/README
    SimpleFactory/README

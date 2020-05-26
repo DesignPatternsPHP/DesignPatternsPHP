@@ -29,15 +29,6 @@ msgstr ""
 "Desacoplar una abstracción de su implementación para que ambas puedan "
 "variar independientemente."
 
-#: ../../Structural/Bridge/README.rst:10
-msgid "Examples"
-msgstr "Ejemplos"
-
-#: ../../Structural/Bridge/README.rst:13
-msgid "`Symfony DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
-msgstr ""
-"`Symfony DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
-
 #: ../../Structural/Bridge/README.rst:16
 msgid "UML Diagram"
 msgstr "Diagrama UML"

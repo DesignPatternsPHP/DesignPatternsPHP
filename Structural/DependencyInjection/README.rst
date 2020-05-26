@@ -22,7 +22,7 @@ Examples
    that is injected into a ``Connection`` object. For testing purposes,
    one can easily create a mock object of the configuration and inject
    that into the ``Connection`` object
--  Symfony and Zend Framework 2 already have containers for DI that
+-  many frameworks already have containers for DI that
    create objects via a configuration array and inject them where needed
    (i.e. in Controllers)
 

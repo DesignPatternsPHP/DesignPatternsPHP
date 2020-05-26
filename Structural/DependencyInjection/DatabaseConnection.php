@@ -1,17 +1,11 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Structural\DependencyInjection;
 
 class DatabaseConnection
 {
-    /**
-     * @var DatabaseConfiguration
-     */
-    private $configuration;
+    private DatabaseConfiguration $configuration;
 
-    /**
-     * @param DatabaseConfiguration $config
-     */
     public function __construct(DatabaseConfiguration $config)
     {
         $this->configuration = $config;

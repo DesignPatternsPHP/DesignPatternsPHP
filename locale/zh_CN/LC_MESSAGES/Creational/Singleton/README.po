@@ -41,9 +41,8 @@ msgstr "数据库连接器"
 
 #: ../../Creational/Singleton/README.rst:17
 msgid ""
-"Logger (may also be a Multiton if there are many log files for several "
-"purposes)"
-msgstr "日志记录器 （可能有多个实例，比如有多个日志文件因为不同的目的记录不同到的日志）"
+"Logger"
+msgstr "日志记录器"
 
 #: ../../Creational/Singleton/README.rst:19
 msgid ""

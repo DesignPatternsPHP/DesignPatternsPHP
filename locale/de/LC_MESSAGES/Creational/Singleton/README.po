@@ -47,11 +47,9 @@ msgstr "DB Konnektor"
 
 #: ../../Creational/Singleton/README.rst:17
 msgid ""
-"Logger (may also be a Multiton if there are many log files for several "
-"purposes)"
+"Logger"
 msgstr ""
-"Logger (kann auch ein Multiton sein, falls es mehrere Logfiles für "
-"verschiedene Zwecke gibt)"
+"Logger"
 
 #: ../../Creational/Singleton/README.rst:19
 msgid ""

@@ -36,11 +36,11 @@ msgstr ""
 
 #: ../../Behavioral/Mediator/README.rst:11
 msgid ""
-"All components (called Colleague) are only coupled to the MediatorInterface "
+"All components (called Colleague) are only coupled to the Mediator interface "
 "and it is a good thing because in OOP, one good friend is better than many. "
 "This is the key-feature of this pattern."
 msgstr ""
-"Wszystkie komponenty, nazywane Współpracownikami (ang. `Collegue`) są powiązane tylko z `MediatorInterface`. "
+"Wszystkie komponenty, nazywane Współpracownikami (ang. `Collegue`) są powiązane tylko z `Mediator`. "
 "Jest to kluczowy element tego wzorca."
 
 #: ../../Behavioral/Mediator/README.rst:16

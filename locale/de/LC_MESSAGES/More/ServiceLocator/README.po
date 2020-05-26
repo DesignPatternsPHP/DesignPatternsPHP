@@ -48,21 +48,6 @@ msgstr ""
 "muss. Der Service Locator selbst kann im Bootstrapping der Anwendung "
 "konfiguriert und injiziert werden."
 
-#: ../../More/ServiceLocator/README.rst:20
-msgid "Examples"
-msgstr "Beispiele"
-
-#: ../../More/ServiceLocator/README.rst:22
-msgid ""
-"Zend Framework 2 uses Service Locator to create and share services used in "
-"the framework(i.e. EventManager, ModuleManager, all custom user services "
-"provided by modules, etc...)"
-msgstr ""
-"Zend Framework 2 macht intensiven Gebrauch vom Service Locator, um im "
-"Framework Services zu erstellen und zu teilen (z.B. EventManager, "
-"ModuleManager, alle eigenen Services, die durch Module bereitgestellt "
-"werden, usw...)"
-
 #: ../../More/ServiceLocator/README.rst:27
 msgid "UML Diagram"
 msgstr "UML Diagramm"

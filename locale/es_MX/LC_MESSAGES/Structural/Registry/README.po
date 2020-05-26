@@ -40,22 +40,6 @@ msgstr ""
 msgid "Examples"
 msgstr "Ejemplos"
 
-#: ../../Structural/Registry/README.rst:15
-msgid ""
-"Zend Framework 1: ``Zend_Registry`` holds the application's logger object, "
-"front controller etc."
-msgstr ""
-"Zend Framework 1: ``Zend_Registry`` contiene el objeto de registro de "
-"eventos de la aplicación, controlador frontal, etc."
-
-#: ../../Structural/Registry/README.rst:17
-msgid ""
-"Yii Framework: ``CWebApplication`` holds all the application components, "
-"such as ``CWebUser``, ``CUrlManager``, etc."
-msgstr ""
-"Yii Framework: ``CWebApplication`` contiene todos los componenbtes de la "
-"aplicación como ``CWebUser``, ``CUrlManager``, etc."
-
 #: ../../Structural/Registry/README.rst:20
 msgid "UML Diagram"
 msgstr "Diagrama UML"

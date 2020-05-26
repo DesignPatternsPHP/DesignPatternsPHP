@@ -41,11 +41,6 @@ msgid "PHPUnit uses fluent interfaces to build mock objects"
 msgstr ""
 "PHPUnit wykorzystuje płynne interfejsy do budowy obiektów zastępczych (ang. `mock object`)."
 
-#: ../../Structural/FluentInterface/README.rst:16
-msgid "Yii Framework: CDbCommand and CActiveRecord use this pattern, too"
-msgstr ""
-"Yii Framework: CDbCommand i CActiveRecord również używają tego wzorca."
-
 #: ../../Structural/FluentInterface/README.rst:19
 msgid "UML Diagram"
 msgstr "Diagram UML"

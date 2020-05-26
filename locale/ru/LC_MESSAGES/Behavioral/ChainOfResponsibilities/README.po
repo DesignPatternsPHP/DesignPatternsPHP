@@ -54,16 +54,6 @@ msgstr ""
 "Memcached. Если запись в кеше отсутствует, вызов делегируется интерфейсу "
 "базы данных."
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
-msgid ""
-"Yii Framework: CFilterChain is a chain of controller action filters. the "
-"executing point is passed from one filter to the next along the chain, and "
-"only if all filters say \"yes\", the action can be invoked at last."
-msgstr ""
-"Yii Framework: CFilterChain — это цепочка фильтров действий контроллера. "
-"Точка вызова передаётся от фильтра к фильтру по цепочке и только если все "
-"фильтры скажут “да”, действие в итоге может быть вызвано."
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:25
 msgid "UML Diagram"
 msgstr "Диаграмма UML"

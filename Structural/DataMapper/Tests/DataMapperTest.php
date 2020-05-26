@@ -1,7 +1,8 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Structural\DataMapper\Tests;
 
+use InvalidArgumentException;
 use DesignPatterns\Structural\DataMapper\StorageAdapter;
 use DesignPatterns\Structural\DataMapper\User;
 use DesignPatterns\Structural\DataMapper\UserMapper;
@@ -19,11 +20,10 @@ class DataMapperTest extends TestCase
         $this->assertInstanceOf(User::class, $user);
     }
 
-    /**
-     * @expectedException \InvalidArgumentException
-     */
     public function testWillNotMapInvalidData()
     {
+        $this->expectException(InvalidArgumentException::class);
+
         $storage = new StorageAdapter([]);
         $mapper = new UserMapper($storage);
 

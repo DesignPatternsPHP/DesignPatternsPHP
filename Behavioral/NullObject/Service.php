@@ -1,18 +1,12 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\NullObject;
 
 class Service
 {
-    /**
-     * @var LoggerInterface
-     */
-    private $logger;
+    private Logger $logger;
 
-    /**
-     * @param LoggerInterface $logger
-     */
-    public function __construct(LoggerInterface $logger)
+    public function __construct(Logger $logger)
     {
         $this->logger = $logger;
     }

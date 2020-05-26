@@ -29,15 +29,6 @@ msgstr ""
 "Eine Abstraktion von seiner Implementierung zu entkoppeln, sodass sich "
 "diese unterscheiden können."
 
-#: ../../Structural/Bridge/README.rst:11
-msgid "Sample:"
-msgstr "Beispiel:"
-
-#: ../../Structural/Bridge/README.rst:13
-msgid "`Symfony DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
-msgstr ""
-"`Symfony DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__"
-
 #: ../../Structural/Bridge/README.rst:17
 msgid "UML Diagram"
 msgstr "UML Diagramm"

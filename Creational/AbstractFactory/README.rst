@@ -21,27 +21,57 @@ Code
 
 You can also find this code on `GitHub`_
 
-Product.php
+WriterFactory.php
 
-.. literalinclude:: Product.php
+.. literalinclude:: WriterFactory.php
    :language: php
    :linenos:
 
-ShippableProduct.php
+CsvWriter.php
 
-.. literalinclude:: ShippableProduct.php
+.. literalinclude:: CsvWriter.php
    :language: php
    :linenos:
 
-DigitalProduct.php
+JsonWriter.php
 
-.. literalinclude:: DigitalProduct.php
+.. literalinclude:: JsonWriter.php
    :language: php
    :linenos:
 
-ProductFactory.php
+UnixCsvWriter.php
 
-.. literalinclude:: ProductFactory.php
+.. literalinclude:: UnixCsvWriter.php
+   :language: php
+   :linenos:
+
+UnixJsonWriter.php
+
+.. literalinclude:: UnixJsonWriter.php
+   :language: php
+   :linenos:
+
+UnixWriterFactory.php
+
+.. literalinclude:: UnixWriterFactory.php
+   :language: php
+   :linenos:
+
+WinCsvWriter.php
+
+.. literalinclude:: WinCsvWriter.php
+   :language: php
+   :linenos:
+
+WinJsonWriter.php
+
+.. literalinclude:: WinJsonWriter.php
+   :language: php
+   :linenos:
+
+WinWriterFactory.php
+
+.. literalinclude:: WinWriterFactory.php
    :language: php
    :linenos:
 

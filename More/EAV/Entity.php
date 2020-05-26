@@ -1,18 +1,20 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\More\EAV;
+
+use SplObjectStorage;
 
 class Entity
 {
     /**
-     * @var \SplObjectStorage
+     * @var SplObjectStorage<Value,Value>
      */
     private $values;
 
     /**
      * @var string
      */
-    private $name;
+    private string $name;
 
     /**
      * @param string $name
@@ -20,7 +22,8 @@ class Entity
      */
     public function __construct(string $name, $values)
     {
-        $this->values = new \SplObjectStorage();
+        /** @var SplObjectStorage<Value,Value> values */
+        $this->values = new SplObjectStorage();
         $this->name = $name;
 
         foreach ($values as $value) {

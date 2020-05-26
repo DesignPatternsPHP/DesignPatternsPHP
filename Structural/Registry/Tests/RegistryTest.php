@@ -1,31 +1,37 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Structural\Registry\Tests;
 
+use InvalidArgumentException;
 use DesignPatterns\Structural\Registry\Registry;
-use stdClass;
+use DesignPatterns\Structural\Registry\Service;
+use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 class RegistryTest extends TestCase
 {
-    public function testSetAndGetLogger()
+    /**
+     * @var Service
+     */
+    private MockObject $service;
+
+    protected function setUp(): void
     {
-        $key = Registry::LOGGER;
-        $logger = new stdClass();
-
-        Registry::set($key, $logger);
-        $storedLogger = Registry::get($key);
-
-        $this->assertSame($logger, $storedLogger);
-        $this->assertInstanceOf(stdClass::class, $storedLogger);
+        $this->service = $this->getMockBuilder(Service::class)->getMock();
     }
 
-    /**
-     * @expectedException \InvalidArgumentException
-     */
+    public function testSetAndGetLogger()
+    {
+        Registry::set(Registry::LOGGER, $this->service);
+
+        $this->assertSame($this->service, Registry::get(Registry::LOGGER));
+    }
+
     public function testThrowsExceptionWhenTryingToSetInvalidKey()
     {
-        Registry::set('foobar', new stdClass());
+        $this->expectException(InvalidArgumentException::class);
+
+        Registry::set('foobar', $this->service);
     }
 
     /**
@@ -34,10 +40,11 @@ class RegistryTest extends TestCase
      * injected class may easily be replaced by a mockup
      *
      * @runInSeparateProcess
-     * @expectedException \InvalidArgumentException
      */
     public function testThrowsExceptionWhenTryingToGetNotSetKey()
     {
+        $this->expectException(InvalidArgumentException::class);
+
         Registry::get(Registry::LOGGER);
     }
 }

@@ -32,18 +32,6 @@ msgstr ""
 "Fabryka statyczna używa jednej metody statycznej do tworzenia wszystkich typów obiektów, jakie może tworzyć. "
 "Zwykle taka metoda nazywa się ``factory`` lub ``build``."
 
-#: ../../Creational/StaticFactory/README.rst:14
-msgid "Examples"
-msgstr "Przykłady"
-
-#: ../../Creational/StaticFactory/README.rst:16
-msgid ""
-"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory method"
-" create cache backends or frontends"
-msgstr ""
-"Zend Framework: ``Zend_Cache_Backend`` i ``_Frontend`` używa fabryki do "
-"stworzenia cache\'u typu frontend i backend."
-
 #: ../../Creational/StaticFactory/README.rst:20
 msgid "UML Diagram"
 msgstr "Diagram UML"

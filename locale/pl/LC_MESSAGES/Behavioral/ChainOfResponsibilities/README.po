@@ -52,16 +52,6 @@ msgstr ""
 "Zapis w pamięci podręcznej (caching): pierwszy obiekt jest na przykład instancją implementującą interfejs Memcached - "
 "jeżeli nie może zapisać w pamięci podręcznej żądania, wtedy przekazuje je do obiektu implementującego interfejs zapisu w bazie danych."
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
-msgid ""
-"Yii Framework: CFilterChain is a chain of controller action filters. the "
-"executing point is passed from one filter to the next along the chain, and "
-"only if all filters say \"yes\", the action can be invoked at last."
-msgstr ""
-"Yii Framework: CFilterChain jest łańcuchem filtrów dla danej akcji kontrolera. "
-"Wszystkie filtry są wykonywane po kolei w łańcuchu i dopiero jak wszystkie "
-"zwrócą pozytywny wynik finalna akcja zostanie uruchomiona."
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:25
 msgid "UML Diagram"
 msgstr "Diagram UML"

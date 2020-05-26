@@ -51,14 +51,6 @@ msgstr ""
 "Caching: das erste Objekt ist Beispielsweise eine Memcache-Instanz. Wenn es einen „Miss“ hat, dann wird an das "
 "nächste Element weitergeleitet, das eine Datenbank-Abfrage unternimmt"
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
-msgid ""
-"Yii Framework: CFilterChain is a chain of controller action filters. the executing point is passed from one filter "
-"to the next along the chain, and only if all filters say \"yes\", the action can be invoked at last."
-msgstr ""
-"Yii Framework: CFilterChain ist eine Kette von Controller Action Filters. In der Ausführung wird in der Kette "
-"immer weitergereicht und nur wenn alle Filter „ja“ sagen, wird die Aktion am Ende ausgeführt."
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:25
 msgid "UML Diagram"
 msgstr "UML Diagramm"

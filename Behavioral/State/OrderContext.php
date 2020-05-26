@@ -1,13 +1,10 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\State;
 
 class OrderContext
 {
-    /**
-     * @var State
-     */
-    private $state;
+    private State $state;
 
     public static function create(): OrderContext
     {

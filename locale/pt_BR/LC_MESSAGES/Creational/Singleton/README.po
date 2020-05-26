@@ -46,11 +46,9 @@ msgstr "Conexão ao banco de dados (DB Connector)"
 
 #: ../../Creational/Singleton/README.rst:17
 msgid ""
-"Logger (may also be a Multiton if there are many log files for several "
-"purposes)"
+"Logger"
 msgstr ""
-"Logger (pode ser necessário um Multiton se houverem mais de um arquivo de log para diferentes "
-"necessidades"
+"Logger"
 
 #: ../../Creational/Singleton/README.rst:19
 msgid ""

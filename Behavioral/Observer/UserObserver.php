@@ -1,26 +1,27 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Observer;
 
-class UserObserver implements \SplObserver
+use SplObserver;
+use SplSubject;
+
+class UserObserver implements SplObserver
 {
     /**
-     * @var User[]
+     * @var SplSubject[]
      */
-    private $changedUsers = [];
+    private array $changedUsers = [];
 
     /**
      * It is called by the Subject, usually by SplSubject::notify()
-     *
-     * @param \SplSubject $subject
      */
-    public function update(\SplSubject $subject)
+    public function update(SplSubject $subject)
     {
         $this->changedUsers[] = clone $subject;
     }
 
     /**
-     * @return User[]
+     * @return SplSubject[]
      */
     public function getChangedUsers(): array
     {

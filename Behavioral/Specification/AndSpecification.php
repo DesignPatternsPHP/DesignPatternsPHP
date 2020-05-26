@@ -1,18 +1,18 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Specification;
 
-class AndSpecification implements SpecificationInterface
+class AndSpecification implements Specification
 {
     /**
-     * @var SpecificationInterface[]
+     * @var Specification[]
      */
-    private $specifications;
+    private array $specifications;
 
     /**
-     * @param SpecificationInterface[] ...$specifications
+     * @param Specification[] $specifications
      */
-    public function __construct(SpecificationInterface ...$specifications)
+    public function __construct(Specification ...$specifications)
     {
         $this->specifications = $specifications;
     }

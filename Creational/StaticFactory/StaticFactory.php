@@ -1,6 +1,8 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Creational\StaticFactory;
+
+use InvalidArgumentException;
 
 /**
  * Note1: Remember, static means global state which is evil because it can't be mocked for tests
@@ -8,11 +10,6 @@ namespace DesignPatterns\Creational\StaticFactory;
  */
 final class StaticFactory
 {
-    /**
-     * @param string $type
-     *
-     * @return Formatter
-     */
     public static function factory(string $type): Formatter
     {
         if ($type == 'number') {
@@ -21,6 +18,6 @@ final class StaticFactory
             return new FormatString();
         }
 
-        throw new \InvalidArgumentException('Unknown format given');
+        throw new InvalidArgumentException('Unknown format given');
     }
 }

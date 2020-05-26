@@ -9,7 +9,7 @@ together. It is a good alternative to Observer IF you have a "central
 intelligence", like a controller (but not in the sense of the MVC).
 
 All components (called Colleague) are only coupled to the
-MediatorInterface and it is a good thing because in OOP, one good friend
+Mediator interface and it is a good thing because in OOP, one good friend
 is better than many. This is the key-feature of this pattern.
 
 UML Diagram
@@ -24,12 +24,6 @@ Code
 
 You can also find this code on `GitHub`_
 
-MediatorInterface.php
-
-.. literalinclude:: MediatorInterface.php
-   :language: php
-   :linenos:
-
 Mediator.php
 
 .. literalinclude:: Mediator.php
@@ -42,21 +36,21 @@ Colleague.php
    :language: php
    :linenos:
 
-Subsystem/Client.php
+Ui.php
 
-.. literalinclude:: Subsystem/Client.php
+.. literalinclude:: Ui.php
    :language: php
    :linenos:
 
-Subsystem/Database.php
+UserRepository.php
 
-.. literalinclude:: Subsystem/Database.php
+.. literalinclude:: UserRepository.php
    :language: php
    :linenos:
 
-Subsystem/Server.php
+UserRepositoryUiMediator.php
 
-.. literalinclude:: Subsystem/Server.php
+.. literalinclude:: UserRepositoryUiMediator.php
    :language: php
    :linenos:
 
