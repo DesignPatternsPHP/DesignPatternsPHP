@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2019, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# Sumita Takaki <sumita.takaki@gmail.com>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-04 00:50+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Sumita Takaki <sumita.takaki@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../Creational/Singleton/README.rst:2
+msgid "`Singleton`__"
+msgstr "`シングルトン パターン`__"
+
+#: ../../Creational/Singleton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+"**これはアンチパターンと捉えるべきです！"
+"よりよいテスト性と保守性のために、「依存性の注入」(Dependency injection）を使用してください！**"
+
+#: ../../Creational/Singleton/README.rst:8
+msgid "Purpose"
+msgstr "目的"
+
+#: ../../Creational/Singleton/README.rst:10
+msgid ""
+"To have only one instance of this object in the application that will "
+"handle all calls."
+msgstr ""
+"オブジェクトへの呼び出しを行うアプリケーション内で、そのオブジェクトのインスタンスが1つだけしか存在しないことを保証するために使用されます。"
+
+#: ../../Creational/Singleton/README.rst:14
+msgid "Examples"
+msgstr "例"
+
+#: ../../Creational/Singleton/README.rst:16
+msgid "DB Connector"
+msgstr "DBコネクター"
+
+#: ../../Creational/Singleton/README.rst:17
+msgid "Logger"
+msgstr "ロガー"
+
+#: ../../Creational/Singleton/README.rst:18
+msgid "Lock file for the application (there is only one in the filesystem ...)"
+msgstr "アプリケーションのロックファイル（ファイルシステムには一つしかありません...）"
+
+#: ../../Creational/Singleton/README.rst:22
+msgid "UML Diagram"
+msgstr "クラス図"
+
+#: ../../Creational/Singleton/README.rst:29
+msgid "Code"
+msgstr "サンプルコード"
+
+#: ../../Creational/Singleton/README.rst:31
+msgid "You can also find this code on `GitHub`_"
+msgstr "サンプルコードは `GitHub`_ でも確認することができます。"
+
+#: ../../Creational/Singleton/README.rst:33
+msgid "Singleton.php"
+msgstr ""
+
+#: ../../Creational/Singleton/README.rst:40
+msgid "Test"
+msgstr "テスト"
+
+#: ../../Creational/Singleton/README.rst:42
+msgid "Tests/SingletonTest.php"
+msgstr ""
+

@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2019, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-04 00:50+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../Behavioral/State/README.rst:2
+msgid "`State`__"
+msgstr ""
+
+#: ../../Behavioral/State/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Behavioral/State/README.rst:7
+msgid ""
+"Encapsulate varying behavior for the same routine based on an object's "
+"state. This can be a cleaner way for an object to change its behavior at "
+"runtime without resorting to large monolithic conditional statements."
+msgstr ""
+
+#: ../../Behavioral/State/README.rst:12
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/State/README.rst:19
+msgid "Code"
+msgstr ""
+
+#: ../../Behavioral/State/README.rst:21
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Behavioral/State/README.rst:23
+msgid "OrderContext.php"
+msgstr ""
+
+#: ../../Behavioral/State/README.rst:29
+msgid "State.php"
+msgstr ""
+
+#: ../../Behavioral/State/README.rst:35
+msgid "StateCreated.php"
+msgstr ""
+
+#: ../../Behavioral/State/README.rst:41
+msgid "StateShipped.php"
+msgstr ""
+
+#: ../../Behavioral/State/README.rst:47
+msgid "StateDone.php"
+msgstr ""
+
+#: ../../Behavioral/State/README.rst:54
+msgid "Test"
+msgstr ""
+
+#: ../../Behavioral/State/README.rst:56
+msgid "Tests/StateTest.php"
+msgstr ""
+
