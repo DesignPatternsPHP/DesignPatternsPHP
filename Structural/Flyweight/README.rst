@@ -53,5 +53,5 @@ Tests/FlyweightTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Flyweight
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Structural/Flyweight
 .. __: https://en.wikipedia.org/wiki/Flyweight_pattern

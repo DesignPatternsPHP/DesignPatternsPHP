@@ -61,7 +61,7 @@ msgid ""
 msgstr ""
 "Bu desenle somut sınıfların ayrışımı kolaylaşır ve kod bünyesindeki kopyala-yapıştır "
 "işlemi azalır. Bu yüzden bu desenle her yerde karşılaşabilirsiniz (örn. "
-"`Oppa\Agent\AgentCrud <https://github.com/k-gun/oppa/blob/master/src/Agent/AgentCrud.php>`__))."
+"`Oppa\Agent\AgentCrud <https://github.com/k-gun/oppa/blob/main/src/Agent/AgentCrud.php>`__))."
 
 #: ../../Behavioral/TemplateMethod/README.rst:24
 msgid "UML Diagram"

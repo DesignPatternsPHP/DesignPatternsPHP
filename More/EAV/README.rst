@@ -50,5 +50,5 @@ Tests/EAVTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/More/EAV
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/More/EAV
 .. __: https://en.wikipedia.org/wiki/Entity–attribute–value_model

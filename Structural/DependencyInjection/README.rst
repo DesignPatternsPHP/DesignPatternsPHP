@@ -59,5 +59,5 @@ Tests/DependencyInjectionTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/DependencyInjection
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Structural/DependencyInjection
 .. __: http://en.wikipedia.org/wiki/Dependency_injection

@@ -101,5 +101,5 @@ Tests/DirectorTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Builder
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Creational/Builder
 .. __: http://en.wikipedia.org/wiki/Builder_pattern
