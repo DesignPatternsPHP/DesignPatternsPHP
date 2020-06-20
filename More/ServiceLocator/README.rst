@@ -60,5 +60,5 @@ Tests/ServiceLocatorTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/More/ServiceLocator
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/More/ServiceLocator
 .. __: http://en.wikipedia.org/wiki/Service_locator_pattern

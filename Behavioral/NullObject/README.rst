@@ -70,5 +70,5 @@ Tests/LoggerTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/NullObject
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Behavioral/NullObject
 .. __: http://en.wikipedia.org/wiki/Null_Object_pattern

@@ -52,5 +52,5 @@ Tests/PrototypeTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Prototype
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Creational/Prototype
 .. __: http://en.wikipedia.org/wiki/Prototype_pattern

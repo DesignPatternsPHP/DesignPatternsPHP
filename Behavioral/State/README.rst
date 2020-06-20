@@ -60,5 +60,5 @@ Tests/StateTest.php
    :linenos:
 
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/State
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Behavioral/State
 .. __: http://en.wikipedia.org/wiki/State_pattern

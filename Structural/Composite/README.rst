@@ -59,5 +59,5 @@ Tests/CompositeTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Composite
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Structural/Composite
 .. __: http://en.wikipedia.org/wiki/Composite_pattern

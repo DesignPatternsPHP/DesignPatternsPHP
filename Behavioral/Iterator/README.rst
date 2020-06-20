@@ -53,5 +53,5 @@ Tests/IteratorTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Iterator
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Behavioral/Iterator
 .. __: http://en.wikipedia.org/wiki/Iterator_pattern
