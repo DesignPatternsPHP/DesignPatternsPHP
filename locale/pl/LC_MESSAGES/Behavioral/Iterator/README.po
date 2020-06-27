@@ -64,26 +64,6 @@ msgstr "Kod"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Ten kod znajdziesz również na `GitHub`_."
 
-#: ../../Behavioral/Iterator/README.rst:36
-msgid "Book.php"
-msgstr "Book.php"
-
-#: ../../Behavioral/Iterator/README.rst:42
-msgid "BookList.php"
-msgstr "BookList.php"
-
-#: ../../Behavioral/Iterator/README.rst:48
-msgid "BookListIterator.php"
-msgstr "BookListIterator.php"
-
-#: ../../Behavioral/Iterator/README.rst:54
-msgid "BookListReverseIterator.php"
-msgstr "BookListReverseIterator.php"
-
 #: ../../Behavioral/Iterator/README.rst:61
 msgid "Test"
 msgstr "Testy"
-
-#: ../../Behavioral/Iterator/README.rst:63
-msgid "Tests/IteratorTest.php"
-msgstr "Tests/IteratorTest.php"

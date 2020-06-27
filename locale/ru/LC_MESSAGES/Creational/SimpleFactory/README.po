@@ -25,10 +25,14 @@ msgstr "SimpleFactory в примере ниже, это паттерн «Про
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
-"It differs from the static factory because it is not static."
+"It differs from the static factory because it is not static. "
+"Therefore, you can have multiple factories, differently parameterized, "
+"you can subclass it and you can mock it. It always should be preferred "
+"over a static factory!"
 msgstr ""
 "Она отличается от Статической Фабрики тем, что собственно *не является "
-"статической*. Потому как вы должны понимать: статическая => глобальная => зло!"
+"статической*. Таким образом, вы можете иметь множество фабрик с разными параметрами. "
+"Простая фабрика всегда должна быть предпочтительнее Статической фабрики!"
 
 #: ../../Creational/SimpleFactory/README.rst:10
 msgid ""
@@ -45,7 +49,7 @@ msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:16
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Creational/SimpleFactory/README.rst:23
 msgid "Code"
@@ -55,26 +59,6 @@ msgstr "Код"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
-#: ../../Creational/SimpleFactory/README.rst:27
-msgid "SimpleFactory.php"
-msgstr "SimpleFactory.php"
-
-#: ../../Creational/SimpleFactory/README.rst:33
-msgid "VehicleInterface.php"
-msgstr "VehicleInterface.php"
-
-#: ../../Creational/SimpleFactory/README.rst:39
-msgid "Bicycle.php"
-msgstr "Bicycle.php"
-
-#: ../../Creational/SimpleFactory/README.rst:45
-msgid "Scooter.php"
-msgstr "Scooter.php"
-
 #: ../../Creational/SimpleFactory/README.rst:52
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Creational/SimpleFactory/README.rst:54
-msgid "Tests/SimpleFactoryTest.php"
-msgstr "Tests/SimpleFactoryTest.php"

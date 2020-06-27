@@ -4,16 +4,17 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2016-03-13 14:26-0300\n"
-"Last-Translator: Leonam Pereira Dias <leonam.pd@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-01-29 09:18-0300\n"
+"First-Translator: Leonam Pereira Dias <leonam.pd@gmail.com>\n"
+"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 
 #: ../../Structural/Adapter/README.rst:2
 msgid "`Adapter / Wrapper`__"
-msgstr "Adaptador"
+msgstr "`Adaptador (Adapter / Wrapper)`__"
 
 #: ../../Structural/Adapter/README.rst:5
 msgid "Purpose"
@@ -26,7 +27,7 @@ msgid ""
 "incompatible interfaces by providing its interface to clients while using "
 "the original interface."
 msgstr ""
-"Para adaptar (compatibilizar) uma interface de uma classe a outra interface. Um "
+"Adaptar (compatibilizar) uma interface de uma classe a outra interface. Um "
 "adapter permite que classes trabalhem juntas quando, normalmente isso não seria possível "
 "devido imcompatibilidade, provendo sua interface para seus clientes enquanto usa a"
 "interface original"
@@ -37,7 +38,7 @@ msgstr "Exemplos"
 
 #: ../../Structural/Adapter/README.rst:15
 msgid "DB Client libraries adapter"
-msgstr ""
+msgstr "Adaptador de bibliotecas clientes de banco de dados"
 
 #: ../../Structural/Adapter/README.rst:16
 msgid ""
@@ -55,38 +56,9 @@ msgid "Code"
 msgstr "Código"
 
 #: ../../Structural/Adapter/README.rst:29
-<<<<<<< HEAD
 msgid "You can also find these code on `GitHub`_"
 msgstr "Você também pode encontrar este código no `Github`_"
-=======
-msgid "You can also find this code on `GitHub`_"
-msgstr ""
->>>>>>> c1f0faccc8503a78a1b4cae192aaef127a2edb02
-
-#: ../../Structural/Adapter/README.rst:31
-msgid "PaperBookInterface.php"
-msgstr ""
-
-#: ../../Structural/Adapter/README.rst:37
-msgid "Book.php"
-msgstr ""
-
-#: ../../Structural/Adapter/README.rst:43
-msgid "EBookAdapter.php"
-msgstr ""
-
-#: ../../Structural/Adapter/README.rst:49
-msgid "EBookInterface.php"
-msgstr ""
-
-#: ../../Structural/Adapter/README.rst:55
-msgid "Kindle.php"
-msgstr ""
 
 #: ../../Structural/Adapter/README.rst:62
 msgid "Test"
-msgstr ""
-
-#: ../../Structural/Adapter/README.rst:64
-msgid "Tests/AdapterTest.php"
-msgstr ""
+msgstr "Teste"

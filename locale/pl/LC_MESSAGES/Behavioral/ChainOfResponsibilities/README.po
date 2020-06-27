@@ -52,16 +52,6 @@ msgstr ""
 "Zapis w pamięci podręcznej (caching): pierwszy obiekt jest na przykład instancją implementującą interfejs Memcached - "
 "jeżeli nie może zapisać w pamięci podręcznej żądania, wtedy przekazuje je do obiektu implementującego interfejs zapisu w bazie danych."
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
-msgid ""
-"Yii Framework: CFilterChain is a chain of controller action filters. the "
-"executing point is passed from one filter to the next along the chain, and "
-"only if all filters say \"yes\", the action can be invoked at last."
-msgstr ""
-"Yii Framework: CFilterChain jest łańcuchem filtrów dla danej akcji kontrolera. "
-"Wszystkie filtry są wykonywane po kolei w łańcuchu i dopiero jak wszystkie "
-"zwrócą pozytywny wynik finalna akcja zostanie uruchomiona."
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:25
 msgid "UML Diagram"
 msgstr "Diagram UML"
@@ -74,26 +64,6 @@ msgstr "Kod"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Ten kod znajdziesz również na `GitHub`_."
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:36
-msgid "Request.php"
-msgstr "Request.php"
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:42
-msgid "Handler.php"
-msgstr "Handler.php"
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:48
-msgid "Responsible/SlowStorage.php"
-msgstr "Responsible/SlowStorage.php"
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:54
-msgid "Responsible/FastStorage.php"
-msgstr "Responsible/FastStorage.php"
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:61
 msgid "Test"
 msgstr "Testy"
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:63
-msgid "Tests/ChainTest.php"
-msgstr "Tests/ChainTest.php"

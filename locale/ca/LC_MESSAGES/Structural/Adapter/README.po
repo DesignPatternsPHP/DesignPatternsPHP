@@ -53,30 +53,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Structural/Adapter/README.rst:31
-msgid "PaperBookInterface.php"
-msgstr ""
-
-#: ../../Structural/Adapter/README.rst:37
-msgid "Book.php"
-msgstr ""
-
-#: ../../Structural/Adapter/README.rst:43
-msgid "EBookAdapter.php"
-msgstr ""
-
-#: ../../Structural/Adapter/README.rst:49
-msgid "EBookInterface.php"
-msgstr ""
-
-#: ../../Structural/Adapter/README.rst:55
-msgid "Kindle.php"
-msgstr ""
-
 #: ../../Structural/Adapter/README.rst:62
 msgid "Test"
-msgstr ""
-
-#: ../../Structural/Adapter/README.rst:64
-msgid "Tests/AdapterTest.php"
 msgstr ""

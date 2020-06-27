@@ -10,12 +10,6 @@ abstract factory pattern is that the static factory pattern uses just
 one static method to create all types of objects it can create. It is
 usually named ``factory`` or ``build``.
 
-Examples
---------
-
--  Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory
-   method create cache backends or frontends
-
 UML Diagram
 -----------
 
@@ -34,9 +28,9 @@ StaticFactory.php
    :language: php
    :linenos:
 
-FormatterInterface.php
+Formatter.php
 
-.. literalinclude:: FormatterInterface.php
+.. literalinclude:: Formatter.php
    :language: php
    :linenos:
 
@@ -61,4 +55,4 @@ Tests/StaticFactoryTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/StaticFactory
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Creational/StaticFactory

@@ -1,13 +1,10 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Structural\Composite;
 
-class TextElement implements RenderableInterface
+class TextElement implements Renderable
 {
-    /**
-     * @var string
-     */
-    private $text;
+    private string $text;
 
     public function __construct(string $text)
     {

@@ -40,9 +40,9 @@ Context.php
    :language: php
    :linenos:
 
-ComparatorInterface.php
+Comparator.php
 
-.. literalinclude:: ComparatorInterface.php
+.. literalinclude:: Comparator.php
    :language: php
    :linenos:
 
@@ -67,5 +67,5 @@ Tests/StrategyTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Strategy
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Behavioral/Strategy
 .. __: http://en.wikipedia.org/wiki/Strategy_pattern

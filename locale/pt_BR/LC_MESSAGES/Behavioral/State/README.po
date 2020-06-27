@@ -4,20 +4,20 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-12 12:00-0300\n"
+"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 
 #: ../../Behavioral/State/README.rst:2
 msgid "`State`__"
-msgstr ""
+msgstr "`Estado`__"
 
 #: ../../Behavioral/State/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Behavioral/State/README.rst:7
 msgid ""
@@ -25,39 +25,23 @@ msgid ""
 "state. This can be a cleaner way for an object to change its behavior at "
 "runtime without resorting to large monolithic conditional statements."
 msgstr ""
+"Encapsular comportamentos diversos para a mesma rotina baseado no estado "
+"de um objeto. Este pode ser uma forma limpa para um objeto alterar o seu "
+"comportamento em tempo de execução sem recorrer a grandes declarações "
+"condicionais monolíticas."
 
 #: ../../Behavioral/State/README.rst:12
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Behavioral/State/README.rst:19
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Behavioral/State/README.rst:21
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
-
-#: ../../Behavioral/State/README.rst:23
-msgid "OrderController.php"
-msgstr ""
-
-#: ../../Behavioral/State/README.rst:29
-msgid "OrderFactory.php"
-msgstr ""
-
-#: ../../Behavioral/State/README.rst:35
-msgid "OrderInterface.php"
-msgstr ""
-
-#: ../../Behavioral/State/README.rst:41
-msgid "ShippingOrder.php"
-msgstr ""
-
-#: ../../Behavioral/State/README.rst:47
-msgid "CreateOrder.php"
-msgstr ""
+msgstr "Você também pode encontrar este código no `GitHub`_"
 
 #: ../../Behavioral/State/README.rst:54
 msgid "Test"
-msgstr ""
+msgstr "Teste"

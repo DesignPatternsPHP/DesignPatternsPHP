@@ -72,26 +72,6 @@ msgstr "Kod"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Ten kod znajdziesz również na `GitHub`_."
 
-#: ../../Behavioral/Strategy/README.rst:37
-msgid "Context.php"
-msgstr "Context.php"
-
-#: ../../Behavioral/Strategy/README.rst:43
-msgid "ComparatorInterface.php"
-msgstr "ComparatorInterface.php"
-
-#: ../../Behavioral/Strategy/README.rst:49
-msgid "DateComparator.php"
-msgstr "DateComparator.php"
-
-#: ../../Behavioral/Strategy/README.rst:55
-msgid "IdComparator.php"
-msgstr "IdComparator.php"
-
 #: ../../Behavioral/Strategy/README.rst:62
 msgid "Test"
 msgstr "Testy"
-
-#: ../../Behavioral/Strategy/README.rst:64
-msgid "Tests/StrategyTest.php"
-msgstr "Tests/StrategyTest.php"

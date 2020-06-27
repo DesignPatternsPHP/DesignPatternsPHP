@@ -21,8 +21,7 @@ client code.
 Examples
 --------
 
--  Symfony2: null logger of profiler
--  Symfony2: null output in Symfony/Console
+- Null logger or null output to preserve a standard way of interaction between objects, even if the shouldn't do anything
 -  null handler in a Chain of Responsibilities pattern
 -  null command in a Command pattern
 
@@ -44,9 +43,9 @@ Service.php
    :language: php
    :linenos:
 
-LoggerInterface.php
+Logger.php
 
-.. literalinclude:: LoggerInterface.php
+.. literalinclude:: Logger.php
    :language: php
    :linenos:
 
@@ -71,5 +70,5 @@ Tests/LoggerTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/NullObject
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Behavioral/NullObject
 .. __: http://en.wikipedia.org/wiki/Null_Object_pattern

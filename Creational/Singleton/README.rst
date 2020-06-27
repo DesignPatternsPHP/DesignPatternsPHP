@@ -14,8 +14,7 @@ Examples
 --------
 
 -  DB Connector
--  Logger (may also be a Multiton if there are many log files for
-   several purposes)
+-  Logger
 -  Lock file for the application (there is only one in the filesystem
    ...)
 
@@ -46,5 +45,5 @@ Tests/SingletonTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Singleton
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Creational/Singleton
 .. __: http://en.wikipedia.org/wiki/Singleton_pattern

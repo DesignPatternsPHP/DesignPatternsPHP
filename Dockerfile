@@ -1,7 +1,17 @@
-FROM php:7.2.0-cli
-WORKDIR /opt/php
-RUN apt-get update \
-    && apt-get install -y zlib1g-dev wget git-core \
-    && docker-php-ext-install zip
-ADD . /opt/php
-CMD [ "./docker/test_runner.sh" ]
+FROM composer AS composer
+WORKDIR /app
+ADD . /app
+RUN composer install \
+    && ./vendor/bin/phpcs . \
+    && ./vendor/bin/phpunit
+
+FROM python AS sphinx_build
+WORKDIR /app
+COPY --from=composer /app /app
+RUN pip3 install Sphinx sphinx_rtd_theme
+RUN make html
+
+FROM nginx
+WORKDIR /usr/share/nginx/html
+COPY --from=sphinx_build /app/_build/html /usr/share/nginx/html
+RUN rm index.html && mv README.html index.html

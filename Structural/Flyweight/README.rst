@@ -20,21 +20,27 @@ Code
 
 You can also find this code on `GitHub`_
 
-FlyweightInterface.php
+Text.php
 
-.. literalinclude:: FlyweightInterface.php
+.. literalinclude:: Text.php
    :language: php
    :linenos:
 
-CharacterFlyweight.php
+Word.php
 
-.. literalinclude:: CharacterFlyweight.php
+.. literalinclude:: Word.php
    :language: php
    :linenos:
 
-FlyweightFactory.php
+Character.php
 
-.. literalinclude:: FlyweightFactory.php
+.. literalinclude:: Character.php
+   :language: php
+   :linenos:
+
+TextFactory.php
+
+.. literalinclude:: TextFactory.php
    :language: php
    :linenos:
 
@@ -47,5 +53,5 @@ Tests/FlyweightTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Flyweight
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Structural/Flyweight
 .. __: https://en.wikipedia.org/wiki/Flyweight_pattern

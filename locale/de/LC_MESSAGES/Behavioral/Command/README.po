@@ -57,14 +57,6 @@ msgstr ""
 "Ein Texteditor: alle Ereignisse sind Befehle, die rückgängig gemacht, gestapelt und "
 "gespeichert werden können."
 
-#: ../../Behavioral/Command/README.rst:25
-msgid ""
-"Symfony2: SF2 Commands that can be run from the CLI are built with just the Command pattern in "
-"mind"
-msgstr ""
-"Symfony2: Commands die auf der Konsole ausgeführt werden können, werden als Command Muster "
-"entwickelt."
-
 #: ../../Behavioral/Command/README.rst:27
 msgid ""
 "big CLI tools use subcommands to distribute various tasks and pack them in \"modules\", each "
@@ -85,26 +77,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du kannst diesen Code auch auf `GitHub` einsehen_"
 
-#: ../../Behavioral/Command/README.rst:43
-msgid "CommandInterface.php"
-msgstr "CommandInterface.php"
-
-#: ../../Behavioral/Command/README.rst:49
-msgid "HelloCommand.php"
-msgstr "HelloCommand.php"
-
-#: ../../Behavioral/Command/README.rst:55
-msgid "Receiver.php"
-msgstr "Receiver.php"
-
-#: ../../Behavioral/Command/README.rst:61
-msgid "Invoker.php"
-msgstr "Invoker.php"
-
 #: ../../Behavioral/Command/README.rst:68
 msgid "Test"
 msgstr "Теst"
-
-#: ../../Behavioral/Command/README.rst:70
-msgid "Tests/CommandTest.php"
-msgstr "Tests/CommandTest.php"

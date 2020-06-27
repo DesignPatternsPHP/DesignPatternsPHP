@@ -7,12 +7,6 @@ Purpose
 Decouple an abstraction from its implementation so that the two can vary
 independently.
 
-Examples
---------
-
--  `Symfony
-   DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__
-
 UML Diagram
 -----------
 
@@ -25,9 +19,9 @@ Code
 
 You can also find this code on `GitHub`_
 
-FormatterInterface.php
+Formatter.php
 
-.. literalinclude:: FormatterInterface.php
+.. literalinclude:: Formatter.php
    :language: php
    :linenos:
 
@@ -55,6 +49,12 @@ HelloWorldService.php
    :language: php
    :linenos:
 
+PingService.php
+
+.. literalinclude:: PingService.php
+   :language: php
+   :linenos:
+
 Test
 ----
 
@@ -64,5 +64,5 @@ Tests/BridgeTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Bridge
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Structural/Bridge
 .. __: http://en.wikipedia.org/wiki/Bridge_pattern

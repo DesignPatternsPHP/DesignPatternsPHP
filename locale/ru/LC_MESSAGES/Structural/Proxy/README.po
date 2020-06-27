@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../Structural/Proxy/README.rst:17
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Structural/Proxy/README.rst:24
 msgid "Code"
@@ -52,14 +52,6 @@ msgstr "Код"
 #: ../../Structural/Proxy/README.rst:26
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
-
-#: ../../Structural/Proxy/README.rst:28
-msgid "Record.php"
-msgstr "Record.php"
-
-#: ../../Structural/Proxy/README.rst:34
-msgid "RecordProxy.php"
-msgstr "RecordProxy.php"
 
 #: ../../Structural/Proxy/README.rst:41
 msgid "Test"

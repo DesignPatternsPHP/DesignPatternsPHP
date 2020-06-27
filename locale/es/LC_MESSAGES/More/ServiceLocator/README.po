@@ -38,17 +38,6 @@ msgid ""
 " inject the Service Locator object on bootstrap."
 msgstr ""
 
-#: ../../More/ServiceLocator/README.rst:20
-msgid "Examples"
-msgstr ""
-
-#: ../../More/ServiceLocator/README.rst:22
-msgid ""
-"Zend Framework 2 uses Service Locator to create and share services used in "
-"the framework(i.e. EventManager, ModuleManager, all custom user services "
-"provided by modules, etc...)"
-msgstr ""
-
 #: ../../More/ServiceLocator/README.rst:27
 msgid "UML Diagram"
 msgstr ""
@@ -61,34 +50,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr "Puedes encontrar el código en `GitHub`_"
 
-#: ../../More/ServiceLocator/README.rst:38
-msgid "ServiceLocatorInterface.php"
-msgstr ""
-
-#: ../../More/ServiceLocator/README.rst:44
-msgid "ServiceLocator.php"
-msgstr ""
-
-#: ../../More/ServiceLocator/README.rst:50
-msgid "LogServiceInterface.php"
-msgstr ""
-
-#: ../../More/ServiceLocator/README.rst:56
-msgid "LogService.php"
-msgstr ""
-
-#: ../../More/ServiceLocator/README.rst:62
-msgid "DatabaseServiceInterface.php"
-msgstr ""
-
-#: ../../More/ServiceLocator/README.rst:68
-msgid "DatabaseService.php"
-msgstr ""
-
 #: ../../More/ServiceLocator/README.rst:75
 msgid "Test"
-msgstr ""
-
-#: ../../More/ServiceLocator/README.rst:77
-msgid "Tests/ServiceLocatorTest.php"
 msgstr ""

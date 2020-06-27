@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../Structural/Adapter/README.rst:20
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Structural/Adapter/README.rst:27
 msgid "Code"
@@ -63,30 +63,6 @@ msgstr "Код"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
-#: ../../Structural/Adapter/README.rst:31
-msgid "PaperBookInterface.php"
-msgstr "PaperBookInterface.php"
-
-#: ../../Structural/Adapter/README.rst:37
-msgid "Book.php"
-msgstr "Book.php"
-
-#: ../../Structural/Adapter/README.rst:43
-msgid "EBookAdapter.php"
-msgstr "EBookAdapter.php"
-
-#: ../../Structural/Adapter/README.rst:49
-msgid "EBookInterface.php"
-msgstr "EBookInterface.php"
-
-#: ../../Structural/Adapter/README.rst:55
-msgid "Kindle.php"
-msgstr "Kindle.php"
-
 #: ../../Structural/Adapter/README.rst:62
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Structural/Adapter/README.rst:64
-msgid "Tests/AdapterTest.php"
-msgstr "Tests/AdapterTest.php"

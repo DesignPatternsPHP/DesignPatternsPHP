@@ -1,13 +1,10 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Structural\DataMapper;
 
 class StorageAdapter
 {
-    /**
-     * @var array
-     */
-    private $data = [];
+    private array $data = [];
 
     public function __construct(array $data)
     {

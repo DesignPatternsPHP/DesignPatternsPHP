@@ -46,20 +46,6 @@ msgstr ""
 "bilmeksizin uygulama sınıflarında kullanabilirsiniz. ``ServiceLocator`` nesnesini "
 "önyüklemede (bootstrap) yapılandırabilir ve aktarım (injection) yapabilirsiniz."
 
-#: ../../More/ServiceLocator/README.rst:19
-msgid "Examples"
-msgstr "Örnekler"
-
-#: ../../More/ServiceLocator/README.rst:22
-msgid ""
-"Zend Framework 2 uses Service Locator to create and share services "
-"used in the framework(i.e. EventManager, ModuleManager, all custom "
-"user services provided by modules, etc...)"
-msgstr ""
-"Zend Framework 2: çatı içerisinde kullanılan hizmetleri oluşturmak ve bunları paylaşmak "
-"için Hizmet Bulucu kullanır (örn. Olay Yöneticisi (Event Manager), Modül Yöneticisi (Module Manager), "
-"kullanıcı tarafından modüller aracılığı ile sağlanan tüm hizmetler, vs.)."
-
 #: ../../More/ServiceLocator/README.rst:26
 msgid "UML Diagram"
 msgstr "UML Diyagramı"

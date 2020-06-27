@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2019, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-04 00:50+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../Creational/StaticFactory/README.rst:2
+msgid "Static Factory"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:7
+msgid ""
+"Similar to the AbstractFactory, this pattern is used to create series of "
+"related or dependent objects. The difference between this and the "
+"abstract factory pattern is that the static factory pattern uses just one"
+" static method to create all types of objects it can create. It is "
+"usually named ``factory`` or ``build``."
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:14
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:21
+msgid "Code"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:23
+msgid "You can also find this code on `GitHub`_"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:25
+msgid "StaticFactory.php"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:31
+msgid "Formatter.php"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:37
+msgid "FormatString.php"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:43
+msgid "FormatNumber.php"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:50
+msgid "Test"
+msgstr ""
+
+#: ../../Creational/StaticFactory/README.rst:52
+msgid "Tests/StaticFactoryTest.php"
+msgstr ""
+

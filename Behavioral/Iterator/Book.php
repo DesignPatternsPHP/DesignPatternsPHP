@@ -1,18 +1,11 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Iterator;
 
 class Book
 {
-    /**
-     * @var string
-     */
-    private $author;
-
-    /**
-     * @var string
-     */
-    private $title;
+    private string $author;
+    private string $title;
 
     public function __construct(string $title, string $author)
     {

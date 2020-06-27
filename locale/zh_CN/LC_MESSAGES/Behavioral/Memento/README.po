@@ -102,23 +102,7 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Behavioral/Memento/README.rst:57
-msgid "Memento.php"
-msgstr ""
-
-#: ../../Behavioral/Memento/README.rst:63
-msgid "Originator.php"
-msgstr ""
-
-#: ../../Behavioral/Memento/README.rst:69
-msgid "Caretaker.php"
-msgstr ""
-
 #: ../../Behavioral/Memento/README.rst:76
 msgid "Test"
-msgstr ""
-
-#: ../../Behavioral/Memento/README.rst:78
-msgid "Tests/MementoTest.php"
 msgstr ""
 

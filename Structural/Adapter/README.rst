@@ -28,27 +28,27 @@ Code
 
 You can also find this code on `GitHub`_
 
-BookInterface.php
-
-.. literalinclude:: BookInterface.php
-   :language: php
-   :linenos:
-
 Book.php
 
 .. literalinclude:: Book.php
    :language: php
    :linenos:
 
-EBookAdapter.php
+PaperBook.php
 
-.. literalinclude:: EBookAdapter.php
+.. literalinclude:: PaperBook.php
    :language: php
    :linenos:
 
-EBookInterface.php
+EBook.php
 
-.. literalinclude:: EBookInterface.php
+.. literalinclude:: EBook.php
+   :language: php
+   :linenos:
+
+EBookAdapter.php
+
+.. literalinclude:: EBookAdapter.php
    :language: php
    :linenos:
 
@@ -67,5 +67,5 @@ Tests/AdapterTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Adapter
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Structural/Adapter
 .. __: http://en.wikipedia.org/wiki/Adapter_pattern

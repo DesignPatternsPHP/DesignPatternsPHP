@@ -24,23 +24,23 @@ msgstr "Назначение"
 #: ../../Creational/FactoryMethod/README.rst:7
 msgid ""
 "The good point over the SimpleFactory is you can subclass it to implement "
-"different ways to create objects"
+"different ways to create objects."
 msgstr ""
 "Выгодное отличие от SimpleFactory в том, что вы можете вынести реализацию "
 "создания объектов в подклассы."
 
 #: ../../Creational/FactoryMethod/README.rst:10
-msgid "For simple case, this abstract class could be just an interface"
+msgid "For simple cases, this abstract class could be just an interface."
 msgstr ""
 "В простых случаях, этот абстрактный класс может быть только интерфейсом."
 
 #: ../../Creational/FactoryMethod/README.rst:12
 msgid ""
 "This pattern is a \"real\" Design Pattern because it achieves the "
-"\"Dependency Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
+"Dependency Inversion principle a.k.a the \"D\" in SOLID principles."
 msgstr ""
 "Этот паттерн является «настоящим» Шаблоном Проектирования, потому что он "
-"следует «Принципу инверсии зависимостей\" ака \"D\" в `S.O.L.I.D <https://"
+"следует «Принципу инверсии зависимостей\" также известному как \"D\" в `S.O.L.I.D <https://"
 "ru.wikipedia.org/wiki/SOLID_(объектно-ориентированное_программирование)>`_."
 
 #: ../../Creational/FactoryMethod/README.rst:15
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../Creational/FactoryMethod/README.rst:20
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Creational/FactoryMethod/README.rst:27
 msgid "Code"
@@ -64,38 +64,6 @@ msgstr "Код"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
-#: ../../Creational/FactoryMethod/README.rst:31
-msgid "FactoryMethod.php"
-msgstr "FactoryMethod.php"
-
-#: ../../Creational/FactoryMethod/README.rst:37
-msgid "ItalianFactory.php"
-msgstr "ItalianFactory.php"
-
-#: ../../Creational/FactoryMethod/README.rst:43
-msgid "GermanFactory.php"
-msgstr "GermanFactory.php"
-
-#: ../../Creational/FactoryMethod/README.rst:49
-msgid "VehicleInterface.php"
-msgstr "VehicleInterface.php"
-
-#: ../../Creational/FactoryMethod/README.rst:55
-msgid "Porsche.php"
-msgstr "Porsche.php"
-
-#: ../../Creational/FactoryMethod/README.rst:61
-msgid "Bicycle.php"
-msgstr "Bicycle.php"
-
-#: ../../Creational/FactoryMethod/README.rst:67
-msgid "Ferrari.php"
-msgstr "Ferrari.php"
-
 #: ../../Creational/FactoryMethod/README.rst:74
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Creational/FactoryMethod/README.rst:76
-msgid "Tests/FactoryMethodTest.php"
-msgstr "Tests/FactoryMethodTest.php"

@@ -17,6 +17,10 @@ msgstr ""
 "`Объектный пул <https://ru.wikipedia.org/wiki/Объектный_пул>`_ (`Pool`__)"
 
 #: ../../Creational/Pool/README.rst:4
+msgid "Purpose"
+msgstr "Назначение"
+
+#: ../../Creational/Pool/README.rst:4
 msgid ""
 "The **object pool pattern** is a software creational design pattern that "
 "uses a set of initialized objects kept ready to use – a \"pool\" – rather "
@@ -63,7 +67,7 @@ msgstr ""
 
 #: ../../Creational/Pool/README.rst:25
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Creational/Pool/README.rst:32
 msgid "Code"
@@ -73,26 +77,6 @@ msgstr "Код"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
-#: ../../Creational/Pool/README.rst:36
-msgid "Pool.php"
-msgstr "Pool.php"
-
-#: ../../Creational/Pool/README.rst:42
-msgid "Processor.php"
-msgstr "Processor.php"
-
-#: ../../Creational/Pool/README.rst:48
-msgid "Worker.php"
-msgstr "Worker.php"
-
 #: ../../Creational/Pool/README.rst:55
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Creational/Pool/README.rst:57
-msgid "Tests/PoolTest.php"
-msgstr "Tests/PoolTest.php"
-
-#: ../../Creational/Pool/README.rst:63
-msgid "Tests/TestWorker.php"
-msgstr "Tests/TestWorker.php"

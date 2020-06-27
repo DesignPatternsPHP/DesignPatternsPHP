@@ -79,11 +79,10 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:32
 msgid ""
-"Symfony and Zend Framework 2 already have containers for DI that create "
+"many frameworks already have containers for DI that create "
 "objects via a configuration array and inject them where needed (i.e. in "
 "Controllers)"
-msgstr ""
-"Symfony2 und Zend Framework 2 bieten beide Dependency Injection Container "
+msgstr "Viele Frameworks bieten bereits Dependency Injection Container "
 "an, die selbstständig vorkonfigurierte Objekte bei Bedarf erzeugen und "
 "diese in z.B. Controller injizieren können."
 
@@ -99,30 +98,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code auch auf `GitHub`_"
 
-#: ../../Structural/DependencyInjection/README.rst:48
-msgid "AbstractConfig.php"
-msgstr "AbstractConfig.php"
-
-#: ../../Structural/DependencyInjection/README.rst:54
-msgid "Parameters.php"
-msgstr "Parameters.php"
-
-#: ../../Structural/DependencyInjection/README.rst:60
-msgid "ArrayConfig.php"
-msgstr "ArrayConfig.php"
-
-#: ../../Structural/DependencyInjection/README.rst:66
-msgid "Connection.php"
-msgstr "Connection.php"
-
 #: ../../Structural/DependencyInjection/README.rst:73
 msgid "Test"
 msgstr "Теst"
-
-#: ../../Structural/DependencyInjection/README.rst:75
-msgid "Tests/DependencyInjectionTest.php"
-msgstr "Tests/DependencyInjectionTest.php"
-
-#: ../../Structural/DependencyInjection/README.rst:81
-msgid "Tests/config.php"
-msgstr "Tests/config.php"

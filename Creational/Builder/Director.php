@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Creational\Builder;
 
@@ -12,7 +12,7 @@ use DesignPatterns\Creational\Builder\Parts\Vehicle;
  */
 class Director
 {
-    public function build(BuilderInterface $builder): Vehicle
+    public function build(Builder $builder): Vehicle
     {
         $builder->createVehicle();
         $builder->addDoors();

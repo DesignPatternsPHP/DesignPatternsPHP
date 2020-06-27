@@ -1,20 +1,17 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Creational\Singleton;
 
 final class Singleton
 {
-    /**
-     * @var Singleton
-     */
-    private static $instance;
+    private static ?Singleton $instance = null;
 
     /**
      * gets the instance via lazy initialization (created on first usage)
      */
     public static function getInstance(): Singleton
     {
-        if (null === static::$instance) {
+        if (static::$instance === null) {
             static::$instance = new static();
         }
 

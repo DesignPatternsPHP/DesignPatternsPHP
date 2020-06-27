@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2019, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-04 00:50+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../Creational/Pool/README.rst:2
+msgid "`Pool`__"
+msgstr "`Object Pool パターン`__"
+
+#: ../../Creational/Pool/README.rst:5
+msgid "Purpose"
+msgstr "目的"
+
+#: ../../Creational/Pool/README.rst:7
+msgid ""
+"The **object pool pattern** is a software creational design pattern that "
+"uses a set of initialized objects kept ready to use – a \"pool\" – rather"
+" than allocating and destroying them on demand. A client of the pool will"
+" request an object from the pool and perform operations on the returned "
+"object. When the client has finished, it returns the object, which is a "
+"specific type of factory object, to the pool rather than destroying it."
+msgstr ""
+"**Object Pool パターン** は、オブジェクトを必要な場合に割当て利用後に破棄するのではなく、"
+"初期化済みのいつでも利用可能なオブジェクトを\"プール\"に保持し、それらを使用する生成に関するデザインパターンです。"
+"このプールのClientクラスは、プールにオブジェクトを要求し、プールから返却されたオブジェクトを使用します。"
+"クライアントはオブジェクトの使用終了後、オブジェクト（特定の型のFacboryオブジェクト）を破棄するでのはなくプールに返却します。"
+
+#: ../../Creational/Pool/README.rst:14
+msgid ""
+"Object pooling can offer a significant performance boost in situations "
+"where the cost of initializing a class instance is high, the rate of "
+"instantiation of a class is high, and the number of instances in use at "
+"any one time is low. The pooled object is obtained in predictable time "
+"when creation of the new objects (especially over network) may take "
+"variable time."
+msgstr ""
+"オブジェクトプーリングは、クラスインスタンスの初期化のコストが高く、"
+"クラスをインスタンス化する割合が高く、一度に使用されるインスタンスの数が少ない状況で、"
+"パフォーマンスを大幅に向上させることができます。"
+"また、新しいオブジェクトの生成に時間がかかる可能性がある場合（特にネットワーク経由での生成の場合）に、プールされたオブジェクトを取得することで"
+"予測可能な時間でオブジェクトを得ることができるようになります。"
+
+#: ../../Creational/Pool/README.rst:21
+msgid ""
+"However these benefits are mostly true for objects that are expensive "
+"with respect to time, such as database connections, socket connections, "
+"threads and large graphic objects like fonts or bitmaps. In certain "
+"situations, simple object pooling (that hold no external resources, but "
+"only occupy memory) may not be efficient and could decrease performance."
+msgstr ""
+"しかし、これらのメリットは、データベース接続、ソケット接続、スレッド、フォントやビットマップのような大きなグラフィックオブジェクトなど、"
+"時間に関してコストがかかるオブジェクトのほとんどに当てはまります。"
+"特定の状況下では、単純なオブジェクトプーリング（外部リソースを保持せず、メモリを占有するだけ）"
+"は効率的でなく、パフォーマンスが低下する可能性があります。"
+
+#: ../../Creational/Pool/README.rst:28
+msgid "UML Diagram"
+msgstr "クラス図"
+
+#: ../../Creational/Pool/README.rst:35
+msgid "Code"
+msgstr "サンプルコード"
+
+#: ../../Creational/Pool/README.rst:37
+msgid "You can also find this code on `GitHub`_"
+msgstr "サンプルコードは `GitHub`_ でも確認することができます。"
+
+#: ../../Creational/Pool/README.rst:39
+msgid "WorkerPool.php"
+msgstr ""
+
+#: ../../Creational/Pool/README.rst:45
+msgid "StringReverseWorker.php"
+msgstr ""
+
+#: ../../Creational/Pool/README.rst:52
+msgid "Test"
+msgstr "テスト"
+
+#: ../../Creational/Pool/README.rst:54
+msgid "Tests/PoolTest.php"
+msgstr ""
+

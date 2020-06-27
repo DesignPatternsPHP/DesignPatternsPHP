@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ruleset name="Project Rules">
+    <directory>**/*.php</directory>
+    <exclude-pattern>vendor</exclude-pattern>
+    <arg value="sp"/>
+
+    <rule ref="vendor/flyeralarm/php-code-validator/ruleset.xml"/>
+</ruleset>

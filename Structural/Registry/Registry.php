@@ -1,6 +1,8 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Structural\Registry;
+
+use InvalidArgumentException;
 
 abstract class Registry
 {
@@ -10,43 +12,29 @@ abstract class Registry
      * this introduces global state in your application which can not be mocked up for testing
      * and is therefor considered an anti-pattern! Use dependency injection instead!
      *
-     * @var array
+     * @var Service[]
      */
-    private static $storedValues = [];
+    private static array $services = [];
 
-    /**
-     * @var array
-     */
-    private static $allowedKeys = [
+    private static array $allowedKeys = [
         self::LOGGER,
     ];
 
-    /**
-     * @param string $key
-     * @param mixed  $value
-     *
-     * @return void
-     */
-    public static function set(string $key, $value)
+    public static function set(string $key, Service $value)
     {
         if (!in_array($key, self::$allowedKeys)) {
-            throw new \InvalidArgumentException('Invalid key given');
+            throw new InvalidArgumentException('Invalid key given');
         }
 
-        self::$storedValues[$key] = $value;
+        self::$services[$key] = $value;
     }
 
-    /**
-     * @param string $key
-     *
-     * @return mixed
-     */
-    public static function get(string $key)
+    public static function get(string $key): Service
     {
-        if (!in_array($key, self::$allowedKeys) || !isset(self::$storedValues[$key])) {
-            throw new \InvalidArgumentException('Invalid key given');
+        if (!in_array($key, self::$allowedKeys) || !isset(self::$services[$key])) {
+            throw new InvalidArgumentException('Invalid key given');
         }
 
-        return self::$storedValues[$key];
+        return self::$services[$key];
     }
 }

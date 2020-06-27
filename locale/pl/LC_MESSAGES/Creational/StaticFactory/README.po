@@ -32,18 +32,6 @@ msgstr ""
 "Fabryka statyczna używa jednej metody statycznej do tworzenia wszystkich typów obiektów, jakie może tworzyć. "
 "Zwykle taka metoda nazywa się ``factory`` lub ``build``."
 
-#: ../../Creational/StaticFactory/README.rst:14
-msgid "Examples"
-msgstr "Przykłady"
-
-#: ../../Creational/StaticFactory/README.rst:16
-msgid ""
-"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory method"
-" create cache backends or frontends"
-msgstr ""
-"Zend Framework: ``Zend_Cache_Backend`` i ``_Frontend`` używa fabryki do "
-"stworzenia cache\'u typu frontend i backend."
-
 #: ../../Creational/StaticFactory/README.rst:20
 msgid "UML Diagram"
 msgstr "Diagram UML"
@@ -56,26 +44,6 @@ msgstr "Kod"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Ten kod znajdziesz również na `GitHub`_."
 
-#: ../../Creational/StaticFactory/README.rst:31
-msgid "StaticFactory.php"
-msgstr "StaticFactory.php"
-
-#: ../../Creational/StaticFactory/README.rst:37
-msgid "FormatterInterface.php"
-msgstr "FormatterInterface.php"
-
-#: ../../Creational/StaticFactory/README.rst:43
-msgid "FormatString.php"
-msgstr "FormatString.php"
-
-#: ../../Creational/StaticFactory/README.rst:49
-msgid "FormatNumber.php"
-msgstr "FormatNumber.php"
-
 #: ../../Creational/StaticFactory/README.rst:56
 msgid "Test"
 msgstr "Testy"
-
-#: ../../Creational/StaticFactory/README.rst:58
-msgid "Tests/StaticFactoryTest.php"
-msgstr "Tests/StaticFactoryTest.php"

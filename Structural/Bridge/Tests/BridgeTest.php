@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Structural\Bridge\Tests;
 
@@ -9,13 +9,17 @@ use PHPUnit\Framework\TestCase;
 
 class BridgeTest extends TestCase
 {
-    public function testCanPrintUsingThePlainTextPrinter()
+    public function testCanPrintUsingThePlainTextFormatter()
     {
         $service = new HelloWorldService(new PlainTextFormatter());
-        $this->assertEquals('Hello World', $service->get());
 
-        // now change the implementation and use the HtmlFormatter instead
-        $service->setImplementation(new HtmlFormatter());
-        $this->assertEquals('<p>Hello World</p>', $service->get());
+        $this->assertSame('Hello World', $service->get());
+    }
+
+    public function testCanPrintUsingTheHtmlFormatter()
+    {
+        $service = new HelloWorldService(new HtmlFormatter());
+
+        $this->assertSame('<p>Hello World</p>', $service->get());
     }
 }

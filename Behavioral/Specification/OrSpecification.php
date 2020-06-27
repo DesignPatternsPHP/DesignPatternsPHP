@@ -1,23 +1,23 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Specification;
 
-class OrSpecification implements SpecificationInterface
+class OrSpecification implements Specification
 {
     /**
-     * @var SpecificationInterface[]
+     * @var Specification[]
      */
-    private $specifications;
+    private array $specifications;
 
     /**
-     * @param SpecificationInterface[] ...$specifications
+     * @param Specification[] $specifications
      */
-    public function __construct(SpecificationInterface ...$specifications)
+    public function __construct(Specification ...$specifications)
     {
         $this->specifications = $specifications;
     }
 
-    /**
+    /*
      * if at least one specification is true, return true, else return false
      */
     public function isSatisfiedBy(Item $item): bool
@@ -27,6 +27,7 @@ class OrSpecification implements SpecificationInterface
                 return true;
             }
         }
+
         return false;
     }
 }

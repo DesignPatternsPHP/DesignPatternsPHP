@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../Behavioral/Visitor/README.rst:17
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Behavioral/Visitor/README.rst:24
 msgid "Code"
@@ -54,30 +54,6 @@ msgstr "Код"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
-#: ../../Behavioral/Visitor/README.rst:28
-msgid "RoleVisitorInterface.php"
-msgstr "RoleVisitorInterface.php"
-
-#: ../../Behavioral/Visitor/README.rst:34
-msgid "RolePrintVisitor.php"
-msgstr "RolePrintVisitor.php"
-
-#: ../../Behavioral/Visitor/README.rst:40
-msgid "Role.php"
-msgstr "Role.php"
-
-#: ../../Behavioral/Visitor/README.rst:46
-msgid "User.php"
-msgstr "User.php"
-
-#: ../../Behavioral/Visitor/README.rst:52
-msgid "Group.php"
-msgstr "Group.php"
-
 #: ../../Behavioral/Visitor/README.rst:59
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Behavioral/Visitor/README.rst:61
-msgid "Tests/VisitorTest.php"
-msgstr "Tests/VisitorTest.php"

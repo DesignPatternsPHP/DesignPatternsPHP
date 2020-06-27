@@ -4,20 +4,20 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-11 12:30-0300\n"
+"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 
 #: ../../Behavioral/Observer/README.rst:2
 msgid "`Observer`__"
-msgstr ""
+msgstr "`Observador (Observer)`__"
 
 #: ../../Behavioral/Observer/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Behavioral/Observer/README.rst:7
 msgid ""
@@ -26,50 +26,46 @@ msgid ""
 "notified. It is used to shorten the amount of coupled objects and uses loose"
 " coupling instead."
 msgstr ""
+"Implementar um comportamento de publicação/subscrição para um objeto, sempre que "
+"um objeto \"Sujeito\" altera o seu estado, o \"Observador\" anexo será notificado. "
+"Ele é usado para ordenar a massa de objetos combinados e usa baixo acoplamento em "
+"seu lugar."
 
 #: ../../Behavioral/Observer/README.rst:13
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 #: ../../Behavioral/Observer/README.rst:15
 msgid ""
 "a message queue system is observed to show the progress of a job in a GUI"
 msgstr ""
+"um sistema de fila de mensagem é observado para apresentar o progresso de "
+"um trabalho na interface gráfica do usuário (GUI)"
 
 #: ../../Behavioral/Observer/README.rst:19
 msgid "Note"
-msgstr ""
+msgstr "Nota"
 
 #: ../../Behavioral/Observer/README.rst:21
 msgid ""
 "PHP already defines two interfaces that can help to implement this pattern: "
 "SplObserver and SplSubject."
 msgstr ""
+"O PHP já define duas interfaces que podem ajudar a implementar este padrão: "
+"SplObserver e SplSubject."
 
 #: ../../Behavioral/Observer/README.rst:25
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Behavioral/Observer/README.rst:32
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Behavioral/Observer/README.rst:34
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
-
-#: ../../Behavioral/Observer/README.rst:36
-msgid "User.php"
-msgstr ""
-
-#: ../../Behavioral/Observer/README.rst:42
-msgid "UserObserver.php"
-msgstr ""
+msgstr "Você também pode encontrar este código no `GitHub`_"
 
 #: ../../Behavioral/Observer/README.rst:49
 msgid "Test"
-msgstr ""
-
-#: ../../Behavioral/Observer/README.rst:51
-msgid "Tests/ObserverTest.php"
-msgstr ""
+msgstr "Teste"

@@ -41,11 +41,6 @@ msgstr ""
 "PHPUnit utiliza una interfaces fluidas para crear objetos de imitación "
 "(mock)"
 
-#: ../../Structural/FluentInterface/README.rst:16
-msgid "Yii Framework: CDbCommand and CActiveRecord use this pattern, too"
-msgstr ""
-"Yii Framework: CDbCommand y CActiveRecord utilizan este patrón también"
-
 #: ../../Structural/FluentInterface/README.rst:18
 msgid "UML Diagram"
 msgstr "Diagrama UML"

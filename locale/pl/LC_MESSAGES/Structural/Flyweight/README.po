@@ -51,23 +51,7 @@ msgstr "Kod"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Ten kod znajdziesz również na `GitHub`_."
 
-#: ../../Structural/Flyweight/README.rst:23
-msgid "FlyweightInterface.php"
-msgstr "FlyweightInterface.php"
-
-#: ../../Structural/Flyweight/README.rst:29
-msgid "CharacterFlyweight.php"
-msgstr "CharacterFlyweight.php"
-
-#: ../../Structural/Flyweight/README.rst:35
-msgid "FlyweightFactory.php"
-msgstr "FlyweightFactory.php"
-
 #: ../../Structural/Flyweight/README.rst:42
 msgid "Test"
 msgstr "Testy"
-
-#: ../../Structural/Flyweight/README.rst:44
-msgid "Tests/FlyweightTest.php"
-msgstr "Tests/FlyweightTest.php"
 

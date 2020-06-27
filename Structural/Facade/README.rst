@@ -4,7 +4,7 @@
 Purpose
 -------
 
-The primary goal of a Facade Pattern is not to avoid you to read the
+The primary goal of a Facade Pattern is not to avoid you having to read the
 manual of a complex API. It's only a side-effect. The first goal is to
 reduce coupling and follow the Law of Demeter.
 
@@ -41,15 +41,15 @@ Facade.php
    :language: php
    :linenos:
 
-OsInterface.php
+OperatingSystem.php
 
-.. literalinclude:: OsInterface.php
+.. literalinclude:: OperatingSystem.php
    :language: php
    :linenos:
 
-BiosInterface.php
+Bios.php
 
-.. literalinclude:: BiosInterface.php
+.. literalinclude:: Bios.php
    :language: php
    :linenos:
 
@@ -62,5 +62,5 @@ Tests/FacadeTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Facade
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Structural/Facade
 .. __: http://en.wikipedia.org/wiki/Facade_pattern

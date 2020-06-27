@@ -68,18 +68,6 @@ msgstr "代码"
 msgid "You can also find this code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
-#: ../../Structural/DataMapper/README.rst:38
-msgid "User.php"
-msgstr ""
-
-#: ../../Structural/DataMapper/README.rst:44
-msgid "UserMapper.php"
-msgstr ""
-
 #: ../../Structural/DataMapper/README.rst:51
 msgid "Test"
 msgstr "测试"
-
-#: ../../Structural/DataMapper/README.rst:53
-msgid "Tests/DataMapperTest.php"
-msgstr ""

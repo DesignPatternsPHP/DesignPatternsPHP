@@ -45,10 +45,9 @@ msgstr "Połączenie do bazy danych."
 
 #: ../../Creational/Singleton/README.rst:17
 msgid ""
-"Logger (may also be a Multiton if there are many log files for several "
-"purposes)"
+"Logger"
 msgstr ""
-"Logger - można do tego wykorzystać również wzorzec Multitona."
+"Logger"
 
 #: ../../Creational/Singleton/README.rst:19
 msgid ""
@@ -68,14 +67,6 @@ msgstr "Kod"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Ten kod znajdziesz również na `GitHub`_."
 
-#: ../../Creational/Singleton/README.rst:34
-msgid "Singleton.php"
-msgstr "Singleton.php"
-
 #: ../../Creational/Singleton/README.rst:41
 msgid "Test"
 msgstr "Testy"
-
-#: ../../Creational/Singleton/README.rst:43
-msgid "Tests/SingletonTest.php"
-msgstr "Tests/SingletonTest.php"

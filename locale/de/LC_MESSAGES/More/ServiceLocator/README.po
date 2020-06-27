@@ -48,21 +48,6 @@ msgstr ""
 "muss. Der Service Locator selbst kann im Bootstrapping der Anwendung "
 "konfiguriert und injiziert werden."
 
-#: ../../More/ServiceLocator/README.rst:20
-msgid "Examples"
-msgstr "Beispiele"
-
-#: ../../More/ServiceLocator/README.rst:22
-msgid ""
-"Zend Framework 2 uses Service Locator to create and share services used in "
-"the framework(i.e. EventManager, ModuleManager, all custom user services "
-"provided by modules, etc...)"
-msgstr ""
-"Zend Framework 2 macht intensiven Gebrauch vom Service Locator, um im "
-"Framework Services zu erstellen und zu teilen (z.B. EventManager, "
-"ModuleManager, alle eigenen Services, die durch Module bereitgestellt "
-"werden, usw...)"
-
 #: ../../More/ServiceLocator/README.rst:27
 msgid "UML Diagram"
 msgstr "UML Diagramm"
@@ -75,34 +60,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code auch auf `GitHub`_"
 
-#: ../../More/ServiceLocator/README.rst:38
-msgid "ServiceLocatorInterface.php"
-msgstr "ServiceLocatorInterface.php"
-
-#: ../../More/ServiceLocator/README.rst:44
-msgid "ServiceLocator.php"
-msgstr "ServiceLocator.php"
-
-#: ../../More/ServiceLocator/README.rst:50
-msgid "LogServiceInterface.php"
-msgstr "LogServiceInterface.php"
-
-#: ../../More/ServiceLocator/README.rst:56
-msgid "LogService.php"
-msgstr "LogService.php"
-
-#: ../../More/ServiceLocator/README.rst:62
-msgid "DatabaseServiceInterface.php"
-msgstr "DatabaseServiceInterface.php"
-
-#: ../../More/ServiceLocator/README.rst:68
-msgid "DatabaseService.php"
-msgstr "DatabaseService.php"
-
 #: ../../More/ServiceLocator/README.rst:75
 msgid "Test"
 msgstr "Теst"
-
-#: ../../More/ServiceLocator/README.rst:77
-msgid "Tests/ServiceLocatorTest.php"
-msgstr "Tests/ServiceLocatorTest.php"

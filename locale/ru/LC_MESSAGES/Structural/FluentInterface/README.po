@@ -42,14 +42,9 @@ msgid "PHPUnit uses fluent interfaces to build mock objects"
 msgstr ""
 "PHPUnit использует текучий интерфейс, чтобы создавать макеты объектов."
 
-#: ../../Structural/FluentInterface/README.rst:16
-msgid "Yii Framework: CDbCommand and CActiveRecord use this pattern, too"
-msgstr ""
-"Yii Framework: CDbCommand и CActiveRecord тоже используют этот паттерн."
-
 #: ../../Structural/FluentInterface/README.rst:19
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Structural/FluentInterface/README.rst:26
 msgid "Code"
@@ -59,14 +54,6 @@ msgstr "Код"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
-#: ../../Structural/FluentInterface/README.rst:30
-msgid "Sql.php"
-msgstr "Sql.php"
-
 #: ../../Structural/FluentInterface/README.rst:37
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Structural/FluentInterface/README.rst:39
-msgid "Tests/FluentInterfaceTest.php"
-msgstr "Tests/FluentInterfaceTest.php"

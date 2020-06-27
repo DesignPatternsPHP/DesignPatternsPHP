@@ -66,26 +66,6 @@ msgstr "代码"
 msgid "You can also find this code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
-#: ../../Creational/Pool/README.rst:36
-msgid "Pool.php"
-msgstr ""
-
-#: ../../Creational/Pool/README.rst:42
-msgid "Processor.php"
-msgstr ""
-
-#: ../../Creational/Pool/README.rst:48
-msgid "Worker.php"
-msgstr ""
-
 #: ../../Creational/Pool/README.rst:55
 msgid "Test"
 msgstr "测试"
-
-#: ../../Creational/Pool/README.rst:57
-msgid "Tests/PoolTest.php"
-msgstr ""
-
-#: ../../Creational/Pool/README.rst:63
-msgid "Tests/TestWorker.php"
-msgstr ""

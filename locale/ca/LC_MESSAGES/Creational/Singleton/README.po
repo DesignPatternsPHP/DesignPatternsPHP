@@ -40,9 +40,7 @@ msgid "DB Connector"
 msgstr ""
 
 #: ../../Creational/Singleton/README.rst:17
-msgid ""
-"Logger (may also be a Multiton if there are many log files for several "
-"purposes)"
+msgid "Logger"
 msgstr ""
 
 #: ../../Creational/Singleton/README.rst:19
@@ -62,14 +60,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Creational/Singleton/README.rst:34
-msgid "Singleton.php"
-msgstr ""
-
 #: ../../Creational/Singleton/README.rst:41
 msgid "Test"
-msgstr ""
-
-#: ../../Creational/Singleton/README.rst:43
-msgid "Tests/SingletonTest.php"
 msgstr ""

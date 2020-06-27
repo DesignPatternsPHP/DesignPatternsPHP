@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-03 23:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Nikita Strelkov <nikita.strelkov@gmail.com>\n"
+"Last-Translator: Kirill Baranov <m264695502@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../More/EAV/README.rst:2
 msgid "`Entity-Attribute-Value (EAV)`__"
-msgstr "`Сущность-Артибут-Значение`__"
+msgstr "`Сущность-Атрибут-Значение`__"
 
 #: ../../More/EAV/README.rst:4
 msgid ""
@@ -45,7 +45,7 @@ msgstr ""
 "предназначенная для описания сущностей, в которых количество атрибутов "
 "(свойств, параметров), характеризующих их, потенциально огромно, "
 "но то количество, которое реально будет использоваться в конкретной "
-"сущности относительно мало."
+"сущности, относительно мало."
 
 #: ../../More/EAV/README.rst:15
 msgid "Examples"
@@ -57,11 +57,11 @@ msgstr "Смотри полный работоспособный пример в
 
 #: ../../More/EAV/README.rst:90
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../More/EAV/README.rst:97
 msgid "Code"
-msgstr "Code"
+msgstr "Код"
 
 #: ../../More/EAV/README.rst:99
 msgid "You can also find this code on `GitHub`_"
@@ -70,16 +70,4 @@ msgstr "Вы можете найти этот код на `GitHub`_"
 #: ../../More/EAV/README.rst:102
 msgid "Test"
 msgstr "Тест"
-
-#: ../../More/EAV/README.rst:104
-msgid "Tests/EntityTest.php"
-msgstr "Tests/EntityTest.php"
-
-#: ../../More/EAV/README.rst:110
-msgid "Tests/AttributeTest.php"
-msgstr "Tests/AttributeTest.php"
-
-#: ../../More/EAV/README.rst:116
-msgid "Tests/ValueTest.php"
-msgstr "Tests/ValueTest.php"
 

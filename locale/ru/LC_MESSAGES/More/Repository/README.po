@@ -54,7 +54,7 @@ msgstr "Laravel Framework"
 
 #: ../../More/Repository/README.rst:23
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../More/Repository/README.rst:30
 msgid "Code"
@@ -63,22 +63,6 @@ msgstr "Код"
 #: ../../More/Repository/README.rst:32
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
-
-#: ../../More/Repository/README.rst:34
-msgid "Post.php"
-msgstr "Post.php"
-
-#: ../../More/Repository/README.rst:40
-msgid "PostRepository.php"
-msgstr "PostRepository.php"
-
-#: ../../More/Repository/README.rst:46
-msgid "Storage.php"
-msgstr "Storage.php"
-
-#: ../../More/Repository/README.rst:52
-msgid "MemoryStorage.php"
-msgstr "MemoryStorage.php"
 
 #: ../../More/Repository/README.rst:59
 msgid "Test"

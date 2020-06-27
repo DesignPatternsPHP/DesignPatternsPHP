@@ -9,7 +9,6 @@ To dynamically add new functionality to class instances.
 Examples
 --------
 
--  Zend Framework: decorators for ``Zend_Form_Element`` instances
 -  Web Service Layer: Decorators JSON and XML for a REST service (in
    this case, only one of these should be allowed of course)
 
@@ -25,33 +24,33 @@ Code
 
 You can also find this code on `GitHub`_
 
-RenderableInterface.php
+Booking.php
 
-.. literalinclude:: RenderableInterface.php
+.. literalinclude:: Booking.php
    :language: php
    :linenos:
 
-Webservice.php
+BookingDecorator.php
 
-.. literalinclude:: Webservice.php
+.. literalinclude:: BookingDecorator.php
    :language: php
    :linenos:
 
-RendererDecorator.php
+DoubleRoomBooking.php
 
-.. literalinclude:: RendererDecorator.php
+.. literalinclude:: DoubleRoomBooking.php
    :language: php
    :linenos:
 
-XmlRenderer.php
+ExtraBed.php
 
-.. literalinclude:: XmlRenderer.php
+.. literalinclude:: ExtraBed.php
    :language: php
    :linenos:
 
-JsonRenderer.php
+WiFi.php
 
-.. literalinclude:: JsonRenderer.php
+.. literalinclude:: WiFi.php
    :language: php
    :linenos:
 
@@ -64,5 +63,5 @@ Tests/DecoratorTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Decorator
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Structural/Decorator
 .. __: http://en.wikipedia.org/wiki/Decorator_pattern

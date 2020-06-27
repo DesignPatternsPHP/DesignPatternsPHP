@@ -59,7 +59,7 @@ msgstr "PHPUnit: Mock Builder"
 
 #: ../../Creational/Builder/README.rst:24
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Creational/Builder/README.rst:31
 msgid "Code"
@@ -69,50 +69,6 @@ msgstr "Код"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
-#: ../../Creational/Builder/README.rst:35
-msgid "Director.php"
-msgstr "Director.php"
-
-#: ../../Creational/Builder/README.rst:41
-msgid "BuilderInterface.php"
-msgstr "BuilderInterface.php"
-
-#: ../../Creational/Builder/README.rst:47
-msgid "BikeBuilder.php"
-msgstr "BikeBuilder.php"
-
-#: ../../Creational/Builder/README.rst:53
-msgid "CarBuilder.php"
-msgstr "CarBuilder.php"
-
-#: ../../Creational/Builder/README.rst:59
-msgid "Parts/Vehicle.php"
-msgstr "Parts/Vehicle.php"
-
-#: ../../Creational/Builder/README.rst:65
-msgid "Parts/Bike.php"
-msgstr "Parts/Bike.php"
-
-#: ../../Creational/Builder/README.rst:71
-msgid "Parts/Car.php"
-msgstr "Parts/Car.php"
-
-#: ../../Creational/Builder/README.rst:77
-msgid "Parts/Engine.php"
-msgstr "Parts/Engine.php"
-
-#: ../../Creational/Builder/README.rst:83
-msgid "Parts/Wheel.php"
-msgstr "Parts/Wheel.php"
-
-#: ../../Creational/Builder/README.rst:89
-msgid "Parts/Door.php"
-msgstr "Parts/Door.php"
-
 #: ../../Creational/Builder/README.rst:96
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Creational/Builder/README.rst:98
-msgid "Tests/DirectorTest.php"
-msgstr "Tests/DirectorTest.php"

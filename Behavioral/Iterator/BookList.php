@@ -1,18 +1,17 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Iterator;
 
-class BookList implements \Countable, \Iterator
+use Countable;
+use Iterator;
+
+class BookList implements Countable, Iterator
 {
     /**
      * @var Book[]
      */
-    private $books = [];
-
-    /**
-     * @var int
-     */
-    private $currentIndex = 0;
+    private array $books = [];
+    private int $currentIndex = 0;
 
     public function addBook(Book $book)
     {

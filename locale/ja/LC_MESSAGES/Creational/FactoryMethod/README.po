@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2019, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# Sumita Takaki <sumita.takaki@gmail.com>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-04 00:50+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Sumita Takaki <sumita.takaki@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../Creational/FactoryMethod/README.rst:2
+msgid "`Factory Method`__"
+msgstr "`Factory Method パターン`__"
+
+#: ../../Creational/FactoryMethod/README.rst:5
+msgid "Purpose"
+msgstr "目的"
+
+#: ../../Creational/FactoryMethod/README.rst:7
+msgid ""
+"The good point over the SimpleFactory is you can subclass it to implement"
+" different ways to create objects."
+msgstr ""
+"FacboryMethod パターンはSimpleFactory パターンと比べて、"
+"オブジェクト生成のために行う様々な実装を、サブクラスに任せる点が優れています。"
+
+#: ../../Creational/FactoryMethod/README.rst:10
+msgid "For simple cases, this abstract class could be just an interface."
+msgstr "単純なケースとして、FactoryMethodクラスはただのインターフェースとして扱われます。"
+
+#: ../../Creational/FactoryMethod/README.rst:12
+msgid ""
+"This pattern is a \"real\" Design Pattern because it achieves the "
+"Dependency Inversion principle a.k.a the \"D\" in SOLID principles."
+msgstr ""
+"このFactoryMethod パターンは、SOLIDとして知られているソフトウェア設計の5つの原則のうち、「D」の依存性逆転の法則"
+"（Dependency Inversion principle）を実現するための「実用的な」デザインパターンです。"
+
+#: ../../Creational/FactoryMethod/README.rst:15
+msgid ""
+"It means the FactoryMethod class depends on abstractions, not concrete "
+"classes. This is the real trick compared to SimpleFactory or "
+"StaticFactory."
+msgstr ""
+"つまり、FactoryMethodクラスは具象クラスではなく、抽象クラスに依存するということです。"
+"この部分が、SimpleFactory パターンや、StaticFactory パターンと比較したときに、優れていると言えます。"
+
+#: ../../Creational/FactoryMethod/README.rst:20
+msgid "UML Diagram"
+msgstr "クラス図"
+
+#: ../../Creational/FactoryMethod/README.rst:27
+msgid "Code"
+msgstr "サンプルコード"
+
+#: ../../Creational/FactoryMethod/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "サンプルコードは `GitHub`_ でも確認することができます。"
+
+#: ../../Creational/FactoryMethod/README.rst:31
+msgid "Logger.php"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:37
+msgid "StdoutLogger.php"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:43
+msgid "FileLogger.php"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:49
+msgid "LoggerFactory.php"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:55
+msgid "StdoutLoggerFactory.php"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:61
+msgid "FileLoggerFactory.php"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:68
+msgid "Test"
+msgstr "テスト"
+
+#: ../../Creational/FactoryMethod/README.rst:70
+msgid "Tests/FactoryMethodTest.php"
+msgstr ""
+

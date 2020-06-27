@@ -69,12 +69,10 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:32
 msgid ""
-"Symfony and Zend Framework 2 already have containers for DI that create "
+"many frameworks already have containers for DI that create "
 "objects via a configuration array and inject them where needed (i.e. in "
 "Controllers)"
 msgstr ""
-"Symfony 和 Zend Framework 2 也有了专门的依赖注入容器，用来通过配置数据创建需要的对象"
-"(比如在控制器中使用依赖注入容器获取所需的对象)"
 
 #: ../../Structural/DependencyInjection/README.rst:37
 msgid "UML Diagram"
@@ -88,30 +86,6 @@ msgstr "代码"
 msgid "You can also find this code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
-#: ../../Structural/DependencyInjection/README.rst:48
-msgid "AbstractConfig.php"
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:54
-msgid "Parameters.php"
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:60
-msgid "ArrayConfig.php"
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:66
-msgid "Connection.php"
-msgstr ""
-
 #: ../../Structural/DependencyInjection/README.rst:73
 msgid "Test"
 msgstr "测试"
-
-#: ../../Structural/DependencyInjection/README.rst:75
-msgid "Tests/DependencyInjectionTest.php"
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:81
-msgid "Tests/config.php"
-msgstr ""

@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2019, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# Sumita Takaki <sumita.takaki@gmail.com>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-04 00:50+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Sumita Takaki <sumita.takaki@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../Creational/Builder/README.rst:2
+msgid "`Builder`__"
+msgstr "`Builder パターン`__"
+
+#: ../../Creational/Builder/README.rst:5
+msgid "Purpose"
+msgstr "目的"
+
+#: ../../Creational/Builder/README.rst:7
+msgid "Builder is an interface that build parts of a complex object."
+msgstr "オブジェクトを組み合わせて、複雑なオブジェクトを構築するインターフェースをBuilderクラスと呼びます。"
+
+#: ../../Creational/Builder/README.rst:9
+msgid ""
+"Sometimes, if the builder has a better knowledge of what it builds, this "
+"interface could be an abstract class with default methods (aka adapter)."
+msgstr ""
+"ときに、Builderクラス自身が何を構築するのか知っている場合、このインターフェースはデフォルトメソッド"
+"を持つ抽象クラスとなります（Adapter パターン）。"
+
+#: ../../Creational/Builder/README.rst:12
+msgid ""
+"If you have a complex inheritance tree for objects, it is logical to have"
+" a complex inheritance tree for builders too."
+msgstr ""
+"オブジェクトの複雑な継承ツリーがある場合、Builderクラスにも複雑な継承ツリーがあっておかしくありません。"
+
+#: ../../Creational/Builder/README.rst:15
+msgid ""
+"Note: Builders have often a fluent interface, see the mock builder of "
+"PHPUnit for example."
+msgstr ""
+"注： Builderクラスの多くは、流れるようなインターフェース（fluent interface）を持っています。"
+"例としてPHPUnitのモックビルダーをご覧ください。"
+
+#: ../../Creational/Builder/README.rst:19
+msgid "Examples"
+msgstr "例"
+
+#: ../../Creational/Builder/README.rst:21
+msgid "PHPUnit: Mock Builder"
+msgstr "PHPUnit: モックビルダー"
+
+#: ../../Creational/Builder/README.rst:24
+msgid "UML Diagram"
+msgstr "クラス図"
+
+#: ../../Creational/Builder/README.rst:31
+msgid "Code"
+msgstr "サンプルコード"
+
+#: ../../Creational/Builder/README.rst:33
+msgid "You can also find this code on `GitHub`_"
+msgstr "サンプルコードは `GitHub`_ でも確認することができます。"
+
+#: ../../Creational/Builder/README.rst:35
+msgid "Director.php"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:41
+msgid "Builder.php"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:47
+msgid "TruckBuilder.php"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:53
+msgid "CarBuilder.php"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:59
+msgid "Parts/Vehicle.php"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:65
+msgid "Parts/Truck.php"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:71
+msgid "Parts/Car.php"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:77
+msgid "Parts/Engine.php"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:83
+msgid "Parts/Wheel.php"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:89
+msgid "Parts/Door.php"
+msgstr ""
+
+#: ../../Creational/Builder/README.rst:96
+msgid "Test"
+msgstr "テスト"
+
+#: ../../Creational/Builder/README.rst:98
+msgid "Tests/DirectorTest.php"
+msgstr ""
+

@@ -4,20 +4,20 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-01-29 10:32-0300\n"
+"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 
 #: ../../Structural/DataMapper/README.rst:2
 msgid "`Data Mapper`__"
-msgstr ""
+msgstr "`Mapeador de dados (Data Mapper)`__"
 
 #: ../../Structural/DataMapper/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Structural/DataMapper/README.rst:7
 msgid ""
@@ -31,47 +31,48 @@ msgid ""
 "many different domain entity types, dedicated mappers will handle one or a "
 "few."
 msgstr ""
+"Um mapeador de dados é uma camada de acesso à dados que realiza transferências "
+"bidirecionais de dados entre um armazenamento de dados persistente (frequentemente um "
+"banco de dados relacional) e uma representação em memória dos dados (a camada de domínio). "
+"O objetivo do padrão é manter a representação em memória e o armazenamento de dados "
+"persistente independente um do outro e do próprio mapeador de dados. A camada é composta "
+"de um ou mais mapeadores (ou Objetos de Acesso à Dados - Data Access Objects), realizando a "
+"tranferência dos dados. Implementações de mapeadores variam em escopo. Mapeadores genéricos "
+"irão manipular muitos tipos de entidades de domínio diferentes e mapeadores dedicados irão "
+"manipular um ou alguns."
 
 #: ../../Structural/DataMapper/README.rst:17
 msgid ""
 "The key point of this pattern is, unlike Active Record pattern, the data "
 "model follows Single Responsibility Principle."
 msgstr ""
+"O ponto-chave deste padrão é que, diferente do padrão de registro ativo (Active Record pattern), os modelos "
+"de dados seguem o princípio de responsabilidade simples (Single Responsibility Principle)."
 
 #: ../../Structural/DataMapper/README.rst:21
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 #: ../../Structural/DataMapper/README.rst:23
 msgid ""
 "DB Object Relational Mapper (ORM) : Doctrine2 uses DAO named as "
 "\"EntityRepository\""
 msgstr ""
+"Mapeamento objeto-relacional do bando de dados (ORM - Object Relational Mapper) : "
+" Doctrine2 usa um objeto de acesso a dados (DAO) nomeado como \"EntityRepository\""
 
 #: ../../Structural/DataMapper/README.rst:27
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Structural/DataMapper/README.rst:34
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Structural/DataMapper/README.rst:36
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
-
-#: ../../Structural/DataMapper/README.rst:38
-msgid "User.php"
-msgstr ""
-
-#: ../../Structural/DataMapper/README.rst:44
-msgid "UserMapper.php"
-msgstr ""
+msgstr "Você também pode encontrar este código no `GitHub`_"
 
 #: ../../Structural/DataMapper/README.rst:51
 msgid "Test"
-msgstr ""
-
-#: ../../Structural/DataMapper/README.rst:53
-msgid "Tests/DataMapperTest.php"
-msgstr ""
+msgstr "Teste"

@@ -49,20 +49,6 @@ msgstr ""
 "su implementación. Se puede configurar e inyectar el objeto Localizador de "
 "Servicio en la secuencia de arranque/inicialización."
 
-#: ../../More/ServiceLocator/README.rst:19
-msgid "Examples"
-msgstr "Ejemplos"
-
-#: ../../More/ServiceLocator/README.rst:22
-msgid ""
-"Zend Framework 2 uses Service Locator to create and share services used in "
-"the framework(i.e. EventManager, ModuleManager, all custom user services "
-"provided by modules, etc...)"
-msgstr ""
-"Zend Framework 2 utiliza el Localizador de Servicio para crear y compartir "
-"servicios usados en el *framework* (p.ej. EventManager, ModuleManager, todos "
-"los servicios personalizados del usuario provistos por los módulos, etc...)"
-
 #: ../../More/ServiceLocator/README.rst:26
 msgid "UML Diagram"
 msgstr "Diagrama UML"

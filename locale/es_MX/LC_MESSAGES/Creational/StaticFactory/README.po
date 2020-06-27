@@ -35,18 +35,6 @@ msgstr ""
 "estático para crear todo tipo de objetos que puede crear. Usualmente es "
 "llamado ``factory`` or ``build``."
 
-#: ../../Creational/StaticFactory/README.rst:13
-msgid "Examples"
-msgstr "Ejemplos"
-
-#: ../../Creational/StaticFactory/README.rst:16
-msgid ""
-"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory method "
-"create cache backends or frontends"
-msgstr ""
-"Zend Framework: ``Zend_Cache_Backend`` o ``_Frontend`` utiliza un método de "
-"fabricación para crear *backends* o *frontends* de caché."
-
 #: ../../Creational/StaticFactory/README.rst:19
 msgid "UML Diagram"
 msgstr "Diagrama UML"

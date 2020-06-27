@@ -51,26 +51,6 @@ msgstr "代码"
 msgid "You can also find this code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
-#: ../../Creational/SimpleFactory/README.rst:27
-msgid "SimpleFactory.php"
-msgstr ""
-
-#: ../../Creational/SimpleFactory/README.rst:33
-msgid "VehicleInterface.php"
-msgstr ""
-
-#: ../../Creational/SimpleFactory/README.rst:39
-msgid "Bicycle.php"
-msgstr ""
-
-#: ../../Creational/SimpleFactory/README.rst:45
-msgid "Scooter.php"
-msgstr ""
-
 #: ../../Creational/SimpleFactory/README.rst:52
 msgid "Test"
 msgstr "测试"
-
-#: ../../Creational/SimpleFactory/README.rst:54
-msgid "Tests/SimpleFactoryTest.php"
-msgstr ""

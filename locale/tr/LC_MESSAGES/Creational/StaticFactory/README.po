@@ -33,19 +33,6 @@ msgstr ""
 "kullanmasıdır. Yöntem ise genellikle ``factory``, ``build`` veya ``create`` olarak "
 "adlandırılır."
 
-
-#: ../../Creational/StaticFactory/README.rst:13
-msgid "Examples"
-msgstr "Örnekler"
-
-#: ../../Creational/StaticFactory/README.rst:16
-msgid ""
-"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory "
-"method create cache backends or frontends"
-msgstr ""
-"Zend Framework: ``Zend_Cache_Backend`` veya ``Zend_Cache_Frontend``, "
-"ön yüz veya arka yüz önbelleği (cache) oluşturmak için fabrika yönetimi kullanırlar."
-
 #: ../../Creational/StaticFactory/README.rst:19
 msgid "UML Diagram"
 msgstr "UML Diyagramı"

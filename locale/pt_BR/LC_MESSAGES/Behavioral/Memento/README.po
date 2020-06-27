@@ -1,44 +1,49 @@
-# SOME DESCRIPTIVE TITLE.
+# Translation of Memento Pattern to pt_BR.
 # Copyright (C) 2015, Dominik Liebler and contributors
 # This file is distributed under the same license as the DesignPatternsPHP
 # package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# Pablo Juan Garcia <contato@pablogarcia.com.br>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-03 23:59+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2019-02-26 10:49-0300\n"
+"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Language: pt_BR\n"
 
 #: ../../Behavioral/Memento/README.rst:2
 msgid "`Memento`__"
-msgstr ""
+msgstr "`Memento (Lembrança)`__"
 
 #: ../../Behavioral/Memento/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../Behavioral/Memento/README.rst:7
 msgid ""
-"It provides the ability to restore an object to it's previous state (undo"
-" via rollback) or to gain access to state of the object, without "
-"revealing it's implementation (i.e., the object is not required to have a"
-" functional for return the current state)."
+"It provides the ability to restore an object to it's previous state (undo "
+"via rollback) or to gain access to state of the object, without revealing "
+"it's implementation (i.e., the object is not required to have a function "
+"to return the current state)."
 msgstr ""
+"Ele provê a habilidade de restaurar um objeto para seu estado anterior ("
+"desfazer via rollback) ou ganhar acesso ao estado do objeto sem revelar "
+"sua implementação (p.e. o objeto não é obrigado a ter uma funcionalidade "
+"para retornar ao estado atual)."
 
 #: ../../Behavioral/Memento/README.rst:12
 msgid ""
 "The memento pattern is implemented with three objects: the Originator, a "
 "Caretaker and a Memento."
 msgstr ""
+"O padrão Memento é implementado com três objetos: o Originator, um Caretaker "
+"e um Memento."
 
 #: ../../Behavioral/Memento/README.rst:15
 msgid ""
@@ -51,6 +56,14 @@ msgid ""
 "reference* to the original object. The Memento object is a \"opaque "
 "object\" (the object that no one can or should change)."
 msgstr ""
+"Memento - um objeto que *contém um snapshot único e concreto do estado* "
+"de qualquer objeto ou recurso: string, número, array, uma instance de classe "
+"e assim por diante. A singularidade, neste caso, não implica a proibição "
+"da existência de estados semelhantes em diferentes snapshots. Isso significa que o estado "
+"pode ser extraído como o clone independente. Qualquer objeto armazenado no "
+"Memento deve ser *uma cópia completa do objeto original em vez de uma "
+"referência* para o objeto original. O objeto Memento é um \"objeto "
+"opaco\" (o objeto que ninguém pode ou deve mudar)."
 
 #: ../../Behavioral/Memento/README.rst:24
 msgid ""
@@ -63,6 +76,14 @@ msgid ""
 "type of object. Originator may (but not should) have any methods, but "
 "they *they can't make changes to the saved object state*."
 msgstr ""
+"Originator - é um objeto que contém o *estado atual de um "
+"objeto externo é estritamente o tipo especificado*. Originator é capaz de criar "
+"uma cópia única deste estado e devolvê-lo envolto em um Memento. O "
+"O Originator não conhece a história das mudanças. Você pode definir um estado "
+"concreto ao Originator do lado de fora, que será considerado como atual. "
+"O Originator deve certificar-se de que determinado estado corresponde ao tipo "
+"permitido de objeto. Originator pode (mas não deve) ter quaisquer métodos, mas "
+"eles *não podem fazer alterações no estado do objeto salvo*."
 
 #: ../../Behavioral/Memento/README.rst:33
 msgid ""
@@ -71,141 +92,43 @@ msgid ""
 "Originator; ask from the Originator snapshot of the current state; or set"
 " the Originator state to equivalence with some snapshot from history."
 msgstr ""
+"Caretaker *controla a história dos estados*. Ele pode fazer alterações em um "
+"objeto; tomar uma decisão para salvar o estado de um objeto externo no "
+"Originator; pedir a partir do snapshot do Originator do estado atual ou definir "
+"o estado do Originator para equivalência com algum snapshot do histórico."
 
 #: ../../Behavioral/Memento/README.rst:39
 msgid "Examples"
-msgstr ""
+msgstr "Exemplos"
 
 #: ../../Behavioral/Memento/README.rst:41
 msgid "The seed of a pseudorandom number generator"
-msgstr ""
+msgstr "A semente de um gerador de números pseudo-aleatórios"
 
 #: ../../Behavioral/Memento/README.rst:42
 msgid "The state in a finite state machine"
-msgstr ""
+msgstr "O estado em uma máquina de estados finitos"
 
 #: ../../Behavioral/Memento/README.rst:43
 msgid ""
 "Control for intermediate states of `ORM Model "
 "<http://en.wikipedia.org/wiki/Object-relational_mapping>`_ before saving"
 msgstr ""
+"Controle para estados intermediários de `ORM Model "
+"<https://pt.wikipedia.org/wiki/Mapeamento_objeto-relacional>`_ antes de salvar"
 
 #: ../../Behavioral/Memento/README.rst:46
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Behavioral/Memento/README.rst:53
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Behavioral/Memento/README.rst:55
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
-
-#: ../../Behavioral/Memento/README.rst:57
-msgid "Memento.php"
-msgstr ""
-
-#: ../../Behavioral/Memento/README.rst:63
-msgid "Originator.php"
-msgstr ""
-
-#: ../../Behavioral/Memento/README.rst:69
-msgid "Caretaker.php"
-msgstr ""
+msgstr "Você também pode encontrar este código no `GitHub`_"
 
 #: ../../Behavioral/Memento/README.rst:76
 msgid "Test"
-msgstr ""
-
-#: ../../Behavioral/Memento/README.rst:78
-msgid "Tests/MementoTest.php"
-msgstr ""
-
-
-
-#.    #
-#.    msgid ""
-#.    msgstr ""
-#.    "Project-Id-Version: DesignPatternsPHP 1.0\n"
-#.    "Report-Msgid-Bugs-To: \n"
-#.    "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-#.    "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-#.    "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-#.    "Language-Team: LANGUAGE <LL@li.org>\n"
-#.    "MIME-Version: 1.0\n"
-#.    "Content-Type: text/plain; charset=UTF-8\n"
-#.    "Content-Transfer-Encoding: 8bit\n"
-#.
-#.    #: ../../Behavioral/Memento/README.rst:2
-#.    msgid "`Memento`__"
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:5
-#.    msgid "Purpose"
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:7
-#.    msgid ""
-#.    "Provide the ability to restore an object to its previous state (undo via "
-#.    "rollback)."
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:10
-#.    msgid ""
-#.    "The memento pattern is implemented with three objects: the originator, a "
-#.    "caretaker and a memento. The originator is some object that has an internal "
-#.    "state. The caretaker is going to do something to the originator, but wants "
-#.    "to be able to undo the change. The caretaker first asks the originator for a"
-#.    " memento object. Then it does whatever operation (or sequence of operations)"
-#.    " it was going to do. To roll back to the state before the operations, it "
-#.    "returns the memento object to the originator. The memento object itself is "
-#.    "an opaque object (one which the caretaker cannot, or should not, change). "
-#.    "When using this pattern, care should be taken if the originator may change "
-#.    "other objects or resources - the memento pattern operates on a single "
-#.    "object."
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:23
-#.    msgid "Examples"
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:25
-#.    msgid "The seed of a pseudorandom number generator"
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:26
-#.    msgid "The state in a finite state machine"
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:29
-#.    msgid "UML Diagram"
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:36
-#.    msgid "Code"
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:38
-#.    msgid "You can also find this code on `GitHub`_"
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:40
-#.    msgid "Memento.php"
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:46
-#.    msgid "Originator.php"
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:52
-#.    msgid "Caretaker.php"
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:59
-#.    msgid "Test"
-#.    msgstr ""
-#.
-#.    #: ../../Behavioral/Memento/README.rst:61
-#.    msgid "Tests/MementoTest.php"
-#.    msgstr ""
+msgstr "Teste"

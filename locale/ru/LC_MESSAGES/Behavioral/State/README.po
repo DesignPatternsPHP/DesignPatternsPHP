@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../../Behavioral/State/README.rst:12
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Behavioral/State/README.rst:19
 msgid "Code"
@@ -41,26 +41,6 @@ msgstr "Код"
 #: ../../Behavioral/State/README.rst:21
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
-
-#: ../../Behavioral/State/README.rst:23
-msgid "OrderController.php"
-msgstr "OrderController.php"
-
-#: ../../Behavioral/State/README.rst:29
-msgid "OrderFactory.php"
-msgstr "OrderFactory.php"
-
-#: ../../Behavioral/State/README.rst:35
-msgid "OrderInterface.php"
-msgstr "OrderInterface.php"
-
-#: ../../Behavioral/State/README.rst:41
-msgid "ShippingOrder.php"
-msgstr "ShippingOrder.php"
-
-#: ../../Behavioral/State/README.rst:47
-msgid "CreateOrder.php"
-msgstr "CreateOrder.php"
 
 #: ../../Behavioral/State/README.rst:54
 msgid "Test"

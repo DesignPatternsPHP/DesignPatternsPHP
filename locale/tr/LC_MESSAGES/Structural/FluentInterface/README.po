@@ -39,11 +39,6 @@ msgid "PHPUnit uses fluent interfaces to build mock objects"
 msgstr ""
 "PHPUnit: Akıcı arayüzleri yapaylamalar (mocking) için kullanır."
 
-#: ../../Structural/FluentInterface/README.rst:16
-msgid "Yii Framework: CDbCommand and CActiveRecord use this pattern, too"
-msgstr ""
-"Yii Framework: ``CDbCommand`` ve ``CActiveRecord`` bu deseni kullanır."
-
 #: ../../Structural/FluentInterface/README.rst:18
 msgid "UML Diagram"
 msgstr "UML Diyagramı"

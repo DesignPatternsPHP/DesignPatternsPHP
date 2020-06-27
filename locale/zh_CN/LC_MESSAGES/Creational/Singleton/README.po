@@ -41,9 +41,8 @@ msgstr "数据库连接器"
 
 #: ../../Creational/Singleton/README.rst:17
 msgid ""
-"Logger (may also be a Multiton if there are many log files for several "
-"purposes)"
-msgstr "日志记录器 （可能有多个实例，比如有多个日志文件因为不同的目的记录不同到的日志）"
+"Logger"
+msgstr "日志记录器"
 
 #: ../../Creational/Singleton/README.rst:19
 msgid ""
@@ -63,14 +62,6 @@ msgstr "代码"
 msgid "You can also find this code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
-#: ../../Creational/Singleton/README.rst:34
-msgid "Singleton.php"
-msgstr ""
-
 #: ../../Creational/Singleton/README.rst:41
 msgid "Test"
 msgstr "测试"
-
-#: ../../Creational/Singleton/README.rst:43
-msgid "Tests/SingletonTest.php"
-msgstr ""

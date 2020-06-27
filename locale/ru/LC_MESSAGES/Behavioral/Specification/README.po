@@ -41,7 +41,7 @@ msgstr "`RulerZ <https://github.com/K-Phoen/rulerz>`__"
 
 #: ../../Behavioral/Specification/README.rst:18
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Behavioral/Specification/README.rst:25
 msgid "Code"
@@ -51,38 +51,6 @@ msgstr "Код"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
-#: ../../Behavioral/Specification/README.rst:29
-msgid "Item.php"
-msgstr "Item.php"
-
-#: ../../Behavioral/Specification/README.rst:35
-msgid "SpecificationInterface.php"
-msgstr "SpecificationInterface.php"
-
-#: ../../Behavioral/Specification/README.rst:41
-msgid "AbstractSpecification.php"
-msgstr "AbstractSpecification.php"
-
-#: ../../Behavioral/Specification/README.rst:47
-msgid "Either.php"
-msgstr "Either.php"
-
-#: ../../Behavioral/Specification/README.rst:53
-msgid "PriceSpecification.php"
-msgstr "PriceSpecification.php"
-
-#: ../../Behavioral/Specification/README.rst:59
-msgid "Plus.php"
-msgstr "Plus.php"
-
-#: ../../Behavioral/Specification/README.rst:65
-msgid "Not.php"
-msgstr "Not.php"
-
 #: ../../Behavioral/Specification/README.rst:72
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Behavioral/Specification/README.rst:74
-msgid "Tests/SpecificationTest.php"
-msgstr "Tests/SpecificationTest.php"

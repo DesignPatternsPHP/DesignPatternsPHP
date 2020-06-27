@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Structural\FluentInterface\Tests;
 
@@ -14,6 +14,6 @@ class FluentInterfaceTest extends TestCase
                 ->from('foobar', 'f')
                 ->where('f.bar = ?');
 
-        $this->assertEquals('SELECT foo, bar FROM foobar AS f WHERE f.bar = ?', (string) $query);
+        $this->assertSame('SELECT foo, bar FROM foobar AS f WHERE f.bar = ?', (string) $query);
     }
 }

@@ -54,19 +54,9 @@ msgstr ""
 "Memcached. Если запись в кеше отсутствует, вызов делегируется интерфейсу "
 "базы данных."
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
-msgid ""
-"Yii Framework: CFilterChain is a chain of controller action filters. the "
-"executing point is passed from one filter to the next along the chain, and "
-"only if all filters say \"yes\", the action can be invoked at last."
-msgstr ""
-"Yii Framework: CFilterChain — это цепочка фильтров действий контроллера. "
-"Точка вызова передаётся от фильтра к фильтру по цепочке и только если все "
-"фильтры скажут “да”, действие в итоге может быть вызвано."
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:25
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:32
 msgid "Code"
@@ -76,26 +66,6 @@ msgstr "Код"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:36
-msgid "Request.php"
-msgstr "Request.php"
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:42
-msgid "Handler.php"
-msgstr "Handler.php"
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:48
-msgid "Responsible/SlowStorage.php"
-msgstr "Responsible/SlowStorage.php"
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:54
-msgid "Responsible/FastStorage.php"
-msgstr "Responsible/FastStorage.php"
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:61
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:63
-msgid "Tests/ChainTest.php"
-msgstr "Tests/ChainTest.php"

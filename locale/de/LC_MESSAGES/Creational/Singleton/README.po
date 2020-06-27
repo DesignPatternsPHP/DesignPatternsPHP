@@ -47,11 +47,9 @@ msgstr "DB Konnektor"
 
 #: ../../Creational/Singleton/README.rst:17
 msgid ""
-"Logger (may also be a Multiton if there are many log files for several "
-"purposes)"
+"Logger"
 msgstr ""
-"Logger (kann auch ein Multiton sein, falls es mehrere Logfiles für "
-"verschiedene Zwecke gibt)"
+"Logger"
 
 #: ../../Creational/Singleton/README.rst:19
 msgid ""
@@ -72,14 +70,6 @@ msgstr "Code"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code auch auf `GitHub`_"
 
-#: ../../Creational/Singleton/README.rst:34
-msgid "Singleton.php"
-msgstr "Singleton.php"
-
 #: ../../Creational/Singleton/README.rst:41
 msgid "Test"
 msgstr "Теst"
-
-#: ../../Creational/Singleton/README.rst:43
-msgid "Tests/SingletonTest.php"
-msgstr "Tests/SingletonTest.php"

@@ -1,18 +1,20 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\Creational\Pool;
 
-class WorkerPool implements \Countable
+use Countable;
+
+class WorkerPool implements Countable
 {
     /**
      * @var StringReverseWorker[]
      */
-    private $occupiedWorkers = [];
+    private array $occupiedWorkers = [];
 
     /**
      * @var StringReverseWorker[]
      */
-    private $freeWorkers = [];
+    private array $freeWorkers = [];
 
     public function get(): StringReverseWorker
     {

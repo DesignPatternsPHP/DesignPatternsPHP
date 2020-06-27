@@ -25,15 +25,15 @@ Code
 
 You can also find this code on `GitHub`_
 
-RoleVisitorInterface.php
-
-.. literalinclude:: RoleVisitorInterface.php
-   :language: php
-   :linenos:
-
 RoleVisitor.php
 
 .. literalinclude:: RoleVisitor.php
+   :language: php
+   :linenos:
+
+RecordingVisitor.php
+
+.. literalinclude:: RecordingVisitor.php
    :language: php
    :linenos:
 
@@ -64,5 +64,5 @@ Tests/VisitorTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Visitor
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Behavioral/Visitor
 .. __: http://en.wikipedia.org/wiki/Visitor_pattern

@@ -32,7 +32,7 @@ msgstr ""
 #: ../../Creational/FactoryMethod/README.rst:12
 msgid ""
 "This pattern is a \"real\" Design Pattern because it achieves the "
-"\"Dependency Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
+"Dependency Inversion principle a.k.a the \"D\" in SOLID principles."
 msgstr ""
 
 #: ../../Creational/FactoryMethod/README.rst:15
@@ -53,38 +53,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Creational/FactoryMethod/README.rst:31
-msgid "FactoryMethod.php"
-msgstr ""
-
-#: ../../Creational/FactoryMethod/README.rst:37
-msgid "ItalianFactory.php"
-msgstr ""
-
-#: ../../Creational/FactoryMethod/README.rst:43
-msgid "GermanFactory.php"
-msgstr ""
-
-#: ../../Creational/FactoryMethod/README.rst:49
-msgid "VehicleInterface.php"
-msgstr ""
-
-#: ../../Creational/FactoryMethod/README.rst:55
-msgid "Porsche.php"
-msgstr ""
-
-#: ../../Creational/FactoryMethod/README.rst:61
-msgid "Bicycle.php"
-msgstr ""
-
-#: ../../Creational/FactoryMethod/README.rst:67
-msgid "Ferrari.php"
-msgstr ""
-
 #: ../../Creational/FactoryMethod/README.rst:74
 msgid "Test"
-msgstr ""
-
-#: ../../Creational/FactoryMethod/README.rst:76
-msgid "Tests/FactoryMethodTest.php"
 msgstr ""

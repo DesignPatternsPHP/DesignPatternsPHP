@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../Behavioral/Strategy/README.rst:26
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Behavioral/Strategy/README.rst:33
 msgid "Code"
@@ -73,26 +73,6 @@ msgstr "Код"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
-#: ../../Behavioral/Strategy/README.rst:37
-msgid "ObjectCollection.php"
-msgstr "ObjectCollection.php"
-
-#: ../../Behavioral/Strategy/README.rst:43
-msgid "ComparatorInterface.php"
-msgstr "ComparatorInterface.php"
-
-#: ../../Behavioral/Strategy/README.rst:49
-msgid "DateComparator.php"
-msgstr "DateComparator.php"
-
-#: ../../Behavioral/Strategy/README.rst:55
-msgid "IdComparator.php"
-msgstr "IdComparator.php"
-
 #: ../../Behavioral/Strategy/README.rst:62
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Behavioral/Strategy/README.rst:64
-msgid "Tests/StrategyTest.php"
-msgstr "Tests/StrategyTest.php"

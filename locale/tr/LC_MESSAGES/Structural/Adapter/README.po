@@ -39,7 +39,7 @@ msgstr "Örnekler"
 msgid "DB Client libraries adapter"
 msgstr ""
 "Veritabanı İstemcisi (Database Client) kütüphaneleri içindeki uyarlayıcılar (örn. "
-"`Oppa\Agent\Agent <https://github.com/k-gun/oppa/blob/master/src/Agent/Agent.php>`__)."
+"`Oppa\Agent\Agent <https://github.com/k-gun/oppa/blob/main/src/Agent/Agent.php>`__)."
 
 #: ../../Structural/Adapter/README.rst:16
 msgid ""

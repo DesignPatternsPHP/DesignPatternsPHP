@@ -46,13 +46,6 @@ msgid ""
 "\"misses\" it delegates the call to the database interface"
 msgstr ""
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:19
-msgid ""
-"Yii Framework: CFilterChain is a chain of controller action filters. the "
-"executing point is passed from one filter to the next along the chain, and "
-"only if all filters say \"yes\", the action can be invoked at last."
-msgstr ""
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:25
 msgid "UML Diagram"
 msgstr ""
@@ -65,26 +58,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr "Puedes encontrar el código en `GitHub`_"
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:36
-msgid "Request.php"
-msgstr ""
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:42
-msgid "Handler.php"
-msgstr ""
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:48
-msgid "Responsible/SlowStorage.php"
-msgstr ""
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:54
-msgid "Responsible/FastStorage.php"
-msgstr ""
-
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:61
 msgid "Test"
-msgstr ""
-
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:63
-msgid "Tests/ChainTest.php"
 msgstr ""

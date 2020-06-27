@@ -1,7 +1,8 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace DesignPatterns\More\ServiceLocator;
 
-class LogService
+class LogService implements Service
 {
+
 }

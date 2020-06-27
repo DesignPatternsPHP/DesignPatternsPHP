@@ -29,10 +29,6 @@ msgstr "Динамически добавляет новую функциона�
 msgid "Examples"
 msgstr "Примеры"
 
-#: ../../Structural/Decorator/README.rst:12
-msgid "Zend Framework: decorators for ``Zend_Form_Element`` instances"
-msgstr "Zend Framework: декораторы для экземпляров ``Zend_Form_Element``"
-
 #: ../../Structural/Decorator/README.rst:13
 msgid ""
 "Web Service Layer: Decorators JSON and XML for a REST service (in this case,"
@@ -43,7 +39,7 @@ msgstr ""
 
 #: ../../Structural/Decorator/README.rst:17
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Structural/Decorator/README.rst:24
 msgid "Code"
@@ -53,30 +49,6 @@ msgstr "Код"
 msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
 
-#: ../../Structural/Decorator/README.rst:28
-msgid "RendererInterface.php"
-msgstr "RendererInterface.php"
-
-#: ../../Structural/Decorator/README.rst:34
-msgid "Webservice.php"
-msgstr "Webservice.php"
-
-#: ../../Structural/Decorator/README.rst:40
-msgid "Decorator.php"
-msgstr "Decorator.php"
-
-#: ../../Structural/Decorator/README.rst:46
-msgid "RenderInXml.php"
-msgstr "RenderInXml.php"
-
-#: ../../Structural/Decorator/README.rst:52
-msgid "RenderInJson.php"
-msgstr "RenderInJson.php"
-
 #: ../../Structural/Decorator/README.rst:59
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Structural/Decorator/README.rst:61
-msgid "Tests/DecoratorTest.php"
-msgstr "Tests/DecoratorTest.php"

@@ -4,16 +4,16 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-10 14:50-0300\n"
+"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 
 #: ../../Creational/Pool/README.rst:2
 msgid "`Pool`__"
-msgstr ""
+msgstr "Agrupamento (`Pool`__)"
 
 #: ../../Creational/Pool/README.rst:4
 msgid ""
@@ -24,6 +24,12 @@ msgid ""
 "object. When the client has finished, it returns the object, which is a "
 "specific type of factory object, to the pool rather than destroying it."
 msgstr ""
+"O **padrão de conjunto de objetos** é um padrão de design criacional de software que "
+"usa um conjunto de objetos inicializados mantidos prontos para usar – um \"pool\" – em vez "
+"de alocá-los e destruí-los sob demanda. Um cliente do agrupamento "
+"solicitará um objeto do pool e executará operações no objeto retornado. "
+"Quando o cliente termina, retorna o objeto, que é um "
+"tipo específico de objeto de fábrica, para o pool, em vez de destruí-lo. "
 
 #: ../../Creational/Pool/README.rst:11
 msgid ""
@@ -34,6 +40,12 @@ msgid ""
 "creation of the new objects (especially over network) may take variable "
 "time."
 msgstr ""
+"O agrupamento de objetos pode oferecer um aumento significativo de desempenho em situações "
+"onde o custo de inicializar uma instância de classe é alto, a taxa de "
+"instanciação de uma classe é alta, e o número de instâncias em uso em "
+"qualquer momento é baixo. O objeto em pool é obtido em tempo previsível "
+"enquanto a criação dos novos objetos (especialmente na rede) pode levar "
+"tempo variável. "
 
 #: ../../Creational/Pool/README.rst:18
 msgid ""
@@ -43,39 +55,24 @@ msgid ""
 "simple object pooling (that hold no external resources, but only occupy "
 "memory) may not be efficient and could decrease performance."
 msgstr ""
+"No entanto, esses benefícios são principalmente verdadeiros para objetos que são caros "
+"em relação ao tempo, como conexões de banco de dados, conexões de soquete, "
+"encadeamentos e grandes objetos gráficos, como fontes ou bitmaps. Em certas "
+"situações, o agrupamento de objetos simples (que não contém recursos externos, mas "
+"apenas ocupam memória) pode não ser eficiente e diminuir o desempenho. "
 
 #: ../../Creational/Pool/README.rst:25
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Creational/Pool/README.rst:32
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Creational/Pool/README.rst:34
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
-
-#: ../../Creational/Pool/README.rst:36
-msgid "Pool.php"
-msgstr ""
-
-#: ../../Creational/Pool/README.rst:42
-msgid "Processor.php"
-msgstr ""
-
-#: ../../Creational/Pool/README.rst:48
-msgid "Worker.php"
-msgstr ""
+msgstr "Você também pode encontrar esse código no `GitHub`_"
 
 #: ../../Creational/Pool/README.rst:55
 msgid "Test"
-msgstr ""
-
-#: ../../Creational/Pool/README.rst:57
-msgid "Tests/PoolTest.php"
-msgstr ""
-
-#: ../../Creational/Pool/README.rst:63
-msgid "Tests/TestWorker.php"
-msgstr ""
+msgstr "Teste"

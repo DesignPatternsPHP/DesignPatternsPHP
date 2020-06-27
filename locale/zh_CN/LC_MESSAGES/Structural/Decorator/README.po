@@ -27,10 +27,6 @@ msgstr "动态地为类的实例添加功能"
 msgid "Examples"
 msgstr "例子"
 
-#: ../../Structural/Decorator/README.rst:12
-msgid "Zend Framework: decorators for ``Zend_Form_Element`` instances"
-msgstr "Zend Framework: ``Zend_Form_Element`` 实例的装饰器"
-
 #: ../../Structural/Decorator/README.rst:13
 msgid ""
 "Web Service Layer: Decorators JSON and XML for a REST service (in this case,"
@@ -50,30 +46,6 @@ msgstr "代码"
 msgid "You can also find this code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
 
-#: ../../Structural/Decorator/README.rst:28
-msgid "RendererInterface.php"
-msgstr ""
-
-#: ../../Structural/Decorator/README.rst:34
-msgid "Webservice.php"
-msgstr ""
-
-#: ../../Structural/Decorator/README.rst:40
-msgid "Decorator.php"
-msgstr ""
-
-#: ../../Structural/Decorator/README.rst:46
-msgid "RenderInXml.php"
-msgstr ""
-
-#: ../../Structural/Decorator/README.rst:52
-msgid "RenderInJson.php"
-msgstr ""
-
 #: ../../Structural/Decorator/README.rst:59
 msgid "Test"
 msgstr "测试"
-
-#: ../../Structural/Decorator/README.rst:61
-msgid "Tests/DecoratorTest.php"
-msgstr ""

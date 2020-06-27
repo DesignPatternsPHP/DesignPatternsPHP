@@ -46,30 +46,6 @@ msgstr ""
 msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
-#: ../../Behavioral/Visitor/README.rst:28
-msgid "RoleVisitorInterface.php"
-msgstr ""
-
-#: ../../Behavioral/Visitor/README.rst:34
-msgid "RolePrintVisitor.php"
-msgstr ""
-
-#: ../../Behavioral/Visitor/README.rst:40
-msgid "Role.php"
-msgstr ""
-
-#: ../../Behavioral/Visitor/README.rst:46
-msgid "User.php"
-msgstr ""
-
-#: ../../Behavioral/Visitor/README.rst:52
-msgid "Group.php"
-msgstr ""
-
 #: ../../Behavioral/Visitor/README.rst:59
 msgid "Test"
-msgstr ""
-
-#: ../../Behavioral/Visitor/README.rst:61
-msgid "Tests/VisitorTest.php"
 msgstr ""
