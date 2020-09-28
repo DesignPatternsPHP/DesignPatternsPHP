@@ -1,6 +1,7 @@
 FROM composer AS composer
 WORKDIR /app
 ADD . /app
+RUN composer global require hirak/prestissimo
 RUN composer install \
     && ./vendor/bin/phpcs --ignore=_build . \
     && ./vendor/bin/phpunit \
