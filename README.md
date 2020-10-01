@@ -88,3 +88,9 @@ The patterns can be structured in roughly three different categories. Please cli
 * [EAV](More/EAV) [:notebook:](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model)
 * [Repository](More/Repository)
 * [ServiceLocator](More/ServiceLocator) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
+
+## Language Support & Localization
+
+Available locales:  
+> ca (Catalan), de (German), es (Spanish), es_MX (Spanish - Mexican), ja (Japanese), pl (Polish), pt_BR (Portuguese - Brazil), ru (Russian), tr (Turkish), zh_CN (Chinese)
+
