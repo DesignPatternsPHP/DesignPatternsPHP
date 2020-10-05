@@ -1,0 +1,80 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 15:24+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Behavioral/NullObject/README.rst:2
+msgid "`Null Object`__"
+msgstr "`Null Object`__"
+
+#: ../../Behavioral/NullObject/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Behavioral/NullObject/README.rst:7
+msgid ""
+"NullObject is not a GoF design pattern but a schema which appears frequently enough to be considered a pattern. It has the following benefits:"
+msgstr "NullObject is niet GoF ontwerp maar een schema dat vaak voorkomt dat als een patroon kan worden behandeld. Het heeft de volgende voordelen:"
+
+#: ../../Behavioral/NullObject/README.rst:11
+msgid "Client code is simplified"
+msgstr "Client code is versimpeld"
+
+#: ../../Behavioral/NullObject/README.rst:12
+msgid "Reduces the chance of null pointer exceptions"
+msgstr "Verminder kant van null pointer exceptions"
+
+#: ../../Behavioral/NullObject/README.rst:13
+msgid "Fewer conditionals require less test cases"
+msgstr "Minder voorwaarden betekent minder test situaties vereist"
+
+#: ../../Behavioral/NullObject/README.rst:15
+msgid ""
+"Methods that return an object or null should instead return an object or ``NullObject``. ``NullObject``\\ s simplify boilerplate code such as ``if "
+"(!is_null($obj)) { $obj->callSomething(); }`` to just ``$obj->callSomething();`` by eliminating the conditional check in client code."
+msgstr ""
+"Methoden die een object of null retourneren, moeten in plaats daarvan een object of 'NullObject' retourneren. `` NullObject '' vereenvoudigt "
+"standaardcode zoals `ʻif (! Is_null ($ obj)) {$ obj-> callSomething (); } `` gewoon `` $ obj-> callSomething (); '' door de voorwaardelijke check-"
+"in clientcode te elimineren."
+
+#: ../../Behavioral/NullObject/README.rst:22
+msgid "Examples"
+msgstr "Bijvoorbeeld"
+
+#: ../../Behavioral/NullObject/README.rst:24
+msgid "Null logger or null output to preserve a standard way of interaction between objects, even if the shouldn't do anything"
+msgstr "Null Logger oder Null Output um einen Standardweg einzuhalten, über den Objekte miteinander interagieren auch wenn Objekte nichts tun sollen"
+
+#: ../../Behavioral/NullObject/README.rst:26
+msgid "null handler in a Chain of Responsibilities pattern"
+msgstr "null handelaar in een Ketting van verantwoordelijkhedenspatroon"
+
+#: ../../Behavioral/NullObject/README.rst:27
+msgid "null command in a Command pattern"
+msgstr "null commando in een Commandopatroon"
+
+#: ../../Behavioral/NullObject/README.rst:30
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Behavioral/NullObject/README.rst:37
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/NullObject/README.rst:39
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Behavioral/NullObject/README.rst:66
+msgid "Test"
+msgstr "Test"

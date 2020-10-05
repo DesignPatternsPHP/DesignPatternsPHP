@@ -1,0 +1,56 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 23:53+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Structural/Proxy/README.rst:2
+msgid "`Proxy`__"
+msgstr "`Proxy`__"
+
+#: ../../Structural/Proxy/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Structural/Proxy/README.rst:7
+msgid "To interface to anything that is expensive or impossible to duplicate."
+msgstr "Om te communiceren met iets dat duur of onmogelijk te dupliceren is."
+
+#: ../../Structural/Proxy/README.rst:10
+msgid "Examples"
+msgstr "Bijvoorbeeld"
+
+#: ../../Structural/Proxy/README.rst:12
+msgid ""
+"Doctrine2 uses proxies to implement framework magic (e.g. lazy "
+"initialization) in them, while the user still works with his own entity "
+"classes and will never use nor touch the proxies"
+msgstr ""
+"Doctrine2 gebruikt proxy's om raamwerkmagie (bijv. Luie initialisatie) "
+"daarin te implementeren, terwijl de gebruiker nog steeds met zijn eigen "
+"entiteitsklassen werkt en de proxy's nooit zal gebruiken of aanraken"
+
+#: ../../Structural/Proxy/README.rst:17
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Structural/Proxy/README.rst:24
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/Proxy/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Structural/Proxy/README.rst:41
+msgid "Test"
+msgstr "Теst"

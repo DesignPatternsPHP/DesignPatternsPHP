@@ -1,0 +1,46 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 23:44+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Structural/Bridge/README.rst:2
+msgid "`Bridge`__"
+msgstr "`Brug`__"
+
+#: ../../Structural/Bridge/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Structural/Bridge/README.rst:7
+msgid ""
+"Decouple an abstraction from its implementation so that the two can vary "
+"independently."
+msgstr ""
+"Ontkoppel een abstractie van de implementatie, zodat de twee "
+"onafhankelijk van elkaar kunnen variëren."
+
+#: ../../Structural/Bridge/README.rst:17
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Structural/Bridge/README.rst:24
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/Bridge/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Structural/Bridge/README.rst:65
+msgid "Test"
+msgstr "Теst"

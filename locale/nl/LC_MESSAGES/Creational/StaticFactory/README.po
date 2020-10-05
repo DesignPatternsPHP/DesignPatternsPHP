@@ -1,0 +1,52 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 23:35+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Creational/StaticFactory/README.rst:2
+msgid "Static Factory"
+msgstr "Static Factory"
+
+#: ../../Creational/StaticFactory/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Creational/StaticFactory/README.rst:7
+msgid ""
+"Similar to the AbstractFactory, this pattern is used to create series of "
+"related or dependent objects. The difference between this and the abstract "
+"factory pattern is that the static factory pattern uses just one static "
+"method to create all types of objects it can create. It is usually named "
+"``factory`` or ``build``."
+msgstr ""
+"Net als bij AbstractFactory, wordt dit patroon gebruikt om series van "
+"gerelateerde of afhankelijke objecten te maken. Het verschil tussen dit en "
+"het abstracte fabriekspatroon is dat het statische fabriekspatroon slechts "
+"één statische methode gebruikt om alle soorten objecten te maken die het "
+"kan maken. Het wordt meestal 'fabriek' of 'bouwen' genoemd."
+
+#: ../../Creational/StaticFactory/README.rst:20
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Creational/StaticFactory/README.rst:27
+msgid "Code"
+msgstr "Code"
+
+#: ../../Creational/StaticFactory/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Creational/StaticFactory/README.rst:56
+msgid "Test"
+msgstr "Теst"

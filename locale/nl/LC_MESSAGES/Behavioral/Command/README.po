@@ -1,0 +1,83 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 05:38+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Behavioral/Command/README.rst:2
+msgid "`Command`__"
+msgstr "`Commando`__"
+
+#: ../../Behavioral/Command/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Behavioral/Command/README.rst:7
+msgid "To encapsulate invocation and decoupling."
+msgstr "Om aanroep en ontkoppeling samen te vatten."
+
+#: ../../Behavioral/Command/README.rst:9
+msgid ""
+"We have an Invoker and a Receiver. This pattern uses a \"Command\" to delegate the method call "
+"against the Receiver and presents the same method \"execute\". Therefore, the Invoker just "
+"knows to call \"execute\" to process the Command of the client. The Receiver is decoupled from "
+"the Invoker."
+msgstr ""
+"We hebben een Starter en een Ontvanger. Dit patroon gebruikt een \"Commando\" om de "
+"methodeaanroep aan de ontvanger te delegeren en presenteert dezelfde methode \"execute\". "
+"Daarom weet de Starter gewoon \"voer uit\" aan te roepen om het commando van de client te "
+"verwerken. De Ontvanger is losgekoppeld van de Starter."
+
+#: ../../Behavioral/Command/README.rst:15
+msgid ""
+"The second aspect of this pattern is the undo(), which undoes the method execute(). Command "
+"can also be aggregated to combine more complex commands with minimum copy-paste and relying on "
+"composition over inheritance."
+msgstr ""
+"Het tweede aspect van dit patroon is de undo (), die de methode execute () ongedaan maakt. "
+"Commando's kunnen ook worden geaggregeerd om complexere commando's te combineren met een "
+"minimum aan kopiëren en plakken en vertrouwen op compositie boven overerving."
+
+#: ../../Behavioral/Command/README.rst:21
+msgid "Examples"
+msgstr "Bijvoorbeeld"
+
+#: ../../Behavioral/Command/README.rst:23
+msgid "A text editor : all events are Command which can be undone, stacked and saved."
+msgstr ""
+"Een teksteditor: alle gebeurtenissen zijn Commando's die ongedaan kunnen worden gemaakt, "
+"gestapeld en opgeslagen."
+
+#: ../../Behavioral/Command/README.rst:27
+msgid ""
+"big CLI tools use subcommands to distribute various tasks and pack them in \"modules\", each "
+"of these can be implemented with the Command pattern (e.g. vagrant)"
+msgstr ""
+"grote console tools maken gebruik van subcommandos om verschillende taken uit te delen en ze "
+"verpakken in \"modules\", elk van deze kan worden gebruikt met de Commando patroon (vb. "
+"zwervend)"
+
+#: ../../Behavioral/Command/README.rst:32
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Behavioral/Command/README.rst:39
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/Command/README.rst:41
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Behavioral/Command/README.rst:68
+msgid "Test"
+msgstr "Теst"

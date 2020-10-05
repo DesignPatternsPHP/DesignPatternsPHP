@@ -1,0 +1,67 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 15:32+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Behavioral/Observer/README.rst:2
+msgid "`Observer`__"
+msgstr "`Opletter`__"
+
+#: ../../Behavioral/Observer/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Behavioral/Observer/README.rst:7
+msgid ""
+"To implement a publish/subscribe behaviour to an object, whenever a \"Subject\" object changes its "
+"state, the attached \"Observers\" will be notified. It is used to shorten the amount of coupled objects "
+"and uses loose coupling instead."
+msgstr ""
+"Om een ​​publicatie- / abonneergedrag voor een object te implementeren, worden de bijgevoegde \"Waarnemers"
+"\" op de hoogte gesteld wanneer een \"Onderwerp\" -object van status verandert. Het wordt gebruikt om "
+"het aantal gekoppelde objecten te verkorten en gebruikt in plaats daarvan een losse koppeling."
+
+#: ../../Behavioral/Observer/README.rst:13
+msgid "Examples"
+msgstr "Bijvoorbeeld"
+
+#: ../../Behavioral/Observer/README.rst:15
+msgid "a message queue system is observed to show the progress of a job in a GUI"
+msgstr "een berichtenwachtrijsysteem wordt geobserveerd om de voortgang van een taak in een GUI te tonen"
+
+#: ../../Behavioral/Observer/README.rst:19
+msgid "Note"
+msgstr "Notitie"
+
+#: ../../Behavioral/Observer/README.rst:21
+msgid ""
+"PHP already defines two interfaces that can help to implement this pattern: SplObserver and SplSubject."
+msgstr ""
+"PHP definieert al twee interfaces die kunnen helpen om dit patroon te implementeren: SplWaarnemer en "
+"SplOnderwerp."
+
+#: ../../Behavioral/Observer/README.rst:25
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Behavioral/Observer/README.rst:32
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/Observer/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Behavioral/Observer/README.rst:49
+msgid "Test"
+msgstr "Test"
