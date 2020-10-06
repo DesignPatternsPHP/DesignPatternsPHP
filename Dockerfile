@@ -12,7 +12,8 @@ FROM python AS sphinx_build
 WORKDIR /app
 COPY --from=composer /app /app
 RUN pip3 install Sphinx sphinx_rtd_theme
-RUN make html
+ARG language=en
+RUN make -e "SPHINXOPTS=-D language='${language}'" html
 
 FROM nginx
 WORKDIR /usr/share/nginx/html

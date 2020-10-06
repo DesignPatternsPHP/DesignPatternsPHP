@@ -39,6 +39,13 @@ $ docker-compose up --build
 
 Go to [http://localhost:8080/README.html](http://localhost:8080/README.html) to read the generated documentation.
 
+If you want to localize your documentation you can pass the locale as an argument to the docker build:
+
+```bash
+$ docker-compose build --build-arg language=de
+$ docker-compose up
+```
+
 ## Patterns
 
 The patterns can be structured in roughly three different categories. Please click on the [:notebook:](http://en.wikipedia.org/wiki/Software_design_pattern) for a full explanation of the pattern on Wikipedia.
