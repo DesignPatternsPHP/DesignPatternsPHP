@@ -37,7 +37,7 @@ Just run:
 $ docker-compose up --build
 ```
 
-Go to [http://localhost:8080/README.html](http://localhost:8080/README.html) to read the generated documentation.
+Go to [http://localhost:8080/index.html](http://localhost:8080/index.html) to read the generated documentation.
 
 ## Patterns
 
