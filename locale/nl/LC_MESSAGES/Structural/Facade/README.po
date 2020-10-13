@@ -1,0 +1,86 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 23:50+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Structural/Facade/README.rst:2
+msgid "`Facade`__"
+msgstr "`Facade`__"
+
+#: ../../Structural/Facade/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Structural/Facade/README.rst:7
+msgid ""
+"The primary goal of a Facade Pattern is not to avoid you having to read "
+"themanual of a complex API. It's only a side-effect. The first goal is "
+"toreduce coupling and follow the Law of Demeter."
+msgstr ""
+"Het primaire doel van een gevelpatroon is niet te vermijden dat u de "
+"handleiding van een complexe API moet lezen. Het is maar een bijwerking. "
+"Het eerste doel is om de koppeling te verminderen en de wet van Demeter te "
+"volgen."
+
+#: ../../Structural/Facade/README.rst:11
+msgid ""
+"A Facade is meant to decouple a client and a sub-system by embedding many "
+"(but sometimes just one) interface, and of course to reduce complexity."
+msgstr ""
+"Een Gevel is bedoeld om een ​​klant en een subsysteem te ontkoppelen door "
+"veel (maar soms slechts één) interface in te bedden, en natuurlijk om de "
+"complexiteit te verminderen."
+
+#: ../../Structural/Facade/README.rst:15
+msgid "A facade does not forbid you the access to the sub-system"
+msgstr "Een Gevel verbiedt u niet de toegang tot het subsysteem"
+
+#: ../../Structural/Facade/README.rst:16
+msgid "You can (you should) have multiple facades for one sub-system"
+msgstr "U kunt (u zou moeten) meerdere Gevels hebben voor één subsysteem"
+
+#: ../../Structural/Facade/README.rst:18
+msgid ""
+"That's why a good facade has no ``new`` in it. If there are multiple "
+"creations for each method, it is not a Facade, it's a Builder or a [Abstract"
+"\\|Static\\|Simple] Factory [Method]."
+msgstr ""
+"Daarom heeft een goede gevel geen 'nieuw' in zich. Als er voor elke methode "
+"meerdere creaties zijn, is het geen Facade, maar een Builder of een "
+"[Abstract \\ | Static \\ | Simple] Factory [Method]."
+
+#: ../../Structural/Facade/README.rst:22
+msgid ""
+"The best facade has no ``new`` and a constructor with interface-type-hinted "
+"parameters. If you need creation of new instances, use a Factory as "
+"argument."
+msgstr ""
+"De beste gevel heeft geen `` nieuwe '' en een constructor met interface-"
+"type-hinted parameters. Als u nieuwe instances moet maken, gebruikt u een "
+"Factory als argument."
+
+#: ../../Structural/Facade/README.rst:27
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Structural/Facade/README.rst:34
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/Facade/README.rst:36
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Structural/Facade/README.rst:57
+msgid "Test"
+msgstr "Теst"

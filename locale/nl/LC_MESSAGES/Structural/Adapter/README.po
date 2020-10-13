@@ -1,0 +1,66 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 23:44+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Structural/Adapter/README.rst:2
+msgid "`Adapter / Wrapper`__"
+msgstr "`Adapter / Wrapper`__"
+
+#: ../../Structural/Adapter/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Structural/Adapter/README.rst:7
+msgid ""
+"To translate one interface for a class into a compatible interface. An "
+"adapter allows classes to work together that normally could not because of "
+"incompatible interfaces by providing its interface to clients while using "
+"the original interface."
+msgstr ""
+"Om een ​​interface voor een klas te vertalen naar een compatibele interface. "
+"Een adapter stelt klassen in staat om samen te werken die normaal niet "
+"zouden kunnen vanwege incompatibele interfaces door de interface aan "
+"clients te verstrekken terwijl de originele interface wordt gebruikt."
+
+#: ../../Structural/Adapter/README.rst:13
+msgid "Examples"
+msgstr "Bijvoorbeeld"
+
+#: ../../Structural/Adapter/README.rst:15
+msgid "DB Client libraries adapter"
+msgstr "Adapter voor DB-clientbibliotheken"
+
+#: ../../Structural/Adapter/README.rst:16
+msgid ""
+"using multiple different webservices and adapters normalize data so that "
+"the outcome is the same for all"
+msgstr ""
+"door meerdere verschillende webservices en adapters te gebruiken, worden "
+"gegevens genormaliseerd zodat het resultaat voor iedereen hetzelfde is"
+
+#: ../../Structural/Adapter/README.rst:20
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Structural/Adapter/README.rst:27
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/Adapter/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Structural/Adapter/README.rst:62
+msgid "Test"
+msgstr "Теst"

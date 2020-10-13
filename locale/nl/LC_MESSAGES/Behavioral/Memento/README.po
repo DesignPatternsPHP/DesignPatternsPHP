@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-03 23:59+0200\n"
+"PO-Revision-Date: 2020-10-05 05:47+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: RedDevilus\n"
+"Language-Team: \n"
+"Language: nl\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Behavioral/Memento/README.rst:2
+msgid "`Memento`__"
+msgstr "`Aandenking`__"
+
+#: ../../Behavioral/Memento/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Behavioral/Memento/README.rst:7
+msgid ""
+"It provides the ability to restore an object to it's previous state "
+"(undo via rollback) or to gain access to state of the object, without "
+"revealing it's implementation (i.e., the object is not required to have "
+"a functional for return the current state)."
+msgstr ""
+"Het biedt de mogelijkheid om een ​​object te herstellen naar de vorige "
+"staat (ongedaan maken via terugzetting) of om toegang te krijgen tot de "
+"staat van het object, zonder de implementatie ervan te onthullen (d.w.z. "
+"het object hoeft geen functie te hebben om de huidige staat te "
+"retourneren)."
+
+#: ../../Behavioral/Memento/README.rst:12
+msgid ""
+"The memento pattern is implemented with three objects: the Originator, a "
+"Caretaker and a Memento."
+msgstr ""
+"Het aandenkenpatroon is geïmplementeerd met drie objecten: de vinder, "
+"een verzorger en een aandenken."
+
+#: ../../Behavioral/Memento/README.rst:15
+msgid ""
+"Memento – an object that *contains a concrete unique snapshot of state* "
+"of any object or resource: string, number, array, an instance of class "
+"and so on. The uniqueness in this case does not imply the prohibition "
+"existence of similar states in different snapshots. That means the state "
+"can be extracted as the independent clone. Any object stored in the "
+"Memento should be *a full copy of the original object rather than a "
+"reference* to the original object. The Memento object is a \"opaque "
+"object\" (the object that no one can or should change)."
+msgstr ""
+"Aandenking - een object dat *een concrete unieke momentopname van staat* "
+"van een object of bron bevat: tekenreeks, getal, reeks, een instantie "
+"van klasse enzovoort. Het unieke in dit geval impliceert niet het verbod "
+"op het bestaan ​​van vergelijkbare staten in verschillende snapshots. Dat "
+"betekent dat de staat kan worden geëxtraheerd als de onafhankelijke "
+"kloon. Elk object dat in de Aandenking is opgeslagen, moet * een "
+"volledige kopie van het originele object zijn in plaats van een "
+"verwijzing * naar het originele object. Het Aandenking-object is een "
+"\"ondoorzichtig object\" (het object dat niemand kan of mag veranderen)."
+
+#: ../../Behavioral/Memento/README.rst:24
+msgid ""
+"Originator – it is an object that contains the *actual state of an "
+"external object is strictly specified type*. Originator is able to "
+"create a unique copy of this state and return it wrapped in a Memento. "
+"The Originator does not know the history of changes. You can set a "
+"concrete state to Originator from the outside, which will be considered "
+"as actual. The Originator must make sure that given state corresponds "
+"the allowed type of object. Originator may (but not should) have any "
+"methods, but they *they can't make changes to the saved object state*."
+msgstr ""
+"Vinder - het is een object dat de * werkelijke status van een extern "
+"object bevat, is strikt gespecificeerd type *. De maker kan een unieke "
+"kopie van deze staat maken en deze verpakt in een aandenken retourneren. "
+"De vinder kent de geschiedenis van veranderingen niet. U kunt van "
+"buitenaf een concrete toestand instellen op Vinder, die als werkelijk "
+"wordt beschouwd. De Beller moet ervoor zorgen dat de gegeven status "
+"overeenkomt met het toegestane type object. De maker kan (maar zou niet "
+"moeten) methoden hebben, maar ze * ze kunnen geen wijzigingen aanbrengen "
+"in de opgeslagen objectstatus *."
+
+#: ../../Behavioral/Memento/README.rst:33
+msgid ""
+"Caretaker *controls the states history*. He may make changes to an "
+"object; take a decision to save the state of an external object in the "
+"Originator; ask from the Originator snapshot of the current state; or "
+"set the Originator state to equivalence with some snapshot from history."
+msgstr ""
+"Verzorger * beheert de geschiedenis van de staten *. Hij kan wijzigingen "
+"aanbrengen in een object; een beslissing nemen om de staat van een "
+"extern object op te slaan in de Vinder; vraag aan de momentopname van de "
+"maker van de huidige staat; of stel de Vinder-status in op "
+"gelijkwaardigheid met een momentopname uit de geschiedenis."
+
+#: ../../Behavioral/Memento/README.rst:39
+msgid "Examples"
+msgstr "Bijvoorbeeld"
+
+#: ../../Behavioral/Memento/README.rst:41
+msgid "The seed of a pseudorandom number generator"
+msgstr "Het zaad van een pseudo-willekeurige nummergenerator"
+
+#: ../../Behavioral/Memento/README.rst:42
+msgid "The state in a finite state machine"
+msgstr "De staat in een beperkte toestandsmachine"
+
+#: ../../Behavioral/Memento/README.rst:43
+msgid ""
+"Control for intermediate states of `ORM Model <http://en.wikipedia.org/"
+"wiki/Object-relational_mapping>`_ before saving"
+msgstr ""
+"Controle voor tussenliggende toestanden van ʻORM Model <https://nl."
+"wikipedia.org/wiki/Objectgeori%C3%ABnteerd> `_ alvorens op te slaan"
+
+#: ../../Behavioral/Memento/README.rst:46
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Behavioral/Memento/README.rst:53
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/Memento/README.rst:55
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Behavioral/Memento/README.rst:76
+msgid "Test"
+msgstr "Test"

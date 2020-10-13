@@ -1,0 +1,57 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 15:31+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Behavioral/Mediator/README.rst:2
+msgid "`Mediator`__"
+msgstr "`Onderhandelaar`__"
+
+#: ../../Behavioral/Mediator/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Behavioral/Mediator/README.rst:7
+msgid ""
+"This pattern provides an easy way to decouple many components working together. It is a good "
+"alternative to Observer IF you have a \"central intelligence\", like a controller (but not in the "
+"sense of the MVC)."
+msgstr ""
+"Dit patroon biedt een gemakkelijke manier om veel samenwerkende componenten te ontkoppelen. Het is "
+"een goed alternatief voor Waarnemer ALS je een \"centrale intelligentie\" hebt, zoals een controller "
+"(maar niet in de zin van de MVC)."
+
+#: ../../Behavioral/Mediator/README.rst:11
+msgid ""
+"All components (called Colleague) are only coupled to the Mediator interface and it is a good thing "
+"because in OOP, one good friend is better than many. This is the key-feature of this pattern."
+msgstr ""
+"Alle componenten (genaamd Collega) zijn alleen gekoppeld aan de Onderhandelaar-interface en het is "
+"een goede zaak omdat in OOP één goede vriend beter is dan vele. Dit is het belangrijkste kenmerk van "
+"dit patroon."
+
+#: ../../Behavioral/Mediator/README.rst:16
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Behavioral/Mediator/README.rst:23
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/Mediator/README.rst:25
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Behavioral/Mediator/README.rst:64
+msgid "Test"
+msgstr "Test"

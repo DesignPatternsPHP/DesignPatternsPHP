@@ -1,0 +1,82 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 23:29+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Creational/Pool/README.rst:2
+msgid "`Pool`__"
+msgstr "`Pool`__"
+
+#: ../../Creational/Pool/README.rst:4
+msgid ""
+"The **object pool pattern** is a software creational design pattern that "
+"uses a set of initialized objects kept ready to use – a \"pool\" – rather "
+"than allocating and destroying them on demand. A client of the pool will "
+"request an object from the pool and perform operations on the returned "
+"object. When the client has finished, it returns the object, which is a "
+"specific type of factory object, to the pool rather than destroying it."
+msgstr ""
+"Het ** objectpoolpatroon ** is een ontwerppatroon van software dat "
+"gebruikmaakt van een set geïnitialiseerde objecten die klaar voor gebruik "
+"worden gehouden - een \"pool\" - in plaats van ze op aanvraag toe te wijzen "
+"en te vernietigen. Een client van de pool zal een object uit de pool "
+"opvragen en bewerkingen uitvoeren op het geretourneerde object. Wanneer de "
+"klant klaar is, brengt hij het object, dat een specifiek type "
+"fabrieksobject is, terug naar de pool in plaats van het te vernietigen."
+
+#: ../../Creational/Pool/README.rst:11
+msgid ""
+"Object pooling can offer a significant performance boost in situations "
+"where the cost of initializing a class instance is high, the rate of "
+"instantiation of a class is high, and the number of instances in use at any "
+"one time is low. The pooled object is obtained in predictable time when "
+"creation of the new objects (especially over network) may take variable "
+"time."
+msgstr ""
+"Objectpooling kan een aanzienlijke prestatieverbetering bieden in situaties "
+"waarin de kosten voor het initialiseren van een klasse-instantie hoog zijn, "
+"de snelheid waarmee een klasse wordt geïnstantieerd en het aantal "
+"instanties dat tegelijkertijd in gebruik is, laag is. Het gepoolde object "
+"wordt binnen een voorspelbare tijd verkregen wanneer het maken van de "
+"nieuwe objecten (vooral via het netwerk) variabele tijd kan duren."
+
+#: ../../Creational/Pool/README.rst:18
+msgid ""
+"However these benefits are mostly true for objects that are expensive with "
+"respect to time, such as database connections, socket connections, threads "
+"and large graphic objects like fonts or bitmaps. In certain situations, "
+"simple object pooling (that hold no external resources, but only occupy "
+"memory) may not be efficient and could decrease performance."
+msgstr ""
+"Deze voordelen gelden echter meestal voor objecten die duur zijn in de "
+"tijd, zoals databaseverbindingen, socketverbindingen, threads en grote "
+"grafische objecten zoals lettertypen of bitmaps. In bepaalde situaties is "
+"eenvoudige pooling van objecten (die geen externe bronnen bevatten, maar "
+"alleen geheugen innemen) mogelijk niet efficiënt en kunnen de prestaties "
+"afnemen."
+
+#: ../../Creational/Pool/README.rst:25
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Creational/Pool/README.rst:32
+msgid "Code"
+msgstr "Code"
+
+#: ../../Creational/Pool/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Creational/Pool/README.rst:55
+msgid "Test"
+msgstr "Теst"

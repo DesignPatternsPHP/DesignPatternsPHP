@@ -1,0 +1,68 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 23:29+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Creational/FactoryMethod/README.rst:2
+msgid "`Factory Method`__"
+msgstr "`Factory Method`__"
+
+#: ../../Creational/FactoryMethod/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Creational/FactoryMethod/README.rst:7
+msgid ""
+"The good point over the SimpleFactory is you can subclass it to implement "
+"different ways to create objects"
+msgstr ""
+"Het goede punt van SimpleFactory is dat je het kunt subklassen om "
+"verschillende manieren te implementeren om objecten te maken"
+
+#: ../../Creational/FactoryMethod/README.rst:10
+msgid "For simple case, this abstract class could be just an interface"
+msgstr ""
+"In eenvoudige gevallen kan deze abstracte klasse slechts een interface zijn"
+
+#: ../../Creational/FactoryMethod/README.rst:12
+msgid ""
+"This pattern is a \"real\" Design Pattern because it achieves the "
+"Dependency Inversion principle a.k.a the \"D\" in SOLID principles."
+msgstr ""
+"Dit patroon is een \"echt\" ontwerppatroon omdat het het Dependency "
+"Inversion-principe, ook wel de \"D\" in SOLID-principes genoemd, bereikt."
+
+#: ../../Creational/FactoryMethod/README.rst:15
+msgid ""
+"It means the FactoryMethod class depends on abstractions, not concrete "
+"classes. This is the real trick compared to SimpleFactory or StaticFactory."
+msgstr ""
+"Het betekent dat de FactoryMethod-klasse afhankelijk is van abstracties, "
+"niet van concrete klassen. Dit is de echte truc vergeleken met "
+"SimpleFactory of StaticFactory."
+
+#: ../../Creational/FactoryMethod/README.rst:20
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Creational/FactoryMethod/README.rst:27
+msgid "Code"
+msgstr "Code"
+
+#: ../../Creational/FactoryMethod/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Creational/FactoryMethod/README.rst:74
+msgid "Test"
+msgstr "Теst"

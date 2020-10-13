@@ -1,0 +1,74 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 23:21+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Behavioral/Strategy/README.rst:2
+msgid "`Strategy`__"
+msgstr "`Strategy`__"
+
+#: ../../Behavioral/Strategy/README.rst:5
+msgid "Terminology:"
+msgstr "Terminologie:"
+
+#: ../../Behavioral/Strategy/README.rst:7
+msgid "Context"
+msgstr "Context"
+
+#: ../../Behavioral/Strategy/README.rst:8
+msgid "Strategy"
+msgstr "Strategy"
+
+#: ../../Behavioral/Strategy/README.rst:9
+msgid "Concrete Strategy"
+msgstr "Concrete Strategy"
+
+#: ../../Behavioral/Strategy/README.rst:12
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Behavioral/Strategy/README.rst:14
+msgid ""
+"To separate strategies and to enable fast switching between them. Also this pattern is a good "
+"alternative to inheritance (instead of having an abstract class that is extended)."
+msgstr ""
+"Om strategieën te scheiden en om snel tussen de strategieën te schakelen. Dit patroon is ook een "
+"goed alternatief voor overerving (in plaats van een abstracte klasse die wordt uitgebreid)."
+
+#: ../../Behavioral/Strategy/README.rst:19
+msgid "Examples"
+msgstr "Bijvoorbeeld"
+
+#: ../../Behavioral/Strategy/README.rst:21
+msgid "sorting a list of objects, one strategy by date, the other by id"
+msgstr "het sorteren van een lijst met objecten, de ene strategie op datum, de andere op id"
+
+#: ../../Behavioral/Strategy/README.rst:22
+msgid "simplify unit testing: e.g. switching between file and in-memory storage"
+msgstr "het testen van eenheden vereenvoudigen: bijv. schakelen tussen bestands- en geheugenopslag"
+
+#: ../../Behavioral/Strategy/README.rst:26
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Behavioral/Strategy/README.rst:33
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/Strategy/README.rst:35
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Behavioral/Strategy/README.rst:62
+msgid "Test"
+msgstr "Test"

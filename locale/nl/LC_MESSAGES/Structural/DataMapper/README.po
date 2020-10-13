@@ -1,0 +1,82 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 23:46+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Structural/DataMapper/README.rst:2
+msgid "`Data Mapper`__"
+msgstr "`Data Mapper`__"
+
+#: ../../Structural/DataMapper/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Structural/DataMapper/README.rst:7
+msgid ""
+"A Data Mapper, is a Data Access Layer that performs bidirectional transfer "
+"of data between a persistent data store (often a relational database) and "
+"an in memory data representation (the domain layer). The goal of the "
+"pattern is to keep the in memory representation and the persistent data "
+"store independent of each other and the data mapper itself. The layer is "
+"composed of one or more mappers (or Data Access Objects), performing the "
+"data transfer. Mapper implementations vary in scope. Generic mappers will "
+"handle many different domain entity types, dedicated mappers will handle "
+"one or a few."
+msgstr ""
+"Een Data Mapper is een gegevenstoegangslaag die bidirectionele "
+"gegevensoverdracht uitvoert tussen een permanente gegevensopslag (vaak een "
+"relationele database) en een gegevensweergave in het geheugen (de "
+"domeinlaag). Het doel van het patroon is om de weergave in het geheugen en "
+"de persistente gegevensopslag onafhankelijk te houden van elkaar en de "
+"datamapper zelf. De laag is samengesteld uit een of meer mappers (of "
+"gegevenstoegangsobjecten) die de gegevensoverdracht uitvoeren. Mapper-"
+"implementaties variëren in reikwijdte. Generieke mappers kunnen veel "
+"verschillende typen domeinentiteit verwerken, toegewijde mappers kunnen er "
+"een of een paar afhandelen."
+
+#: ../../Structural/DataMapper/README.rst:17
+msgid ""
+"The key point of this pattern is, unlike Active Record pattern, the data "
+"model follows Single Responsibility Principle."
+msgstr ""
+"Het belangrijkste punt van dit patroon is dat het datamodel, in "
+"tegenstelling tot het Active Record-patroon, het Single Responsibility "
+"Principle volgt."
+
+#: ../../Structural/DataMapper/README.rst:21
+msgid "Examples"
+msgstr "Bijvoorbeeld"
+
+#: ../../Structural/DataMapper/README.rst:23
+msgid ""
+"DB Object Relational Mapper (ORM) : Doctrine2 uses DAO named as "
+"\"EntityRepository\""
+msgstr ""
+"DB Object Relational Mapper (ORM): Doctrine2 gebruikt DAO met de naam "
+"\"EntityRepository\""
+
+#: ../../Structural/DataMapper/README.rst:27
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Structural/DataMapper/README.rst:34
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/DataMapper/README.rst:36
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Structural/DataMapper/README.rst:51
+msgid "Test"
+msgstr "Теst"
