@@ -4,5 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      args: 
+        language: ${language:-en}
     ports:
       - "8080:80"
