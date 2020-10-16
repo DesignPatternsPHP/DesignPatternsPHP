@@ -105,6 +105,7 @@ The patterns can be structured in roughly three different categories. Please cli
 | de | Germany | [Docs :notebook:](https://designpatternsphp.readthedocs.io/de/latest/README.html) |
 | es | Spanish | [Docs :notebook:](https://designpatternsphp.readthedocs.io/es/latest/README.html) |
 | es_MX | Spanish-Mexican | [Docs :notebook:](https://designpatternsphp.readthedocs.io/es_MX/latest/README.html) |
+| id | Indonesian | [Docs :notebook:](http://translate.google.com/translate?hl=en&sl=en&tl=id&u=https%3A%2F%2Fdesignpatternsphp.readthedocs.io%2Fen%2Flatest%2FREADME.html) |
 | ja | Japanese | [Docs :notebook:](https://designpatternsphp.readthedocs.io/ja/latest/README.html) |
 | nl | Dutch | [Docs :notebook:](https://designpatternsphp.readthedocs.io/nl/latest/README.html) |
 | pl | Polish | [Docs :notebook:](https://designpatternsphp.readthedocs.io/pl/latest/README.html) |
