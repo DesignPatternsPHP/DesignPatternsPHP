@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Das primäre Ziel des Facade-Musters ist nicht, dir das Lesen von komplexen API Dokumentationen "
 "zu ersparen. Das kann ein Seiteneffekt sein. Es ist vielmehr das Ziel, Kopplungen zu vermeiden "
-"und demDemeter-Gesetz zu folgen."
+"und dem Demeter-Gesetz zu folgen."
 
 #: ../../Structural/Facade/README.rst:11
 msgid ""

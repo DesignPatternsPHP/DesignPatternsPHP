@@ -19,7 +19,7 @@ msgstr "`Service Locator`__"
 
 #: ../../More/ServiceLocator/README.rst:4
 msgid "**THIS IS CONSIDERED TO BE AN ANTI-PATTERN!**"
-msgstr "**DIES WIRD ALS EIN ANTI-MUSTER BETRACHTET!**"
+msgstr "**DIES WIRD ALS EIN ANTI-MUSTER ANGESEHEN!**"
 
 #: ../../More/ServiceLocator/README.rst:4
 msgid ""

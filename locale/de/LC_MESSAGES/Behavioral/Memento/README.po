@@ -81,10 +81,10 @@ msgstr ""
 "externen Objekts enthält, dessen Typ streng spezifiziert ist. "
 "Der Urheber ist in der Lage, eine eindeutige Kopie dieses Zustands zu erstellen "
 "und in einem Memento verpackt zurückzugeben. Der Absender kennt die Geschichte der "
-"Änderungen nicht. Sie können von außen einen konkreten Zustand auf Originator "
+"Änderungen nicht. Sie können von außen einen konkreten Zustand auf Urheber "
 "setzen, der als aktuell betrachtet wird. Der Absender muss sicherstellen, dass der "
 "angegebene Zustand dem zulässigen Objekttyp entspricht. "
-"Der Originator kann (sollte aber nicht) über beliebige Methoden verfügen, "
+"Der Urheber kann (sollte aber nicht) über beliebige Methoden verfügen, "
 "kann aber keine Änderungen am gespeicherten Objektzustand vornehmen."
 
 
