@@ -27,8 +27,9 @@ msgstr "SimpleFactory ist ein vereinfachtes Factory Muster."
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
-"It differs from the static factory because it is NOT static and as you "
-"know: static => global => evil!"
+"It differs from the static factory because it is not static. Therefore, you can have multiple factories, "
+"differently parameterized, you can subclass it and you can mock it. It always should be preferred "
+"over a static factory!"
 msgstr ""
 "Es hebt sich von der Static Factory ab, in dem es KEINE statischen Methoden "
 "anbietet, da statische Methoden global verfügbar sind und damit sich "

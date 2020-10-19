@@ -17,11 +17,31 @@ msgstr ""
 msgid "`Service Locator`__"
 msgstr "`Service Locator`__"
 
-#: ../../More/ServiceLocator/README.rst:5
+#: ../../More/ServiceLocator/README.rst:4
+msgid "**THIS IS CONSIDERED TO BE AN ANTI-PATTERN!**"
+msgstr "**DIES WIRD ALS EIN ANTI-MUSTER BETRACHTET!**"
+
+#: ../../More/ServiceLocator/README.rst:4
+msgid ""
+"Service Locator is considered for some people an anti-pattern. It violates the Dependency Inversion "
+"principle. Service Locator hides class' dependencies instead of exposing them as you would do "
+"using the Dependency Injection. In case of changes of those dependencies you risk to break the "
+"functionality of classes which are using them, making your system difficult to maintain."
+msgstr ""
+"Der Service Locator gilt für manche Menschen als Anti-Muster. "
+"Es verstößt gegen das Prinzip der Dependency Inversion. "
+"Service Locator verbirgt Klassenabhängigkeiten, anstatt sie aufzudecken, "
+"wie Sie es mit der Dependency Injection tun würden. "
+"Im Falle von Änderungen dieser Abhängigkeiten besteht die Gefahr, "
+"dass die Funktionalität der Klassen, die diese Abhängigkeiten verwenden, "
+"beeinträchtigt wird, was die Wartung Ihres Systems erschwert."
+
+
+#: ../../More/ServiceLocator/README.rst:9
 msgid "Purpose"
 msgstr "Zweck"
 
-#: ../../More/ServiceLocator/README.rst:7
+#: ../../More/ServiceLocator/README.rst:12
 msgid ""
 "To implement a loosely coupled architecture in order to get better "
 "testable, maintainable and extendable code. DI pattern and Service Locator "
@@ -31,11 +51,11 @@ msgstr ""
 "erweiterbar ist. Sowohl das Dependency Injection, als auch das Service "
 "Locator Pattern sind Implementierungen des Inverse Of Control Patterns."
 
-#: ../../More/ServiceLocator/README.rst:12
+#: ../../More/ServiceLocator/README.rst:16
 msgid "Usage"
 msgstr "Verwendung"
 
-#: ../../More/ServiceLocator/README.rst:14
+#: ../../More/ServiceLocator/README.rst:19
 msgid ""
 "With ``ServiceLocator`` you can register a service for a given interface. "
 "By using the interface you can retrieve the service and use it in the "
@@ -48,18 +68,18 @@ msgstr ""
 "muss. Der Service Locator selbst kann im Bootstrapping der Anwendung "
 "konfiguriert und injiziert werden."
 
-#: ../../More/ServiceLocator/README.rst:27
+#: ../../More/ServiceLocator/README.rst:24
 msgid "UML Diagram"
 msgstr "UML Diagramm"
 
-#: ../../More/ServiceLocator/README.rst:34
+#: ../../More/ServiceLocator/README.rst:31
 msgid "Code"
 msgstr "Code"
 
-#: ../../More/ServiceLocator/README.rst:36
+#: ../../More/ServiceLocator/README.rst:34
 msgid "You can also find this code on `GitHub`_"
 msgstr "Du findest den Code auch auf `GitHub`_"
 
-#: ../../More/ServiceLocator/README.rst:75
+#: ../../More/ServiceLocator/README.rst:54
 msgid "Test"
 msgstr "Теst"
