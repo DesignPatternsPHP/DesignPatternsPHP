@@ -52,7 +52,8 @@ msgid "Examples"
 msgstr "Beispiele"
 
 #: ../../Behavioral/Command/README.rst:23
-msgid "A text editor : all events are Command which can be undone, stacked and saved."
+msgid ""
+"A text editor : all events are commands which can be undone, stacked and saved."
 msgstr ""
 "Ein Texteditor: alle Ereignisse sind Befehle, die rückgängig gemacht, gestapelt und "
 "gespeichert werden können."

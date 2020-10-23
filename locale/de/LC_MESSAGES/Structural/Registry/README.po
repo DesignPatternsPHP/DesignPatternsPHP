@@ -23,14 +23,17 @@ msgstr "Zweck"
 
 #: ../../Structural/Registry/README.rst:7
 msgid ""
-"To implement a central storage for objects often used throughout the "
-"application, is typically implemented using an abstract class with only "
-"static methods (or using the Singleton pattern)"
+"To implement a central storage for objects often used throughout the application, is typically "
+"implemented using an abstract class with only static methods (or using the Singleton pattern). "
+"Remember that this introduces global state, which should be avoided at all times! Instead "
+"implement it using Dependency Injection!"
 msgstr ""
 "Einen zentralen Speicher für Objekte zu implementieren, die oft "
 "innerhalb der Anwendung benötigt werden. Wird üblicherweise als "
 "abstrakte Klasse mit statischen Methoden (oder als Singleton) "
-"implementiert"
+"implementiert. Denke daran, dass hierdurch ein globaler Zustand "
+"eingeführt wird, der zu jeder Zeit vermieden werden sollte! "
+"Stattdessen sollte Dependency Injection implementiert werden!"
 
 #: ../../Structural/Registry/README.rst:12
 msgid "Examples"

@@ -34,6 +34,12 @@ msgid ""
 "external data structures and pass them to the flyweight object when "
 "needed."
 msgstr ""
+"Um den Speicherverbrauch zu minimieren, teilt sich ein Flyweight so viel Speicher "
+"wie möglich mit ähnlichen Objekten. Es wird benötigt, wenn eine große Anzahl von "
+"Objekten verwendet wird, die sich im Zustand nicht sehr unterscheiden."
+"Eine gängige Praxis ist es, den Zustand in externen Datenstrukturen zu halten "
+"und sie bei Bedarf an das Flyweight-Objekt zu übergeben."
+
 
 #: ../../Structural/Flyweight/README.rst:12
 msgid "UML Diagram"
@@ -45,7 +51,7 @@ msgstr ""
 
 #: ../../Structural/Flyweight/README.rst:21
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Du findest den Code auch auf `GitHub`_"
 
 #: ../../Structural/Flyweight/README.rst:42
 msgid "Test"
