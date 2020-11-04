@@ -1,4 +1,4 @@
-FROM composer AS composer
+FROM composer:1 AS composer
 WORKDIR /app
 ADD . /app
 RUN composer global require hirak/prestissimo
