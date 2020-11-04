@@ -7,7 +7,7 @@
 [Read the Docs of DesignPatternsPHP](http://designpatternsphp.readthedocs.org)
 or [Download as PDF/Epub](https://readthedocs.org/projects/designpatternsphp/downloads/)
 
-This is a collection of known design patterns and some sample code how to implement them in PHP. Every pattern has a small list of examples.
+This is a collection of known design patterns and some sample codes on how to implement them in PHP. Every pattern has a small list of examples.
 
 I think the problem with patterns is that often people do know them but don't know when to apply which.
 
@@ -27,7 +27,7 @@ To run the tests use `phpunit`:
 $ ./vendor/bin/phpunit
 ```
 
-## using Docker (optional)
+## Using Docker (optional)
 
 You can optionally build and browse the documentation using [Docker for Mac, Windows or Linux](https://docs.docker.com/compose/install/).
 
@@ -96,7 +96,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Repository](More/Repository)
 * [ServiceLocator](More/ServiceLocator) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
 
-## Localisation & Supported Languages
+## Localization & Supported Languages
 
 | Code  | Language  |    Documentation   |
 | ------------------|-------------|------|
