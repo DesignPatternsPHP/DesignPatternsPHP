@@ -1,0 +1,81 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-28 14:59+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
+
+#: ../../Structural/DataMapper/README.rst:2
+msgid "`Data Mapper`__"
+msgstr "`Data Mapper`__"
+
+#: ../../Structural/DataMapper/README.rst:5
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../Structural/DataMapper/README.rst:7
+msgid ""
+"A Data Mapper, is a Data Access Layer that performs bidirectional transfer "
+"of data between a persistent data store (often a relational database) and an "
+"in memory data representation (the domain layer). The goal of the pattern is "
+"to keep the in memory representation and the persistent data store "
+"independent of each other and the data mapper itself. The layer is composed "
+"of one or more mappers (or Data Access Objects), performing the data "
+"transfer. Mapper implementations vary in scope. Generic mappers will handle "
+"many different domain entity types, dedicated mappers will handle one or a "
+"few."
+msgstr ""
+"Data Mapper е слой за достъп до данни, който извършва двупосочен трансфер на "
+"данни между постоянното хранилище на данни (често релационна база данни) и "
+"представяне на данни в паметта (домейн слой). Целта на шаблона е да запази "
+"представянето в паметта и постоянното съхранение на данни независимо един от "
+"друг и самия картограф (mapper) на данни. Слоят се състои от един или повече "
+"картографи (mapper) (или обекти за достъп до данни), извършващи "
+"прехвърлянето на данни. Изпълнения на Mapper се различават по обхват. Общите "
+"картографи (mappers) ще обработват много различни типове обект на домейн, "
+"специалните картографи (mappers) ще работят с един или няколко."
+
+#: ../../Structural/DataMapper/README.rst:17
+msgid ""
+"The key point of this pattern is, unlike Active Record pattern, the data "
+"model follows Single Responsibility Principle."
+msgstr ""
+"Ключовата точка на този шаблон е, за разлика от Active Record, моделът на "
+"данни следва Принципа на единична отговорност."
+
+#: ../../Structural/DataMapper/README.rst:21
+msgid "Examples"
+msgstr "Примери"
+
+#: ../../Structural/DataMapper/README.rst:23
+msgid ""
+"DB Object Relational Mapper (ORM) : Doctrine2 uses DAO named as "
+"\"EntityRepository\""
+msgstr ""
+"DB Object Relational Mapper (ORM): Doctrine2 използва DAO, наречен "
+"\"EntityRepository\""
+
+#: ../../Structural/DataMapper/README.rst:27
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Structural/DataMapper/README.rst:34
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/DataMapper/README.rst:36
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Structural/DataMapper/README.rst:51
+msgid "Test"
+msgstr "Тест"
