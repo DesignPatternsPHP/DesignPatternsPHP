@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-26 16:52+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg_BG\n"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:2
+msgid "`Chain Of Responsibilities`__"
+msgstr "`Верига отговорности`__"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:5
+msgid "Purpose:"
+msgstr "Предназначение:"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:7
+msgid ""
+"To build a chain of objects to handle a call in sequential order. If one "
+"object cannot handle a call, it delegates the call to the next in the chain "
+"and so forth."
+msgstr ""
+"Изграждане на верига от обекти за обработка на повикване в последователен "
+"ред. Ако един обект не може да обработи повикване, той делегира повикването "
+"на следващия по веригата и т.н."
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:12
+msgid "Examples:"
+msgstr "Примери:"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:14
+msgid ""
+"logging framework, where each chain element decides autonomously what to do "
+"with a log message"
+msgstr ""
+"logging framework, където всеки елемент на веригата решава автономно какво "
+"да прави със съобщение"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:16
+msgid "a Spam filter"
+msgstr "Спам филтър"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:17
+msgid ""
+"Caching: first object is an instance of e.g. a Memcached Interface, if that "
+"\"misses\" it delegates the call to the database interface"
+msgstr ""
+"Кеширане: първият обект е екземпляр от напр. Memcached интерфейс, ако този "
+"\"пропусне\", той делегира повикването на интерфейса на базата данни"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:25
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:32
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:61
+msgid "Test"
+msgstr "Тест"
