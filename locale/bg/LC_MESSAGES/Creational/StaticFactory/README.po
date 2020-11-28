@@ -1,0 +1,53 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-28 20:01+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
+
+#: ../../Creational/StaticFactory/README.rst:2
+msgid "Static Factory"
+msgstr "Статична фабрика"
+
+#: ../../Creational/StaticFactory/README.rst:5
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../Creational/StaticFactory/README.rst:7
+msgid ""
+"Similar to the AbstractFactory, this pattern is used to create series of "
+"related or dependent objects. The difference between this and the abstract "
+"factory pattern is that the static factory pattern uses just one static "
+"method to create all types of objects it can create. It is usually named "
+"``factory`` or ``build``."
+msgstr ""
+"Подобно на AbstractFactory, този модел се използва за създаване на "
+"поредица от свързани или зависими обекти. Разликата между този и "
+"абстрактния фабричен модел е, че статичният фабричен модел използва само "
+"един статичен метод, за да създаде всички видове обекти, които може да "
+"създаде. Обикновено се нарича ``factory`` или ``build``."
+
+#: ../../Creational/StaticFactory/README.rst:20
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Creational/StaticFactory/README.rst:27
+msgid "Code"
+msgstr "Код"
+
+#: ../../Creational/StaticFactory/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Creational/StaticFactory/README.rst:56
+msgid "Test"
+msgstr "Тест"
