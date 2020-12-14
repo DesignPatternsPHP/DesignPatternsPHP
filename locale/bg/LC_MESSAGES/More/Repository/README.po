@@ -1,0 +1,72 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-28 20:19+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
+
+#: ../../More/Repository/README.rst:2
+msgid "Repository"
+msgstr "Repository"
+
+#: ../../More/Repository/README.rst:5
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../More/Repository/README.rst:7
+msgid ""
+"Mediates between the domain and data mapping layers using a collection-like "
+"interface for accessing domain objects. Repository encapsulates the set of "
+"objects persisted in a data store and the operations performed over them, "
+"providing a more object-oriented view of the persistence layer. Repository "
+"also supports the objective of achieving a clean separation and one-way "
+"dependency between the domain and data mapping layers."
+msgstr ""
+"Посредничи между домейн и слоевете за картографиране на данни (data mapping "
+"layers), използвайки интерфейс, подобен на колекция, за достъп до обекти на "
+"домейн. Хранилището капсулира набора от обекти, запазени в хранилището за "
+"данни, и операциите, извършени над тях, осигурявайки по-обектно ориентиран "
+"изглед на слоя за устойчивост. Хранилището също така поддържа целта за "
+"постигане на чисто разделяне и еднопосочна зависимост между домейна и "
+"слоевете за картографиране на данни (data mapping layers)."
+
+#: ../../More/Repository/README.rst:16
+msgid "Examples"
+msgstr "Примери"
+
+#: ../../More/Repository/README.rst:18
+msgid ""
+"Doctrine 2 ORM: there is Repository that mediates between Entity and DBAL "
+"and contains methods to retrieve objects"
+msgstr ""
+"Доктрина 2 ORM: има хранилище (reposiory), което посредничи между Entity и "
+"DBAL и съдържа методи за извличане на обекти"
+
+#: ../../More/Repository/README.rst:20
+msgid "Laravel Framework"
+msgstr "Laravel фреймуърк"
+
+#: ../../More/Repository/README.rst:23
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../More/Repository/README.rst:30
+msgid "Code"
+msgstr "Код"
+
+#: ../../More/Repository/README.rst:32
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../More/Repository/README.rst:59
+msgid "Test"
+msgstr "Тест"

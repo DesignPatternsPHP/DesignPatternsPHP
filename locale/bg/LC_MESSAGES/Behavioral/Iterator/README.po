@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-27 16:21+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg_BG\n"
+
+#: ../../Behavioral/Iterator/README.rst:2
+msgid "`Iterator`__"
+msgstr "`Итератор`__"
+
+#: ../../Behavioral/Iterator/README.rst:5
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../Behavioral/Iterator/README.rst:7
+msgid ""
+"To make an object iterable and to make it appear like a collection of "
+"objects."
+msgstr ""
+"За да направите обекта итеративен и да го направите да изглежда като "
+"колекция от обекти."
+
+#: ../../Behavioral/Iterator/README.rst:11
+msgid "Examples"
+msgstr "Примери"
+
+#: ../../Behavioral/Iterator/README.rst:13
+msgid ""
+"to process a file line by line by just running over all lines (which have an "
+"object representation) for a file (which of course is an object, too)"
+msgstr ""
+"за обработка на файл ред по ред, като просто прекарате всички редове (които "
+"имат представяне на обект) за файл (което, разбира се, също е обект)"
+
+#: ../../Behavioral/Iterator/README.rst:18
+msgid "Note"
+msgstr "Забележка"
+
+#: ../../Behavioral/Iterator/README.rst:20
+msgid ""
+"Standard PHP Library (SPL) defines an interface Iterator which is best "
+"suited for this! Often you would want to implement the Countable interface "
+"too, to allow ``count($object)`` on your iterable object"
+msgstr ""
+"Стандартната PHP библиотека (SPL) определя интерфейсен итератор, който е най-"
+"подходящ за това! Често бихте искали да внедрите и Countable интерфейса, за "
+"да позволите``count ($ object)`` на вашия итеративен обект"
+
+#: ../../Behavioral/Iterator/README.rst:25
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Behavioral/Iterator/README.rst:32
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/Iterator/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Behavioral/Iterator/README.rst:61
+msgid "Test"
+msgstr "Тест"

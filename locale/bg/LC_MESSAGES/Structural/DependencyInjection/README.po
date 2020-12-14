@@ -1,0 +1,104 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-28 15:15+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
+
+#: ../../Structural/DependencyInjection/README.rst:2
+msgid "`Dependency Injection`__"
+msgstr "`Инжектиране на зависимости`__"
+
+#: ../../Structural/DependencyInjection/README.rst:5
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../Structural/DependencyInjection/README.rst:7
+msgid ""
+"To implement a loosely coupled architecture in order to get better testable, "
+"maintainable and extendable code."
+msgstr ""
+"Да приложите свободно свързана архитектура, за да получите по-добре "
+"тестваем, поддържаем и разширяем код."
+
+#: ../../Structural/DependencyInjection/README.rst:11
+msgid "Usage"
+msgstr "Исползване"
+
+#: ../../Structural/DependencyInjection/README.rst:13
+msgid ""
+"Configuration gets injected and ``Connection`` will get all that it needs "
+"from ``$config``. Without DI, the configuration would be created directly in "
+"``Connection``, which is not very good for testing and extending "
+"``Connection``."
+msgstr ""
+"Конфигурацията се инжектира и ``Connection`` ще получи всичко, от което се "
+"нуждае, от ``$ config``. Без DI конфигурацията ще бъде създадена директно в "
+"``Connection``, което не е много добро за тестване и разширяване на "
+"``Connection``."
+
+#: ../../Structural/DependencyInjection/README.rst:18
+msgid ""
+"Notice we are following Inversion of control principle in ``Connection`` by "
+"asking ``$config`` to implement ``Parameters`` interface. This decouples our "
+"components. We don't care where the source of information comes from, we "
+"only care that ``$config`` has certain methods to retrieve that information. "
+"Read more about Inversion of control `here <http://en.wikipedia.org/wiki/"
+"Inversion_of_control>`__."
+msgstr ""
+"Забележете, че следваме принципа на инверсия на управлението в "
+"``Connection``, като поискаме ``$config`` да внедри интерфейса "
+"``Parameters``. Това отделя нашите компоненти. Не ни интересува откъде идва "
+"източникът на информация, а само това, че ``$config`` има определени методи "
+"за извличане на тази информация. Прочетете повече за Инверсия на управление "
+"`тук <http://en.wikipedia.org/wiki/Inversion_of_control>` __."
+
+#: ../../Structural/DependencyInjection/README.rst:26
+msgid "Examples"
+msgstr "Примери"
+
+#: ../../Structural/DependencyInjection/README.rst:28
+msgid ""
+"The Doctrine2 ORM uses dependency injection e.g. for configuration that is "
+"injected into a ``Connection`` object. For testing purposes, one can easily "
+"create a mock object of the configuration and inject that into the "
+"``Connection`` object"
+msgstr ""
+"Doctrine2 ORM използва инжекция на зависимост, напр. за конфигурация, която "
+"се инжектира в обект ``Connection``. За целите на тестването, можете лесно "
+"да създадете фалшив обект от конфигурацията и да го инжектирате в обекта "
+"``Connection``"
+
+#: ../../Structural/DependencyInjection/README.rst:32
+msgid ""
+"many frameworks already have containers for DI that create objects via a "
+"configuration array and inject them where needed (i.e. in Controllers)"
+msgstr ""
+"много фреймуърки вече имат контейнери за DI, които създават обекти чрез "
+"конфигурационен масив и ги инжектират там, където е необходимо (т.е. в "
+"контролери)"
+
+#: ../../Structural/DependencyInjection/README.rst:37
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Structural/DependencyInjection/README.rst:44
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/DependencyInjection/README.rst:46
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Structural/DependencyInjection/README.rst:73
+msgid "Test"
+msgstr "Тест"

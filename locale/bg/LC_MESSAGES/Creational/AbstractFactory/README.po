@@ -1,0 +1,52 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-28 15:53+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
+
+#: ../../Creational/AbstractFactory/README.rst:2
+msgid "`Abstract Factory`__"
+msgstr "`Абстрактна Фабрика`__"
+
+#: ../../Creational/AbstractFactory/README.rst:5
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../Creational/AbstractFactory/README.rst:7
+msgid ""
+"To create series of related or dependent objects without specifying their "
+"concrete classes. Usually the created classes all implement the same "
+"interface. The client of the abstract factory does not care about how these "
+"objects are created, it just knows how they go together."
+msgstr ""
+"За създаване на поредица от свързани или зависими обекти, без да се "
+"посочват техните конкретни класове. Обикновено създадените класове "
+"изпълняват един и същ интерфейс. Клиентът на абстрактната фабрика не се "
+"интересува от това как се създават тези обекти, той просто знае как вървят "
+"заедно."
+
+#: ../../Creational/AbstractFactory/README.rst:13
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Creational/AbstractFactory/README.rst:20
+msgid "Code"
+msgstr "Код"
+
+#: ../../Creational/AbstractFactory/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Creational/AbstractFactory/README.rst:85
+msgid "Test"
+msgstr "Тест"
