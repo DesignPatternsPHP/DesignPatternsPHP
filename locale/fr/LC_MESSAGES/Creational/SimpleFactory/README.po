@@ -22,7 +22,7 @@ msgstr "Rôle"
 
 #: ../../Creational/SimpleFactory/README.rst:7
 msgid "SimpleFactory is a simple factory pattern."
-msgstr "SimpleFactory est un modèle de factory simple."
+msgstr "SimpleFactory est un pattern Factory simple."
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
@@ -36,22 +36,22 @@ msgid ""
 "Therefore, you can have multiple factories, differently parametrized, you "
 "can subclass it and you can mock-up it."
 msgstr ""
-"Par conséquent, vous pouvez avoir plusieurs factory paramétrées différemment, vous "
+"Par conséquent, vous pouvez avoir plusieurs factory paramétrés différemment, vous "
 "pouvez les dériver et vous pouvez les mocker. "
 "SimpleFactory doit toujours être préférée à StaticFactory !"
 
-#: ../../Creational/AbstractFactory/README.rst:13
+#: ../../Creational/SimpleFactory/README.rst:13
 msgid "UML Diagram"
 msgstr "Diagramme UML"
 
-#: ../../Creational/AbstractFactory/README.rst:20
+#: ../../Creational/SimpleFactory/README.rst:20
 msgid "Code"
 msgstr "Code"
 
-#: ../../Creational/AbstractFactory/README.rst:22
+#: ../../Creational/SimpleFactory/README.rst:22
 msgid "You can also find this code on `GitHub`_"
 msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Creational/AbstractFactory/README.rst:85
+#: ../../Creational/SimpleFactory/README.rst:85
 msgid "Test"
 msgstr "Test"

@@ -25,11 +25,12 @@ msgid ""
 "The good point over the SimpleFactory is you can subclass it to implement "
 "different ways to create objects"
 msgstr ""
-""
+"L'avantage de FactoryMethod sur SimpleFactory est que le factory "
+"peut être dérivée afin de mettre oeuvres différentes façons de créer un objet."
 
 #: ../../Creational/FactoryMethod/README.rst:10
 msgid "For simple case, this abstract class could be just an interface"
-msgstr ""
+msgstr "Pour les cas simples, cette classe abstraite peut être une simple interface."
 
 #: ../../Creational/FactoryMethod/README.rst:12
 msgid ""
@@ -46,21 +47,21 @@ msgid ""
 "classes. This is the real trick compared to SimpleFactory or StaticFactory."
 msgstr ""
 "Cela signifie que FactoryMethod dépend d'abstractions et non de "
-"classes concrètes. C'est son principal avantange par rapport à SimpleFactory ou "
+"classes concrètes. C'est son principal avantage par rapport à SimpleFactory ou "
 "StaticFactory."
 
-#: ../../Creational/AbstractFactory/README.rst:13
+#: ../../Creational/FactoryMethod/README.rst:13
 msgid "UML Diagram"
 msgstr "Diagramme UML"
 
-#: ../../Creational/AbstractFactory/README.rst:20
+#: ../../Creational/FactoryMethod/README.rst:20
 msgid "Code"
 msgstr "Code"
 
-#: ../../Creational/AbstractFactory/README.rst:22
+#: ../../Creational/FactoryMethod/README.rst:22
 msgid "You can also find this code on `GitHub`_"
 msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Creational/AbstractFactory/README.rst:85
+#: ../../Creational/FactoryMethod/README.rst:85
 msgid "Test"
 msgstr "Test"

@@ -1,30 +1,24 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2015, Dominik Liebler and contributors
-# This file is distributed under the same license as the DesignPatternsPHP
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-03 23:59+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../../Structural/Flyweight/README.rst:2
 msgid "`Flyweight`__"
-msgstr ""
+msgstr "`Flyweight`__"
 
 #: ../../Structural/Flyweight/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Rôle"
 
 #: ../../Structural/Flyweight/README.rst:7
 msgid ""
@@ -34,20 +28,25 @@ msgid ""
 "external data structures and pass them to the flyweight object when "
 "needed."
 msgstr ""
+"Pour minimiser l'utilisation de la mémoire, un Flyweight partage autant que possible "
+"la mémoire avec des objets similaires. Cela est nécessaire lorsqu'on utilise un grand "
+"nombre d'objets dont l'état ne diffère pas beaucoup. Une pratique courante consiste à "
+"conserver l'état dans des structures de données externes et à les transmettre à l'objet "
+"Flyweight en cas de besoin."
 
-#: ../../Structural/Flyweight/README.rst:12
+#: ../../Structural/Flyweight/README.rst:13
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagramme UML"
 
-#: ../../Structural/Flyweight/README.rst:19
+#: ../../Structural/Flyweight/README.rst:20
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
-#: ../../Structural/Flyweight/README.rst:21
+#: ../../Structural/Flyweight/README.rst:22
 msgid "You can also find this code on `GitHub`_"
-msgstr "Puedes encontrar el código en `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Structural/Flyweight/README.rst:42
+#: ../../Structural/Flyweight/README.rst:85
 msgid "Test"
-msgstr ""
+msgstr "Test"
 

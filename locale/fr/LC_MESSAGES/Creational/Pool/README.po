@@ -60,18 +60,18 @@ msgstr "Toutefois, ces avantages s'appliquent surtout aux objets qui sont coûte
 "aucune ressource externe, mais occupent seulement la mémoire) peut ne pas être efficace "
 "et pourrait diminuer les performances."
 
-#: ../../Creational/AbstractFactory/README.rst:13
+#: ../../Creational/Pool/README.rst:13
 msgid "UML Diagram"
 msgstr "Diagramme UML"
 
-#: ../../Creational/AbstractFactory/README.rst:20
+#: ../../Creational/Pool/README.rst:20
 msgid "Code"
 msgstr "Code"
 
-#: ../../Creational/AbstractFactory/README.rst:22
+#: ../../Creational/Pool/README.rst:22
 msgid "You can also find this code on `GitHub`_"
 msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Creational/AbstractFactory/README.rst:85
+#: ../../Creational/Pool/README.rst:85
 msgid "Test"
 msgstr "Test"

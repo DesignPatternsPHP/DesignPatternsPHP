@@ -3,13 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:2
 msgid "`Chain Of Responsibilities`__"
@@ -25,39 +26,46 @@ msgid ""
 "object cannot handle a call, it delegates the call to the next in the chain "
 "and so forth."
 msgstr ""
+"Construire une chaîne d'objets pour traiter un appel dans un ordre séquentiel. "
+"Si un objet ne peut pas traiter un appel, il délègue l'appel au suivant dans "
+"la chaîne et ainsi de suite."
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:12
 msgid "Examples:"
-msgstr ""
+msgstr "Exemples"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:14
 msgid ""
 "logging framework, where each chain element decides autonomously what to do "
 "with a log message"
 msgstr ""
+"Logging Framework, dans lequel chaque élément de la chaîne décide lui-même "
+"de ce qu'il faut faire avec un message de journalisation."
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:16
 msgid "a Spam filter"
-msgstr ""
+msgstr "filtre anti-spam"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:17
 msgid ""
 "Caching: first object is an instance of e.g. a Memcached Interface, if that "
 "\"misses\" it delegates the call to the database interface"
 msgstr ""
+"Mise en cache : le premier objet est une instance d'une interface Memcached, "
+"par exemple, et s'il \"manque\", il délègue l'appel à l'interface de base de données."
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:25
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:13
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagramme UML"
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:32
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:20
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:34
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:22
 msgid "You can also find this code on `GitHub`_"
-msgstr "Puedes encontrar el código en `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Behavioral/ChainOfResponsibilities/README.rst:61
+#: ../../Behavioral/ChainOfResponsibilities/README.rst:85
 msgid "Test"
-msgstr ""
+msgstr "Test"

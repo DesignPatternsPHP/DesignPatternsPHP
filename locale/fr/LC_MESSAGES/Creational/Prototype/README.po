@@ -39,18 +39,18 @@ msgstr ""
 "Grandes quantités de données (par exemple, créer 1 000 000 de lignes dans une "
 "base de données en une seule fois via un ORM)."
 
-#: ../../Creational/AbstractFactory/README.rst:13
+#: ../../Creational/Prototype/README.rst:13
 msgid "UML Diagram"
 msgstr "Diagramme UML"
 
-#: ../../Creational/AbstractFactory/README.rst:20
+#: ../../Creational/Prototype/README.rst:20
 msgid "Code"
 msgstr "Code"
 
-#: ../../Creational/AbstractFactory/README.rst:22
+#: ../../Creational/Prototype/README.rst:22
 msgid "You can also find this code on `GitHub`_"
 msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Creational/AbstractFactory/README.rst:85
+#: ../../Creational/Prototype/README.rst:85
 msgid "Test"
 msgstr "Test"

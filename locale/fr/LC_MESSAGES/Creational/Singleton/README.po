@@ -53,18 +53,18 @@ msgstr ""
 msgid "Lock file for the application (there is only one in the filesystem ...)"
 msgstr "Fichier de verrouillage pour l'application (il n'y en a qu'un seul dans le système de fichiers ...)"
 
-#: ../../Creational/AbstractFactory/README.rst:13
+#: ../../Creational/Singleton/README.rst:13
 msgid "UML Diagram"
 msgstr "Diagramme UML"
 
-#: ../../Creational/AbstractFactory/README.rst:20
+#: ../../Creational/Singleton/README.rst:20
 msgid "Code"
 msgstr "Code"
 
-#: ../../Creational/AbstractFactory/README.rst:22
+#: ../../Creational/Singleton/README.rst:22
 msgid "You can also find this code on `GitHub`_"
 msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Creational/AbstractFactory/README.rst:85
+#: ../../Creational/Singleton/README.rst:85
 msgid "Test"
 msgstr "Test"

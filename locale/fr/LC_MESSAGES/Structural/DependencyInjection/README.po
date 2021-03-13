@@ -3,27 +3,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../../Structural/DependencyInjection/README.rst:2
 msgid "`Dependency Injection`__"
-msgstr ""
+msgstr "Dependency Injection (Injection de dépendance)"
 
 #: ../../Structural/DependencyInjection/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Rôle"
 
 #: ../../Structural/DependencyInjection/README.rst:7
 msgid ""
 "To implement a loosely coupled architecture in order to get better testable,"
 " maintainable and extendable code."
 msgstr ""
+"Implémenter une architecture faiblement couplée afin d'obtenir une meilleur "
+"testabilité, maintenabilité et extensibilité du code."
 
 #: ../../Structural/DependencyInjection/README.rst:11
 msgid "Usage"
@@ -31,25 +34,18 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:13
 msgid ""
-"Configuration gets injected and ``Connection`` will get all that it needs "
-"from ``$config``. Without DI, the configuration would be created directly in"
-" ``Connection``, which is not very good for testing and extending "
-"``Connection``."
+"``DatabaseConfiguration`` gets injected and ``DatabaseConnection`` will get all that it "
+"needs from ``$config``. Without DI, the configuration would be created "
+"directly in ``DatabaseConnection``, which is not very good for testing and "
+"extending it."
 msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:18
-msgid ""
-"Notice we are following Inversion of control principle in ``Connection`` by "
-"asking ``$config`` to implement ``Parameters`` interface. This decouples our"
-" components. We don't care where the source of information comes from, we "
-"only care that ``$config`` has certain methods to retrieve that information."
-" Read more about Inversion of control `here "
-"<http://en.wikipedia.org/wiki/Inversion_of_control>`__."
-msgstr ""
+"``DatabaseConfiguration`` est injectée et ``DatabaseConnection`` obtiendra tout ce dont "
+"elle a besoin à partir de ``$config``. Sans DI, la configuration serait créée directement "
+"dans ``DatabaseConnection``, ce qui n'est pas très bon pour les tests et les extensions."
 
 #: ../../Structural/DependencyInjection/README.rst:26
 msgid "Examples"
-msgstr ""
+msgstr "Exemples"
 
 #: ../../Structural/DependencyInjection/README.rst:28
 msgid ""
@@ -58,6 +54,9 @@ msgid ""
 "create a mock object of the configuration and inject that into the "
 "``Connection`` object"
 msgstr ""
+"L'ORM Doctrine2 utilise l'injection de dépendances, par exemple pour la configuration "
+"qui est injectée dans un objet ``Connection``. À des fins de test, on peut facilement "
+"créer un objet fantaisie de la configuration et l'injecter dans l'objet ``Connection``."
 
 #: ../../Structural/DependencyInjection/README.rst:32
 msgid ""
@@ -65,19 +64,21 @@ msgid ""
 "objects via a configuration array and inject them where needed (i.e. in "
 "Controllers)"
 msgstr ""
+"De nombreux frameworks disposent déjà de conteneurs pour DI qui créent des objets via un "
+"tableau de configuration et les injectent là où c'est nécessaire (c'est-à-dire dans les contrôleurs)."
 
-#: ../../Structural/DependencyInjection/README.rst:37
+#: ../../Structural/DependencyInjection/README.rst:13
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagramme UML"
 
-#: ../../Structural/DependencyInjection/README.rst:44
+#: ../../Structural/DependencyInjection/README.rst:20
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
-#: ../../Structural/DependencyInjection/README.rst:46
+#: ../../Structural/DependencyInjection/README.rst:22
 msgid "You can also find this code on `GitHub`_"
-msgstr "Puedes encontrar el código en `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Structural/DependencyInjection/README.rst:73
+#: ../../Structural/DependencyInjection/README.rst:85
 msgid "Test"
-msgstr ""
+msgstr "Test"

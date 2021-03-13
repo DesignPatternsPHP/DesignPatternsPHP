@@ -22,8 +22,7 @@ msgstr "Rôle"
 
 #: ../../Creational/Builder/README.rst:7
 msgid "Builder is an interface that build parts of a complex object."
-msgstr ""
-"Un builder est une interface permettant de construire certaines parties d'un objet complexe."
+msgstr "Un builder est une interface permettant de construire certaines parties d'un objet complexe."
 
 #: ../../Creational/Builder/README.rst:9
 msgid ""
@@ -57,18 +56,18 @@ msgstr "Exemples"
 msgid "PHPUnit: Mock Builder"
 msgstr "PHPUnit: Mock Builder"
 
-#: ../../Creational/AbstractFactory/README.rst:13
+#: ../../Creational/Builder/README.rst:13
 msgid "UML Diagram"
 msgstr "Diagramme UML"
 
-#: ../../Creational/AbstractFactory/README.rst:20
+#: ../../Creational/Builder/README.rst:20
 msgid "Code"
 msgstr "Code"
 
-#: ../../Creational/AbstractFactory/README.rst:22
+#: ../../Creational/Builder/README.rst:22
 msgid "You can also find this code on `GitHub`_"
 msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Creational/AbstractFactory/README.rst:85
+#: ../../Creational/Builder/README.rst:85
 msgid "Test"
 msgstr "Test"

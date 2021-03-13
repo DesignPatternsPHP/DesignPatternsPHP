@@ -3,25 +3,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../../Behavioral/Command/README.rst:2
 msgid "`Command`__"
-msgstr ""
+msgstr "`Command (Commande)`__"
 
 #: ../../Behavioral/Command/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Rôle"
 
 #: ../../Behavioral/Command/README.rst:7
 msgid "To encapsulate invocation and decoupling."
-msgstr ""
+msgstr "Encapsuler l'invocation et le découplage."
 
 #: ../../Behavioral/Command/README.rst:9
 msgid ""
@@ -31,6 +32,11 @@ msgid ""
 "process the Command of the client. The Receiver is decoupled from the "
 "Invoker."
 msgstr ""
+"Nous avons un invoker (exécuteur) et un récepteur (receveur). Ce modèle "
+"utilise une \"commande\" pour déléguer l'exécution d'une méthode à un récepteur "
+"et fournir une méthode \"exécuter\" unifiée. De cette façon, l'exécuteur ne connaît "
+"que la méthode \"execute\" pour exécuter la commande. Le récepteur est donc "
+"découplé de l'appelant."
 
 #: ../../Behavioral/Command/README.rst:15
 msgid ""
@@ -38,16 +44,22 @@ msgid ""
 "execute(). Command can also be aggregated to combine more complex commands "
 "with minimum copy-paste and relying on composition over inheritance."
 msgstr ""
+"Le deuxième aspect de ce modèle est la méthode undo(), qui permet d'annuler "
+"l'exécution de la méthode execute(). Les commandes peuvent également être "
+"agrégées pour créer des commandes complexes avec une surcharge minimale et "
+"par composition (plutôt que par héritage)."
 
 #: ../../Behavioral/Command/README.rst:21
 msgid "Examples"
-msgstr ""
+msgstr "Exemples"
 
 #: ../../Behavioral/Command/README.rst:23
 msgid ""
 "A text editor : all events are Command which can be undone, stacked and "
 "saved."
 msgstr ""
+"Un éditeur de texte : tous les événements sont des commandes qui peuvent "
+"être annulées, empilées et enregistrées."
 
 #: ../../Behavioral/Command/README.rst:27
 msgid ""
@@ -55,19 +67,22 @@ msgid ""
 "\"modules\", each of these can be implemented with the Command pattern (e.g."
 " vagrant)"
 msgstr ""
+"Les outils complexes de la console sont composés de sous-commandes afin de mieux "
+"modulariser les tâches. Chacune de ces commandes peut être implémentée comme "
+"un modèle de commande (par exemple vagrant)."
 
-#: ../../Behavioral/Command/README.rst:32
+#: ../../Behavioral/Command/README.rst:13
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagramme UML"
 
-#: ../../Behavioral/Command/README.rst:39
+#: ../../Behavioral/Command/README.rst:20
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
-#: ../../Behavioral/Command/README.rst:41
+#: ../../Behavioral/Command/README.rst:22
 msgid "You can also find this code on `GitHub`_"
-msgstr "Puedes encontrar el código en `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Behavioral/Command/README.rst:68
+#: ../../Behavioral/Command/README.rst:85
 msgid "Test"
-msgstr ""
+msgstr "Test"
