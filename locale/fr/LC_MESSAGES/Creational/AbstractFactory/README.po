@@ -18,7 +18,7 @@ msgstr "`Abstract Factory (Fabrique abstraite)`__"
 
 #: ../../Creational/AbstractFactory/README.rst:5
 msgid "Purpose"
-msgstr "Objectif"
+msgstr "Rôle"
 
 #: ../../Creational/AbstractFactory/README.rst:7
 msgid ""
@@ -30,7 +30,7 @@ msgstr ""
 "Créer des séries d'objets liés ou dépendants sans spécifier leurs classes concrètes. "
 "Généralement, les classes créées implémentent toutes la même interface. "
 "Le client de Abstract Factory ne se soucie pas de la façon dont ces objets sont créés, "
-"il sait juste comment ils se combinent."
+"il sait juste comment ils fonctionnent ensemble."
 
 #: ../../Creational/AbstractFactory/README.rst:13
 msgid "UML Diagram"

@@ -3,19 +3,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2015-09-10 10:03+0100\n"
-"Last-Translator: Daniel González <daniel@desarrolla2.com>\n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Language: es\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.5.4\n"
 
 #: ../../Creational/Pool/README.rst:2
 msgid "`Pool`__"
-msgstr "`Pila`__"
+msgstr "`Pool`__"
 
 #: ../../Creational/Pool/README.rst:4
 msgid ""
@@ -26,11 +25,12 @@ msgid ""
 "object. When the client has finished, it returns the object, which is a "
 "specific type of factory object, to the pool rather than destroying it."
 msgstr ""
-"El **Patrón Pila** es un patrón de diseño creacional que utiliza un conjunto "
-"de objetos inicializados y los mantiene listos para usar -la \"pila\"- en "
-"lugar de crearlos y destruirlos bajo demanda. Un cliente puede pedirle a la "
-"pila un objeto y realizar las operaciones necesarias sobre él. Cuando el "
-"cliente ha terminado devuelve el objeto a la pila en lugar de destruirlo."
+"**Object pool pattern** utilise un ensemble d'objets initialisés et prêts à "
+"être utilisés - un \"pool\" - plutôt que de les allouer et de les détruire à la "
+"demande. Un client du pool demandera un objet du pool et effectuera des opérations "
+"sur l'objet retourné. Lorsque le client a terminé, il renvoie l'objet, qui est "
+"au pool plutôt que de le détruire."
+
 
 #: ../../Creational/Pool/README.rst:11
 msgid ""
@@ -40,13 +40,11 @@ msgid ""
 "low. The pooled object is obtained in predictable time when creation of the "
 "new objects (especially over network) may take variable time."
 msgstr ""
-"Mantener los objetos en una pila puede ofrecer mejoras significativas de "
-"rendimiento en aquellas situaciones donde el coste de inicializar las "
-"instancias es alto, el volumen de veces que se instancia la clase es alto y "
-"el número de instancias que se mantienen en uso a la vez es bajo. El objeto "
-"puede recuperarse de la pila en una cantidad de tiempo predecible, cuando la "
-"creación de nuevos objetos (especialmente cuando se realiza a través de una "
-"red) puede variar."
+"La mise en commun d'objets peut offrir un gain de performance significatif dans les "
+"situations où le coût d'initialisation d'une instance de classe est élevé, le "
+"taux d'instanciation d'une classe est élevé et le nombre d'instances utilisées à "
+"un moment donné est faible. L'objet mis en commun est obtenu en un temps prévisible "
+"alors que la création des nouveaux objets (notamment sur le réseau) peut prendre un temps variable."
 
 #: ../../Creational/Pool/README.rst:18
 msgid ""
@@ -55,20 +53,25 @@ msgid ""
 "and large graphic objects like fonts or bitmaps. In certain situations, "
 "simple object pooling (that hold no external resources, but only occupy "
 "memory) may not be efficient and could decrease performance."
-msgstr "Sin embargo estos beneficios "
+msgstr "Toutefois, ces avantages s'appliquent surtout aux objets qui sont coûteux "
+"en temps, tels que les connexions aux bases de données, les connexions aux sockets, "
+"les threads et les gros objets graphiques comme les polices ou les bitmaps. "
+"Dans certaines situations, la mise en commun d'objets simples (qui ne détiennent "
+"aucune ressource externe, mais occupent seulement la mémoire) peut ne pas être efficace "
+"et pourrait diminuer les performances."
 
-#: ../../Creational/Pool/README.rst:25
+#: ../../Creational/AbstractFactory/README.rst:13
 msgid "UML Diagram"
-msgstr "Diagrama UML"
+msgstr "Diagramme UML"
 
-#: ../../Creational/Pool/README.rst:32
+#: ../../Creational/AbstractFactory/README.rst:20
 msgid "Code"
-msgstr "Código"
+msgstr "Code"
 
-#: ../../Creational/Pool/README.rst:34
+#: ../../Creational/AbstractFactory/README.rst:22
 msgid "You can also find this code on `GitHub`_"
-msgstr "Puedes encontrar el código en `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Creational/Pool/README.rst:55
+#: ../../Creational/AbstractFactory/README.rst:85
 msgid "Test"
-msgstr ""
+msgstr "Test"

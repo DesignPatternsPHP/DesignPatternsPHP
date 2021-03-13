@@ -3,75 +3,72 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2015-09-11 11:42+0100\n"
-"Last-Translator: Daniel González <daniel@desarrolla2.com>\n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Language: es\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.5.4\n"
 
 #: ../../Creational/Builder/README.rst:2
 msgid "`Builder`__"
-msgstr "`Constructor`__"
+msgstr "`Builder (Monteur)`__"
 
 #: ../../Creational/Builder/README.rst:5
 msgid "Purpose"
-msgstr "Propósito"
+msgstr "Rôle"
 
 #: ../../Creational/Builder/README.rst:7
 msgid "Builder is an interface that build parts of a complex object."
 msgstr ""
-"El constructor es una interfaz que construye parte de un objeto complejo."
+"Un builder est une interface permettant de construire certaines parties d'un objet complexe."
 
 #: ../../Creational/Builder/README.rst:9
 msgid ""
 "Sometimes, if the builder has a better knowledge of what it builds, this "
 "interface could be an abstract class with default methods (aka adapter)."
 msgstr ""
-"A veces, si el constructor conoce bien lo que está construyendo, esta "
-"interfaz podría ser una clase abstracta con métodos por defecto (también "
-"conocido como Adaptador)"
+"Parfois, lorsque le builder \"sait\" plus précisément ce qu'il construit, cette "
+"interface pourrait être une classe abstraite avec des méthodes par défaut (alias adapter)."
 
 #: ../../Creational/Builder/README.rst:12
 msgid ""
 "If you have a complex inheritance tree for objects, it is logical to have a "
 "complex inheritance tree for builders too."
 msgstr ""
-"Si tienes una herencia compleja de tu árbol de objetos, es lógico tener "
-"también una herencia compleja en el árbol de constructores."
+"Si vous avez un arbre d'héritage complexe pour les objets, il est logique d'avoir "
+"un arbre d'héritage complexe pour les builders."
 
 #: ../../Creational/Builder/README.rst:15
 msgid ""
 "Note: Builders have often a fluent interface, see the mock builder of "
 "PHPUnit for example."
 msgstr ""
-"Nota: Los constructores suelen tener una interfaz fluida, fíjate en el mock "
-"builder de PHPUnit por ejemplo."
+"Note : Les builders ont souvent une désignation chaînée ou chaînage de méthodes (fluent interface), voir le "
+"Mock Builder de PHPUnit par exemple."
 
 #: ../../Creational/Builder/README.rst:19
 msgid "Examples"
-msgstr "Ejemplos"
+msgstr "Exemples"
 
 #: ../../Creational/Builder/README.rst:21
 msgid "PHPUnit: Mock Builder"
 msgstr "PHPUnit: Mock Builder"
 
-#: ../../Creational/Builder/README.rst:24
+#: ../../Creational/AbstractFactory/README.rst:13
 msgid "UML Diagram"
-msgstr "Diagrama UML"
+msgstr "Diagramme UML"
 
-#: ../../Creational/Builder/README.rst:31
+#: ../../Creational/AbstractFactory/README.rst:20
 msgid "Code"
-msgstr "Código"
+msgstr "Code"
 
-#: ../../Creational/Builder/README.rst:33
+#: ../../Creational/AbstractFactory/README.rst:22
 msgid "You can also find this code on `GitHub`_"
-msgstr "Puedes encontrar el código en `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Creational/Builder/README.rst:96
+#: ../../Creational/AbstractFactory/README.rst:85
 msgid "Test"
 msgstr "Test"
