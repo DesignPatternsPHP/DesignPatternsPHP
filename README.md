@@ -113,3 +113,4 @@ The patterns can be structured in roughly three different categories. Please cli
 | es_MX | Spanish-Mexican | [Docs :notebook:](https://designpatternsphp.readthedocs.io/es_MX/latest/README.html) |
 | tr    | Turkish   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/tr/latest/README.html) |
 | bg    | Bulgarian | [Docs :notebook:](https://designpatternsphp.readthedocs.io/bg/latest/README.html) |
+| fr    | French | [Docs :notebook:](https://designpatternsphp.readthedocs.io/fr/latest/README.html) |
