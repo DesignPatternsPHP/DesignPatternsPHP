@@ -1,0 +1,52 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Behavioral/Specification/README.rst:2
+msgid "`Specification`__"
+msgstr ""
+
+#: ../../Behavioral/Specification/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Behavioral/Specification/README.rst:7
+msgid ""
+"Builds a clear specification of business rules, where objects can be checked"
+" against. The composite specification class has one method called "
+"``isSatisfiedBy`` that returns either true or false depending on whether the"
+" given object satisfies the specification."
+msgstr ""
+
+#: ../../Behavioral/Specification/README.rst:13
+msgid "Examples"
+msgstr ""
+
+#: ../../Behavioral/Specification/README.rst:15
+msgid "`RulerZ <https://github.com/K-Phoen/rulerz>`__"
+msgstr ""
+
+#: ../../Behavioral/Specification/README.rst:18
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/Specification/README.rst:25
+msgid "Code"
+msgstr ""
+
+#: ../../Behavioral/Specification/README.rst:27
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar el código en `GitHub`_"
+
+#: ../../Behavioral/Specification/README.rst:72
+msgid "Test"
+msgstr ""

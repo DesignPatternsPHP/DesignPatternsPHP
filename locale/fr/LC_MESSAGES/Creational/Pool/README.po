@@ -1,0 +1,74 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-09-10 10:03+0100\n"
+"Last-Translator: Daniel González <daniel@desarrolla2.com>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Language: es\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Creational/Pool/README.rst:2
+msgid "`Pool`__"
+msgstr "`Pila`__"
+
+#: ../../Creational/Pool/README.rst:4
+msgid ""
+"The **object pool pattern** is a software creational design pattern that "
+"uses a set of initialized objects kept ready to use – a \"pool\" – rather "
+"than allocating and destroying them on demand. A client of the pool will "
+"request an object from the pool and perform operations on the returned "
+"object. When the client has finished, it returns the object, which is a "
+"specific type of factory object, to the pool rather than destroying it."
+msgstr ""
+"El **Patrón Pila** es un patrón de diseño creacional que utiliza un conjunto "
+"de objetos inicializados y los mantiene listos para usar -la \"pila\"- en "
+"lugar de crearlos y destruirlos bajo demanda. Un cliente puede pedirle a la "
+"pila un objeto y realizar las operaciones necesarias sobre él. Cuando el "
+"cliente ha terminado devuelve el objeto a la pila en lugar de destruirlo."
+
+#: ../../Creational/Pool/README.rst:11
+msgid ""
+"Object pooling can offer a significant performance boost in situations where "
+"the cost of initializing a class instance is high, the rate of instantiation "
+"of a class is high, and the number of instances in use at any one time is "
+"low. The pooled object is obtained in predictable time when creation of the "
+"new objects (especially over network) may take variable time."
+msgstr ""
+"Mantener los objetos en una pila puede ofrecer mejoras significativas de "
+"rendimiento en aquellas situaciones donde el coste de inicializar las "
+"instancias es alto, el volumen de veces que se instancia la clase es alto y "
+"el número de instancias que se mantienen en uso a la vez es bajo. El objeto "
+"puede recuperarse de la pila en una cantidad de tiempo predecible, cuando la "
+"creación de nuevos objetos (especialmente cuando se realiza a través de una "
+"red) puede variar."
+
+#: ../../Creational/Pool/README.rst:18
+msgid ""
+"However these benefits are mostly true for objects that are expensive with "
+"respect to time, such as database connections, socket connections, threads "
+"and large graphic objects like fonts or bitmaps. In certain situations, "
+"simple object pooling (that hold no external resources, but only occupy "
+"memory) may not be efficient and could decrease performance."
+msgstr "Sin embargo estos beneficios "
+
+#: ../../Creational/Pool/README.rst:25
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Creational/Pool/README.rst:32
+msgid "Code"
+msgstr "Código"
+
+#: ../../Creational/Pool/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar el código en `GitHub`_"
+
+#: ../../Creational/Pool/README.rst:55
+msgid "Test"
+msgstr ""

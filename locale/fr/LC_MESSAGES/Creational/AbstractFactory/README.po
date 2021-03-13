@@ -1,0 +1,50 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Last-Translator: Daniel González <daniel@desarrolla2.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Creational/AbstractFactory/README.rst:2
+msgid "`Abstract Factory`__"
+msgstr "`Factoría Abstracta`__"
+
+#: ../../Creational/AbstractFactory/README.rst:5
+msgid "Purpose"
+msgstr "Proposito"
+
+#: ../../Creational/AbstractFactory/README.rst:7
+msgid ""
+"To create series of related or dependent objects without specifying their "
+"concrete classes. Usually the created classes all implement the same "
+"interface. The client of the abstract factory does not care about how these "
+"objects are created, he just knows how they go together."
+msgstr ""
+"Para crear una serie de objetos relacionados o dependientes sin especificar "
+"a qué clase concreta pertenecen. Normalmente las clases creadas implementan "
+"las mismas interfaces. El cliente de la factoría abstracta no necesita "
+"preocuparse por cómo estos objetos son creados, él solo sabe qué tiene que "
+"hacer con ellos."
+
+#: ../../Creational/AbstractFactory/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Creational/AbstractFactory/README.rst:20
+msgid "Code"
+msgstr "Código"
+
+#: ../../Creational/AbstractFactory/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar el código en `GitHub`_"
+
+#: ../../Creational/AbstractFactory/README.rst:85
+msgid "Test"
+msgstr "Test"

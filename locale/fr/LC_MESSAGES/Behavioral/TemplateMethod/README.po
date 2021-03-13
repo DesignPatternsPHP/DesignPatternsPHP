@@ -1,0 +1,67 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Behavioral/TemplateMethod/README.rst:2
+msgid "`Template Method`__"
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:7
+msgid "Template Method is a behavioral design pattern."
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:9
+msgid ""
+"Perhaps you have encountered it many times already. The idea is to let "
+"subclasses of this abstract template \"finish\" the behavior of an "
+"algorithm."
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:13
+msgid ""
+"A.k.a the \"Hollywood principle\": \"Don't call us, we call you.\" This "
+"class is not called by subclasses but the inverse. How? With abstraction of "
+"course."
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:17
+msgid ""
+"In other words, this is a skeleton of algorithm, well-suited for framework "
+"libraries. The user has just to implement one method and the superclass do "
+"the job."
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:21
+msgid ""
+"It is an easy way to decouple concrete classes and reduce copy-paste, that's"
+" why you'll find it everywhere."
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:25
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:32
+msgid "Code"
+msgstr ""
+
+#: ../../Behavioral/TemplateMethod/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar el código en `GitHub`_"
+
+#: ../../Behavioral/TemplateMethod/README.rst:55
+msgid "Test"
+msgstr ""

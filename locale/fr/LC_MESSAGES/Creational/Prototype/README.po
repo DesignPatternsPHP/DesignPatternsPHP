@@ -1,0 +1,58 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-09-09 16:26+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Last-Translator: Daniel González <daniel@desarrolla2.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Creational/Prototype/README.rst:2
+msgid "`Prototype`__"
+msgstr "`Prototype`__"
+
+#: ../../Creational/Prototype/README.rst:5
+msgid "Purpose"
+msgstr "Proposito"
+
+#: ../../Creational/Prototype/README.rst:7
+msgid ""
+"To avoid the cost of creating objects the standard way (new Foo()) and "
+"instead create a prototype and clone it."
+msgstr ""
+"Evitar el cote de crear objetos de la forma estándar (new Foo()). En su "
+"lugar crear una instancia y clonarla."
+
+#: ../../Creational/Prototype/README.rst:11
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../../Creational/Prototype/README.rst:13
+msgid ""
+"Large amounts of data (e.g. create 1,000,000 rows in a database at once via "
+"a ORM)."
+msgstr ""
+"Grandes cantidades de datos (ej. crear 1.000.000 de registros en la base de "
+"datos a través del ORM)."
+
+#: ../../Creational/Prototype/README.rst:17
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Creational/Prototype/README.rst:24
+msgid "Code"
+msgstr "Código"
+
+#: ../../Creational/Prototype/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar el código en `GitHub`_"
+
+#: ../../Creational/Prototype/README.rst:53
+msgid "Test"
+msgstr "Test"

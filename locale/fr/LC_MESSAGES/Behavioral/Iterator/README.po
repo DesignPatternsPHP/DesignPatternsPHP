@@ -1,0 +1,61 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Behavioral/Iterator/README.rst:2
+msgid "`Iterator`__"
+msgstr ""
+
+#: ../../Behavioral/Iterator/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Behavioral/Iterator/README.rst:7
+msgid "To make an object iterable and to make it appear like a collection of objects."
+msgstr ""
+
+#: ../../Behavioral/Iterator/README.rst:11
+msgid "Examples"
+msgstr ""
+
+#: ../../Behavioral/Iterator/README.rst:13
+msgid ""
+"to process a file line by line by just running over all lines (which have an"
+" object representation) for a file (which of course is an object, too)"
+msgstr ""
+
+#: ../../Behavioral/Iterator/README.rst:18
+msgid "Note"
+msgstr ""
+
+#: ../../Behavioral/Iterator/README.rst:20
+msgid ""
+"Standard PHP Library (SPL) defines an interface Iterator which is best "
+"suited for this! Often you would want to implement the Countable interface "
+"too, to allow ``count($object)`` on your iterable object"
+msgstr ""
+
+#: ../../Behavioral/Iterator/README.rst:25
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Behavioral/Iterator/README.rst:32
+msgid "Code"
+msgstr ""
+
+#: ../../Behavioral/Iterator/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar el código en `GitHub`_"
+
+#: ../../Behavioral/Iterator/README.rst:61
+msgid "Test"
+msgstr ""

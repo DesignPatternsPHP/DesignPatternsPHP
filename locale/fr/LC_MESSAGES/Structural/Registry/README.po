@@ -1,0 +1,47 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Structural/Registry/README.rst:2
+msgid "`Registry`__"
+msgstr ""
+
+#: ../../Structural/Registry/README.rst:5
+msgid "Purpose"
+msgstr ""
+
+#: ../../Structural/Registry/README.rst:7
+msgid ""
+"To implement a central storage for objects often used throughout the "
+"application, is typically implemented using an abstract class with only "
+"static methods (or using the Singleton pattern)"
+msgstr ""
+
+#: ../../Structural/Registry/README.rst:12
+msgid "Examples"
+msgstr ""
+
+#: ../../Structural/Registry/README.rst:20
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../Structural/Registry/README.rst:27
+msgid "Code"
+msgstr ""
+
+#: ../../Structural/Registry/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar el código en `GitHub`_"
+
+#: ../../Structural/Registry/README.rst:38
+msgid "Test"
+msgstr ""

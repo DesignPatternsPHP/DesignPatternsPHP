@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-03 23:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../More/EAV/README.rst:2
+msgid "`Entity-Attribute-Value (EAV)`__"
+msgstr ""
+
+#: ../../More/EAV/README.rst:4
+msgid ""
+"The Entity–attribute–value (EAV) pattern in order to implement EAV model "
+"with PHP."
+msgstr ""
+
+#: ../../More/EAV/README.rst:7
+msgid "Purpose"
+msgstr ""
+
+#: ../../More/EAV/README.rst:9
+msgid ""
+"The Entity–attribute–value (EAV) model is a data model to describe "
+"entities where the number of attributes (properties, parameters) that can"
+" be used to describe them is potentially vast, but the number that will "
+"actually apply to a given entity is relatively modest."
+msgstr ""
+
+#: ../../More/EAV/README.rst:15
+msgid "Examples"
+msgstr ""
+
+#: ../../More/EAV/README.rst:17
+msgid "Check full work example in `example.php`_ file."
+msgstr ""
+
+#: ../../More/EAV/README.rst:90
+msgid "UML Diagram"
+msgstr ""
+
+#: ../../More/EAV/README.rst:97
+msgid "Code"
+msgstr ""
+
+#: ../../More/EAV/README.rst:99
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar el código en `GitHub`_"
+
+#: ../../More/EAV/README.rst:102
+msgid "Test"
+msgstr ""
+

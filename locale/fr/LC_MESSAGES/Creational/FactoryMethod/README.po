@@ -1,0 +1,65 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2015-09-15 17:15+0100\n"
+"Last-Translator: Daniel González <daniel@desarrolla2.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Creational/FactoryMethod/README.rst:2
+msgid "`Factory Method`__"
+msgstr "`Factory Method`__"
+
+#: ../../Creational/FactoryMethod/README.rst:5
+msgid "Purpose"
+msgstr "Proposito"
+
+#: ../../Creational/FactoryMethod/README.rst:7
+msgid ""
+"The good point over the SimpleFactory is you can subclass it to implement "
+"different ways to create objects"
+msgstr ""
+"La principal ventaja de SimpleFactory es que puedes extender la clase para "
+"implementar diferentes formas"
+
+#: ../../Creational/FactoryMethod/README.rst:10
+msgid "For simple case, this abstract class could be just an interface"
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:12
+msgid ""
+"This pattern is a \"real\" Design Pattern because it achieves the "
+"Dependency Inversion principle a.k.a the \"D\" in SOLID principles."
+msgstr ""
+
+#: ../../Creational/FactoryMethod/README.rst:15
+msgid ""
+"It means the FactoryMethod class depends on abstractions, not concrete "
+"classes. This is the real trick compared to SimpleFactory or StaticFactory."
+msgstr ""
+"Esto significa que la clase FactoryMethod depende de abstraciones, no de "
+"clases concretas. Esto es el truco con respecto a SimpleFactory o "
+"StaticFactory"
+
+#: ../../Creational/FactoryMethod/README.rst:20
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+#: ../../Creational/FactoryMethod/README.rst:27
+msgid "Code"
+msgstr "Código"
+
+#: ../../Creational/FactoryMethod/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar el código en `GitHub`_"
+
+#: ../../Creational/FactoryMethod/README.rst:74
+msgid "Test"
+msgstr "Test"
