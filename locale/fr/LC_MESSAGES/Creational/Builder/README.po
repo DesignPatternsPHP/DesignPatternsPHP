@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../Creational/Builder/README.rst:2
 msgid "`Builder`__"
-msgstr "`Builder (Monteur)`__"
+msgstr "`Builder`__"
 
 #: ../../Creational/Builder/README.rst:5
 msgid "Purpose"

@@ -24,7 +24,7 @@ msgstr "Rôle"
 msgid ""
 "To treat a group of objects the same way as a single instance of the object."
 msgstr ""
-"Traiter un groupe d'objets de la même manière qu'une seule instance d'un objet."
+"Traiter un groupe d'objets de la même manière qu'une seule instance."
 
 #: ../../Structural/Composite/README.rst:11
 msgid "Examples"
@@ -40,18 +40,18 @@ msgstr ""
 "comme une seule instance du formulaire. Lorsque ``render()`` est appelé, il passe "
 "ensuite par tous ses éléments enfants et appelle ``render()`` sur eux."
 
-#: ../../Creational/AbstractFactory/README.rst:13
+#: ../../Structural/Composite/README.rst:13
 msgid "UML Diagram"
 msgstr "Diagramme UML"
 
-#: ../../Creational/AbstractFactory/README.rst:20
+#: ../../Structural/Composite/README.rst:20
 msgid "Code"
 msgstr "Code"
 
-#: ../../Creational/AbstractFactory/README.rst:22
+#: ../../Structural/Composite/README.rst:22
 msgid "You can also find this code on `GitHub`_"
 msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Creational/AbstractFactory/README.rst:85
+#: ../../Structural/Composite/README.rst:85
 msgid "Test"
 msgstr "Test"

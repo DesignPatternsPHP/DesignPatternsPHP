@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../README.rst:5
 msgid "DesignPatternsPHP"
-msgstr ""
+msgstr "Patrons de conception PHP"
 
 #: ../../README.rst:11
 msgid ""
@@ -29,12 +29,12 @@ msgid ""
 "I think the problem with patterns is that often people do know them but "
 "don't know when to apply which."
 msgstr ""
-"Je pense que le problème avec les patrons de conception provient du fait que souvent les gens les connaissent mais "
+"Je pense que le problème avec les patrons de conception provient du fait que, si souvent les gens les connaissent, ils "
 "ne savent pas quand les implémenter."
 
 #: ../../README.rst:20
 msgid "Patterns"
-msgstr "Patrones"
+msgstr "Patterns"
 
 #: ../../README.rst:22
 msgid ""

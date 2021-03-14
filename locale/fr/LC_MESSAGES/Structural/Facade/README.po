@@ -53,7 +53,7 @@ msgid ""
 "[Abstract\\|Static\\|Simple] Factory [Method]."
 msgstr ""
 "C'est pourquoi une bonne façade n'a pas  de ``new``. S'il y a plusieurs créations "
-"pour chaque méthode, ce n'est pas une façade, c'est un constructeur ou une [méthode] "
+"pour chaque méthode, ce n'est pas une façade, c'est un Builder ou une [méthode] "
 "d'usine [abstraite|statique|simple]."
 
 #: ../../Structural/Facade/README.rst:22

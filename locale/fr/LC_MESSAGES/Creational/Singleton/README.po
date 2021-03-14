@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../Creational/Singleton/README.rst:19
 msgid "Lock file for the application (there is only one in the filesystem ...)"
-msgstr "Fichier de verrouillage pour l'application (il n'y en a qu'un seul dans le système de fichiers ...)"
+msgstr "Fichier de verrouillage pour l'application (il n'y en a qu'un seul dans le système de fichiers...)"
 
 #: ../../Creational/Singleton/README.rst:13
 msgid "UML Diagram"

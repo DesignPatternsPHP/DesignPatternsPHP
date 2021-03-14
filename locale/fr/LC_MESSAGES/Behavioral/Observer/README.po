@@ -39,7 +39,7 @@ msgstr "Exemples"
 msgid ""
 "a message queue system is observed to show the progress of a job in a GUI"
 msgstr ""
-"un système de file d'attente de messages est observé pour montrer la progression d'un travail dans une interface graphique."
+"Un système de file d'attente de messages est observé pour montrer la progression d'un travail dans une interface graphique."
 
 #: ../../Behavioral/Observer/README.rst:19
 msgid "Note"

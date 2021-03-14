@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../Behavioral/Command/README.rst:2
 msgid "`Command`__"
-msgstr "`Command (Commande)`__"
+msgstr "`Command`__"
 
 #: ../../Behavioral/Command/README.rst:5
 msgid "Purpose"
@@ -32,9 +32,9 @@ msgid ""
 "process the Command of the client. The Receiver is decoupled from the "
 "Invoker."
 msgstr ""
-"Nous avons un invoker (exécuteur) et un récepteur (receveur). Ce modèle "
+"Nous avons un Invoker (exécuteur) et un Receiver (récepteur). Ce modèle "
 "utilise une \"commande\" pour déléguer l'exécution d'une méthode à un récepteur "
-"et fournir une méthode \"exécuter\" unifiée. De cette façon, l'exécuteur ne connaît "
+"et fournir une méthode \"execute\" unifiée. De cette façon, l'exécuteur ne connaît "
 "que la méthode \"execute\" pour exécuter la commande. Le récepteur est donc "
 "découplé de l'appelant."
 
@@ -44,8 +44,8 @@ msgid ""
 "execute(). Command can also be aggregated to combine more complex commands "
 "with minimum copy-paste and relying on composition over inheritance."
 msgstr ""
-"Le deuxième aspect de ce modèle est la méthode undo(), qui permet d'annuler "
-"l'exécution de la méthode execute(). Les commandes peuvent également être "
+"Le deuxième aspect de ce modèle est la méthode ``undo()``, qui permet d'annuler "
+"l'exécution de la méthode ``execute()``. Les commandes peuvent également être "
 "agrégées pour créer des commandes complexes avec une surcharge minimale et "
 "par composition (plutôt que par héritage)."
 

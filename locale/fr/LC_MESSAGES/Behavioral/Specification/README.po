@@ -27,17 +27,17 @@ msgid ""
 "``isSatisfiedBy`` that returns either true or false depending on whether the"
 " given object satisfies the specification."
 msgstr ""
-
-#: ../../Behavioral/Specification/README.rst:13
-msgid "Examples"
-msgstr ""
 "Construire une spécification claire des règles de gestion, à laquelle les objets peuvent être comparés. "
 "La classe de spécification composite possède une méthode appelée ``isSatisfiedBy`` qui renvoie soit vrai "
 "soit faux selon que l'objet soit conforme ou non aux règles de gestion."
 
+#: ../../Behavioral/Specification/README.rst:13
+msgid "Examples"
+msgstr "Exemples"
+
 #: ../../Behavioral/Specification/README.rst:15
 msgid "`RulerZ <https://github.com/K-Phoen/rulerz>`__"
-msgstr ""
+msgstr "`RulerZ <https://github.com/K-Phoen/rulerz>`__"
 
 #: ../../Behavioral/Specification/README.rst:13
 msgid "UML Diagram"

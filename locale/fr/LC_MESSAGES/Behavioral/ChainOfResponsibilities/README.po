@@ -14,11 +14,11 @@ msgstr ""
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:2
 msgid "`Chain Of Responsibilities`__"
-msgstr ""
+msgstr "`Chain Of Responsibilities`__"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:5
 msgid "Purpose:"
-msgstr ""
+msgstr "Rôle"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:7
 msgid ""
@@ -44,15 +44,15 @@ msgstr ""
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:16
 msgid "a Spam filter"
-msgstr "filtre anti-spam"
+msgstr "Filtre anti-spam"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:17
 msgid ""
 "Caching: first object is an instance of e.g. a Memcached Interface, if that "
 "\"misses\" it delegates the call to the database interface"
 msgstr ""
-"Mise en cache : le premier objet est une instance d'une interface Memcached, "
-"par exemple, et s'il \"manque\", il délègue l'appel à l'interface de base de données."
+"Mise en cache : le premier objet est, par exemple, une instance d'une interface Memcached, "
+"s'il \"manque\", il délègue l'appel à l'interface de base de données."
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:13
 msgid "UML Diagram"

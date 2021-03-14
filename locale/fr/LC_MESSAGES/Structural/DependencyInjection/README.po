@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:2
 msgid "`Dependency Injection`__"
-msgstr "Dependency Injection (Injection de dépendance)"
+msgstr "`Dependency Injection`__"
 
 #: ../../Structural/DependencyInjection/README.rst:5
 msgid "Purpose"
@@ -30,7 +30,7 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:11
 msgid "Usage"
-msgstr ""
+msgstr "Usage"
 
 #: ../../Structural/DependencyInjection/README.rst:13
 msgid ""
@@ -39,9 +39,9 @@ msgid ""
 "directly in ``DatabaseConnection``, which is not very good for testing and "
 "extending it."
 msgstr ""
-"``DatabaseConfiguration`` est injectée et ``DatabaseConnection`` obtiendra tout ce dont "
+"``DatabaseConfiguration`` est injectée et ``DatabaseConnexion`` obtiendra tout ce dont "
 "elle a besoin à partir de ``$config``. Sans DI, la configuration serait créée directement "
-"dans ``DatabaseConnection``, ce qui n'est pas très bon pour les tests et les extensions."
+"dans ``DatabaseConnexion``, ce qui n'est pas très bon pour les tests et les extensions."
 
 #: ../../Structural/DependencyInjection/README.rst:26
 msgid "Examples"
@@ -55,8 +55,8 @@ msgid ""
 "``Connection`` object"
 msgstr ""
 "L'ORM Doctrine2 utilise l'injection de dépendances, par exemple pour la configuration "
-"qui est injectée dans un objet ``Connection``. À des fins de test, on peut facilement "
-"créer un objet fantaisie de la configuration et l'injecter dans l'objet ``Connection``."
+"qui est injectée dans un objet ``Connexion``. À des fins de test, on peut facilement "
+"créer un objet fantaisie de la configuration et l'injecter dans l'objet ``Connexion``."
 
 #: ../../Structural/DependencyInjection/README.rst:32
 msgid ""

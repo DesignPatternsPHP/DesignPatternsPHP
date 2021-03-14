@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../Structural/Bridge/README.rst:2
 msgid "`Bridge`__"
-msgstr "`Bridge (Pont)`__"
+msgstr "`Bridge`__"
 
 #: ../../Structural/Bridge/README.rst:5
 msgid "Purpose"
@@ -24,7 +24,8 @@ msgstr "Rôle"
 msgid ""
 "Decouple an abstraction from its implementation so that the two can vary "
 "independently."
-msgstr "Découpler une abstraction de son implémentation afin que les deux puissent varier indépendamment."
+msgstr ""
+"Découpler une abstraction de son implémentation afin que les deux puissent varier indépendamment."
 
 #: ../../Structural/Bridge/README.rst:13
 msgid "UML Diagram"

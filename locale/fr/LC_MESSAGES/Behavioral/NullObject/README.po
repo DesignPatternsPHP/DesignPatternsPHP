@@ -58,12 +58,12 @@ msgid "Examples"
 msgstr "Exemples"
 
 #: ../../Behavioral/NullObject/README.rst:24
-msgid "Null logger or null output to preserve a standard way of interaction between objects, even if the shouldn't do anything"
-msgstr "null logger ou null output pour préserver un mode d'interaction standard entre les objets, même s'ils ne devraient rien faire."
+msgid "null logger or null output to preserve a standard way of interaction between objects, even if the shouldn't do anything"
+msgstr "Null logger ou null output pour préserver un mode d'interaction standard entre les objets, même s'ils ne devraient rien faire."
 
 #: ../../Behavioral/NullObject/README.rst:26
 msgid "null handler in a Chain of Responsibilities pattern"
-msgstr "null handler dans un modèle de chaîne de responsabilités"
+msgstr "Null handler dans un modèle de chaîne de responsabilités"
 
 #: ../../Behavioral/NullObject/README.rst:27
 msgid "null command in a Command pattern"

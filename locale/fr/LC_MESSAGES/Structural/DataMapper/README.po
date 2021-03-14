@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../Structural/DataMapper/README.rst:2
 msgid "`Data Mapper`__"
-msgstr "Data Mapper"
+msgstr "`Data Mapper`__"
 
 #: ../../Structural/DataMapper/README.rst:5
 msgid "Purpose"
@@ -46,7 +46,7 @@ msgid ""
 "The key point of this pattern is, unlike Active Record pattern, the data "
 "model follows Single Responsibility Principle."
 msgstr ""
-"Le point clé de ce modèle est que, contrairement au modèle [Active Record](https://en.wikipedia.org/wiki/Active_record_pattern), "
+"Le point clé de ce modèle est que, contrairement au pattern [Active Record](https://en.wikipedia.org/wiki/Active_record_pattern), "
 "le modèle de données suit le principe de responsabilité unique."
 
 #: ../../Structural/DataMapper/README.rst:21
@@ -60,18 +60,18 @@ msgid ""
 msgstr ""
 "DB Object Relational Mapper (ORM) : Doctrine2 utilise un DAO nommé \"EntityRepository\"."
 
-#: ../../Creational/AbstractFactory/README.rst:13
+#: ../../Structural/DataMapper/README.rst:13
 msgid "UML Diagram"
 msgstr "Diagramme UML"
 
-#: ../../Creational/AbstractFactory/README.rst:20
+#: ../../Structural/DataMapper/README.rst:20
 msgid "Code"
 msgstr "Code"
 
-#: ../../Creational/AbstractFactory/README.rst:22
+#: ../../Structural/DataMapper/README.rst:22
 msgid "You can also find this code on `GitHub`_"
 msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
 
-#: ../../Creational/AbstractFactory/README.rst:85
+#: ../../Structural/DataMapper/README.rst:85
 msgid "Test"
 msgstr "Test"

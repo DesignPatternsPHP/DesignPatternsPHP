@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:2
 msgid "Simple Factory"
-msgstr "Simple Factory (Fabrique simple)"
+msgstr "Simple Factory"
 
 #: ../../Creational/SimpleFactory/README.rst:5
 msgid "Purpose"

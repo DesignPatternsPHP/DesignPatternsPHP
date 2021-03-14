@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../Structural/Decorator/README.rst:2
 msgid "`Decorator`__"
-msgstr "`Decorator (Décorateur)`__"
+msgstr "`Decorator`__"
 
 #: ../../Structural/Decorator/README.rst:5
 msgid "Purpose"
@@ -26,7 +26,7 @@ msgstr "Ajoute dynamiquement de nouvelles fonctionnalités aux instances de clas
 
 #: ../../Structural/Decorator/README.rst:10
 msgid "Examples"
-msgstr ""
+msgstr "Exemples"
 
 #: ../../Structural/Decorator/README.rst:13
 msgid ""

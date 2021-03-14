@@ -33,8 +33,8 @@ msgid ""
 "to process a file line by line by just running over all lines (which have an"
 " object representation) for a file (which of course is an object, too)"
 msgstr ""
-"Pour traiter un fichier ligne par ligne en parcourant simplement toutes les "
-"lignes (qui ont une représentation objet) d'un fichier (qui est bien sûr un objet aussi)"
+"Si un fichier et chacune de ses lignes sont représentées sous form d'objet, "
+"Iterator permet de parcourir le fichier."
 
 #: ../../Behavioral/Iterator/README.rst:18
 msgid "Note"

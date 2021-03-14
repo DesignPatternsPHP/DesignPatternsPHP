@@ -14,11 +14,11 @@ msgstr ""
 
 #: ../../Behavioral/Mediator/README.rst:2
 msgid "`Mediator`__"
-msgstr ""
+msgstr "`Mediator`__"
 
 #: ../../Behavioral/Mediator/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Rôle"
 
 #: ../../Behavioral/Mediator/README.rst:7
 msgid ""

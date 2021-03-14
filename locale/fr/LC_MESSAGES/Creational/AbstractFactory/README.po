@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../Creational/AbstractFactory/README.rst:2
 msgid "`Abstract Factory`__"
-msgstr "`Abstract Factory (Fabrique abstraite)`__"
+msgstr "`Abstract Factory`__"
 
 #: ../../Creational/AbstractFactory/README.rst:5
 msgid "Purpose"

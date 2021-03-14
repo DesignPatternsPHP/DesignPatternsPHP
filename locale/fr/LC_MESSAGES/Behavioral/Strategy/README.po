@@ -22,15 +22,15 @@ msgstr "Terminologie"
 
 #: ../../Behavioral/Strategy/README.rst:7
 msgid "Context"
-msgstr "Context (Contexte)"
+msgstr "Context"
 
 #: ../../Behavioral/Strategy/README.rst:8
 msgid "Strategy"
-msgstr "Strategy (Stratégie)"
+msgstr "Strategy"
 
 #: ../../Behavioral/Strategy/README.rst:9
 msgid "Concrete Strategy"
-msgstr "Concrete Strategy (Stratégie concrète)"
+msgstr "Concrete Strategy"
 
 #: ../../Behavioral/Strategy/README.rst:12
 msgid "Purpose"

@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../Structural/FluentInterface/README.rst:2
 msgid "`Fluent Interface`__"
-msgstr "`Fluent Interface (Désignation chaînée)`__"
+msgstr "`Fluent Interface`__"
 
 #: ../../Structural/FluentInterface/README.rst:5
 msgid "Purpose"
