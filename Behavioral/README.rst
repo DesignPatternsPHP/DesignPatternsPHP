@@ -11,6 +11,7 @@ carrying out this communication.
 
    ChainOfResponsibilities/README
    Command/README
+   Interpreter/README
    Iterator/README
    Mediator/README
    Memento/README
