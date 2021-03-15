@@ -1,0 +1,77 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Structural/DataMapper/README.rst:2
+msgid "`Data Mapper`__"
+msgstr "`Data Mapper`__"
+
+#: ../../Structural/DataMapper/README.rst:5
+msgid "Purpose"
+msgstr "Rôle"
+
+#: ../../Structural/DataMapper/README.rst:7
+msgid ""
+"A Data Mapper, is a Data Access Layer that performs bidirectional transfer "
+"of data between a persistent data store (often a relational database) and an"
+" in memory data representation (the domain layer). The goal of the pattern "
+"is to keep the in memory representation and the persistent data store "
+"independent of each other and the data mapper itself. The layer is composed "
+"of one or more mappers (or Data Access Objects), performing the data "
+"transfer. Mapper implementations vary in scope. Generic mappers will handle "
+"many different domain entity types, dedicated mappers will handle one or a "
+"few."
+msgstr ""
+"Un Data Mapper est une couche d'accès aux données qui effectue un transfert bidirectionnel "
+"de données entre un stockage de données permanent (souvent une base de données relationnelle) et "
+"une représentation de données en mémoire (la couche de domaine). L'objectif de ce modèle est de "
+"faire en sorte que la représentation en mémoire et le stock de données permanent soient indépendants "
+"l'un de l'autre et du Data Mapper lui-même. La couche est composée d'un ou plusieurs mappeurs "
+"(ou objets d'accès aux données), qui effectuent le transfert de données. Les mappeurs génériques "
+"traiteront de nombreux types d'entités de domaine différents, les mappeurs spécialisés "
+"n'en traiteront qu'un ou quelques-uns."
+
+#: ../../Structural/DataMapper/README.rst:17
+msgid ""
+"The key point of this pattern is, unlike Active Record pattern, the data "
+"model follows Single Responsibility Principle."
+msgstr ""
+"Le point clé de ce modèle est que, contrairement au pattern [Active Record](https://en.wikipedia.org/wiki/Active_record_pattern), "
+"le modèle de données suit le principe de responsabilité unique."
+
+#: ../../Structural/DataMapper/README.rst:21
+msgid "Examples"
+msgstr "Examples"
+
+#: ../../Structural/DataMapper/README.rst:23
+msgid ""
+"DB Object Relational Mapper (ORM) : Doctrine2 uses DAO named as "
+"\"EntityRepository\""
+msgstr ""
+"DB Object Relational Mapper (ORM) : Doctrine2 utilise un DAO nommé \"EntityRepository\"."
+
+#: ../../Structural/DataMapper/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramme UML"
+
+#: ../../Structural/DataMapper/README.rst:20
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/DataMapper/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
+
+#: ../../Structural/DataMapper/README.rst:85
+msgid "Test"
+msgstr "Test"

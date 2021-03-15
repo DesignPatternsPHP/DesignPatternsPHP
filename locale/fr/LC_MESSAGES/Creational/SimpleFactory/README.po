@@ -1,0 +1,57 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Creational/SimpleFactory/README.rst:2
+msgid "Simple Factory"
+msgstr "Simple Factory"
+
+#: ../../Creational/SimpleFactory/README.rst:5
+msgid "Purpose"
+msgstr "Rôle"
+
+#: ../../Creational/SimpleFactory/README.rst:7
+msgid "SimpleFactory is a simple factory pattern."
+msgstr "SimpleFactory est un pattern Factory simple."
+
+#: ../../Creational/SimpleFactory/README.rst:9
+msgid ""
+"It differs from the static factory because it is NOT static and as you know:"
+" static => global => evil!"
+msgstr ""
+"SimpleFactory diffère de StaticFactory car ne possède pas de méthodes statiques."
+
+#: ../../Creational/SimpleFactory/README.rst:12
+msgid ""
+"Therefore, you can have multiple factories, differently parametrized, you "
+"can subclass it and you can mock-up it."
+msgstr ""
+"Par conséquent, vous pouvez avoir plusieurs factory paramétrés différemment, vous "
+"pouvez les dériver et vous pouvez les mocker. "
+"SimpleFactory doit toujours être préférée à StaticFactory !"
+
+#: ../../Creational/SimpleFactory/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramme UML"
+
+#: ../../Creational/SimpleFactory/README.rst:20
+msgid "Code"
+msgstr "Code"
+
+#: ../../Creational/SimpleFactory/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
+
+#: ../../Creational/SimpleFactory/README.rst:85
+msgid "Test"
+msgstr "Test"

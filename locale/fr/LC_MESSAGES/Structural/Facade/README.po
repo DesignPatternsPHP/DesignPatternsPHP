@@ -1,0 +1,83 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Structural/Facade/README.rst:2
+msgid "`Facade`__"
+msgstr "`Facade`__"
+
+#: ../../Structural/Facade/README.rst:5
+msgid "Purpose"
+msgstr "Rôle"
+
+#: ../../Structural/Facade/README.rst:7
+msgid ""
+"The primary goal of a Facade Pattern is not to avoid you having to read the"
+"manual of a complex API. It's only a side-effect. The first goal is to"
+"reduce coupling and follow the Law of Demeter."
+msgstr ""
+"L'objectif premier d'un modèle de façade n'est pas de vous éviter de devoir lire "
+"le manuel d'une API complexe. Ce n'est qu'un effet secondaire. Le premier objectif "
+"est de réduire le couplage et de suivre la loi de Déméter."
+
+#: ../../Structural/Facade/README.rst:11
+msgid ""
+"A Facade is meant to decouple a client and a sub-system by embedding many "
+"(but sometimes just one) interface, and of course to reduce complexity."
+msgstr ""
+"Une façade est destinée à découpler un client et un système secondaire en intégrant "
+"plusieurs (ou parfois une seule) interfaces, et bien sûr à réduire la complexité."
+
+#: ../../Structural/Facade/README.rst:15
+msgid "A facade does not forbid you the access to the sub-system"
+msgstr "Une façade ne vous interdit pas l'accès au sous-système."
+
+#: ../../Structural/Facade/README.rst:16
+msgid "You can (you should) have multiple facades for one sub-system"
+msgstr "Vous pouvez (vous devriez) avoir plusieurs façades pour un seul sous-système."
+
+#: ../../Structural/Facade/README.rst:18
+msgid ""
+"That's why a good facade has no ``new`` in it. If there are multiple "
+"creations for each method, it is not a Facade, it's a Builder or a "
+"[Abstract\\|Static\\|Simple] Factory [Method]."
+msgstr ""
+"C'est pourquoi une bonne façade n'a pas  de ``new``. S'il y a plusieurs créations "
+"pour chaque méthode, ce n'est pas une façade, c'est un Builder ou une [méthode] "
+"d'usine [abstraite|statique|simple]."
+
+#: ../../Structural/Facade/README.rst:22
+msgid ""
+"The best facade has no ``new`` and a constructor with interface-type-hinted "
+"parameters. If you need creation of new instances, use a Factory as "
+"argument."
+msgstr ""
+"La meilleure façade n'a pas de ``new`` et un constructeur avec des paramètres indiquant "
+"le type d'interface. Si vous avez besoin de créer de nouvelles instances, utilisez un "
+"Factory comme argument."
+
+#: ../../Structural/Facade/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramme UML"
+
+#: ../../Structural/Facade/README.rst:20
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/Facade/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
+
+#: ../../Structural/Facade/README.rst:85
+msgid "Test"
+msgstr "Test"

@@ -1,0 +1,78 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Behavioral/TemplateMethod/README.rst:2
+msgid "`Template Method`__"
+msgstr "`Template Method`__"
+
+#: ../../Behavioral/TemplateMethod/README.rst:5
+msgid "Purpose"
+msgstr "Rôle"
+
+#: ../../Behavioral/TemplateMethod/README.rst:7
+msgid "Template Method is a behavioral design pattern."
+msgstr "Template Method est un patron de conception comportemental."
+
+#: ../../Behavioral/TemplateMethod/README.rst:9
+msgid ""
+"Perhaps you have encountered it many times already. The idea is to let "
+"subclasses of this abstract template \"finish\" the behavior of an "
+"algorithm."
+msgstr ""
+"Vous l'avez peut-être déjà rencontré à plusieurs reprises. L'idée est de "
+"laisser les classes dérivées de ce template abstrait \"finaliser\" le "
+"comportement d'un algorithme."
+
+#: ../../Behavioral/TemplateMethod/README.rst:13
+msgid ""
+"A.k.a the \"Hollywood principle\": \"Don't call us, we call you.\" This "
+"class is not called by subclasses but the inverse. How? With abstraction of "
+"course."
+msgstr ""
+"Par exemple, le \"Hollywood principle\" : \"Ne nous appelez pas, nous vous appelons.\" "
+"Cette classe n'est pas appelée par la classe dérivée, mais au contraire. Cela se fait "
+"par le biais d'une abstraction."
+
+#: ../../Behavioral/TemplateMethod/README.rst:17
+msgid ""
+"In other words, this is a skeleton of algorithm, well-suited for framework "
+"libraries. The user has just to implement one method and the superclass do "
+"the job."
+msgstr ""
+"En d'autres termes, il s'agit d'un squelette d'algorithme, bien adapté aux librairies "
+"de frameworks. L'utilisateur n'a qu'à implémenter une méthode et la classe parente fait le travail."
+
+#: ../../Behavioral/TemplateMethod/README.rst:21
+msgid ""
+"It is an easy way to decouple concrete classes and reduce copy-paste, that's"
+" why you'll find it everywhere."
+msgstr ""
+"C'est un moyen facile de découpler les classes concrètes et de réduire le copier-coller, "
+"c'est pourquoi vous le trouverez partout."
+
+#: ../../Behavioral/TemplateMethod/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramme UML"
+
+#: ../../Behavioral/TemplateMethod/README.rst:20
+msgid "Code"
+msgstr "Code"
+
+#: ../../Behavioral/TemplateMethod/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
+
+#: ../../Behavioral/TemplateMethod/README.rst:85
+msgid "Test"
+msgstr "Test"

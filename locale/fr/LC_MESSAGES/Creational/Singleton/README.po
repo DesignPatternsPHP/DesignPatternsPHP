@@ -1,0 +1,70 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Creational/Singleton/README.rst:2
+msgid "`Singleton`__"
+msgstr "`Singleton`__"
+
+#: ../../Creational/Singleton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+"**SINGLETON EST CONSIDÉRÉ COMME UN ANTI-PATTERN ! POUR UNE MEILLEURE TESTABILITÉ "
+"ET MAINTENABILITÉ, UTILISEZ L'INJECTION DE DÉPENDANCES !**"
+
+#: ../../Creational/Singleton/README.rst:8
+msgid "Purpose"
+msgstr "Rôle"
+
+#: ../../Creational/Singleton/README.rst:10
+msgid ""
+"To have only one instance of this object in the application that will handle "
+"all calls."
+msgstr ""
+"Limite l'instanciation d'une classe à une seule instance."
+
+#: ../../Creational/Singleton/README.rst:14
+msgid "Examples"
+msgstr "Exemples"
+
+#: ../../Creational/Singleton/README.rst:16
+msgid "DB Connector"
+msgstr "Connexion à la base de données"
+
+#: ../../Creational/Singleton/README.rst:17
+msgid ""
+"Logger"
+msgstr ""
+"Logger"
+
+#: ../../Creational/Singleton/README.rst:19
+msgid "Lock file for the application (there is only one in the filesystem ...)"
+msgstr "Fichier de verrouillage pour l'application (il n'y en a qu'un seul dans le système de fichiers...)"
+
+#: ../../Creational/Singleton/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramme UML"
+
+#: ../../Creational/Singleton/README.rst:20
+msgid "Code"
+msgstr "Code"
+
+#: ../../Creational/Singleton/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
+
+#: ../../Creational/Singleton/README.rst:85
+msgid "Test"
+msgstr "Test"

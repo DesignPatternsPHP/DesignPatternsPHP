@@ -1,0 +1,26 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Language-Team: \n"
+
+#: ../../Structural/README.rst:2
+msgid "`Structural`__"
+msgstr "`Structuraux`__"
+
+#: ../../Structural/README.rst:4
+msgid ""
+"In Software Engineering, Structural Design Patterns are Design Patterns that"
+" ease the design by identifying a simple way to realize relationships "
+"between entities."
+msgstr ""
+"En ingénierie logicielle, les patrons de conception structuraux facilitent la conception "
+"en identifiant une manière simple de réaliser des relations entre les entités."

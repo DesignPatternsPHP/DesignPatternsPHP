@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Creational/Builder/README.rst:2
+msgid "`Builder`__"
+msgstr "`Builder`__"
+
+#: ../../Creational/Builder/README.rst:5
+msgid "Purpose"
+msgstr "Rôle"
+
+#: ../../Creational/Builder/README.rst:7
+msgid "Builder is an interface that build parts of a complex object."
+msgstr "Un builder est une interface permettant de construire certaines parties d'un objet complexe."
+
+#: ../../Creational/Builder/README.rst:9
+msgid ""
+"Sometimes, if the builder has a better knowledge of what it builds, this "
+"interface could be an abstract class with default methods (aka adapter)."
+msgstr ""
+"Parfois, lorsque le builder \"sait\" plus précisément ce qu'il construit, cette "
+"interface pourrait être une classe abstraite avec des méthodes par défaut (alias adapter)."
+
+#: ../../Creational/Builder/README.rst:12
+msgid ""
+"If you have a complex inheritance tree for objects, it is logical to have a "
+"complex inheritance tree for builders too."
+msgstr ""
+"Si vous avez un arbre d'héritage complexe pour les objets, il est logique d'avoir "
+"un arbre d'héritage complexe pour les builders."
+
+#: ../../Creational/Builder/README.rst:15
+msgid ""
+"Note: Builders have often a fluent interface, see the mock builder of "
+"PHPUnit for example."
+msgstr ""
+"Note : Les builders ont souvent une désignation chaînée ou chaînage de méthodes (fluent interface), voir le "
+"Mock Builder de PHPUnit par exemple."
+
+#: ../../Creational/Builder/README.rst:19
+msgid "Examples"
+msgstr "Exemples"
+
+#: ../../Creational/Builder/README.rst:21
+msgid "PHPUnit: Mock Builder"
+msgstr "PHPUnit: Mock Builder"
+
+#: ../../Creational/Builder/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramme UML"
+
+#: ../../Creational/Builder/README.rst:20
+msgid "Code"
+msgstr "Code"
+
+#: ../../Creational/Builder/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
+
+#: ../../Creational/Builder/README.rst:85
+msgid "Test"
+msgstr "Test"
