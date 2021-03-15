@@ -2,6 +2,8 @@
 
 namespace DesignPatterns\Creational\Singleton;
 
+use Exception;
+
 final class Singleton
 {
     private static ?Singleton $instance = null;
@@ -36,7 +38,8 @@ final class Singleton
     /**
      * prevent from being unserialized (which would create a second instance of it)
      */
-    private function __wakeup()
+    public function __wakeup()
     {
+        throw new Exception("Cannot unserialize singleton");
     }
 }
