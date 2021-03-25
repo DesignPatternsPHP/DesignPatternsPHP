@@ -1,18 +1,6 @@
 ---
 engines:
   phpcodesniffer:
-    enabled: true
+    enabled: false
   phpmd:
-    enabled: true
-  duplication:
-    enabled: true
-    config:
-      languages:
-      - php
-ratings:
-  paths:
-  - "**.py"
-  - "**.php"
-  - "**.module"
-  - "**.inc"
-exclude_paths: []
+    enabled: false
