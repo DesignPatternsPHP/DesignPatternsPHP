@@ -4,11 +4,8 @@ namespace DesignPatterns\Behavioral\NullObject;
 
 class Service
 {
-    private Logger $logger;
-
-    public function __construct(Logger $logger)
+    public function __construct(private Logger $logger)
     {
-        $this->logger = $logger;
     }
 
     /**

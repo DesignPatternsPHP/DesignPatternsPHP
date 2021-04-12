@@ -6,11 +6,8 @@ use InvalidArgumentException;
 
 class UserMapper
 {
-    private StorageAdapter $adapter;
-
-    public function __construct(StorageAdapter $storage)
+    public function __construct(private StorageAdapter $adapter)
     {
-        $this->adapter = $storage;
     }
 
     /**

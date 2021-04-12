@@ -12,7 +12,6 @@ use SplObserver;
  */
 class User implements SplSubject
 {
-    private string $email;
     private SplObjectStorage $observers;
 
     public function __construct()
@@ -32,7 +31,6 @@ class User implements SplSubject
 
     public function changeEmail(string $email)
     {
-        $this->email = $email;
         $this->notify();
     }
 

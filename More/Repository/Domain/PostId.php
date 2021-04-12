@@ -13,8 +13,6 @@ use InvalidArgumentException;
  */
 class PostId
 {
-    private int $id;
-
     public static function fromInt(int $id): PostId
     {
         self::ensureIsValid($id);
@@ -22,9 +20,8 @@ class PostId
         return new self($id);
     }
 
-    private function __construct(int $id)
+    private function __construct(private int $id)
     {
-        $this->id = $id;
     }
 
     public function toInt(): int

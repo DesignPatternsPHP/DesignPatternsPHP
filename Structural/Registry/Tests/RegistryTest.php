@@ -5,15 +5,11 @@ namespace DesignPatterns\Structural\Registry\Tests;
 use InvalidArgumentException;
 use DesignPatterns\Structural\Registry\Registry;
 use DesignPatterns\Structural\Registry\Service;
-use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 class RegistryTest extends TestCase
 {
-    /**
-     * @var Service
-     */
-    private MockObject $service;
+    private Service $service;
 
     protected function setUp(): void
     {
