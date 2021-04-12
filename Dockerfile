@@ -1,11 +1,15 @@
 FROM composer AS composer
 WORKDIR /app
 ADD . /app
-RUN composer install \
-    && ./vendor/bin/phpcs --ignore=_build . \
-    && ./vendor/bin/phpunit \
-    && ./vendor/bin/psalm --show-info=false \
-    && ./check-refs-readmes
+RUN composer install
+
+FROM php:8-cli-alpine
+WORKDIR /app
+COPY --from=composer /app /app
+RUN ./vendor/bin/phpcs --ignore=_build . \
+        && ./vendor/bin/phpunit \
+        && ./vendor/bin/psalm --show-info=false \
+        && ./check-refs-readmes
 
 FROM python AS sphinx_build
 WORKDIR /app

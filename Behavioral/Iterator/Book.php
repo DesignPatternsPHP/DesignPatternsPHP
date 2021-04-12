@@ -4,13 +4,8 @@ namespace DesignPatterns\Behavioral\Iterator;
 
 class Book
 {
-    private string $author;
-    private string $title;
-
-    public function __construct(string $title, string $author)
+    public function __construct(private string $title, private string $author)
     {
-        $this->author = $author;
-        $this->title = $title;
     }
 
     public function getAuthor(): string

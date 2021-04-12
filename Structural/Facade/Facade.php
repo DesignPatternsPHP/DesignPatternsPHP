@@ -4,13 +4,8 @@ namespace DesignPatterns\Structural\Facade;
 
 class Facade
 {
-    private OperatingSystem $os;
-    private Bios $bios;
-
-    public function __construct(Bios $bios, OperatingSystem $os)
+    public function __construct(private Bios $bios, private OperatingSystem $os)
     {
-        $this->bios = $bios;
-        $this->os = $os;
     }
 
     public function turnOn()

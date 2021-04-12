@@ -4,7 +4,7 @@ namespace DesignPatterns\More\EAV;
 
 use SplObjectStorage;
 
-class Entity
+class Entity implements \Stringable
 {
     /**
      * @var SplObjectStorage<Value,Value>
@@ -12,19 +12,11 @@ class Entity
     private $values;
 
     /**
-     * @var string
-     */
-    private string $name;
-
-    /**
-     * @param string $name
      * @param Value[] $values
      */
-    public function __construct(string $name, $values)
+    public function __construct(private string $name, $values)
     {
-        /** @var SplObjectStorage<Value,Value> values */
         $this->values = new SplObjectStorage();
-        $this->name = $name;
 
         foreach ($values as $value) {
             $this->values->attach($value);

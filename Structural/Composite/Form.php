@@ -27,9 +27,7 @@ class Form implements Renderable
             $formCode .= $element->render();
         }
 
-        $formCode .= '</form>';
-
-        return $formCode;
+        return $formCode . '</form>';
     }
 
     public function addElement(Renderable $element)

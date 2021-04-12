@@ -21,9 +21,6 @@ class PostStatus
         self::STATE_PUBLISHED_ID => self::STATE_PUBLISHED,
     ];
 
-    private int $id;
-    private string $name;
-
     public static function fromInt(int $statusId)
     {
         self::ensureIsValidId($statusId);
@@ -43,10 +40,8 @@ class PostStatus
         return new self($state, $status);
     }
 
-    private function __construct(int $id, string $name)
+    private function __construct(private int $id, private string $name)
     {
-        $this->id = $id;
-        $this->name = $name;
     }
 
     public function toInt(): int

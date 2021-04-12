@@ -4,15 +4,13 @@ namespace DesignPatterns\More\EAV;
 
 use SplObjectStorage;
 
-class Attribute
+class Attribute implements \Stringable
 {
     private SplObjectStorage $values;
-    private string $name;
 
-    public function __construct(string $name)
+    public function __construct(private string $name)
     {
         $this->values = new SplObjectStorage();
-        $this->name = $name;
     }
 
     public function addValue(Value $value)

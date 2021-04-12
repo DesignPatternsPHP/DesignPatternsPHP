@@ -4,13 +4,8 @@ namespace DesignPatterns\Behavioral\Specification;
 
 class PriceSpecification implements Specification
 {
-    private ?float $maxPrice;
-    private ?float $minPrice;
-
-    public function __construct(?float $minPrice, ?float $maxPrice)
+    public function __construct(private ?float $minPrice, private ?float $maxPrice)
     {
-        $this->minPrice = $minPrice;
-        $this->maxPrice = $maxPrice;
     }
 
     public function isSatisfiedBy(Item $item): bool

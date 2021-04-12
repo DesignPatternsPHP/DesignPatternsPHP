@@ -12,11 +12,8 @@ class Character implements Text
      * Any state stored by the concrete flyweight must be independent of its context.
      * For flyweights representing characters, this is usually the corresponding character code.
      */
-    private string $name;
-
-    public function __construct(string $name)
+    public function __construct(private string $name)
     {
-        $this->name = $name;
     }
 
     public function render(string $font): string
