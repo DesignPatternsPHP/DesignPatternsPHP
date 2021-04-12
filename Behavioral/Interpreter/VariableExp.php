@@ -2,6 +2,9 @@
 
 namespace DesignPatterns\Behavioral\Interpreter;
 
+/**
+ * This TerminalExpression
+ */
 class VariableExp extends AbstractExp
 {
     public function __construct(private string $name)

@@ -2,6 +2,9 @@
 
 namespace DesignPatterns\Behavioral\Interpreter;
 
+/**
+ * This NoTerminalExpression
+ */
 class AndExp extends AbstractExp
 {
     public function __construct(private AbstractExp $first, private AbstractExp $second)
