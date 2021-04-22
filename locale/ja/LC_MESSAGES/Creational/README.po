@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2019, Dominik Liebler and contributors
+# Copyright (C) 2011-2020, Dominik Liebler and contributors
 # This file is distributed under the same license as the DesignPatternsPHP
 # package.
 # Sumita Takaki <sumita.takaki@gmail.com>, 2020.

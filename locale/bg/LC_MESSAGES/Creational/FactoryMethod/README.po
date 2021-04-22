@@ -1,0 +1,68 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-28 16:07+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
+
+#: ../../Creational/FactoryMethod/README.rst:2
+msgid "`Factory Method`__"
+msgstr "`Метод Фабрика`__"
+
+#: ../../Creational/FactoryMethod/README.rst:5
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../Creational/FactoryMethod/README.rst:7
+msgid ""
+"The good point over the SimpleFactory is you can subclass it to implement "
+"different ways to create objects."
+msgstr ""
+"Добрата точка за SimpleFactory е, че можете да го подкласирате, за да "
+"реализира различни начини за създаване на обекти."
+
+#: ../../Creational/FactoryMethod/README.rst:10
+msgid "For simple cases, this abstract class could be just an interface."
+msgstr "За прости случаи този абстрактен клас може да бъде просто интерфейс."
+
+#: ../../Creational/FactoryMethod/README.rst:12
+msgid ""
+"This pattern is a \"real\" Design Pattern because it achieves the Dependency "
+"Inversion principle a.k.a the \"D\" in SOLID principles."
+msgstr ""
+"Този модел е \"истински\" шаблон на проектиране, тъй като постига принципа "
+"на инверсия на зависимостите, известен още като \"D\" в SOLID принципите."
+
+#: ../../Creational/FactoryMethod/README.rst:15
+msgid ""
+"It means the FactoryMethod class depends on abstractions, not concrete "
+"classes. This is the real trick compared to SimpleFactory or StaticFactory."
+msgstr ""
+"Това означава, че класът FactoryMethod зависи от абстракциите, а не от "
+"конкретни класове. Това е истинският трик в сравнение с SimpleFactory или "
+"StaticFactory."
+
+#: ../../Creational/FactoryMethod/README.rst:20
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Creational/FactoryMethod/README.rst:27
+msgid "Code"
+msgstr "Код"
+
+#: ../../Creational/FactoryMethod/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Creational/FactoryMethod/README.rst:74
+msgid "Test"
+msgstr "Тест"

@@ -1,0 +1,85 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-28 20:35+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
+
+#: ../../More/ServiceLocator/README.rst:2
+msgid "`Service Locator`__"
+msgstr "`Локатор на служби`__"
+
+#: ../../More/ServiceLocator/README.rst:4
+msgid "**THIS IS CONSIDERED TO BE AN ANTI-PATTERN!**"
+msgstr "** ТОВА СЕ СЧИТА ЗА АНТИ-ШАБЛОН (anti-pattern)! **"
+
+#: ../../More/ServiceLocator/README.rst:4
+msgid ""
+"Service Locator is considered for some people an anti-pattern. It violates "
+"the Dependency Inversion principle. Service Locator hides class' "
+"dependencies instead of exposing them as you would do using the Dependency "
+"Injection. In case of changes of those dependencies you risk to break the "
+"functionality of classes which are using them, making your system difficult "
+"to maintain."
+msgstr ""
+"Някои хора считат локатор на услуги за анти-модел (anti-pattern). Той "
+"нарушава принципа на инверсия на зависимостите. Локатор на услуги скрива "
+"зависимостите на класа, вместо да ги излага, както бихте направили, като "
+"използвате инжектирането на зависимост. В случай на промени в тези "
+"зависимости рискувате да нарушите функционалността на класовете, които ги "
+"използват, което прави вашата система трудна за поддръжка."
+
+#: ../../More/ServiceLocator/README.rst:9
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../More/ServiceLocator/README.rst:12
+msgid ""
+"To implement a loosely coupled architecture in order to get better testable, "
+"maintainable and extendable code. DI pattern and Service Locator pattern are "
+"an implementation of the Inverse of Control pattern."
+msgstr ""
+"Да приложите свободно свързана архитектура (loosely coupled architecture), "
+"за да получите по-добре тестваем, поддържаем и разширяем код. Моделът DI и "
+"шаблонът Локатор на служби са изпълнение на Inverse of Control модел."
+
+#: ../../More/ServiceLocator/README.rst:16
+msgid "Usage"
+msgstr "Исползване"
+
+#: ../../More/ServiceLocator/README.rst:19
+msgid ""
+"With ``ServiceLocator`` you can register a service for a given interface. By "
+"using the interface you can retrieve the service and use it in the classes "
+"of the application without knowing its implementation. You can configure and "
+"inject the Service Locator object on bootstrap."
+msgstr ""
+"С ``ServiceLocator`` можете да регистрирате служба за даден интерфейс. С "
+"помощта на интерфейса можете да я извлечете и да я използвате в класовете на "
+"приложението, без да знаете изпълнението й. Можете да конфигурирате и "
+"инжектирате Service Locator обект в bootstrap."
+
+#: ../../More/ServiceLocator/README.rst:24
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../More/ServiceLocator/README.rst:31
+msgid "Code"
+msgstr "Код"
+
+#: ../../More/ServiceLocator/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../More/ServiceLocator/README.rst:54
+msgid "Test"
+msgstr "Тест"

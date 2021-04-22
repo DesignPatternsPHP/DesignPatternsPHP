@@ -1,0 +1,44 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Structural/Bridge/README.rst:2
+msgid "`Bridge`__"
+msgstr "`Bridge`__"
+
+#: ../../Structural/Bridge/README.rst:5
+msgid "Purpose"
+msgstr "Rôle"
+
+#: ../../Structural/Bridge/README.rst:7
+msgid ""
+"Decouple an abstraction from its implementation so that the two can vary "
+"independently."
+msgstr ""
+"Découpler une abstraction de son implémentation afin que les deux puissent varier indépendamment."
+
+#: ../../Structural/Bridge/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramme UML"
+
+#: ../../Structural/Bridge/README.rst:20
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/Bridge/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
+
+#: ../../Structural/Bridge/README.rst:85
+msgid "Test"
+msgstr "Test"

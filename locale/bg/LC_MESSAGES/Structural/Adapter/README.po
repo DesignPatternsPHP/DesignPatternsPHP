@@ -1,0 +1,67 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-28 14:29+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
+
+#: ../../Structural/Adapter/README.rst:2
+msgid "`Adapter / Wrapper`__"
+msgstr "`Адаптер / Обвивка`__"
+
+#: ../../Structural/Adapter/README.rst:5
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../Structural/Adapter/README.rst:7
+msgid ""
+"To translate one interface for a class into a compatible interface. An "
+"adapter allows classes to work together that normally could not because of "
+"incompatible interfaces by providing its interface to clients while using "
+"the original interface."
+msgstr ""
+"За да преведете един интерфейс за клас в съвместим интерфейс. Адаптерът "
+"позволява на класовете да работят заедно, което обикновено не може поради "
+"несъвместими интерфейси, като предоставя своя интерфейс на клиенти, докато "
+"използва оригиналния интерфейс."
+
+#: ../../Structural/Adapter/README.rst:13
+msgid "Examples"
+msgstr "Примери"
+
+#: ../../Structural/Adapter/README.rst:15
+msgid "DB Client libraries adapter"
+msgstr "DB Client адаптер за библиотеки"
+
+#: ../../Structural/Adapter/README.rst:16
+msgid ""
+"using multiple different webservices and adapters normalize data so that the "
+"outcome is the same for all"
+msgstr ""
+"използване на множество различни уеб услуги (web services) и адаптери "
+"нормализират данните, така че резултатът да е еднакъв за всички"
+
+#: ../../Structural/Adapter/README.rst:20
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Structural/Adapter/README.rst:27
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/Adapter/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Structural/Adapter/README.rst:62
+msgid "Test"
+msgstr "Тест"

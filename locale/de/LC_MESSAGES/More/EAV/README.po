@@ -20,17 +20,18 @@ msgstr ""
 
 #: ../../More/EAV/README.rst:2
 msgid "`Entity-Attribute-Value (EAV)`__"
-msgstr ""
+msgstr "`Entitäts-Attribut-Wert (EAV)`__"
 
 #: ../../More/EAV/README.rst:4
 msgid ""
 "The Entity–attribute–value (EAV) pattern in order to implement EAV model "
 "with PHP."
 msgstr ""
+"Das Entitäts-Attribut-Wert (EAV)-Muster, um das EAV-Modell mit PHP zu implementieren"
 
 #: ../../More/EAV/README.rst:7
 msgid "Purpose"
-msgstr ""
+msgstr "Zweck"
 
 #: ../../More/EAV/README.rst:9
 msgid ""
@@ -39,14 +40,18 @@ msgid ""
 " be used to describe them is potentially vast, but the number that will "
 "actually apply to a given entity is relatively modest."
 msgstr ""
+"Das Entitäts-Attribut-Wert (EAV)-Modell ist ein Datenmodell zur Beschreibung von Entitäten, "
+"bei denen die Anzahl der Attribute (Eigenschaften, Parameter), die zu ihrer Beschreibung "
+"verwendet werden können, potenziell sehr groß ist, die Anzahl, die tatsächlich für eine "
+"bestimmte Entität gilt, jedoch relativ gering ist."
 
 #: ../../More/EAV/README.rst:15
 msgid "Examples"
-msgstr ""
+msgstr "Beispiele"
 
 #: ../../More/EAV/README.rst:17
 msgid "Check full work example in `example.php`_ file."
-msgstr ""
+msgstr "Siehe auch das vollständige Beispiel in der Datei `example.php`_."
 
 #: ../../More/EAV/README.rst:90
 msgid "UML Diagram"
@@ -58,7 +63,7 @@ msgstr ""
 
 #: ../../More/EAV/README.rst:99
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "Du kannst diesen Code auch auf `GitHub` einsehen_"
 
 #: ../../More/EAV/README.rst:102
 msgid "Test"

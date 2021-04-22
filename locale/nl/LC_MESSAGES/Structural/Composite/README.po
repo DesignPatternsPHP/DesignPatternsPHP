@@ -1,0 +1,60 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 23:45+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Structural/Composite/README.rst:2
+msgid "`Composite`__"
+msgstr "`Composiet`__"
+
+#: ../../Structural/Composite/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Structural/Composite/README.rst:7
+msgid ""
+"To treat a group of objects the same way as a single instance of the object."
+msgstr ""
+"Om een ​​groep objecten op dezelfde manier te behandelen als een enkele "
+"instantie van het object."
+
+#: ../../Structural/Composite/README.rst:11
+msgid "Examples"
+msgstr "Bijvoorbeeld"
+
+#: ../../Structural/Composite/README.rst:13
+msgid ""
+"a form class instance handles all its form elements like a single instance "
+"of the form, when ``render()`` is called, it subsequently runs through all "
+"its child elements and calls ``render()`` on them"
+msgstr ""
+"een formulierklasse-instantie behandelt al zijn formulierelementen als een "
+"enkele instantie van het formulier, wanneer `` render () '' wordt "
+"aangeroepen, doorloopt het vervolgens alle onderliggende elementen en roept "
+"`` render () '' erop"
+
+#: ../../Structural/Composite/README.rst:20
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Structural/Composite/README.rst:27
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/Composite/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Structural/Composite/README.rst:56
+msgid "Test"
+msgstr "Теst"

@@ -1,0 +1,74 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-27 18:10+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
+
+#: ../../Behavioral/Observer/README.rst:2
+msgid "`Observer`__"
+msgstr "`Наблюдател`__"
+
+#: ../../Behavioral/Observer/README.rst:5
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../Behavioral/Observer/README.rst:7
+msgid ""
+"To implement a publish/subscribe behaviour to an object, whenever a \"Subject"
+"\" object changes its state, the attached \"Observers\" will be notified. It "
+"is used to shorten the amount of coupled objects and uses loose coupling "
+"instead."
+msgstr ""
+"За да се приложи поведение за публикуване/абониране на обект, всеки път, "
+"когато обект \"Subject\" промени състоянието си, прикачените \"Observers\" "
+"ще бъдат уведомени. Използва се за съкращаване на количеството на свързани "
+"обекти и вместо това използва разхлабено свързване."
+
+#: ../../Behavioral/Observer/README.rst:13
+msgid "Examples"
+msgstr "Примери"
+
+#: ../../Behavioral/Observer/README.rst:15
+msgid ""
+"a message queue system is observed to show the progress of a job in a GUI"
+msgstr ""
+"се наблюдава система за опашки от съобщения (message queue system), която "
+"показва напредъка на заданието в GUI"
+
+#: ../../Behavioral/Observer/README.rst:19
+msgid "Note"
+msgstr "Забележка"
+
+#: ../../Behavioral/Observer/README.rst:21
+msgid ""
+"PHP already defines two interfaces that can help to implement this pattern: "
+"SplObserver and SplSubject."
+msgstr ""
+"PHP вече дефинира два интерфейса, които могат да помогнат за реализирането "
+"на този шаблон: SplObserver и SplSubject."
+
+#: ../../Behavioral/Observer/README.rst:25
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Behavioral/Observer/README.rst:32
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/Observer/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Behavioral/Observer/README.rst:49
+msgid "Test"
+msgstr "Тест"

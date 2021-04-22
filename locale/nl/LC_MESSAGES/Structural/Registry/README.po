@@ -1,0 +1,53 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 23:54+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Structural/Registry/README.rst:2
+msgid "`Registry`__"
+msgstr "`Registry`__"
+
+#: ../../Structural/Registry/README.rst:5
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Structural/Registry/README.rst:7
+msgid ""
+"To implement a central storage for objects often used throughout the "
+"application, is typically implemented using an abstract class with only "
+"static methods (or using the Singleton pattern)"
+msgstr ""
+"Het implementeren van een centrale opslag voor objecten die vaak in de "
+"hele applicatie worden gebruikt, wordt meestal geïmplementeerd met "
+"behulp van een abstracte klasse met alleen statische methoden (of met "
+"behulp van het Singleton-patroon)"
+
+#: ../../Structural/Registry/README.rst:12
+msgid "Examples"
+msgstr "Bijvoorbeeld"
+
+#: ../../Structural/Registry/README.rst:20
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Structural/Registry/README.rst:27
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/Registry/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Structural/Registry/README.rst:38
+msgid "Test"
+msgstr "Теst"

@@ -1,0 +1,56 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Creational/Prototype/README.rst:2
+msgid "`Prototype`__"
+msgstr "`Prototype`__"
+
+#: ../../Creational/Prototype/README.rst:5
+msgid "Purpose"
+msgstr "Rôle"
+
+#: ../../Creational/Prototype/README.rst:7
+msgid ""
+"To avoid the cost of creating objects the standard way (new Foo()) and "
+"instead create a prototype and clone it."
+msgstr ""
+"Minimise le coût de création de nouveaux objets en clonant un objet prototype"
+
+#: ../../Creational/Prototype/README.rst:11
+msgid "Examples"
+msgstr "Exemples"
+
+#: ../../Creational/Prototype/README.rst:13
+msgid ""
+"Large amounts of data (e.g. create 1,000,000 rows in a database at once via "
+"a ORM)."
+msgstr ""
+"Grandes quantités de données (par exemple, créer 1 000 000 de lignes dans une "
+"base de données en une seule fois via un ORM)."
+
+#: ../../Creational/Prototype/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramme UML"
+
+#: ../../Creational/Prototype/README.rst:20
+msgid "Code"
+msgstr "Code"
+
+#: ../../Creational/Prototype/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
+
+#: ../../Creational/Prototype/README.rst:85
+msgid "Test"
+msgstr "Test"

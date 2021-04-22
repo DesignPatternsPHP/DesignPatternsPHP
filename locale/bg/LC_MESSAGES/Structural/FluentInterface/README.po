@@ -1,0 +1,60 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-28 15:32+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
+
+#: ../../Structural/FluentInterface/README.rst:2
+msgid "`Fluent Interface`__"
+msgstr "`Fluent Interface`__"
+
+#: ../../Structural/FluentInterface/README.rst:5
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../Structural/FluentInterface/README.rst:7
+msgid ""
+"To write code that is easy readable just like sentences in a natural "
+"language (like English)."
+msgstr ""
+"Да пишете лесно четим код като изреченията на естествен език (като "
+"английски)."
+
+#: ../../Structural/FluentInterface/README.rst:11
+msgid "Examples"
+msgstr "Примери"
+
+#: ../../Structural/FluentInterface/README.rst:13
+msgid "Doctrine2's QueryBuilder works something like that example class below"
+msgstr ""
+"QueryBuilder на Doctrine2 работи подобно на този примерен клас по-долу"
+
+#: ../../Structural/FluentInterface/README.rst:15
+msgid "PHPUnit uses fluent interfaces to build mock objects"
+msgstr "PHPUnit използва fluent интерфейси за изграждане на фалшиви обекти"
+
+#: ../../Structural/FluentInterface/README.rst:19
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Structural/FluentInterface/README.rst:26
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/FluentInterface/README.rst:28
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Structural/FluentInterface/README.rst:37
+msgid "Test"
+msgstr "Тест"

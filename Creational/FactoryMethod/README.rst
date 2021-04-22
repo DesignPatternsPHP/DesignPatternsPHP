@@ -73,5 +73,5 @@ Tests/FactoryMethodTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/FactoryMethod
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Creational/FactoryMethod
 .. __: http://en.wikipedia.org/wiki/Factory_method_pattern

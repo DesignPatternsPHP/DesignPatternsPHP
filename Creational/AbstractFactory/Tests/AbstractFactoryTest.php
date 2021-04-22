@@ -21,8 +21,6 @@ class AbstractFactoryTest extends TestCase
 
     /**
      * @dataProvider provideFactory
-     *
-     * @param WriterFactory $writerFactory
      */
     public function testCanCreateCsvWriterOnUnix(WriterFactory $writerFactory)
     {

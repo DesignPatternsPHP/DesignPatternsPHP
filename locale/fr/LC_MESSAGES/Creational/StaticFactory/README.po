@@ -1,0 +1,51 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Creational/StaticFactory/README.rst:2
+msgid "Static Factory"
+msgstr "Static Factory"
+
+#: ../../Creational/StaticFactory/README.rst:5
+msgid "Purpose"
+msgstr "Rôle"
+
+#: ../../Creational/StaticFactory/README.rst:7
+msgid ""
+"Similar to the AbstractFactory, this pattern is used to create series of "
+"related or dependent objects. The difference between this and the abstract "
+"factory pattern is that the static factory pattern uses just one static "
+"method to create all types of objects it can create. It is usually named "
+"``factory`` or ``build``."
+msgstr ""
+"Similaire à AbstractFactory, ce pattern est utilisé pour créer des séries d'objets "
+"liés ou dépendants. La différence entre ce modèle et le modèle AbstractFactory "
+"est que StaticFactory utilise une seule méthode statique pour créer tous les "
+"types d'objets qu'il peut créer. "
+"Cette méthode est généralement nommée ``factory`` ou ``build``."
+
+#: ../../Creational/StaticFactory/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramme UML"
+
+#: ../../Creational/StaticFactory/README.rst:20
+msgid "Code"
+msgstr "Code"
+
+#: ../../Creational/StaticFactory/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
+
+#: ../../Creational/StaticFactory/README.rst:85
+msgid "Test"
+msgstr "Test"

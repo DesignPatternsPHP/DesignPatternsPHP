@@ -1,0 +1,64 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Structural/Adapter/README.rst:2
+msgid "`Adapter / Wrapper`__"
+msgstr "`Adapter / Wrapper`__"
+
+#: ../../Structural/Adapter/README.rst:5
+msgid "Purpose"
+msgstr "Rôle"
+
+#: ../../Structural/Adapter/README.rst:7
+msgid ""
+"To translate one interface for a class into a compatible interface. An "
+"adapter allows classes to work together that normally could not because of "
+"incompatible interfaces by providing its interface to clients while using "
+"the original interface."
+msgstr ""
+"Adapter permet de convertir l'interface d'une classe en une autre interface attendue. "
+"Il fait fonctionner ensemble des classes qui n'auraient pas pu fonctionner sans lui, à cause d'une "
+"incompatibilité d'interfaces"
+
+#: ../../Structural/Adapter/README.rst:13
+msgid "Examples"
+msgstr "Exemples"
+
+#: ../../Structural/Adapter/README.rst:15
+msgid "DB Client libraries adapter"
+msgstr ""
+
+#: ../../Structural/Adapter/README.rst:16
+msgid ""
+"using multiple different webservices and adapters normalize data so that the"
+" outcome is the same for all"
+msgstr ""
+"Lors de l'utilisation de plusieurs services Web, les adaptateurs permettent de "
+"normaliser les données afin que le résultat soit le même pour tous."
+
+#: ../../Structural/Adapter/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramme UML"
+
+#: ../../Structural/Adapter/README.rst:20
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/Adapter/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
+
+#: ../../Structural/Adapter/README.rst:85
+msgid "Test"
+msgstr "Test"

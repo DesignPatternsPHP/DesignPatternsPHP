@@ -1,0 +1,49 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Structural/Registry/README.rst:2
+msgid "`Registry`__"
+msgstr "`Registry`__"
+
+#: ../../Structural/Registry/README.rst:5
+msgid "Purpose"
+msgstr "Rôle"
+
+#: ../../Structural/Registry/README.rst:7
+msgid ""
+"To implement a central storage for objects often used throughout the "
+"application, is typically implemented using an abstract class with only "
+"static methods (or using the Singleton pattern)"
+msgstr ""
+"Mettre en œuvre un stockage central pour les objets souvent utilisés dans "
+"l'application, on utilise généralement une classe abstraite avec uniquement "
+"des méthodes statiques (ou en utilisant le modèle Singleton). N'oubliez pas "
+"que cela introduit un état global, ce qui doit être évité à tout moment ! "
+"Implémentez-le plutôt en utilisant l'injection de dépendances !"
+
+#: ../../Structural/Proxy/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramme UML"
+
+#: ../../Structural/Proxy/README.rst:20
+msgid "Code"
+msgstr "Code"
+
+#: ../../Structural/Proxy/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
+
+#: ../../Structural/Proxy/README.rst:85
+msgid "Test"
+msgstr "Test"

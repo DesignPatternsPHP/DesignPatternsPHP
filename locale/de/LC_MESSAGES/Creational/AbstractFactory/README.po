@@ -23,10 +23,9 @@ msgstr "Zweck"
 
 #: ../../Creational/AbstractFactory/README.rst:7
 msgid ""
-"To create series of related or dependent objects without specifying their "
-"concrete classes. Usually the created classes all implement the same "
-"interface. The client of the abstract factory does not care about how these "
-"objects are created, he just knows how they go together."
+"To create series of related or dependent objects without specifying their concrete classes. Usually "
+"the created classes all implement the same interface. The client of the abstract factory does not "
+"care about how these objects are created, it just knows how they go together."
 msgstr ""
 "Um eine Serie von verwandten oder abhängigen Objekten zu erzeugen, ohne "
 "deren konkrete Klassen spezifizieren zu müssen. Im Normalfall "

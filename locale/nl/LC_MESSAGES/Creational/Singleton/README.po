@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-10-05 23:35+0200\n"
+"Last-Translator: RedDevilus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: ../../Creational/Singleton/README.rst:2
+msgid "`Singleton`__"
+msgstr "`Singleton`__"
+
+#: ../../Creational/Singleton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+"** DIT WORDT BESCHOUWD ALS EEN ANTI-PATROON! VOOR EEN BETERE TESTBAARHEID "
+"EN ONDERHOUDSAFHANKELIJKE INJECTIE! **"
+
+#: ../../Creational/Singleton/README.rst:8
+msgid "Purpose"
+msgstr "Doel"
+
+#: ../../Creational/Singleton/README.rst:10
+msgid ""
+"To have only one instance of this object in the application that will "
+"handle all calls."
+msgstr ""
+"Om slechts één exemplaar van dit object in de toepassing te hebben dat "
+"alle oproepen zal afhandelen."
+
+#: ../../Creational/Singleton/README.rst:14
+msgid "Examples"
+msgstr "Bijvoorbeeld"
+
+#: ../../Creational/Singleton/README.rst:16
+msgid "DB Connector"
+msgstr "DB-Connector"
+
+#: ../../Creational/Singleton/README.rst:17
+msgid "Logger"
+msgstr "Logger"
+
+#: ../../Creational/Singleton/README.rst:19
+msgid ""
+"Lock file for the application (there is only one in the filesystem ...)"
+msgstr ""
+"Vergrendel bestand voor de applicatie (er is er maar één in het "
+"bestandssysteem ...)"
+
+#: ../../Creational/Singleton/README.rst:23
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#: ../../Creational/Singleton/README.rst:30
+msgid "Code"
+msgstr "Code"
+
+#: ../../Creational/Singleton/README.rst:32
+msgid "You can also find this code on `GitHub`_"
+msgstr "Je kan deze broncode terugvinden op `GitHub`_"
+
+#: ../../Creational/Singleton/README.rst:41
+msgid "Test"
+msgstr "Теst"

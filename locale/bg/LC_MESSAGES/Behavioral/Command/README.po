@@ -1,0 +1,88 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-27 16:09+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg_BG\n"
+
+#: ../../Behavioral/Command/README.rst:2
+msgid "`Command`__"
+msgstr "`Команда`__"
+
+#: ../../Behavioral/Command/README.rst:5
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../Behavioral/Command/README.rst:7
+msgid "To encapsulate invocation and decoupling."
+msgstr "За капсулиране на извикване и отделяне."
+
+#: ../../Behavioral/Command/README.rst:9
+msgid ""
+"We have an Invoker and a Receiver. This pattern uses a \"Command\" to "
+"delegate the method call against the Receiver and presents the same method "
+"\"execute\". Therefore, the Invoker just knows to call \"execute\" to "
+"process the Command of the client. The Receiver is decoupled from the "
+"Invoker."
+msgstr ""
+"Ние имаме Повикващ и Получател. Този модел използва \"Command\", за да "
+"делегира извикването на метода срещу Получателя и представя същия метод "
+"\"execute\". Следователно Повикващ просто знае да извика „execute“, за да "
+"обработи командата на клиента. Получателят е отделен от Повикващия."
+
+#: ../../Behavioral/Command/README.rst:15
+msgid ""
+"The second aspect of this pattern is the undo(), which undoes the method "
+"execute(). Command can also be aggregated to combine more complex commands "
+"with minimum copy-paste and relying on composition over inheritance."
+msgstr ""
+"Вторият аспект на този модел е undo(), който отменя метода execute(). "
+"Command може да се агрегира и комбинира по-сложни команди с минимално "
+"copy&paste и разчитане на композиция над наследяване."
+
+#: ../../Behavioral/Command/README.rst:21
+msgid "Examples"
+msgstr "Примери"
+
+#: ../../Behavioral/Command/README.rst:23
+msgid ""
+"A text editor : all events are Command which can be undone, stacked and "
+"saved."
+msgstr ""
+"Текстов редактор: всички събития са команда, която може да бъде отменена, "
+"подредена и запазена."
+
+#: ../../Behavioral/Command/README.rst:27
+msgid ""
+"big CLI tools use subcommands to distribute various tasks and pack them in "
+"\"modules\", each of these can be implemented with the Command pattern (e.g. "
+"vagrant)"
+msgstr ""
+"големите CLI инструменти използват подкоманди, за да разпределят различни "
+"задачи и да ги опаковат в \"модули\", като всеки от тях може да бъде "
+"изпълнен с командния модел (напр. vagrant)"
+
+#: ../../Behavioral/Command/README.rst:32
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Behavioral/Command/README.rst:39
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/Command/README.rst:41
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Behavioral/Command/README.rst:68
+msgid "Test"
+msgstr "Тест"

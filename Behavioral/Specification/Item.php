@@ -4,11 +4,8 @@ namespace DesignPatterns\Behavioral\Specification;
 
 class Item
 {
-    private float $price;
-
-    public function __construct(float $price)
+    public function __construct(private float $price)
     {
-        $this->price = $price;
     }
 
     public function getPrice(): float

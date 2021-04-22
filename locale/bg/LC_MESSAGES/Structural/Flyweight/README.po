@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Dominik Liebler and contributors
+# This file is distributed under the same license as the DesignPatternsPHP
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-03 23:59+0200\n"
+"PO-Revision-Date: 2020-11-28 15:37+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
+
+#: ../../Structural/Flyweight/README.rst:2
+msgid "`Flyweight`__"
+msgstr "`Миниобект`__"
+
+#: ../../Structural/Flyweight/README.rst:5
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../Structural/Flyweight/README.rst:7
+msgid ""
+"To minimise memory usage, a Flyweight shares as much as possible memory with "
+"similar objects. It is needed when a large amount of objects is used that "
+"don't differ much in state. A common practice is to hold state in external "
+"data structures and pass them to the flyweight object when needed."
+msgstr ""
+"За да сведе до минимум използването на памет, миниобект споделя възможно най-"
+"много памет с подобни обекти. Това е необходимо, когато се използва голямо "
+"количество обекти, които не се различават особено по състояние. Често "
+"срещана практика е да се задържа състояние във външни структури от данни и "
+"да се предават на миниобекта, когато е необходимо."
+
+#: ../../Structural/Flyweight/README.rst:12
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Structural/Flyweight/README.rst:19
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/Flyweight/README.rst:21
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Structural/Flyweight/README.rst:42
+msgid "Test"
+msgstr "Тест"

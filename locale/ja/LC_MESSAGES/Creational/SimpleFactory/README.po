@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-04 00:50+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Sumita Takaki <sumita.takaki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -20,15 +20,15 @@ msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:2
 msgid "Simple Factory"
-msgstr ""
+msgstr "Simple Factory パターン"
 
 #: ../../Creational/SimpleFactory/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../Creational/SimpleFactory/README.rst:7
 msgid "SimpleFactory is a simple factory pattern."
-msgstr ""
+msgstr "SimpleFactoryは単純な形のFactory パターンです。"
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
@@ -37,18 +37,22 @@ msgid ""
 "subclass it and you can mock it. It always should be preferred over a "
 "static factory!"
 msgstr ""
+"静的（static）ではないので、Static Factory パターンとは異なります。"
+"したがって、パラメーターが異なる複数のインスタンス（factory）を持つことができますし、"
+"サブクラス化したり、モック化したりできます。Static Factory パターンよりも"
+"常に優先的に使用すべきと言えます！"
 
 #: ../../Creational/SimpleFactory/README.rst:14
 msgid "UML Diagram"
-msgstr ""
+msgstr "クラス図"
 
 #: ../../Creational/SimpleFactory/README.rst:21
 msgid "Code"
-msgstr ""
+msgstr "サンプルコード"
 
 #: ../../Creational/SimpleFactory/README.rst:23
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "サンプルコードは `GitHub`_ でも確認することができます。"
 
 #: ../../Creational/SimpleFactory/README.rst:25
 msgid "SimpleFactory.php"
@@ -64,7 +68,7 @@ msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:48
 msgid "Test"
-msgstr ""
+msgstr "テスト"
 
 #: ../../Creational/SimpleFactory/README.rst:50
 msgid "Tests/SimpleFactoryTest.php"

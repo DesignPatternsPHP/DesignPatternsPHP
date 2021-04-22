@@ -4,7 +4,7 @@ namespace DesignPatterns\Behavioral\Memento;
 
 use InvalidArgumentException;
 
-class State
+class State implements \Stringable
 {
     const STATE_CREATED = 'created';
     const STATE_OPENED = 'opened';

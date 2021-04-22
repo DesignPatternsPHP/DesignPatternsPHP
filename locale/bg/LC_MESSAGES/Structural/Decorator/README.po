@@ -1,0 +1,55 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-28 15:02+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
+
+#: ../../Structural/Decorator/README.rst:2
+msgid "`Decorator`__"
+msgstr "`Декоратор`__"
+
+#: ../../Structural/Decorator/README.rst:5
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../Structural/Decorator/README.rst:7
+msgid "To dynamically add new functionality to class instances."
+msgstr "Да добавя динамично нова функционалност към екземплярите на класа."
+
+#: ../../Structural/Decorator/README.rst:10
+msgid "Examples"
+msgstr "Примери"
+
+#: ../../Structural/Decorator/README.rst:13
+msgid ""
+"Web Service Layer: Decorators JSON and XML for a REST service (in this case, "
+"only one of these should be allowed of course)"
+msgstr ""
+"Слой на уеб услугата: Декоратори JSON и XML за REST услуга (web service) (в "
+"този случай, само един от тях трябва да бъде разрешен, разбира се)"
+
+#: ../../Structural/Decorator/README.rst:17
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Structural/Decorator/README.rst:24
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/Decorator/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Structural/Decorator/README.rst:59
+msgid "Test"
+msgstr "Тест"

@@ -62,5 +62,5 @@ Tests/FacadeTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Facade
+.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Structural/Facade
 .. __: http://en.wikipedia.org/wiki/Facade_pattern

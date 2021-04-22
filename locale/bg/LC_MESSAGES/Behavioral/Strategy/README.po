@@ -1,0 +1,80 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: 2020-11-28 12:36+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Vladimir Dediuc <code.geeks1@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
+
+#: ../../Behavioral/Strategy/README.rst:2
+msgid "`Strategy`__"
+msgstr "`Стратегия`__"
+
+#: ../../Behavioral/Strategy/README.rst:5
+msgid "Terminology:"
+msgstr "Терминология:"
+
+#: ../../Behavioral/Strategy/README.rst:7
+msgid "Context"
+msgstr "Контекст"
+
+#: ../../Behavioral/Strategy/README.rst:8
+msgid "Strategy"
+msgstr "Стратегия"
+
+#: ../../Behavioral/Strategy/README.rst:9
+msgid "Concrete Strategy"
+msgstr "Конкретна стратегия"
+
+#: ../../Behavioral/Strategy/README.rst:12
+msgid "Purpose"
+msgstr "Предназначение"
+
+#: ../../Behavioral/Strategy/README.rst:14
+msgid ""
+"To separate strategies and to enable fast switching between them. Also this "
+"pattern is a good alternative to inheritance (instead of having an abstract "
+"class that is extended)."
+msgstr ""
+"Да се отделят стратегии и да се даде възможност за бързо превключване между "
+"тях. Също така този модел е добра алтернатива на наследяването (вместо да "
+"има разширен абстрактен клас)."
+
+#: ../../Behavioral/Strategy/README.rst:19
+msgid "Examples"
+msgstr "Примери"
+
+#: ../../Behavioral/Strategy/README.rst:21
+msgid "sorting a list of objects, one strategy by date, the other by id"
+msgstr "сортиране на списък с обекти, едната стратегия по дата, другата по id"
+
+#: ../../Behavioral/Strategy/README.rst:22
+msgid ""
+"simplify unit testing: e.g. switching between file and in-memory storage"
+msgstr ""
+"опростяване на модулното тестване: напр. превключване между файл и "
+"съхранение в паметта (in-memory storage)"
+
+#: ../../Behavioral/Strategy/README.rst:26
+msgid "UML Diagram"
+msgstr "UML Диаграма"
+
+#: ../../Behavioral/Strategy/README.rst:33
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/Strategy/README.rst:35
+msgid "You can also find this code on `GitHub`_"
+msgstr "Можете също да намерите този код в `GitHub`_"
+
+#: ../../Behavioral/Strategy/README.rst:62
+msgid "Test"
+msgstr "Тест"

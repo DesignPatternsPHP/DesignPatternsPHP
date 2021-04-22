@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Structural\FluentInterface;
 
-class Sql
+class Sql implements \Stringable
 {
     private array $fields = [];
     private array $from = [];
