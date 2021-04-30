@@ -7,6 +7,7 @@ communication.
 
 * [ChainOfResponsibilities](ChainOfResponsibilities) [:notebook:](http://en.wikipedia.org/wiki/Chain_of_responsibility_pattern)
 * [Command](Command) [:notebook:](http://en.wikipedia.org/wiki/Command_pattern)
+* [Interpreter](Interpreter) [:notebook:](https://en.wikipedia.org/wiki/Interpreter_pattern)
 * [Iterator](Iterator) [:notebook:](http://en.wikipedia.org/wiki/Iterator_pattern)
 * [Mediator](Mediator) [:notebook:](http://en.wikipedia.org/wiki/Mediator_pattern)
 * [Memento](Memento) [:notebook:](http://en.wikipedia.org/wiki/Memento_pattern)
