@@ -10,7 +10,7 @@ class StringReverseWorker
     {
     }
 
-    public function run(string $text)
+    public function run(string $text): string
     {
         return strrev($text);
     }
