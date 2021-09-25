@@ -21,9 +21,10 @@ msgstr "目的"
 
 #: ../../Structural/Registry/README.rst:7
 msgid ""
-"To implement a central storage for objects often used throughout the "
-"application, is typically implemented using an abstract class with only "
-"static methods (or using the Singleton pattern)"
+"To implement a central storage for objects often used throughout the application, is typically "
+"implemented using an abstract class with only static methods (or using the Singleton pattern). "
+"Remember that this introduces global state, which should be avoided at all times! Instead "
+"implement it using Dependency Injection!"
 msgstr ""
 "为应用中常用的对象实现一个中央存储，通常用一个只有静态方法的抽象类来实现"
 "（或者使用单例模式）"

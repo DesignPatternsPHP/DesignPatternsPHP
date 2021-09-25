@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
@@ -28,7 +28,7 @@ msgid ""
 "``factory`` or ``build``."
 msgstr ""
 "和抽象工厂类似，静态工厂模式用来创建一系列互相关联或依赖的对象，和抽象工厂模式不同的是静态工厂"
-"模式只用一个静态方法就解决了所有类型的对象创建，通常被命名为``工厂`` 或者 ``构建器``"
+"模式只用一个静态方法就解决了所有类型的对象创建，通常被命名为 ``工厂`` 或者 ``构建器``"
 
 #: ../../Creational/StaticFactory/README.rst:20
 msgid "UML Diagram"
