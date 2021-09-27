@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
@@ -31,13 +31,12 @@ msgstr "用例"
 
 #: ../../Structural/DependencyInjection/README.rst:13
 msgid ""
-"Configuration gets injected and ``Connection`` will get all that it needs "
-"from ``$config``. Without DI, the configuration would be created directly in"
-" ``Connection``, which is not very good for testing and extending "
-"``Connection``."
+"``DatabaseConfiguration`` gets injected and ``DatabaseConnection`` will get all that it needs from "
+"``$config``. Without DI, the configuration would be created directly in ``DatabaseConnection``, which is "
+"not very good for testing and extending it."
 msgstr ""
 "通过配置需要注入的依赖，``Connection`` 能从 ``$config`` 中获取到所有它需要的依赖。如果没有"
-"依赖注入，``Connection`` 会直接创建它需要的依赖，这样不利于测试和扩展``Connection``。"
+"依赖注入，``Connection`` 会直接创建它需要的依赖，这样不利于测试和扩展 ``Connection``。"
 
 #: ../../Structural/DependencyInjection/README.rst:18
 msgid ""
@@ -65,7 +64,7 @@ msgid ""
 "``Connection`` object"
 msgstr ""
 "Doctrine2 ORM 使用了依赖注入，它通过配置注入了 ``Connection`` 对象。为了达到方便测试的目的，"
-"可以很容易的通过配置创建一个mock的``Connection`` 对象。"
+"可以很容易的通过配置创建一个mock的 ``Connection`` 对象。"
 
 #: ../../Structural/DependencyInjection/README.rst:32
 msgid ""

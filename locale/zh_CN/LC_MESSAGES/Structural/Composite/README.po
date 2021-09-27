@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
@@ -33,9 +33,9 @@ msgid ""
 "a form class instance handles all its form elements like a single instance "
 "of the form, when ``render()`` is called, it subsequently runs through all "
 "its child elements and calls ``render()`` on them"
-msgstr "" 
+msgstr ""
 "form类的实例包含多个子元素，而它也像单个子元素那样响应render()请求，当"
-"调用``render()``方法时，它会历遍所有的子元素，调用``render()``方法"
+"调用 ``render()`` 方法时，它会历遍所有的子元素，调用 ``render()`` 方法"
 
 #: ../../Structural/Composite/README.rst:20
 msgid "UML Diagram"
