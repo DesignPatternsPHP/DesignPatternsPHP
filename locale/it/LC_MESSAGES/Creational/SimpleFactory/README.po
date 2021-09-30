@@ -1,0 +1,57 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Creational/SimpleFactory/README.rst:2
+msgid "Simple Factory"
+msgstr "Simple Factory"
+
+#: ../../Creational/SimpleFactory/README.rst:5
+msgid "Purpose"
+msgstr "Scopo"
+
+#: ../../Creational/SimpleFactory/README.rst:7
+msgid "SimpleFactory is a simple factory pattern."
+msgstr "SimpleFactory è un semplice factory pattern"
+
+#: ../../Creational/SimpleFactory/README.rst:9
+msgid ""
+"It differs from the static factory because it is NOT static and as you know:"
+" static => global => evil!"
+msgstr ""
+"Differisce dalla static factory perchè NON è statico e come dovreste sapere:"
+" static => global => male!"
+
+#: ../../Creational/SimpleFactory/README.rst:12
+msgid ""
+"Therefore, you can have multiple factories, differently parametrized, you "
+"can subclass it and you can mock-up it."
+msgstr ""
+"Inoltre potete avere factory multiple, parametrizzate in maniera diversa, "
+"dalle quali creare delle sottoclassi da cui poter creare degli oggetti mock"
+
+#: ../../Creational/SimpleFactory/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramma UML"
+
+#: ../../Creational/SimpleFactory/README.rst:20
+msgid "Code"
+msgstr "Codice"
+
+#: ../../Creational/SimpleFactory/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
+
+#: ../../Creational/SimpleFactory/README.rst:85
+msgid "Test"
+msgstr "Test"
