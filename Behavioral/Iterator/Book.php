@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Iterator;
 
@@ -20,6 +22,6 @@ class Book
 
     public function getAuthorAndTitle(): string
     {
-        return $this->getTitle().' by '.$this->getAuthor();
+        return $this->getTitle() . ' by ' . $this->getAuthor();
     }
 }

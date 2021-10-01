@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Command\Tests;
 
@@ -23,11 +25,11 @@ class UndoableCommandTest extends TestCase
         $messageDateCommand->execute();
 
         $invoker->run();
-        $this->assertSame("Hello World\nHello World [".date('Y-m-d').']', $receiver->getOutput());
+        $this->assertSame("Hello World\nHello World [" . date('Y-m-d') . ']', $receiver->getOutput());
 
         $messageDateCommand->undo();
 
         $invoker->run();
-        $this->assertSame("Hello World\nHello World [".date('Y-m-d')."]\nHello World", $receiver->getOutput());
+        $this->assertSame("Hello World\nHello World [" . date('Y-m-d') . "]\nHello World", $receiver->getOutput());
     }
 }

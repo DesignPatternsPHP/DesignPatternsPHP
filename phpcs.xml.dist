@@ -4,5 +4,5 @@
     <exclude-pattern>vendor</exclude-pattern>
     <arg value="sp"/>
 
-    <rule ref="vendor/flyeralarm/php-code-validator/ruleset.xml"/>
+    <rule ref="PSR12"/>
 </ruleset>

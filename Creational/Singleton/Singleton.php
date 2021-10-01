@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace DesignPatterns\Creational\Singleton;
 
@@ -34,7 +36,7 @@ final class Singleton
     private function __clone()
     {
     }
-    
+
     /**
      * prevent from being unserialized (which would create a second instance of it)
      */

@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace DesignPatterns\Structural\Registry;
 
@@ -6,7 +8,7 @@ use InvalidArgumentException;
 
 abstract class Registry
 {
-    const LOGGER = 'logger';
+    public const LOGGER = 'logger';
 
     /**
      * this introduces global state in your application which can not be mocked up for testing
