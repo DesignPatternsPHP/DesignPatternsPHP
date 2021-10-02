@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:1
 msgid "Simple Factory"
-msgstr "Fábrica Simple"
+msgstr "Factoría Simple"
 
 #: ../../Creational/SimpleFactory/README.rst:4
 msgid "Purpose"
@@ -21,20 +21,20 @@ msgstr "Propósito"
 
 #: ../../Creational/SimpleFactory/README.rst:7
 msgid "SimpleFactory is a simple factory pattern."
-msgstr "La Fábrica Simple es un patrón de fábrica simple."
+msgstr "La Factoría Simple es un patrón de factoría simple."
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
 "It differs from the static factory because it is not static."
 msgstr ""
-"Difere de la fábrica estática porque no es estática."
+"Difere de la factoría estática porque no es estática."
 
 #: ../../Creational/SimpleFactory/README.rst:10
 msgid ""
 "Therefore, you can have multiple factories, differently parametrized, you "
 "can subclass it and you can mock it."
 msgstr ""
-"Por lo tanto, se pueden tener varias fábricas parametrizadas de forma "
+"Por lo tanto, se pueden tener varias factorías parametrizadas de forma "
 "diferente, se pueden crear subclases y se pueden generar imitaciones (mock) de "
 "ellas."
 
