@@ -15,11 +15,11 @@ msgstr ""
 
 #: ../../Creational/Prototype/README.rst:2
 msgid "`Prototype`__"
-msgstr "`Prototype`__"
+msgstr "`Prototipo`__"
 
 #: ../../Creational/Prototype/README.rst:5
 msgid "Purpose"
-msgstr "Proposito"
+msgstr "Propósito"
 
 #: ../../Creational/Prototype/README.rst:7
 msgid ""
