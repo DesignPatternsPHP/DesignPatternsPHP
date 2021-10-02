@@ -15,11 +15,11 @@ msgstr ""
 
 #: ../../Creational/StaticFactory/README.rst:2
 msgid "Static Factory"
-msgstr "Static Factory"
+msgstr "Factoría Estática"
 
 #: ../../Creational/StaticFactory/README.rst:5
 msgid "Purpose"
-msgstr "Proposito"
+msgstr "Propósito"
 
 #: ../../Creational/StaticFactory/README.rst:7
 msgid ""
@@ -29,7 +29,7 @@ msgid ""
 "method to create all types of objects it can create. It is usually named "
 "``factory`` or ``build``."
 msgstr ""
-"Parecido a AbstractFactory, este patrón es usado para crear conjuntos de "
+"Parecido a la factoría abstracta, este patrón es usado para crear conjuntos de "
 "objetos relacionados o dependientes. La diferencia entre este y la factoría "
 "abstracta es que el patrón factoría estática usa un sólo método estático "
 "para crear todos los tipos de objetos que puede crear. Este método "
