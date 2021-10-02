@@ -11,42 +11,45 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 
-#: ../../Creational/SimpleFactory/README.rst:2
+#: ../../Creational/SimpleFactory/README.rst:1
 msgid "Simple Factory"
-msgstr ""
+msgstr "Fábrica Simple"
 
-#: ../../Creational/SimpleFactory/README.rst:5
+#: ../../Creational/SimpleFactory/README.rst:4
 msgid "Purpose"
-msgstr ""
+msgstr "Propósito"
 
 #: ../../Creational/SimpleFactory/README.rst:7
 msgid "SimpleFactory is a simple factory pattern."
-msgstr ""
+msgstr "La Fábrica Simple es un patrón de fábrica simple."
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
-"It differs from the static factory because it is NOT static and as you know:"
-" static => global => evil!"
+"It differs from the static factory because it is not static."
 msgstr ""
+"Difere de la fábrica estática porque no es estática."
 
-#: ../../Creational/SimpleFactory/README.rst:12
+#: ../../Creational/SimpleFactory/README.rst:10
 msgid ""
 "Therefore, you can have multiple factories, differently parametrized, you "
-"can subclass it and you can mock-up it."
+"can subclass it and you can mock it."
 msgstr ""
+"Por lo tanto, se pueden tener varias fábricas parametrizadas de forma "
+"diferente, se pueden crear subclases y se pueden generar imitaciones (mock) de "
+"ellas."
 
-#: ../../Creational/SimpleFactory/README.rst:16
+#: ../../Creational/SimpleFactory/README.rst:13
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
+
+#: ../../Creational/SimpleFactory/README.rst:20
+msgid "Code"
+msgstr "Código"
 
 #: ../../Creational/SimpleFactory/README.rst:23
-msgid "Code"
-msgstr ""
-
-#: ../../Creational/SimpleFactory/README.rst:25
 msgid "You can also find this code on `GitHub`_"
 msgstr "Puedes encontrar el código en `GitHub`_"
 
-#: ../../Creational/SimpleFactory/README.rst:52
+#: ../../Creational/SimpleFactory/README.rst:47
 msgid "Test"
-msgstr ""
+msgstr "Test"
