@@ -18,6 +18,10 @@ msgid "`Pool`__"
 msgstr "`Pila`__"
 
 #: ../../Creational/Pool/README.rst:4
+msgid "Purpose"
+msgstr "Propósito"
+
+#: ../../Creational/Pool/README.rst:7
 msgid ""
 "The **object pool pattern** is a software creational design pattern that "
 "uses a set of initialized objects kept ready to use – a \"pool\" – rather "
@@ -32,7 +36,7 @@ msgstr ""
 "pila un objeto y realizar las operaciones necesarias sobre él. Cuando el "
 "cliente ha terminado devuelve el objeto a la pila en lugar de destruirlo."
 
-#: ../../Creational/Pool/README.rst:11
+#: ../../Creational/Pool/README.rst:14
 msgid ""
 "Object pooling can offer a significant performance boost in situations where "
 "the cost of initializing a class instance is high, the rate of instantiation "
@@ -48,14 +52,20 @@ msgstr ""
 "creación de nuevos objetos (especialmente cuando se realiza a través de una "
 "red) puede variar."
 
-#: ../../Creational/Pool/README.rst:18
+#: ../../Creational/Pool/README.rst:21
 msgid ""
 "However these benefits are mostly true for objects that are expensive with "
 "respect to time, such as database connections, socket connections, threads "
 "and large graphic objects like fonts or bitmaps. In certain situations, "
 "simple object pooling (that hold no external resources, but only occupy "
 "memory) may not be efficient and could decrease performance."
-msgstr "Sin embargo estos beneficios "
+msgstr ""
+"Sin embargo, estos beneficios son en su mayoría ciertos para objetos que son "
+"costosos con respecto al tiempo, como las conexiones de base de datos, "
+"conexiones de socket, hilos y objetos gráficos grandes como fuentes o mapas "
+"de bits. En algunas situaciones, una pila simple de objetos (que no "
+"contienen recursos externos, sino solamente ocupan memoria) puede no ser "
+"eficiente y puede ocasionar una disminución de rendimiento."
 
 #: ../../Creational/Pool/README.rst:25
 msgid "UML Diagram"

@@ -18,14 +18,14 @@ msgstr "`Factoría Abstracta`__"
 
 #: ../../Creational/AbstractFactory/README.rst:5
 msgid "Purpose"
-msgstr "Proposito"
+msgstr "Propósito"
 
 #: ../../Creational/AbstractFactory/README.rst:7
 msgid ""
 "To create series of related or dependent objects without specifying their "
 "concrete classes. Usually the created classes all implement the same "
 "interface. The client of the abstract factory does not care about how these "
-"objects are created, he just knows how they go together."
+"objects are created, it just knows how they go together."
 msgstr ""
 "Para crear una serie de objetos relacionados o dependientes sin especificar "
 "a qué clase concreta pertenecen. Normalmente las clases creadas implementan "

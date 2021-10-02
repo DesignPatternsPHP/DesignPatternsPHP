@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../Creational/Singleton/README.rst:8
 msgid "Purpose"
-msgstr "Proposito"
+msgstr "Propósito"
 
 #: ../../Creational/Singleton/README.rst:10
 msgid ""
