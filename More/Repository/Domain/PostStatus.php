@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace DesignPatterns\More\Repository\Domain;
 
@@ -10,11 +12,11 @@ use InvalidArgumentException;
  */
 class PostStatus
 {
-    const STATE_DRAFT_ID = 1;
-    const STATE_PUBLISHED_ID = 2;
+    public const STATE_DRAFT_ID = 1;
+    public const STATE_PUBLISHED_ID = 2;
 
-    const STATE_DRAFT = 'draft';
-    const STATE_PUBLISHED = 'published';
+    public const STATE_DRAFT = 'draft';
+    public const STATE_PUBLISHED = 'published';
 
     private static array $validStates = [
         self::STATE_DRAFT_ID => self::STATE_DRAFT,

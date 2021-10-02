@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Memento;
 
@@ -6,10 +8,10 @@ use InvalidArgumentException;
 
 class State implements \Stringable
 {
-    const STATE_CREATED = 'created';
-    const STATE_OPENED = 'opened';
-    const STATE_ASSIGNED = 'assigned';
-    const STATE_CLOSED = 'closed';
+    public const STATE_CREATED = 'created';
+    public const STATE_OPENED = 'opened';
+    public const STATE_ASSIGNED = 'assigned';
+    public const STATE_CLOSED = 'closed';
 
     private string $state;
 

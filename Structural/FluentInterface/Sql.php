@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace DesignPatterns\Structural\FluentInterface;
 
@@ -17,7 +19,7 @@ class Sql implements \Stringable
 
     public function from(string $table, string $alias): Sql
     {
-        $this->from[] = $table.' AS '.$alias;
+        $this->from[] = $table . ' AS ' . $alias;
 
         return $this;
     }

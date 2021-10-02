@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Command;
 
@@ -17,7 +19,7 @@ class Receiver
     public function write(string $str)
     {
         if ($this->enableDate) {
-            $str .= ' ['.date('Y-m-d').']';
+            $str .= ' [' . date('Y-m-d') . ']';
         }
 
         $this->output[] = $str;
