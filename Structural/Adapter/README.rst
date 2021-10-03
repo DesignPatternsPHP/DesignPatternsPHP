@@ -18,7 +18,7 @@ Examples
 
 UML Diagram
 -----------
-
+.. image:: uml/Adpater-Abstract-sturcture.drawio.png
 .. image:: uml/uml.png
    :alt: Alt Adapter UML Diagram
    :align: center
