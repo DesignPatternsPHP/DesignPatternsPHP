@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: 2015-05-29 21:17+0300\n"
-"Last-Translator: Eugene Glotov <kivagant@gmail.com>\n"
+"Last-Translator: Kirill Baranov <m264695502@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,8 +16,8 @@ msgid "`Chain Of Responsibilities`__"
 msgstr "`Цепочка Обязанностей <https://ru.wikipedia.org/wiki/Цепочка_обязанностей>`_ (`Chain Of Responsibilities`__)"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:5
-msgid "Purpose:"
-msgstr "Назначение:"
+msgid "Purpose"
+msgstr "Назначение"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:7
 msgid ""
@@ -26,12 +26,12 @@ msgid ""
 "and so forth."
 msgstr ""
 "Построить цепочку объектов для обработки вызова в последовательном порядке. "
-"Если один объект не может справиться с вызовом, он делегирует вызов для "
-"следующего в цепи и так далее."
+"Если один объект не может справиться с вызовом, он делегирует вызов "
+"следующему в цепи и так далее."
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:12
-msgid "Examples:"
-msgstr "Примеры:"
+msgid "Examples"
+msgstr "Примеры"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:14
 msgid ""
@@ -39,7 +39,7 @@ msgid ""
 "with a log message"
 msgstr ""
 "фреймворк для записи журналов, где каждый элемент цепи самостоятельно "
-"принимает решение, что делать с сообщением для логгирования."
+"принимает решение, что делать с сообщением для логирования."
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:16
 msgid "a Spam filter"
