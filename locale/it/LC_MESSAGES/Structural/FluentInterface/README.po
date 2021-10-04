@@ -1,0 +1,57 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Last-Translator: didacus <diequito93@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Structural/FluentInterface/README.rst:2
+msgid "`Fluent Interface`__"
+msgstr "`Fluent Interface`__"
+
+#: ../../Structural/FluentInterface/README.rst:5
+msgid "Purpose"
+msgstr "Scopo"
+
+#: ../../Structural/FluentInterface/README.rst:7
+msgid ""
+"To write code that is easy readable just like sentences in a natural "
+"language (like English)."
+msgstr ""
+"Scrivere codice che sia di facile lettura come se fossero le "
+"parole di un linguaggio naturale (come l'inglese)."
+
+#: ../../Structural/FluentInterface/README.rst:11
+msgid "Examples"
+msgstr "Esempi"
+
+#: ../../Structural/FluentInterface/README.rst:13
+msgid "Doctrine2's QueryBuilder works something like that example class below"
+msgstr "Il QueryBuilder di Doctrine2 funziona analogamente alla classe sottostante"
+
+#: ../../Structural/FluentInterface/README.rst:15
+msgid "PHPUnit uses fluent interfaces to build mock objects"
+msgstr "PHPUnit utilizza la fluent interface per costruire oggetti mock"
+
+#: ../../Structural/FluentInterface/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramma UML"
+
+#: ../../Structural/FluentInterface/README.rst:20
+msgid "Code"
+msgstr "Codice"
+
+#: ../../Structural/FluentInterface/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
+
+#: ../../Structural/FluentInterface/README.rst:85
+msgid "Test"
+msgstr "Test"

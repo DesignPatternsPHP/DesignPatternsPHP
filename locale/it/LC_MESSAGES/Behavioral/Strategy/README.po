@@ -1,0 +1,76 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Last-Translator: didacus <diequito93@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Behavioral/Strategy/README.rst:2
+msgid "`Strategy`__"
+msgstr "`Strategy`__"
+
+#: ../../Behavioral/Strategy/README.rst:5
+msgid "Terminology:"
+msgstr "Terminologia"
+
+#: ../../Behavioral/Strategy/README.rst:7
+msgid "Context"
+msgstr "Contesto"
+
+#: ../../Behavioral/Strategy/README.rst:8
+msgid "Strategy"
+msgstr "Strategy"
+
+#: ../../Behavioral/Strategy/README.rst:9
+msgid "Concrete Strategy"
+msgstr "Concrete Strategy"
+
+#: ../../Behavioral/Strategy/README.rst:12
+msgid "Purpose"
+msgstr "Scopo"
+
+#: ../../Behavioral/Strategy/README.rst:14
+msgid ""
+"To separate strategies and to enable fast switching between them. Also this "
+"pattern is a good alternative to inheritance (instead of having an abstract "
+"class that is extended)."
+msgstr ""
+"Separare le strategie e scambiarle velocemente. È una buona alternativa all'ereditarietà "
+"(invece di avere una classe astratta da estendere). "
+
+#: ../../Behavioral/Strategy/README.rst:19
+msgid "Examples"
+msgstr "Esempi"
+
+#: ../../Behavioral/Strategy/README.rst:21
+msgid "sorting a list of objects, one strategy by date, the other by id"
+msgstr "Ordinare una lista di oggetti, una strategia per data, un'altra per id"
+
+#: ../../Behavioral/Strategy/README.rst:22
+msgid ""
+"simplify unit testing: e.g. switching between file and in-memory storage"
+msgstr ""
+"Semplificare i test di unità: ad esempio scambiare tra persitesta su file o in memoria"
+
+#: ../../Behavioral/Strategy/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramma UML"
+
+#: ../../Behavioral/Strategy/README.rst:20
+msgid "Code"
+msgstr "Codice"
+
+#: ../../Behavioral/Strategy/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
+
+#: ../../Behavioral/Strategy/README.rst:85
+msgid "Test"
+msgstr "Test"

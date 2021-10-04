@@ -1,0 +1,58 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Last-Translator: didacus <diequito93@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Behavioral/Visitor/README.rst:2
+msgid "`Visitor`__"
+msgstr "`Visitor`__"
+
+#: ../../Behavioral/Visitor/README.rst:5
+msgid "Purpose"
+msgstr "Scopo"
+
+#: ../../Behavioral/Visitor/README.rst:7
+msgid ""
+"The Visitor Pattern lets you outsource operations on objects to other "
+"objects. The main reason to do this is to keep a separation of concerns. But"
+" classes have to define a contract to allow visitors (the ``Role::accept`` "
+"method in the example)."
+msgstr ""
+"Il Visitor Pattern permette di esternalizzare operazioni su degli oggetti ad altri. "
+"La ragione principale è di separare le responsabilità, Le classi devono definire un contratto "
+"per interagire con i visitor (il metodo ``Role::accept`` ad esempio)."
+
+#: ../../Behavioral/Visitor/README.rst:12
+msgid ""
+"The contract is an abstract class but you can have also a clean interface. "
+"In that case, each Visitor has to choose itself which method to invoke on "
+"the visitor."
+msgstr ""
+"Il contratto è una classe astratta ma può essere anche un'interfaccia. "
+"Nell'ultimo caso ogni visitor deve scegliere autonomamente quale metodo invocare "
+"sull'oggetto visitato"
+
+#: ../../Behavioral/Visitor/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramma UML"
+
+#: ../../Behavioral/Visitor/README.rst:20
+msgid "Code"
+msgstr "Codice"
+
+#: ../../Behavioral/Visitor/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
+
+#: ../../Behavioral/Visitor/README.rst:85
+msgid "Test"
+msgstr "Test"

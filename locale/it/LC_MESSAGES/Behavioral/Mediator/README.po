@@ -1,0 +1,57 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Last-Translator: didacus <diequito93@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Behavioral/Mediator/README.rst:2
+msgid "`Mediator`__"
+msgstr "`Mediator`__"
+
+#: ../../Behavioral/Mediator/README.rst:5
+msgid "Purpose"
+msgstr "Rôle"
+
+#: ../../Behavioral/Mediator/README.rst:7
+msgid ""
+"This pattern provides an easy way to decouple many components working "
+"together. It is a good alternative to Observer IF you have a \"central "
+"intelligence\", like a controller (but not in the sense of the MVC)."
+msgstr ""
+"Questo pattern permette di disaccoppiare facilmente molti componenti che "
+"collaborano insieme. È una buona alternativa all'Observer SE hai una sorta "
+"di \"intelligenza centrale\", come un controller (ma non nel senso MVC)."
+
+#: ../../Behavioral/Mediator/README.rst:11
+msgid ""
+"All components (called Colleague) are only coupled to the Mediator interface "
+"and it is a good thing because in OOP, one good friend is better than many. "
+"This is the key-feature of this pattern."
+msgstr ""
+"Tutti i componenti (chiamati Colleghi) sono accoppiati unicamente dall'intefaccia del Mediatore "
+"ed è una buona cosa in quanto nella programmazione OO. un buon amico è meglio di tanti. "
+"Questa è la caratteristica chiave di questo pattern."
+
+#: ../../Behavioral/Mediator/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramma UML"
+
+#: ../../Behavioral/Mediator/README.rst:20
+msgid "Code"
+msgstr "Codice"
+
+#: ../../Behavioral/Mediator/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
+
+#: ../../Behavioral/Mediator/README.rst:85
+msgid "Test"
+msgstr "Test"

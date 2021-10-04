@@ -1,0 +1,81 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: didacus <diequito93@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../More/ServiceLocator/README.rst:2
+msgid "`Service Locator`__"
+msgstr "`Service Locator`__"
+
+#: ../../More/ServiceLocator/README.rst:4
+msgid "**THIS IS CONSIDERED TO BE AN ANTI-PATTERN!**"
+msgstr "**È CONSIDERATO UN ANTI-PATTERN**"
+
+#: ../../More/ServiceLocator/README.rst:4
+msgid ""
+"Service Locator is considered for some people an anti-pattern. "
+"It violates the Dependency Inversion principle. Service Locator "
+"hides class' dependencies instead of exposing them as you would "
+"do using the Dependency Injection. In case of changes of those "
+"dependencies you risk to break the functionality of classes which "
+"are using them, making your system difficult to maintain."
+msgstr ""
+"Il Service Locator è considerato per alcune persone come un anti-pattern. "
+"Viola il principio di inversione delle dipendenze. Il service locator nasconde "
+"le dipendenze delle classi invece di esporle come si farebbe utilizzando la Dependency Injection. "
+"Nel caso di cambiamenti di queste dipendenze ricschiate di rompere le funzionalità "
+"delle classi che state utilizzando, rendendo il vostro sistema difficile da manutenere."
+
+#: ../../More/ServiceLocator/README.rst:5
+msgid "Purpose"
+msgstr "Scopo"
+
+#: ../../More/ServiceLocator/README.rst:9
+msgid ""
+"To implement a loosely coupled architecture in order to get better testable,"
+" maintainable and extendable code. DI pattern and Service Locator pattern "
+"are an implementation of the Inverse of Control pattern."
+msgstr ""
+"Implementare un architettura a basso accoppiamento in modo da ottenere codice "
+"più testabile, manutenibile ed estendibile. Questo pattern e il DI sono implementazioni "
+"del pattern di invesione del controllo."
+
+#: ../../More/ServiceLocator/README.rst:12
+msgid "Usage"
+msgstr "Utilizzo"
+
+#: ../../More/ServiceLocator/README.rst:14
+msgid ""
+"With ``ServiceLocator`` you can register a service for a given interface. By"
+" using the interface you can retrieve the service and use it in the classes "
+"of the application without knowing its implementation. You can configure and"
+" inject the Service Locator object on bootstrap."
+msgstr ""
+"Con un ServiceLocator, potete registrare un servizio per una data interfaccia. "
+"Utilizzando questa interfaccia potete recuperare il servizio e utilizzarlo nelle classi "
+"dell'applicazione senza conoscere la sua implementazione. Potete configurare "
+"e iniettare il Service Locator all'avvio."
+
+#: ../../More/ServiceLocator/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramma UML"
+
+#: ../../More/ServiceLocator/README.rst:20
+msgid "Code"
+msgstr "Codice"
+
+#: ../../More/ServiceLocator/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
+
+#: ../../More/ServiceLocator/README.rst:85
+msgid "Test"
+msgstr "Test"

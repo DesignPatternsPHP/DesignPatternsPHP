@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-13 12:18+0200\n"
-"Last-Translator: TTC_ <thetechnicalchallenge@gmail.com>\n"
+"Last-Translator: didacus <diequito93@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../README.rst:5
 msgid "DesignPatternsPHP"
-msgstr "Patrons de conception PHP"
+msgstr "Design Pattern in PHP"
 
 #: ../../README.rst:11
 msgid ""
