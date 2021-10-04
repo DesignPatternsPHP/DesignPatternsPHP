@@ -1,0 +1,57 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-04 23:00+0300\n"
+"PO-Revision-Date: 2021-10-04 23:00+0300\n"
+"Last-Translator: Kirill Baranov <m264695502@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+#: ../../Behavioral/Interpreter/README.rst:2
+msgid "`Interpreter`__"
+msgstr "`Интепретатор <https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BF%D1%80%D0%B5%D1%82%D0%B0%D1%82%D0%BE%D1%80_(%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)>`_ (`Interpreter`__)"
+
+#: ../../Behavioral/Interpreter/README.rst:4
+msgid "Purpose"
+msgstr "Назначение"
+
+#: ../../Behavioral/Interpreter/README.rst:7 TODOTODO
+msgid ""
+"For a given language, it defines the representation of its grammar as "
+"\"No Terminal Expression\" and \"Terminal Expression\", "
+"as well as an interpreter for the sentences of that language."
+msgstr ""
+"Для некоего языка шаблон описывает его грамматику с помощью терминов "
+"\"Терминальный символ\" и \"Нетерминальный символ\", а также "
+"описывает интерпретатор предложений, созданных с помощью данного языка."
+
+#: ../../Behavioral/Interpreter/README.rst:11
+msgid "Examples"
+msgstr "Примеры"
+
+#: ../../Behavioral/Interpreter/README.rst:14
+msgid ""
+"An example of a binary logic interpreter, each definition is defined by its own class"
+msgstr ""
+"Интерпретатор бинарной (двоичной) логики, в котором каждый тип "
+"логической операции определен в своем собственном классе."
+
+#: ../../Behavioral/Interpreter/README.rst:16
+msgid "UML Diagram"
+msgstr "Диаграмма UML"
+
+#: ../../Behavioral/Interpreter/README.rst:23
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/Interpreter/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Также вы можете найти этот код на `GitHub`_"
+
+#: ../../Behavioral/Interpreter/README.rst:61
+msgid "Test"
+msgstr "Тест"
