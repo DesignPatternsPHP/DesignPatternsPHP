@@ -1,0 +1,86 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Last-Translator: didacus <diequito93@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Behavioral/Command/README.rst:2
+msgid "`Command`__"
+msgstr "`Command`__"
+
+#: ../../Behavioral/Command/README.rst:5
+msgid "Purpose"
+msgstr "Scopo"
+
+#: ../../Behavioral/Command/README.rst:7
+msgid "To encapsulate invocation and decoupling."
+msgstr "Incapsulare l'invocazione e il disaccoppiamento"
+
+#: ../../Behavioral/Command/README.rst:9
+msgid ""
+"We have an Invoker and a Receiver. This pattern uses a \"Command\" to "
+"delegate the method call against the Receiver and presents the same method "
+"\"execute\". Therefore, the Invoker just knows to call \"execute\" to "
+"process the Command of the client. The Receiver is decoupled from the "
+"Invoker."
+msgstr ""
+"Abbiamo un Invoker e un Receiver. Questo pattern usa il \"Command"\ per "
+"delegare le chiamate ai metodi verso il Receiver e mostrare il metodo \"execute\" unificato. "
+"Inoltre l' Invoker sa solo che deve chiamare il metodo \"execute\" per eseguire il Command "
+"del client. Il Receiver è disaccoppiato dall'Invoker. "
+
+#: ../../Behavioral/Command/README.rst:15
+msgid ""
+"The second aspect of this pattern is the undo(), which undoes the method "
+"execute(). Command can also be aggregated to combine more complex commands "
+"with minimum copy-paste and relying on composition over inheritance."
+msgstr ""
+"Il secondo aspetto di questo pattern è che il metodo ``undo()`` permette "
+"di annullare il metodo ``execute()``. I comandi possono esssere accorpati per creare uno "
+"più complesso con pochissimi copia-incolla preferendo la composizione invece dell'ereditarietà."
+
+#: ../../Behavioral/Command/README.rst:21
+msgid "Examples"
+msgstr "Esempi"
+
+#: ../../Behavioral/Command/README.rst:23
+msgid ""
+"A text editor : all events are Command which can be undone, stacked and "
+"saved."
+msgstr ""
+"Un editor di testo: tutti gli eventi sono Command i quali possono essere annullati, "
+"impilati e salvati."
+
+#: ../../Behavioral/Command/README.rst:27
+msgid ""
+"big CLI tools use subcommands to distribute various tasks and pack them in "
+"\"modules\", each of these can be implemented with the Command pattern (e.g."
+" vagrant)"
+msgstr ""
+"Alcuni strumenti da riga di comando utilizzano sottocomandi per distribuire diversi task e "
+"impacchettarli in \"moduli\" ognino dei quali implementato con il pattern Command "
+"(come ad esempio Vagrant)."
+
+#: ../../Behavioral/Command/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramma UML"
+
+#: ../../Behavioral/Command/README.rst:20
+msgid "Code"
+msgstr "Codice"
+
+#: ../../Behavioral/Command/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
+
+#: ../../Behavioral/Command/README.rst:85
+msgid "Test"
+msgstr "Test"

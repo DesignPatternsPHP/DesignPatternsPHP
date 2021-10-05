@@ -1,0 +1,64 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Last-Translator: TTC_ <diequito93@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../More/EAV/README.rst:2
+msgid "`Entity-Attribute-Value (EAV)`__"
+msgstr "`Entity-Attribute-Value (EAV)`__"
+
+#: ../../More/EAV/README.rst:4
+msgid ""
+"The Entity–attribute–value (EAV) pattern in order to implement EAV model "
+"with PHP."
+msgstr ""
+"Il pattern Entity–attribute–value (EAV) al fine di implementare il modelllo EAV con PHP."
+
+#: ../../More/EAV/README.rst:7
+msgid "Purpose"
+msgstr "Scopo"
+
+#: ../../More/EAV/README.rst:9
+msgid ""
+"The Entity–attribute–value (EAV) model is a data model to describe "
+"entities where the number of attributes (properties, parameters) that can"
+" be used to describe them is potentially vast, but the number that will "
+"actually apply to a given entity is relatively modest."
+msgstr ""
+"Il modello Entity–attribute–value (EAV) descrive entità dove il numero di attributi "
+"(proprietà, parametri) può essere utilizzato per descriverli è vasto ma il numero che "
+"sarà attualmente applicato alla data entità è relativamente modesto."
+
+#: ../../More/EAV/README.rst:15
+msgid "Examples"
+msgstr "Esempi"
+
+#: ../../More/EAV/README.rst:17
+msgid "Check full work example in `example.php`_ file."
+msgstr "Vedi l'esempio funzionante nel file `example.php`."
+
+#: ../../More/EAV/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramma UML"
+
+#: ../../More/EAV/README.rst:20
+msgid "Code"
+msgstr "Codice"
+
+#: ../../More/EAV/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
+
+#: ../../More/EAV/README.rst:85
+msgid "Test"
+msgstr "Test"
+

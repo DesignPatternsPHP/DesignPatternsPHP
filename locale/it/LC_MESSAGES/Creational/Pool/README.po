@@ -1,0 +1,75 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Last-Translator: didacus <diequito93@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Creational/Pool/README.rst:2
+msgid "`Pool`__"
+msgstr "`Pool`__"
+
+#: ../../Creational/Pool/README.rst:4
+msgid ""
+"The **object pool pattern** is a software creational design pattern that "
+"uses a set of initialized objects kept ready to use – a \"pool\" – rather "
+"than allocating and destroying them on demand. A client of the pool will "
+"request an object from the pool and perform operations on the returned "
+"object. When the client has finished, it returns the object, which is a "
+"specific type of factory object, to the pool rather than destroying it."
+msgstr ""
+"Il **pool pattern** è un pattern creazionale che inizializza un insieme di "
+"oggetti e li tiene pronti all'uso all'interno di una – \"pool\" –  invece di"
+"allocarli e deallocarli su richiesta. Il client che usa la pool richiederà un oggetto "
+"al suo interno su cui effettuare delle operazioni. Una volta che ha concluso l'oggetto, "
+"il quale è un tipo particolare di factory, sarà restiutito alla pool invece che distrutto."
+
+
+#: ../../Creational/Pool/README.rst:11
+msgid ""
+"Object pooling can offer a significant performance boost in situations where "
+"the cost of initializing a class instance is high, the rate of instantiation "
+"of a class is high, and the number of instances in use at any one time is "
+"low. The pooled object is obtained in predictable time when creation of the "
+"new objects (especially over network) may take variable time."
+msgstr ""
+"Il pooing degli oggetti può offrire un aumento delle prestazioni significative in situazioni "
+"dove il costo per inizializzare un'instanza di una classe è alto, la percentuale di istanziazione "
+"è alta e il numero di instanze in uno in qualune momento è basso. L'oggetto ottento dalla pool "
+"ha tempi prevedibili quando la creazione di nuove oggetti (soprattuto in rete) richiede del tempo."
+
+#: ../../Creational/Pool/README.rst:18
+msgid ""
+"However these benefits are mostly true for objects that are expensive with "
+"respect to time, such as database connections, socket connections, threads "
+"and large graphic objects like fonts or bitmaps. In certain situations, "
+"simple object pooling (that hold no external resources, but only occupy "
+"memory) may not be efficient and could decrease performance."
+msgstr ""
+"Tuttavia questi benefici valgono per oggetti che impiegano tempo per essere creati "
+"come connessioni alla base di dati, socket, thread e oggetti come font e bitmap. "
+"In alcune situazioni il semplice pooling degli oggetti (ovvvero non mantengono risorse esterne "
+"ma occupano solo memoria) può non essere efficiente e far calare le prestazioni."
+
+#: ../../Creational/Pool/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramma UML"
+
+#: ../../Creational/Pool/README.rst:20
+msgid "Code"
+msgstr "Codice"
+
+#: ../../Creational/Pool/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Potete trovare il codice anche su `GitHub`_"
+
+#: ../../Creational/Pool/README.rst:85
+msgid "Test"
+msgstr "Test"

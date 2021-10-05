@@ -1,0 +1,70 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Last-Translator: didacus <diequito93@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Creational/Singleton/README.rst:2
+msgid "`Singleton`__"
+msgstr "`Singleton`__"
+
+#: ../../Creational/Singleton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+"**IL SINGLETON È CONSIDERATO UN ANTI-PATTERN! PER MIGLIORE TESTABILITÀ "
+"E MANUTENIBILITÀ UTILIZZATE LA DEPENDENCY INJECTION !**"
+
+#: ../../Creational/Singleton/README.rst:8
+msgid "Purpose"
+msgstr "Scopo"
+
+#: ../../Creational/Singleton/README.rst:10
+msgid ""
+"To have only one instance of this object in the application that will handle "
+"all calls."
+msgstr ""
+"Limitare l'instanziazione di una classe ad unico oggetto."
+
+#: ../../Creational/Singleton/README.rst:14
+msgid "Examples"
+msgstr "Esempi"
+
+#: ../../Creational/Singleton/README.rst:16
+msgid "DB Connector"
+msgstr "Connessione alla base di dati"
+
+#: ../../Creational/Singleton/README.rst:17
+msgid ""
+"Logger"
+msgstr ""
+"Logger"
+
+#: ../../Creational/Singleton/README.rst:19
+msgid "Lock file for the application (there is only one in the filesystem ...)"
+msgstr "Blocca il file per l'pplicazione (ce ne è un'unica nel filesystem ...)"
+
+#: ../../Creational/Singleton/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramma UML"
+
+#: ../../Creational/Singleton/README.rst:20
+msgid "Code"
+msgstr "Codice"
+
+#: ../../Creational/Singleton/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Potete trovare il codice anche su `GitHub`_"
+
+#: ../../Creational/Singleton/README.rst:85
+msgid "Test"
+msgstr "Test"

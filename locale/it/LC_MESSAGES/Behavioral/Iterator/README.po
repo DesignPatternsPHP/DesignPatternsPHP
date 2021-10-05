@@ -1,0 +1,68 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Last-Translator: didacus <diequito93@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Behavioral/Iterator/README.rst:2
+msgid "`Iterator`__"
+msgstr "`Iterator`__"
+
+#: ../../Behavioral/Iterator/README.rst:5
+msgid "Purpose"
+msgstr "Scopo"
+
+#: ../../Behavioral/Iterator/README.rst:7
+msgid "To make an object iterable and to make it appear like a collection of objects."
+msgstr "Rendere un oggetto iterabile e farlo apparire come una collezione di oggetti."
+
+#: ../../Behavioral/Iterator/README.rst:11
+msgid "Examples"
+msgstr "Esempi"
+
+#: ../../Behavioral/Iterator/README.rst:13
+msgid ""
+"to process a file line by line by just running over all lines (which have an"
+" object representation) for a file (which of course is an object, too)"
+msgstr ""
+"Processare un file (rappresentato come un oggetto) linea per linea "
+"eseguendo tutte le linee (rappresentate come un oggetto)."
+
+#: ../../Behavioral/Iterator/README.rst:18
+msgid "Note"
+msgstr "Note"
+
+#: ../../Behavioral/Iterator/README.rst:20
+msgid ""
+"Standard PHP Library (SPL) defines an interface Iterator which is best "
+"suited for this! Often you would want to implement the Countable interface "
+"too, to allow ``count($object)`` on your iterable object"
+msgstr ""
+"La libreria standard di PHP (SPL) definisce un interfaccia Iterator che è ideale"
+"per applicare il pattern! Spesso si implementa anche l'intefaccia Countable "
+"così da poter chiamare count($object) sul vostro oggetto iterabili."
+
+#: ../../Behavioral/Iterator/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramma UML"
+
+#: ../../Behavioral/Iterator/README.rst:20
+msgid "Code"
+msgstr "Codice"
+
+#: ../../Behavioral/Iterator/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
+
+#: ../../Behavioral/Iterator/README.rst:85
+msgid "Test"
+msgstr "Test"
+

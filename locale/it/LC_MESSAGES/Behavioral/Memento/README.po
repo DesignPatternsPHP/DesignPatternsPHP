@@ -1,0 +1,123 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Last-Translator: didacus <diequito93@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Behavioral/Memento/README.rst:2
+msgid "`Memento`__"
+msgstr "`Memento`__"
+
+#: ../../Behavioral/Memento/README.rst:5
+msgid "Purpose"
+msgstr "Scopo"
+
+#: ../../Behavioral/Memento/README.rst:7
+msgid ""
+"It provides the ability to restore an object to it's previous state (undo"
+" via rollback) or to gain access to state of the object, without "
+"revealing it's implementation (i.e., the object is not required to have a"
+" functional for return the current state)."
+msgstr ""
+"Permette di ripristinare lo stato precedenti di un oggetto (annullamento tramite rollback) "
+"o di ottenere accesso allo stato di quest'ultimo senza rivelarne l'implementazione "
+"(ad esempio all'oggetto non è richiesta una funziona per restituire il suo stato corrente)."
+
+#: ../../Behavioral/Memento/README.rst:12
+msgid ""
+"The memento pattern is implemented with three objects: the Originator, a "
+"Caretaker and a Memento."
+msgstr ""
+"Il pattern Memento è implementato con tre oggetti: Originator, Caretaker e Memento."
+
+#: ../../Behavioral/Memento/README.rst:15
+msgid ""
+"Memento – an object that *contains a concrete unique snapshot of state* "
+"of any object or resource: string, number, array, an instance of class "
+"and so on. The uniqueness in this case does not imply the prohibition "
+"existence of similar states in different snapshots. That means the state "
+"can be extracted as the independent clone. Any object stored in the "
+"Memento should be *a full copy of the original object rather than a "
+"reference* to the original object. The Memento object is a \"opaque "
+"object\" (the object that no one can or should change)."
+msgstr ""
+"Memento - oggetto contenete *un'istantanea concreta ed unica dello stato* "
+"di un oggetto o di una risorsa: stringhe, numeri, array, istanze di una classe e così via. "
+"Unicità dello stato non implica l'inesistenza di stati simili in diffenti instantanee. "
+"Questo comporta che lo stato può essere estratto come un clone indipendente. Qualunque oggetto "
+"memorizzato nel Memento potrebbe essere una *copia completa dell'oggetto originale invece di "
+"un riferimento*. L'oggetto Memento è un \"oggetto opaco\" (che può o dovrebbe cambiare)."
+
+#: ../../Behavioral/Memento/README.rst:24
+msgid ""
+"Originator – it is an object that contains the *actual state of an "
+"external object is strictly specified type*. Originator is able to create"
+" a unique copy of this state and return it wrapped in a Memento. The "
+"Originator does not know the history of changes. You can set a concrete "
+"state to Originator from the outside, which will be considered as actual."
+" The Originator must make sure that given state corresponds the allowed "
+"type of object. Originator may (but not should) have any methods, but "
+"they *they can't make changes to the saved object state*."
+msgstr ""
+"Originator - oggetto contenete lo *stato attuale di un oggetto esterno di un specifico tipo*."
+"L'Originator è in grado di creare una copia unica di questo stato e restituirlo incapsulato in un Memento. "
+"Non conosce lo storico dei cambiamenti di stato. Potete assegnargli uno stato concreto "
+"dall'esterno rendendolo così quello attuale. L'Originator deve assicurarsi che lo stato assegnato"
+"sia compatibile con quello permesso dal tipo di oggetto. Può (ma non dovrebbe) avere qualche metodo "
+"ma non *possono effettuare cambiamenti allo stato dell'oggetto salvato*."
+
+#: ../../Behavioral/Memento/README.rst:33
+msgid ""
+"Caretaker *controls the states history*. He may make changes to an "
+"object; take a decision to save the state of an external object in the "
+"Originator; ask from the Originator snapshot of the current state; or set"
+" the Originator state to equivalence with some snapshot from history."
+msgstr ""
+"Caretaker - *controlla lo storico degli stati*. Può effettuare dei cambiamenti "
+"all'oggetto, decidere se salvare lo stato di un oggetto esterno nell'Originator, "
+"chiedere al quest'ultimo un'istantanea dello stato corrente o cambiare lo stato "
+"corrente dell'Originator con uno dello storico delle instantanee."
+
+#: ../../Behavioral/Memento/README.rst:39
+msgid "Examples"
+msgstr "Esempi"
+
+#: ../../Behavioral/Memento/README.rst:41
+msgid "The seed of a pseudorandom number generator"
+msgstr "Il seme di un generatore numerico pesudocasuale"
+
+#: ../../Behavioral/Memento/README.rst:42
+msgid "The state in a finite state machine"
+msgstr "Lo stato di una macchina a stati finiti"
+
+#: ../../Behavioral/Memento/README.rst:43
+msgid ""
+"Control for intermediate states of `ORM Model "
+"<http://en.wikipedia.org/wiki/Object-relational_mapping>`_ before saving"
+msgstr ""
+"Controllare gli stati intermedi di un `Modello ORM` "
+"<http://en.wikipedia.org/wiki/Object-relational_mapping>` prima di persisterlo"
+
+#: ../../Behavioral/Memento/README.rst:13
+msgid "UML Diagram"
+msgstr "Diagramma UML"
+
+#: ../../Behavioral/Memento/README.rst:20
+msgid "Code"
+msgstr "Codice"
+
+#: ../../Behavioral/Memento/README.rst:22
+msgid "You can also find this code on `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
+
+#: ../../Behavioral/Memento/README.rst:85
+msgid "Test"
+msgstr "Test"
