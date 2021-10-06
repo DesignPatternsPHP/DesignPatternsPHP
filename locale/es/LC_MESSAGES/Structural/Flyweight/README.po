@@ -11,7 +11,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-03 23:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: manueldose <metallica_462@hotmail.com>\n"
+"Language: es\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -20,11 +21,11 @@ msgstr ""
 
 #: ../../Structural/Flyweight/README.rst:2
 msgid "`Flyweight`__"
-msgstr ""
+msgstr "`Flyweight`__"
 
 #: ../../Structural/Flyweight/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Propósito"
 
 #: ../../Structural/Flyweight/README.rst:7
 msgid ""
@@ -34,14 +35,19 @@ msgid ""
 "external data structures and pass them to the flyweight object when "
 "needed."
 msgstr ""
+"Para minimizar el uso de la memoria, un Flyweight comparte tanta memoria como "
+"sea posible con objetos similares. Es necesario cuando se utiliza una gran "
+"cantidad de objetos que no difieren mucho en el estado. Una práctica común es"
+"mantener el estado en estructuras de datos externas y pasarlas al objeto flyweight "
+"cuando se necesite."
 
 #: ../../Structural/Flyweight/README.rst:12
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Structural/Flyweight/README.rst:19
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Structural/Flyweight/README.rst:21
 msgid "You can also find this code on `GitHub`_"
@@ -49,5 +55,5 @@ msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Structural/Flyweight/README.rst:42
 msgid "Test"
-msgstr ""
+msgstr "Test"
 

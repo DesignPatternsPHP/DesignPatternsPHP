@@ -27,7 +27,7 @@ msgstr "La Factoría Simple es un patrón de factoría simple."
 msgid ""
 "It differs from the static factory because it is not static."
 msgstr ""
-"Difere de la factoría estática porque no es estática."
+"Difiere de la factoría estática porque no es estática."
 
 #: ../../Creational/SimpleFactory/README.rst:10
 msgid ""
