@@ -1,15 +1,17 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2021-10-08 23:23+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
+"Last-Translator: Nicolás Marulanda P\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.5\n"
 
 #: ../../Creational/SimpleFactory/README.rst:1
 msgid "Simple Factory"
@@ -25,18 +27,15 @@ msgstr "La Factoría Simple es un patrón de factoría simple."
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
-"It differs from the static factory because it is not static."
+"It differs from the static factory because it is not static. "
+"Therefore, you can have multiple factories, differently parameterized, "
+"you can subclass it and you can mock it. It always should be preferred "
+"over a static factory!"
 msgstr ""
-"Difiere de la factoría estática porque no es estática."
-
-#: ../../Creational/SimpleFactory/README.rst:10
-msgid ""
-"Therefore, you can have multiple factories, differently parametrized, you "
-"can subclass it and you can mock it."
-msgstr ""
-"Por lo tanto, se pueden tener varias factorías parametrizadas de forma "
-"diferente, se pueden crear subclases y se pueden generar imitaciones (mock) de "
-"ellas."
+"Se diferencia de la fábrica estática porque no es estática. Por lo "
+"tanto, se pueden tener varias factorías parametrizadas de forma "
+"diferente, se pueden crear subclases y se pueden generar imitaciones "
+"(mock) de ellas. ¡Siempre se debe preferir esta a una Fábrica Estática!"
 
 #: ../../Creational/SimpleFactory/README.rst:13
 msgid "UML Diagram"
