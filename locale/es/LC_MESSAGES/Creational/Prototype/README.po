@@ -26,8 +26,8 @@ msgid ""
 "To avoid the cost of creating objects the standard way (new Foo()) and "
 "instead create a prototype and clone it."
 msgstr ""
-"Evitar el cote de crear objetos de la forma estándar (new Foo()). En su "
-"lugar crear una instancia y clonarla."
+"Para evitar el coste de crear objetos de la forma estándar (new Foo()). En su "
+"lugar cree una instancia y clónela."
 
 #: ../../Creational/Prototype/README.rst:11
 msgid "Examples"

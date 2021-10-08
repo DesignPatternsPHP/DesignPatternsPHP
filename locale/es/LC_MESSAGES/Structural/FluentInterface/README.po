@@ -5,7 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: manueldose <metallica_462@hotmail.com>\n"
+"Language: es\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,37 +14,39 @@ msgstr ""
 
 #: ../../Structural/FluentInterface/README.rst:2
 msgid "`Fluent Interface`__"
-msgstr ""
+msgstr "`Interfaz Fluida`__"
 
 #: ../../Structural/FluentInterface/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Propósito"
 
 #: ../../Structural/FluentInterface/README.rst:7
 msgid ""
 "To write code that is easy readable just like sentences in a natural "
 "language (like English)."
 msgstr ""
+"Escribir código que sea fácil de leer como frases en lenguaje natural "
+"(como en castellano)."
 
 #: ../../Structural/FluentInterface/README.rst:11
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: ../../Structural/FluentInterface/README.rst:13
 msgid "Doctrine2's QueryBuilder works something like that example class below"
-msgstr ""
+msgstr "Doctrine2's QueryBuilder funciona de forma similar a la clase del ejemplo siguiente"
 
 #: ../../Structural/FluentInterface/README.rst:15
 msgid "PHPUnit uses fluent interfaces to build mock objects"
-msgstr ""
+msgstr "PHPUnit usa interfaces fluidas para construir objetos simulados"
 
 #: ../../Structural/FluentInterface/README.rst:19
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Structural/FluentInterface/README.rst:26
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Structural/FluentInterface/README.rst:28
 msgid "You can also find this code on `GitHub`_"
@@ -51,4 +54,4 @@ msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Structural/FluentInterface/README.rst:37
 msgid "Test"
-msgstr ""
+msgstr "Test"

@@ -5,7 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: manueldose <metallica_462@hotmail.com>\n"
+"Language: es\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,11 +14,11 @@ msgstr ""
 
 #: ../../Structural/Facade/README.rst:2
 msgid "`Facade`__"
-msgstr ""
+msgstr "`Facade`__"
 
 #: ../../Structural/Facade/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Propósito"
 
 #: ../../Structural/Facade/README.rst:7
 msgid ""
@@ -25,20 +26,25 @@ msgid ""
 "manual of a complex API. It's only a side-effect. The first goal is to"
 "reduce coupling and follow the Law of Demeter."
 msgstr ""
+"El objetivo principal del Patrón Facade (o Patrón Fachada) no es evitar que "
+"tenga que leer el manual de una compleja API. Es solo un efecto secundario. "
+"El primer objetivo es reducir el acoplamiento y seguir la Ley de Demeter."
 
 #: ../../Structural/Facade/README.rst:11
 msgid ""
 "A Facade is meant to decouple a client and a sub-system by embedding many "
 "(but sometimes just one) interface, and of course to reduce complexity."
 msgstr ""
+"Una Fachada está destinada a desacoplar un cliente y un subsistema al incorporar "
+"muchas (pero a veces solo una) interfaz y, por supuesto, reducir la complejidad."
 
 #: ../../Structural/Facade/README.rst:15
 msgid "A facade does not forbid you the access to the sub-system"
-msgstr ""
+msgstr "Una fachada no le prohíbe el acceso al subsistema"
 
 #: ../../Structural/Facade/README.rst:16
 msgid "You can (you should) have multiple facades for one sub-system"
-msgstr ""
+msgstr "Puede (debería) tener múltiples fachadas para un subsistema"
 
 #: ../../Structural/Facade/README.rst:18
 msgid ""
@@ -46,6 +52,9 @@ msgid ""
 "creations for each method, it is not a Facade, it's a Builder or a "
 "[Abstract\\|Static\\|Simple] Factory [Method]."
 msgstr ""
+"Por eso una buena fachada no tiene ``new`` en ella. Si hay varias creaciones "
+"para cada método, no es una fachada, es un Builder (Constructor) o una "
+"[Abstract\\|Static\\|Simple] Factory [Method]."
 
 #: ../../Structural/Facade/README.rst:22
 msgid ""
@@ -53,14 +62,17 @@ msgid ""
 "parameters. If you need creation of new instances, use a Factory as "
 "argument."
 msgstr ""
+"La mejor fachada no tiene ``new`` y un constructor con parámetros interfaz-type-hinted. "
+"Si necesita crear nuevas instancias, utilice Factory como argumento."
+
 
 #: ../../Structural/Facade/README.rst:27
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Structural/Facade/README.rst:34
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Structural/Facade/README.rst:36
 msgid "You can also find this code on `GitHub`_"
@@ -68,4 +80,4 @@ msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Structural/Facade/README.rst:57
 msgid "Test"
-msgstr ""
+msgstr "Test"

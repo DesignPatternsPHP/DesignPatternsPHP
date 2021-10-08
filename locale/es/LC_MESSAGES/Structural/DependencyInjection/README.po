@@ -5,7 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: manueldose <metallica_462@hotmail.com>\n"
+"Language: es\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,21 +14,23 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:2
 msgid "`Dependency Injection`__"
-msgstr ""
+msgstr "`Inyección de Dependencias`__"
 
 #: ../../Structural/DependencyInjection/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Propósito"
 
 #: ../../Structural/DependencyInjection/README.rst:7
 msgid ""
 "To implement a loosely coupled architecture in order to get better testable,"
 " maintainable and extendable code."
 msgstr ""
+"Implementar una arquitectura débilmente acoplada para obtener un código más "
+"mantenible, extensible y testeable."
 
 #: ../../Structural/DependencyInjection/README.rst:11
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #: ../../Structural/DependencyInjection/README.rst:13
 msgid ""
@@ -36,6 +39,10 @@ msgid ""
 " ``Connection``, which is not very good for testing and extending "
 "``Connection``."
 msgstr ""
+"``Configuration`` se inyecta y ``Connection`` obtendrá todo lo que necesita "
+"de ``$config``. Sin Inyección de Dependencias, la configuración se crearía "
+"directamente en ``Connection``, lo que no es muy óptimo para testear y extender "
+"``Connection``."
 
 #: ../../Structural/DependencyInjection/README.rst:18
 msgid ""
@@ -46,10 +53,16 @@ msgid ""
 " Read more about Inversion of control `here "
 "<http://en.wikipedia.org/wiki/Inversion_of_control>`__."
 msgstr ""
+"Observe que estamos siguiendo el principio de inversión de control en` `Conexión`` "
+"pidiendo a ``$ config`` que implemente la interfaz de ``Parámetros``. Esto desacopla "
+"nuestros componentes. No nos importa de dónde viene la fuente de información, nosotros"
+"solo nos importa que ``$ config`` tenga ciertos métodos para recuperar esa información."
+"Leer más sobre Inversión de control `aquí "
+"<https://es.wikipedia.org/wiki/Inversi%C3%B3n_de_control>`__."
 
 #: ../../Structural/DependencyInjection/README.rst:26
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: ../../Structural/DependencyInjection/README.rst:28
 msgid ""
@@ -58,6 +71,9 @@ msgid ""
 "create a mock object of the configuration and inject that into the "
 "``Connection`` object"
 msgstr ""
+"Doctrine2 ORM usa inyección de dependencias e.j. para la configuración que se "
+"inyecta en un objeto ``Connection``. Para propósitos de testing, uno puede fácilmente "
+"crear un objeto simulado de la configuración e inyectarlo en el Objeto ``Conexión``"
 
 #: ../../Structural/DependencyInjection/README.rst:32
 msgid ""
@@ -65,14 +81,17 @@ msgid ""
 "objects via a configuration array and inject them where needed (i.e. in "
 "Controllers)"
 msgstr ""
+"muchos frameworks ya tienen contenedores para inyección de dependencias que crean "
+"objetos a través de una matriz de configuración y los inyecta donde sea necesario "
+"(es decir, enControladores)"
 
 #: ../../Structural/DependencyInjection/README.rst:37
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Structural/DependencyInjection/README.rst:44
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Structural/DependencyInjection/README.rst:46
 msgid "You can also find this code on `GitHub`_"
@@ -80,4 +99,4 @@ msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Structural/DependencyInjection/README.rst:73
 msgid "Test"
-msgstr ""
+msgstr "Test"
