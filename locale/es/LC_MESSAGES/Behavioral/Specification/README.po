@@ -5,7 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: manueldose <metallica_462@hotmail.com>\n"
+"Language: es\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,11 +14,11 @@ msgstr ""
 
 #: ../../Behavioral/Specification/README.rst:2
 msgid "`Specification`__"
-msgstr ""
+msgstr "`Specification`__"
 
 #: ../../Behavioral/Specification/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Propósito"
 
 #: ../../Behavioral/Specification/README.rst:7
 msgid ""
@@ -26,22 +27,26 @@ msgid ""
 "``isSatisfiedBy`` that returns either true or false depending on whether the"
 " given object satisfies the specification."
 msgstr ""
+"Crea una especificación clara de las reglas comerciales, donde los objetos se "
+"pueden comparar. La clase de especificación compuesta tiene un método llamado "
+"``isSatisfiedBy`` que devuelve verdadero o falso dependiendo de si el objeto dado "
+"satisface la especificación."
 
 #: ../../Behavioral/Specification/README.rst:13
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: ../../Behavioral/Specification/README.rst:15
 msgid "`RulerZ <https://github.com/K-Phoen/rulerz>`__"
-msgstr ""
+msgstr "`RulerZ <https://github.com/K-Phoen/rulerz>`__"
 
 #: ../../Behavioral/Specification/README.rst:18
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Behavioral/Specification/README.rst:25
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Behavioral/Specification/README.rst:27
 msgid "You can also find this code on `GitHub`_"
@@ -49,4 +54,4 @@ msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Behavioral/Specification/README.rst:72
 msgid "Test"
-msgstr ""
+msgstr "Test"
