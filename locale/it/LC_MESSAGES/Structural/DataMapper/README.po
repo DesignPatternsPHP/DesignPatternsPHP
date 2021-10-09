@@ -45,7 +45,7 @@ msgid ""
 "The key point of this pattern is, unlike Active Record pattern, the data "
 "model follows Single Responsibility Principle."
 msgstr ""
-"Il vantaggio di questo pattern è che, a differenza dell' [Active Record](https://en.wikipedia.org/wiki/Active_record_pattern), "
+"Il vantaggio di questo pattern è che, a differenza dell'Active Record, "
 "il modello dei dati rispetta il principio di Singola Responsabilità."
 
 #: ../../Structural/DataMapper/README.rst:21

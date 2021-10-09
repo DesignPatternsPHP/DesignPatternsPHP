@@ -22,13 +22,15 @@ msgstr "Scopo"
 
 #: ../../Structural/Registry/README.rst:7
 msgid ""
-"To implement a central storage for objects often used throughout the "
-"application, is typically implemented using an abstract class with only "
-"static methods (or using the Singleton pattern)"
+"To implement a central storage for objects often used throughout the application, is typically "
+"implemented using an abstract class with only static methods (or using the Singleton pattern). "
+"Remember that this introduces global state, which should be avoided at all times! Instead "
+"implement it using Dependency Injection!"
 msgstr ""
-"Implementare un meccanismo di memorizzazione di oggetti centralizzato utilizzato "
-"dall'applicazione. Lo si realizza tipicamente tramite una classe astratta con solo "
-"metodi statici (o tramite il pattern Singleton)."
+"Implementare un meccanismo di memorizzazione di oggetti centralizzato utilizzato dall'applicazione. "
+"Lo si realizza tipicamente tramite una classe astratta con solo metodi statici (o tramite il pattern Singleton). "
+"Ricordate che implementato in questo modo introducete uno stato globale, che dovrebbe sempre essere evitato! "
+"Utilizzate invece la Dependecy Injection!"
 
 #: ../../Structural/Proxy/README.rst:13
 msgid "UML Diagram"
