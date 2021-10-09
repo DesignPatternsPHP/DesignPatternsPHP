@@ -30,7 +30,7 @@ msgid ""
 "subclasses of this abstract template \"finish\" the behavior of an "
 "algorithm."
 msgstr ""
-"Lo avete già oncontrato molte volte. L'odea è di permette alle "
+"Lo avete già oncontrato molte volte. L'idea è di permette alle "
 "sottoclassi di questa classe astratta di \"completare\" il comportamento "
 "di un algoritmo."
 

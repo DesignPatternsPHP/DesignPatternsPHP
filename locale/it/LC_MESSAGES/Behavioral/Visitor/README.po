@@ -28,7 +28,7 @@ msgid ""
 "method in the example)."
 msgstr ""
 "Il Visitor Pattern permette di esternalizzare operazioni su degli oggetti ad altri. "
-"La ragione principale è di separare le responsabilità, Le classi devono definire un contratto "
+"La ragione principale è di separare le responsabilità. Le classi devono definire un contratto "
 "per interagire con i visitor (il metodo ``Role::accept`` ad esempio)."
 
 #: ../../Behavioral/Visitor/README.rst:12

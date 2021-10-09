@@ -22,14 +22,15 @@ msgstr "Scopo"
 
 #: ../../Behavioral/Memento/README.rst:7
 msgid ""
-"It provides the ability to restore an object to it's previous state (undo"
-" via rollback) or to gain access to state of the object, without "
-"revealing it's implementation (i.e., the object is not required to have a"
-" functional for return the current state)."
+"It provides the ability to restore an object to it's previous state (undo " 
+"via rollback) or to gain access to state of the object, without revealing "
+"it's implementation (i.e., the object is not required to have a function "
+"to return the current state)."
 msgstr ""
 "Permette di ripristinare lo stato precedenti di un oggetto (annullamento tramite rollback) "
 "o di ottenere accesso allo stato di quest'ultimo senza rivelarne l'implementazione "
-"(ad esempio all'oggetto non è richiesta una funziona per restituire il suo stato corrente)."
+"(ad esempio all'oggetto non è richiesta una funziona per restituire "
+"il suo stato corrente)."
 
 #: ../../Behavioral/Memento/README.rst:12
 msgid ""

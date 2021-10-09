@@ -50,7 +50,7 @@ msgid ""
 msgstr ""
 "I metodi che restituisco un oggetto o null dovrebbero invece restituire l'oggetto o il "
 "``NullObject``. Questi ``NullObjects`` semplificano il codice cosicchè "
-"``if (!is_null($obj)) { $obj->callSomething() ; }`` con il seguente ``$obj->callSomething() ; ``"
+"``if (!is_null($obj)) { $obj->callSomething() ; }`` con il seguente ``$obj->callSomething() ;`` "
 "eliminado il controllo condizionale nel codice del client."
 
 #: ../../Behavioral/NullObject/README.rst:22
