@@ -25,7 +25,7 @@ msgid ""
 "To create series of related or dependent objects without specifying their "
 "concrete classes. Usually the created classes all implement the same "
 "interface. The client of the abstract factory does not care about how these "
-"objects are created, he just knows how they go together."
+"objects are created, it just knows how they go together."
 msgstr ""
 "Crea una serie di oggetti correlati o dipendenti tra loro senza specificare le loro"
 "classe concrete. Solitamente le classi create implementano tutte la medesima interfaccia. "
@@ -42,7 +42,7 @@ msgstr "Codice"
 
 #: ../../Creational/AbstractFactory/README.rst:22
 msgid "You can also find this code on `GitHub`_"
-msgstr "Vous pouvez également trouver ce code sur `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
 
 #: ../../Creational/AbstractFactory/README.rst:85
 msgid "Test"
