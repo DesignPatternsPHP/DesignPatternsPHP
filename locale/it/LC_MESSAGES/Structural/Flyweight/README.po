@@ -30,9 +30,9 @@ msgid ""
 msgstr ""
 "Per minimizzare l'utilizzo della memoria, il Flyweight condivide quanta più "
 "memoria possibile con oggetti simili. Diventa necessario quando un sono utilizzati "
-"un grande ammontare di oggetti i cui stati non differiscono di molto. Una pratica comune consiste "
-"nel preservare lo stato in una struttura dati e passarla al flyweight quando è necessario."
-"Flyweight en cas de besoin."
+"un grande ammontare di oggetti i cui stati non differiscono di molto. Una pratica comune "
+"consiste nel preservare lo stato in una struttura dati e passarla al flyweight "
+"quando è necessario."
 
 #: ../../Structural/Flyweight/README.rst:13
 msgid "UML Diagram"

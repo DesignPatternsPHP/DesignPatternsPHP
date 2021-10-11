@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:16
 msgid "a Spam filter"
-msgstr "Un filtro anti spam"
+msgstr "Un filtro anti spam."
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:17
 msgid ""
@@ -51,7 +51,7 @@ msgid ""
 "\"misses\" it delegates the call to the database interface"
 msgstr ""
 "Caching : il primo oggetto è un istanza ad esempio dell'interfaccia Memcached,"
-" la quale se fa \"miss\", delega la chiamata ad un terfaccia del database."
+" la quale se fa \"miss\", delega la chiamata ad un'interfaccia del database."
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:13
 msgid "UML Diagram"

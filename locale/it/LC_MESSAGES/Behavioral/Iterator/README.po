@@ -46,7 +46,7 @@ msgid ""
 "suited for this! Often you would want to implement the Countable interface "
 "too, to allow ``count($object)`` on your iterable object"
 msgstr ""
-"La libreria standard di PHP (SPL) definisce un interfaccia Iterator che è ideale"
+"La libreria standard di PHP (SPL) definisce un'interfaccia Iterator che è ideale"
 "per applicare il pattern! Spesso si implementa anche l'intefaccia Countable "
 "così da poter chiamare count($object) sul vostro oggetto iterabili."
 

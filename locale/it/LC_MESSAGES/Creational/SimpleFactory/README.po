@@ -22,23 +22,17 @@ msgstr "Scopo"
 
 #: ../../Creational/SimpleFactory/README.rst:7
 msgid "SimpleFactory is a simple factory pattern."
-msgstr "SimpleFactory è un semplice factory pattern"
+msgstr "SimpleFactory è un semplice factory pattern."
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
-"It differs from the static factory because it is NOT static and as you know:"
-" static => global => evil!"
+"It differs from the static factory because it is not static. Therefore, you can have multiple factories, "
+"differently parameterized, you can subclass it and you can mock it. It always should be preferred "
+"over a static factory!"
 msgstr ""
-"Differisce dalla static factory perchè NON è statico e come dovreste sapere:"
-" static => global => male!"
-
-#: ../../Creational/SimpleFactory/README.rst:12
-msgid ""
-"Therefore, you can have multiple factories, differently parametrized, you "
-"can subclass it and you can mock-up it."
-msgstr ""
-"Inoltre potete avere factory multiple, parametrizzate in maniera diversa, "
-"dalle quali creare delle sottoclassi da cui poter creare degli oggetti mock"
+"Differisce dalla static factory perchè non è statico. Inoltre, potete avere factory multiple "
+"parametrizzate differentemente, creare delle sottoclassi e degli oggetti mock. Dovrebbe essere sempre "
+"preferia rispetto alla factory statica!"
 
 #: ../../Creational/SimpleFactory/README.rst:13
 msgid "UML Diagram"
