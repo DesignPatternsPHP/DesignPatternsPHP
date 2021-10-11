@@ -5,7 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: manueldose <metallica_462@hotmail.com>\n"
+"Language: es\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,11 +14,11 @@ msgstr ""
 
 #: ../../Behavioral/Visitor/README.rst:2
 msgid "`Visitor`__"
-msgstr ""
+msgstr "`Visitor`__"
 
 #: ../../Behavioral/Visitor/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Propósito"
 
 #: ../../Behavioral/Visitor/README.rst:7
 msgid ""
@@ -26,6 +27,10 @@ msgid ""
 " classes have to define a contract to allow visitors (the ``Role::accept`` "
 "method in the example)."
 msgstr ""
+"El patrón Visitor le permite subcontratar las operaciones en objetos "
+"a otros objetos. La razón principal para hacerlo es mantener una separación de "
+"cometidos. Pero las clases tienen que definir un contrato para permitir a los visitantes"
+"(el método ``Role::accept`` es un ejemplo)."
 
 #: ../../Behavioral/Visitor/README.rst:12
 msgid ""
@@ -33,14 +38,17 @@ msgid ""
 "In that case, each Visitor has to choose itself which method to invoke on "
 "the visitor."
 msgstr ""
+"El contrato es una clase abstracta, pero también puede tener una interfaz "
+"limpia. En ese caso, cada Visitante tiene que elegir por sí mismo qué "
+"método invocar en el visitante."
 
 #: ../../Behavioral/Visitor/README.rst:17
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Behavioral/Visitor/README.rst:24
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Behavioral/Visitor/README.rst:26
 msgid "You can also find this code on `GitHub`_"
@@ -48,4 +56,4 @@ msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Behavioral/Visitor/README.rst:59
 msgid "Test"
-msgstr ""
+msgstr "Test"

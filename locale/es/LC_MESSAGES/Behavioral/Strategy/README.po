@@ -5,7 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: manueldose <metallica_462@hotmail.com>\n"
+"Language: es\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,27 +14,27 @@ msgstr ""
 
 #: ../../Behavioral/Strategy/README.rst:2
 msgid "`Strategy`__"
-msgstr ""
+msgstr "`Strategy`__"
 
 #: ../../Behavioral/Strategy/README.rst:5
 msgid "Terminology:"
-msgstr ""
+msgstr "Terminología"
 
 #: ../../Behavioral/Strategy/README.rst:7
 msgid "Context"
-msgstr ""
+msgstr "Contexto"
 
 #: ../../Behavioral/Strategy/README.rst:8
 msgid "Strategy"
-msgstr ""
+msgstr "Estrategia"
 
 #: ../../Behavioral/Strategy/README.rst:9
 msgid "Concrete Strategy"
-msgstr ""
+msgstr "Estrategia Concreta"
 
 #: ../../Behavioral/Strategy/README.rst:12
 msgid "Purpose"
-msgstr ""
+msgstr "Propósito"
 
 #: ../../Behavioral/Strategy/README.rst:14
 msgid ""
@@ -41,27 +42,31 @@ msgid ""
 "pattern is a good alternative to inheritance (instead of having an abstract "
 "class that is extended)."
 msgstr ""
+"Para separar estrategias y permitir un cambio rápido entre ellas. "
+"Además, este patrón es una buena alternativa a la herencia (en lugar "
+"de tener una clase abstracta que se extiende)."
 
 #: ../../Behavioral/Strategy/README.rst:19
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: ../../Behavioral/Strategy/README.rst:21
 msgid "sorting a list of objects, one strategy by date, the other by id"
-msgstr ""
+msgstr "ordenar una lista de objetos, una estrategia por fecha, la otra por id"
 
 #: ../../Behavioral/Strategy/README.rst:22
 msgid ""
 "simplify unit testing: e.g. switching between file and in-memory storage"
 msgstr ""
+"simplificar las pruebas unitarias: p. ej. cambiar entre archivo y almacenamiento en memoria"
 
 #: ../../Behavioral/Strategy/README.rst:26
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Behavioral/Strategy/README.rst:33
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Behavioral/Strategy/README.rst:35
 msgid "You can also find this code on `GitHub`_"
@@ -69,4 +74,4 @@ msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Behavioral/Strategy/README.rst:62
 msgid "Test"
-msgstr ""
+msgstr "Test"

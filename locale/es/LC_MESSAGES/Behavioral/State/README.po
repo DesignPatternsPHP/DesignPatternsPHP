@@ -5,7 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: manueldose <metallica_462@hotmail.com>\n"
+"Language: es\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,11 +14,11 @@ msgstr ""
 
 #: ../../Behavioral/State/README.rst:2
 msgid "`State`__"
-msgstr ""
+msgstr "`State`__"
 
 #: ../../Behavioral/State/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Propósito"
 
 #: ../../Behavioral/State/README.rst:7
 msgid ""
@@ -25,14 +26,18 @@ msgid ""
 "state. This can be a cleaner way for an object to change its behavior at "
 "runtime without resorting to large monolithic conditional statements."
 msgstr ""
+"Encapsula el comportamiento variable de la misma rutina en función del " 
+"estado de un objeto. Esta puede ser una forma más limpia para que un "
+"objeto cambie su comportamiento en tiempo de ejecución sin tener que "
+"recurrir a declaraciones condicionales monolíticas de gran tamaño"
 
 #: ../../Behavioral/State/README.rst:12
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../Behavioral/State/README.rst:19
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../Behavioral/State/README.rst:21
 msgid "You can also find this code on `GitHub`_"
@@ -40,4 +45,4 @@ msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Behavioral/State/README.rst:54
 msgid "Test"
-msgstr ""
+msgstr "Test"

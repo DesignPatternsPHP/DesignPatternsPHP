@@ -5,7 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: manueldose <metallica_462@hotmail.com>\n"
+"Language: es\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,11 +14,11 @@ msgstr ""
 
 #: ../../More/Repository/README.rst:2
 msgid "Repository"
-msgstr ""
+msgstr "Repositorio"
 
 #: ../../More/Repository/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "Propósito"
 
 #: ../../More/Repository/README.rst:7
 msgid ""
@@ -28,28 +29,36 @@ msgid ""
 "also supports the objective of achieving a clean separation and one-way "
 "dependency between the domain and data mapping layers."
 msgstr ""
+"Media entre el dominio y las capas de mapeo de datos utilizando una interfaz "
+"similar a una colección para acceder a los objetos del dominio. El repositorio "
+"encapsula el conjunto de objetos persistentes en un almacén de datos y las operaciones "
+"que se realizan sobre ellos, lo que proporciona una vista más orientada a objetos de la "
+"capa de persistencia. El repositorio también respalda el objetivo de lograr una separación "
+"limpia y una dependencia unidireccional entre el dominio y las capas de mapeo de datos."
 
 #: ../../More/Repository/README.rst:16
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: ../../More/Repository/README.rst:18
 msgid ""
 "Doctrine 2 ORM: there is Repository that mediates between Entity and DBAL "
 "and contains methods to retrieve objects"
 msgstr ""
+"Doctrine 2 ORM: hay un Repositorio que media entre Entity y DBAL y contiene "
+"métodos para recuperar objetos"
 
 #: ../../More/Repository/README.rst:20
 msgid "Laravel Framework"
-msgstr ""
+msgstr "Framework Laravel"
 
 #: ../../More/Repository/README.rst:23
 msgid "UML Diagram"
-msgstr ""
+msgstr "Diagrama UML"
 
 #: ../../More/Repository/README.rst:30
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: ../../More/Repository/README.rst:32
 msgid "You can also find this code on `GitHub`_"
@@ -57,4 +66,4 @@ msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../More/Repository/README.rst:59
 msgid "Test"
-msgstr ""
+msgstr "Test"
