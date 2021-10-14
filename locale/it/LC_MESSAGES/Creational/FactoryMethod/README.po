@@ -22,15 +22,15 @@ msgstr "Scopo"
 
 #: ../../Creational/FactoryMethod/README.rst:7
 msgid ""
-"The good point over the SimpleFactory is you can subclass it to implement "
-"different ways to create objects."
+"The good point over the SimpleFactory is you can subclass it to "
+"implement different ways to create objects."
 msgstr ""
 "Un vantaggio rispetto al SimpleFactory è che puoi creare delle sottoclassi "
-"per diverfificare la creazione degli oggetti."
+"per diversificare la creazione degli oggetti."
 
 #: ../../Creational/FactoryMethod/README.rst:10
-msgid "For simple case, this abstract class could be just an interface."
-msgstr "Per casi semplici, questa classe astratta può essere anche solo un interfaccia."
+msgid "For simple cases, this abstract class could be just an interface."
+msgstr "Per casi semplici, questa classe astratta può essere anche solo un'interfaccia."
 
 #: ../../Creational/FactoryMethod/README.rst:12
 msgid ""
@@ -46,7 +46,7 @@ msgid ""
 "It means the FactoryMethod class depends on abstractions, not concrete "
 "classes. This is the real trick compared to SimpleFactory or StaticFactory."
 msgstr ""
-"Significa le il FactoryMethod dipende dalle astrazioni e non sulle classi concrete. "
+"Significa che il FactoryMethod dipende dalle astrazioni e non sulle classi concrete. "
 "Questo è il principale vantaggio rispetto alla SimpleFactory o StaticFactory."
 
 #: ../../Creational/FactoryMethod/README.rst:13
@@ -59,7 +59,7 @@ msgstr "Codice"
 
 #: ../../Creational/FactoryMethod/README.rst:22
 msgid "You can also find this code on `GitHub`_"
-msgstr "Puoi trovare questo codice su`GitHub`_"
+msgstr "Potete trovare questo codice su`GitHub`_"
 
 #: ../../Creational/FactoryMethod/README.rst:85
 msgid "Test"

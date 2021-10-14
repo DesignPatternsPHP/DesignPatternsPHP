@@ -40,7 +40,7 @@ msgid ""
 "class is not called by subclasses but the inverse. How? With abstraction of "
 "course."
 msgstr ""
-"Per esempio \"il principio di Hollywood\" : \"Non chiamarci, ti chiameremo.\" "
+"Detto anche \"il principio di Hollywood\" : \"Non chiamarci, ti chiameremo.\" "
 "Questa classe non è chiamata dalle sottoclassi ma succede il contrario. In che modo? "
 "Con l'astrazione naturalmente."
 

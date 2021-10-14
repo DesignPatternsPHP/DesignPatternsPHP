@@ -25,7 +25,7 @@ msgid ""
 "To implement a loosely coupled architecture in order to get better testable,"
 " maintainable and extendable code."
 msgstr ""
-"Implementare un'earchitettura con basso accoppiamento affinchè il codice sia meglio "
+"Implementare un'architettura con basso accoppiamento affinchè il codice sia meglio "
 "testabile, manutenibile ed estensibile."
 
 #: ../../Structural/DependencyInjection/README.rst:11
@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "``DatabaseConfiguration`` è iniettata e ``DatabaseConnexion`` otterrà tutto quello di cui "
 "necessita da ``$config``. Senza DI, la configurazione sarebbe stata creata "
-"direttamente dentro ``DatabaseConnexion`` la quale non sarebbe stata facile per da testare ed estendere."
+"direttamente dentro ``DatabaseConnexion`` la quale non sarebbe stata facile da testare ed estendere."
 
 #: ../../Structural/DependencyInjection/README.rst:26
 msgid "Examples"
@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "L'ORM Doctrine2 utilizza questo pattern per la configurazione che è  "
 "iniettata nell'oggetto ``Connection``. Per il testing, si può facilmente "
-"creare un oggetto mock di configurazione iniettarlo nell'oggetto ``Connection``."
+"creare un oggetto mock di configurazione iniettandolo nell'oggetto ``Connection``."
 
 #: ../../Structural/DependencyInjection/README.rst:32
 msgid ""

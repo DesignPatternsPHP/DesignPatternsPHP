@@ -35,7 +35,7 @@ msgid ""
 "actually apply to a given entity is relatively modest."
 msgstr ""
 "Il modello Entity–attribute–value (EAV) descrive entità dove il numero di attributi "
-"(proprietà, parametri) può essere utilizzato per descriverli è vasto ma il numero che "
+"(proprietà, parametri) che può essere utilizzato per descriverli è vasto ma il numero che "
 "sarà attualmente applicato alla data entità è relativamente modesto."
 
 #: ../../More/EAV/README.rst:15

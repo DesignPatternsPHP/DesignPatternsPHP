@@ -12,11 +12,11 @@ msgstr ""
 "Language-Team: \n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: ../../Creational/SimpleFactory/README.rst:2
+#: ../../Creational/SimpleFactory/README.rst:1
 msgid "Simple Factory"
 msgstr "Simple Factory"
 
-#: ../../Creational/SimpleFactory/README.rst:5
+#: ../../Creational/SimpleFactory/README.rst:4
 msgid "Purpose"
 msgstr "Scopo"
 
@@ -26,13 +26,13 @@ msgstr "SimpleFactory è un semplice factory pattern."
 
 #: ../../Creational/SimpleFactory/README.rst:9
 msgid ""
-"It differs from the static factory because it is not static. Therefore, you can have multiple factories, "
-"differently parameterized, you can subclass it and you can mock it. It always should be preferred "
-"over a static factory!"
+"It differs from the static factory because it is not static. "
+"Therefore, you can have multiple factories, differently parameterized, you can subclass it and you can mock it. "
+"It always should be preferred over a static factory!"
 msgstr ""
 "Differisce dalla static factory perchè non è statico. Inoltre, potete avere factory multiple "
 "parametrizzate differentemente, creare delle sottoclassi e degli oggetti mock. Dovrebbe essere sempre "
-"preferia rispetto alla factory statica!"
+"preferita rispetto alla factory statica!"
 
 #: ../../Creational/SimpleFactory/README.rst:13
 msgid "UML Diagram"

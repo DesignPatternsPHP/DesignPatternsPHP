@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../Creational/Singleton/README.rst:19
 msgid "Lock file for the application (there is only one in the filesystem ...)"
-msgstr "Blocca il file per l'pplicazione (ce ne è un'unica nel filesystem ...)"
+msgstr "Blocca il file per l'applicazione (ce ne è un'unica nel filesystem ...)"
 
 #: ../../Creational/Singleton/README.rst:13
 msgid "UML Diagram"
@@ -63,7 +63,7 @@ msgstr "Codice"
 
 #: ../../Creational/Singleton/README.rst:22
 msgid "You can also find this code on `GitHub`_"
-msgstr "Potete trovare il codice anche su `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
 
 #: ../../Creational/Singleton/README.rst:85
 msgid "Test"

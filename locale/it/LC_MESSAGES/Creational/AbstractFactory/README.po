@@ -22,14 +22,14 @@ msgstr "Scopo"
 
 #: ../../Creational/AbstractFactory/README.rst:7
 msgid ""
-"To create series of related or dependent objects without specifying their "
-"concrete classes. Usually the created classes all implement the same "
-"interface. The client of the abstract factory does not care about how these "
-"objects are created, it just knows how they go together."
+"To create series of related or dependent objects without specifying "
+"their concrete classes. Usually the created classes all implement the "
+"same interface. The client of the abstract factory does not care about "
+"how these objects are created, it just knows how they go together."
 msgstr ""
-"Crea una serie di oggetti correlati o dipendenti tra loro senza specificare le loro"
-"classe concrete. Solitamente le classi create implementano tutte la medesima interfaccia. "
-"Il client che usa l' Abstract Factory non conosce come questi oggetti vengano creati ma "
+"Crea una serie di oggetti correlati o dipendenti tra loro senza specificare le loro "
+"classi concrete. Solitamente le classi create implementano tutte la medesima interfaccia. "
+"Il client che usa l'Abstract Factory non conosce come questi oggetti vengano creati ma "
 "solamente come vanno assemblati insieme."
 
 #: ../../Creational/AbstractFactory/README.rst:13

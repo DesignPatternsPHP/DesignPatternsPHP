@@ -23,7 +23,7 @@ msgstr "Scopo"
 #: ../../Structural/Proxy/README.rst:7
 msgid "To interface to anything that is expensive or impossible to duplicate."
 msgstr ""
-"Creare un interfaccia per qualunque cosa sia onerosa o impossibile da duplicare."
+"Creare un'interfaccia per qualunque cosa sia onerosa o impossibile da duplicare."
 
 #: ../../Structural/Proxy/README.rst:10
 msgid "Examples"

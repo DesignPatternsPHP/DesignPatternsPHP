@@ -22,7 +22,7 @@ msgstr "Scopo"
 
 #: ../../Behavioral/Command/README.rst:7
 msgid "To encapsulate invocation and decoupling."
-msgstr "Incapsulare l'invocazione e il disaccoppiamento"
+msgstr "Incapsulare l'invocazione e il disaccoppiamento."
 
 #: ../../Behavioral/Command/README.rst:9
 msgid ""
@@ -53,7 +53,8 @@ msgstr "Esempi"
 
 #: ../../Behavioral/Command/README.rst:23
 msgid ""
-"A text editor : all events are commands which can be undone, stacked and saved."
+"A text editor : all events are commands which can be undone, stacked "
+"and saved."
 msgstr ""
 "Un editor di testo: tutti gli eventi sono Command i quali possono essere annullati, "
 "impilati e salvati."
@@ -65,7 +66,7 @@ msgid ""
 " vagrant)"
 msgstr ""
 "Alcuni strumenti da riga di comando utilizzano sottocomandi per distribuire diversi task e "
-"impacchettarli in \"moduli\" ognino dei quali implementato con il pattern Command "
+"impacchettarli in \"moduli\" ognuno dei quali implementato con il pattern Command "
 "(come ad esempio Vagrant)."
 
 #: ../../Behavioral/Command/README.rst:13

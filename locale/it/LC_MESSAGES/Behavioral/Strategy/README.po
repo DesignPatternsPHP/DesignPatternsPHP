@@ -57,7 +57,7 @@ msgstr "Ordinare una lista di oggetti, una strategia per data, un'altra per id"
 msgid ""
 "simplify unit testing: e.g. switching between file and in-memory storage"
 msgstr ""
-"Semplificare i test di unità: ad esempio scambiare tra persitesta su file o in memoria"
+"Semplificare i test di unità: ad esempio scambiare tra persistenza su file o in memoria"
 
 #: ../../Behavioral/Strategy/README.rst:13
 msgid "UML Diagram"

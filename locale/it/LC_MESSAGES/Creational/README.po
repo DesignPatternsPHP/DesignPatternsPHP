@@ -14,7 +14,7 @@ msgstr ""
 
 #: ../../Creational/README.rst:2
 msgid "`Creational`__"
-msgstr "`Creazionale`__"
+msgstr "`Creazionali`__"
 
 #: ../../Creational/README.rst:4
 msgid ""
@@ -25,6 +25,6 @@ msgid ""
 "patterns solve this problem by somehow controlling this object creation."
 msgstr ""
 "In ingegneria del software, un design pattern creazionale si occupa della creazione "
-"di oggetti in base al contesto. Quando si crea un oggetto con teniche basilari,"
+"di oggetti in base al contesto. Quando si crea un oggetto con tecniche basilari,"
 "si può incorrere nell'aumento della complessità del design. I pattern creazionali  "
 "risolvono questo problema controllando in qualche modo la creazione di questo oggetto."

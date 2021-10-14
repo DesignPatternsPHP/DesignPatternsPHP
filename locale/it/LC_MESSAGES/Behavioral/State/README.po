@@ -26,7 +26,7 @@ msgid ""
 "state. This can be a cleaner way for an object to change its behavior at "
 "runtime without resorting to large monolithic conditional statements."
 msgstr ""
-"Incapsulare compotamenti differenti per la medesima routine basata sullo stato di un oggetto. "
+"Incapsulare comportamenti differenti per la medesima routine basata sullo stato di un oggetto. "
 "Può essere una maniera pulita per un oggetto di cambiare il suo comportamento a tempo di esecuzione "
 "evitando un monolite di espressioni condizionali."
 

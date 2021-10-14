@@ -22,7 +22,7 @@ msgstr "Scopo"
 
 #: ../../Creational/Builder/README.rst:7
 msgid "Builder is an interface that build parts of a complex object."
-msgstr "Un Builder è un'interfaccia che construisce un parti di un oggetto complesso"
+msgstr "Un Builder è un'interfaccia che costruisce le parti di un oggetto complesso"
 
 #: ../../Creational/Builder/README.rst:9
 msgid ""
