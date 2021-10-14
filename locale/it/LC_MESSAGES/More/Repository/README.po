@@ -31,7 +31,7 @@ msgstr ""
 "Assume il ruolo di mediatore tra il dominio e il mapping dei dati utilizzando "
 "un'interfaccia che opera su collezioni di oggetti. Il repository incapsula l'insieme "
 "degli oggetti persistenti e le specifiche operazioni in un data store fornendo un'esperienza "
-"più orientata sgli oggetti dello strato di persistenza. Il repository ha anche come obiettivo "
+"più orientata agli oggetti dello strato di persistenza. Il repository ha anche come obiettivo "
 "quello di avere una netta separazione e una dipendenza unidirezionale tra il dominio e il mapping dei dati."
 
 #: ../../More/Repository/README.rst:16

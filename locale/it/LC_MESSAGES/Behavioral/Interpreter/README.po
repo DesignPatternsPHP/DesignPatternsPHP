@@ -1,0 +1,55 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 12:18+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Last-Translator: didacus <diequito93@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../Behavioral/Interpreter/README.rst:2
+msgid "`Interpreter`__"
+msgstr "`Interpreter`__"
+
+#: ../../Behavioral/Interpreter/README.rst:5
+msgid "Purpose"
+msgstr "Scopo"
+
+#: ../../Behavioral/Interpreter/README.rst:7
+msgid ""
+"For a given language, it defines the representation of its grammar as "
+"\"No Terminal Expression\" and \"Terminal Expression\", "
+"as well as an interpreter for the sentences of that language."
+msgstr ""
+"Per un dato linguaggio, definisce la rappresentazione della sua grammatica come "
+"\"Espressioni non terminali\" ed \"Espressioni Terminali\" ",
+"così come un interprete per le frasi di quel linguaggio."
+
+#: ../../Behavioral/Interpreter/README.rst:12
+msgid "Examples"
+msgstr "Esempi"
+
+#: ../../Behavioral/Interpreter/README.rst:14
+msgid "An example of a binary logic interpreter, each definition is defined by its own class"
+msgstr "Un esempio di interprete binario, dove ogni termine è definito dalla propria classe."
+
+#: ../../Behavioral/Interpreter/README.rst:17
+msgid "UML Diagram"
+msgstr "Diagramma UML"
+
+#: ../../Behavioral/Interpreter/README.rst:24
+msgid "Code"
+msgstr "Codice"
+
+#: ../../Behavioral/Interpreter/README.rst:25
+msgid "You can also find this code on `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
+
+#: ../../Behavioral/Interpreter/README.rst:62
+msgid "Test"
+msgstr "Test"

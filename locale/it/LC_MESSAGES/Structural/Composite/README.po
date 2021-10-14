@@ -36,8 +36,8 @@ msgid ""
 "of the form, when ``render()`` is called, it subsequently runs through all "
 "its child elements and calls ``render()`` on them"
 msgstr ""
-"Un'instanza di una form gestisce i suoi elementi come se fossero "
-"un tutt'uno con la form. Quando il metodo``render()`` della form viene chiamato, "
+"Un'istanza di una form gestisce i suoi elementi come se fossero "
+"un tutt'uno con la form. Quando il metodo ``render()`` della form viene chiamato, "
 "ogni suo figlio chiama il metodo ``render()`` su sè stesso."
 
 #: ../../Structural/Composite/README.rst:13
@@ -50,7 +50,7 @@ msgstr "Codice"
 
 #: ../../Structural/Composite/README.rst:22
 msgid "You can also find this code on `GitHub`_"
-msgstr "Potete trovare il codice anche su `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
 
 #: ../../Structural/Composite/README.rst:85
 msgid "Test"

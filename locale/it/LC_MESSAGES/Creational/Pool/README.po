@@ -29,7 +29,7 @@ msgstr ""
 "oggetti e li tiene pronti all'uso all'interno di una – \"pool\" –  invece di"
 "allocarli e deallocarli su richiesta. Il client che usa la pool richiederà un oggetto "
 "al suo interno su cui effettuare delle operazioni. Una volta che ha concluso l'oggetto, "
-"il quale è un tipo particolare di factory, sarà restiutito alla pool invece che distrutto."
+"il quale è un tipo particolare di factory, sarà restituito alla pool invece che distrutto."
 
 
 #: ../../Creational/Pool/README.rst:11
@@ -41,9 +41,9 @@ msgid ""
 "new objects (especially over network) may take variable time."
 msgstr ""
 "Il pooling degli oggetti può offrire un aumento delle prestazioni significative in situazioni "
-"dove il costo per inizializzare un'instanza di una classe è alto, la percentuale di istanziazione "
-"è alta e il numero di instanze in uno in qualune momento è basso. L'oggetto ottento dalla pool "
-"ha tempi prevedibili quando la creazione di nuove oggetti (soprattuto in rete) richiede del tempo."
+"dove il costo per inizializzare un'istanza di una classe è alto, la percentuale di istanziazione "
+"è alta e il numero di istanze in uso in qualune momento è basso. L'oggetto ottenuto dalla pool "
+"ha tempi prevedibili quando la creazione di nuovi oggetti (soprattuto in rete) richiede del tempo."
 
 #: ../../Creational/Pool/README.rst:18
 msgid ""
@@ -55,7 +55,7 @@ msgid ""
 msgstr ""
 "Tuttavia questi benefici valgono per oggetti che impiegano tempo per essere creati "
 "come connessioni alla base di dati, socket, thread e oggetti come font e bitmap. "
-"In alcune situazioni il semplice pooling degli oggetti (ovvvero non mantengono risorse esterne "
+"In alcune situazioni il semplice pooling degli oggetti (ovvero non mantengono risorse esterne "
 "ma occupano solo memoria) può non essere efficiente e far calare le prestazioni."
 
 #: ../../Creational/Pool/README.rst:13
@@ -68,7 +68,7 @@ msgstr "Codice"
 
 #: ../../Creational/Pool/README.rst:22
 msgid "You can also find this code on `GitHub`_"
-msgstr "Potete trovare il codice anche su `GitHub`_"
+msgstr "Potete trovare questo codice anche su `GitHub`_"
 
 #: ../../Creational/Pool/README.rst:85
 msgid "Test"

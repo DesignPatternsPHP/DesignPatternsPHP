@@ -26,7 +26,7 @@ msgid ""
 "independently."
 msgstr ""
 "Disaccoppiare un'astrazione dalla sua implemententazione cosi che possano variare in "
-"in maniera indipendente"
+"in maniera indipendente."
 
 #: ../../Structural/Bridge/README.rst:13
 msgid "UML Diagram"

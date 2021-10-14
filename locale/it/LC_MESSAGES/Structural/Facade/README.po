@@ -40,11 +40,11 @@ msgstr ""
 
 #: ../../Structural/Facade/README.rst:15
 msgid "A facade does not forbid you the access to the sub-system"
-msgstr "Una facade non proibisce di accedere al sottosistema"
+msgstr "Un facade non proibisce di accedere al sottosistema"
 
 #: ../../Structural/Facade/README.rst:16
 msgid "You can (you should) have multiple facades for one sub-system"
-msgstr "Si possono avere facede multiple per un unico sottosistema"
+msgstr "Si possono avere facade multiple per un unico sottosistema"
 
 #: ../../Structural/Facade/README.rst:18
 msgid ""

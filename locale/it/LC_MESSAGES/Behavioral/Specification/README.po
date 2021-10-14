@@ -28,8 +28,8 @@ msgid ""
 " given object satisfies the specification."
 msgstr ""
 "Costruire una specifica chiara delle logiche di business, che gli oggetti chiamati devono rispettare. "
-"La classe che implementa la specifcia ha un metodo chiamato ``isSatisfiedBy`` che restituisce "
-"vero o falso se il dato oggetti rispetta la soecifica."
+"La classe che implementa la specifica ha un metodo chiamato ``isSatisfiedBy`` che restituisce "
+"vero o falso se il dato oggetto rispetta la specifica."
 
 #: ../../Behavioral/Specification/README.rst:13
 msgid "Examples"

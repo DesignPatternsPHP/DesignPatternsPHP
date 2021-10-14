@@ -31,7 +31,7 @@ msgstr ""
 "Il Service Locator è considerato per alcune persone come un anti-pattern. "
 "Viola il principio di inversione delle dipendenze. Il service locator nasconde "
 "le dipendenze delle classi invece di esporle come si farebbe utilizzando la Dependency Injection. "
-"Nel caso di cambiamenti di queste dipendenze ricschiate di rompere le funzionalità "
+"Nel caso di cambiamenti di queste dipendenze rischiate di rompere le funzionalità "
 "delle classi che state utilizzando, rendendo il vostro sistema difficile da manutenere."
 
 #: ../../More/ServiceLocator/README.rst:5
@@ -44,9 +44,9 @@ msgid ""
 " maintainable and extendable code. DI pattern and Service Locator pattern "
 "are an implementation of the Inverse of Control pattern."
 msgstr ""
-"Implementare un architettura a basso accoppiamento in modo da ottenere codice "
+"Implementare un'architettura a basso accoppiamento in modo da ottenere codice "
 "più testabile, manutenibile ed estendibile. Questo pattern e il DI sono implementazioni "
-"del pattern di invesione del controllo."
+"del pattern di inversione del controllo."
 
 #: ../../More/ServiceLocator/README.rst:12
 msgid "Usage"

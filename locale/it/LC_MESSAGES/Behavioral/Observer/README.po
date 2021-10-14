@@ -39,7 +39,7 @@ msgstr "Esempi"
 msgid ""
 "a message queue system is observed to show the progress of a job in a GUI"
 msgstr ""
-"Una coda di messaggi è psservata per mostrare l'avanzamento di un task in una GUI"
+"Una coda di messaggi è osservata per mostrare l'avanzamento di un task in una GUI"
 
 #: ../../Behavioral/Observer/README.rst:19
 msgid "Note"

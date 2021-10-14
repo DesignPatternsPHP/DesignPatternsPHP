@@ -18,7 +18,7 @@ msgstr "`Mediator`__"
 
 #: ../../Behavioral/Mediator/README.rst:5
 msgid "Purpose"
-msgstr "Rôle"
+msgstr "Scopo"
 
 #: ../../Behavioral/Mediator/README.rst:7
 msgid ""
@@ -37,7 +37,7 @@ msgid ""
 "This is the key-feature of this pattern."
 msgstr ""
 "Tutti i componenti (chiamati Colleghi) sono accoppiati unicamente dall'intefaccia del Mediatore "
-"ed è una buona cosa in quanto nella programmazione OO. un buon amico è meglio di tanti. "
+"ed è una buona cosa in quanto nella programmazione OO, un buon amico è meglio di tanti. "
 "Questa è la caratteristica chiave di questo pattern."
 
 #: ../../Behavioral/Mediator/README.rst:13

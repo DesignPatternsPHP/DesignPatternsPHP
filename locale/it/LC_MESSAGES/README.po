@@ -42,7 +42,7 @@ msgid ""
 "click on **the title of every pattern's page** for a full explanation of the "
 "pattern on Wikipedia."
 msgstr ""
-"I pattern possono essere strutturati approsimativamente in tre differenti categorie. Per favore "
+"I pattern possono essere strutturati approssimativamente in tre differenti categorie. Per favore "
 "clicca su **il titolo della pagina di ciascun pattern** per una spiegazione completa del "
 "pattern su Wikipedia."
 
@@ -58,7 +58,7 @@ msgid ""
 "standard`_ using ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``."
 msgstr ""
 "Sei libero di clonare, estendere o aggiungere i tuoi esempi personali e "
-"mandare una pull request con i tuoi cambiamenti ! Per ottenere del codice consistente e di qualità, "
+"mandare una pull request con i tuoi cambiamenti! Per ottenere del codice consistente e di qualità, "
 "controllatelo utilizzando `PHP CodeSniffer`_ con `PSR2 "
 "standard`_ tramite il comando ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``."
 
@@ -68,7 +68,7 @@ msgstr "Licenza"
 
 #: ../../README.rst:46
 msgid "(The MIT License)"
-msgstr "(The MIT License)"
+msgstr "(Licenza MIT)"
 
 #: ../../README.rst:48
 msgid "Copyright (c) 2011 - 2016 `Dominik Liebler`_ and `contributors`_"

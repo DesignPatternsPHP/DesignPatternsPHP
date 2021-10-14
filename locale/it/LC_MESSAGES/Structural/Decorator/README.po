@@ -22,7 +22,7 @@ msgstr "Scopo"
 
 #: ../../Structural/Decorator/README.rst:7
 msgid "To dynamically add new functionality to class instances."
-msgstr "Aggiungere dinamicamente nuove funzionalità a istanze di classi"
+msgstr "Aggiungere dinamicamente nuove funzionalità a istanze di classi."
 
 #: ../../Structural/Decorator/README.rst:10
 msgid "Examples"
