@@ -8,8 +8,8 @@ class Word implements Text
     {
     }
 
-    public function render(string $font): string
+    public function render(string $extrinsicState): string
     {
-        return sprintf('Word %s with font %s', $this->name, $font);
+        return sprintf('Word %s with font %s', $this->name, $extrinsicState);
     }
 }
