@@ -18,8 +18,7 @@
         "phpunit/phpunit": "^9",
         "squizlabs/php_codesniffer": "^3",
         "vimeo/psalm": "^4",
-        "psalm/plugin-phpunit": "*",
-        "rector/rector": "*"
+        "psalm/plugin-phpunit": "*"
     },
     "autoload": {
         "classmap": ["Behavioral", "Creational", "Structural", "More"]
