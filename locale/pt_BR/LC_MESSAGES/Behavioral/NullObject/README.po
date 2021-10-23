@@ -1,11 +1,11 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: 2019-04-11 12:30-0300\n"
-"Last-Translator: Pablo Juan Garcia <contato@pablogarcia.com.br>\n"
+"PO-Revision-Date: 2021-10-22 01:03-0300\n"
+"Last-Translator: Geidson Benício Coelho <geidsonc@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -60,7 +60,7 @@ msgstr "Exemplos"
 
 #: ../../Behavioral/NullObject/README.rst:24
 msgid "Null logger or null output to preserve a standard way of interaction between objects, even if the shouldn't do anything"
-msgstr ""
+msgstr "Log nulo ou saída nula para preservar uma forma padrão de interação entre objetos, mesmo que não devam fazer nada"
 
 #: ../../Behavioral/NullObject/README.rst:26
 msgid "null handler in a Chain of Responsibilities pattern"
