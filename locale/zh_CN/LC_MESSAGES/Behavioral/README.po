@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Behavioral/README.rst:2
 msgid "`Behavioral`__"
-msgstr ""
+msgstr "`行为型设计模式`__"
 
 #: ../../Behavioral/README.rst:4
 msgid ""
@@ -22,3 +22,5 @@ msgid ""
 "patterns. By doing so, these patterns increase flexibility in carrying out "
 "this communication."
 msgstr ""
+"在软件工程中，行为设计模式是识别对象之间的通用通信模式并实现这些模式的设计模式。"
+"通过这样做，这些模式增加了执行这种通信的灵活性。"
