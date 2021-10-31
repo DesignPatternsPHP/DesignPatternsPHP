@@ -13,11 +13,11 @@ msgstr ""
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:2
 msgid "`Chain Of Responsibilities`__"
-msgstr ""
+msgstr "`责任链模式`__"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:5
-msgid "Purpose:"
-msgstr ""
+msgid "Purpose"
+msgstr "目的"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:7
 msgid ""
@@ -25,39 +25,45 @@ msgid ""
 "object cannot handle a call, it delegates the call to the next in the chain "
 "and so forth."
 msgstr ""
+"创建一个按顺序处理调用的对象链。"
+"如果一个对象不能处理调用，"
+"它将把调用委托给链中的下一个对象，以此类推。"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:12
-msgid "Examples:"
-msgstr ""
+msgid "Examples"
+msgstr "例子"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:14
 msgid ""
 "logging framework, where each chain element decides autonomously what to do "
 "with a log message"
 msgstr ""
+"日志框架，其中每个链元素自主决定如何处理日志信息"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:16
 msgid "a Spam filter"
 msgstr ""
+"垃圾邮件过滤器"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:17
 msgid ""
 "Caching: first object is an instance of e.g. a Memcached Interface, if that "
 "\"misses\" it delegates the call to the database interface"
 msgstr ""
+"缓存：第一个对象是一个例如Memcached的接口，如果“没有命中”它则委托调用数据库的接口"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:25
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:32
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:34
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "在 `GitHub`_ 上查看代码"
 
 #: ../../Behavioral/ChainOfResponsibilities/README.rst:61
 msgid "Test"
-msgstr ""
+msgstr "测试"
