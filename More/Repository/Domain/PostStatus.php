@@ -53,7 +53,7 @@ class PostStatus
 
     /**
      * there is a reason that I avoid using __toString() as it operates outside of the stack in PHP
-     * and is therefor not able to operate well with exceptions
+     * and is therefore not able to operate well with exceptions
      */
     public function toString(): string
     {
