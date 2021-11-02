@@ -47,13 +47,15 @@ msgstr ""
 
 #: ../../Behavioral/Command/README.rst:21
 msgid "Examples"
-msgstr ""
+msgstr "例子"
 
 #: ../../Behavioral/Command/README.rst:23
 msgid ""
 "A text editor : all events are Command which can be undone, stacked and "
 "saved."
 msgstr ""
+"文本编辑器：所有事件都可以撤销、堆放、保存的"
+"命令。"
 
 #: ../../Behavioral/Command/README.rst:27
 msgid ""
@@ -61,19 +63,21 @@ msgid ""
 "\"modules\", each of these can be implemented with the Command pattern (e.g."
 " vagrant)"
 msgstr ""
+"大型CLI工具使用子命令来分发各种任务，并将它们打包到【模块】，"
+"每个模块都可以用命令行模式实现例如【vagrant】。"
 
 #: ../../Behavioral/Command/README.rst:32
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Behavioral/Command/README.rst:39
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Behavioral/Command/README.rst:41
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "在 `GitHub`_ 上查看代码"
 
 #: ../../Behavioral/Command/README.rst:68
 msgid "Test"
-msgstr ""
+msgstr "测试"
