@@ -1,0 +1,55 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 12:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: David Wan <autoloadone@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Behavioral/Interpreter/README.rst:2
+msgid "`Interpreter`__"
+msgstr "`解释器模式`__"
+
+#: ../../Behavioral/Interpreter/README.rst:5
+msgid "Purpose"
+msgstr "目的"
+
+#: ../../Behavioral/Interpreter/README.rst:7
+msgid ""
+"For a given language, it defines the representation of its grammar as "
+"\"No Terminal Expression" and \"Terminal Expression", "
+"as well as an interpreter for the sentences of that language."
+msgstr ""
+"对于给定的语言，它定义了其语法的表示为【非终结符表达式】和【终结符达式】，"
+"以及改语言的句子解释器。"
+
+#: ../../Behavioral/Interpreter/README.rst:12
+msgid "Examples"
+msgstr "例子"
+
+#: ../../Behavioral/Interpreter/README.rst:14
+msgid ""
+"An example of a binary logic interpreter, each definition is defined by its own class"
+msgstr ""
+"一个二进制逻辑解释器的例子，每个定义都是由它自己的类定义的"
+
+#: ../../Behavioral/Interpreter/README.rst:17
+msgid "UML Diagram"
+msgstr "UML 图"
+
+#: ../../Behavioral/Interpreter/README.rst:24
+msgid "Code"
+msgstr "代码"
+
+#: ../../Behavioral/Interpreter/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "在 `GitHub`_ 上查看代码"
+
+#: ../../Behavioral/Interpreter/README.rst:62
+msgid "Test"
+msgstr "测试"
