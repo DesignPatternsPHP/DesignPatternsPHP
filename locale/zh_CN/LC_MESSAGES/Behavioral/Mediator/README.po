@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: David Wan <autoloadone@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,11 +13,11 @@ msgstr ""
 
 #: ../../Behavioral/Mediator/README.rst:2
 msgid "`Mediator`__"
-msgstr ""
+msgstr "`中介者模式`__"
 
 #: ../../Behavioral/Mediator/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../Behavioral/Mediator/README.rst:7
 msgid ""
@@ -25,6 +25,9 @@ msgid ""
 "together. It is a good alternative to Observer IF you have a \"central "
 "intelligence\", like a controller (but not in the sense of the MVC)."
 msgstr ""
+"这种模式提供了一种简单的解耦多组件之间的协同工作方式。"
+"如果你有一个“智能中心”，比如控制器（但不是 MVC 的意义上），"
+"它是观察者的一个很好的替代品。"
 
 #: ../../Behavioral/Mediator/README.rst:11
 msgid ""
@@ -32,19 +35,22 @@ msgid ""
 "and it is a good thing because in OOP, one good friend is better than many. "
 "This is the key-feature of this pattern."
 msgstr ""
+"所有组件（称为同事）仅与 Mediator 接口耦合，"
+"这是一件好事，因为在 OOP 中，一个好朋友胜过多个。"
+"这是这种模式的关键特征。"
 
 #: ../../Behavioral/Mediator/README.rst:16
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Behavioral/Mediator/README.rst:23
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Behavioral/Mediator/README.rst:25
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "在 `GitHub`_ 上查看代码"
 
 #: ../../Behavioral/Mediator/README.rst:64
 msgid "Test"
-msgstr ""
+msgstr "测试"

@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Behavioral/Iterator/README.rst:2
 msgid "`Iterator`__"
-msgstr "迭代器模式"
+msgstr "`迭代器模式`__"
 
 #: ../../Behavioral/Iterator/README.rst:5
 msgid "Purpose"
