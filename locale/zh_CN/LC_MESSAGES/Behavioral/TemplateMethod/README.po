@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: David Wan <autoloadone@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,15 +13,15 @@ msgstr ""
 
 #: ../../Behavioral/TemplateMethod/README.rst:2
 msgid "`Template Method`__"
-msgstr ""
+msgstr "`模板方法模式`__"
 
 #: ../../Behavioral/TemplateMethod/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../Behavioral/TemplateMethod/README.rst:7
 msgid "Template Method is a behavioral design pattern."
-msgstr ""
+msgstr "模板方法是一种行为设计模式。"
 
 #: ../../Behavioral/TemplateMethod/README.rst:9
 msgid ""
@@ -29,6 +29,8 @@ msgid ""
 "subclasses of this abstract template \"finish\" the behavior of an "
 "algorithm."
 msgstr ""
+"你可能已经遇到过很多次了。"
+"它的思想是让这个抽象模板的子类【完成】算法的行为策略。"
 
 #: ../../Behavioral/TemplateMethod/README.rst:13
 msgid ""
@@ -36,6 +38,8 @@ msgid ""
 "class is not called by subclasses but the inverse. How? With abstraction of "
 "course."
 msgstr ""
+"也就是【好莱坞原则】：【别打给我们，我们打给你】。"
+"这个类不是由子类调用的，而是由相反的子类调用的。怎么样？当然是抽象的。"
 
 #: ../../Behavioral/TemplateMethod/README.rst:17
 msgid ""
@@ -43,25 +47,29 @@ msgid ""
 "libraries. The user has just to implement one method and the superclass do "
 "the job."
 msgstr ""
+"换句话说，这是一个算法框架，非常适合框架库。"
+"用户只需要实现一个方法，超类就可以完成这项工作。"
 
 #: ../../Behavioral/TemplateMethod/README.rst:21
 msgid ""
 "It is an easy way to decouple concrete classes and reduce copy-paste, that's"
 " why you'll find it everywhere."
 msgstr ""
+"它是解耦具体类和减少复制黏贴的一种简单方法，"
+"这就是为什么你会发现它无处不在。"
 
 #: ../../Behavioral/TemplateMethod/README.rst:25
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Behavioral/TemplateMethod/README.rst:32
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Behavioral/TemplateMethod/README.rst:34
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "在 `GitHub`_ 上查看代码"
 
 #: ../../Behavioral/TemplateMethod/README.rst:55
 msgid "Test"
-msgstr ""
+msgstr "测试"
