@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-03 23:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: David Wan <autoloadone@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -20,25 +20,28 @@ msgstr ""
 
 #: ../../Behavioral/Memento/README.rst:2
 msgid "`Memento`__"
-msgstr ""
+msgstr "`备忘录模式`__"
 
 #: ../../Behavioral/Memento/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../Behavioral/Memento/README.rst:7
 msgid ""
-"It provides the ability to restore an object to it's previous state (undo"
-" via rollback) or to gain access to state of the object, without "
-"revealing it's implementation (i.e., the object is not required to have a"
-" functional for return the current state)."
+"It provides the ability to restore an object to it's previous state (undo "
+"via rollback) or to gain access to state of the object, without revealing "
+"it's implementation (i.e., the object is not required to have a function "
+"to return the current state)."
 msgstr ""
+"它提供了将对象恢复到之前状态（通过回滚撤销）或访问对象状态的能力，"
+"而不需要揭示它的实现（对象不需要具有返回当前状态的函数）。"
 
 #: ../../Behavioral/Memento/README.rst:12
 msgid ""
 "The memento pattern is implemented with three objects: the Originator, a "
 "Caretaker and a Memento."
 msgstr ""
+"memento模式由三个对象实现：Originator, Caretaker, Memento。"
 
 #: ../../Behavioral/Memento/README.rst:15
 msgid ""
@@ -51,6 +54,11 @@ msgid ""
 "reference* to the original object. The Memento object is a \"opaque "
 "object\" (the object that no one can or should change)."
 msgstr ""
+"Memento – 包含任何对象或资源状态的具体唯一快照的对象：字符串、数字、数组、"
+"类的实例等。 这种情况下的唯一性并不意味着禁止在不同的快照中存在相似的状态。 "
+"这意味着可以将状态提取为独立克隆。 存储在 Memento 中的任何对象都应该是原始对"
+"象的完整副本，而不是对原始对象的引用。 Memento 对象是一个“不透明对象”"
+"（没有人可以或不应该更改的对象）。"
 
 #: ../../Behavioral/Memento/README.rst:24
 msgid ""
@@ -63,6 +71,11 @@ msgid ""
 "type of object. Originator may (but not should) have any methods, but "
 "they *they can't make changes to the saved object state*."
 msgstr ""
+"Originator—它是一个包含外部对象实际状态的对象，是严格指定的类型。"
+"Originator能够创建此状态的唯一副本，并将其包裹在Memento中返回。 "
+"Originator不知道变化的历史。 您可以从外部将具体状态设置为Originator，"
+"这将被视为实际状态。 Originator必须确保给定的状态对应于允许的对象类型。"
+"Originator可能（但不应该）有任何方法，但他们不能对保存的对象状态进行更改。"
 
 #: ../../Behavioral/Memento/README.rst:33
 msgid ""
@@ -71,38 +84,41 @@ msgid ""
 "Originator; ask from the Originator snapshot of the current state; or set"
 " the Originator state to equivalence with some snapshot from history."
 msgstr ""
+"Caretaker控制着状态的历史。 他可以对一个对象进行更改； 决定在Originator中保存外部对象的状态；"
+"从当前状态的Originator快照中询问； 或将Originator状态设置为与历史记录中的某些快照等效。"
 
 #: ../../Behavioral/Memento/README.rst:39
 msgid "Examples"
-msgstr ""
+msgstr "例子"
 
 #: ../../Behavioral/Memento/README.rst:41
 msgid "The seed of a pseudorandom number generator"
-msgstr ""
+msgstr "发送一个随机数"
 
 #: ../../Behavioral/Memento/README.rst:42
 msgid "The state in a finite state machine"
-msgstr ""
+msgstr "并将这个随机数存在时序机中"
 
 #: ../../Behavioral/Memento/README.rst:43
 msgid ""
 "Control for intermediate states of `ORM Model "
 "<http://en.wikipedia.org/wiki/Object-relational_mapping>`_ before saving"
 msgstr ""
+"保存之前控制  ORM Model  中的状态"
 
 #: ../../Behavioral/Memento/README.rst:46
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Behavioral/Memento/README.rst:53
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Behavioral/Memento/README.rst:55
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "在 `GitHub`_ 上查看代码"
 
 #: ../../Behavioral/Memento/README.rst:76
 msgid "Test"
-msgstr ""
+msgstr "测试"
 

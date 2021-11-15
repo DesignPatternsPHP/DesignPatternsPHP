@@ -51,11 +51,9 @@ msgstr "例子"
 
 #: ../../Behavioral/Command/README.rst:23
 msgid ""
-"A text editor : all events are Command which can be undone, stacked and "
-"saved."
+"A text editor : all events are commands which can be undone, stacked and saved."
 msgstr ""
-"文本编辑器：所有事件都可以撤销、堆放、保存的"
-"命令。"
+"文本编辑器：所有事件都可以撤销、堆放、保存的命令。"
 
 #: ../../Behavioral/Command/README.rst:27
 msgid ""

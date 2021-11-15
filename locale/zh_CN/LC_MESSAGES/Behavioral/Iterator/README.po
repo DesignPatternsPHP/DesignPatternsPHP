@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: David Wan <autoloadone@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,18 +13,18 @@ msgstr ""
 
 #: ../../Behavioral/Iterator/README.rst:2
 msgid "`Iterator`__"
-msgstr ""
+msgstr "`迭代器模式`__"
 
 #: ../../Behavioral/Iterator/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../Behavioral/Iterator/README.rst:7
 msgid "To make an object iterable and to make it appear like a collection of objects."
-msgstr ""
+msgstr "使一个对象可迭代，并使它看起来像对象集合。"
 
 #: ../../Behavioral/Iterator/README.rst:11
-msgid "Examples"
+msgid "例子"
 msgstr ""
 
 #: ../../Behavioral/Iterator/README.rst:13
@@ -32,10 +32,11 @@ msgid ""
 "to process a file line by line by just running over all lines (which have an"
 " object representation) for a file (which of course is an object, too)"
 msgstr ""
+"通过遍历文件的所有行（对象表现形式的）来逐行处理文件（也是对象)"
 
 #: ../../Behavioral/Iterator/README.rst:18
 msgid "Note"
-msgstr ""
+msgstr "注意"
 
 #: ../../Behavioral/Iterator/README.rst:20
 msgid ""
@@ -43,19 +44,21 @@ msgid ""
 "suited for this! Often you would want to implement the Countable interface "
 "too, to allow ``count($object)`` on your iterable object"
 msgstr ""
+"标准PHP库(SPL)定义了一个最适合这种模式的接口迭代器! "
+"通常也要实现Countable接口，允许在iterable对象上使用count($object)"
 
 #: ../../Behavioral/Iterator/README.rst:25
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Behavioral/Iterator/README.rst:32
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Behavioral/Iterator/README.rst:34
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "在 `GitHub`_ 上查看代码"
 
 #: ../../Behavioral/Iterator/README.rst:61
 msgid "Test"
-msgstr ""
+msgstr "测试"

@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: David Wan <autoloadone@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,11 +13,11 @@ msgstr ""
 
 #: ../../Behavioral/Visitor/README.rst:2
 msgid "`Visitor`__"
-msgstr ""
+msgstr "`访问者模式`__"
 
 #: ../../Behavioral/Visitor/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../Behavioral/Visitor/README.rst:7
 msgid ""
@@ -26,6 +26,9 @@ msgid ""
 " classes have to define a contract to allow visitors (the ``Role::accept`` "
 "method in the example)."
 msgstr ""
+"访问者模式允许将对象上的操作外包给其他对象。"
+"这样做的主要原因是保持关注数据结构和数据操作的分离。"
+"但是类必须定义一个允许访问的契约(示例中的Role::accept方法)。"
 
 #: ../../Behavioral/Visitor/README.rst:12
 msgid ""
@@ -33,19 +36,21 @@ msgid ""
 "In that case, each Visitor has to choose itself which method to invoke on "
 "the visitor."
 msgstr ""
+"契约是一个抽象类，但你也可以就是一个接口。"
+"在这种情况下，每个Visitor必须自己选择要调用哪个方法。"
 
 #: ../../Behavioral/Visitor/README.rst:17
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML 图"
 
 #: ../../Behavioral/Visitor/README.rst:24
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../Behavioral/Visitor/README.rst:26
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "在 `GitHub`_ 上查看代码"
 
 #: ../../Behavioral/Visitor/README.rst:59
 msgid "Test"
-msgstr ""
+msgstr "测试"
