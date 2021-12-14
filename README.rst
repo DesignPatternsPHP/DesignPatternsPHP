@@ -1,3 +1,7 @@
+.. meta::
+   :description: a collection of known design patterns along with implementations in PHP8
+   :keywords: design patterns, php, best practices
+
 .. DesignPatternsPHP
 
 =================
@@ -16,7 +20,7 @@ DesignPatternsPHP
    :target: https://paypal.me/DominikLiebler
    :alt: Donate
 
-This is a collection of known `design patterns`_ and some sample code how
+This is a collection of known design patterns and some sample code how
 to implement them in PHP. Every pattern has a small list of examples.
 
 I think the problem with patterns is that often people do know them but

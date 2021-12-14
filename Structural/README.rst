@@ -1,3 +1,7 @@
+.. meta::
+   :description: a collection of structural design patterns along with implementations in PHP8
+   :keywords: design patterns, php, structural, best practices
+
 `Structural`__
 ==============
 

@@ -1,3 +1,7 @@
+.. meta::
+   :description: a collection of creational design patterns along with implementations in PHP8
+   :keywords: design patterns, php, creational, best practices
+
 `Creational`__
 ==============
 

@@ -1,3 +1,7 @@
+.. meta::
+   :description: a collection of behavioral design patterns along with implementations in PHP8
+   :keywords: design patterns, php, behavioral, best practices
+
 `Behavioral`__
 ==============
 
