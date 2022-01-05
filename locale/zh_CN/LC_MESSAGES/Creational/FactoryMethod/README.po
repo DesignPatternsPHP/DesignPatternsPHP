@@ -4,12 +4,12 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-01-05 20:02+0800\n"
+"Last-Translator: Aspirant Zhang <admin@aspirantzhang.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
 
 #: ../../Creational/FactoryMethod/README.rst:2
 msgid "`Factory Method`__"
@@ -24,26 +24,28 @@ msgid ""
 "The good point over the SimpleFactory is you can subclass it to implement different ways to create "
 "objects."
 msgstr ""
-"比简单工厂模式好的一点是工厂方法可以通过继承实现不同的创建对象的逻辑。"
+"相比 简单工厂模式（SimpleFactory）而言，工厂方法模式（Factory Method）可以通过延伸出子类，实现用不同的方法创建对象。"
 
 #: ../../Creational/FactoryMethod/README.rst:10
 msgid "For simple cases, this abstract class could be just an interface."
 msgstr ""
-"举个简单的例子，这些抽象类都仅仅是一个接口"
+"对于比较简单的情况，这个抽象类可能只是一个接口。"
 
 #: ../../Creational/FactoryMethod/README.rst:12
 msgid ""
 "This pattern is a \"real\" Design Pattern because it achieves the "
 "Dependency Inversion principle a.k.a the \"D\" in SOLID principles."
 msgstr ""
-"这个模式是一个 \"真正\" 的设计模式，因为它遵循了依赖反转原则（Dependency Inversion Principle） 众所周知这个 \"D\" 代表了真正的面向对象程序设计。"
+"这是一个 \"真正\" 的设计模式，因为它遵循了\"依赖反转原则（Dependency Inversion Principle）\" 。"
+"也就是 SOLID 原则中的\"D\"。"
 
 #: ../../Creational/FactoryMethod/README.rst:15
 msgid ""
 "It means the FactoryMethod class depends on abstractions, not concrete "
 "classes. This is the real trick compared to SimpleFactory or StaticFactory."
 msgstr ""
-"它意味着工厂方法类依赖于类的抽象，而不是具体将被创建的类，这是工厂方法模式与简单工厂模式和静态工厂模式最重要的区别"
+"这意味着工厂方法实现的类依赖于类的抽象，而不是具体的类。"
+"这也是 工厂方法模式 与 简单工厂模式 和 静态工厂模式 之间最重要的区别。"
 
 #: ../../Creational/FactoryMethod/README.rst:20
 msgid "UML Diagram"
