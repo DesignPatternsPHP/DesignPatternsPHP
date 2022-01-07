@@ -4,12 +4,12 @@ msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-29 12:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-01-07 14:40+0800\n"
+"Last-Translator: Aspirant Zhang <admin@aspirantzhang.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
 
 #: ../../Creational/Builder/README.rst:2
 msgid "`Builder`__"
@@ -21,29 +21,28 @@ msgstr "目的"
 
 #: ../../Creational/Builder/README.rst:7
 msgid "Builder is an interface that build parts of a complex object."
-msgstr "生成器的目的是将复杂对象的创建过程（流程）进行抽象，生成器表现为接口的形式。"
+msgstr "生成器模式（Builder，或称建造者模式）是一个接口，用于构建复杂对象的各个部分。"
 
 #: ../../Creational/Builder/README.rst:9
 msgid ""
 "Sometimes, if the builder has a better knowledge of what it builds, this "
 "interface could be an abstract class with default methods (aka adapter)."
 msgstr ""
-"在特定的情况下，比如如果生成器对将要创建的对象有足够多的了解，那么代表生成器的接口(interface)可以是"
-"一个抽象类(也就是说可以有一定的具体实现，就像众所周知的适配器模式)。"
+"在某些情况下，如果生成器对其构建的内容有很好的了解，那么这个接口可以是一个抽象类，并会有一个默认方法（也称适配器）。"
 
 #: ../../Creational/Builder/README.rst:12
 msgid ""
 "If you have a complex inheritance tree for objects, it is logical to have a "
 "complex inheritance tree for builders too."
 msgstr ""
-"如果对象有复杂的继承树，理论上创建对象的生成器也同样具有复杂的继承树。"
+"如果对象具有复杂的继承结构，那么按照的正常逻辑，生成器也应该有一个复杂的继承结构。"
 
 #: ../../Creational/Builder/README.rst:15
 msgid ""
 "Note: Builders have often a fluent interface, see the mock builder of "
 "PHPUnit for example."
 msgstr ""
-"提示：生成器通常具有流畅的接口，推荐阅读关于 PHPUnit 的mock生成器获取更好的理解。"
+"注意：生成器通常有都有一个完善的接口，例如 PHPUnit 的模拟生成器（Mock Builder）。"
 
 #: ../../Creational/Builder/README.rst:19
 msgid "Examples"
@@ -52,7 +51,7 @@ msgstr "例子"
 #: ../../Creational/Builder/README.rst:21
 msgid "PHPUnit: Mock Builder"
 msgstr ""
-"PHPUnit: Mock 生成器"
+"PHPUnit: 模拟生成器（Mock Builder）"
 
 #: ../../Creational/Builder/README.rst:24
 msgid "UML Diagram"
