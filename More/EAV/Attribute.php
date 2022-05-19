@@ -15,7 +15,7 @@ class Attribute implements \Stringable
         $this->values = new SplObjectStorage();
     }
 
-    public function addValue(Value $value)
+    public function addValue(Value $value): void
     {
         $this->values->attach($value);
     }
