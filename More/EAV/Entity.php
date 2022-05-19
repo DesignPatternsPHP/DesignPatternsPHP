@@ -16,7 +16,7 @@ class Entity implements \Stringable
     /**
      * @param Value[] $values
      */
-    public function __construct(private string $name, $values)
+    public function __construct(private string $name, array $values)
     {
         $this->values = new SplObjectStorage();
 
