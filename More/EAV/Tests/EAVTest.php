@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 
 class EAVTest extends TestCase
 {
-    public function testCanAddAttributeToEntity()
+    public function testCanAddAttributeToEntity(): void
     {
         $colorAttribute = new Attribute('color');
         $colorSilver = new Value($colorAttribute, 'silver');
