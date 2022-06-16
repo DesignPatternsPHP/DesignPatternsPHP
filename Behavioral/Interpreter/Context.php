@@ -12,7 +12,7 @@ class Context
 
     public function lookUp(string $name): bool
     {
-        if (!key_exists($name, $this->poolVariable)) {
+        if (!array_key_exists($name, $this->poolVariable)) {
             throw new Exception("no exist variable: $name");
         }
 

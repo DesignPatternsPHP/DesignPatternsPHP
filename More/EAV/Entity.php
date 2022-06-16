@@ -33,6 +33,6 @@ class Entity implements \Stringable
             $text[] = (string) $value;
         }
 
-        return join(', ', $text);
+        return implode(', ', $text);
     }
 }

@@ -27,7 +27,7 @@ class Receiver
 
     public function getOutput(): string
     {
-        return join("\n", $this->output);
+        return implode("\n", $this->output);
     }
 
     /**

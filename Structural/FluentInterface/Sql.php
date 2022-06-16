@@ -35,9 +35,9 @@ class Sql implements \Stringable
     {
         return sprintf(
             'SELECT %s FROM %s WHERE %s',
-            join(', ', $this->fields),
-            join(', ', $this->from),
-            join(' AND ', $this->where)
+            implode(', ', $this->fields),
+            implode(', ', $this->from),
+            implode(' AND ', $this->where)
         );
     }
 }
