@@ -10,7 +10,7 @@ abstract class Service
     {
     }
 
-    public function setImplementation(Formatter $printer)
+    final public function setImplementation(Formatter $printer)
     {
         $this->implementation = $printer;
     }

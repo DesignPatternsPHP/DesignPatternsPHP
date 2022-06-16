@@ -58,7 +58,7 @@ abstract class Journey
     /**
      * @return string[]
      */
-    public function getThingsToDo(): array
+    final public function getThingsToDo(): array
     {
         return $this->thingsToDo;
     }
