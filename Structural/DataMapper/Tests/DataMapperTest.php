@@ -12,7 +12,7 @@ use PHPUnit\Framework\TestCase;
 
 class DataMapperTest extends TestCase
 {
-    public function testCanMapUserFromStorage()
+    public function testCanMapUserFromStorage(): void
     {
         $storage = new StorageAdapter([1 => ['username' => 'domnikl', 'email' => 'liebler.dominik@gmail.com']]);
         $mapper = new UserMapper($storage);
@@ -22,7 +22,7 @@ class DataMapperTest extends TestCase
         $this->assertInstanceOf(User::class, $user);
     }
 
-    public function testWillNotMapInvalidData()
+    public function testWillNotMapInvalidData(): void
     {
         $this->expectException(InvalidArgumentException::class);
 

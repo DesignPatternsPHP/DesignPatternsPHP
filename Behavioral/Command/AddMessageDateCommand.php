@@ -21,7 +21,7 @@ class AddMessageDateCommand implements UndoableCommand
     /**
      * Execute and make receiver to enable displaying messages date.
      */
-    public function execute()
+    public function execute(): void
     {
         // sometimes, there is no receiver and this is the command which
         // does all the work
@@ -31,7 +31,7 @@ class AddMessageDateCommand implements UndoableCommand
     /**
      * Undo the command and make receiver to disable displaying messages date.
      */
-    public function undo()
+    public function undo(): void
     {
         // sometimes, there is no receiver and this is the command which
         // does all the work

@@ -12,7 +12,7 @@ class UserRepositoryUiMediator implements Mediator
         $this->ui->setMediator($this);
     }
 
-    public function printInfoAbout(string $user)
+    public function printInfoAbout(string $user): void
     {
         $this->ui->outputUserInfo($user);
     }

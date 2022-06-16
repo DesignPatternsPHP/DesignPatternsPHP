@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 
 class AdapterTest extends TestCase
 {
-    public function testCanTurnPageOnBook()
+    public function testCanTurnPageOnBook(): void
     {
         $book = new PaperBook();
         $book->open();
@@ -20,7 +20,7 @@ class AdapterTest extends TestCase
         $this->assertSame(2, $book->getPage());
     }
 
-    public function testCanTurnPageOnKindleLikeInANormalBook()
+    public function testCanTurnPageOnKindleLikeInANormalBook(): void
     {
         $kindle = new Kindle();
         $book = new EBookAdapter($kindle);

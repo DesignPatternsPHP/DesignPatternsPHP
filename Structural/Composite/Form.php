@@ -32,7 +32,7 @@ class Form implements Renderable
         return $formCode . '</form>';
     }
 
-    public function addElement(Renderable $element)
+    public function addElement(Renderable $element): void
     {
         $this->elements[] = $element;
     }

@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 
 class CompositeTest extends TestCase
 {
-    public function testRender()
+    public function testRender(): void
     {
         $form = new Form();
         $form->addElement(new TextElement('Email:'));

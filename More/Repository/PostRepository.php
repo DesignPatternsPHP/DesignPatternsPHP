@@ -39,7 +39,7 @@ class PostRepository
         return Post::fromState($arrayData);
     }
 
-    public function save(Post $post)
+    public function save(Post $post): void
     {
         $this->persistence->persist([
             'id' => $post->getId()->toInt(),

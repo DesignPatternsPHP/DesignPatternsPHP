@@ -6,7 +6,7 @@ namespace DesignPatterns\Creational\FactoryMethod;
 
 class StdoutLogger implements Logger
 {
-    public function log(string $message)
+    public function log(string $message): void
     {
         echo $message;
     }

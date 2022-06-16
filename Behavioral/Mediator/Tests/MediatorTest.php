@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 
 class MediatorTest extends TestCase
 {
-    public function testOutputHelloWorld()
+    public function testOutputHelloWorld(): void
     {
         $mediator = new UserRepositoryUiMediator(new UserRepository(), new Ui());
 

@@ -31,7 +31,7 @@ class VisitorTest extends TestCase
     /**
      * @dataProvider provideRoles
      */
-    public function testVisitSomeRole(Role $role)
+    public function testVisitSomeRole(Role $role): void
     {
         $role->accept($this->visitor);
         $this->assertSame($role, $this->visitor->getVisited()[0]);

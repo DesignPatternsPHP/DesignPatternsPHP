@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class ProxyTest extends TestCase
 {
-    public function testProxyWillOnlyExecuteExpensiveGetBalanceOnce()
+    public function testProxyWillOnlyExecuteExpensiveGetBalanceOnce(): void
     {
         $bankAccount = new BankAccountProxy();
         $bankAccount->deposit(30);

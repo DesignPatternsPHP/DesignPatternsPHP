@@ -31,7 +31,7 @@ class PostId
         return $this->id;
     }
 
-    private static function ensureIsValid(int $id)
+    private static function ensureIsValid(int $id): void
     {
         if ($id <= 0) {
             throw new InvalidArgumentException('Invalid PostId given');

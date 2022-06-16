@@ -15,12 +15,12 @@ class BookList implements Countable, Iterator
     private array $books = [];
     private int $currentIndex = 0;
 
-    public function addBook(Book $book)
+    public function addBook(Book $book): void
     {
         $this->books[] = $book;
     }
 
-    public function removeBook(Book $bookToRemove)
+    public function removeBook(Book $bookToRemove): void
     {
         foreach ($this->books as $key => $book) {
             if ($book->getAuthorAndTitle() === $bookToRemove->getAuthorAndTitle()) {
@@ -46,12 +46,12 @@ class BookList implements Countable, Iterator
         return $this->currentIndex;
     }
 
-    public function next()
+    public function next(): void
     {
         $this->currentIndex++;
     }
 
-    public function rewind()
+    public function rewind(): void
     {
         $this->currentIndex = 0;
     }

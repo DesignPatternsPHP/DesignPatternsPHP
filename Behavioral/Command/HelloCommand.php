@@ -21,7 +21,7 @@ class HelloCommand implements Command
     /**
      * execute and output "Hello World".
      */
-    public function execute()
+    public function execute(): void
     {
         // sometimes, there is no receiver and this is the command which does all the work
         $this->output->write('Hello World');

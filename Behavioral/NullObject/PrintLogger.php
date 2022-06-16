@@ -6,7 +6,7 @@ namespace DesignPatterns\Behavioral\NullObject;
 
 class PrintLogger implements Logger
 {
-    public function log(string $str)
+    public function log(string $str): void
     {
         echo $str;
     }

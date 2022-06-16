@@ -16,7 +16,7 @@ class Invoker
      * in the invoker we find this kind of method for subscribing the command
      * There can be also a stack, a list, a fixed set ...
      */
-    public function setCommand(Command $cmd)
+    public function setCommand(Command $cmd): void
     {
         $this->command = $cmd;
     }
@@ -24,7 +24,7 @@ class Invoker
     /**
      * executes the command; the invoker is the same whatever is the command
      */
-    public function run()
+    public function run(): void
     {
         $this->command->execute();
     }

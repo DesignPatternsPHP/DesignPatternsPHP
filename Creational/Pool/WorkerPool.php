@@ -31,7 +31,7 @@ class WorkerPool implements Countable
         return $worker;
     }
 
-    public function dispose(StringReverseWorker $worker)
+    public function dispose(StringReverseWorker $worker): void
     {
         $key = spl_object_hash($worker);
 

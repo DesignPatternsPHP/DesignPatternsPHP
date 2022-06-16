@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 
 class DependencyInjectionTest extends TestCase
 {
-    public function testDependencyInjection()
+    public function testDependencyInjection(): void
     {
         $config = new DatabaseConfiguration('localhost', 3306, 'domnikl', '1234');
         $connection = new DatabaseConnection($config);

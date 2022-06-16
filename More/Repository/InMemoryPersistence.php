@@ -18,7 +18,7 @@ class InMemoryPersistence implements Persistence
         return $this->lastId;
     }
 
-    public function persist(array $data)
+    public function persist(array $data): void
     {
         $this->data[$this->lastId] = $data;
     }
@@ -32,7 +32,7 @@ class InMemoryPersistence implements Persistence
         return $this->data[$id];
     }
 
-    public function delete(int $id)
+    public function delete(int $id): void
     {
         if (!isset($this->data[$id])) {
             throw new OutOfBoundsException(sprintf('No data found for ID %d', $id));

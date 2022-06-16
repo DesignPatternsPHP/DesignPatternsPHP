@@ -23,7 +23,7 @@ class ChainTest extends TestCase
         );
     }
 
-    public function testCanRequestKeyInFastStorage()
+    public function testCanRequestKeyInFastStorage(): void
     {
         $uri = $this->createMock(UriInterface::class);
         $uri->method('getPath')->willReturn('/foo/bar');
@@ -37,7 +37,7 @@ class ChainTest extends TestCase
         $this->assertSame('Hello In Memory!', $this->chain->handle($request));
     }
 
-    public function testCanRequestKeyInSlowStorage()
+    public function testCanRequestKeyInSlowStorage(): void
     {
         $uri = $this->createMock(UriInterface::class);
         $uri->method('getPath')->willReturn('/foo/baz');

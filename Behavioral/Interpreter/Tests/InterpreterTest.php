@@ -25,7 +25,7 @@ class InterpreterTest extends TestCase
         $this->c = new VariableExp('C');
     }
 
-    public function testOr()
+    public function testOr(): void
     {
         $this->context->assign($this->a, false);
         $this->context->assign($this->b, false);
@@ -44,7 +44,7 @@ class InterpreterTest extends TestCase
         $this->assertTrue($result2, '(A ∨ B) ∨ C must true');
     }
 
-    public function testAnd()
+    public function testAnd(): void
     {
         $this->context->assign($this->a, true);
         $this->context->assign($this->b, true);

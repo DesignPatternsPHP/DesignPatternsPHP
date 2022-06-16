@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 
 class JourneyTest extends TestCase
 {
-    public function testCanGetOnVacationOnTheBeach()
+    public function testCanGetOnVacationOnTheBeach(): void
     {
         $beachJourney = new BeachJourney();
         $beachJourney->takeATrip();
@@ -21,7 +21,7 @@ class JourneyTest extends TestCase
         );
     }
 
-    public function testCanGetOnAJourneyToACity()
+    public function testCanGetOnAJourneyToACity(): void
     {
         $cityJourney = new CityJourney();
         $cityJourney->takeATrip();

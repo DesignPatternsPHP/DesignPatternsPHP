@@ -14,7 +14,7 @@ class FlyweightTest extends TestCase
 
     private array $fonts = ['Arial', 'Times New Roman', 'Verdana', 'Helvetica'];
 
-    public function testFlyweight()
+    public function testFlyweight(): void
     {
         $factory = new TextFactory();
 

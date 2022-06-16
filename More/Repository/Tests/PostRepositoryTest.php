@@ -21,12 +21,12 @@ class PostRepositoryTest extends TestCase
         $this->repository = new PostRepository(new InMemoryPersistence());
     }
 
-    public function testCanGenerateId()
+    public function testCanGenerateId(): void
     {
         $this->assertEquals(1, $this->repository->generateId()->toInt());
     }
 
-    public function testThrowsExceptionWhenTryingToFindPostWhichDoesNotExist()
+    public function testThrowsExceptionWhenTryingToFindPostWhichDoesNotExist(): void
     {
         $this->expectException(OutOfBoundsException::class);
         $this->expectExceptionMessage('Post with id 42 does not exist');
@@ -34,7 +34,7 @@ class PostRepositoryTest extends TestCase
         $this->repository->findById(PostId::fromInt(42));
     }
 
-    public function testCanPersistPostDraft()
+    public function testCanPersistPostDraft(): void
     {
         $postId = $this->repository->generateId();
         $post = Post::draft($postId, 'Repository Pattern', 'Design Patterns PHP');

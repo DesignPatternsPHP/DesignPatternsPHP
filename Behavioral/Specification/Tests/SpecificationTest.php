@@ -13,7 +13,7 @@ use PHPUnit\Framework\TestCase;
 
 class SpecificationTest extends TestCase
 {
-    public function testCanOr()
+    public function testCanOr(): void
     {
         $spec1 = new PriceSpecification(50, 99);
         $spec2 = new PriceSpecification(101, 200);
@@ -25,7 +25,7 @@ class SpecificationTest extends TestCase
         $this->assertTrue($orSpec->isSatisfiedBy(new Item(150)));
     }
 
-    public function testCanAnd()
+    public function testCanAnd(): void
     {
         $spec1 = new PriceSpecification(50, 100);
         $spec2 = new PriceSpecification(80, 200);
@@ -38,7 +38,7 @@ class SpecificationTest extends TestCase
         $this->assertTrue($andSpec->isSatisfiedBy(new Item(100)));
     }
 
-    public function testCanNot()
+    public function testCanNot(): void
     {
         $spec1 = new PriceSpecification(50, 100);
         $notSpec = new NotSpecification($spec1);

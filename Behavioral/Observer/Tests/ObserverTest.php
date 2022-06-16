@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 
 class ObserverTest extends TestCase
 {
-    public function testChangeInUserLeadsToUserObserverBeingNotified()
+    public function testChangeInUserLeadsToUserObserverBeingNotified(): void
     {
         $observer = new UserObserver();
 

@@ -12,7 +12,7 @@ use PHPUnit\Framework\TestCase;
 
 class UndoableCommandTest extends TestCase
 {
-    public function testInvocation()
+    public function testInvocation(): void
     {
         $invoker = new Invoker();
         $receiver = new Receiver();

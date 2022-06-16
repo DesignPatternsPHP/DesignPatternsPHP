@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 
 class SimpleFactoryTest extends TestCase
 {
-    public function testCanCreateBicycle()
+    public function testCanCreateBicycle(): void
     {
         $bicycle = (new SimpleFactory())->createBicycle();
         $this->assertInstanceOf(Bicycle::class, $bicycle);

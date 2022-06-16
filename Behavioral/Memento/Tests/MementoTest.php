@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 
 class MementoTest extends TestCase
 {
-    public function testOpenTicketAssignAndSetBackToOpen()
+    public function testOpenTicketAssignAndSetBackToOpen(): void
     {
         $ticket = new Ticket();
 

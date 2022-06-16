@@ -17,7 +17,7 @@ abstract class Journey
      * If you want to override this contract, make an interface with only takeATrip()
      * and subclass it.
      */
-    final public function takeATrip()
+    final public function takeATrip(): void
     {
         $this->thingsToDo[] = $this->buyAFlight();
         $this->thingsToDo[] = $this->takePlane();

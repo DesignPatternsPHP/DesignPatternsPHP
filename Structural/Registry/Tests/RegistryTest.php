@@ -18,14 +18,14 @@ class RegistryTest extends TestCase
         $this->service = $this->getMockBuilder(Service::class)->getMock();
     }
 
-    public function testSetAndGetLogger()
+    public function testSetAndGetLogger(): void
     {
         Registry::set(Registry::LOGGER, $this->service);
 
         $this->assertSame($this->service, Registry::get(Registry::LOGGER));
     }
 
-    public function testThrowsExceptionWhenTryingToSetInvalidKey()
+    public function testThrowsExceptionWhenTryingToSetInvalidKey(): void
     {
         $this->expectException(InvalidArgumentException::class);
 
@@ -39,7 +39,7 @@ class RegistryTest extends TestCase
      *
      * @runInSeparateProcess
      */
-    public function testThrowsExceptionWhenTryingToGetNotSetKey()
+    public function testThrowsExceptionWhenTryingToGetNotSetKey(): void
     {
         $this->expectException(InvalidArgumentException::class);
 

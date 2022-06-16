@@ -11,7 +11,7 @@ class HeavyBankAccount implements BankAccount
      */
     private array $transactions = [];
 
-    public function deposit(int $amount)
+    public function deposit(int $amount): void
     {
         $this->transactions[] = $amount;
     }

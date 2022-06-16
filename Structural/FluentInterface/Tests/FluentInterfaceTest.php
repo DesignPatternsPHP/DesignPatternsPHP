@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class FluentInterfaceTest extends TestCase
 {
-    public function testBuildSQL()
+    public function testBuildSQL(): void
     {
         $query = (new Sql())
                 ->select(['foo', 'bar'])

@@ -15,7 +15,7 @@ class User implements Role
         return sprintf('User %s', $this->name);
     }
 
-    public function accept(RoleVisitor $visitor)
+    public function accept(RoleVisitor $visitor): void
     {
         $visitor->visitUser($this);
     }

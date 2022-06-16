@@ -45,7 +45,7 @@ class StrategyTest extends TestCase
      * @param array $collection
      * @param array $expected
      */
-    public function testIdComparator($collection, $expected)
+    public function testIdComparator($collection, $expected): void
     {
         $obj = new Context(new IdComparator());
         $elements = $obj->executeStrategy($collection);
@@ -60,7 +60,7 @@ class StrategyTest extends TestCase
      * @param array $collection
      * @param array $expected
      */
-    public function testDateComparator($collection, $expected)
+    public function testDateComparator($collection, $expected): void
     {
         $obj = new Context(new DateComparator());
         $elements = $obj->executeStrategy($collection);

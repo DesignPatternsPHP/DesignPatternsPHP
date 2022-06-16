@@ -14,18 +14,18 @@ class TruckBuilder implements Builder
 {
     private Truck $truck;
 
-    public function addDoors()
+    public function addDoors(): void
     {
         $this->truck->setPart('rightDoor', new Door());
         $this->truck->setPart('leftDoor', new Door());
     }
 
-    public function addEngine()
+    public function addEngine(): void
     {
         $this->truck->setPart('truckEngine', new Engine());
     }
 
-    public function addWheel()
+    public function addWheel(): void
     {
         $this->truck->setPart('wheel1', new Wheel());
         $this->truck->setPart('wheel2', new Wheel());
@@ -35,7 +35,7 @@ class TruckBuilder implements Builder
         $this->truck->setPart('wheel6', new Wheel());
     }
 
-    public function createVehicle()
+    public function createVehicle(): void
     {
         $this->truck = new Truck();
     }

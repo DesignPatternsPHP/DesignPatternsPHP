@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class SingletonTest extends TestCase
 {
-    public function testUniqueness()
+    public function testUniqueness(): void
     {
         $firstCall = Singleton::getInstance();
         $secondCall = Singleton::getInstance();

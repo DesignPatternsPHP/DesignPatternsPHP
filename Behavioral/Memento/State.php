@@ -32,7 +32,7 @@ class State implements \Stringable
         $this->state = $state;
     }
 
-    private static function ensureIsValidState(string $state)
+    private static function ensureIsValidState(string $state): void
     {
         if (!in_array($state, self::$validStates)) {
             throw new InvalidArgumentException('Invalid state given');

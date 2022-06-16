@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 
 class PrototypeTest extends TestCase
 {
-    public function testCanGetFooBook()
+    public function testCanGetFooBook(): void
     {
         $fooPrototype = new FooBookPrototype();
         $barPrototype = new BarBookPrototype();

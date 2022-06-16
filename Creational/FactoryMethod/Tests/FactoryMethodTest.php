@@ -12,7 +12,7 @@ use PHPUnit\Framework\TestCase;
 
 class FactoryMethodTest extends TestCase
 {
-    public function testCanCreateStdoutLogging()
+    public function testCanCreateStdoutLogging(): void
     {
         $loggerFactory = new StdoutLoggerFactory();
         $logger = $loggerFactory->createLogger();
@@ -20,7 +20,7 @@ class FactoryMethodTest extends TestCase
         $this->assertInstanceOf(StdoutLogger::class, $logger);
     }
 
-    public function testCanCreateFileLogging()
+    public function testCanCreateFileLogging(): void
     {
         $loggerFactory = new FileLoggerFactory(sys_get_temp_dir());
         $logger = $loggerFactory->createLogger();

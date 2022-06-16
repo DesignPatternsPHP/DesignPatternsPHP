@@ -17,12 +17,12 @@ class EBookAdapter implements Book
     /**
      * This class makes the proper translation from one interface to another.
      */
-    public function open()
+    public function open(): void
     {
         $this->eBook->unlock();
     }
 
-    public function turnPage()
+    public function turnPage(): void
     {
         $this->eBook->pressNext();
     }

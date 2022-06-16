@@ -40,7 +40,7 @@ final class Singleton
     /**
      * prevent from being unserialized (which would create a second instance of it)
      */
-    public function __wakeup()
+    public function __wakeup(): void
     {
         throw new Exception("Cannot unserialize singleton");
     }

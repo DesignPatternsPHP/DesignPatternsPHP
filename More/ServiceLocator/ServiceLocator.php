@@ -19,12 +19,12 @@ class ServiceLocator
      */
     private array $instantiated = [];
 
-    public function addInstance(string $class, Service $service)
+    public function addInstance(string $class, Service $service): void
     {
         $this->instantiated[$class] = $service;
     }
 
-    public function addClass(string $class, array $params)
+    public function addClass(string $class, array $params): void
     {
         $this->services[$class] = $params;
     }

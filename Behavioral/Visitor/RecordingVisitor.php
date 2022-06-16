@@ -11,12 +11,12 @@ class RecordingVisitor implements RoleVisitor
      */
     private array $visited = [];
 
-    public function visitGroup(Group $role)
+    public function visitGroup(Group $role): void
     {
         $this->visited[] = $role;
     }
 
-    public function visitUser(User $role)
+    public function visitUser(User $role): void
     {
         $this->visited[] = $role;
     }

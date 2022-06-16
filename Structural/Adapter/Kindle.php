@@ -13,12 +13,12 @@ class Kindle implements EBook
     private int $page = 1;
     private int $totalPages = 100;
 
-    public function pressNext()
+    public function pressNext(): void
     {
         $this->page++;
     }
 
-    public function unlock()
+    public function unlock(): void
     {
     }
 

@@ -11,14 +11,14 @@ use PHPUnit\Framework\TestCase;
 
 class LoggerTest extends TestCase
 {
-    public function testNullObject()
+    public function testNullObject(): void
     {
         $service = new Service(new NullLogger());
         $this->expectOutputString('');
         $service->doSomething();
     }
 
-    public function testStandardLogger()
+    public function testStandardLogger(): void
     {
         $service = new Service(new PrintLogger());
         $this->expectOutputString('We are in DesignPatterns\Behavioral\NullObject\Service::doSomething');

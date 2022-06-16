@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 
 class CommandTest extends TestCase
 {
-    public function testInvocation()
+    public function testInvocation(): void
     {
         $invoker = new Invoker();
         $receiver = new Receiver();

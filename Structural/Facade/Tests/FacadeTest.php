@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 
 class FacadeTest extends TestCase
 {
-    public function testComputerOn()
+    public function testComputerOn(): void
     {
         $os = $this->createMock(OperatingSystem::class);
 

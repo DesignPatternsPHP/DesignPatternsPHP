@@ -15,7 +15,7 @@ class Group implements Role
         return sprintf('Group: %s', $this->name);
     }
 
-    public function accept(RoleVisitor $visitor)
+    public function accept(RoleVisitor $visitor): void
     {
         $visitor->visitGroup($this);
     }

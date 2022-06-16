@@ -16,12 +16,12 @@ class OrderContext
         return $order;
     }
 
-    public function setState(State $state)
+    public function setState(State $state): void
     {
         $this->state = $state;
     }
 
-    public function proceedToNext()
+    public function proceedToNext(): void
     {
         $this->state->proceedToNext($this);
     }

@@ -22,7 +22,7 @@ abstract class Registry
         self::LOGGER,
     ];
 
-    public static function set(string $key, Service $value)
+    public static function set(string $key, Service $value): void
     {
         if (!in_array($key, self::$allowedKeys)) {
             throw new InvalidArgumentException('Invalid key given');

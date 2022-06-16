@@ -17,7 +17,7 @@ class ServiceLocatorTest extends TestCase
         $this->serviceLocator = new ServiceLocator();
     }
 
-    public function testHasServices()
+    public function testHasServices(): void
     {
         $this->serviceLocator->addInstance(LogService::class, new LogService());
 
@@ -25,7 +25,7 @@ class ServiceLocatorTest extends TestCase
         $this->assertFalse($this->serviceLocator->has(self::class));
     }
 
-    public function testGetWillInstantiateLogServiceIfNoInstanceHasBeenCreatedYet()
+    public function testGetWillInstantiateLogServiceIfNoInstanceHasBeenCreatedYet(): void
     {
         $this->serviceLocator->addClass(LogService::class, []);
         $logger = $this->serviceLocator->get(LogService::class);

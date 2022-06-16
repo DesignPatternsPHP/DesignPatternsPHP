@@ -10,14 +10,14 @@ class Facade
     {
     }
 
-    public function turnOn()
+    public function turnOn(): void
     {
         $this->bios->execute();
         $this->bios->waitForKeyPress();
         $this->bios->launch($this->os);
     }
 
-    public function turnOff()
+    public function turnOff(): void
     {
         $this->os->halt();
         $this->bios->powerDown();

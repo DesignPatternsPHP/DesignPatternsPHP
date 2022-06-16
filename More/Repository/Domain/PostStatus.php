@@ -60,7 +60,7 @@ class PostStatus
         return $this->name;
     }
 
-    private static function ensureIsValidId(int $status)
+    private static function ensureIsValidId(int $status): void
     {
         if (!in_array($status, array_keys(self::$validStates), true)) {
             throw new InvalidArgumentException('Invalid status id given');
@@ -68,7 +68,7 @@ class PostStatus
     }
 
 
-    private static function ensureIsValidName(string $status)
+    private static function ensureIsValidName(string $status): void
     {
         if (!in_array($status, self::$validStates, true)) {
             throw new InvalidArgumentException('Invalid status name given');

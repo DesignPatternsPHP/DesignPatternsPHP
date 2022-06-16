@@ -13,7 +13,7 @@ use PHPUnit\Framework\TestCase;
 
 class DirectorTest extends TestCase
 {
-    public function testCanBuildTruck()
+    public function testCanBuildTruck(): void
     {
         $truckBuilder = new TruckBuilder();
         $newVehicle = (new Director())->build($truckBuilder);
@@ -21,7 +21,7 @@ class DirectorTest extends TestCase
         $this->assertInstanceOf(Truck::class, $newVehicle);
     }
 
-    public function testCanBuildCar()
+    public function testCanBuildCar(): void
     {
         $carBuilder = new CarBuilder();
         $newVehicle = (new Director())->build($carBuilder);

@@ -19,7 +19,7 @@ class Context
         return $this->poolVariable[$name];
     }
 
-    public function assign(VariableExp $variable, bool $val)
+    public function assign(VariableExp $variable, bool $val): void
     {
         $this->poolVariable[$variable->getName()] = $val;
     }
