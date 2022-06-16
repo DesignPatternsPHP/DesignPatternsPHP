@@ -16,10 +16,10 @@ class PriceSpecification implements Specification
             return false;
         }
 
-        if ($this->minPrice !== null && $item->getPrice() < $this->minPrice) {
-            return false;
-        }
+        return ! ($this->minPrice !== null && $item->getPrice() < $this->minPrice) 
+             
+        
 
-        return true;
+         ;
     }
 }
