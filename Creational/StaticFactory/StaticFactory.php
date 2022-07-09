@@ -16,7 +16,8 @@ final class StaticFactory
     {
         if ($type == 'number') {
             return new FormatNumber();
-        } elseif ($type == 'string') {
+        }
+        if ($type == 'string') {
             return new FormatString();
         }
 

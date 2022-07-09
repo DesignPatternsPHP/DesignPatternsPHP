@@ -30,9 +30,8 @@ class TextFactory implements Countable
     {
         if (strlen($name) == 1) {
             return new Character($name);
-        } else {
-            return new Word($name);
         }
+        return new Word($name);
     }
 
     public function count(): int
