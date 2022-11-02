@@ -1,7 +1,8 @@
 # DesignPatternsPHP
 
+:mega: After ~11 years I've decided to archive this project. Sadly I don't have the time nor the resources to maintain it anymore. Thank you for all the PRs, ideas and discussions around patterns over all the years!
+
 [![Build Status](https://github.com/domnikl/DesignPatternsPHP/workflows/CI/badge.svg)](https://github.com/domnikl/DesignPatternsPHP/actions)
-[![Documentation Status](https://readthedocs.org/projects/designpatternsphp/badge/?version=latest)](https://readthedocs.org/projects/designpatternsphp/?badge=latest)
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/DominikLiebler)
 
 [Read the Docs of DesignPatternsPHP](http://designpatternsphp.readthedocs.org)
