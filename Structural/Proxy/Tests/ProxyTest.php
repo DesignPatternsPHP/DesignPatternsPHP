@@ -5,13 +5,14 @@ declare(strict_types=1);
 namespace DesignPatterns\Structural\Proxy\Tests;
 
 use DesignPatterns\Structural\Proxy\BankAccountProxy;
+use DesignPatterns\Structural\Proxy\HeavyBankAccount;
 use PHPUnit\Framework\TestCase;
 
 class ProxyTest extends TestCase
 {
     public function testProxyWillOnlyExecuteExpensiveGetBalanceOnce()
     {
-        $bankAccount = new BankAccountProxy();
+        $bankAccount = new BankAccountProxy(new HeavyBankAccount());
         $bankAccount->deposit(30);
 
         // this time balance is being calculated
