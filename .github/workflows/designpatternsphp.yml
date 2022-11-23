@@ -1,4 +1,4 @@
-name: CI
+name: CIn
 
 on: [push, pull_request]
 
