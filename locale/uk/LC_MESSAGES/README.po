@@ -1,0 +1,100 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-10 21:00+0200\n"
+"PO-Revision-Date: 2023-01-11 20:29+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../README.rst:5
+msgid "DesignPatternsPHP"
+msgstr "DesignPatternsPHP"
+
+#: ../../README.rst:11
+msgid ""
+"This is a collection of known design patterns and some sample code how to implement them in PHP. Every pattern has a small list of examples."
+msgstr ""
+"Це набір відомих `шаблонів проєктування <https://uk.wikipedia.org/wiki/Шаблони_проєктування_програмного_забезпечення>`_ "
+"(патернів) і деякі приклади їх реалізації на PHP. Кожен патерн містить невеликий список прикладів."
+
+#: ../../README.rst:16
+msgid "I think the problem with patterns is that often people do know them but don't know when to apply which."
+msgstr "Я вважаю, проблема патернів у тому, що люди часто знайомі з ними, але не уявляють, як їх застосовувати."
+
+#: ../../README.rst:20
+msgid "Patterns"
+msgstr "Патерни"
+
+#: ../../README.rst:22
+msgid ""
+"The patterns can be structured in roughly three different categories. Please click on **the title of every pattern's page** "
+"for a full explanation of the pattern on Wikipedia."
+msgstr ""
+"Патерни можуть бути умовно згруповані у три різні категорії. Натисніть на **заголовок кожної сторінки з патерном** для "
+"детального пояснення патерну у Вікіпедії."
+
+#: ../../README.rst:35
+msgid "Contribute"
+msgstr "Участь у розробці"
+
+#: ../../README.rst:37
+msgid ""
+"If you encounter any bugs or missing translations, please feel free to fork and send a pull request with your changes. To "
+"establish a consistent code quality, please check your code using `PHP CodeSniffer`_ against `PSR2 standard`_ using ``./"
+"vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .``."
+msgstr ""
+"Якщо ви виявили помилки або відсутність перекладу, ви можете надіслати пулреквест з вашими змінами. Щоб зберігати високу "
+"якість коду, будь ласка, перевіряйте ваш код за допомогою `PHP CodeSniffer`_ на відповідність стандарту `PSR2`_, "
+"використовуючи команду ``./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor . ``."
+
+#: ../../README.rst:44
+msgid "License"
+msgstr "Ліцензія"
+
+#: ../../README.rst:46
+msgid "(The MIT License)"
+msgstr "(The MIT License)"
+
+#: ../../README.rst:48
+msgid "Copyright (c) 2011 - 2016 `Dominik Liebler`_ and `contributors`_"
+msgstr "Copyright (c) 2011 - 2023 `Dominik Liebler`_ and `contributors`_"
+
+#: ../../README.rst:50
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation "
+"files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, "
+"modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the "
+"Software is furnished to do so, subject to the following conditions:"
+msgstr ""
+"Ця ліцензія дозволяє особам, які отримали копію цього програмного забезпечення та супутню документацію (надалі іменованими "
+"«Програмне Забезпечення»), безоплатно використовувати Програмне Забезпечення без обмежень, включаючи необмежене право на "
+"використання, копіювання, зміну, додавання, публікацію, розповсюдження, субліцензування та продаж копій Програмного "
+"Забезпечення, а також особам, яким надається це Програмне Забезпечення, за дотримання таких умов:"
+
+#: ../../README.rst:58
+msgid ""
+"The above copyright notice and this permission notice shall be included in all copies or substantial portions of the "
+"Software."
+msgstr ""
+"Вказане вище повідомлення про авторське право та ці умови повинні бути включені до всіх копій або значних частин цього "
+"Програмного Забезпечення."
+
+#: ../../README.rst:61
+msgid ""
+"THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE "
+"WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR "
+"COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, "
+"ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+"ДАНЕ ПРОГРАМНЕ ЗАБЕЗПЕЧЕННЯ НАДАЄТЬСЯ «ЯК Є», БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ, ЩО ЯВНО ВИРАЖЕНІ АБО МАЮТЬСЯ НА УВАЗІ, ВКЛЮЧАЮЧИ "
+"ГАРАНТІЇ ТОВАРНОЇ ПРИДАТНОСТІ, ВІДПОВІДНОСТІ ЩОДО ЙОГО КОНКРЕТНОГО ПРИЗНАЧЕННЯ ТА ВІДСУТНОСТІ ПОРУШЕНЬ, АЛЕ НЕ ОБМЕЖУЮЧИСЬ "
+"НИМИ. НІ В ЯКОМУ РАЗІ АВТОРИ АБО ПРАВОВЛАСНИКИ НЕ НЕСУТЬ ВІДПОВІДАЛЬНОСТІ ЗА БУДЬ-ЯКИМИ ПОЗОВАМИ, ЗА ЗБИТК|и АБО ЗА ІНШИМИ "
+"ВИМОГАМИ, У ТОМУ ЧИСЛІ ПРИ ДІЇ КОНТРАКТУ, ДЕЛІКТІ ЧИ ІНШІЙ СИТУАЦІЇ, ЩО ВИНИКЛА ЧЕРЕЗ ВИКОРИСТАННЯ ПРОГРАМНОГО ЗАБЕЗПЕЧЕННЯ "
+"АБО ІНШІ ДІЇ З ПРОГРАМНИМ ЗАБЕЗПЕЧЕННЯМ."
