@@ -1,0 +1,80 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Behavioral/TemplateMethod/README.rst:2
+msgid "`Template Method`__"
+msgstr "`Шаблонний Метод <https://uk.wikipedia.org/wiki/Шаблонний_метод_(шаблон_проєктування)>`_ (`Template Method`__)"
+
+#: ../../Behavioral/TemplateMethod/README.rst:5
+msgid "Purpose"
+msgstr "Призначення"
+
+#: ../../Behavioral/TemplateMethod/README.rst:7
+msgid "Template Method is a behavioral design pattern."
+msgstr "Шаблонний метод, це поведінковий патерн проектування."
+
+#: ../../Behavioral/TemplateMethod/README.rst:9
+msgid ""
+"Perhaps you have encountered it many times already. The idea is to let "
+"subclasses of this abstract template \"finish\" the behavior of an "
+"algorithm."
+msgstr ""
+"Можливо, ви стикалися з цим вже багато разів. Ідея полягає в тому, щоб "
+"дозволити спадкоємцям абстрактного класу перевизначити поведінку "
+"алгоритмів батьківського класу."
+
+#: ../../Behavioral/TemplateMethod/README.rst:13
+msgid ""
+"A.k.a the \"Hollywood principle\": \"Don't call us, we call you.\" This "
+"class is not called by subclasses but the inverse. How? With abstraction of "
+"course."
+msgstr ""
+"Як у «Голлівудському принципі»: «Не дзвоніть нам, ми самі вам подзвонимо». "
+"клас не викликається підкласами, але навпаки: підкласи викликаються "
+"батьком. Як? За допомогою методу в батьківській абстракції, звичайно."
+
+#: ../../Behavioral/TemplateMethod/README.rst:17
+msgid ""
+"In other words, this is a skeleton of algorithm, well-suited for framework "
+"libraries. The user has just to implement one method and the superclass do "
+"the job."
+msgstr ""
+"Іншими словами, це каркас алгоритму, який добре підходить для "
+"бібліотек (у фреймворках, наприклад). Користувач просто реалізує "
+"уточнюючі методи, а суперклас робить всю основну роботу."
+
+#: ../../Behavioral/TemplateMethod/README.rst:21
+msgid ""
+"It is an easy way to decouple concrete classes and reduce copy-paste, "
+"that's why you'll find it everywhere."
+msgstr ""
+"Це простий спосіб ізолювати логіку у конкретні класи та зменшити "
+"копіпаст, тому ви повсюдно зустрінете його у тому чи іншому вигляді."
+
+#: ../../Behavioral/TemplateMethod/README.rst:25
+msgid "UML Diagram"
+msgstr "Діаграма UML"
+
+#: ../../Behavioral/TemplateMethod/README.rst:32
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/TemplateMethod/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ви можете знайти цей код на `GitHub`_"
+
+#: ../../Behavioral/TemplateMethod/README.rst:55
+msgid "Test"
+msgstr "Тест"

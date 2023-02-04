@@ -1,0 +1,132 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Behavioral/Memento/README.rst:2
+msgid "`Memento`__"
+msgstr "`Знімок <https://uk.wikipedia.org/wiki/Знімок_(шаблон_проєктування)>`_ (`Memento`__)"
+
+#: ../../Behavioral/Memento/README.rst:5
+msgid "Purpose"
+msgstr "Призначення"
+
+#: ../../Behavioral/Memento/README.rst:7
+msgid ""
+"It provides the ability to restore an object to it's previous state (undo "
+"via rollback) or to gain access to state of the object, without revealing "
+"it's implementation (i.e., the object is not required to have a function "
+"to return the current state)."
+msgstr ""
+"Патерн надає можливість відновити об'єкт у його попередньому стані "
+"(скасувати дію за допомогою відкату до попереднього стану) або отримати "
+"доступ до стану об'єкта, не розкриваючи його реалізацію (тобто. сам "
+"об'єкт не повинен мати функціональність для повернення поточного стану)."
+
+#: ../../Behavioral/Memento/README.rst:12
+msgid ""
+"The memento pattern is implemented with three objects: the Originator, a "
+"Caretaker and a Memento."
+msgstr ""
+"Шаблон Зберігач реалізується трьома об'єктами: \"Творцем\" (originator), "
+"\"Опікуном\" (caretaker) і \"Охоронець\" (memento)."
+
+#: ../../Behavioral/Memento/README.rst:15
+msgid ""
+"Memento – an object that *contains a concrete unique snapshot of state* "
+"of any object or resource: string, number, array, an instance of class "
+"and so on. The uniqueness in this case does not imply the prohibition "
+"existence of similar states in different snapshots. That means the state "
+"can be extracted as the independent clone. Any object stored in the "
+"Memento should be *a full copy of the original object rather than a "
+"reference* to the original object. The Memento object is a \"opaque "
+"object\" (the object that no one can or should change)."
+msgstr ""
+"Знімок - це об'єкт, який *зберігає конкретний знімок стану* "
+"деякого об'єкта чи ресурсу: рядки, числа, масиву, екземпляра "
+"класу і так далі. Унікальність у даному випадку має на увазі не заборону на "
+"існування однакових станів у різних знімках, а те, що стан "
+"можна витягти у вигляді незалежної копії. Будь-який об'єкт, що зберігається в "
+"Знімок повинен бути повною копією вихідного об'єкта, а не посиланням на "
+"вихідний об'єкт. Сам об'єкт Знімок є \"непрозорим об'єктом\" (той, "
+"який ніхто не може і не повинен змінювати)."
+
+#: ../../Behavioral/Memento/README.rst:24
+msgid ""
+"Originator – it is an object that contains the *actual state of an "
+"external object is strictly specified type*. Originator is able to create"
+" a unique copy of this state and return it wrapped in a Memento. The "
+"Originator does not know the history of changes. You can set a concrete "
+"state to Originator from the outside, which will be considered as actual."
+" The Originator must make sure that given state corresponds the allowed "
+"type of object. Originator may (but not should) have any methods, but "
+"they *they can't make changes to the saved object state*."
+msgstr ""
+"Творець - це об'єкт, який містить у собі актуальний стан зовнішнього "
+"об'єкта строго заданого типу* і вміє створювати унікальну копію цього "
+"стану, повертаючи її, обгорнуту в об'єкт Знімок. Творець не знає історії "
+"змін. Творцю можна примусово встановити конкретний стан "
+"ззовні, яка буде вважатися актуальною. Творець повинен подбати про те, "
+"щоб цей стан відповідав типу об'єкта, з яким йому дозволено "
+"працювати. Творець може (але не зобов'язаний) мати будь-які методи, але вони *не можуть "
+"змінити збережений стан об'єкта*."
+
+#: ../../Behavioral/Memento/README.rst:33
+msgid ""
+"Caretaker *controls the states history*. He may make changes to an "
+"object; take a decision to save the state of an external object in the "
+"Originator; ask from the Originator snapshot of the current state; or set"
+" the Originator state to equivalence with some snapshot from history."
+msgstr ""
+"Опікун *керує історією знімків станів*. Він може вносити зміни до "
+"об'єкту, приймати рішення про збереження стану зовнішнього об'єкта у Творці,"
+"вимагати від Творця знімок поточного стану, або привести стан "
+"Творця у відповідність до стану якогось знімка з історії."
+
+#: ../../Behavioral/Memento/README.rst:39
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../Behavioral/Memento/README.rst:41
+msgid "The seed of a pseudorandom number generator"
+msgstr ""
+"`Зерно <http://en.wikipedia.org/wiki/Random_seed>`_ генератора псевдовипадкових"
+"чисел."
+
+#: ../../Behavioral/Memento/README.rst:42
+msgid "The state in a finite state machine"
+msgstr "Стан кінцевого автомату"
+
+#: ../../Behavioral/Memento/README.rst:43
+msgid ""
+"Control for intermediate states of `ORM Model "
+"<http://en.wikipedia.org/wiki/Object-relational_mapping>`_ before saving"
+msgstr ""
+"Контроль проміжних станів `ORM моделі "
+"<http://en.wikipedia.org/wiki/Object-relational_mapping>`_ перед збереженням"
+
+#: ../../Behavioral/Memento/README.rst:46
+msgid "UML Diagram"
+msgstr "Діаграма UML"
+
+#: ../../Behavioral/Memento/README.rst:53
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/Memento/README.rst:55
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ви можете знайти цей код на `GitHub`_"
+
+#: ../../Behavioral/Memento/README.rst:76
+msgid "Test"
+msgstr "Тест"
