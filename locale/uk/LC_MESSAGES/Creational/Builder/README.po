@@ -16,7 +16,7 @@ msgstr ""
 #: ../../Creational/Builder/README.rst:2
 msgid "`Builder`__"
 msgstr ""
-"`Будівник <https://uk.wikipedia.org/wiki/Будівник_(шаблон_проєктування)>`_ (`Builder`__)"
+"`Будівельник <https://uk.wikipedia.org/wiki/Будівник_(шаблон_проєктування)>`_ (`Builder`__)"
 
 #: ../../Creational/Builder/README.rst:5
 msgid "Purpose"
