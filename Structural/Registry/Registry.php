@@ -33,10 +33,15 @@ abstract class Registry
 
     final public static function get(string $key): Service
     {
-        if (!in_array($key, self::$allowedKeys) || !isset(self::$services[$key])) {
+        if (self::isInvalidKey($key)) {
             throw new InvalidArgumentException('Invalid key given');
         }
 
         return self::$services[$key];
+    }
+
+    private static function isInvalidKey(string $key): bool
+    {
+        return !in_array($key, self::$allowedKeys) || !isset(self::$services[$key]);
     }
 }
