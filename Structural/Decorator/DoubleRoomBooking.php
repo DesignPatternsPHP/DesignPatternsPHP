@@ -6,9 +6,10 @@ namespace DesignPatterns\Structural\Decorator;
 
 class DoubleRoomBooking implements Booking
 {
+    private const PRICE = 40;
     public function calculatePrice(): int
     {
-        return 40;
+        return self::PRICE;
     }
 
     public function getDescription(): string
