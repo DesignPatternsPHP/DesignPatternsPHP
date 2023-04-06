@@ -6,8 +6,13 @@ namespace DesignPatterns\Behavioral\Mediator;
 
 class UserRepository extends Colleague
 {
-    public function getUserName(string $user): string
+    public function getUserName(User $user): string
     {
-        return 'User: ' . $user;
+        return 'User: ' . $user->getUserName();
+    }
+
+    public function getUserInfo(User $user): string
+    {
+        return 'User info: ' . $user->getUserInfo();
     }
 }

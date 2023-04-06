@@ -12,13 +12,24 @@ class UserRepositoryUiMediator implements Mediator
         $this->ui->setMediator($this);
     }
 
-    public function printInfoAbout(string $user)
+    public function printUserName(User $user)
+    {
+        $this->ui->outputUserName($user);
+    }
+
+    public function printUserInfo(User $user)
     {
         $this->ui->outputUserInfo($user);
     }
 
-    public function getUser(string $username): string
+    public function getUserName(User $user): string
     {
-        return $this->userRepository->getUserName($username);
+        return $this->userRepository->getUserName($user);
     }
+
+    public function getUserInfo(User $user): string
+    {
+        return $this->userRepository->getUserInfo($user);
+    }
+
 }
