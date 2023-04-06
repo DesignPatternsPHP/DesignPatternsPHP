@@ -16,23 +16,23 @@ class TruckBuilder implements Builder
 
     public function addDoors(): void
     {
-        $this->truck->setPart('rightDoor', new Door());
-        $this->truck->setPart('leftDoor', new Door());
+        $this->truck->setPart(new Door('rightDoor'));
+        $this->truck->setPart(new Door('leftDoor'));
     }
 
     public function addEngine(): void
     {
-        $this->truck->setPart('truckEngine', new Engine());
+        $this->truck->setPart(new Engine('truckEngine'));
     }
 
     public function addWheel(): void
     {
-        $this->truck->setPart('wheel1', new Wheel());
-        $this->truck->setPart('wheel2', new Wheel());
-        $this->truck->setPart('wheel3', new Wheel());
-        $this->truck->setPart('wheel4', new Wheel());
-        $this->truck->setPart('wheel5', new Wheel());
-        $this->truck->setPart('wheel6', new Wheel());
+        $this->truck->setPart(new Wheel('wheel1'));
+        $this->truck->setPart(new Wheel('wheel2'));
+        $this->truck->setPart(new Wheel('wheel3'));
+        $this->truck->setPart(new Wheel('wheel4'));
+        $this->truck->setPart(new Wheel('wheel5'));
+        $this->truck->setPart(new Wheel('wheel6'));
     }
 
     public function createVehicle(): void

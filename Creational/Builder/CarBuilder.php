@@ -16,22 +16,22 @@ class CarBuilder implements Builder
 
     public function addDoors(): void
     {
-        $this->car->setPart('rightDoor', new Door());
-        $this->car->setPart('leftDoor', new Door());
-        $this->car->setPart('trunkLid', new Door());
+        $this->car->setPart(new Door('rightDoor'));
+        $this->car->setPart(new Door('leftDoor'));
+        $this->car->setPart(new Door('trunkLid'));
     }
 
     public function addEngine(): void
     {
-        $this->car->setPart('engine', new Engine());
+        $this->car->setPart(new Engine('engine'));
     }
 
     public function addWheel(): void
     {
-        $this->car->setPart('wheelLF', new Wheel());
-        $this->car->setPart('wheelRF', new Wheel());
-        $this->car->setPart('wheelLR', new Wheel());
-        $this->car->setPart('wheelRR', new Wheel());
+        $this->car->setPart(new Wheel('wheelLF'));
+        $this->car->setPart(new Wheel('wheelRF'));
+        $this->car->setPart(new Wheel('wheelLR'));
+        $this->car->setPart(new Wheel('wheelRR'));
     }
 
     public function createVehicle(): void

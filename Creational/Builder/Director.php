@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 namespace DesignPatterns\Creational\Builder;
-
+use DesignPatterns\Creational\Builder\Parts\Part;
 use DesignPatterns\Creational\Builder\Parts\Vehicle;
 
 /**
