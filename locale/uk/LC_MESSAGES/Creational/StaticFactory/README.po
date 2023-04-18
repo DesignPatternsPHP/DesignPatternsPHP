@@ -1,0 +1,52 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Creational/StaticFactory/README.rst:2
+msgid "Static Factory"
+msgstr "Статична Фабрика (Static Factory)"
+
+#: ../../Creational/StaticFactory/README.rst:5
+msgid "Purpose"
+msgstr "Призначення"
+
+#: ../../Creational/StaticFactory/README.rst:7
+msgid ""
+"Similar to the AbstractFactory, this pattern is used to create series of "
+"related or dependent objects. The difference between this and the abstract "
+"factory pattern is that the static factory pattern uses just one static "
+"method to create all types of objects it can create. It is usually named "
+"``factory`` or ``build``."
+msgstr ""
+"Подібно до AbstractFactory, цей патерн використовується для створення ряду "
+"зв'язаних або залежних об'єктів. Різниця між цим шаблоном і абстрактним "
+"Фабрикою полягає в тому, що Статична Фабрика використовує лише один "
+"Статичний метод, щоб створити всі допустимі типи об'єктів. Цей метод, "
+"зазвичай, називається \"factory\" або \"build\"."
+
+#: ../../Creational/StaticFactory/README.rst:20
+msgid "UML Diagram"
+msgstr "Діаграма UML"
+
+#: ../../Creational/StaticFactory/README.rst:27
+msgid "Code"
+msgstr "Код"
+
+#: ../../Creational/StaticFactory/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ви можете знайти цей код на `GitHub`_"
+
+#: ../../Creational/StaticFactory/README.rst:56
+msgid "Test"
+msgstr "Тест"

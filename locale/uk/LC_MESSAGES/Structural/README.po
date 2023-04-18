@@ -1,0 +1,29 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Structural/README.rst:2
+msgid "`Structural`__"
+msgstr ""
+"`Структурні патерни проектування <https://uk.wikipedia.org/wiki/Структурні_шаблони>`_ (`Structural`__)"
+
+#: ../../Structural/README.rst:4
+msgid ""
+"In Software Engineering, Structural Design Patterns are Design Patterns that"
+" ease the design by identifying a simple way to realize relationships "
+"between entities."
+msgstr ""
+"Під час розробки програмного забезпечення, Структурні патерни проектування "
+"спрощують проектування шляхом виявлення простого способу реалізації "
+"відносин між суб'єктами."

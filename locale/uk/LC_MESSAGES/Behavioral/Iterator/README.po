@@ -1,0 +1,71 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Behavioral/Iterator/README.rst:2
+msgid "`Iterator`__"
+msgstr "`Ітератор <https://uk.wikipedia.org/wiki/Ітератор_(шаблон_проєктування)>`_ (`Iterator`__)"
+
+#: ../../Behavioral/Iterator/README.rst:5
+msgid "Purpose"
+msgstr "Призначення"
+
+#: ../../Behavioral/Iterator/README.rst:7
+msgid "To make an object iterable and to make it appear like a collection of objects."
+msgstr ""
+"Зробити об'єкт ітерованим, щоб він виглядав як колекція об'єктів."
+
+#: ../../Behavioral/Iterator/README.rst:11
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../Behavioral/Iterator/README.rst:13
+msgid ""
+"to process a file line by line by just running over all lines (which have an"
+" object representation) for a file (which of course is an object, too)"
+msgstr ""
+"стрічковий перебір файлу, який представлений у вигляді об'єкта, що містить "
+"рядки, що теж є об'єктами. Оброблювач буде запущений поверх всіх "
+"об'єктів."
+
+#: ../../Behavioral/Iterator/README.rst:18
+msgid "Note"
+msgstr "Примітка"
+
+#: ../../Behavioral/Iterator/README.rst:20
+msgid ""
+"Standard PHP Library (SPL) defines an interface Iterator which is best "
+"suited for this! Often you would want to implement the Countable interface "
+"too, to allow ``count($object)`` on your iterable object"
+msgstr ""
+"Стандартна бібліотека PHP SPL визначає інтерфейс Iterator, який "
+"добре підходить для цих цілей. Також вам може знадобитися реалізувати "
+"інтерфейс Countable, щоб дозволити викликати ``count($object)`` у вашому "
+"ітерованому об'єкті."
+
+#: ../../Behavioral/Iterator/README.rst:25
+msgid "UML Diagram"
+msgstr "Діаграма UML"
+
+#: ../../Behavioral/Iterator/README.rst:32
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/Iterator/README.rst:34
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ви можете знайти цей код на `GitHub`_"
+
+#: ../../Behavioral/Iterator/README.rst:61
+msgid "Test"
+msgstr "Тест"

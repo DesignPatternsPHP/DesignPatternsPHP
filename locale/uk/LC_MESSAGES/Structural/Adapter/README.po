@@ -1,0 +1,69 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Structural/Adapter/README.rst:2
+msgid "`Adapter / Wrapper`__"
+msgstr ""
+"`Адаптер <https://uk.wikipedia.org/wiki/Адаптер_(шаблон_проєктування)>`_ "
+"(`Adapter / Wrapper`__)"
+
+#: ../../Structural/Adapter/README.rst:5
+msgid "Purpose"
+msgstr "Призначення"
+
+#: ../../Structural/Adapter/README.rst:7
+msgid ""
+"To translate one interface for a class into a compatible interface. An "
+"adapter allows classes to work together that normally could not because of "
+"incompatible interfaces by providing its interface to clients while using "
+"the original interface."
+msgstr ""
+"Привести нестандартний або незручний інтерфейс якогось класу в "
+"інтерфейс, сумісний з вашим кодом. Адаптер дозволяє класам працювати "
+"разом стандартним чином, що зазвичай не виходить через несумісність "
+"інтерфейсів, надаючи для цього прошарок з інтерфейсом, зручним для "
+"клієнтів, самостійно використовуючи оригінальний інтерфейс."
+
+#: ../../Structural/Adapter/README.rst:13
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../Structural/Adapter/README.rst:15
+msgid "DB Client libraries adapter"
+msgstr "Адаптер клієнтських бібліотек для роботи з базами даних"
+
+#: ../../Structural/Adapter/README.rst:16
+msgid ""
+"using multiple different webservices and adapters normalize data so that the"
+" outcome is the same for all"
+msgstr ""
+"нормалізувати дані кількох різних веб-сервісів, в однакову "
+"структуру, ніби ви працюєте зі стандартним сервісом"
+
+#: ../../Structural/Adapter/README.rst:20
+msgid "UML Diagram"
+msgstr "Діаграма UML"
+
+#: ../../Structural/Adapter/README.rst:27
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/Adapter/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ви можете знайти цей код на `GitHub`_"
+
+#: ../../Structural/Adapter/README.rst:62
+msgid "Test"
+msgstr "Тест"
