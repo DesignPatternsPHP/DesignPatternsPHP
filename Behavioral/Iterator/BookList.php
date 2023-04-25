@@ -46,12 +46,12 @@ class BookList implements Countable, Iterator
         return $this->currentIndex;
     }
 
-    public function next()
+    public function next(): void
     {
         $this->currentIndex++;
     }
 
-    public function rewind()
+    public function rewind(): void
     {
         $this->currentIndex = 0;
     }
