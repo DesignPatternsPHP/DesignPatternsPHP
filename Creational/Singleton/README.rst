@@ -15,6 +15,8 @@ Examples
 
 -  DB Connector
 -  Logger
+-  Config Manager
+-  Threads Handling
 -  Lock file for the application (there is only one in the filesystem
    ...)
 
