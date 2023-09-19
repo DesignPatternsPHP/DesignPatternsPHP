@@ -1,7 +1,9 @@
 # DesignPatternsPHP
 
 [![Build Status](https://github.com/domnikl/DesignPatternsPHP/workflows/CI/badge.svg)](https://github.com/domnikl/DesignPatternsPHP/actions)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/DominikLiebler)
+
+Note from the maintainers: 
+> The project's ReadTheDocs pages is currently down and are being reconfigured. We're sorry for any inconvenience please read through the repository directly on github.  
 
 [Read the Docs of DesignPatternsPHP](http://designpatternsphp.readthedocs.org)
 or [Download as PDF/Epub](https://readthedocs.org/projects/designpatternsphp/downloads/)
