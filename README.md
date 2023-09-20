@@ -104,8 +104,6 @@ The patterns can be structured in roughly three different categories. Please cli
   The current policy is: if there are no native-speaking maintainers we cannot support the given language. 
   We will still leave the translation as is but we will not update it as the base (English) changes.
   The table below list which language version is considered "supported" and who maintains it.
-  We're sorry. We would love to maintain them but it is not possible for us. So if you would like to take care
-of one or more languages - contact us.
 
   We're sorry. We would love to maintain them but it is not possible for us. So if you would like to take care
   of one or more languages - contact us.
