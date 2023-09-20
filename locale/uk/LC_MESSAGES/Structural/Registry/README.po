@@ -1,0 +1,56 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Structural/Registry/README.rst:2
+msgid "`Registry`__"
+msgstr "`Registry`__"
+
+#: ../../Structural/Registry/README.rst:5
+msgid "Purpose"
+msgstr "Призначення"
+
+#: ../../Structural/Registry/README.rst:7
+msgid ""
+"To implement a central storage for objects often used throughout the "
+"application, is typically implemented using an abstract class with only "
+"static methods (or using the Singleton pattern). Remember that this "
+"introduces global state, which should be avoided at all times! Instead "
+"implement it using Dependency Injection!"
+msgstr ""
+"Для реалізації централізованого зберігання об'єктів, що часто використовуються "
+"у всьому додатку, як правило, реалізується за допомогою абстрактного "
+"класу тільки зі статичними методами (або за допомогою шаблону Singleton). "
+"Пам'ятайте, що це вводить глобальний стан, якого слід уникати. "
+"Використовуйте Dependency Injection замість Registry."
+
+#: ../../Structural/Registry/README.rst:12
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../Structural/Registry/README.rst:20
+msgid "UML Diagram"
+msgstr "Діаграма UML"
+
+#: ../../Structural/Registry/README.rst:27
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/Registry/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ви можете знайти цей код на `GitHub`_"
+
+#: ../../Structural/Registry/README.rst:38
+msgid "Test"
+msgstr "Тест"

@@ -1,7 +1,9 @@
 # DesignPatternsPHP
 
 [![Build Status](https://github.com/domnikl/DesignPatternsPHP/workflows/CI/badge.svg)](https://github.com/domnikl/DesignPatternsPHP/actions)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/DominikLiebler)
+
+Note from the maintainers: 
+> The project's ReadTheDocs pages is currently down and are being reconfigured. We're sorry for any inconvenience please read through the repository directly on github.  
 
 [Read the Docs of DesignPatternsPHP](http://designpatternsphp.readthedocs.org)
 or [Download as PDF/Epub](https://readthedocs.org/projects/designpatternsphp/downloads/)
@@ -102,6 +104,8 @@ The patterns can be structured in roughly three different categories. Please cli
   The current policy is: if there are no native-speaking maintainers we cannot support the given language. 
   We will still leave the translation as is but we will not update it as the base (English) changes.
   The table below list which language version is considered "supported" and who maintains it.
+  We're sorry. We would love to maintain them but it is not possible for us. So if you would like to take care
+of one or more languages - contact us.
 
   We're sorry. We would love to maintain them but it is not possible for us. So if you would like to take care
   of one or more languages - contact us.
@@ -123,3 +127,4 @@ The patterns can be structured in roughly three different categories. Please cli
 | tr    | Turkish   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/tr/latest/README.html) | NO | - |
 | fr    | French | [Docs :notebook:](https://designpatternsphp.readthedocs.io/fr/latest/README.html) | NO | - |
 | it    | Italian | [Docs :notebook:](https://designpatternsphp.readthedocs.io/it/latest/README.html) | NO | - |
+| uk    | Ukrainian | [Docs :notebook:](https://designpatternsphp.readthedocs.io/uk/latest/README.html)    | NO | - |

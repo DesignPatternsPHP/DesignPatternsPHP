@@ -1,0 +1,60 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Structural/Composite/README.rst:2
+msgid "`Composite`__"
+msgstr ""
+"`Компонувальник <https://uk.wikipedia.org/wiki/Компонувальник_(шаблон_проєктування)>`_ (`Composite`__)"
+
+#: ../../Structural/Composite/README.rst:5
+msgid "Purpose"
+msgstr "Призначення"
+
+#: ../../Structural/Composite/README.rst:7
+msgid ""
+"To treat a group of objects the same way as a single instance of the object."
+msgstr ""
+"Взаємодія з ієрархічною групою об'єктів так само, як і з окремо "
+"взятим екземпляром."
+
+#: ../../Structural/Composite/README.rst:11
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../Structural/Composite/README.rst:13
+msgid ""
+"a form class instance handles all its form elements like a single instance "
+"of the form, when ``render()`` is called, it subsequently runs through all "
+"its child elements and calls ``render()`` on them"
+msgstr ""
+"Екземпляр класу Form обробляє всі свої елементи форми, як це "
+"один екземпляр. І коли викликається метод ``render()``, він перебирає всі "
+"дочірні елементи і викликає їх власний ``render()``."
+
+#: ../../Structural/Composite/README.rst:20
+msgid "UML Diagram"
+msgstr "Діаграма UML"
+
+#: ../../Structural/Composite/README.rst:27
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/Composite/README.rst:29
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ви можете знайти цей код на `GitHub`_"
+
+#: ../../Structural/Composite/README.rst:56
+msgid "Test"
+msgstr "Тест"
