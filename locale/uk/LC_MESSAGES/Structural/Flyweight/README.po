@@ -1,0 +1,53 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Structural/Flyweight/README.rst:2
+msgid "`Flyweight`__"
+msgstr "`Легковаговик <https://uk.wikipedia.org/wiki/Легковаговик_(шаблон_проєктування)>`_ (`Flyweight`__)"
+
+#: ../../Structural/Flyweight/README.rst:5
+msgid "Purpose"
+msgstr "Призначення"
+
+#: ../../Structural/Flyweight/README.rst:7
+msgid ""
+"To minimise memory usage, a Flyweight shares as much as possible memory "
+"with similar objects. It is needed when a large amount of objects is used"
+" that don't differ much in state. A common practice is to hold state in "
+"external data structures and pass them to the flyweight object when "
+"needed."
+msgstr ""
+"Для зменшення використання пам'яті Легковаговик розділяє як можна "
+"більше пам'яті між аналогічними об'єктами. Це необхідно, коли "
+"використовується велика кількість об'єктів, стан яких не сильно "
+"відрізняється. Звичайною практикою є зберігання стану у зовнішніх "
+"структурах і передавати їх в об'єкт-легковаговик, коли необхідно."
+
+#: ../../Structural/Flyweight/README.rst:12
+msgid "UML Diagram"
+msgstr "Діаграма UML"
+
+#: ../../Structural/Flyweight/README.rst:19
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/Flyweight/README.rst:21
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ви можете знайти цей код на `GitHub`_"
+
+#: ../../Structural/Flyweight/README.rst:42
+msgid "Test"
+msgstr "Тест"
+

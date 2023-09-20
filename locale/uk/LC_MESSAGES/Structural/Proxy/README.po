@@ -1,0 +1,60 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Structural/Proxy/README.rst:2
+msgid "`Proxy`__"
+msgstr ""
+"`Замісник <https://uk.wikipedia.org/wiki/Замісник_(шаблон_проєктування)>`_ "
+"(`Proxy`__)"
+
+#: ../../Structural/Proxy/README.rst:5
+msgid "Purpose"
+msgstr "Призначення"
+
+#: ../../Structural/Proxy/README.rst:7
+msgid "To interface to anything that is expensive or impossible to duplicate."
+msgstr ""
+"Створити інтерфейс взаємодії з будь-яким класом, який важко чи "
+"неможливо використовувати в оригінальному вигляді."
+
+#: ../../Structural/Proxy/README.rst:10
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../Structural/Proxy/README.rst:12
+msgid ""
+"Doctrine2 uses proxies to implement framework magic (e.g. lazy "
+"initialization) in them, while the user still works with his own entity "
+"classes and will never use nor touch the proxies"
+msgstr ""
+"Doctrine2 використовує проксі для реалізації магії фреймворку (наприклад, для "
+"ледачої ініціалізації), в той час як користувач працює зі своїми "
+"власними класами сутностей і ніколи не буде використовувати проксі."
+
+#: ../../Structural/Proxy/README.rst:17
+msgid "UML Diagram"
+msgstr "Діаграма UML"
+
+#: ../../Structural/Proxy/README.rst:24
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/Proxy/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ви можете знайти цей код на `GitHub`_"
+
+#: ../../Structural/Proxy/README.rst:41
+msgid "Test"
+msgstr "Тест"

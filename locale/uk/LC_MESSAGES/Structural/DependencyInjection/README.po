@@ -1,0 +1,106 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Structural/DependencyInjection/README.rst:2
+msgid "`Dependency Injection`__"
+msgstr ""
+"`Впровадження залежності <https://uk.wikipedia.org/wiki/Впровадження_залежностей>`_ (`Dependency Injection`__)"
+
+#: ../../Structural/DependencyInjection/README.rst:5
+msgid "Purpose"
+msgstr "Призначення"
+
+#: ../../Structural/DependencyInjection/README.rst:7
+msgid ""
+"To implement a loosely coupled architecture in order to get better testable,"
+" maintainable and extendable code."
+msgstr ""
+"Для реалізації слабозв'язаної архітектури. Щоб отримати більше "
+"тестований код, що супроводжується та розширюється."
+
+#: ../../Structural/DependencyInjection/README.rst:11
+msgid "Usage"
+msgstr "Використання"
+
+#: ../../Structural/DependencyInjection/README.rst:13
+msgid ""
+"``DatabaseConfiguration`` gets injected and ``DatabaseConnection`` will get all that it "
+"needs from ``$config``. Without DI, the configuration would be created "
+"directly in ``DatabaseConnection``, which is not very good for testing and "
+"extending it."
+msgstr ""
+"Об'єкт ``DatabaseConfiguration`` впроваджується в ``DatabaseConnection`` і останній отримує все, "
+"що йому необхідно зі змінної ``$config``. Без DI, конфігурація буде "
+"створена безпосередньо в ``Connection``, що не дуже добре для "
+"тестування та розширення ``Connection``, тому що пов'язує ці класи "
+"безпосередньо."
+
+#: ../../Structural/DependencyInjection/README.rst:18
+msgid ""
+"Notice we are following Inversion of control principle in ``Connection`` by "
+"asking ``$config`` to implement ``Parameters`` interface. This decouples our"
+" components. We don't care where the source of information comes from, we "
+"only care that ``$config`` has certain methods to retrieve that information."
+" Read more about Inversion of control `here "
+"<http://en.wikipedia.org/wiki/Inversion_of_control>`__."
+msgstr ""
+"Зверніть увагу, в ``Connection`` ми дотримуємося принципу SOLID `Інверсія "
+"управління <https://uk.wikipedia.org/wiki/Інверсія_управління>`_, "
+"запитуючи параметр ``$config``, щоб реалізувати інтерфейс "
+"``Parameters``. Це відокремлює наші компоненти один від одного. Нас не турбує, "
+"з якого джерела надходить ця інформація про конфігурацію, ми дбаємо "
+"тільки про те, що ``$config`` повинен мати певні методи, щоб ми "
+"могли отримати цю інформацію."
+
+#: ../../Structural/DependencyInjection/README.rst:26
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../Structural/DependencyInjection/README.rst:28
+msgid ""
+"The Doctrine2 ORM uses dependency injection e.g. for configuration that is "
+"injected into a ``Connection`` object. For testing purposes, one can easily "
+"create a mock object of the configuration and inject that into the "
+"``Connection`` object"
+msgstr ""
+"The Doctrine2 ORM використовує Впровадження Залежності наприклад для "
+"конфігурації, яка впроваджується в об'єкт ``Connection``. Для цілей "
+"тестування, можна легко створити мок об'єкта конфігурації та впровадити його "
+"в об'єкт ``Connection``, підмінивши оригінальний."
+
+#: ../../Structural/DependencyInjection/README.rst:32
+msgid ""
+"many frameworks already have containers for DI that create "
+"objects via a configuration array and inject them where needed (i.e. in "
+"Controllers)"
+msgstr ""
+"У багатьох фреймворках вже є контейнери для DI, які створюють "
+"об'єкти через масив з конфігурацією та впроваджують туди, де це потрібно (наприклад у Контролери)."
+
+#: ../../Structural/DependencyInjection/README.rst:37
+msgid "UML Diagram"
+msgstr "Діаграма UML"
+
+#: ../../Structural/DependencyInjection/README.rst:44
+msgid "Code"
+msgstr "Код"
+
+#: ../../Structural/DependencyInjection/README.rst:46
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ви можете знайти цей код на `GitHub`_"
+
+#: ../../Structural/DependencyInjection/README.rst:73
+msgid "Test"
+msgstr "Тест"

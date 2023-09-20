@@ -1,0 +1,80 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Behavioral/Strategy/README.rst:2
+msgid "`Strategy`__"
+msgstr "`Стратегія <https://uk.wikipedia.org/wiki/Стратегія_(шаблон_проєктування)>`_ (`Strategy`__)"
+
+#: ../../Behavioral/Strategy/README.rst:5
+msgid "Terminology:"
+msgstr "Термінологія:"
+
+#: ../../Behavioral/Strategy/README.rst:7
+msgid "Context"
+msgstr "Контекст"
+
+#: ../../Behavioral/Strategy/README.rst:8
+msgid "Strategy"
+msgstr "Стратегія"
+
+#: ../../Behavioral/Strategy/README.rst:9
+msgid "Concrete Strategy"
+msgstr "Конкретна стратегія"
+
+#: ../../Behavioral/Strategy/README.rst:12
+msgid "Purpose"
+msgstr "Призначення"
+
+#: ../../Behavioral/Strategy/README.rst:14
+msgid ""
+"To separate strategies and to enable fast switching between them. Also this "
+"pattern is a good alternative to inheritance (instead of having an abstract "
+"class that is extended)."
+msgstr ""
+"Щоб розділити стратегії та отримати можливість швидкого перемикання "
+"між ними. Також цей патерн є гарною альтернативою успадкування "
+"(замість розширення абстрактного класу)."
+
+#: ../../Behavioral/Strategy/README.rst:19
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../Behavioral/Strategy/README.rst:21
+msgid "sorting a list of objects, one strategy by date, the other by id"
+msgstr ""
+"Сортування списку об'єктів, одна стратегія сортує за датою, інша за id"
+
+#: ../../Behavioral/Strategy/README.rst:22
+msgid ""
+"simplify unit testing: e.g. switching between file and in-memory storage"
+msgstr ""
+"спростити юніт тестування: наприклад перемикання між файловим "
+"сховищем та сховищем в оперативній пам'яті"
+
+#: ../../Behavioral/Strategy/README.rst:26
+msgid "UML Diagram"
+msgstr "Діаграма UML"
+
+#: ../../Behavioral/Strategy/README.rst:33
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/Strategy/README.rst:35
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ви можете знайти цей код на `GitHub`_"
+
+#: ../../Behavioral/Strategy/README.rst:62
+msgid "Test"
+msgstr "Тест"

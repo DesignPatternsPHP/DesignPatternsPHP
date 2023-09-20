@@ -1,0 +1,59 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Creational/Prototype/README.rst:2
+msgid "`Prototype`__"
+msgstr ""
+"`Прототип <https://uk.wikipedia.org/wiki/Прототип_(шаблон_проєктування)>`_ (`Prototype`__)"
+
+#: ../../Creational/Prototype/README.rst:5
+msgid "Purpose"
+msgstr "Призначення"
+
+#: ../../Creational/Prototype/README.rst:7
+msgid ""
+"To avoid the cost of creating objects the standard way (new Foo()) and "
+"instead create a prototype and clone it."
+msgstr ""
+"Допомагає уникнути витрат на створення об'єктів у стандартний спосіб (new "
+"Foo()), а натомість створює прототип і потім клонує його."
+
+#: ../../Creational/Prototype/README.rst:11
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../Creational/Prototype/README.rst:13
+msgid ""
+"Large amounts of data (e.g. create 1,000,000 rows in a database at once via "
+"a ORM)."
+msgstr ""
+"Великі обсяги даних (наприклад, створити 1000000 рядків у базі даних відразу "
+"через ORM)."
+
+#: ../../Creational/Prototype/README.rst:17
+msgid "UML Diagram"
+msgstr "Діаграма UML"
+
+#: ../../Creational/Prototype/README.rst:24
+msgid "Code"
+msgstr "Код"
+
+#: ../../Creational/Prototype/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ви можете знайти цей код на `GitHub`_"
+
+#: ../../Creational/Prototype/README.rst:53
+msgid "Test"
+msgstr "Тест"

@@ -1,0 +1,59 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-04 12:00+0200\n"
+"PO-Revision-Date: 2023-02-04 12:00+0200\n"
+"Last-Translator: Petro Ostapuk <petroostapuk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../../Behavioral/Interpreter/README.rst:2
+msgid "`Interpreter`__"
+msgstr "`Інтерпретатор <https://uk.wikipedia.org/wiki/Інтерпретатор_(шаблон_проєктування)>`_ (`Interpreter`__)"
+
+#: ../../Behavioral/Interpreter/README.rst:4
+msgid "Purpose"
+msgstr "Призначення"
+
+#: ../../Behavioral/Interpreter/README.rst:7 TODOTODO
+msgid ""
+"For a given language, it defines the representation of its grammar as "
+"\"No Terminal Expression\" and \"Terminal Expression\", "
+"as well as an interpreter for the sentences of that language."
+msgstr ""
+"Для деякої мови шаблон описує його граматику за допомогою термінів "
+"\"Термінальний символ\" та \"Нетермінальний символ\", а також "
+"описує інтерпретатор речень, створених за допомогою даної мови."
+
+#: ../../Behavioral/Interpreter/README.rst:11
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../Behavioral/Interpreter/README.rst:14
+msgid ""
+"An example of a binary logic interpreter, each definition is defined by its own class"
+msgstr ""
+"Інтерпретатор бінарної (двійкової) логіки, у якому кожен тип "
+"логічної операції визначено у своєму власному класі."
+
+#: ../../Behavioral/Interpreter/README.rst:16
+msgid "UML Diagram"
+msgstr "Діаграма UML"
+
+#: ../../Behavioral/Interpreter/README.rst:23
+msgid "Code"
+msgstr "Код"
+
+#: ../../Behavioral/Interpreter/README.rst:26
+msgid "You can also find this code on `GitHub`_"
+msgstr "Ви можете знайти цей код на `GitHub`_"
+
+#: ../../Behavioral/Interpreter/README.rst:61
+msgid "Test"
+msgstr "Тест"
