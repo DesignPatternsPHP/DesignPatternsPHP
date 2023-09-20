@@ -6,6 +6,10 @@
         {
             "name": "Dominik Liebler",
             "email": "liebler.dominik@googlemail.com"
+        },
+        {
+            "name": "Borislav Sabev",
+            "email": "39cn9aod@mailer.me"
         }
     ],
     "minimum-stability": "stable",

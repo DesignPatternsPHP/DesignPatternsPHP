@@ -89,5 +89,5 @@ Tests/UndoableCommandTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Behavioral/Command
+.. _`GitHub`: https://github.com/DesignPatternsPHP/DesignPatternsPHP/tree/main/Behavioral/Command
 .. __: http://en.wikipedia.org/wiki/Command_pattern

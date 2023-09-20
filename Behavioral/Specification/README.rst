@@ -71,5 +71,5 @@ Tests/SpecificationTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Behavioral/Specification
+.. _`GitHub`: https://github.com/DesignPatternsPHP/DesignPatternsPHP/tree/main/Behavioral/Specification
 .. __: http://en.wikipedia.org/wiki/Specification_pattern

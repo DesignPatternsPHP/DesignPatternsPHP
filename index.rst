@@ -8,17 +8,13 @@
 DesignPatternsPHP
 =================
 
-.. image:: https://github.com/domnikl/DesignPatternsPHP/workflows/CI/badge.svg
-   :target: https://github.com/domnikl/DesignPatternsPHP/actions
+.. image:: https://github.com/DesignPatternsPHP/DesignPatternsPHP/workflows/CI/badge.svg
+   :target: https://github.com/DesignPatternsPHP/DesignPatternsPHP/actions
    :alt: Build Status
 
 .. image:: https://readthedocs.org/projects/designpatternsphp/badge/?version=latest
    :target: https://readthedocs.org/projects/designpatternsphp/?badge=latest
    :alt: Documentation Status
-
-.. image:: https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square
-   :target: https://paypal.me/DominikLiebler
-   :alt: Donate
 
 This is a collection of known design patterns and some sample code how
 to implement them in PHP. Every pattern has a small list of examples.

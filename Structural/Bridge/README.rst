@@ -64,5 +64,5 @@ Tests/BridgeTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Structural/Bridge
+.. _`GitHub`: https://github.com/DesignPatternsPHP/DesignPatternsPHP/tree/main/Structural/Bridge
 .. __: http://en.wikipedia.org/wiki/Bridge_pattern

@@ -1,6 +1,6 @@
 # DesignPatternsPHP
 
-[![Build Status](https://github.com/domnikl/DesignPatternsPHP/workflows/CI/badge.svg)](https://github.com/domnikl/DesignPatternsPHP/actions)
+[![Build Status](https://github.com/DesignPatternsPHP/DesignPatternsPHP/workflows/CI/badge.svg)](https://github.com/DesignPatternsPHP/DesignPatternsPHP/actions)
 
 Note from the maintainers: 
 > The project's ReadTheDocs pages is currently down and are being reconfigured. We're sorry for any inconvenience please read through the repository directly on github.  

@@ -47,5 +47,5 @@ Tests/SingletonTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Creational/Singleton
+.. _`GitHub`: https://github.com/DesignPatternsPHP/DesignPatternsPHP/tree/main/Creational/Singleton
 .. __: http://en.wikipedia.org/wiki/Singleton_pattern

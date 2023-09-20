@@ -67,5 +67,5 @@ Tests/InterpreterTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Behavioral/Interpreter
+.. _`GitHub`: https://github.com/DesignPatternsPHP/DesignPatternsPHP/tree/main/Behavioral/Interpreter
 .. __: https://en.wikipedia.org/wiki/Interpreter_pattern

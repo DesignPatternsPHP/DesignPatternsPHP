@@ -53,4 +53,4 @@ Tests/SimpleFactoryTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Creational/SimpleFactory
+.. _`GitHub`: https://github.com/DesignPatternsPHP/DesignPatternsPHP/tree/main/Creational/SimpleFactory

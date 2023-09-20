@@ -63,5 +63,5 @@ Tests/MediatorTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Behavioral/Mediator
+.. _`GitHub`: https://github.com/DesignPatternsPHP/DesignPatternsPHP/tree/main/Behavioral/Mediator
 .. __: http://en.wikipedia.org/wiki/Mediator_pattern

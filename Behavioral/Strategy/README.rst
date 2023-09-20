@@ -67,5 +67,5 @@ Tests/StrategyTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Behavioral/Strategy
+.. _`GitHub`: https://github.com/DesignPatternsPHP/DesignPatternsPHP/tree/main/Behavioral/Strategy
 .. __: http://en.wikipedia.org/wiki/Strategy_pattern

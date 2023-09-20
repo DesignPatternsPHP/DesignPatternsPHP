@@ -62,5 +62,5 @@ Tests/DataMapperTest.php
    :language: php
    :linenos:
 
-.. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/main/Structural/DataMapper
+.. _`GitHub`: https://github.com/DesignPatternsPHP/DesignPatternsPHP/tree/main/Structural/DataMapper
 .. __: http://en.wikipedia.org/wiki/Data_mapper_pattern
