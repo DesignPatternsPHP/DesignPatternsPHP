@@ -1,6 +1,6 @@
 # DesignPatternsPHP
 
-[//]: # ([![Build Status]&#40;https://github.com/DesignPatternsPHP/DesignPatternsPHP/workflows/CI/badge.svg&#41;]&#40;https://github.com/DesignPatternsPHP/DesignPatternsPHP/actions&#41;)
+[![Build Status](https://github.com/DesignPatternsPHP/DesignPatternsPHP/workflows/CI/badge.svg)](https://github.com/DesignPatternsPHP/DesignPatternsPHP/actions)
 [![Documentation Status](https://readthedocs.org/projects/designpatternsphp/badge/?version=latest)](https://designpatternsphp.readthedocs.io/?badge=latest)
 
 [Read the Docs of DesignPatternsPHP](http://designpatternsphp.readthedocs.org)
