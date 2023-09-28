@@ -21,4 +21,3 @@ RUN make -e "SPHINXOPTS=-D language='${language}'" html
 FROM nginx
 WORKDIR /usr/share/nginx/html
 COPY --from=sphinx_build /app/_build/html /usr/share/nginx/html
-RUN rm index.html && mv README.html index.html
