@@ -6,7 +6,7 @@ namespace DesignPatterns\Behavioral\State;
 
 class OrderDone implements StateOrder
 {
-    public function proceedToNext(ContextOrder $context)
+    public function proceedToNext(ContextOrder $context): void
     {
         // there is nothing more to do
     }

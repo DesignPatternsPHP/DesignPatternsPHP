@@ -6,7 +6,7 @@ namespace DesignPatterns\Behavioral\State;
 
 class CreateOrder implements StateOrder
 {
-    public function proceedToNext(ContextOrder $context)
+    public function proceedToNext(ContextOrder $context): void
     {
         $context->setState(new ShippingOrder());
     }

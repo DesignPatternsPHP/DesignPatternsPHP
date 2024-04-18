@@ -16,17 +16,17 @@ class ContextOrder
         return $order;
     }
 
-    public function setState(StateOrder $state)
+    public function setState(StateOrder $state): void
     {
         $this->state = $state;
     }
 
-    public function proceedToNext()
+    public function proceedToNext(): void
     {
         $this->state->proceedToNext($this);
     }
 
-    public function toString()
+    public function toString(): string
     {
         return $this->state->toString();
     }

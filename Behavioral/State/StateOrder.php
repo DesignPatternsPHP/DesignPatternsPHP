@@ -6,7 +6,7 @@ namespace DesignPatterns\Behavioral\State;
 
 interface StateOrder
 {
-    public function proceedToNext(ContextOrder $context);
+    public function proceedToNext(ContextOrder $context): void;
 
     public function toString(): string;
 }
