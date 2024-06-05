@@ -108,19 +108,19 @@ The patterns can be structured in roughly three different categories. Please cli
 
 | Code  | Language  |    Documentation   |  Actively Supported?  | Maintainer |
 | ------------------|-------------|------|-----------------------|------------|
-| en    | English   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/en/latest/README.html) | YES | -- |
-| de    | German    | [Docs :notebook:](https://designpatternsphp.readthedocs.io/de/latest/README.html) | NO | - |
-| ca    | Catalan   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/ca/latest/README.html) | NO | - |
-| zh_CN | Chinese   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/zh_CN/latest/README.html) | NO | - |
-| nl    | Dutch     | [Docs :notebook:](https://designpatternsphp.readthedocs.io/nl/latest/README.html) | NO | - |
-| bg    | Bulgarian | [Docs :notebook:](https://designpatternsphp.readthedocs.io/bg/latest/README.html) | YES | -- |
-| ja    | Japanese  | [Docs :notebook:](https://designpatternsphp.readthedocs.io/ja/latest/README.html) | NO | - |
-| pl    | Polish    | [Docs :notebook:](https://designpatternsphp.readthedocs.io/pl/latest/README.html) | NO | - |
-| pt_BR | Portuguese-Brazil | [Docs :notebook:](https://designpatternsphp.readthedocs.io/pt_BR/latest/README.html) | NO | - |
-| ru    | Russian   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/ru/latest/README.html) | NO | - |
-| es    | Spanish   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/es/latest/README.html) | NO | - |
-| es_MX | Spanish-Mexican | [Docs :notebook:](https://designpatternsphp.readthedocs.io/es_MX/latest/README.html) | NO | - |
-| tr    | Turkish   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/tr/latest/README.html) | NO | - |
-| fr    | French | [Docs :notebook:](https://designpatternsphp.readthedocs.io/fr/latest/README.html) | NO | - |
-| it    | Italian | [Docs :notebook:](https://designpatternsphp.readthedocs.io/it/latest/README.html) | NO | - |
-| uk    | Ukrainian | [Docs :notebook:](https://designpatternsphp.readthedocs.io/uk/latest/README.html)    | NO | - |
+| en    | English   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/en/latest/) | YES | -- |
+| de    | German    | [Docs :notebook:](https://designpatternsphp.readthedocs.io/de/latest/) | NO | - |
+| ca    | Catalan   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/ca/latest/) | NO | - |
+| zh_CN | Chinese   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/zh_CN/latest/) | NO | - |
+| nl    | Dutch     | [Docs :notebook:](https://designpatternsphp.readthedocs.io/nl/latest/) | NO | - |
+| bg    | Bulgarian | [Docs :notebook:](https://designpatternsphp.readthedocs.io/bg/latest/) | YES | -- |
+| ja    | Japanese  | [Docs :notebook:](https://designpatternsphp.readthedocs.io/ja/latest/) | NO | - |
+| pl    | Polish    | [Docs :notebook:](https://designpatternsphp.readthedocs.io/pl/latest/) | NO | - |
+| pt_BR | Portuguese-Brazil | [Docs :notebook:](https://designpatternsphp.readthedocs.io/pt_BR/latest/) | NO | - |
+| ru    | Russian   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/ru/latest/) | NO | - |
+| es    | Spanish   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/es/latest/) | NO | - |
+| es_MX | Spanish-Mexican | [Docs :notebook:](https://designpatternsphp.readthedocs.io/es_MX/latest/) | NO | - |
+| tr    | Turkish   | [Docs :notebook:](https://designpatternsphp.readthedocs.io/tr/latest/) | NO | - |
+| fr    | French | [Docs :notebook:](https://designpatternsphp.readthedocs.io/fr/latest/) | NO | - |
+| it    | Italian | [Docs :notebook:](https://designpatternsphp.readthedocs.io/it/latest/) | NO | - |
+| uk    | Ukrainian | [Docs :notebook:](https://designpatternsphp.readthedocs.io/uk/latest/)    | NO | - |
