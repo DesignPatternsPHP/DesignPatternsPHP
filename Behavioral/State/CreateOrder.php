@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\State;
 
-class StateCreated implements State
+class CreateOrder implements StateOrder
 {
-    public function proceedToNext(OrderContext $context)
+    public function proceedToNext(ContextOrder $context): void
     {
-        $context->setState(new StateShipped());
+        $context->setState(new ShippingOrder());
     }
 
     public function toString(): string

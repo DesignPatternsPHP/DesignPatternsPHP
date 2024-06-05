@@ -4,38 +4,38 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\State\Tests;
 
-use DesignPatterns\Behavioral\State\OrderContext;
+use DesignPatterns\Behavioral\State\ContextOrder;
 use PHPUnit\Framework\TestCase;
 
 class StateTest extends TestCase
 {
-    public function testIsCreatedWithStateCreated()
+    public function testIsCreatedWithStateCreated(): void
     {
-        $orderContext = OrderContext::create();
+        $orderContext = ContextOrder::create();
 
         $this->assertSame('created', $orderContext->toString());
     }
 
-    public function testCanProceedToStateShipped()
+    public function testCanProceedToStateShipped(): void
     {
-        $contextOrder = OrderContext::create();
+        $contextOrder = ContextOrder::create();
         $contextOrder->proceedToNext();
 
         $this->assertSame('shipped', $contextOrder->toString());
     }
 
-    public function testCanProceedToStateDone()
+    public function testCanProceedToStateDone(): void
     {
-        $contextOrder = OrderContext::create();
+        $contextOrder = ContextOrder::create();
         $contextOrder->proceedToNext();
         $contextOrder->proceedToNext();
 
         $this->assertSame('done', $contextOrder->toString());
     }
 
-    public function testStateDoneIsTheLastPossibleState()
+    public function testStateDoneIsTheLastPossibleState(): void
     {
-        $contextOrder = OrderContext::create();
+        $contextOrder = ContextOrder::create();
         $contextOrder->proceedToNext();
         $contextOrder->proceedToNext();
         $contextOrder->proceedToNext();

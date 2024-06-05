@@ -4,29 +4,29 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\State;
 
-class OrderContext
+class ContextOrder
 {
-    private State $state;
+    private StateOrder $state;
 
-    public static function create(): OrderContext
+    public static function create(): ContextOrder
     {
         $order = new self();
-        $order->state = new StateCreated();
+        $order->state = new CreateOrder();
 
         return $order;
     }
 
-    public function setState(State $state)
+    public function setState(StateOrder $state): void
     {
         $this->state = $state;
     }
 
-    public function proceedToNext()
+    public function proceedToNext(): void
     {
         $this->state->proceedToNext($this);
     }
 
-    public function toString()
+    public function toString(): string
     {
         return $this->state->toString();
     }

@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\State;
 
-class StateDone implements State
+class OrderDone implements StateOrder
 {
-    public function proceedToNext(OrderContext $context)
+    public function proceedToNext(ContextOrder $context): void
     {
         // there is nothing more to do
     }
