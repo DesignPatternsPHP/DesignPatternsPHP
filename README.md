@@ -8,7 +8,7 @@ or [Download as PDF/Epub](https://readthedocs.org/projects/designpatternsphp/dow
 
 This is a collection of known design patterns and some sample codes on how to implement them in PHP. Every pattern has a small list of examples.
 
-I think the problem with patterns is that often people do know them but don't know when to apply which.
+I think the problem with patterns is that often people do know them but don't know when to apply which. Remember that each pattern has its own trade-offs. And you need to pay attention more to why you're choosing a certain pattern than to how to implement it.
 
 ## Installation
 You should look at and run the tests to see what happens in the example.
