@@ -61,15 +61,15 @@ msgstr "Примеры"
 
 #: ../../Behavioral/NullObject/README.rst:24
 msgid "Null logger or null output to preserve a standard way of interaction between objects, even if the shouldn't do anything"
-msgstr ""
+msgstr "Объекты Null-логгер или Null-вывод поддерживают стандартный вид взаимодействий между объектами, даже если они ничего не делают"
 
 #: ../../Behavioral/NullObject/README.rst:26
 msgid "null handler in a Chain of Responsibilities pattern"
-msgstr "null handler in a Chain of Responsibilities pattern"
+msgstr "Null-обработчик в шаблоне Цепочка Обязанностей (Chain of Responsibilities)"
 
 #: ../../Behavioral/NullObject/README.rst:27
 msgid "null command in a Command pattern"
-msgstr "null command in a Command pattern"
+msgstr "Null-команда в шаблоне Команда (Command)"
 
 #: ../../Behavioral/NullObject/README.rst:30
 msgid "UML Diagram"
