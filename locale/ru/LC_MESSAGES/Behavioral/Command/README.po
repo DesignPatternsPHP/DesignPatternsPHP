@@ -55,7 +55,7 @@ msgstr "Примеры"
 
 #: ../../Behavioral/Command/README.rst:23
 msgid ""
-"A text editor : all events are Command which can be undone, stacked and "
+"A text editor : all events are commands which can be undone, stacked and "
 "saved."
 msgstr ""
 "текстовый редактор: все события являются Командами, которые могут быть "
