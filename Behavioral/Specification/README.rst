@@ -12,7 +12,8 @@ the given object satisfies the specification.
 Examples
 --------
 
--  `RulerZ <https://github.com/K-Phoen/rulerz>`__ 
+-  `vjik/specification <https://github.com/vjik/specification>`__
+-  `RulerZ <https://github.com/K-Phoen/rulerz>`__
 
 UML Diagram
 -----------
