@@ -13,11 +13,11 @@ msgstr ""
 
 #: ../../More/Repository/README.rst:2
 msgid "Repository"
-msgstr ""
+msgstr "储存库"
 
 #: ../../More/Repository/README.rst:5
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../More/Repository/README.rst:7
 msgid ""
@@ -28,33 +28,41 @@ msgid ""
 "also supports the objective of achieving a clean separation and one-way "
 "dependency between the domain and data mapping layers."
 msgstr ""
+“使用类似集合的 ” 在域和数据映射层之间进行中介
+“用于访问域对象的接口。Repository 封装了一组”
+“对象保留在数据存储中并对其执行的操作，”
+“提供持久性层的更加面向对象的视图。存储库 ”
+“也支持实现清洁分离和单向的目标”
+“域层和数据映射层之间的依赖关系。”
 
 #: ../../More/Repository/README.rst:16
 msgid "Examples"
-msgstr ""
+msgstr "示例"
 
 #: ../../More/Repository/README.rst:18
 msgid ""
 "Doctrine 2 ORM: there is Repository that mediates between Entity and DBAL "
 "and contains methods to retrieve objects"
 msgstr ""
+“学说 2 ORM：有 Repository 在 Entity 和 DBAL 之间进行中介”
+“并包含用于检索对象的方法”
 
 #: ../../More/Repository/README.rst:20
 msgid "Laravel Framework"
-msgstr ""
+msgstr "Laravel框架"
 
 #: ../../More/Repository/README.rst:23
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML图"
 
 #: ../../More/Repository/README.rst:30
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../More/Repository/README.rst:32
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "您还可以在 `GitHub`_ 上找到此代码"
 
 #: ../../More/Repository/README.rst:59
 msgid "Test"
-msgstr ""
+msgstr "测试"

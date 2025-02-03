@@ -20,17 +20,19 @@ msgstr ""
 
 #: ../../More/EAV/README.rst:2
 msgid "`Entity-Attribute-Value (EAV)`__"
-msgstr ""
+msgstr "`实体-属性-值 （EAV）`__"
 
 #: ../../More/EAV/README.rst:4
 msgid ""
 "The Entity–attribute–value (EAV) pattern in order to implement EAV model "
 "with PHP."
 msgstr ""
+“用于实施 EAV 模型的实体-属性-值 （EAV） 模式”
+“使用 PHP。”
 
 #: ../../More/EAV/README.rst:7
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #: ../../More/EAV/README.rst:9
 msgid ""
@@ -39,28 +41,32 @@ msgid ""
 " be used to describe them is potentially vast, but the number that will "
 "actually apply to a given entity is relatively modest."
 msgstr ""
+“实体-属性-值 （EAV） 模型是一种用于描述的数据模型”
+“实体，其中可以的属性（属性、参数）数量”
+“ 用于描述它们可能很大，但将 ”
+“实际应用于给定实体相对适度。”
 
 #: ../../More/EAV/README.rst:15
 msgid "Examples"
-msgstr ""
+msgstr "示例"
 
 #: ../../More/EAV/README.rst:17
 msgid "Check full work example in `example.php`_ file."
-msgstr ""
+msgstr "在 `example.php`_ 文件中查看完整的工作示例。"
 
 #: ../../More/EAV/README.rst:90
 msgid "UML Diagram"
-msgstr ""
+msgstr "UML图"
 
 #: ../../More/EAV/README.rst:97
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: ../../More/EAV/README.rst:99
 msgid "You can also find this code on `GitHub`_"
-msgstr ""
+msgstr "您还可以在 `GitHub`_ 上找到此代码"
 
 #: ../../More/EAV/README.rst:102
 msgid "Test"
-msgstr ""
+msgstr "测试"
 
